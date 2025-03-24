@@ -1,0 +1,107 @@
+﻿DIVERSITYADVANCING WORKFORCE 
+Employer Assistance and Resource AskEARN.org
+Network on Disability Inclusion
+The Employer Assistance and Resource Network on Disability Inclusion (EARN) is a resource for employers seeking to recruit, hire, retain and advance qualified employees with disabilities. It is funded by the U.S. Department of Labor's Office of Disability Employment Policy under a cooperative agreement with The Viscardi Center. For more information, visit AskEARN.org.
+Preparation of this item was fully funded by the United States Department of Labor, Office of Disability Employment Policy in the amount of $9,241,750 (five year total grant amount) under Cooperative Agreement No. OD26451-14-75-4-36.
+This document does not necessarily reflect the views or policies of the U.S. Department of Labor, nor does mention of trade names, commercial products, or organizations imply endorsement by the U.S. Government.
+USE OF ARTIFICIAL INTELLIGENCE TO FACILITATE EMPLOYMENT OPPORTUNITIES FOR PEOPLE WITH DISABILITIES
+USE OF ARTIFICIAL INTELLIGENCE TO FACILITATE EMPLOYMENT OPPORTUNITIES FOR PEOPLE WITH DISABILITIES
+The use of artificial intelligence1 (AI) in the workplace is becoming commonplace, including the use of AI to screen applicants, streamline the application process, provide on-the-job training, disseminate information to employees, and enable workers to become more productive. A 2017 Deloitte report found that 33 percent of survey respondents are already using some form of AI in their hiring process.2 Looking ahead, 46 percent of respondents to a recent survey of HR professionals stated they expect high or very high usage of AI in the next five years.34 
+At the same time that the use of AI is expanding, the diversity and inclusion movement is growing in momentum, based on the precept that a more diverse and inclusive workforce results in a more effective and innovative company. Companies are recognizing that their diversity and inclusion policies, programs, and activities should include individuals with disabilities. 
+The confluence of the AI and diversity and inclusion movements is causing employers to focus heightened attention and scrutiny on whether AI is facilitating workforce diversity and inclusion. Employers are recognizing that if they are not diligent and vigilant, it is possible that the use of AI may actually impede rather than facilitate efforts to recruit, hire, retain, and advance people with disabilities. 
+This policy brief provides a roadmap for businesses to design, procure and use AI to benefit and not discriminate against qualified individuals with disabilities, including the inclusion of:
+• Policy framework,
+• Discussion of challenges and opportunities regarding recruiting, hiring, and provision of reasonable accommodations,
+• Guiding principles,
+• Best, promising, and emerging practices, and
+• Resources.
+I. POLICY FRAMEWORK
+In order to ensure that AI is used to facilitate and not impede employment opportunities for qualified individuals with disabilities, it is essential that employers understand the parameters of the applicable equal employment opportunity policy framework.
+Title I of the Americans with Disabilities Act (ADA)4 and implementing regulations5 make it unlawful for an employer to discriminate on the basis of disability against a qualified individual in regard to, among other things, recruitment, job application procedures, hiring, upgrading, promotion, termination, job assignments, fringe benefits, and training. 
+The term "discriminate" includes:
+• Using standards, criteria or methods of administration which are not job-related and consistent with business necessity. [29 CFR 1630.7]
+• Using qualification standards, employment tests, or selection criteria that screen out or tend to screen out an individual with a disability or a class of individuals with disabilities unless the standard, test, or selection criteria is shown to be job related for the position and consistent with business necessity. [29 CFR 1630.10]
+• Failing to select and administer employment tests in the most effective manner to ensure that when a test is administered to a job applicant or employee who has a disability that impairs sensory, manual, or speaking skills, the test results accurately reflect the skills, aptitude, or whatever other factor of the applicant or employees that the test purports to measure, rather than reflecting the impaired sensory, manual, or speaking skills of the applicant or employee. [29 CFR 1630.11]
+• Not making reasonable accommodation to the known physical or mental limitations of an otherwise qualified applicant or employee with a disability unless the employer can demonstrate that the accommodation would impose an undue hardship on the operation of its business. [29 CFR 1630.9]
+In addition, an employer may not participate in a contractual or other arrangement or relationship that has the effect of subjecting an applicant or employee with a disability to discrimination (i.e., an employer may not do indirectly that which it is prohibited from doing directly). [29 CFR 1630.6]
+Further, an employer generally may not ask disability-related questions and may not conduct medical examinations until after a conditional offer is made to the applicant.5 [29 CFR 1630.13] This helps ensure that an applicant's possible hidden disability (including prior history of disability) is not considered before the employer evaluates an applicant's non-medical qualifications. Employers may, however, ask applicants, for example, about their ability to perform essential job functions with or without reasonable accommodations.  [29 CFR 1630.14] 
+II. RECRUITING AND HIRING
+According to a recent survey, 64 percent of HR professionals want AI-powered HR apps to be able to predict which job candidates will result in the highest quality of hire.6 Companies are expanding the use of AI for recruiting workers, including job applicant screening programs and/or facial-recognition software. Using AI, interviews can be analyzed by advanced machine learning, facial expressions and word choice evaluated by a series of algorithms. AI products can ask candidates to answer standard interview questions in front of a camera, while its camera makes note of thousands of barely perceptible changes in posture, facial expression, vocal tone, and word choice. Combinations of these facial expressions can then be mapped to emotions. Speech capability analyzes not what is said, but how it is said. The programs can then turn the data into a score, which can be compared to a score the program has already learned from top-performing employees. The idea is that a good prospective employee looks a lot like a good current employee." 7
+AI is also currently used to streamline the recruiting process e.g., scheduling candidate interviews, coordination and follow up. AI recruiting tools can help HR professionals in the recruiting process by directly engaging with candidates via text, asking basic questions such as start date and salary requirements and ruling out candidates based on a preprogrammed assessment model or moving them along to the next part of the process. 8 
+Kirsty McHugh, head of the Employment Related Services Association,9  Shari Trewin, from IBM Accessibility Research,10 disability advocates, and others11 are raising concerns about the potential of AI programs to screen out or otherwise discriminate against "non-traditional applications" (including individuals with disabilities). 
+Discrimination may occur for many reasons12:
+• Systematic bias can arise if data used to train an AI model contains human decisions that are biased, and the bias is then passed on to the learned model. For example, if recruiters systematically overlook applications from individuals with disabilities, a model trained on that data will replicate the same behavior.
+• Another source of bias can be lack of representation in data sets. AI methods may be inaccurate or simply not work at all for some individuals because their appearance, speech, or other behaviors are outside the AI's training data (outliers). For example, there is anecdotal evidence from deaf speakers that today's speech recognition systems have very high error rates for understanding deaf speech. Also, people who have speech impairments may be unable to use such systems.
+• Further, bias can arise when skills, aptitudes, or other factors are not directly measured and other data is used as a proxy. For example, if the time taken to complete an online test is interpreted as reflecting the test taker's level of skill, this may tend to screen out people with specific learning disabilities and people using assistive technologies to access the test, especially if the test has not been made fully accessible.
+III. ENSURING EFFECTIVE AND MEANINGFUL OPPORTUNITIES (UNIVERSAL DESIGN/REASONABLEACCOMMODATIONS)
+Companies are recognizing the importance of technology for enabling all workers, including workers with disabilities, to thrive in the workplace. In particular, numerous AI applications are now available that make the workplace more accessible to and usable by all workers (universal design). In addition, AI applications are being used as reasonable accommodations to enable workers with disabilities to more effectively perform the essential functions of their jobs.
+AI advances in areas such as predictive text, speech-to-text transcription and voice and visual recognition can assist employees or potential employees with disabilities. In the subfield of computer science known as accessibility research, machine learning (the science of getting computers to act intelligently without being explicitly programmed) and other AI techniques are being applied to tackle barriers in the workplace faced by people with disabilities.13 14
+• Microsoft's Seeing AI app describes people, text, and objects aloud for people with low vision.  It can read handwritten text, describe colors and scenes.
+• IntelliGaze is a tool that allows people with mobility impairments to operate their computer using eye control.
+• Windows Hello enables users to access devices with fingerprint, iris scan or facial recognition rather than passwords, giving people with learning and physical disabilities greater ease to access while remaining secure.
+• Voiceitt is an app for people with speech impairments, including those recovering from stroke and brain injury, and those with cerebral palsy, Parkinson's, Down syndrome, and other chronic conditions. It learns speakers' pronunciations over time, normalizing abnormalities in exportable audio and text.
+• Google's DeepMind Division is using AI to generate closed captioning for deaf users.
+Screen-reading programs help blind and visually-impaired individuals navigate websites, but most websites contain images and not every image has an appropriate title or alt text. One solution is AI that can classify photographs automatically-Facebook has developed captioning tools that   describe photos to visually impaired users and Google's Cloud VisionAPI can understand the context of objects in photos. 
+Salesforce developed a machine learning algorithm that can distill articles, emails, or other lengthy documents into a single, succinct paragraph.
+Brain Power's smart glasses help people with autism better understand emotions and social cues. The wearer of the Google glass type device sees and hears special feedback geared to the situation-for example coaching on facial expressions of emotions, when to look at people and even feedback on the user's own emotional state. 
+In addition to benefiting employees with disabilities in regard to accommodations, according to HR.com survey of HR professionals, most expect the combination of AI and augmented reality to improve on-the-job trainings.15 
+• There is near consensus (82 percent) that the combination of AI and augmented reality will improve onthe-job training.
+• Over 80 percent of respondents believe AI will improve the effectiveness of learning systems (learning modules based on individual needs, just-in-time learning).
+IBM is improving its AI work devoted to the retention of its employees. IBM AI can predict which employees will leave a job with 95 percent accuracy (predictive attrition program) and prescribe actions for managers to engage employees. AI suggests to each employee what they should be learning in order to get ahead in their career.16 
+IV. GUIDING PRINCIPLES
+AI systems used to enhance the recruitment, hiring, advancement, and retention of the workforce should work for all applicants and employees. The following principles may be used by an employer to ensure that AI systems actually facilitate diversity and inclusion efforts on behalf of individuals with disabilities:
+AI systems should include universal design features, i.e., design features that benefit the greatest number of people with functional differences, including individuals with disabilities.
+AI should facilitate the diversity and inclusion of individuals with disabilities in the workplace.
+Businesses should not design or procure AI technology that discriminates on the basis of disability e.g., screen out or tend to screen out individuals with disabilities and/or violates their privacy and confidentiality rights.
+AI should be developed, procured, and used in the workplace so as to directly benefit individuals with disabilities by providing effective and meaningful opportunities to perform the essential functions of a job, with reasonable accommodations.
+ Accessibility and usability should be embedded in the DNA of companies and serve as a core part of all technological developments, including AI. Research and development teams should include and actively engage people with disabilities.
+ AI advances are impacting the distribution of jobs and nature of work throughout the nation. Although these advances are projected to have a positive impact on the economy, they may also be disruptive to the workforce as new jobs are created and others are replaced by automation. Training for these new opportunities, whether traditional educational platforms or work-based-learning, such as apprenticeship programs, need to be inclusive and provide skills training that is accessible to all.
+V. BEST, PROMISING, AND EMERGING PRACTICES
+Consistent with these guiding principles, companies should consider adopting the following best, promising, and emerging practices related to the design, procurement, and use of AI systems in order to facilitate effective and meaningful employment opportunities for individuals with disabilities as part of their diversity and inclusion initiatives:17 18
+ Make a public commitment to design and/or purchase AI recruitment products that facilitate and do not impede the hiring of qualified individuals with disabilities, consistent with diversity and inclusion imperatives.
+ Collect data and conduct audits to ascertain whether AI designed, purchased, or under consideration for purchase screens out or tends to screen out people with disabilities.
+• Consider the implications of AI systems for people with disabilities asking questions such as: Is there a disability group that stands to be adversely affected?
+• Use existing techniques to test for bias and mitigate bias throughout the machine learning pipeline (in data, in models, and in outcomes), when disability information is available (e.g., AI Fairness 360 Toolkit).
+• Consider whether other variables in the input data might also be impacted by disability (e.g., time taken to perform a task).
+• Develop an approach that recognizes and handles outliers.
+• Document the service so that others can assess fairness for people with disabilities, including inclusion in the data collection, design and testing, testing for fairness, steps taken to mitigate bias, and known limitations of the service for specific disability groups).
+Include indemnification clauses in contracts with vendors, requiring vendors to document that they are not using proxies or models that screen out or tend to screen out qualified individuals with disabilities.
+Support purchase of technology that reflects universal design accessibility features and make available assistive technology devices and services that improve job performance by people with disabilities who need accommodations.
+VI. RESOURCES
+• Regulations implementing Title I of the ADA. [29 CFR 1630]
+• Expanding Employment Success for People with Disabilities, Jim Fruchterman and Joan Mellea (November 2018)
+• AI Fairness for People with Disabilities: Point of View, Shari Trewin, IBM Accessibility Research (2018) • AI Fairness 360 Toolkit (Bellamy et al., 2018)
+• Partnership on AI
+1 The term "artificial intelligence" (AI) encompasses techniques used to teach computers to learn, reason, perceive, infer, communicate and make decisions similar to or better than humans, such as visual perception, speech recognition, decision-making, and translation between language. 
+2 https://www2.deloitte.com/insights/us/en/focus/human-capital-trends/2017/predictive-hiring-talent-acquisition.html
+3 "The Current and Future State of AI in HR: Prepare for the rising wave of AI applicants in talent management." [2018/2019 Edition] 4  Title I of the Americans with Disabilities Act.
+4 CFR part 1630.
+5 In accordance with §1630.15(e) and sub-regulatory guidance issued by the Equal Employment Opportunity Commission (EEOC), any employer may invite an applicant to voluntarily selfidentify as an individual with a disability for affirmative action purposes, whether pursuant to a federally mandated affirmative action requirement such as Section 503 of the Rehabilitation Act or a voluntarily adopted program i.e., the employer is voluntarily using the information to benefit individuals with disabilities.  
+6 "The Current and Future State of AI in HR: Prepare for the rising wave of AI applicants in talent management." [2018/2019 Edition]
+7 McCormick, John. "What AI Can Tell From Listening to You-Artificial intelligence promises new ways to analyze people's voices and determine their emotions, physical health, whether they are falling asleep at the wheel and more." Wall Street Journal [April 2019]. See also The Guardian, "Dehumanising, impenetrable, frustrating: the grim reality of job hunting in the age of 
+AI." [March 2018]
+8 "AI & Talent Acquisition: The Recruiter's Perspective." MY ALLY.
+9 "Dehumanizing the Interview Process: Don't Let Your Hiring Systems Discriminate Against Those with Disabilities." Workplace Initiative.
+10 Trewin, Shari. "AI Fairness for People with Disabilities." [November 2018]
+11 Fruchterman, Jim and Mellea, Joan. "Expanding Employment Success for People with Disabilities." [November 2018]
+12 Trewin, Shari. "AI Fairness for People with Disabilities." [November 2018]
+13 Fry, William, O'Flynn, Catherine, and Brennan, Darran. "What AI can do to improve workplace accessibility for employees with disabilities." [September 2018] 
+14 Wiggers, Kyle. "Here are ways AI is helping to improve accessibility." [May 2018]
+15 "The Current and Future State of AI in HR: Prepare for the rising wave of AI applicants in talent management." [2018/2019 Edition] 
+16 "IBM artificial intelligence can predict with 95% accuracy which workers are about to quit their jobs." [April 2018]
+17 Fruchterman, Jim and Mellea, Joan. "Expanding Employment Success for People with Disabilities." [November 2018] 
+18 Trewin, Shari. "AI Fairness for People with Disabilities." [November 2018]
+---------------
+
+------------------------------------------------------------
+
+---------------
+
+------------------------------------------------------------
+
+2
+
+2
+
+
+

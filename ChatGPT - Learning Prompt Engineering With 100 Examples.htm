@@ -1,0 +1,3080 @@
+<html>
+
+<head>
+<meta http-equiv=Content-Type content="text/html; charset=windows-1252">
+<meta name=Generator content="Microsoft Word 15 (filtered)">
+<title>ChatGPT: Learning prompt engineering with 100+ examples</title>
+<style>
+<!--
+ /* Font Definitions */
+ @font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;}
+@font-face
+	{font-family:Calibri;
+	panose-1:2 15 5 2 2 2 4 3 2 4;}
+ /* Style Definitions */
+ p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin-top:0in;
+	margin-right:0in;
+	margin-bottom:.4pt;
+	margin-left:.85pt;
+	text-indent:-.5pt;
+	line-height:112%;
+	font-size:10.0pt;
+	font-family:"Calibri",sans-serif;
+	color:black;}
+h1
+	{mso-style-link:"Heading 1 Char";
+	margin-top:0in;
+	margin-right:0in;
+	margin-bottom:34.2pt;
+	margin-left:5.4pt;
+	text-indent:-.5pt;
+	line-height:118%;
+	page-break-after:avoid;
+	font-size:20.5pt;
+	font-family:"Calibri",sans-serif;
+	color:black;
+	font-weight:normal;
+	font-style:italic;}
+h2
+	{mso-style-link:"Heading 2 Char";
+	margin-top:0in;
+	margin-right:0in;
+	margin-bottom:9.1pt;
+	margin-left:5.4pt;
+	text-indent:-.5pt;
+	line-height:108%;
+	page-break-after:avoid;
+	font-size:12.0pt;
+	font-family:"Calibri",sans-serif;
+	color:black;
+	font-weight:normal;
+	font-style:italic;}
+h3
+	{mso-style-link:"Heading 3 Char";
+	margin-top:0in;
+	margin-right:0in;
+	margin-bottom:7.05pt;
+	margin-left:2.8pt;
+	text-indent:-.5pt;
+	line-height:107%;
+	page-break-after:avoid;
+	font-size:11.0pt;
+	font-family:"Calibri",sans-serif;
+	color:black;
+	font-weight:normal;
+	font-style:italic;}
+span.Heading3Char
+	{mso-style-name:"Heading 3 Char";
+	mso-style-link:"Heading 3";
+	font-family:"Calibri",sans-serif;
+	color:black;
+	font-style:italic;}
+span.Heading2Char
+	{mso-style-name:"Heading 2 Char";
+	mso-style-link:"Heading 2";
+	font-family:"Calibri",sans-serif;
+	color:black;
+	font-style:italic;}
+span.Heading1Char
+	{mso-style-name:"Heading 1 Char";
+	mso-style-link:"Heading 1";
+	font-family:"Calibri",sans-serif;
+	color:black;
+	font-style:italic;}
+.MsoChpDefault
+	{font-size:12.0pt;}
+.MsoPapDefault
+	{margin-bottom:8.0pt;
+	line-height:115%;}
+ /* Page Definitions */
+ @page WordSection1
+	{size:6.0in 9.0in;
+	margin:1.0in 1.0in 1.0in 1.0in;}
+div.WordSection1
+	{page:WordSection1;}
+@page WordSection2
+	{size:6.0in 9.0in;
+	margin:38.65pt .45in 33.2pt 34.7pt;}
+div.WordSection2
+	{page:WordSection2;}
+@page WordSection3
+	{size:6.0in 9.0in;
+	margin:40.85pt 47.6pt 33.2pt 37.3pt;}
+div.WordSection3
+	{page:WordSection3;}
+@page WordSection4
+	{size:6.0in 9.0in;
+	margin:80.45pt 97.25pt 33.2pt 37.3pt;}
+div.WordSection4
+	{page:WordSection4;}
+@page WordSection5
+	{size:6.0in 9.0in;
+	margin:40.85pt 65.6pt 397.05pt .55in;}
+div.WordSection5
+	{page:WordSection5;}
+@page WordSection6
+	{size:6.0in 9.0in;
+	margin:40.85pt .45in 33.2pt 37.3pt;}
+div.WordSection6
+	{page:WordSection6;}
+@page WordSection7
+	{size:6.0in 9.0in;
+	margin:1.0in 1.0in 1.0in 1.0in;}
+div.WordSection7
+	{page:WordSection7;}
+@page WordSection8
+	{size:6.0in 9.0in;
+	margin:40.85pt .45in 245.35pt .55in;}
+div.WordSection8
+	{page:WordSection8;}
+@page WordSection9
+	{size:6.0in 9.0in;
+	margin:1.0in 1.0in 1.0in 1.0in;}
+div.WordSection9
+	{page:WordSection9;}
+@page WordSection10
+	{size:6.0in 9.0in;
+	margin:40.85pt .45in 33.2pt 37.3pt;}
+div.WordSection10
+	{page:WordSection10;}
+@page WordSection11
+	{size:6.0in 9.0in;
+	margin:1.0in 1.0in 1.0in 1.0in;}
+div.WordSection11
+	{page:WordSection11;}
+@page WordSection12
+	{size:6.0in 9.0in;
+	margin:40.85pt .45in 227.25pt .55in;}
+div.WordSection12
+	{page:WordSection12;}
+@page WordSection13
+	{size:6.0in 9.0in;
+	margin:40.9pt 109.65pt 315.2pt .55in;}
+div.WordSection13
+	{page:WordSection13;}
+@page WordSection14
+	{size:6.0in 9.0in;
+	margin:40.85pt 60.65pt 315.15pt .55in;}
+div.WordSection14
+	{page:WordSection14;}
+@page WordSection15
+	{size:6.0in 9.0in;
+	margin:40.85pt 60.65pt 33.2pt 39.55pt;}
+div.WordSection15
+	{page:WordSection15;}
+@page WordSection16
+	{size:6.0in 9.0in;
+	margin:40.85pt .45in 33.2pt 37.3pt;}
+div.WordSection16
+	{page:WordSection16;}
+@page WordSection17
+	{size:6.0in 9.0in;
+	margin:1.0in 1.0in 1.0in 1.0in;}
+div.WordSection17
+	{page:WordSection17;}
+ /* List Definitions */
+ ol
+	{margin-bottom:0in;}
+ul
+	{margin-bottom:0in;}
+-->
+</style>
+
+</head>
+
+<body lang=EN-US style='word-wrap:break-word'>
+
+<div class=WordSection1>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:5.0in;margin-bottom:0in;
+margin-left:-1.0in;text-indent:0in;line-height:107%'><img width=576 height=864
+src="ChatGPT%20-%20Learning%20Prompt%20Engineering%20With%20100%20Examples_files/image001.jpg"><br
+clear=ALL>
+</p>
+
+</div>
+
+<span style='font-size:10.0pt;line-height:112%;font-family:"Calibri",sans-serif;
+color:black'><br clear=all style='page-break-before:always'>
+</span>
+
+<div class=WordSection2>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:0in;
+margin-left:4.9pt;text-indent:0in;line-height:107%'><span style='font-size:
+36.0pt;line-height:107%'>ChatGPT</span></p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:133.0pt;
+margin-left:4.9pt;text-indent:0in;line-height:90%'><span style='font-size:30.0pt;
+line-height:90%'>Learning prompt engineering with </span><sup><span
+style='font-size:46.0pt;line-height:90%'>100</span></sup><span
+style='font-size:30.0pt;line-height:90%'>+ examples</span></p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:0in;
+margin-left:89.25pt;line-height:110%'><i><span style='font-size:20.0pt;
+line-height:110%'>José Alberto Hernández</span></i></p>
+
+<p class=MsoNormal align=center style='margin-top:0in;margin-right:0in;
+margin-bottom:0in;margin-left:5.4pt;text-align:center;line-height:107%'><i><span
+style='font-size:20.0pt;line-height:107%'>Javier Conde</span></i></p>
+
+<p class=MsoNormal align=center style='margin-top:0in;margin-right:0in;
+margin-bottom:0in;margin-left:5.4pt;text-align:center;line-height:107%'><i><span
+style='font-size:20.0pt;line-height:107%'>Blanca Querol</span></i></p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:0in;
+margin-left:111.8pt;line-height:110%'><i><span style='font-size:20.0pt;
+line-height:110%'>Gonzalo Martínez</span></i></p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:.9in;
+margin-left:121.35pt;line-height:110%'><i><span style='font-size:20.0pt;
+line-height:110%'>Pedro Reviriego</span></i></p>
+
+<p class=MsoNormal align=center style='margin-top:0in;margin-right:0in;
+margin-bottom:0in;margin-left:4.9pt;text-align:center;text-indent:0in;
+line-height:107%'><i><span style='font-size:16.0pt;line-height:107%'>Madrid,
+2024</span></i></p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:74.5pt;
+margin-left:0in;text-indent:0in;line-height:103%'><span style='font-family:
+"Times New Roman",serif'>Print version available in:
+https://www.amazon.com/ChatGPT-Learning-promptengineering-examples-ebook/dp/B0CYQLM4HH
+</span></p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:.5pt;margin-bottom:3.7pt;
+margin-left:.5pt'>José<span style='font-family:"Times New Roman",serif'> </span>Alberto<span
+style='font-family:"Times New Roman",serif'> </span>Hernández</p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:.5pt;margin-bottom:.05in;
+margin-left:.5pt'><img width=163 height=57
+src="ChatGPT%20-%20Learning%20Prompt%20Engineering%20With%20100%20Examples_files/image002.jpg"
+align=left hspace=12>Javier<span style='font-family:"Times New Roman",serif'> </span>Conde</p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:.5pt;margin-bottom:.4pt;
+margin-left:.5pt;line-height:142%'>Blanca<span style='font-family:"Times New Roman",serif'>
+</span>Querol<span style='font-family:"Times New Roman",serif'> </span>Gonzalo<span
+style='font-family:"Times New Roman",serif'> </span>Martínez<span
+style='font-family:"Times New Roman",serif'> </span>Pedro<span
+style='font-family:"Times New Roman",serif'> </span>Reviriego</p>
+
+<p class=MsoNormal align=right style='margin-top:0in;margin-right:0in;
+margin-bottom:76.85pt;margin-left:0in;text-align:right;text-indent:0in;
+line-height:107%'>iii</p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:8.0pt;
+margin-left:0in;text-indent:0in;line-height:107%'><b><span style='font-size:
+24.0pt;line-height:107%'>Contents</span></b></p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:8.0pt;
+margin-left:0in;text-indent:0in;line-height:107%'><b><span style='font-size:
+9.0pt;line-height:107%;color:darkblue'>Before we start                                                                                                          </span></b><b><span
+style='font-size:9.0pt;line-height:107%'>1</span></b></p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:8.0pt;
+margin-left:0in;text-indent:0in;line-height:107%'><b><span style='font-size:
+9.0pt;line-height:107%;color:darkblue'>Warming up                                                                                                               </span></b><b><span
+style='font-size:9.0pt;line-height:107%'>3</span></b></p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:8.0pt;
+margin-left:0in;text-indent:0in;line-height:107%'><span style='font-size:11.0pt;
+line-height:107%'>           </span><span style='font-size:9.0pt;line-height:
+107%;color:darkblue'>What is ChatGPT?                   </span><span
+style='font-size:9.0pt;line-height:107%'>. . . . . . . . . . . . . . . . . . .
+. . . . . . . .                      3</span></p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:8.0pt;
+margin-left:0in;text-indent:0in;line-height:107%'><span style='font-size:11.0pt;
+line-height:107%'>                       </span><span style='font-size:9.0pt;
+line-height:107%;color:darkblue'>How do I get access to an LLM </span><span
+style='font-size:9.0pt;line-height:107%'>. . . . . . . . . . . . . . . . . . .
+.                     7</span></p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:8.0pt;
+margin-left:0in;text-indent:0in;line-height:107%'><span style='font-size:9.0pt;
+line-height:107%;color:darkblue'>Possibilities and uses </span><span
+style='font-size:9.0pt;line-height:107%'>. . . . . . . . . . . . . . . . . . .
+. . . . . . . 13</span></p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:8.0pt;
+margin-left:0in;text-indent:0in;line-height:107%'><span style='font-size:11.0pt;
+line-height:107%'>          </span><span style='font-size:9.0pt;line-height:
+107%;color:darkblue'>What is a prompt?                     </span><span
+style='font-size:9.0pt;line-height:107%'>. . . . . . . . . . . . . . . . . . .
+. . . . . . . . 14</span></p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:8.0pt;
+margin-left:0in;text-indent:0in;line-height:107%'><span style='font-size:9.0pt;
+line-height:107%;color:darkblue'>First prompts: movie recommendations </span><span
+style='font-size:9.0pt;line-height:107%'>. . . . . . . . . . . . . . . 15</span></p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:8.0pt;
+margin-left:0in;text-indent:0in;line-height:107%'><span style='font-size:9.0pt;
+line-height:107%;color:darkblue'>First prompts: training plans </span><span
+style='font-size:9.0pt;line-height:107%'>. . . . . . . . . . . . . . . . . . .
+. . 18</span></p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:8.0pt;
+margin-left:0in;text-indent:0in;line-height:107%'><span style='font-size:11.0pt;
+line-height:107%'>           </span><span style='font-size:9.0pt;line-height:
+107%;color:darkblue'>Summary and exercises                    </span><span
+style='font-size:9.0pt;line-height:107%'>. . . . . . . . . . . . . . . . . . .
+. . . . . 29</span></p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:8.0pt;
+margin-left:0in;text-indent:0in;line-height:107%'><b><span style='font-size:
+9.0pt;line-height:107%;color:darkblue'>Some basic techniques                                                                                            </span></b><b><span
+style='font-size:9.0pt;line-height:107%'>31</span></b></p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:8.0pt;
+margin-left:0in;text-indent:0in;line-height:107%'><span style='font-size:9.0pt;
+line-height:107%;color:darkblue'>Simple prompts to obtain information </span><span
+style='font-size:9.0pt;line-height:107%'>. . . . . . . . . . . . . . . . 31</span></p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:8.0pt;
+margin-left:0in;text-indent:0in;line-height:107%'><span style='font-size:11.0pt;
+line-height:107%'>             </span><span style='font-size:9.0pt;line-height:
+107%;color:darkblue'>Summarizing and structuring information                </span><span
+style='font-size:9.0pt;line-height:107%'>. . . . . . . . . . . . . 33</span></p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:8.0pt;
+margin-left:0in;text-indent:0in;line-height:107%'><span style='font-size:9.0pt;
+line-height:107%;color:darkblue'>Generating artistic text </span><span
+style='font-size:9.0pt;line-height:107%'>. . . . . . . . . . . . . . . . . . .
+. . . . . . 36</span></p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:8.0pt;
+margin-left:0in;text-indent:0in;line-height:107%'><span style='font-size:11.0pt;
+line-height:107%'>             </span><span style='font-size:9.0pt;line-height:
+107%;color:darkblue'>Seeking numerical data and transforming it                </span><span
+style='font-size:9.0pt;line-height:107%'>. . . . . . . . . . . . 42</span></p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:8.0pt;
+margin-left:0in;text-indent:0in;line-height:107%'><span style='font-size:11.0pt;
+line-height:107%'>            </span><span style='font-size:9.0pt;line-height:
+107%;color:darkblue'>Working with different languages                  </span><span
+style='font-size:9.0pt;line-height:107%'>. . . . . . . . . . . . . . . . . . 43</span></p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:8.0pt;
+margin-left:0in;text-indent:0in;line-height:107%'><span style='font-size:11.0pt;
+line-height:107%'>           </span><span style='font-size:9.0pt;line-height:
+107%;color:darkblue'>Summary and exercises                    </span><span
+style='font-size:9.0pt;line-height:107%'>. . . . . . . . . . . . . . . . . . .
+. . . . . 46</span></p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:8.0pt;
+margin-left:0in;text-indent:0in;line-height:107%'><b><span style='font-size:
+9.0pt;line-height:107%;color:darkblue'>Advanced techniques                                                                                              </span></b><b><span
+style='font-size:9.0pt;line-height:107%'>49</span></b></p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:8.0pt;
+margin-left:0in;text-indent:0in;line-height:107%'><span style='font-size:9.0pt;
+line-height:107%;color:darkblue'>Mimicking historical figures and assuming
+roles </span><span style='font-size:9.0pt;line-height:107%'>. . . . . . . . . .
+49</span></p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:8.0pt;
+margin-left:0in;text-indent:0in;line-height:107%'><span style='font-size:11.0pt;
+line-height:107%'>            </span><span style='font-size:9.0pt;line-height:
+107%;color:darkblue'>Learning with small examples                   </span><span
+style='font-size:9.0pt;line-height:107%'>. . . . . . . . . . . . . . . . . . .
+. 54</span></p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:8.0pt;
+margin-left:0in;text-indent:0in;line-height:107%'><span style='font-size:9.0pt;
+line-height:107%;color:darkblue'>Assigning numerical values to texts </span><span
+style='font-size:9.0pt;line-height:107%'>. . . . . . . . . . . . . . . . . 56</span></p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:8.0pt;
+margin-left:0in;text-indent:0in;line-height:107%'><span style='font-size:11.0pt;
+line-height:107%'>           </span><span style='font-size:9.0pt;line-height:
+107%;color:darkblue'>Arranging elements                      </span><span
+style='font-size:9.0pt;line-height:107%'>. . . . . . . . . . . . . . . . . . .
+. . . . . . . 58</span></p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:8.0pt;
+margin-left:0in;text-indent:0in;line-height:107%'><span style='font-size:9.0pt;
+line-height:107%;color:darkblue'>Planning and approximate calculations for
+day-to-day routines </span><span style='font-size:9.0pt;line-height:107%'>. 61</span></p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:8.0pt;
+margin-left:0in;text-indent:0in;line-height:107%'><span style='font-size:9.0pt;
+line-height:107%;color:darkblue'>Assisting in reasoning step by step </span><span
+style='font-size:9.0pt;line-height:107%'>. . . . . . . . . . . . . . . . . . 63</span></p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:8.0pt;
+margin-left:0in;text-indent:0in;line-height:107%'><span style='font-size:11.0pt;
+line-height:107%'>           </span><span style='font-size:9.0pt;line-height:
+107%;color:darkblue'>Summary and exercises                    </span><span
+style='font-size:9.0pt;line-height:107%'>. . . . . . . . . . . . . . . . . . .
+. . . . . 69</span></p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:8.0pt;
+margin-left:0in;text-indent:0in;line-height:107%'><b><span style='font-size:
+9.0pt;line-height:107%;color:darkblue'>Use cases and applications                                                                                     </span></b><b><span
+style='font-size:9.0pt;line-height:107%'>71</span></b></p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:8.0pt;
+margin-left:0in;text-indent:0in;line-height:107%'><span style='font-size:11.0pt;
+line-height:107%'>           </span><span style='font-size:9.0pt;line-height:
+107%;color:darkblue'>Laws, contracts and claims                   </span><span
+style='font-size:9.0pt;line-height:107%'>. . . . . . . . . . . . . . . . . . .
+. . . 71</span></p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:8.0pt;
+margin-left:0in;text-indent:0in;line-height:107%'><span style='font-size:11.0pt;
+line-height:107%'>          </span><span style='font-size:9.0pt;line-height:
+107%;color:darkblue'>Education                        </span><span
+style='font-size:9.0pt;line-height:107%'>. . . . . . . . . . . . . . . . . . .
+. . . . . . . . . . . . . 78</span></p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:8.0pt;
+margin-left:0in;text-indent:0in;line-height:107%'><span style='font-size:9.0pt;
+line-height:107%;color:darkblue'>Communication </span><span style='font-size:
+9.0pt;line-height:107%'>. . . . . . . . . . . . . . . . . . . . . . . . . . . .
+. 82</span></p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:8.0pt;
+margin-left:0in;text-indent:0in;line-height:107%'><span style='font-size:9.0pt;
+line-height:107%;color:darkblue'>Administration and numbers </span><span
+style='font-size:9.0pt;line-height:107%'>. . . . . . . . . . . . . . . . . . .
+. . 89</span></p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:8.0pt;
+margin-left:0in;text-indent:0in;line-height:107%'><span style='font-size:9.0pt;
+line-height:107%;color:darkblue'>Companies </span><span style='font-size:9.0pt;
+line-height:107%'>. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+. 94</span></p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:.5pt;margin-bottom:19.2pt;
+margin-left:5.4pt'>iv</p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:8.0pt;
+margin-left:0in;text-indent:0in;line-height:107%'><span style='font-size:11.0pt;
+line-height:107%'>           </span><span style='font-size:9.0pt;line-height:
+107%;color:darkblue'>Summary and exercises                    </span><span
+style='font-size:9.0pt;line-height:107%'>. . . . . . . . . . . . . . . . . . .
+. . . . . 96</span></p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:8.0pt;
+margin-left:0in;text-indent:0in;line-height:107%'><b><span style='font-size:
+9.0pt;line-height:107%;color:darkblue'>Playing with images                                                                                                </span></b><b><span
+style='font-size:9.0pt;line-height:107%'>99</span></b></p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:8.0pt;
+margin-left:0in;text-indent:0in;line-height:107%'><span style='font-size:9.0pt;
+line-height:107%;color:darkblue'>Medical images </span><span style='font-size:
+9.0pt;line-height:107%'>. . . . . . . . . . . . . . . . . . . . . . . . . . . .
+. 99</span></p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:8.0pt;
+margin-left:0in;text-indent:0in;line-height:107%'><span style='font-size:9.0pt;
+line-height:107%;color:darkblue'>Analyzing text within images </span><span
+style='font-size:9.0pt;line-height:107%'>. . . . . . . . . . . . . . . . . . .
+. . 102</span></p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:8.0pt;
+margin-left:0in;text-indent:0in;line-height:107%'><span style='font-size:9.0pt;
+line-height:107%;color:darkblue'>Analyzing graphics </span><span
+style='font-size:9.0pt;line-height:107%'>. . . . . . . . . . . . . . . . . . .
+. . . . . . . . 110</span></p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:8.0pt;
+margin-left:0in;text-indent:0in;line-height:107%'><span style='font-size:9.0pt;
+line-height:107%;color:darkblue'>Analyzing general images </span><span
+style='font-size:9.0pt;line-height:107%'>. . . . . . . . . . . . . . . . . . .
+. . . . 117</span></p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:8.0pt;
+margin-left:0in;text-indent:0in;line-height:107%'><span style='font-size:9.0pt;
+line-height:107%;color:darkblue'>Artistic creation </span><span
+style='font-size:9.0pt;line-height:107%'>. . . . . . . . . . . . . . . . . . .
+. . . . . . . . . . 136</span></p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:8.0pt;
+margin-left:0in;text-indent:0in;line-height:107%'><span style='font-size:11.0pt;
+line-height:107%'>           </span><span style='font-size:9.0pt;line-height:
+107%;color:darkblue'>Summary and exercises                   </span><span
+style='font-size:9.0pt;line-height:107%'>. . . . . . . . . . . . . . . . . . .
+. . . . . 147</span></p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:8.0pt;
+margin-left:0in;text-indent:0in;line-height:107%'><b><span style='font-size:
+9.0pt;line-height:107%;color:darkblue'>Audio, conversations, customization,
+limits and risks                                         </span></b><b><span
+style='font-size:9.0pt;line-height:107%'>149</span></b></p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:8.0pt;
+margin-left:0in;text-indent:0in;line-height:107%'><span style='font-size:9.0pt;
+line-height:107%;color:darkblue'>Alternative uses </span><span
+style='font-size:9.0pt;line-height:107%'>. . . . . . . . . . . . . . . . . . .
+. . . . . . . . . . 149</span></p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:8.0pt;
+margin-left:0in;text-indent:0in;line-height:107%'><span style='font-size:9.0pt;
+line-height:107%;color:darkblue'>Customized instructions </span><span
+style='font-size:9.0pt;line-height:107%'>. . . . . . . . . . . . . . . . . . .
+. . . . . 153</span></p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:8.0pt;
+margin-left:0in;text-indent:0in;line-height:107%'><span style='font-size:9.0pt;
+line-height:107%;color:darkblue'>Plugins </span><span style='font-size:9.0pt;
+line-height:107%'>. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+. . . 155</span></p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:8.0pt;
+margin-left:0in;text-indent:0in;line-height:107%'><span style='font-size:9.0pt;
+line-height:107%;color:darkblue'>Limits and risks </span><span
+style='font-size:9.0pt;line-height:107%'>. . . . . . . . . . . . . . . . . . .
+. . . . . . . . . . 157</span></p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:8.0pt;
+margin-left:0in;text-indent:0in;line-height:107%'><b><span style='font-size:
+9.0pt;line-height:107%;color:darkblue'>In conclusion                                                                                                          </span></b><b><span
+style='font-size:9.0pt;line-height:107%'>159</span></b></p>
+
+<h1>Before we start</h1>
+
+<div>
+
+<table cellspacing=0 cellpadding=0 hspace=0 vspace=0 align=left>
+ <tr>
+  <td valign=top align=left style='padding-top:0in;padding-right:0in;
+  padding-bottom:0in;padding-left:0in'>
+  <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:0in;
+  margin-left:4.9pt;text-indent:0in;line-height:26.25pt'><span
+  style='font-size:27.0pt'>I</span></p>
+  </td>
+ </tr>
+</table>
+
+</div>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:.5pt;margin-bottom:.4pt;
+margin-left:5.4pt'><sup><span style='font-size:15.5pt;line-height:112%'>n </span></sup>November
+<sup><span style='font-size:15.5pt;line-height:112%'>2022</span></sup>, OpenAI
+announced ChatGPT, reaching a</p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:65.2pt;margin-bottom:
+.4pt;margin-left:4.9pt;text-indent:5.0pt'>hundred million users in just a few
+days. This and other tools are known as Large Language Models (LLMs), and they
+enable a multitude of text-related tasks, representing a qualitative leap in
+the development of Artificial Intelligence. Since its introduction, a group of
+professors and students from Universidad Carlos III and Universidad Politécnica
+de Madrid (Spain) have been studying the potential and limitations of ChatGPT
+and its competitors in numerous research projects. However, these research works
+are aimed at a specialized and limited audience and do not reach the general
+public. That is why we have decided to write this book, whose target audience
+is the general public, and aims to showcase the great capabilities of this
+innovative tool.</p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:65.8pt;margin-bottom:
+.4pt;margin-left:4.9pt;text-indent:11.95pt'>Before the reader embarks on
+exploring the possibilities of the new artificial intelligence tools presented
+in the rest of the book, we want to make clear who it is aimed at and what its
+objectives are. Starting from the beginning: we are not facing a book but
+rather a user guide or a set of recipes to understand and use these tools.
+Furthermore, a book often comes into being to endure over time, yet in our
+case, we know that it will be obsolete within a few years, perhaps even months,
+of being published, in line with the ephemeral trend that permeates our society
+and the rapid development of artificial intelligence.</p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:65.7pt;margin-bottom:
+31.75pt;margin-left:4.9pt;text-indent:11.95pt'>Setting aside considerations
+about the terminology used to refer to this document, our primary goal is to
+bring artificial intelligence tools closer to the generic public, especially to
+people who are not familiar with computing. In our opinion, we are facing a
+technological revolution similar to what the Internet was 2             chatgpt:
+learning prompt engineering with 100+ examples</p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:59.4pt;margin-bottom:
+.4pt;margin-left:5.4pt'>three or four decades ago or the early telephones were
+over a century ago. Artificial Intelligence is going to enter into our lives
+(in fact, it has already entered) just as email, the web, or even WhatsApp did.</p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:70.0pt;margin-bottom:
+.4pt;margin-left:4.9pt;text-indent:11.95pt'>Therefore, it is crucial for
+society as a whole to understand the possibilities of this new technology in
+order to take advantage of it. In summary, this book is aimed at people who do
+not know or have used ChatGPT or other similar tools or have done so in a very
+superficial way and want to discover it in a simple and enjoyable manner
+through example-based learning.</p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:66.2pt;margin-bottom:
+.4pt;margin-left:4.9pt;text-indent:11.95pt'>We also find it interesting to
+recall the importance that Socrates placed on questions in the process of
+acquiring knowledge. Interestingly, in a similar vein, the way we
+make/formulate queries (also known as prompts) plays a crucial role in using
+ChatGPT and similar AI tools. In other words, the teachings of the classics
+remain valid for artificial intelligence.</p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:71.25pt;margin-bottom:
+12.15pt;margin-left:4.9pt;text-indent:11.95pt'>Before starting to interact with
+ChatGPT, we want to express our gratitude for the support we have received in
+the elaboration of this book. Thanks to Elena Merino and Miguel González for
+helping us learn about ChatGPT, language, and artificial intelligence. Our
+appreciation extends to Ana Reviriego and David Larrabeiti for reviewing the
+book and providing comments and suggestions, as well as to the members of the
+Next-Generation Internet Group (GING) at the Technical School of
+Telecommunication Engineers of the Universidad Politécnica de Madrid and the
+Advanced Switching and Communications Technologies Group (ADSCOM) at
+Universidad Carlos III for creating an environment in which to research and
+learn. Lastly, we would like to thank OpenAI for supporting our research
+through their researcher access program.</p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:.5pt;margin-bottom:.4pt;
+margin-left:17.35pt'>José Alberto Hernández Gutiérrez, Univ. Carlos III de
+Madrid.</p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:.5pt;margin-bottom:.4pt;
+margin-left:17.35pt'>Javier Conde Díaz, Univ. Politécnica de Madrid.</p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:.5pt;margin-bottom:.4pt;
+margin-left:17.35pt'>Blanca Querol Álvarez-Buylla, Univ. Politécnica de Madrid.</p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:.5pt;margin-bottom:.4pt;
+margin-left:17.35pt'>Gonzalo Martínez Ruiz de Arcaute, Univ. Carlos III de
+Madrid.</p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:.5pt;margin-bottom:.4pt;
+margin-left:17.35pt'>Pedro Reviriego Vasallo, Univ. Politécnica de Madrid.</p>
+
+<h1>Warming up</h1>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:58.45pt;margin-bottom:
+9.1pt;margin-left:2.05pt;line-height:108%'><i><span style='font-size:12.0pt;
+line-height:108%'>What is ChatGPT?</span></i></p>
+
+<div>
+
+<table cellspacing=0 cellpadding=0 hspace=0 vspace=0 align=left>
+ <tr>
+  <td valign=top align=left style='padding-top:0in;padding-right:0in;
+  padding-bottom:0in;padding-left:0in'>
+  <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:0in;
+  margin-left:4.9pt;text-indent:0in;line-height:26.25pt'><span
+  style='font-size:27.0pt'>C</span></p>
+  </td>
+ </tr>
+</table>
+
+</div>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:68.2pt;margin-bottom:
+.4pt;margin-left:5.4pt'><sup><span style='font-size:15.5pt;line-height:112%'>hat</span></sup>GPT
+is a generative artificial intelligence (AI) tool that can be asked to perform
+numerous tasks using specific</p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:65.15pt;margin-bottom:
+.4pt;margin-left:5.4pt'>prompts. To warm up, we will ask ChatGPT some basic
+concepts about itself, prompts, and other generative AI models. Leaving aside
+strictness and technical details, the basis of these artificial intelligence
+tools is to try to ’guess’ the next word, pixel, musical note, etc.,
+generically referred to as a ’token.’ For example, if I write the following
+sentence ’My friend Juan is from Madrid and is 45,’ the word that completes the
+sentence could be ’years,’ but it could also be ’friends,’ or even ’cars.’ The
+artificial intelligence would choose the word that is most frequently used in
+the context of the given sentence. In other words, we can understand generative
+artificial intelligence similarly as the predictive text on a mobile phone but
+with a much higher accuracy.</p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:4.0pt;
+margin-left:0in;text-indent:0in;line-height:110%'>4                       chatgpt:
+learning prompt engineering with 100+ examples<br clear=all style='page-break-before:
+always'>
+</p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:4.0pt;
+margin-left:0in;text-indent:0in;line-height:110%'><span style='font-size:11.0pt;
+line-height:110%'>                                                                                                                                   </span>warming
+up       5<br clear=all style='page-break-before:always'>
+</p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:4.0pt;
+margin-left:0in;text-indent:0in;line-height:110%'>6                       chatgpt:
+learning prompt engineering with 100+ examples</p>
+
+</div>
+
+<span style='font-size:10.0pt;line-height:112%;font-family:"Calibri",sans-serif;
+color:black'><br clear=all style='page-break-before:always'>
+</span>
+
+<div class=WordSection3>
+
+<p class=MsoNormal align=right style='margin-top:0in;margin-right:-.75pt;
+margin-bottom:22.15pt;margin-left:.5pt;text-align:right;line-height:185%'>warming
+up</p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:.5pt;margin-bottom:8.6pt;
+margin-left:12.0pt;text-indent:-12.0pt'><span style='line-height:112%'>•<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp; </span></span>Grok
+by xAI.</p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:.5pt;margin-bottom:8.7pt;
+margin-left:12.0pt;text-indent:-12.0pt'><span style='line-height:112%'>•<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp; </span></span>Mistral
+by Mistral AI.</p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:.5pt;margin-bottom:8.7pt;
+margin-left:12.0pt;text-indent:-12.0pt'><span style='line-height:112%'>•<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp; </span></span>Claude3
+by Anthropic.</p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:.5pt;margin-bottom:8.35pt;
+margin-left:12.0pt;text-indent:-12.0pt'><span style='line-height:112%'>•<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp; </span></span>and
+many others in development by companies such as Amazon or Samsung.</p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:51.45pt;margin-bottom:
+.4pt;margin-left:.5pt'>Most of the examples in this book have been created
+using ChatGPT v3.5 and v4, and in some cases, with Google Gemini and Llama.</p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:51.45pt;margin-bottom:
+18.2pt;margin-left:0in;text-indent:11.95pt'>To get the most out of LLMs, we
+must learn how to access them and ask for information and tasks in a concrete
+and specific way. This is called prompt engineering.</p>
+
+<h2 style='margin-top:0in;margin-right:58.45pt;margin-bottom:9.1pt;margin-left:
+2.05pt'>How do I get access to an LLM</h2>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:43.6pt;margin-bottom:
+9.95pt;margin-left:.5pt'>Getting started with an LLM is very simple, as there’s
+no need to install anything. Just open an internet browser and access one of
+the following websites:</p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:.4pt;margin-bottom:10.05pt;
+margin-left:13.55pt;text-indent:-12.0pt;line-height:107%'><span
+style='line-height:107%'>•<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><a href="https://chat.openai.com/"><span style='font-size:8.5pt;
+line-height:107%;color:darkgreen;text-decoration:none'>https://chat.openai.com/</span></a></p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:.4pt;margin-bottom:9.55pt;
+margin-left:13.55pt;text-indent:-12.0pt'><span style='line-height:112%'>•<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp; </span></span><a
+href="https://www.bing.com/"><span style='font-size:8.5pt;line-height:112%;
+color:darkgreen;text-decoration:none'>https://www.bing.com/</span></a><span
+style='font-size:8.5pt;line-height:112%;color:darkgreen'> </span>and then click
+on the Chat tab.</p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:.4pt;margin-bottom:10.05pt;
+margin-left:13.55pt;text-indent:-12.0pt;line-height:107%'><span
+style='line-height:107%'>•<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><a href="https://gemini.google.com/"><span style='font-size:8.5pt;
+line-height:107%;color:darkgreen;text-decoration:none'>https://gemini.google.com/</span></a></p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:.4pt;margin-bottom:10.05pt;
+margin-left:13.55pt;text-indent:-12.0pt;line-height:107%'><span
+style='line-height:107%'>•<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><a href="https://www.llama2.ai/"><span style='font-size:8.5pt;
+line-height:107%;color:darkgreen;text-decoration:none'>https://www.llama2.ai/</span></a></p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:68.55pt;margin-bottom:
+16.85pt;margin-left:0in;text-indent:11.95pt'>It is true that in some LLMs, you
+may need to register or simply log in with your Gmail or Facebook accounts.
+Some LLMs are also available on other applications such as Skype or on specific
+AI websites like <a href="https://huggingface.co/"><span style='font-size:8.5pt;
+line-height:112%;color:darkgreen;text-decoration:none'>https://huggingface.co/</span></a><span
+style='font-size:8.5pt;line-height:112%;color:darkgreen'> </span>and <a
+href="https://replicate.com/"><span style='font-size:8.5pt;line-height:112%;
+color:darkgreen;text-decoration:none'>https://replicate.com/</span></a><a
+href="https://replicate.com/"><span style='color:black;text-decoration:none'>.</span></a></p>
+
+<h3 style='margin-left:2.05pt'>ChatGPT</h3>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:47.2pt;margin-bottom:
+21.45pt;margin-left:.5pt'>Once logged in ChatGPT (<a
+href="https://chat.openai.com/"><span style='font-size:8.5pt;line-height:112%;
+color:darkgreen;text-decoration:none'>https://chat.openai.com</span></a><a
+href="https://chat.openai.com/"><span style='color:black;text-decoration:none'>)</span></a>,
+we need to choose the version of the model we want to try. Currently, there are
+two versions: GPT-3.5, which is open and free for everyone, and GPT-4,
+available only for paid users (this may change in the future). Figure <sup><span
+style='font-size:15.5pt;line-height:112%'>1</span></sup>.<sup><span
+style='font-size:15.5pt;line-height:112%'>1 </span></sup>shows the interface of
+ChatGPT version <sup><span style='font-size:15.5pt;line-height:112%'>3</span></sup>.<sup><span
+style='font-size:15.5pt;line-height:112%'>5</span></sup>: chatgpt: learning
+prompt engineering with 100+ examples</p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:13.0pt;
+margin-left:2.3pt;text-indent:0in;line-height:107%'><span style='font-size:
+11.0pt;line-height:107%'><img border=0 width=407 height=278 id="Group 22826"
+src="ChatGPT%20-%20Learning%20Prompt%20Engineering%20With%20100%20Examples_files/image003.gif"></span></p>
+
+<p class=MsoNormal align=center style='margin-top:0in;margin-right:50.1pt;
+margin-bottom:11.25pt;margin-left:3.3pt;text-align:center;line-height:110%'>Figure
+<sup><span style='font-size:15.5pt;line-height:110%'>1</span></sup>.<sup><span
+style='font-size:15.5pt;line-height:110%'>1</span></sup>: ChatGPT Interface</p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:37.25pt;margin-bottom:
+8.45pt;margin-left:14.3pt;text-indent:-14.3pt'><span style='line-height:112%'>1)<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp; </span></span>Conversation
+history menu. ChatGPT stores previous conversations, allowing you to access
+them whenever you want. Conversation names can be modified to make them easier
+to find.</p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:37.25pt;margin-bottom:
+.4pt;margin-left:14.3pt;text-indent:-14.3pt'><span style='line-height:112%'>2)<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp; </span></span>Current
+conversation. This screen displays all the information from the ongoing
+conversation. ChatGPT, like other LLMs, is capable of remembering the recent
+prompts from each conversation. However, be cautious, as it doesn’t have an
+infinite ’memory,’ and it may lose the thread of the conversation. The 3.5 version
+of ChatGPT (free version) doesn’t have Internet access and only has knowledge
+of data up to</p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:48.3pt;margin-bottom:
+8.45pt;margin-left:14.8pt'>January <sup><span style='font-size:15.5pt;
+line-height:112%'>2022</span></sup>. Therefore, for ChatGPT v<sup><span
+style='font-size:15.5pt;line-height:112%'>3</span></sup>.<sup><span
+style='font-size:15.5pt;line-height:112%'>5</span></sup>, Queen Elizabeth II is
+still alive, it is not aware of the conflict between Ukraine and Russia, and it
+does not know that Lionel Messi has won the Soccer World Cup.</p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:37.25pt;margin-bottom:
+8.65pt;margin-left:14.3pt;text-indent:-14.3pt'><span style='line-height:112%'>3)<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp; </span></span>Prompt
+input menu. This is where to write prompts.</p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:37.25pt;margin-bottom:
+.4pt;margin-left:14.3pt;text-indent:-14.3pt'><span style='line-height:112%'>4)<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp; </span></span>Modify an
+old prompt. Be cautious, modifying an old prompt automatically deletes the
+conversation that was below that prompt.</p>
+
+<p class=MsoNormal align=right style='margin-top:0in;margin-right:-.75pt;
+margin-bottom:22.25pt;margin-left:.5pt;text-align:right;line-height:185%'>warming
+up</p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:37.25pt;margin-bottom:
+19.65pt;margin-left:14.3pt;text-indent:-14.3pt'><span style='line-height:112%'>5)<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp; </span></span>Access to
+account settings.</p>
+
+<h3 style='margin-left:2.05pt'>Copilot</h3>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:.5pt;margin-bottom:1.55pt;
+margin-left:.5pt'>Copilot (previously Bing Chat) is the version of ChatGPT for</p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:32.5pt;margin-bottom:
+2.6pt;margin-left:.5pt'>Microsoft’s search engine. You can go to <a
+href="https://www.bing.com/chat"><span style='font-size:8.5pt;line-height:112%;
+color:darkgreen;text-decoration:none'>https://www.bing.com/ </span></a><a
+href="https://www.bing.com/chat"><span style='font-size:8.5pt;line-height:112%;
+color:darkgreen;text-decoration:none'>chat</span></a><a
+href="https://www.bing.com/chat"><span style='color:black;text-decoration:none'>,</span></a>
+log in with a Microsoft account, and access the Chat menu. Figure 1.2 shows the
+interface of Copilot:</p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:13.0pt;
+margin-left:2.3pt;text-indent:0in;line-height:107%'><span style='font-size:
+11.0pt;line-height:107%'><img border=0 width=404 height=226 id="Group 22252"
+src="ChatGPT%20-%20Learning%20Prompt%20Engineering%20With%20100%20Examples_files/image004.gif"></span></p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:.5pt;margin-bottom:18.85pt;
+margin-left:88.15pt'>Figure <sup><span style='font-size:15.5pt;line-height:
+112%'>1</span></sup>.<sup><span style='font-size:15.5pt;line-height:112%'>2</span></sup>:
+Copilot Interface</p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:29.85pt;margin-bottom:
+11.8pt;margin-left:14.3pt;text-indent:-14.3pt'><span style='line-height:112%'>1)<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp; </span></span>Current
+conversation. This screen displays all the information from the ongoing
+conversation.</p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:29.85pt;margin-bottom:
+12.15pt;margin-left:14.3pt;text-indent:-14.3pt'><span style='line-height:112%'>2)<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp; </span></span>Suggestions
+on how to continue the conversation.</p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:29.85pt;margin-bottom:
+5.1pt;margin-left:14.3pt;text-indent:-14.3pt'><span style='line-height:112%'>3)<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp; </span></span>Text
+input.</p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:29.85pt;margin-bottom:
+11.75pt;margin-left:14.3pt;text-indent:-14.3pt'><span style='line-height:112%'>4)<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp; </span></span>Including
+other files in prompts. For example, you can ask questions about images.</p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:29.85pt;margin-bottom:
+.4pt;margin-left:14.3pt;text-indent:-14.3pt'><span style='line-height:112%'>5)<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp; </span></span>Voice
+input. You can use your device’s microphone to communicate with Copilot.
+Copilot automatically transcribes your spoken words into text in the chat. In
+addition to responding in textual format, it will also reply in voice format if
+you have the volume activated.</p>
+
+</div>
+
+<span style='font-size:10.0pt;line-height:112%;font-family:"Calibri",sans-serif;
+color:black'><br clear=all style='page-break-before:always'>
+</span>
+
+<div class=WordSection4>
+
+<h3 style='margin-top:0in;margin-right:0in;margin-bottom:8.45pt;margin-left:
+2.05pt'>Google Gemini</h3>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:.5pt;margin-bottom:.4pt;
+margin-left:.5pt'>Gemini is Google’s LLM. It can be accessed through <a
+href="https://gemini.google.com/"><span style='font-size:8.5pt;line-height:
+112%;color:darkgreen;text-decoration:none'>https:// </span></a><a
+href="https://gemini.google.com/"><span style='font-size:8.5pt;line-height:
+112%;color:darkgreen;text-decoration:none'>gemini.google.com</span></a><span
+style='font-size:8.5pt;line-height:112%;color:darkgreen'> </span>with your
+Google account. Figure <sup><span style='font-size:15.5pt;line-height:112%'>1</span></sup>.<sup><span
+style='font-size:15.5pt;line-height:112%'>3 </span></sup>shows its interface:</p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:-6.8pt;margin-bottom:
+12.95pt;margin-left:2.3pt;text-indent:0in;line-height:107%'><span
+style='font-size:11.0pt;line-height:107%'><img border=0 width=404 height=182
+id="Group 21521"
+src="ChatGPT%20-%20Learning%20Prompt%20Engineering%20With%20100%20Examples_files/image005.gif"></span></p>
+
+<p class=MsoNormal align=center style='margin-top:0in;margin-right:.45pt;
+margin-bottom:22.6pt;margin-left:3.3pt;text-align:center;line-height:110%'>Figure
+<sup><span style='font-size:15.5pt;line-height:110%'>1</span></sup>.<sup><span
+style='font-size:15.5pt;line-height:110%'>3</span></sup>: Google Gemini
+Interface</p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:.5pt;margin-bottom:12.55pt;
+margin-left:14.3pt;text-indent:-14.3pt'><span style='line-height:112%'>1)<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp; </span></span>Conversation
+history menu. Similar to ChatGPT, Gemini stores previous conversations,
+allowing you to access them whenever you want.</p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:.5pt;margin-bottom:12.55pt;
+margin-left:14.3pt;text-indent:-14.3pt'><span style='line-height:112%'>2)<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp; </span></span>Current
+conversation. This screen displays all the information from the ongoing
+conversation. Gemini has Internet access and uses Google for queries, meaning
+that Gemini is also aware that Argentina won the last World Cup.</p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:.5pt;margin-bottom:20.25pt;
+margin-left:14.3pt;text-indent:-14.3pt'><span style='line-height:112%'>3)<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp; </span></span>Prompt
+input menu. It allows you to attach an image, ask questions about it, and use
+voice communication.</p>
+
+<h3 style='margin-left:2.05pt'>Llama</h3>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:.5pt;margin-bottom:.4pt;
+margin-left:.5pt'>Llama is an open-source LLM developed by Meta (formerly
+Facebook). It is designed for companies or individuals to install a version of
+Llama on their infrastructure. However, it is possible to try it online at (<a
+href="https://www.llama2.ai/"><span style='font-size:8.5pt;line-height:112%;
+color:darkgreen;text-decoration:none'>https://www.llama2.ai</span></a><a
+href="https://www.llama2.ai/"><span style='color:black;text-decoration:none'>)</span></a>.
+You don’t need to log in, and it allows you to select different versions of the
+model. Its interface is shown in Figure <sup><span style='font-size:15.5pt;
+line-height:112%'>1</span></sup>.<sup><span style='font-size:15.5pt;line-height:
+112%'>4</span></sup>.</p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:-6.8pt;margin-bottom:
+13.0pt;margin-left:2.3pt;text-indent:0in;line-height:107%'><span
+style='font-size:11.0pt;line-height:107%'><img border=0 width=404 height=230
+id="Group 21655"
+src="ChatGPT%20-%20Learning%20Prompt%20Engineering%20With%20100%20Examples_files/image006.gif"></span></p>
+
+<p class=MsoNormal align=center style='margin-top:0in;margin-right:.45pt;
+margin-bottom:13.65pt;margin-left:3.3pt;text-align:center;line-height:110%'>Figure
+<sup><span style='font-size:15.5pt;line-height:110%'>1</span></sup>.<sup><span
+style='font-size:15.5pt;line-height:110%'>4</span></sup>: Llama Interface</p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:.5pt;margin-bottom:4.9pt;
+margin-left:14.3pt;text-indent:-14.3pt'><span style='line-height:112%'>1)<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp; </span></span>Current
+conversation. Displays information from the ongoing conversation. The online
+accessible Llama chat does not have Internet access, so it lacks current
+information. In fact, if asked about today’s date, it responds with February <sup><span
+style='font-size:15.5pt;line-height:112%'>23</span></sup>, <sup><span
+style='font-size:15.5pt;line-height:112%'>2023</span></sup>.</p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:.5pt;margin-bottom:11.3pt;
+margin-left:14.3pt;text-indent:-14.3pt'><span style='line-height:112%'>2)<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp; </span></span>Prompt
+input menu.</p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:.5pt;margin-bottom:11.0pt;
+margin-left:14.3pt;text-indent:-14.3pt'><span style='line-height:112%'>3)<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp; </span></span>Attach
+file. Allows you to upload an image and ask questions about it.</p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:.5pt;margin-bottom:18.85pt;
+margin-left:14.3pt;text-indent:-14.3pt'><span style='line-height:112%'>4)<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp; </span></span>LLM
+configuration menu. Allows you to select different versions of the model (<sup><span
+style='font-size:15.5pt;line-height:112%'>7</span></sup>B, <sup><span
+style='font-size:15.5pt;line-height:112%'>13</span></sup>B, <sup><span
+style='font-size:15.5pt;line-height:112%'>70</span></sup>B, Llava <sup><span
+style='font-size:15.5pt;line-height:112%'>13</span></sup>B, Salmonn), as well
+as configuration parameters that determine its behavior.</p>
+
+<h3 style='margin-left:2.05pt'>Perplexity</h3>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:4.2pt;margin-bottom:.4pt;
+margin-left:.5pt'>Accessible from the official website (<a
+href="https://www.perplexity.ai/"><span style='font-size:8.5pt;line-height:
+112%;color:darkgreen;text-decoration:none'>https://www.perplexity. </span></a><a
+href="https://www.perplexity.ai/"><span style='font-size:8.5pt;line-height:
+112%;color:darkgreen;text-decoration:none'>ai/</span></a><a
+href="https://www.perplexity.ai/"><span style='color:black;text-decoration:
+none'>)</span></a>, Perplexity is an intelligent search engine that uses LLM to
+return accurate results. It eliminates the barrier of having to enter the
+websites to find the result as occurs with search engines such as Google or
+Yahoo. In addition, it includes Copilot mode, an assistant that interacts with
+the user to refine searches and facilitate the process. It can also be set to
+only search certain sources like YouTube or Reddit.</p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:-6.8pt;margin-bottom:
+23.4pt;margin-left:2.3pt;text-indent:0in;line-height:107%'><span
+style='font-size:11.0pt;line-height:107%'><img border=0 width=403 height=347
+src="ChatGPT%20-%20Learning%20Prompt%20Engineering%20With%20100%20Examples_files/image007.gif"></span></p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:.5pt;margin-bottom:12.2pt;
+margin-left:14.3pt;text-indent:-14.3pt'><span style='line-height:112%'>1)<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp; </span></span>Current
+conversation.</p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:.5pt;margin-bottom:12.2pt;
+margin-left:14.3pt;text-indent:-14.3pt'><span style='line-height:112%'>2)<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp; </span></span>Sources
+of information</p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:.5pt;margin-bottom:12.15pt;
+margin-left:14.3pt;text-indent:-14.3pt'><span style='line-height:112%'>3)<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp; </span></span>Prompt
+input menu</p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:.5pt;margin-bottom:19.45pt;
+margin-left:14.3pt;text-indent:-14.3pt'><span style='line-height:112%'>4)<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp; </span></span>Attach
+files. Allows you to ask questions about different file formats. For example,
+you can attach a PDF and ask it to provide a summary.</p>
+
+<h3 style='margin-left:2.05pt'>HuggingFace and Replicate</h3>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:.5pt;margin-bottom:1.5pt;
+margin-left:.5pt'>HuggingFace and Replicate are not LLMs, but rather platforms
+where models generated by the AI research community can be uploaded for use by
+other people. In addition, they include the option to display demos of the
+models so that people can try them out. These demos are found in the so-called
+HuggingFace</p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:.4pt;margin-bottom:10.05pt;
+margin-left:2.05pt;line-height:107%'>Spaces (<a
+href="https://huggingface.co/spaces"><span style='font-size:8.5pt;line-height:
+107%;color:darkgreen;text-decoration:none'>https://huggingface.co/spaces</span></a><a
+href="https://huggingface.co/spaces"><span style='color:black;text-decoration:
+none'>)</span></a> or in the exploration tab of Replicate (<a
+href="https://replicate.com/explore"><span style='font-size:8.5pt;line-height:
+107%;color:darkgreen;text-decoration:none'>https://replicate.com/explore</span></a><a
+href="https://replicate.com/explore"><span style='color:black;text-decoration:
+none'>)</span></a>. Both</p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:.5pt;margin-bottom:17.55pt;
+margin-left:.5pt'>Replicate and HuggingFace are the ideal choice for testing
+new models and exploring the latest AI advancements.</p>
+
+<h3 style='margin-left:2.05pt'>Alternative accesses</h3>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:10.0pt;margin-bottom:
+.4pt;margin-left:.5pt'>So far we have seen how to access different LLMs from
+the web. However, this is not the only option. There are applications that can
+be installed directly on the mobile or tablet, for example the ChatGPT mobile
+application, the Bing application, Gemini, Perplexity, etc.</p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:.5pt;margin-bottom:.4pt;
+margin-left:0in;text-indent:11.95pt'>Alternatively, LLMs have also been
+integrated into other systems, for example you can access Bing Chat from a
+Skype conversation.</p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:-6.8pt;margin-bottom:
+12.9pt;margin-left:2.3pt;text-indent:0in;line-height:107%'><span
+style='font-size:11.0pt;line-height:107%'><img border=0 width=404 height=299
+id="Group 21971"
+src="ChatGPT%20-%20Learning%20Prompt%20Engineering%20With%20100%20Examples_files/image008.gif"></span></p>
+
+<p class=MsoNormal align=center style='margin-top:0in;margin-right:.45pt;
+margin-bottom:34.5pt;margin-left:3.3pt;text-align:center;line-height:110%'>Figure
+1.6: Conversation with Bing Chat from Skype</p>
+
+<h2 style='margin-top:0in;margin-right:58.45pt;margin-bottom:9.1pt;margin-left:
+2.05pt'>Possibilities and uses</h2>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:.5pt;margin-bottom:10.35pt;
+margin-left:.5pt'>What can we do with an LLM? What can we ask an LLM? Well the
+answer is everything (or almost everything). LLMs are very good at working with
+text. Some researchers refer to LLMs &quot;text calculators&quot; because they
+are capable of processing text efficiently and quickly. Just as in a calculator
+we have functions to add, subtract or multiply, we can ask an LLM for endless
+operations for a text such as:</p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:.5pt;margin-bottom:8.85pt;
+margin-left:12.0pt;text-indent:-12.0pt'><span style='line-height:112%'>•<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp; </span></span>Translate
+a text into another language. Example: can you translate the following text
+into French? &quot;The boy runs up to his house to watch the game&quot;</p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:.5pt;margin-bottom:8.75pt;
+margin-left:12.0pt;text-indent:-12.0pt'><span style='line-height:112%'>•<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp; </span></span>Summarize
+a text in a few lines or paragraphs. Example: Can you summarize the following
+news in 2-3 lines?</p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:.5pt;margin-bottom:8.85pt;
+margin-left:12.0pt;text-indent:-12.0pt'><span style='line-height:112%'>•<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp; </span></span>Classify
+a text by sentiment. Example: Can you identify if the customer who wrote this
+product review is satisfied with their purchase or not?</p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:.5pt;margin-bottom:8.85pt;
+margin-left:12.0pt;text-indent:-12.0pt'><span style='line-height:112%'>•<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp; </span></span>Response
+generation. Example: Can you write an email in response to this customer,
+informing them that I will be traveling next week?</p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:.5pt;margin-bottom:9.35pt;
+margin-left:12.0pt;text-indent:-12.0pt'><span style='line-height:112%'>•<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp; </span></span>Style
+generation. Example: Can you rewrite this poem in reggaeton song style?</p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:.5pt;margin-bottom:18.35pt;
+margin-left:0in;text-indent:11.95pt'>As you will see from the following
+examples, LLMs are very good at understanding text and transforming it at will.
+But their skills do not stop there: LLMs can also handle data tables and
+programming code, and recently they have also been able to understand figures
+and images and incorporate them into the analysis.</p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:58.45pt;margin-bottom:
+9.1pt;margin-left:2.05pt;line-height:108%'><i><span style='font-size:12.0pt;
+line-height:108%'>What is a prompt?</span></i></p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:.5pt;margin-bottom:.4pt;
+margin-left:.5pt'>The prompt is the way we make queries to an LLM. Generally, a
+prompt will be an instruction or initial text provided to the LLM with which we
+want to guide and direct the generation of responses or coherent text. It can
+be a phrase, a question, or even a complete paragraph that sets the context or
+defines the task that the LLM is expected to perform.</p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:.5pt;margin-bottom:.4pt;
+margin-left:0in;text-indent:11.95pt'>To fully exploit the potential of LLMs, we
+must learn to interact and request information in the most suitable way
+possible. This is called prompt engineering, that is, how to specify correctly
+in the prompt what we want and how we want it. Hence, this book</p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:.5pt;margin-bottom:17.8pt;
+margin-left:.5pt'>discusses some techniques for interacting as effectively as
+possible with LLMs through appropriate and precise prompts.</p>
+
+<h2 style='margin-top:0in;margin-right:58.45pt;margin-bottom:9.1pt;margin-left:
+2.05pt'>First prompts: movie recommendations</h2>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:.5pt;margin-bottom:.4pt;
+margin-left:.5pt'>As many teachers say: ’You learn to program by programming.’
+The more, the better.</p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:.5pt;margin-bottom:.4pt;
+margin-left:0in;text-indent:11.95pt'>The same goes for mastering prompts. You
+have to try many prompts, run many tests, and make errors to learn and refine
+the technique of accessing the LLM; that is, prompt engineering.</p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:.5pt;margin-bottom:.4pt;
+margin-left:0in;text-indent:11.95pt'>So, let’s open an LLM and get started with
+our first prompt: we’re going to ask the LLM for a recommendation of five
+movies to watch tonight.</p>
+
+</div>
+
+<span style='font-size:10.0pt;line-height:112%;font-family:"Calibri",sans-serif;
+color:black'><br clear=all style='page-break-before:always'>
+</span>
+
+<div class=WordSection5>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:4.0pt;
+margin-left:-.75pt;text-indent:0in;line-height:110%'>16                                      chatgpt:
+learning prompt engineering with 100+ examples<br clear=all style='page-break-before:
+always'>
+</p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:30.4pt;margin-bottom:
+.4pt;margin-left:.5pt'>suggesting to ChatGPT that a romantic comedy might be a
+good fit for us. We can fine-tune the recommendation even further with the
+following prompt:<br clear=all style='page-break-before:always'>
+</p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:31.35pt;
+margin-left:-.75pt;text-indent:0in;line-height:110%'>18                                      chatgpt:
+learning prompt engineering with 100+ examples</p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:13.1pt;margin-bottom:
+.4pt;margin-left:.5pt'>it will be for the LLM to come up with a response closer
+to your needs.</p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:20.2pt;margin-bottom:
+23.3pt;margin-left:0in;text-indent:11.95pt'>With very concise prompts, LLM
+responses tend to be very generic and imprecise. The more details we
+incorporate into the prompt, the more likely we are to get better results.</p>
+
+<h2 style='margin-top:0in;margin-right:58.45pt;margin-bottom:9.1pt;margin-left:
+2.05pt'>First prompts: training plans</h2>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:32.5pt;margin-bottom:
+.4pt;margin-left:.5pt'>In the following example, we’re going to try prompts
+with increasing context to refine a personalized physical training plan at a
+gym. You’ll notice significant differences as you add more and more context to
+the prompts.</p>
+
+</div>
+
+<span style='font-size:10.0pt;line-height:112%;font-family:"Calibri",sans-serif;
+color:black'><br clear=all style='page-break-before:always'>
+</span>
+
+<div class=WordSection6>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:4.0pt;
+margin-left:0in;text-indent:0in;line-height:110%'><span style='font-size:11.0pt;
+line-height:110%'>                                                                                                                                </span>warming
+up       19<br clear=all style='page-break-before:always'>
+</p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:4.0pt;
+margin-left:-.75pt;text-indent:0in;line-height:110%'>20                      chatgpt:
+learning prompt engineering with 100+ examples<br clear=all style='page-break-before:
+always'>
+</p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:4.0pt;
+margin-left:0in;text-indent:0in;line-height:110%'><span style='font-size:11.0pt;
+line-height:110%'>                                                                                                                                </span>warming
+up       21<br clear=all style='page-break-before:always'>
+</p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:31.35pt;
+margin-left:-.75pt;text-indent:0in;line-height:110%'>22                      chatgpt:
+learning prompt engineering with 100+ examples</p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:63.2pt;margin-bottom:
+.4pt;margin-left:0in;text-indent:11.95pt'>Although ChatGPT is one of the most
+advanced language model and is often a good choice, it is a good idea to try
+other LLMs from time to time. These other models may operate differently or
+have additional features that make them more suitable for certain tasks. Let’s
+try the same gym task we did before with other LLMs to see how they differ.<br
+clear=all style='page-break-before:always'>
+</p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:4.0pt;
+margin-left:0in;text-indent:0in;line-height:110%'><span style='font-size:11.0pt;
+line-height:110%'>                                                                                                                                </span>warming
+up       23<br clear=all style='page-break-before:always'>
+</p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:4.0pt;
+margin-left:-.75pt;text-indent:0in;line-height:110%'>24                      chatgpt:
+learning prompt engineering with 100+ examples<br clear=all style='page-break-before:
+always'>
+</p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:4.0pt;
+margin-left:0in;text-indent:0in;line-height:110%'><span style='font-size:11.0pt;
+line-height:110%'>                                                                                                                                </span>warming
+up       25<br clear=all style='page-break-before:always'>
+</p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:4.0pt;
+margin-left:-.75pt;text-indent:0in;line-height:110%'>26                      chatgpt:
+learning prompt engineering with 100+ examples<br clear=all style='page-break-before:
+always'>
+</p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:4.0pt;
+margin-left:0in;text-indent:0in;line-height:110%'><span style='font-size:11.0pt;
+line-height:110%'>                                                                                                                                </span>warming
+up       27<br clear=all style='page-break-before:always'>
+</p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:4.0pt;
+margin-left:-.75pt;text-indent:0in;line-height:110%'>28                      chatgpt:
+learning prompt engineering with 100+ examples<br clear=all style='page-break-before:
+always'>
+</p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:4.0pt;
+margin-left:0in;text-indent:0in;line-height:110%'><span style='font-size:11.0pt;
+line-height:110%'>                                                                                                                                </span>warming
+up       29<br clear=all style='page-break-before:always'>
+</p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:.45in;
+margin-left:-.75pt;text-indent:0in;line-height:110%'>30                      chatgpt:
+learning prompt engineering with 100+ examples</p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:32.7pt;margin-bottom:
+10.15pt;margin-left:14.3pt;text-indent:-14.3pt'>6) Ask ChatGPT, Gemini, and
+Llama for several of the proposed examples and analyze the differences between
+their responses.</p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:57.7pt;margin-bottom:
+.4pt;margin-left:0in;text-indent:11.95pt'>Remember to correctly specify the
+problem you want to solve and the starting parameters and hypotheses. Normally
+it will take you 2 or 3 attempts to get the right prompt. With trial and error,
+you will fine-tune the prompt to achieve the expected results.<br clear=all
+style='page-break-before:always'>
+</p>
+
+<h1 style='margin-left:-.25pt'>Some basic techniques</h1>
+
+<h2 style='margin-top:0in;margin-right:58.45pt;margin-bottom:10.5pt;margin-left:
+2.05pt'>Simple prompts to obtain information</h2>
+
+<div>
+
+<table cellspacing=0 cellpadding=0 hspace=0 vspace=0 align=left>
+ <tr>
+  <td valign=top align=left style='padding-top:0in;padding-right:0in;
+  padding-bottom:0in;padding-left:0in'>
+  <p class=MsoNormal style='margin:0in;text-indent:0in;line-height:26.25pt'><span
+  style='font-size:27.0pt'>W</span></p>
+  </td>
+ </tr>
+</table>
+
+</div>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:53.3pt;margin-bottom:
+.4pt;margin-left:.5pt'>e have already seen in the previous chapter some prompts
+with different objectives, uses and utilities. In this chapter,</p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:73.5pt;margin-bottom:
+1.45pt;margin-left:.5pt'>we are going to study simple techniques to obtain
+information in a very similar way as we would do it from an Internet search
+engine. This type of simple and minimal prompts is often called</p>
+
+<p class=MsoNormal style='margin-left:0in;text-indent:0in'>“Zero-Shot Prompt”,
+for example:                                                                                <span
+style='font-size:8.0pt;line-height:112%'>Zero-shot</span></p>
+
+<p class=MsoNormal align=right style='margin-top:0in;margin-right:8.75pt;
+margin-bottom:6.3pt;margin-left:0in;text-align:right;text-indent:0in;
+line-height:107%'><span style='font-size:8.0pt;line-height:107%'>Prompting</span></p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:.5pt;margin-bottom:11.75pt;
+margin-left:12.0pt;text-indent:-12.0pt'><span style='line-height:112%'>•<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp; </span></span>What
+is cancer?</p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:.5pt;margin-bottom:11.75pt;
+margin-left:12.0pt;text-indent:-12.0pt'><span style='line-height:112%'>•<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp; </span></span>How
+many types of stars are there?</p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:.5pt;margin-bottom:11.75pt;
+margin-left:12.0pt;text-indent:-12.0pt'><span style='line-height:112%'>•<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp; </span></span>How
+old is the Universe?</p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:.5pt;margin-bottom:11.75pt;
+margin-left:12.0pt;text-indent:-12.0pt'><span style='line-height:112%'>•<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp; </span></span>How
+can I cook a cake?</p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:.5pt;margin-bottom:11.75pt;
+margin-left:12.0pt;text-indent:-12.0pt'><span style='line-height:112%'>•<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp; </span></span>In
+what year was Miguel de Cervantes born?</p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:.5pt;margin-bottom:12.1pt;
+margin-left:12.0pt;text-indent:-12.0pt'><span style='line-height:112%'>•<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp; </span></span>How
+many cities called Madrid are there in the world?</p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:65.25pt;margin-bottom:
+.4pt;margin-left:0in;text-indent:11.95pt'>On this simple prompt, we can add
+instructions for the LLM to provide its answer in a certain way, for example,
+following a particular style or adopting a certain format for its presentation
+or just simplifying it for better understanding. This is the first major
+difference between LLMs and a classic Internet search engine.</p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:62.65pt;margin-bottom:
+.4pt;margin-left:0in;text-indent:11.95pt'>In the following prompt, we ask an
+LLM for information about a topic without any restrictions or guidelines, so
+that the LLM is free to answer as it deems appropriate.</p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:4.0pt;
+margin-left:-.75pt;text-indent:0in;line-height:110%'>32                      chatgpt:
+learning prompt engineering with 100+ examples<br clear=all style='page-break-before:
+always'>
+</p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:-.75pt;margin-bottom:
+23.75pt;margin-left:0in;text-indent:0in;line-height:185%'><span
+style='font-size:11.0pt;line-height:185%'>                                                                                                          </span>some
+basic techniques          33</p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:63.75pt;margin-bottom:
+33.35pt;margin-left:0in;text-indent:11.95pt'>Perhaps this prompt is the
+simplest of all and any Internet search engine such as Google would have
+returned some web pages that define cancer in a similar way, for example
+Wikipedia or the World Health Organization. Perhaps the most obvious advantage
+of the LLM over the search engine is its ability to structure the information
+and present it in a simpler and more readable way.</p>
+
+<h2 style='margin-top:0in;margin-right:58.45pt;margin-bottom:1.6pt;margin-left:
+2.05pt'>Summarizing and structuring information</h2>
+
+<table class=TableGrid border=0 cellspacing=0 cellpadding=0 width=461
+ style='width:345.8pt;margin-left:2.3pt;border-collapse:collapse'>
+ <tr style='height:11.95pt'>
+  <td width=418 valign=top style='width:4.35in;padding:0in 0in 0in 0in;
+  height:11.95pt'>
+  <p class=MsoNormal style='margin:0in;text-indent:0in;line-height:107%'>When a
+  response is too long, we can add instructions to our</p>
+  </td>
+  <td width=43 valign=top style='width:32.6pt;padding:0in 0in 0in 0in;
+  height:11.95pt'>
+  <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:8.0pt;
+  margin-left:0in;text-indent:0in;line-height:107%'>&nbsp;</p>
+  </td>
+ </tr>
+ <tr style='height:12.65pt'>
+  <td width=418 valign=top style='width:4.35in;padding:0in 0in 0in 0in;
+  height:12.65pt'>
+  <p class=MsoNormal style='margin:0in;text-indent:0in;line-height:107%'>prompt
+  requesting to reduce or summarize the result, for</p>
+  </td>
+  <td width=43 valign=top style='width:32.6pt;padding:0in 0in 0in 0in;
+  height:12.65pt'>
+  <p class=MsoNormal style='margin:0in;text-indent:0in;line-height:107%'><span
+  style='font-size:8.0pt;line-height:107%'>Prompt</span></p>
+  </td>
+ </tr>
+ <tr style='height:28.6pt'>
+  <td width=418 valign=top style='width:4.35in;padding:0in 0in 0in 0in;
+  height:28.6pt'>
+  <p class=MsoNormal style='margin:0in;text-indent:0in;line-height:107%'>example:</p>
+  </td>
+  <td width=43 valign=top style='width:32.6pt;padding:0in 0in 0in 0in;
+  height:28.6pt'>
+  <p class=MsoNormal style='margin:0in;text-align:justify;text-justify:inter-ideograph;
+  text-indent:0in;line-height:107%'><span style='font-size:8.0pt;line-height:
+  107%'>= Task +</span></p>
+  <p class=MsoNormal style='margin:0in;text-indent:0in;line-height:107%'><span
+  style='font-size:8.0pt;line-height:107%'>Output</span></p>
+  <p class=MsoNormal style='margin:0in;text-align:justify;text-justify:inter-ideograph;
+  text-indent:0in;line-height:107%'><span style='font-size:8.0pt;line-height:
+  107%'>Structure</span></p>
+  </td>
+ </tr>
+</table>
+
+<span style='font-size:10.0pt;line-height:112%;font-family:"Calibri",sans-serif;
+color:black'><br clear=all style='page-break-before:always'>
+</span>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:4.0pt;
+margin-left:-.75pt;text-indent:0in;line-height:110%'>34                      chatgpt:
+learning prompt engineering with 100+ examples<br clear=all style='page-break-before:
+always'>
+</p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:4.0pt;
+margin-left:0in;text-indent:0in;line-height:110%'><span style='font-size:11.0pt;
+line-height:110%'>                                                                                                          </span>some
+basic techniques          35<br clear=all style='page-break-before:always'>
+</p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:4.0pt;
+margin-left:-.75pt;text-indent:0in;line-height:110%'>36                      chatgpt:
+learning prompt engineering with 100+ examples<br clear=all style='page-break-before:
+always'>
+</p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:4.0pt;
+margin-left:0in;text-indent:0in;line-height:110%'><span style='font-size:11.0pt;
+line-height:110%'>                                                                                                          </span>some
+basic techniques          37<br clear=all style='page-break-before:always'>
+</p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:4.0pt;
+margin-left:-.75pt;text-indent:0in;line-height:110%'>38                      chatgpt:
+learning prompt engineering with 100+ examples<br clear=all style='page-break-before:
+always'>
+</p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:4.0pt;
+margin-left:0in;text-indent:0in;line-height:110%'><span style='font-size:11.0pt;
+line-height:110%'>                                                                                                          </span>some
+basic techniques          39<br clear=all style='page-break-before:always'>
+</p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:4.0pt;
+margin-left:-.75pt;text-indent:0in;line-height:110%'>40                      chatgpt:
+learning prompt engineering with 100+ examples<br clear=all style='page-break-before:
+always'>
+</p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:4.0pt;
+margin-left:0in;text-indent:0in;line-height:110%'><span style='font-size:11.0pt;
+line-height:110%'>                                                                                                          </span>some
+basic techniques          41<br clear=all style='page-break-before:always'>
+</p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:4.0pt;
+margin-left:-.75pt;text-indent:0in;line-height:110%'>42                      chatgpt:
+learning prompt engineering with 100+ examples<br clear=all style='page-break-before:
+always'>
+</p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:4.0pt;
+margin-left:0in;text-indent:0in;line-height:110%'><span style='font-size:11.0pt;
+line-height:110%'>                                                                                                          </span>some
+basic techniques          43<br clear=all style='page-break-before:always'>
+</p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:4.0pt;
+margin-left:-.75pt;text-indent:0in;line-height:110%'>44                      chatgpt:
+learning prompt engineering with 100+ examples<br clear=all style='page-break-before:
+always'>
+</p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:4.0pt;
+margin-left:0in;text-indent:0in;line-height:110%'><span style='font-size:11.0pt;
+line-height:110%'>                                                                                                          </span>some
+basic techniques          45<br clear=all style='page-break-before:always'>
+</p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:31.35pt;
+margin-left:-.75pt;text-indent:0in;line-height:110%'>46                      chatgpt:
+learning prompt engineering with 100+ examples</p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:25.0pt;margin-bottom:
+19.25pt;margin-left:.5pt'>work with classical languages like Greek or Latin.
+The reader is encouraged to explore other uses of LLMs in language handling.</p>
+
+<h2 style='margin-top:0in;margin-right:58.45pt;margin-bottom:9.1pt;margin-left:
+2.05pt'>Summary and exercises</h2>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:76.95pt;margin-bottom:
+.4pt;margin-left:.5pt'>In summary, in this chapter, we have explored various
+ways to enhance a simple prompt by adding elements to expand, structure, or
+summarize the output information. We have also studied methods to give
+different styles to the output text and various formats for its integration
+into databases, web pages, or spreadsheets. Finally, we have studied the
+potential of LLMs in multilingual text processing.</p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:73.1pt;margin-bottom:
+11.65pt;margin-left:0in;text-indent:11.95pt'>To conclude, the reader is
+encouraged to practice what they’ve learned in this chapter by trying to create
+prompts for the following cases. Don’t make just one attempt! LLMs are
+incredibly responsive to changes, so try different approaches.</p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:59.2pt;margin-bottom:
+9.8pt;margin-left:14.3pt;text-indent:-14.3pt'><span style='line-height:112%'>1)<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp; </span></span>Ask it to
+explain what a derivative is in mathematics and then ask it to summarize it in
+simple language for children.</p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:59.2pt;margin-bottom:
+9.95pt;margin-left:14.3pt;text-indent:-14.3pt'><span style='line-height:112%'>2)<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp; </span></span>Ask it to
+explain to you why children have nightmares at night in a single paragraph.</p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:59.2pt;margin-bottom:
+9.8pt;margin-left:14.3pt;text-indent:-14.3pt'><span style='line-height:112%'>3)<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp; </span></span>Ask it to
+write a <sup><span style='font-size:15.5pt;line-height:112%'>2</span></sup>,<sup><span
+style='font-size:15.5pt;line-height:112%'>000</span></sup>-word report on the
+economy in the Eurozone over the past year. Specify that it should include an
+introduction, a section on GDP, another on inflation, another on public debt
+and finally a paragraph with conclusions.</p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:59.2pt;margin-bottom:
+9.8pt;margin-left:14.3pt;text-indent:-14.3pt'><span style='line-height:112%'>4)<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp; </span></span>Ask it to
+write a poem about your town or city. Add context explaining how your town or
+city and its natural surroundings are. Afterward, you can try asking him to
+write it as different poets would: William Shakespeare or Francisco de Quevedo.</p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:59.2pt;margin-bottom:
+9.8pt;margin-left:14.3pt;text-indent:-14.3pt'><span style='line-height:112%'>5)<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp; </span></span>Ask it to
+rewrite the lyrics of your favorite song in the style and language of Stephen
+King.</p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:59.2pt;margin-bottom:
+9.85pt;margin-left:14.3pt;text-indent:-14.3pt'><span style='line-height:112%'>6)<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp; </span></span>Ask it to
+show you how to order a glass of wine in ancient Rome in Latin.</p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:59.2pt;margin-bottom:
+31.55pt;margin-left:14.3pt;text-indent:-14.3pt'><span style='line-height:112%'>7)<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp; </span></span>Ask it to
+write 10 basic phrases for a trip to China, including how to ask for the bill
+at a restaurant, request directions to a some basic techniques       47</p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:38.95pt;margin-bottom:
+.4pt;margin-left:14.8pt'>specific hotel for a taxi driver, or inquire about the
+cost of an umbrella in a store.</p>
+
+</div>
+
+<span style='font-size:10.0pt;line-height:112%;font-family:"Calibri",sans-serif;
+color:black'><br clear=all style='page-break-before:always'>
+</span>
+
+<div class=WordSection7>
+
+<p class=MsoNormal style='margin:0in;text-indent:0in;line-height:107%'>&nbsp;</p>
+
+</div>
+
+<span style='font-size:10.0pt;line-height:112%;font-family:"Calibri",sans-serif;
+color:black'><br clear=all style='page-break-before:always'>
+</span>
+
+<div class=WordSection8>
+
+<h1 style='margin-top:0in;margin-right:0in;margin-bottom:30.85pt;margin-left:
+-.25pt'>Advanced techniques</h1>
+
+<table class=TableGrid border=0 cellspacing=0 cellpadding=0 align=left
+ width=464 style='width:347.7pt;border-collapse:collapse;margin-left:-2.25pt;
+ margin-right:-2.25pt'>
+ <tr style='height:11.95pt'>
+  <td width=418 valign=top style='width:4.35in;padding:0in 0in 0in 0in;
+  height:11.95pt'>
+  <p class=MsoNormal style='margin:0in;text-indent:0in;line-height:107%'>One of
+  the most interesting features of LLMs is to request them</p>
+  </td>
+  <td width=46 valign=top style='width:34.5pt;padding:0in 0in 0in 0in;
+  height:11.95pt'>
+  <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:8.0pt;
+  margin-left:0in;text-indent:0in;line-height:107%'>&nbsp;</p>
+  </td>
+ </tr>
+ <tr style='height:12.65pt'>
+  <td width=418 valign=top style='width:4.35in;padding:0in 0in 0in 0in;
+  height:12.65pt'>
+  <p class=MsoNormal style='margin:0in;text-indent:0in;line-height:107%'>to
+  take on a specific role and mimic that role. Below, we illustrate</p>
+  </td>
+  <td width=46 valign=top style='width:34.5pt;padding:0in 0in 0in 0in;
+  height:12.65pt'>
+  <p class=MsoNormal style='margin:0in;text-indent:0in;line-height:107%'><span
+  style='font-size:8.0pt;line-height:107%'>Prompt</span></p>
+  </td>
+ </tr>
+ <tr style='height:28.6pt'>
+  <td width=418 valign=top style='width:4.35in;padding:0in 0in 0in 0in;
+  height:28.6pt'>
+  <p class=MsoNormal style='margin:0in;text-indent:0in;line-height:107%'>this
+  case with a simple question about the meaning of friendship:</p>
+  </td>
+  <td width=46 valign=top style='width:34.5pt;padding:0in 0in 0in 0in;
+  height:28.6pt'>
+  <p class=MsoNormal style='margin:0in;text-align:justify;text-justify:inter-ideograph;
+  text-indent:0in;line-height:107%'><span style='font-size:8.0pt;line-height:
+  107%'>= Task +</span></p>
+  <p class=MsoNormal style='margin:0in;text-indent:0in;line-height:107%'><span
+  style='font-size:8.0pt;line-height:107%'>Character Role</span></p>
+  </td>
+ </tr>
+</table>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:31.2pt;margin-bottom:
+.4pt;margin-left:5.0pt;text-indent:-5.0pt'><img width=12 height=36
+src="ChatGPT%20-%20Learning%20Prompt%20Engineering%20With%20100%20Examples_files/image009.gif"
+align=left hspace=12>n this chapter, we will explore more sophisticated
+prompting techniques with various uses and applications. These include</p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:67.1pt;margin-bottom:
+0in;margin-left:0in;text-align:justify;text-justify:inter-ideograph;text-indent:
+0in;line-height:134%'>techniques for creative writing and composition,
+problem-solving using simple mathematics and reasoning. We also delve into
+techniques for interpreting sentiments in texts or assigning values between <sup><span
+style='font-size:15.5pt;line-height:134%'>0 </span></sup>and <sup><span
+style='font-size:15.5pt;line-height:134%'>10 </span></sup>to these texts for
+various purposes.</p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:67.1pt;margin-bottom:
+0in;margin-left:0in;text-align:justify;text-justify:inter-ideograph;text-indent:
+0in;line-height:134%'><i><span style='font-size:12.0pt;line-height:134%'>Mimicking
+historical figures and assuming roles</span></i></p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:4.0pt;
+margin-left:-.75pt;text-indent:0in;line-height:110%'>50                     chatgpt:
+learning prompt engineering with 100+ examples<br clear=all style='page-break-before:
+always'>
+</p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:4.0pt;
+margin-left:0in;text-indent:0in;line-height:110%'><span style='font-size:11.0pt;
+line-height:110%'>                                                                                                           </span>advanced
+techniques          51<br clear=all style='page-break-before:always'>
+</p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:4.0pt;
+margin-left:-.75pt;text-indent:0in;line-height:110%'>52                     chatgpt:
+learning prompt engineering with 100+ examples<br clear=all style='page-break-before:
+always'>
+</p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:-.75pt;margin-bottom:
+23.75pt;margin-left:0in;text-indent:0in;line-height:185%'><span
+style='font-size:11.0pt;line-height:185%'>                                                                                                           </span>advanced
+techniques          53</p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:75.1pt;margin-bottom:
+.4pt;margin-left:0in;text-indent:11.95pt'>As we can see, in each case, the LLM
+assumes a different role in explaining friendship from the point of view of
+different characters, based on their philosophy, beliefs, and personal
+experiences. The answers have a common denominator but are adapted to the
+experiences and philosophy of the different characters.</p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:30.35pt;margin-bottom:
+.4pt;margin-left:0in;text-indent:11.95pt'>Likewise, in physics, we could ask
+about gravity for different physicists, according to their theories and
+convictions:<br clear=all style='page-break-before:always'>
+</p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:4.0pt;
+margin-left:-.75pt;text-indent:0in;line-height:110%'>54                     chatgpt:
+learning prompt engineering with 100+ examples<br clear=all style='page-break-before:
+always'>
+</p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:4.0pt;
+margin-left:0in;text-indent:0in;line-height:110%'><span style='font-size:11.0pt;
+line-height:110%'>                                                                                                           </span>advanced
+techniques          55<br clear=all style='page-break-before:always'>
+</p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:4.0pt;
+margin-left:-.75pt;text-indent:0in;line-height:110%'>56                     chatgpt:
+learning prompt engineering with 100+ examples<br clear=all style='page-break-before:
+always'>
+</p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:4.0pt;
+margin-left:0in;text-indent:0in;line-height:110%'><span style='font-size:11.0pt;
+line-height:110%'>                                                                                                           </span>advanced
+techniques          57<br clear=all style='page-break-before:always'>
+</p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:4.0pt;
+margin-left:-.75pt;text-indent:0in;line-height:110%'>58                     chatgpt:
+learning prompt engineering with 100+ examples<br clear=all style='page-break-before:
+always'>
+</p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:4.0pt;
+margin-left:0in;text-indent:0in;line-height:110%'><span style='font-size:11.0pt;
+line-height:110%'>                                                                                                           </span>advanced
+techniques          59<br clear=all style='page-break-before:always'>
+</p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:4.0pt;
+margin-left:-.75pt;text-indent:0in;line-height:110%'>60                     chatgpt:
+learning prompt engineering with 100+ examples<br clear=all style='page-break-before:
+always'>
+</p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:-.75pt;margin-bottom:
+23.75pt;margin-left:0in;text-indent:0in;line-height:185%'><span
+style='font-size:11.0pt;line-height:185%'>                                                                                                           </span>advanced
+techniques          61</p>
+
+<h2 style='margin-top:0in;margin-right:58.45pt;margin-bottom:.15in;margin-left:
+2.05pt'>Planning and approximate calculations for day-to-day routines</h2>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:26.5pt;margin-bottom:
+.4pt;margin-left:.5pt'>LLMs can also assist in performing simple calculations
+and basic estimations, although it’s important to be careful in this aspect as
+reasoning and logic are not their strong suits.</p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:.5pt;margin-bottom:.4pt;
+margin-left:12.45pt'>Below is an example regarding planning for a barbecue:<br
+clear=all style='page-break-before:always'>
+</p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:4.0pt;
+margin-left:-.75pt;text-indent:0in;line-height:110%'>62                     chatgpt:
+learning prompt engineering with 100+ examples<br clear=all style='page-break-before:
+always'>
+</p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:4.0pt;
+margin-left:0in;text-indent:0in;line-height:110%'><span style='font-size:11.0pt;
+line-height:110%'>                                                                                                           </span>advanced
+techniques          63<br clear=all style='page-break-before:always'>
+</p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:21.4pt;
+margin-left:-.75pt;text-indent:0in;line-height:110%'>64                     chatgpt:
+learning prompt engineering with 100+ examples</p>
+
+<table class=TableGrid border=0 cellspacing=0 cellpadding=0 width=480
+ style='width:359.65pt;border-collapse:collapse'>
+ <tr style='height:67.75pt'>
+  <td width=418 valign=top style='width:4.35in;padding:0in 0in 0in 0in;
+  height:67.75pt'>
+  <p class=MsoNormal style='margin-top:0in;margin-right:28.0pt;margin-bottom:
+  0in;margin-left:0in;text-indent:0in;line-height:114%'>Consequently, language
+  models often struggle when tasked with complex calculations or reasoning that
+  involves multiple mathematical steps.</p>
+  <p class=MsoNormal style='margin:0in;text-indent:11.95pt;line-height:107%'>A
+  solution that users have found is simply asking the language model to perform
+  the task step by step, adding to the prompt</p>
+  </td>
+  <td width=62 valign=top style='width:46.45pt;padding:0in 0in 0in 0in;
+  height:67.75pt'>
+  <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:8.0pt;
+  margin-left:0in;text-indent:0in;line-height:107%'>&nbsp;</p>
+  </td>
+ </tr>
+ <tr style='height:12.65pt'>
+  <td width=418 valign=top style='width:4.35in;padding:0in 0in 0in 0in;
+  height:12.65pt'>
+  <p class=MsoNormal style='margin:0in;text-indent:0in;line-height:107%'>the
+  message: &quot;let’s think step by step&quot;. Naturally, this doesn’t</p>
+  </td>
+  <td width=62 valign=top style='width:46.45pt;padding:0in 0in 0in 0in;
+  height:12.65pt'>
+  <p class=MsoNormal style='margin:0in;text-indent:0in;line-height:107%'><span
+  style='font-size:8.0pt;line-height:107%'>Prompt =</span></p>
+  </td>
+ </tr>
+ <tr style='height:82.95pt'>
+  <td width=418 valign=top style='width:4.35in;padding:0in 0in 0in 0in;
+  height:82.95pt'>
+  <p class=MsoNormal style='margin-top:0in;margin-right:11.9pt;margin-bottom:
+  1.0pt;margin-left:0in;text-indent:0in;line-height:114%'>make the model think
+  step by step! But it prompts it to generate a series of steps with logic
+  between them that will likely lead to the correct solution or at least a
+  solution more similar to the correct one.</p>
+  <p class=MsoNormal style='margin-top:0in;margin-right:17.6pt;margin-bottom:
+  0in;margin-left:0in;text-indent:11.95pt;line-height:107%'>This technique is
+  known as <i>Chain-of-Thoughts (CoT)</i>. Let’s look at some examples:</p>
+  </td>
+  <td width=62 valign=top style='width:46.45pt;padding:0in 0in 0in 0in;
+  height:82.95pt'>
+  <p class=MsoNormal style='margin:0in;text-indent:0in;line-height:107%'><span
+  style='font-size:8.0pt;line-height:107%'>Task + Let’s think step by step</span></p>
+  </td>
+ </tr>
+</table>
+
+<span style='font-size:10.0pt;line-height:112%;font-family:"Calibri",sans-serif;
+color:black'><br clear=all style='page-break-before:always'>
+</span>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:4.0pt;
+margin-left:0in;text-indent:0in;line-height:110%'><span style='font-size:11.0pt;
+line-height:110%'>                                                                                                           </span>advanced
+techniques          65<br clear=all style='page-break-before:always'>
+</p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:4.0pt;
+margin-left:-.75pt;text-indent:0in;line-height:110%'>66                     chatgpt:
+learning prompt engineering with 100+ examples<br clear=all style='page-break-before:
+always'>
+</p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:-.75pt;margin-bottom:
+23.75pt;margin-left:0in;text-indent:0in;line-height:185%'><span
+style='font-size:11.0pt;line-height:185%'>                                                                                                           </span>advanced
+techniques          67</p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:62.55pt;margin-bottom:
+.4pt;margin-left:.5pt'>Below, we combine the use of examples (Few-Shot
+Prompting) with step-by-step reasoning (Chain-of-Thoughts):<br clear=all
+style='page-break-before:always'>
+</p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:4.0pt;
+margin-left:-.75pt;text-indent:0in;line-height:110%'>68                     chatgpt:
+learning prompt engineering with 100+ examples<br clear=all style='page-break-before:
+always'>
+</p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:4.0pt;
+margin-left:0in;text-indent:0in;line-height:110%'><span style='font-size:11.0pt;
+line-height:110%'>                                                                                                           </span>advanced
+techniques          69</p>
+
+</div>
+
+<span style='font-size:10.0pt;line-height:112%;font-family:"Calibri",sans-serif;
+color:black'><br clear=all style='page-break-before:always'>
+</span>
+
+<div class=WordSection9>
+
+<p class=MsoNormal style='margin:0in;text-indent:0in;line-height:107%'>&nbsp;</p>
+
+</div>
+
+<span style='font-size:10.0pt;line-height:112%;font-family:"Calibri",sans-serif;
+color:black'><br clear=all style='page-break-before:always'>
+</span>
+
+<div class=WordSection10>
+
+<h1 style='margin-top:0in;margin-right:0in;margin-bottom:31.5pt;margin-left:
+-.25pt'>Use cases and applications</h1>
+
+<div>
+
+<table cellspacing=0 cellpadding=0 hspace=0 vspace=0 align=left>
+ <tr>
+  <td valign=top align=left style='padding-top:0in;padding-right:0in;
+  padding-bottom:0in;padding-left:0in'>
+  <p class=MsoNormal style='margin:0in;text-indent:0in;line-height:26.25pt'><span
+  style='font-size:27.0pt'>T</span></p>
+  </td>
+ </tr>
+</table>
+
+</div>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:.5pt;margin-bottom:.4pt;
+margin-left:.5pt'>he use cases for ChatGPT are countless and cover practically</p>
+
+<p class=MsoNormal align=center style='margin-top:0in;margin-right:.85in;
+margin-bottom:.55pt;margin-left:3.3pt;text-align:center;line-height:110%'>any
+topic or task where text generation is needed. In this</p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:45.0pt;margin-bottom:
+.4pt;margin-left:.5pt'>chapter we compile some examples that aim to highlight
+this versatility and show the reader the multiple possibilities of LLMs.</p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:72.3pt;margin-bottom:
+.4pt;margin-left:0in;text-indent:11.95pt'>LLMs can serve as a great personal
+assistant. If you’re a programmer, it can help you with coding and enhance your
+productivity. If you’re an investor, it can assist in interpreting company
+data. If you’re a teacher, it can help you create multiple-choice questions and
+examples for exams and classes. If you’re a lawyer, the LLM can read complex
+laws and indicate the specific article of a law that contains what you’re
+looking for.</p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:60.4pt;margin-bottom:
+.4pt;margin-left:0in;text-indent:11.95pt'>In short, the LLM can aid you in your
+day-to-day tasks and make you more productive. As mentioned earlier, the LLM
+won’t do your job for you, but it can help you a lot.</p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:.5pt;margin-bottom:22.35pt;
+margin-left:14.8pt'>Below are several examples.</p>
+
+<h2 style='margin-top:0in;margin-right:58.45pt;margin-bottom:9.1pt;margin-left:
+2.05pt'>Laws, contracts and claims</h2>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:56.7pt;margin-bottom:
+20.05pt;margin-left:.5pt'>Legal documents often tend to be cumbersome and
+difficult for most people to understand . Their wording is directly beyond the
+reach of ordinary mortals. Below we show some very common examples and assess
+how ChatGPT can be helpful to us.</p>
+
+<h3 style='margin-left:2.05pt'>Understanding the implications of a contract</h3>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:56.05pt;margin-bottom:
+31.75pt;margin-left:.5pt'>One of the figures that appears in mortgages is that
+of the guarantor; however, many people do not understand all the implications
+of guaranteeing a mortgage loan. In this example, 72   chatgpt: learning prompt
+engineering with 100+ examples</p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:48.1pt;margin-bottom:
+.4pt;margin-left:.5pt'>we ask ChatGPT to review a clause in a mortgage contract
+and explain the risks of acting as a guarantor in that contract.<br clear=all
+style='page-break-before:always'>
+</p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:4.0pt;
+margin-left:0in;text-indent:0in;line-height:110%'><span style='font-size:11.0pt;
+line-height:110%'>                                                                                                 </span>use
+cases and applications            73<br clear=all style='page-break-before:
+always'>
+</p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:4.0pt;
+margin-left:-.75pt;text-indent:0in;line-height:110%'>74                      chatgpt:
+learning prompt engineering with 100+ examples<br clear=all style='page-break-before:
+always'>
+</p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:4.0pt;
+margin-left:0in;text-indent:0in;line-height:110%'><span style='font-size:11.0pt;
+line-height:110%'>                                                                                                 </span>use
+cases and applications            75<br clear=all style='page-break-before:
+always'>
+</p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:4.0pt;
+margin-left:-.75pt;text-indent:0in;line-height:110%'>76                      chatgpt:
+learning prompt engineering with 100+ examples<br clear=all style='page-break-before:
+always'>
+</p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:4.0pt;
+margin-left:0in;text-indent:0in;line-height:110%'><span style='font-size:11.0pt;
+line-height:110%'>                                                                                                 </span>use
+cases and applications            77<br clear=all style='page-break-before:
+always'>
+</p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:4.0pt;
+margin-left:-.75pt;text-indent:0in;line-height:110%'>78                      chatgpt:
+learning prompt engineering with 100+ examples<br clear=all style='page-break-before:
+always'>
+</p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:4.0pt;
+margin-left:0in;text-indent:0in;line-height:110%'><span style='font-size:11.0pt;
+line-height:110%'>                                                                                                 </span>use
+cases and applications            79<br clear=all style='page-break-before:
+always'>
+</p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:4.0pt;
+margin-left:-.75pt;text-indent:0in;line-height:110%'>80                      chatgpt:
+learning prompt engineering with 100+ examples<br clear=all style='page-break-before:
+always'>
+</p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:-.75pt;margin-bottom:
+23.75pt;margin-left:0in;text-indent:0in;line-height:185%'><span
+style='font-size:11.0pt;line-height:185%'>                                                                                                 </span>use
+cases and applications            81</p>
+
+<h3 style='margin-left:2.05pt'>Summarizing the content</h3>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:58.4pt;margin-bottom:
+.4pt;margin-left:.5pt'>Let’s go back to the Constitution and see if ChatGPT can
+summarize some of the content that we need to study.<br clear=all
+style='page-break-before:always'>
+</p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:4.0pt;
+margin-left:-.75pt;text-indent:0in;line-height:110%'>82                      chatgpt:
+learning prompt engineering with 100+ examples<br clear=all style='page-break-before:
+always'>
+</p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:4.0pt;
+margin-left:0in;text-indent:0in;line-height:110%'><span style='font-size:11.0pt;
+line-height:110%'>                                                                                                 </span>use
+cases and applications            83<br clear=all style='page-break-before:
+always'>
+</p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:4.0pt;
+margin-left:-.75pt;text-indent:0in;line-height:110%'>84                      chatgpt:
+learning prompt engineering with 100+ examples<br clear=all style='page-break-before:
+always'>
+</p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:4.0pt;
+margin-left:0in;text-indent:0in;line-height:110%'><span style='font-size:11.0pt;
+line-height:110%'>                                                                                                 </span>use
+cases and applications            85<br clear=all style='page-break-before:
+always'>
+</p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:4.0pt;
+margin-left:-.75pt;text-indent:0in;line-height:110%'>86                      chatgpt:
+learning prompt engineering with 100+ examples<br clear=all style='page-break-before:
+always'>
+</p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:4.0pt;
+margin-left:0in;text-indent:0in;line-height:110%'><span style='font-size:11.0pt;
+line-height:110%'>                                                                                                 </span>use
+cases and applications            87<br clear=all style='page-break-before:
+always'>
+</p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:4.0pt;
+margin-left:-.75pt;text-indent:0in;line-height:110%'>88                      chatgpt:
+learning prompt engineering with 100+ examples<br clear=all style='page-break-before:
+always'>
+</p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:4.0pt;
+margin-left:0in;text-indent:0in;line-height:110%'><span style='font-size:11.0pt;
+line-height:110%'>                                                                                                 </span>use
+cases and applications            89<br clear=all style='page-break-before:
+always'>
+</p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:4.0pt;
+margin-left:-.75pt;text-indent:0in;line-height:110%'>90                      chatgpt:
+learning prompt engineering with 100+ examples<br clear=all style='page-break-before:
+always'>
+</p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:-.75pt;margin-bottom:
+23.75pt;margin-left:0in;text-indent:0in;line-height:185%'><span
+style='font-size:11.0pt;line-height:185%'>                                                                                                 </span>use
+cases and applications            91</p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:34.05pt;margin-bottom:
+18.1pt;margin-left:0in;text-indent:11.95pt'>Once again, ChatGPT is able to
+interpret the Excel formula and explain it in a simple and coherent manner.</p>
+
+<h3 style='margin-left:2.05pt'>Doing calculations</h3>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:66.45pt;margin-bottom:
+.4pt;margin-left:.5pt'>Calculations are another task that often feels tedious
+and can lead us to waste money. Let’s say we want to understand the impact of
+different options on our family expenses, but we don’t have the exact data on
+our consumption, and we’re fine with having an approximate estimate. Let’s see
+if ChatGPT can make an initial estimation.<br clear=all style='page-break-before:
+always'>
+</p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:31.35pt;
+margin-left:-.75pt;text-indent:0in;line-height:110%'>92                      chatgpt:
+learning prompt engineering with 100+ examples</p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:22.6pt;margin-bottom:
+.4pt;margin-left:.5pt'>our exact consumption. In this case, we see that saving
+on milk is equivalent to saving on parsley.</p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:.5pt;margin-bottom:.4pt;
+margin-left:14.8pt'>In the next case, we request a budget for a home
+renovation:<br clear=all style='page-break-before:always'>
+</p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:4.0pt;
+margin-left:0in;text-indent:0in;line-height:110%'><span style='font-size:11.0pt;
+line-height:110%'>                                                                                                 </span>use
+cases and applications            93<br clear=all style='page-break-before:
+always'>
+</p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:32.55pt;
+margin-left:-.75pt;text-indent:0in;line-height:110%'>94                      chatgpt:
+learning prompt engineering with 100+ examples</p>
+
+<h2 style='margin-top:0in;margin-right:58.45pt;margin-bottom:9.1pt;margin-left:
+2.05pt'>Companies</h2>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:65.25pt;margin-bottom:
+.4pt;margin-left:.5pt'>In the previous examples, we focused on the personal use
+of ChatGPT. Let’s now explore some use cases within the business world. Again,
+the potential applications are countless, so we’ll just touch on a few to
+showcase the immense potential of LLMs in enhancing productivity.</p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:58.7pt;margin-bottom:
+.4pt;margin-left:0in;text-indent:11.95pt'>A significant portion of daily tasks
+in businesses is administrative and involves text writing. For instance, to
+manage the hiring of an individual by a human resources department, we need, as
+a first step, a description of the profile required for the position to be
+filled. Let’s see if ChatGPT can help us.<br clear=all style='page-break-before:
+always'>
+</p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:4.0pt;
+margin-left:0in;text-indent:0in;line-height:110%'><span style='font-size:11.0pt;
+line-height:110%'>                                                                                                 </span>use
+cases and applications            95<br clear=all style='page-break-before:
+always'>
+</p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:4.0pt;
+margin-left:-.75pt;text-indent:0in;line-height:110%'>96                      chatgpt:
+learning prompt engineering with 100+ examples<br clear=all style='page-break-before:
+always'>
+</p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:-.75pt;margin-bottom:
+23.75pt;margin-left:0in;text-indent:0in;line-height:185%'><span
+style='font-size:11.0pt;line-height:185%'>                                                                                                 </span>use
+cases and applications            97</p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:66.75pt;margin-bottom:
+9.2pt;margin-left:14.8pt'>countries. Write a prompt to create a news article
+covering the existing legislation regarding penalties for murder in countries
+like Thailand, Spain, and the USA. You need to know the approximate penalties
+for a murder that occurred in a bar, where an intoxicated person stabbed
+another intoxicated person during a braw.</p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:62.65pt;margin-bottom:
+9.05pt;margin-left:14.3pt;text-indent:-14.3pt'><span style='line-height:112%'>4)<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp; </span></span>Ask what
+the recommended dosage of antibiotics would be for a 6-year-old girl who weighs
+24 kilograms and has a urinary tract infection.</p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:62.65pt;margin-bottom:
+9.3pt;margin-left:14.3pt;text-indent:-14.3pt'><span style='line-height:112%'>5)<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp; </span></span>Introduce
+the text of a current political news and request an optimistic and a
+pessimistic headline.</p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:62.65pt;margin-bottom:
+9.25pt;margin-left:14.3pt;text-indent:-14.3pt'><span style='line-height:112%'>6)<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp; </span></span>Ask for <sup><span
+style='font-size:15.5pt;line-height:112%'>10 </span></sup>exercises on systems
+of equations with two equations and two unknowns to practice. Also, request
+solutions to verify the results.</p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:62.65pt;margin-bottom:
+9.2pt;margin-left:14.3pt;text-indent:-14.3pt'><span style='line-height:112%'>7)<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp; </span></span>Ask for a
+plan to visit Paris in 3 days. Request recommendations for the most interesting
+places, considering that you want to visit at most one museum. Also, ask for
+recommendations for typical French dishes and restaurants where they serve
+them.</p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:62.65pt;margin-bottom:
+.4pt;margin-left:14.3pt;text-indent:-14.3pt'><span style='line-height:112%'>8)<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp; </span></span>Ask to
+draft a CV with your skills, education, and experience. Additionally, request
+to write a cover letter for an artificial intelligence consulting company.</p>
+
+</div>
+
+<span style='font-size:10.0pt;line-height:112%;font-family:"Calibri",sans-serif;
+color:black'><br clear=all style='page-break-before:always'>
+</span>
+
+<div class=WordSection11>
+
+<p class=MsoNormal style='margin:0in;text-indent:0in;line-height:107%'>&nbsp;</p>
+
+</div>
+
+<span style='font-size:10.0pt;line-height:112%;font-family:"Calibri",sans-serif;
+color:black'><br clear=all style='page-break-before:always'>
+</span>
+
+<div class=WordSection12>
+
+<h1 style='margin-top:0in;margin-right:0in;margin-bottom:.45in;margin-left:
+-.25pt'>Playing with images</h1>
+
+<div>
+
+<table cellspacing=0 cellpadding=0 hspace=0 vspace=0 align=left>
+ <tr>
+  <td valign=top align=left style='padding-top:0in;padding-right:0in;
+  padding-bottom:0in;padding-left:0in'>
+  <p class=MsoNormal style='margin:0in;text-indent:0in;line-height:26.25pt'><span
+  style='font-size:27.0pt'>G</span></p>
+  </td>
+ </tr>
+</table>
+
+</div>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:39.75pt;margin-bottom:
+.4pt;margin-left:.5pt'><sup><span style='font-size:15.5pt;line-height:112%'>eenerative
+</span></sup>AI not only works with text, it can also analyze, modify or
+generate images. In this chapter we are going</p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:50.5pt;margin-bottom:
+24.85pt;margin-left:.5pt'>to see some practical examples of using ChatGPT
+(version 4) to process and generate images. We can ask it to generate an image
+from a text description but we can also drag an image into the ChatGPT
+interface and ask it a question about the image.</p>
+
+<h2 style='margin-top:0in;margin-right:58.45pt;margin-bottom:12.4pt;margin-left:
+2.05pt'>Medical images</h2>
+
+<h3 style='margin-left:2.05pt'>Asking for advice on oral health</h3>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:64.7pt;margin-bottom:
+.4pt;margin-left:.5pt'>We start with a photo of the mouth to see if ChatGPT can
+advise us on our oral health. We can take a picture of our mouth with our
+mobile phone and ask ChatGPT for advice.</p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:21.75pt;
+margin-left:-.75pt;text-indent:0in;line-height:110%'>100                     chatgpt:
+learning prompt engineering with 100+ examples</p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:13.15pt;
+margin-left:54.2pt;text-indent:0in;line-height:107%'><span style='font-size:
+11.0pt;line-height:107%'><img border=0 width=250 height=187 id="Group 27629"
+src="ChatGPT%20-%20Learning%20Prompt%20Engineering%20With%20100%20Examples_files/image010.gif"></span></p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:.5pt;margin-bottom:.4pt;
+margin-left:109.75pt'>Figure <sup><span style='font-size:15.5pt;line-height:
+112%'>6</span></sup>.<sup><span style='font-size:15.5pt;line-height:112%'>1</span></sup>:
+Gums<br clear=all style='page-break-before:always'>
+</p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:4.0pt;
+margin-left:0in;text-indent:0in;line-height:110%'><span style='font-size:11.0pt;
+line-height:110%'>                                                                                                            </span>playing
+with images         101<br clear=all style='page-break-before:always'>
+</p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:4.0pt;
+margin-left:-.75pt;text-indent:0in;line-height:110%'>102                     chatgpt:
+learning prompt engineering with 100+ examples<br clear=all style='page-break-before:
+always'>
+</p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:-.75pt;margin-bottom:
+23.75pt;margin-left:0in;text-indent:0in;line-height:185%'><span
+style='font-size:11.0pt;line-height:185%'>                                                                                                            </span>playing
+with images         103</p>
+
+<h3 style='margin-left:2.05pt'>A blood test<br clear=all style='page-break-before:
+always'>
+</h3>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:4.0pt;
+margin-left:-.75pt;text-indent:0in;line-height:110%'>104                     chatgpt:
+learning prompt engineering with 100+ examples<br clear=all style='page-break-before:
+always'>
+</p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:4.0pt;
+margin-left:0in;text-indent:0in;line-height:110%'><span style='font-size:11.0pt;
+line-height:110%'>                                                                                                            </span>playing
+with images         105<br clear=all style='page-break-before:always'>
+</p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:4.0pt;
+margin-left:-.75pt;text-indent:0in;line-height:110%'>106                     chatgpt:
+learning prompt engineering with 100+ examples<br clear=all style='page-break-before:
+always'>
+</p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:4.0pt;
+margin-left:0in;text-indent:0in;line-height:110%'><span style='font-size:11.0pt;
+line-height:110%'>                                                                                                            </span>playing
+with images         107<br clear=all style='page-break-before:always'>
+</p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:4.0pt;
+margin-left:-.75pt;text-indent:0in;line-height:110%'>108                     chatgpt:
+learning prompt engineering with 100+ examples<br clear=all style='page-break-before:
+always'>
+</p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:-.75pt;margin-bottom:
+14.3pt;margin-left:0in;text-indent:0in;line-height:185%'><span
+style='font-size:11.0pt;line-height:185%'>                                                                                                            </span>playing
+with images         109</p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:13.05pt;
+margin-left:40.9pt;text-indent:0in;line-height:107%'><span style='font-size:
+11.0pt;line-height:107%'><img border=0 width=286 height=406 id="Group 27072"
+src="ChatGPT%20-%20Learning%20Prompt%20Engineering%20With%20100%20Examples_files/image011.gif"></span></p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:.5pt;margin-bottom:.4pt;
+margin-left:99.1pt'>Figure <sup><span style='font-size:15.5pt;line-height:112%'>6</span></sup>.<sup><span
+style='font-size:15.5pt;line-height:112%'>6</span></sup>: An invoice</p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:31.35pt;
+margin-left:-.75pt;text-indent:0in;line-height:110%'>110                     chatgpt:
+learning prompt engineering with 100+ examples</p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:.5pt;margin-bottom:21.1pt;
+margin-left:.5pt'>extract image data.</p>
+
+<h2 style='margin-top:0in;margin-right:58.45pt;margin-bottom:9.1pt;margin-left:
+2.05pt'>Analyzing graphics</h2>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:37.3pt;margin-bottom:
+18.8pt;margin-left:.5pt'>ChatGPT is also capable of interpreting graphs in
+general and processing them.</p>
+
+<h3 style='margin-left:2.05pt'>Population pyramid</h3>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:66.75pt;margin-bottom:
+.4pt;margin-left:.5pt'>In the following example, we see how ChatGPT is able to
+interpret socio-economic graphs and process them.<br clear=all
+style='page-break-before:always'>
+</p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:4.0pt;
+margin-left:0in;text-indent:0in;line-height:110%'><span style='font-size:11.0pt;
+line-height:110%'>                                                                                                            </span>playing
+with images         111<br clear=all style='page-break-before:always'>
+</p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:4.0pt;
+margin-left:-.75pt;text-indent:0in;line-height:110%'>112                     chatgpt:
+learning prompt engineering with 100+ examples<br clear=all style='page-break-before:
+always'>
+</p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:4.0pt;
+margin-left:0in;text-indent:0in;line-height:110%'><span style='font-size:11.0pt;
+line-height:110%'>                                                                                                            </span>playing
+with images         113</p>
+
+</div>
+
+<span style='font-size:10.0pt;line-height:112%;font-family:"Calibri",sans-serif;
+color:black'><br clear=all style='page-break-before:always'>
+</span>
+
+<div class=WordSection13>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:-19.25pt;margin-bottom:
+13.0pt;margin-left:0in;text-indent:0in;line-height:107%'><span
+style='font-size:11.0pt;line-height:107%'><img border=0 width=404 height=288
+id="Group 27227"
+src="ChatGPT%20-%20Learning%20Prompt%20Engineering%20With%20100%20Examples_files/image012.gif"></span></p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:.5pt;margin-bottom:.4pt;
+margin-left:.5pt'>Figure <sup><span style='font-size:15.5pt;line-height:112%'>6</span></sup>.<sup><span
+style='font-size:15.5pt;line-height:112%'>9</span></sup>: Performance of the
+Standard and Poors <sup><span style='font-size:15.5pt;line-height:112%'>500 </span></sup>index
+of the U.S. economy</p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:4.0pt;
+margin-left:-.75pt;text-indent:0in;line-height:110%'><span style='font-size:
+11.0pt;line-height:110%'>                                                                                                            </span>playing
+with images          115<br clear=all style='page-break-before:always'>
+</p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:-65.0pt;margin-bottom:
+13.05pt;margin-left:-58.25pt;text-indent:0in;line-height:107%'><span
+style='font-size:11.0pt;line-height:107%'><img border=0 width=404 height=210
+id="Group 27235"
+src="ChatGPT%20-%20Learning%20Prompt%20Engineering%20With%20100%20Examples_files/image013.gif"></span></p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:.5pt;margin-bottom:.4pt;
+margin-left:.5pt'>Figure <sup><span style='font-size:15.5pt;line-height:112%'>6</span></sup>.<sup><span
+style='font-size:15.5pt;line-height:112%'>10</span></sup>: Evolution of CO<sup><span
+style='font-size:15.5pt;line-height:112%'>2 </span></sup>emissions<br
+clear=all style='page-break-before:always'>
+</p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:4.0pt;
+margin-left:-.75pt;text-indent:0in;line-height:110%'><span style='font-size:
+11.0pt;line-height:110%'>                                                                                                            </span>playing
+with images          117<br clear=all style='page-break-before:always'>
+</p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:-66.45pt;margin-bottom:
+13.15pt;margin-left:-66.45pt;text-indent:0in;line-height:107%'><span
+style='font-size:11.0pt;line-height:107%'><img border=0 width=325 height=184
+id="Group 27450"
+src="ChatGPT%20-%20Learning%20Prompt%20Engineering%20With%20100%20Examples_files/image014.gif"></span></p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:.5pt;margin-bottom:.4pt;
+margin-left:.5pt'>Figure <sup><span style='font-size:15.5pt;line-height:112%'>6</span></sup>.<sup><span
+style='font-size:15.5pt;line-height:112%'>12</span></sup>: Wrecked car<br
+clear=all style='page-break-before:always'>
+</p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:4.0pt;
+margin-left:-.75pt;text-indent:0in;line-height:110%'><span style='font-size:
+11.0pt;line-height:110%'>                                                                                                            </span>playing
+with images          119</p>
+
+</div>
+
+<span style='font-size:10.0pt;line-height:112%;font-family:"Calibri",sans-serif;
+color:black'><br clear=all style='page-break-before:always'>
+</span>
+
+<div class=WordSection14>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:4.0pt;
+margin-left:-.75pt;text-indent:0in;line-height:110%'>120                                     chatgpt:
+learning prompt engineering with 100+ examples<br clear=all style='page-break-before:
+always'>
+</p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:4.0pt;
+margin-left:-.75pt;text-indent:0in;line-height:110%'><span style='font-size:
+11.0pt;line-height:110%'>                                                                                                            </span>playing
+with images          121<br clear=all style='page-break-before:always'>
+</p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:4.0pt;
+margin-left:-.75pt;text-indent:0in;line-height:110%'>122                                     chatgpt:
+learning prompt engineering with 100+ examples<br clear=all style='page-break-before:
+always'>
+</p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:4.0pt;
+margin-left:-.75pt;text-indent:0in;line-height:110%'><span style='font-size:
+11.0pt;line-height:110%'>                                                                                                            </span>playing
+with images          123<br clear=all style='page-break-before:always'>
+</p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:4.0pt;
+margin-left:-.75pt;text-indent:0in;line-height:110%'>124                                     chatgpt:
+learning prompt engineering with 100+ examples<br clear=all style='page-break-before:
+always'>
+</p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:4.0pt;
+margin-left:-.75pt;text-indent:0in;line-height:110%'><span style='font-size:
+11.0pt;line-height:110%'>                                                                                                            </span>playing
+with images          125<br clear=all style='page-break-before:always'>
+</p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:4.0pt;
+margin-left:-.75pt;text-indent:0in;line-height:110%'>126                                     chatgpt:
+learning prompt engineering with 100+ examples<br clear=all style='page-break-before:
+always'>
+</p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:-.75pt;margin-bottom:
+14.3pt;margin-left:0in;text-indent:0in;line-height:185%'><span
+style='font-size:11.0pt;line-height:185%'>                                                                                                            </span>playing
+with images 127</p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:13.0pt;
+margin-left:-48.85pt;text-indent:0in;line-height:107%'><span style='font-size:
+11.0pt;line-height:107%'><img border=0 width=404 height=231 id="Group 27358"
+src="ChatGPT%20-%20Learning%20Prompt%20Engineering%20With%20100%20Examples_files/image015.gif"></span></p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:.5pt;margin-bottom:.4pt;
+margin-left:.5pt'>Figure <sup><span style='font-size:15.5pt;line-height:112%'>6</span></sup>.<sup><span
+style='font-size:15.5pt;line-height:112%'>15</span></sup>: Exercises of
+mathematical series<br clear=all style='page-break-before:always'>
+</p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:4.0pt;
+margin-left:-.75pt;text-indent:0in;line-height:110%'>128                                     chatgpt:
+learning prompt engineering with 100+ examples<br clear=all style='page-break-before:
+always'>
+</p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:-.75pt;margin-bottom:
+14.3pt;margin-left:0in;text-indent:0in;line-height:185%'><span
+style='font-size:11.0pt;line-height:185%'>                                                                                                            </span>playing
+with images 129</p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:13.1pt;
+margin-left:-.85in;text-indent:0in;line-height:107%'><span style='font-size:
+11.0pt;line-height:107%'><img border=0 width=325 height=307 id="Group 27397"
+src="ChatGPT%20-%20Learning%20Prompt%20Engineering%20With%20100%20Examples_files/image016.gif"></span></p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:.5pt;margin-bottom:.4pt;
+margin-left:.5pt'>Figure <sup><span style='font-size:15.5pt;line-height:112%'>6</span></sup>.<sup><span
+style='font-size:15.5pt;line-height:112%'>16</span></sup>: Alphabet soup</p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:4.0pt;
+margin-left:-.75pt;text-indent:0in;line-height:110%'>130                                     chatgpt:
+learning prompt engineering with 100+ examples<br clear=all style='page-break-before:
+always'>
+</p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:4.0pt;
+margin-left:-.75pt;text-indent:0in;line-height:110%'><span style='font-size:
+11.0pt;line-height:110%'>                                                                                                            </span>playing
+with images          131<br clear=all style='page-break-before:always'>
+</p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:4.0pt;
+margin-left:-.75pt;text-indent:0in;line-height:110%'>132                                     chatgpt:
+learning prompt engineering with 100+ examples<br clear=all style='page-break-before:
+always'>
+</p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:4.0pt;
+margin-left:-.75pt;text-indent:0in;line-height:110%'><span style='font-size:
+11.0pt;line-height:110%'>                                                                                                            </span>playing
+with images          133<br clear=all style='page-break-before:always'>
+</p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:4.0pt;
+margin-left:-.75pt;text-indent:0in;line-height:110%'>134                                     chatgpt:
+learning prompt engineering with 100+ examples<br clear=all style='page-break-before:
+always'>
+</p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:4.0pt;
+margin-left:-.75pt;text-indent:0in;line-height:110%'><span style='font-size:
+11.0pt;line-height:110%'>                                                                                                            </span>playing
+with images          135<br clear=all style='page-break-before:always'>
+</p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:4.0pt;
+margin-left:-.75pt;text-indent:0in;line-height:110%'>136                                     chatgpt:
+learning prompt engineering with 100+ examples</p>
+
+</div>
+
+<span style='font-size:10.0pt;line-height:112%;font-family:"Calibri",sans-serif;
+color:black'><br clear=all style='page-break-before:always'>
+</span>
+
+<div class=WordSection15>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:.5pt;margin-bottom:.4pt;
+margin-left:.5pt'>so that DALL-E adapts to that style. Of course, the more
+detailed the description, the more accurate the result will be.</p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:.5pt;margin-bottom:10.55pt;
+margin-left:0in;text-indent:11.95pt'>The structure of a good prompt for
+generating images consists of the following:</p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:.5pt;margin-bottom:12.15pt;
+margin-left:12.0pt;text-indent:-12.0pt'><span style='line-height:112%'>•<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp; </span></span><b>Subject
+</b>(a person, object, animal, character...)</p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:.5pt;margin-bottom:12.0pt;
+margin-left:12.0pt;text-indent:-12.0pt'><span style='line-height:112%'>•<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp; </span></span><b>Action
+</b>(what he is doing, describing the context, e.g. &quot;riding on a
+motorcycle, wearing a summer hat...&quot;)</p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:.5pt;margin-bottom:11.95pt;
+margin-left:12.0pt;text-indent:-12.0pt'><span style='line-height:112%'>•<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp; </span></span><b>Style
+</b>(3D rendering, impressionist, anime, disney, fantasy, photography,
+illustration...)</p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:.5pt;margin-bottom:9.55pt;
+margin-left:12.0pt;text-indent:-12.0pt'><span style='line-height:112%'>•<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp; </span></span><b>Artist
+</b>(add the name of a specific artist to serve as a reference, you can add
+several to match their styles)</p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:.5pt;margin-bottom:.4pt;
+margin-left:0in;text-indent:11.95pt'>We will try different styles using a dog
+in a bakery as the base prompt.<br clear=all style='page-break-before:always'>
+</p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:21.75pt;
+margin-left:-.75pt;text-indent:0in;line-height:110%'>138                                     chatgpt:
+learning prompt engineering with 100+ examples</p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:12.95pt;
+margin-left:55.65pt;text-indent:0in;line-height:107%'><span style='font-size:
+11.0pt;line-height:107%'><img border=0 width=246 height=246 id="Group 27764"
+src="ChatGPT%20-%20Learning%20Prompt%20Engineering%20With%20100%20Examples_files/image017.gif"></span></p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:53.0pt;margin-bottom:
+.4pt;margin-left:.5pt'>Figure 6.22: Example of an image generated by DALL-E for
+the prompt: &quot;A dog attending a bakery, disney style, detailed, realistic,
+animation&quot;.</p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:12.95pt;
+margin-left:55.65pt;text-indent:0in;line-height:107%'><span style='font-size:
+11.0pt;line-height:107%'><img border=0 width=246 height=246 id="Group 27765"
+src="ChatGPT%20-%20Learning%20Prompt%20Engineering%20With%20100%20Examples_files/image018.gif"></span></p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:14.3pt;margin-bottom:
+.4pt;margin-left:.5pt'>Figure 6.23: Example of an image generated by DALL-E for
+the prompt: &quot;A dog attending a bakery, illustration drawn by a child,
+crayons&quot;.</p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:12.95pt;
+margin-left:55.65pt;text-indent:0in;line-height:107%'><span style='font-size:
+11.0pt;line-height:107%'><img border=0 width=246 height=246 id="Group 27705"
+src="ChatGPT%20-%20Learning%20Prompt%20Engineering%20With%20100%20Examples_files/image019.gif"></span></p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:.5pt;margin-bottom:.4pt;
+margin-left:.5pt'>Figure 6.24: Example of an image generated by DALL-E for the
+prompt: &quot;A dog attending in a bakery, cubist painting, drawn by</p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:.5pt;margin-bottom:.4pt;
+margin-left:.5pt'>Picasso&quot;.</p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:12.95pt;
+margin-left:55.65pt;text-indent:0in;line-height:107%'><span style='font-size:
+11.0pt;line-height:107%'><img border=0 width=246 height=246 id="Group 27706"
+src="ChatGPT%20-%20Learning%20Prompt%20Engineering%20With%20100%20Examples_files/image020.gif"></span></p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:.5pt;margin-bottom:.4pt;
+margin-left:.5pt'>Figure 6.25: Example of an image generated by DALL-E for the
+prompt: &quot;A dog attending a bakery, drawing made with a single line,
+simple, minimalist, few details&quot;.</p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:4.0pt;
+margin-left:-.75pt;text-indent:0in;line-height:110%'>140                                     chatgpt:
+learning prompt engineering with 100+ examples<br clear=all style='page-break-before:
+always'>
+</p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:12.95pt;
+margin-left:55.65pt;text-indent:0in;line-height:107%'><span style='font-size:
+11.0pt;line-height:107%'><img border=0 width=246 height=246 id="Group 27955"
+src="ChatGPT%20-%20Learning%20Prompt%20Engineering%20With%20100%20Examples_files/image021.gif"></span></p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:.5pt;margin-bottom:3.2pt;
+margin-left:.5pt'>Figure 6.27: Example of an image generated by DALL-E for the
+prompt: &quot;A dog serving in a bakery, anime style&quot;.</p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:12.95pt;
+margin-left:55.65pt;text-indent:0in;line-height:107%'><span style='font-size:
+11.0pt;line-height:107%'><img border=0 width=246 height=246 id="Group 27956"
+src="ChatGPT%20-%20Learning%20Prompt%20Engineering%20With%20100%20Examples_files/image022.gif"></span></p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:.5pt;margin-bottom:20.8pt;
+margin-left:.5pt'>Figure 6.28: Example of an image generated by DALL-E for the
+prompt: &quot;A dog whose head is made of bread and cakes, surrealistic
+painting&quot;.</p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:.5pt;margin-bottom:.4pt;
+margin-left:.5pt'>multiple details and aspects. Like ChatGPT, these tools have
+revolutionized the fields of graphic design, art, advertising, architecture,
+and generally all disciplines where graphic</p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:21.75pt;
+margin-left:-.75pt;text-indent:0in;line-height:110%'>142                                     chatgpt:
+learning prompt engineering with 100+ examples</p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:12.95pt;
+margin-left:55.65pt;text-indent:0in;line-height:107%'><span style='font-size:
+11.0pt;line-height:107%'><img border=0 width=246 height=246 id="Group 28001"
+src="ChatGPT%20-%20Learning%20Prompt%20Engineering%20With%20100%20Examples_files/image023.gif"></span></p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:21.9pt;margin-bottom:
+17.55pt;margin-left:.5pt'>Figure 6.29: Example of an image generated by DALL-E
+for the prompt: &quot;A golden retriever dog, standing at a bakery table
+delivering freshly baked bread to customers, realistic photograph,
+detailed&quot;.</p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:36.55pt;margin-bottom:
+16.25pt;margin-left:.5pt'>representation is a fundamental component. After
+images, the next step is creating video from text, which in the future could
+lead us to generate a series or movie from a script; as we can see, artificial
+intelligence seems to have no limits.</p>
+
+<h3 style='margin-left:2.05pt'>More artistic creation</h3>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:-56.1pt;margin-bottom:
+14.35pt;margin-left:-56.1pt;text-indent:0in;line-height:107%'><span
+style='font-size:11.0pt;line-height:107%'><img border=0 width=286 height=314
+src="ChatGPT%20-%20Learning%20Prompt%20Engineering%20With%20100%20Examples_files/image024.gif"></span></p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:-56.1pt;margin-bottom:
+13.15pt;margin-left:-56.1pt;text-indent:0in;line-height:107%'><span
+style='font-size:11.0pt;line-height:107%'><img border=0 width=286 height=285
+id="Group 28074"
+src="ChatGPT%20-%20Learning%20Prompt%20Engineering%20With%20100%20Examples_files/image025.gif"></span></p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:4.0pt;
+margin-left:-.25pt;line-height:110%'>Figure <sup><span style='font-size:15.5pt;
+line-height:110%'>6</span></sup>.<sup><span style='font-size:15.5pt;line-height:
+110%'>31</span></sup>: Blue room 144               chatgpt: learning prompt
+engineering with 100+ examples</p>
+
+</div>
+
+<span style='font-size:10.0pt;line-height:112%;font-family:"Calibri",sans-serif;
+color:black'><br clear=all style='page-break-before:always'>
+</span>
+
+<div class=WordSection16>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:4.0pt;
+margin-left:-.75pt;text-indent:0in;line-height:110%'><span style='font-size:
+11.0pt;line-height:110%'>                                                                                                             </span>playing
+with images         145<br clear=all style='page-break-before:always'>
+</p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:-39.1pt;margin-bottom:
+13.05pt;margin-left:-39.1pt;text-indent:0in;line-height:107%'><span
+style='font-size:11.0pt;line-height:107%'><img border=0 width=286 height=167
+id="Group 28124"
+src="ChatGPT%20-%20Learning%20Prompt%20Engineering%20With%20100%20Examples_files/image026.gif"></span></p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:.5pt;margin-bottom:.4pt;
+margin-left:.5pt'>Figure <sup><span style='font-size:15.5pt;line-height:112%'>6</span></sup>.<sup><span
+style='font-size:15.5pt;line-height:112%'>34</span></sup>: Cafeteria Asturias<br
+clear=all style='page-break-before:always'>
+</p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:4.0pt;
+margin-left:-.75pt;text-indent:0in;line-height:110%'><span style='font-size:
+11.0pt;line-height:110%'>                                                                                                             </span>playing
+with images         147<br clear=all style='page-break-before:always'>
+</p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:.5pt;margin-bottom:9.2pt;
+margin-left:14.3pt;text-indent:-14.3pt'><span style='line-height:112%'>5)<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp; </span></span>Show it
+the nutritional information of a chocolate bar and ask it to approximate the
+Nutriscore value for that product.</p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:.5pt;margin-bottom:9.2pt;
+margin-left:14.3pt;text-indent:-14.3pt'><span style='line-height:112%'>6)<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp; </span></span>Ask it to
+draw a superhero similar to Batman (ChatGPT can’t work with copyrighted images)
+hugging a child he just saved from a dog bite.</p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:.5pt;margin-bottom:9.4pt;
+margin-left:14.3pt;text-indent:-14.3pt'><span style='line-height:112%'>7)<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp; </span></span>Ask for
+an image of dragons playing basketball on Mars.</p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:.5pt;margin-bottom:9.2pt;
+margin-left:14.3pt;text-indent:-14.3pt'><span style='line-height:112%'>8)<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp; </span></span>Ask for a
+design of a perfume bottle with citrus tones. The perfume should evoke beauty,
+nature, and tranquility.</p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:.5pt;margin-bottom:.4pt;
+margin-left:14.3pt;text-indent:-14.3pt'><span style='line-height:112%'>9)<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp; </span></span>Think of
+a funny image for a comic-style T-shirt, for example, a chicken next to a fried
+egg (which was his friend Pepe) asking him what happened to him.<br clear=all
+style='page-break-before:always'>
+</p>
+
+<h1 style='margin-top:0in;margin-right:0in;margin-bottom:31.9pt;margin-left:
+-.25pt'>Audio, conversations, customization, limits and risks</h1>
+
+<div>
+
+<table cellspacing=0 cellpadding=0 hspace=0 vspace=0 align=left>
+ <tr>
+  <td valign=top align=left style='padding-top:0in;padding-right:0in;
+  padding-bottom:0in;padding-left:0in'>
+  <p class=MsoNormal style='margin:0in;text-indent:0in;line-height:26.25pt'><span
+  style='font-size:27.0pt'>T</span></p>
+  </td>
+ </tr>
+</table>
+
+</div>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:.5pt;margin-bottom:.4pt;
+margin-left:.5pt'>he web is not the only way to utilize AI models, and chat</p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:.5pt;margin-bottom:.4pt;
+margin-left:.5pt'>is not the only mode of interacting with them. In this final</p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:14.35pt;margin-bottom:
+26.25pt;margin-left:.5pt'>chapter, we will discuss other ways to use LLMs and
+other more advanced topics that have not been covered in the previous chapters,
+as well as customization options or the risks and limits of this technology.</p>
+
+<h2 style='margin-top:0in;margin-right:58.45pt;margin-bottom:10.4pt;margin-left:
+2.05pt'>Alternative uses</h2>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:18.85pt;margin-bottom:
+24.1pt;margin-left:.5pt'>Thanks to the mobile version or the paid version of
+ChatGPT, we have alternative ways to make the most of the models. In this
+section, we will describe them and give you ideas for using them.</p>
+
+<h3 style='margin-top:0in;margin-right:0in;margin-bottom:8.1pt;margin-left:
+2.05pt'>Audio</h3>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:15.25pt;margin-bottom:
+.4pt;margin-left:.5pt'>The first one is through audio messages (similar to
+WhatsApp) and is only available for the mobile application of ChatGPT. To use
+it, simply tap the microphone icon as shown in the Figure 6.1, and it will
+start recording until we tap again.</p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:14.0pt;margin-bottom:
+.4pt;margin-left:0in;text-indent:11.95pt'>Indeed, it is an incredibly useful
+feature for transcribing anything, but it becomes even more powerful when
+combined with the model. The possibilities are endless; you can use it to
+better prepare a presentation or to organize your thoughts and generate a draft
+of an article.</p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:-7.65pt;margin-bottom:
+12.9pt;margin-left:-7.65pt;text-indent:0in;line-height:107%'><span
+style='font-size:11.0pt;line-height:107%'><img border=0 width=368 height=352
+id="Group 28575"
+src="ChatGPT%20-%20Learning%20Prompt%20Engineering%20With%20100%20Examples_files/image027.gif"></span></p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:.5pt;margin-bottom:31.1pt;
+margin-left:.5pt'>Figure 6.1: Screenshot showing the use of audio messages. audio,
+conversations, customization, limits and risks        151</p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:63.15pt;margin-bottom:
+.4pt;margin-left:0in;text-indent:11.95pt'>You can even use it to record group
+conversations or with other people. For example, a family member explaining a
+complex recipe to you and asking ChatGPT to help you understand it better.<br
+clear=all style='page-break-before:always'>
+</p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:12.9pt;
+margin-left:9.9pt;text-indent:0in;line-height:107%'><span style='font-size:
+11.0pt;line-height:107%'><img border=0 width=368 height=352 id="Group 28674"
+src="ChatGPT%20-%20Learning%20Prompt%20Engineering%20With%20100%20Examples_files/image028.gif"></span></p>
+
+<p class=MsoNormal align=center style='margin-top:0in;margin-right:2.05pt;
+margin-bottom:24.3pt;margin-left:3.3pt;text-align:center;line-height:110%'>Figure
+6.2: Screenshot showing the conversation mode.</p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:.5pt;margin-bottom:.4pt;
+margin-left:.5pt'>respond to you in the same language. You can customize this
+experience a lot by describing a situation you want to simulate and the role
+you want the model to assume. Below, we provide an example you can use:</p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:4.0pt;
+margin-left:-.75pt;text-indent:0in;line-height:110%'><span style='font-size:
+11.0pt;line-height:110%'>                                         </span>audio,
+conversations, customization, limits and risks                    153<br
+clear=all style='page-break-before:always'>
+</p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:-9.6pt;margin-bottom:
+12.95pt;margin-left:0in;text-indent:0in;line-height:107%'><span
+style='font-size:11.0pt;line-height:107%'><img border=0 width=404 height=458
+id="Group 28196"
+src="ChatGPT%20-%20Learning%20Prompt%20Engineering%20With%20100%20Examples_files/image029.gif"></span></p>
+
+<p class=MsoNormal align=center style='margin-top:0in;margin-right:0in;
+margin-bottom:25.6pt;margin-left:3.3pt;text-align:center;line-height:110%'>Figure
+6.3: Sample of available plugins.</p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:.5pt;margin-bottom:.4pt;
+margin-left:.5pt'>automatically when starting the conversation. The first
+option is used to provide the model with more information about you so that it
+can respond to you in a more personalized way. For example: your occupation,
+preferences, etc. The second option is much more interesting; it is used to
+give commands to the model, which it will rigorously follow. For example, you
+can set rules for your children to use this language model more safely:
+&quot;Respond in a simple and friendly manner. Use words that a small child of</p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:.5pt;margin-bottom:.4pt;
+margin-left:.5pt'>10 years old can understand. Avoid any adult topics.&quot;</p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:4.0pt;
+margin-left:-.75pt;text-indent:0in;line-height:110%'><span style='font-size:
+11.0pt;line-height:110%'>                                         </span>audio,
+conversations, customization, limits and risks                    155<br
+clear=all style='page-break-before:always'>
+</p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:-27.7pt;margin-bottom:
+12.95pt;margin-left:0in;text-indent:0in;line-height:107%'><span
+style='font-size:11.0pt;line-height:107%'><img border=0 width=404 height=219
+id="Group 28234"
+src="ChatGPT%20-%20Learning%20Prompt%20Engineering%20With%20100%20Examples_files/image030.gif"></span></p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:.5pt;margin-bottom:20.15pt;
+margin-left:61.9pt'>Figure 6.4: Sample of available plugins</p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:.5pt;margin-bottom:.4pt;
+margin-left:.5pt'>multiplications that elementary school students can easily
+do.<br clear=all style='page-break-before:always'>
+</p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:-.75pt;margin-bottom:
+23.75pt;margin-left:0in;text-indent:0in;line-height:185%'><span
+style='font-size:11.0pt;line-height:185%'>                                         </span>audio,
+conversations, customization, limits and risks                    157</p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:32.0pt;margin-bottom:
+.4pt;margin-left:0in;text-indent:11.95pt'>Now, ChatGPT has accessed Wolfram
+Alpha to solve the multiplication.</p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:58.05pt;margin-bottom:
+.4pt;margin-left:0in;text-indent:11.95pt'>With the plugin activated, ChatGPT is
+now capable of performing more complex mathematical tasks. Let’s see an
+example:<br clear=all style='page-break-before:always'>
+</p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:.5pt;margin-bottom:.4pt;
+margin-left:0in;text-indent:11.95pt'>LLMs also make mistakes, as we have seen
+in some examples, and the problem is that often their errors are convincing,
+and we may take them as valid. These erroneous yet believable responses are
+generally known as hallucinations, and both companies and researchers are
+working to eliminate them and make the responses of LLMs more reliable. To
+minimize hallucinations, it is often a good idea to add the following sentence
+to your prompt:<br clear=all style='page-break-before:always'>
+</p>
+
+<h1 style='margin-left:-.25pt'>In conclusion</h1>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:.5pt;margin-bottom:.4pt;
+margin-left:5.0pt;text-indent:-5.0pt'><img width=12 height=36
+src="ChatGPT%20-%20Learning%20Prompt%20Engineering%20With%20100%20Examples_files/image031.gif"
+align=left hspace=12>n this book, we have tried to gather some basic tricks to
+learn how to use ChatGPT and other LLMs step by step. We started</p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:.5pt;margin-bottom:.4pt;
+margin-left:.5pt'>with simple examples and gradually introduced more advanced
+techniques to show the reader the immense possibilities of this new technology,
+which evolves day by day and never ceases to amaze us.</p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:.5pt;margin-bottom:.4pt;
+margin-left:0in;text-indent:11.95pt'>With what you have already learned and
+practiced, it is time that you seek out new prompts and applications for your
+daily life, both at home and at work. Just as programming is learned by
+programming, writing prompts is also learned by interacting extensively with
+LLMs, through trial and error, starting with simple questions and then moving
+on to more complex scenarios. Before the reader embarks on their own journey in
+using LLMs, we want to conclude with some advice and recommendations.</p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:.5pt;margin-bottom:.4pt;
+margin-left:0in;text-indent:11.95pt'>Experiment with various question and task
+formats, such as creative writing, problem solving, or code generation. It is
+helpful to read the available documentation and usage examples to gain a deeper
+understanding of its advanced features. Feedback is crucial, so by correcting
+incorrect or inaccurate ChatGPT answers, you contribute to their learning.
+Lastly, maintain a critical approach and be aware of the limitations of the
+model, ensuring that you verify the information provided and do not rely entirely
+on it for critical decisions.</p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:21.85pt;margin-bottom:
+.4pt;margin-left:0in;text-indent:11.95pt'>Recall that LLMs experience sporadic
+hallucinations. Hallucinations in the context of ChatGPT and other language
+models refer to when the model generates information that is false, inaccurate,
+or nonsense, but does so convincingly. These responses can range from subtle
+errors in data or</p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:.5pt;margin-bottom:.4pt;
+margin-left:.5pt'>dates to completely fictitious claims that appear convincing.
+Hallucinations are a known challenge in natural language processing AI and can
+be caused by various reasons: limitations in training data, the way a question
+is formulated, or inherent biases in the model. Combating hallucinations
+involves techniques such as adjusting training methods, improving response
+validation algorithms, and designing interfaces that allow users to provide
+feedback to correct these errors.</p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:.5pt;margin-bottom:.4pt;
+margin-left:0in;text-indent:11.95pt'>It’s also interesting for you to learn
+more details about LLMs, such as their main configuration parameters like <i>temperature
+</i>and <i>top probability</i>. The temperature controls the degree of
+randomness in the LLM’s responses. If set to zero, it will always choose the
+most probable response, while higher values allow it to choose between
+different responses based on their estimated probability. In other words,
+temperature allows us to control the &quot;creativity&quot; of the LLM. Another
+common parameter is <i>top probability</i>, which allows us to set what
+responses the LLM can choose: if set to 1, it can choose from all responses,
+but if, for example, set to 0.8, it can only choose the most probable responses
+that sum up to 80</p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:.5pt;margin-bottom:.4pt;
+margin-left:0in;text-indent:11.95pt'>Again, <i>top probability </i>allows us to
+control the randomness of the responses. There are also parameters that allow
+penalizing word repetition or setting the maximum size of the LLM’s response.
+As you progress in using LLMs, it’s convenient for you to become familiar with
+all these possibilities. Currently, many of these options are only accessible
+through the LLM’s programming interface, in more advanced or paid versions, but
+they will likely become more accessible in the future.</p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:.5pt;margin-bottom:.4pt;
+margin-left:0in;text-indent:11.95pt'>But hey, that’s enough of us talking so
+much about ChatGPT, let’s let it close the book.</p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:4.0pt;
+margin-left:-.75pt;text-indent:0in;line-height:110%'><span style='font-size:
+11.0pt;line-height:110%'>                                                                                                                          </span>in
+conclusion         161</p>
+
+</div>
+
+<span style='font-size:10.0pt;line-height:112%;font-family:"Calibri",sans-serif;
+color:black'><br clear=all style='page-break-before:always'>
+</span>
+
+<div class=WordSection17>
+
+<p class=MsoNormal style='margin:0in;text-indent:0in;line-height:107%'>&nbsp;</p>
+
+</div>
+
+</body>
+
+</html>

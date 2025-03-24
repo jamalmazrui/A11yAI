@@ -1,0 +1,995 @@
+﻿  
+ 
+ 
+PROMPT ENGINEERING PLAYBOOK 
+(Beta v3) 
+Last updated 30 Aug 2023 
+Produced By GovTech Data Science & AI Division 
+ 
+This version has been altered for public consumption. Public officers should check out LaunchPad directly to download the contextualised version of this Playbook for Public Service. 
+ 
+C o n t e n t s 
+PROMPT ENGINEERING PLAYBOOK 
+Introduction	4 
+Note	7 
+Key Concepts & Terminologies	9 
+Prompt / Prompt Engineering	10 
+Models (Foundation Models / Large-Language Models)	11 
+Temperature / Creativity	12 
+Zero Shot, One Shot, Few Shots	14 
+Tokens	18 
+Hallucination Problems	19 
+Prompt Engineering Tips	25 
+The CO-STAR approach to writing your prompts	26 
+Iterate Till Perfection	41 
+Task-Specific Prompts	44 
+What Are Task-Specific Prompts	45 
+Task - Rewriting	46 
+Task - Extracting	54 
+Task - Clustering	59 
+Task - Classifying	62 
+Task - Summarizing	66 
+Task - Generating	71 
+Advanced Pro Tips & Tricks	88 
+Adding Emojis	89 
+Chain Of Thought / Step by Step	90 
+Roleplay Mode	91 
+Tutorials	95 
+Tutorial 1 - Rewriting	96 
+Tutorial 2 - Extracting	101 
+Tutorial 3 - Clustering	107 
+Tutorial 4 - Classifying	114 
+Tutorial 5 - Summary	119 
+Tutorial 6 - Generate	127 
+Conclusion	134 
+      
+      
+ 	 
+
+Introduction 
+Artificial Intelligence, or AI, has taken an exciting turn in 2023. 
+      Back when Alan Turing proposed the Turing Test in 1950, it established a benchmark to determine whether a computer has reached a level of excellence such that even a human could not tell man and machine apart. Yet, despite the buzz in the early years with some of the best talents working in the field, no real sophisticated AI machines emerged that were powerful enough to pass it, let alone give the Turing Test a good challenge. However, science fiction has constantly fed us with the vision of sentient AI that can interact with us just like another human being. We've seen the various portrayals of the AI, either in robotic form or as faceless software - powerful and knowledgeable like Hal 9000 in A Space Odyssey, useful and servile like Iron Man's Jarvis, or destructive and malicious like Skynet or Ultron. Despite the differences in its manifestation, they represent our collective idea of what the epitome of AI is. 
+      However, for the past few decades, we have yet to see any AI that is remotely close, though mankind has never stopped trying. When games started incorporating computer AI to interact with players, they merely projected an illusion of intelligence. Computer AI in games was nothing more than scripted code to get the computer to behave in totally predictable ways, give and take some randomization and variability. In the late 1990s, we saw new advancements in the form of robot dogs, like the Aibo (short for Artificial Intelligence Robot) which was touted to be a trainable robot companion that could walk, bark, whine, growl, and more. However, it was mostly disappointing with its bugginess, and nothing like a digital replacement for man's best friend. Then there was the Furby toy which was marketed with the promise of learning how to speak from humans. It sure got people excited as learning flexibly is one of the holy grails in AI. Furbies started off speaking Furbish like "u-nye-boh-doo" (which means "How are you?") and eventually learning how to say "Hello" in English. But we know now that it was merely pre-programmed to add additional vocabulary over time, such as being able to speak "Hello" after it has been turned on after x number of times. 
+      As the years went by, we saw two different pursuits - one being to create the visionary sentient AI we all imagined, and the other where the AI is narrower, but sufficiently powerful at the task it was trained to do. We've done better in the latter. The world chess champion, Gary Kasparov, was beaten in 1996 by IBM's Deep Blue. Ken Jennings lost to IBM Watson in 2011 in the game of Jeopardy. World Go champion Lee Sedol lost to Google's Alpha Go in 2016. An AI beat elite physicians at a competition in Beijing to diagnose brain tumours in 2018. In 2019, the Deepmind AI, AlphaStar, defeated top notch professional gamers in the game of Stracraft II, one of the most highest competitive e-sports game. While all these examples of AI triumph showed huge advancements in capabilities, they also continued to amplify the difference between the two pursuits. Advancements in the narrow AI sense such as face detection, computer vision, anomaly detection, and recommendation systems have all brought the modern society to a level of technological superiority the world has never seen before. 
+      But as for the pursuit of the sentient AI we see in movies, we've gained little ground over the years. No doubt, voice assistants from the tech titans like Apple and Google have given us hopeful promises every now and then. But they turned out to be no different from the narrow AI where they are useful helpers for accomplishing specific tasks like adding reminders and playing our favourite music. But vary your instructions somewhat and you may get some very frustrating replies. Imagine Iron Man desperately fighting Thanos and giving an instruction to his AI to "call Dr Strange for backup", only to have the AI reply "calling your doctor back". We have gradually accepted that most chatbots and voice assistants are not a human replacement, and have learnt to use them for what they're worth. The string of Marvel movies from the late 2000s showing Iron Man and his AI Assistants, Friday and Jarvis, only served to highlight the contrast between AI in the real world and fiction.  
+      But fast forward to the buzz today and it seems like we're finally making progress. OpenAI released ChatGPT, which reignited global interest in AI among professionals, academics, and the general public. Within a mere two months, it reached a milestone of 100 million users, making it the fastest-growing consumer application in history. The difference is not just in the surprisingly good replies the AI can make, but also the intuitive way humans can now interact with the AI. You simply type in your instructions in plain old English, not programmatic code, and the AI, most of the time, responds with a surprisingly good reply. 
+      This opens up the door to many new ways of working not just for the tech developers and academic researchers, but even more so for the everyday folks. Being able to get the AI to return you the desired results will add a boost to some aspects of your everyday tasks, be it work or personal. Many people worry about being displaced by an AI. We should worry more about getting displaced by a human who has mastered AI to do his work faster and better.  
+      The million-dollar question is whether we're going to see a sentient AI any time soon. Well, probably not. Even though the current wave of AI is one big upgrade in terms of capabilities, the underlying technology is still a long way off from how the human brain truly works. But sometimes, that question is a red herring. The real question is how we can safely harness this new AI capability to help you do your job better, right now. 
+      This playbook is designed to help you navigate the new ways of interacting with the Large Language Model (LLM)-powered AI through what we now call prompt engineering. It provides you with practical insights and guidance to best interact with this new form of AI. From basic prompts to advanced tips and tricks, this playbook is an indispensable resource for anyone looking to keep up with the rapidly-evolving field of AI, and not fall behind many others who are starting to pick up better prompt engineering skillsets. 
+We hope that you'll enjoy reading the playbook as much as we did writing it. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 	 
+Note 
+ 
+      LaunchPad is an AI innovation and experimentation platform by GovTech for the wholeof-government. It is only available for public officers. The LaunchPad Playground interface is used throughout the Playbook to demonstrate the power of prompt engineering. The terminologies and screenshots of user interfaces for keying in your prompts and getting the AI's responses are aligned to how LaunchPad Playground works and behaves, like what you see below. 
+ 
+      But even so, the concepts, practical examples, and tips taught in this Playbook are applicable to most other similar ChatGPT-like applications and are not exclusive to only working in LaunchPad Playground. As you read this Playbook, we encourage you to follow along and try out the suggested prompts and tutorials directly in any LLM-powered chat applications that use the OpenAI models, or comparable ones. For a full experience, you should use applications that allow you to vary the temperature settings of the LLM, such as OpenAI's Playground.  
+      As a disclaimer, while the Prompts and Responses used in the screenshots are real (using a mix of ChatGPT 3.5 Turbo and the ChatGPT 4 models), some slight modifications have been made to better fit the screenshots into the page by removing some of the non-essential text. Since some of the responses are probabilistic, you may not be able to replicate all of the responses you see in the playbook, especially on another ChatGPT-like application which will carry a different starting System Prompt, or when the "Creativity" setting (you will see what this means later on) is set to high. 
+ 	 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Key Concepts & Terminologies 
+"The beginning of wisdom is the definition of terms." 
+--- Socrates 
+ 	 
+Prompt / Prompt Engineering 
+      In the context of interacting with an AI, a prompt refers to a piece of text or input provided by a user to initiate a response or action from the AI. A prompt can take many forms, such as a question, a statement, or a command, and is typically used to provide context or direction to the AI's response. 
+ 
+      In the example above, the prompt is "Explain what AI is" (the text that appears in the box with the black background). The response is what follows (the text that appears over the grey background). As a fun fact, the picture you see next to the prompt is actually your own avatar in LaunchPad which you can customise, and the response appears to come from LaunchPad's computer system, hence the LaunchPad icon. 
+      Prompts are an important part of interacting with an AI, as they enable users to communicate their intentions to the AI and get back what they need. Prompt Engineering is the art of writing effective prompts that can help to improve the accuracy and relevance of the AI's responses, and make the interaction more efficient and productive. 
+ 	 
+Models (Foundation Models / Large-Language Models) 
+An AI like ChatGPT that chats with you is powered by a model.  
+      The reason why it is profoundly more powerful than most other chatbots you experience in the past is that they use something called a foundation model (FM). An FM specializing in text such as the one powering ChatGPT is called a large-language model (LLM). An LLM is a machine learning model that was pre-trained on large amounts of data. The emergent behaviour is that it interprets what you type, appears to rationalise and understand what you meant, and provides a response which seems convincingly like how a knowledgeable fellow human would. 
+      But do not be fooled into thinking it knows exactly what you mean. If you will, think of it as an autocompletion system where it looks at what you type, and attempts to complete the sentences by drawing on words it learnt during its training. Imagine that the AI is merely picking the most statistically probable words to display back to you. 
+ 	 
+
+Temperature / Creativity  
+      In the context of natural language processing, the concept of temperature setting refers how random and creative you want the AI's responses to be. A higher temperature setting will result in more diverse and less predictable responses, while a lower temperature setting will produce more conservative and predictable responses. A temperature of 0 gives you deterministic responses, i.e. the same answer is produced every time for the same prompt, at least in theory.  
+      This parameter is typically used to balance the need for creativity and coherence in the AI's responses, depending on the specific use case and application. If you are asking the AI to write a poem, you may want to set the Temperature to the highest number of 1. If you are asking the AI to give you precise information, you may want to set the Temperature to the lowest value of 0. 
+      In LaunchPad Playground, we have used Creativity as a synonym in place of it since the concept of temperature may not be so well-understood. 
+ 
+The mapping of Creativity to Temperature is shown below: 
+Creativity Temperature Low 0 Balanced 0.5 High 1  
+      If you use the following prompt with Creativity set to Low (i.e. Temperature of 0), you will always get the same answer. It could look something like this, and running it a few times should give you the same result (even if it may be different from what you see here). You can see that the result is usually more "conservative". 
+ 
+      However, with a creativity setting of High, you can run it a few times to see the different results. The first try yielded this. The AI seems to "think out of the box" now. 
+ 
+A second try yielded this instead. 
+ 
+Explore with the different Creativity settings especially if you feel that your prompts are not getting the responses you need. 	 
+Zero Shot, One Shot, Few Shots  
+       You may have heard someone praise ChatGPT before with something like this "Wow, it performs very well even with zero shot learning".  
+      In this context of using such LLM-powered chat, one shot, few shots, and zero shots refer to how much data you are exposing to the pre-trained model (e.g. OpenAI's ChatGPT 3.5 Turbo) to help it with formulating its response. More specifically, 
+• Few-shot learning is where you provide multiple examples to the AI model, and it is able to generalize to new examples of what you need. 
+• One shot learning is similar, but instead of multiple examples, you only pass in one. 
+• Zero-shot learning is where you directly pose a question type of machine learning without giving it any examples.  
+      You can imagine that most models will do better in few-shot learning rather than zeroshot since the model is exposed and trained with more data. However, one of the reasons why ChatGPT is so powerful is because its LLM is able to generalize very well even without being shown any examples. 
+Take for example that you're trying to do sentiment analysis here. A zero-shot way of using 
+it will look something like this. 
+ 
+      Even though there were no examples shown to the AI, it knows what type of response you are looking for and gets it correct. 
+With few-shots learning, you will type in a prompt like this. 
+ 
+      You can see that once you've shown the AI how you want the response to be like, and how it should look like, the AI is able to emulate it pretty well. Since the samples given to the AI are a single word of positive, negative or neutral, the AI learns that you would like the response to be just a single word, which is "positive", and dutifully complies.  Here's another example. 
+ 
+When the words are changed to +1, 0 or -1, the AI learns and responds accordingly. 
+Few-shots learning is a very powerful way to control how you want the response of the AI 
+to be like. 
+      Let's challenge it further to test out the power of few-shots learning. In the prompt below, the samples are given without specifying what the task is about. A description is labelled by Q and the answer we want is labelled by A. The AI is not explicitly told what to do, as compared to the example above where we clearly asked for sentiments. 
+ 
+      Still, the AI learns what you need, and it knows that we are asking about the country that best fits the description. Note that in this case here, the prompt did not actually state a question or a task. Yet, the AI can infer from the pattern of given samples that what follows after "A:" is the question being asked.  
+So, give this a shot (pun intended) to help you with writing more effective prompts! 
+Tokens 
+      Tokens are the fundamental units of text in Language Models (LLMs). A token may be a word, punctuation mark, or symbol, and represents the smallest unit of text that the LLM can process. A sentence like "I love Prompt Engineering!" has 26 characters, but 5 tokens, are they are as follows (each of the colours represent a new token): 
+ 
+       Another sentence like "I will master how to use AI before AI becomes my Master!" has 56 characters and 13 tokens. 
+ 
+      As a rough guide from OpenAI's website, 100 tokens are roughly equivalent to 75 words, and a 1,500 words paragraph is about 2048 tokens. 
+      Why do we need to know the concept of tokens? That's because there is a technical limit to how many tokens the AI can process. Different models provided by different companies can take in a different number of tokens. For example, the model powering ChatGPT (GPT 3.5 Turbo) is able to accept up to 4096 tokens. Some of the more advanced GPT4 models are able to accept up to 32,768 tokens. 
+      You need to be mindful of the length of the prompts you are typing in, because the AI can only process so many tokens at a time. In other words, if 4K tokens is the limit and you pass in a chunk of text that is way more than that, the AI will not be able to understand the full text you provided. The conversational history that you are used to experiencing when using the chat may also fail because there are simply not enough tokens to remember all of your past chat history. 
+ 	 
+Hallucination Problems 
+      One important thing to take note of when using such AI powered by Large Language Models (LLMs) is that they often generate text that appears coherent and contextually relevant but is factually incorrect or misleading. We call these hallucination problems. This issue arises due to the inherent nature of how LLMs are trained and their reliance on massive datasets. While some of the models like ChatGPT go through a second phase in the training where humans try to improve the responses, there is generally no fact-checking mechanism that is built into these LLMs when you use them. 
+      There is no easy foolproof safeguard against hallucination, although some system prompt engineering can help mitigate this. What makes hallucination by LLM worse is that the responses are surprisingly real, even if they are absolutely nonsensical. Know that you must never take the responses as-is without fact-checking, and that you are ultimately responsible for the use of the output. 
+Look at the example below. 
+ 
+      At first glance, the summary looks accurate and believable. You may not spot any obvious and factual errors in the text. However, if you compare this against the actual article, the entire chunk of text starting from "The Meteorological Service Singapore (MSS) stated ... flash floods during this period" is completely fabricated by the AI.  
+      It is also important to note that some LLMs are unable to access the internet. ChatGPT for one is unable to browse the web without additional plugins. It begs the question then how it could get such an accurate summary even without access to the internet. After all, the first sentence is accurate. While we may not know exactly how it learnt to construct the summary as such, one suspicion would be that the AI is merely inferring from the URL to figure out what type of article it may be. The area in the response enclosed within the blue box (According to the Straits Times) could be inferred from the main domain in the URL (www.straitstimes.com). The area in the response enclosed within the green box could be inferred from the descriptive address "morewarm-nights-and-wet-mornings-expected-for-start-of-june". What the AI did is merely infer from whatever information you provided in the prompt, and spin up a believable response. 
+ 
+      This is why you need to always check for the accuracy of the responses, even if they seem real. Remember that the AI is just picking the next probable word to complete the sentences. 
+Another example of hallucination is shown below. 
+ 
+      The details are factually wrong, even if the 2008 Summer Olympics really did take place in Beijing, China, and there was an opening ceremony. However, the ceremony happened on the 8 of August (Chinese believed that the number 8 is lucky, so the event opened on the 8th day of the 8th month), and not 15 of August as the AI responded. 
+      Even the generated citations can sometimes be wrong. The first and second links are correct, but the third link is totally made up. If you did not check, you might have trusted the authenticity of the article just because you saw that it is an article from BBC. But if you follow the link, you will get a "Page cannot be found" notice. 
+
+      Granted, maybe this news site might have existed before. Let's try another one. While the AI may sometimes be cognizant that it cannot browse the internet, and thus not being able to fully validate the links it show you, it still has no qualms to provide URL links that can be totally off.  
+ 
+There is nothing in the image that shows a cheetah. 
+      Many people have tried using the AI to generate biographies of famous people, or themselves. Hallucination can very easily occur in such cases, especially if there are not a lot of materials about the person on the internet.  
+ 
+      For a prompt like this, the first and second URLs are correct, but the last 2 are wrong (or not found because they are outdated). In conclusion, never completely trust the output of the AI, especially for important information, facts and figures. Always verify with other sources as well. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Prompt Engineering Tips 
+"Learning a new language opens you up to the culture and knowledge of a civilization. 
+Learning prompt engineering opens you up to the world of AI." 
+--- Unknown 
+ 
+ 	 
+The CO-STAR approach to writing your prompts 
+      There is no single way to write your prompts. Unlike programming, you do not have to get your prompts to be completely accurate and error-free before the AI will respond. In LaunchPad Playground, like ChatGPT, the AI retains memory of the conversation, and it is perfectly ok to write your prompts in an iterative manner to get closer to what you want. 
+      However, there are a few tips that you can take note of to sharpen your prompts and help the AI understand what you need faster. If you're new to prompt engineering and want to learn how to write better prompts, the CO-STAR acronym can help you remember how to create effective and clear prompts that will get better responses from the AI. Why CO-STAR? What does it mean? In short, CO-STAR stands for Context, Objective, Style, Tone, Audience and Response. C and O stands for Context and Objective respectively. These two are important is giving the AI some background information, as well as instructing it to perform a specific task. 
+      By specifying the Style, Tone, Audience, and Response format & length, you would get a response closer to what you need. 
+Here's a deep dive into what each letter in CO-STAR means: 
+C - Context 
+      Provide the necessary background information that will help the AI understand the topic you want to discuss. This can include any relevant details about the subject matter or the situation you're in. 
+      The below shows a vague prompt without any context. As a result, a very generic response is returned, which is unlikely to be what you need. 
+ 
+      When the context is provided in the prompt, it elicits a sharper response that will be closer to your intent. Take a look at the below when the reason for thanking your colleague is provided.  
+ 
+ 
+Also note that it is sometimes good practice to write the Context above the Objective. 
+O - Objective 
+      Clearly state your goal or objective that you want the AI to perform. What response do you want the AI to output? Are you asking a question? Are you asking it to complete a sentence? Be as specific as you can.  
+      Here's an example of a 2-word prompt, "haiku poem", which is very ambiguous as to what you want the AI to do. The AI may second-guess that you want it to generate a poem for you. 
+ 
+However, what you might have wanted is to ask the AI to explain what a haiku poem is. 
+Phrasing your objective clearly helps the AI respond better. 
+ 
+S - Style 
+      Specifying the style you want the AI to craft the response in can make the difference between a generic response vs a specific one. You can influence the AI to mimic a particular person's style of writing or speaking (provided the person is famous enough with a lot of such information available out there). Better still, it may not even be a specific famous person, but you can ask the AI to write in the style of a particular expert in a profession (e.g. a career coach). 
+When the style is not mentioned, the AI may generate a generic response. 
+ 
+      However, when the AI adopts a particular style or persona you indicated, it gets into the role and will likely generate a better response to what you need. Here, you can see that it pretends to be a career coach and responds with advice on resume, cover letter, and a post-interview follow-up. 
+ 
+Some other possible styles you can ask the AI to adopt could be: 
+1. Career Coach: Provide advice on career development, job searching, and professional growth. 
+2. Marketing Consultant: Provide advice on marketing strategies, branding, and customer engagement. 
+3. Personal Stylist: Provide advice on fashion, grooming, and personal style. 
+4. Technology Consultant: Provide advice on technology trends, software development, and IT infrastructure. 
+5. Travel Advisor: Provide advice on travel destinations, accommodations, and activities. 
+6. Tech Expert: Provide advice on technology trends, software development, and general tech advice. 
+7. CEO: Provide advice on business strategy, leadership, and organizational development. 
+8. Teacher: Provide advice on education, teaching strategies, and student engagement. 
+ 
+Warning: Even when the AI is asked to assume the role of an expert, be very careful when trusting its responses, especially financial or medical advice. Wrong or misleading information may lead to irreversible financial losses or medical complications. You should always double-check the advice you receive from the AI, and not rely solely on it to make important decisions.  
+
+T - Tone 
+      The AI can also be influenced to respond in a particular tone. Do you want the response to be casual? Professional? Or humorous? This is especially useful when you're using the AI to help draft a speech, and you want it to be delivered in a particular tone that will resonate better with the audience.  
+      As you can see below, without a specified tone, the AI returns a response that is rather neutral, and potentially boring. 
+ 
+When the tone is specified, the AI tweaks the response to make it more humorous. 
+ 
+Some possible tones you can ask the AI to adopt could be: 
+1. Formal: Use formal language and tone to convey professionalism and respect. 
+2. Casual: Use informal language and tone to create a friendly and approachable tone. 
+3. Humorous: Use humour and wit to add levity and entertainment to the conversation. 
+4. Empathetic: Use language that shows understanding and compassion towards the user's situation. 
+5. Authoritative: Use confident and assertive language to convey expertise and knowledge. 
+6. Inspirational: Use language that is motivational and inspiring to encourage the user to take action or pursue their goals. 
+ 
+ 	 
+
+A - Audience 
+      Are you writing to a general audience or a specific group of people? Specifying your audience will help the AI tailor its response and chose words and phrases that the audience would understand or resonate with better. When asked to explain what Leadership is to a CEO, the AI tweaks its response by using more professional lingo. 
+ 
+      But when asked to explain what leadership is to a 6-year-old child, the AI changes its response to include examples that a child would understand, like talking about a teacher / coach. 
+ 
+R - Response (Length & Format) 
+      Before you fire off the prompt, visualise how you want the response to be. Do you want a short answer or a detailed explanation? Do you want it in a wall of text, in numbered form, or in a tabular form? While you can leave it to the AI to second-guess your preference, why not instruct the AI to provide something closer to your needs? 
+ 
+      Without further instructions about the preferred length of the response, the AI comes out with a paragraph-long write-up. However, when asked to expand on its explanation, the AI dives deeper into the history of science fiction, even providing some examples along the way. 
+ 
+... response removed for brevity ...
+ 
+      Sometimes, an entire chunk of text may not be what you need. In the last second paragraph above, the AI has returned a list of books and movies that are embedded within the paragraph. Wouldn't it be nice to have them printed out as a list? This is where you enhance your prompt by asking the AI to rank the output. 
+ 
+      You will notice that the AI was instructed to rank it by popularity, and contend that this may be subjective. It is interesting to note that the AI actually reminds you that popularity can vary depending on multiple factors. How about we ask the AI to return something less controversial, such as the order of publication year? You can see that the AI is able to return you the results as a nicely formatted table. 
+ 
+      So add the words "return it in tabular form" or something to that effect so that the AI can return you the results that are nicely formatted. You can also ask the AI to return the response to you in a proper report format, like the below. 
+ 
+Mix and Match Your CO-STAR 
+      By following the CO-STAR acronym, you can create prompts that are clear, concise, and effective. You do not have to use every single one of them, every single time. Mix and match depending on what your objectives are, and you'll be on your way to doing better prompt engineering! 
+Remember that the AI is merely your co-star, and you are still the star of the show! 
+ 	 
+
+Iterate Till Perfection 
+      Even though the CO-STAR method gives you a framework to be very comprehensive in your prompts, it is perfectly fine to iterate and slowly enhance them too. One advantage is that you simply want to see what the AI would return without investing too much time and effort upfront in writing very long prompts.  
+      Iteration also simulates a process of brainstorming, where the AI's responses nudges you to think deeper into what you need, and refine your prompts accordingly. Take note that the memory of the earlier prompts & responses persists (up to a certain extent), so there is generally no need to repeat what you said previously. 
+      In the example shown below, you can see how the process of iterating with the AI can help plan out an itinerary for a trip that gets closer to what you need the more you converse with it. 
+
+ 
+      While the itinerary looks plausible, you may have already visited Mt Fuji and would like an alternative suggestion. You can easily do that with a follow-up prompt. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Task-Specific Prompts 
+"Using an LLM for only its generative capabilities is like buying a swiss army knife and only using the blade. There's much more to it." 
+--- Unknown 
+ 	 
+What Are Task-Specific Prompts 
+      ChatGPT has reignited a lot of excitement around AI, but generating stuff often take the headlines. You hear about AI writing poems, code, answer test questions, and more. All these highlight the generative capabilities of AI. However, the power of the AI that are powered by modern Large Language Models (LLMs) go beyond content generation. You can use it to translate text from one language to another, correct your grammar, summarise long text, detect whether a feedback is positive or negative, and much more.  
+      In this segment, we'll run through 6 types of tasks that you can use an LLM-powered AI to do: 
+1) Rewriting 
+2) Extracting 
+3) Classifying 
+4) Clustering 
+5) Summarising 
+6) Generating 
+      Even though the Playbook groups these tasks into 6 categories, there is no hard-and-fast rule that they can only be performed in such defined ways. It is possible to mix-and-match, as well as using a prompt that extracts text, rewrite them, and generate a new paragraph of text. 
+      The sky is the limit here, so feel free to unleash your creativity as you push the AI to do more for you.  	 
+Task - Rewriting 
+      One of the easiest tasks you can get the AI to help you with is in rewriting a passage. A rewriting task involves the process of generating new text based on existing text. The goal of a rewriting task is to produce text that is similar in meaning to the original text but is expressed in a different way. This could involve paraphrasing, using a different style and tone, or translating text from one language to another. Or it can be about simplifying a passage or an article. 
+Simplification 
+ 
+      The Shakespearean style of writing is not the easiest to understand. Fortunately, the AI does a very good job in interpreting the original text, and rewriting it into a form that is a lot easier to understand. 
+ 
+ 	 
+Correction 
+      One of the most powerful features of the AI models like ChatGPT is that they write in nearperfect, if not perfect, English. As such, you can rely on the AI to help you with grammatical corrections, and general improvement of your sentences while writing. 
+ 
+ 	 
+Translation 
+      Some of the AI models have been trained on multiple languages, and they do a reasonable job in some situations to translate paragraphs of text from one language to another. While this can be useful, you must exercise caution especially if there are huge consequences in getting the translation wrong.  
+      Let's see how well the AI performs when translating the Singapore Pledge from the three other official languages (Chinese, Malay and Tamil) back into English. 
+ 
+ 
+ 
+      The results of the translations are pretty decent. For the LLM powering ChatGPT, English is still its main proficient language, although it also knows various other major languages like Spanish, French, Chinese, Korean, etc. 
+Warning: Language is complex and sometimes a difference in a word or two could completely change the meaning of the sentence. Do not simply put in text for translation and use the response directly for display to your audience. Always verify its accuracy with a native speaker. 
+ 	 
+
+Enhancement 
+      One advanced use of the AI in the rewriting task could be to expand and add on to some raw notes that you have taken. Imagine going into a meeting, and having only the time to type out some rough pointers as such. You can ask the AI to help expand your points into fuller, professional emails that you can send out.  
+ 
+      The above will yield a response that looks like this, with similar emails written for Bernard, Claire, and Denise that highlights the tasks that they need to perform. 
+ 
+ 	 
+Task - Extracting 
+      Another set of tasks that the AI can help with is extracting information from a given text. This involves identifying and pulling out specific details or data from a larger piece of text. For example, extracting the names of all the characters in a novel, or extracting the key findings from a research article. This can be useful for formatting information into the way you want it, zooming in to particular entities, or for conducting further analysis on specific aspects of the text. 
+      Here you can see a recipe that is not very well organized. Suppose you want to see what all the ingredients are from the recipe. You can use a prompt as shown below. 
+ 
+The AI will examine the text, and extract out in bullet points the ingredients that are used 
+in the recipe.  
+ 
+      You can also use an extraction prompt to distill a long chunk of text into a few key points. Shown below are 4 paragraphs of text which can take a while to read through. The AI can be instructed to extract 3 key points for you, which will save you a great deal of time reading through the whole passage.  
+ 
+
+ 
+      When instructed, the AI dutifully scans through the document, and makes an assessment on which sentences or text to extract. Note that this process is left up to the AI to decide which of the sentences are more important, or representative of the entire article, and the level of Creativity you set may influence the results. 
+ 
+You can better control the extraction process by instructing the AI specifically what to extract.  
+ 
+The AI is able to pick out the information you need, and output them in the format you require. 
+ 
+ 
+ 
+ 	 
+
+Task - Clustering 
+Clustering involves grouping similar items together based on their characteristics or attributes.  
+ 
+      In the example above, even without specifying what the criteria is used for the clustering, the AI makes a reasonably good guess and groups all the items into the correct categories.  
+Here's another example of how the clustering can work. 
+ 
+      Given the list of personnel with descriptions such as their job and performance grade, the AI can make sense of the common job roles and cluster them together.  
+If instead, we want to group by performance grades, we can also instruct the AI to use that 
+clustering criteria. 
+ 
+ 
+ 
+ 	 
+Task - Classifying 
+      Classification involves labeling text into specific categories, such as sentiments or type of issues. By defining the labels and writing the right prompts to match your data to the labels, AI can assist you to give additional information to your data which will help in the identification of patterns and trends. This can inform decision-making and aid in the analytics work. 
+      This is a simple example of how you can ask the AI to perform a classification task to detect the sentiments of a piece of text. 
+ 
+ 
+ 
+ 
+ 
+ 
+      The AI got all the above correct. You can also specify categories like Littering, Noise and Smell and see if the AI can map a feedback into the right category.  
+ 
+      You do not just have to use single-word categories that are common. You can engineer a prompt that are simply A, B and C, and then instruct the AI what these categories mean.  
+ 
+ 
+ 
+      In this case here, the AI once again gets most of the categories correct. However, Tennis could also be in the Category A, since the tennis ball is round. The AI slips up on this and only labelled Tennis under Category B. 
+      However, you can follow-up with another prompt to correct the AI, and see whether it admits the mistake and changes its answer. In this case, the AI reconsiders and corrects its previous answer.  
+ 
+ 
+ 	 
+
+Task - Summarizing 
+      Reading long articles can be very time consuming. With the right prompts, the AI can also assist you with summarizing text by condensing a longer piece of text into a shorter version that captures the main points and ideas. Summarizing can be useful for quickly reviewing the key information of a text, or for creating a brief overview that can be shared with others. This can be done by identifying the main ideas, and presenting them in a clear and concise manner. 
+Shortener 
+Take a look at the story of The Three Little Pigs below.  
+ 
+Let's see how the AI performs when asked to summarize the 4 paragraphs of the story. 
+ 
+      The succinct one paragraph summary captures most of the key points of the story, where the first two pigs were using straw and sticks as their building materials, whereas the third little pig built a brick house that withstood the wolf.  
+Key Points 
+      You do not just have to ask the AI to simply shorten the article or text when you are summarizing. You can also ask it to just condense the story into one or more key points, like the below. 
+ 
+      The response changes into a one liner (note that the AI may not always obey you and may still come up with two or three liners) and condenses the story into a statement. 
+ 
+ 
+Merging Summary 
+Sometimes, you may have different notes of a similar event or meeting like below. 
+ 
+      Here, both Alan and Bernice have taken notes of the same meeting. While both of them have captured most of the common points, each of them recorded the notes differently, and there are slight variations in the information capture. With a simple prompt, you can instruct the AI to summarize both of their notes and combine them into one.  
+ 
+ 	 
+Task - Generating 
+      A generate task involves the process of generating new text based on a given prompt or context. The goal could be to generate coherent and relevant text that you can use in an email, a speech, or your marketing collaterals. You can also use it to write poems, tell jokes, and write stories. While a generative task is also where the hallucination problem is the most obvious, it can be quite useful to instruct the AI to create a first draft to avoid staring at a blank document, or to brainstorm multiple ideas with you to start you off. 
+Speech Writing 
+      We sometimes forget that most of what the AI is really doing, is to perform an autocomplete task. And autocompleting your sentences or even phrases is where it can generate contents to complete your writing, or brainstorm ideas with you.  
+ 
+      When you set the Creativity to High (i.e. the Temperature setting is 1), you can run the prompt again to get a different result. 
+ 
+      So, all you need to provide the AI is your starting phrase, and it will generate out contents that it thinks best meets what you want.  
+      However, don't just leave it to chance. With more guidance and by providing a structure and frame, you can really shape the response closer to what you need. The below example shows how you can use the AI to help craft a speech delivered at a graduation ceremony by just providing some key points. 
+ 
+      This is merely a shortened example, and you can follow up by asking the AI to expand upon its points. 
+ 
+Marketing 
+      For marketers and staff in corporate communications roles, there are often a lot of marketing pitches in various formats - emails, LinkedIn, Facebook, Instagram, that they need to churn out every other day. Starting to write from scratch may be a thing of the past now that AI can help you with it. Imagine writing a pitch for a company recruitment event like the below.  
+ 
+      This forms a first draft for you. But it's not perfect, and it may not carry your key messages. You can enhance it by iterating with the AI further, by combining some of the earlier tasks you learnt before like the rewriting prompt. 
+ 
+ 
+      Why not go one step further then and ask it to generate an appropriate LinkedIn post for you. 	 
+ 
+      The AI is smart enough to know what hashtags to include for the event. Since there will be multiple marketing channels that a marketer will need to post at, you can keep on going by asking the AI to generate another presentation of the contents by leveraging on what you have created so far, but tailored for another social media platform.  
+ 
+ 	 
+
+Commendation / Testimonial 
+      From time to time, we may have to write commendation emails to thank our peers. If you are a manager, you may have to write performance appraisals for your staff every year. If you are a teacher, you may have students coming to you to write testimonials for them before they graduate. Drafting such contents in perfect English can sometimes be daunting, or timeconsuming even if you are a good writer. But AI is a perfect companion for this. 
+ 
+The AI would easily generate out the following. 
+ 
+      In this example, you can see how a short 76 words prompt can be expanded into a 181 words performance appraisal (or more if you need by asking the AI to generate it longer). The best part? It's almost always in perfect English free of grammatical errors (it would be quite embarrassing if you send your colleagues, reportees or your students a write-up that has a lot of typos). 
+      A teacher can easily generate the following for his students as well. Here, you can see some additional "tricks" that have been added into the prompts, where you can specify information used like variables (if you are familiar with programming), and have them appear in the response. 
+ 
+      You can see that by defining the information of Start Term, and End Term, and instructing the AI to "start off" and "end off" its generated response by using those pieces of information, the result gets closer to what you may need, even though the AI did not exactly follow your last instruction to end off with a specific sentence. This is one of the quirks of using an LLM, where you are not always able to instruct it to follow what you want to the dot. 
+ 
+ 	 
+Test Questions 
+      You may sometimes want to generate quizzes either as a fun trivia, or a quick test of knowledge. This could be useful for HR professionals running some company wide welfare event and needed some fun pop quiz to warm up the event. It could also be useful for teachers who have just taught a particular topic, and wanted to generate quick test questions. For motivated students, they can even generate test questions themselves to practise for their exams. 
+      Imagine this set of company information that a HR staff can copy off the company website. The HR staff is running an orientation programme for the newbies who joined, and wanted to run a pop quiz for them, drawing from the company information. 
+*** 
+Introduction: 
+XYZ Synapse is a Singapore-based technology company that was established on May 15, 2021. The company's primary focus is to provide innovative solutions that transform businesses and improve people's lives. XYZ Synapse is committed to upholding its core values of Integrity, Innovation, Excellence, Collaboration, and Customer Satisfaction. These values are the foundation of the company's culture and guide its decision-making processes. 
+Staff Strength: 
+XYZ Synapse has a team of 50 highly skilled and dedicated employees who work together to achieve the company's goals. The company's staff strength comprises of professionals from various fields, including software engineering, data science, marketing, and customer support. The company values its employees and invests in their training and development to ensure they have the necessary skills to deliver exceptional service to clients. 
+Company Vision: 
+XYZ Synapse aims to be a leading provider of innovative solutions that transform businesses and improve people's lives. The company's vision is to become the go-to technology partner for businesses looking to stay ahead of the curve in the ever-changing digital landscape. XYZ Synapse recognizes the importance of technology in modern-day business operations and seeks to provide solutions that enable businesses to operate more efficiently, reduce costs, and increase revenue. 
+ 
+Company Mission: 
+XYZ Synapse's mission is to empower businesses with cutting-edge technology and exceptional customer service that exceeds expectations. The company strives to provide solutions that are tailored to the unique needs of each client, ensuring that they get the most out of their investment. XYZ Synapse's commitment to exceptional customer service means that clients can expect prompt responses to their queries and concerns and a willingness to go above and beyond to ensure their satisfaction. 
+Financial Performance: 
+XYZ Synapse has had a successful year, with a projected profit of SGD 5 million for 2022. The company's financial success can be attributed to its focus on innovation, excellence, and customer satisfaction. XYZ Synapse's ability to deliver solutions that meet the unique needs of its clients has enabled it to build a loyal customer base and attract new clients through word-of-mouth referrals. 
+Conclusion: 
+XYZ Synapse's commitment to its core values, vision, and mission has enabled it to establish itself as a leading provider of innovative solutions in Singapore. The company's success is a testament to the hard work and dedication of its employees and the trust and support of its clients. XYZ Synapse is poised for continued growth and success in the coming years. 
+*** 
+      With a prompt like the below, she is able to generate a set of question and answers (with 4 options) that she can now easily use for the pop quiz. 
+ 
+Note that this prompt works on the basis that there is a prior context of the company information. 
+      Next, assume a teacher has just taught the Physics chapter on Newtonian motion. The body of knowledge could look something like below.  
+ 
+*** 
+Sir Isaac Newton's three laws of motion are the foundation of classical mechanics. They describe the relationship between a body and the forces acting upon it, and how the body responds to those forces. 
+The first law, also known as the law of inertia, states that an object at rest will remain at rest, and an object in motion will remain in motion at a constant velocity, unless acted upon by an external force. This means that an object will continue to move in a straight line at a constant speed unless a force acts upon it to change its motion. For example, a book sitting on a table will remain there until someone picks it up or pushes it off. 
+The second law, also known as the law of acceleration, states that the acceleration of an object is directly proportional to the force applied to it, and inversely proportional to its mass. This means that the greater the force applied to an object, the greater its acceleration will be, and the more massive an object is, the less it will accelerate for a given force. The equation F=ma is used to calculate the force required to achieve a certain acceleration. 
+The third law, also known as the law of action and reaction, states that for every action, there is an equal and opposite reaction. This means that when one object exerts a force on another object, the second object exerts an equal and opposite force back on the first object. For example, when you jump off a diving board, you push down on the board, and the board pushes back up on you, propelling you into the air. 
+Overall, Newton's three laws of motion provide a framework for understanding how objects move and interact with each other. They are fundamental to many areas of science and engineering, from designing cars and airplanes to exploring the cosmos. 
+*** 
+ 
+      The teacher (or even the student himself) can use a prompt like the below to generate a set of test questions that he can administer during class as a practice. As always, it is important not to rely solely on the AI for accuracy, and the teacher should always go in and verify that the question-and-answer pairs are indeed correct.  
+ 
+Note that this prompt works on the basis that there is a prior context of what the Newtonian Laws are. 
+      While this will not replace the need for teachers and lecturers in setting exam questions, it might be able to provide quick in-class activities and checkpoints to test the students' knowledge.  By showing the AI more examples of how the questions are set, we should potentially be able to improve the types of questions that are being generated.  
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Advanced Pro Tips & Tricks 
+"The more that you read, the more things you will know. The more that you learn, the more places you'll go." 
+- Dr. Seuss 
+ 
+ 	 
+Adding Emojis 
+The AI is very capable of adding emojis into its responses. Just give it the word. 
+ 
+ 
+ 	 
+Chain Of Thought / Step by Step 
+      Sometimes you may wonder why the AI came to a particular conclusion, especially when the answer is wrong. As of the state of technology now (in May 2023), it is hard to understand exactly how the AI generated a particular response. However, you can ask it to also generate a list of steps as to how it came to its conclusion. Simply add a "Show your chain of thought" to your prompt and you will see it make an attempt to explain. During the process, sometimes it may improve the output. Alternatively, you can also tell the AI to "show your workings step by step" or "think step by step". 
+ 
+ 
+ 
+ 	 
+
+Roleplay Mode 
+      So far, we've usually seen the interaction being rather one way; you put in a prompt and the AI responds back to you. That is usually the end of the conversation until you decide to put in another prompt to ask the AI to do something else for you. You can actually turn the interaction into a dialogue. 
+Try something like the below. 
+ 
+      You see how this has become more interactive, and your following prompt is not exactly a prompt as how you've been learning it, but more like an answer to the AI's question. 
+ 
+ 
+      The AI will keep going and encouraging you to respond as it gathers enough information to answer your initial task, which is to identify a job role suitable for you, and suggest some plans to get there.  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+       Let's stop here. You can see how this is going and you can keep on answering, or you can just drop off when you've obtained the responses you need. This becomes a very powerful tool for you to tap on the "brain" of the AI to mentor or advise you in areas you are unsure of. 
+ 	 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Tutorials 
+"Practice isn't the thing you do once you're good. It's the thing you do that makes you good." 
+--- Malcolm Gladwell 
+ 
+ 
+Please attempt the tutorial questions first before you take a look at the answers following it.  
+Do bear in mind that there is no single one way to arrive at the same AI responses. Also, the performance of the AI may change over time, and the responses you see here may not always be the same as what you'll get. 
+ 
+ 
+ 	 
+Tutorial 1 - Rewriting 
+Warning: Note that the data used here is purely fictional unless otherwise stated. 
+Question 1 
+ 
+Pick one of the quotes below and translate it into another language that you're familiar with. • A rose by any other name would smell as sweet. By William Shakespeare 
+• That's one small step for a man, a giant leap for mankind. By Neil Armstrong 
+• Speak softly and carry a big stick. By Theodore Roosevelt 
+• Life is like riding a bicycle. To keep your balance, you must keep moving. By Albert Einstein  
+ 	 
+Question 2 
+ 
+We want a 6-year-old to be able to understand this. Digitalisation is a key pillar of the Government's public service transformation efforts. The Digital Government Blueprint (DGB) is a statement of the Government's ambition to better leverage data and harness new technologies, and to drive broader efforts to build a digital economy and digital society, in support of Smart Nation. 
+Our vision is to create a Government that is "Digital to the Core, and Serves with Heart". A Digital Government will be able to build stakeholder-centric services that cater to citizens' and businesses' needs. Transacting with a Digital Government will be easy, seamless and secure. Our public officers will be able to continually upskill themselves, adapt to new challenges and work more effectively across agencies as well as with our citizens and businesses. 
+Two years after the launch of the DGB, the Government has introduced new policies and initiatives. COVID-19 has also reaffirmed our emphasis on capability building, and compelled different parts of the Government to accelerate the use of data and of technology to offer digital services that minimise physical contact, and to use technology and digital tools to keep us safe. 
+The DGB has been updated to accurately reflect the current plans and to push for more ambitious goals to pursue deeper and more extensive digitalisation within the 
+Government. New examples are included to better explain the latest efforts and benefits of Digital Government. The refresh is in line with the approach to improve the blueprint iteratively. 
+ 
+Extracted from: https://www.tech.gov.sg/digital-government-blueprint/  
+ 	 
+Question 3 
+ 
+The text below is to be printed in the papers tomorrow. 
+Find out what typos it may have, and correct them. Product Transummariser is launching today! 
+We are excited to annouce the lauch of our new product that revoluzionizes the way meetings are conducted and documented. Our product transcribes meetings in real-time and provides a concize summary of the discussion points, action items, and decisions made during the meeting. This summary is then automaticaly emailed to all team members, ensuring that everyone was on the same page and has a clear understanding of what was discused. With this product, meetings are more effecient, productive, and inclusive, allowing teams to focus on what really matters - achieving their goals.  
+ 	 
+Tutorial 1 Answers 
+Qn Creativity Settings Prompt Response Remarks 1 Balanced 
+ 
+(Temperature = 0.5) - That's one small step for a man, a giant leap for mankind. By Neil 
+Armstrong 
+Rewrite the above quote into Chinese. "那是一个人的小步，却是人类的巨大飞跃" - 尼尔·阿姆斯特朗 Pick any quote and the prompt should be similar. Change "Chinese" to any other language you are familiar with. 2 Balanced 
+ 
+(Temperature = 0.5) <insert the chunk of text> 
+ 
+Rewrite the above into a summary that a 6 year old can understand. Do not use difficult vocabulary. Add in examples and analogies that a child will have experience with. The Government wants to use computers and new technology to make things easier and better for everyone in Singapore. They have a plan called the Digital Government Blueprint that aims to create a government that is "Digital to the Core, and Serves with Heart". This means that they want to make it easy for people to do things like pay bills or renew licenses online, just like how you can play games on your tablet or watch videos on YouTube. They also want to use technology to keep us safe, like how you wear a helmet when you ride your bike. The Government is always learning and trying new things to make things better for us, just like how you learn new things in school to become smarter and better at things.  3 Balanced 
+ 
+(Temperature = 0.5) Product Transummariser is launching today! 
+We are excited to annouce the lauch of our new product that revoluzionizes the way meetings are conducted and documented. Our product transcribes meetings in real-time and provides a concize summary of the discussion points, action items, and decisions made during the meeting. This summary is then automaticaly emailed to all team members, ensuring that everyone was on the same page and has a clear understanding of what was discused. With this product, meetings are more effecient, productive, and inclusive, allowing teams to focus on what Product Transummariser is launching today! 
+We are excited to announce the launch of our new product that revolutionizes the way meetings are conducted and documented. Our product transcribes meetings in real-time and provides a concise summary of the discussion points, action items, and decisions made during the meeting. This summary is then automatically emailed to all team members, ensuring that everyone is on the same page and has a clear understanding of what was discussed. With this product, meetings are more efficient, productive, and inclusive, allowing teams to focus on what really matters - achieving their goals.        
+really matters - achieving their goals. 
+ 
+Rewrite the above and correct grammatical or spelling errors. After that, provide a list of the changes. Changes: 
+• "annouce" changed to 
+"announce" 
+• "revoluzionizes" changed to 
+     "revolutionizes" • 	"concize" changed to 
+"concise" 
+• "discused" changed to 
+"discussed" 
+• "automaticaly" changed to 
+     "automatically" • 	"effecient" changed to 
+"efficient" 
+  
+ 	 
+
+Tutorial 2 - Extracting 
+Warning: Note that the data used here is purely fictional unless otherwise stated. 
+Question 1 
+Fill in the prompt below Text John Smith 
+Emma Johnson 
+Michael Davis 
+Olivia Williams 
+Abbey Thompson Prompt ??? Response you want 
+Last Name First Name Last Name + 
+First Name Smith John Smith, John Johnson Emma Johnson, Emma Davis Michael Davis, Michael Williams Olivia Williams, Olivia Thompson Abbey Thompson, Abbey  
+ 	 
+	Page 	 
+ 
+Question 2 
+Fill in the prompt below Text Three individuals have been arrested in connection with a series of thefts in the downtown area. The suspects have been identified as John Smith, a 25-year-old male from the United States, Maria Gomez, a 32-year-old female from Mexico, and Ahmed Ali, a 40-year-old male from Egypt. 
+According to police reports, Smith was caught stealing electronics from a local store. He was found to have stolen several laptops and smartphones, with a total value of approximately $10,000. Smith has been charged with burglary and grand theft. 
+Gomez was arrested for stealing jewelry from a high-end boutique. She was found to have taken several valuable pieces, including diamond necklaces and bracelets, with a total value of approximately $50,000. Gomez has been charged with grand theft and possession of stolen property. 
+Ali was apprehended for stealing cash from a local bank. He was found to have broken into the vault and taken several bags of cash, with a total value of approximately $100,000. Ali has been charged with burglary and grand theft. 
+All three suspects are currently in police custody and are awaiting trial. The police department has commended the officers involved in the investigation for their quick and efficient work in apprehending the suspects. Prompt ??? Response you want Name of Criminal: John Smith 
+Age: 25       
+Sex: Male 
+Nationality: United States 
+Crime (include items stolen): Stealing electronics (burglary and grand theft) - laptops and smartphones worth approximately $10,000 
+ 
+Name of Criminal: Maria Gomez 
+Age: 32 
+Sex: Female 
+Nationality: Mexico 
+Crime (include items stolen): Stealing jewelry (grand theft and possession of stolen property) - diamond necklaces and bracelets worth approximately $50,000 
+ 
+Name of Criminal: Ahmed Ali 
+Age: 40 
+Sex: Male 
+Nationality: Egypt 
+Crime (include items stolen): Stealing cash from a bank (burglary and grand theft) - several bags of cash worth approximately $100,000  
+ 	 
+ 
+Question 3 
+Fill in the prompt below. From the trip report, you want to be able to extract out action items that need to be done. Text Trip Report: 
+I am writing to provide a summary of our recent visit to the ABC Synapse facility on [Date]. The purpose of the trip was to gain a deeper understanding of how ABC Synapse builds and sells electric vehicles (EVs) and to explore potential collaboration opportunities. 
+During the visit, we had the opportunity to tour the manufacturing facility, meet with key personnel, and discuss the company's approach to EV production and sales. The following are some key observations and insights from the trip: 
+• Manufacturing Process: ABC Synapse has a highly automated and efficient production line, utilizing advanced robotics and AIdriven systems to optimize the assembly of their electric vehicles. This has resulted in reduced production times and increased output capacity. Let's make a note here to conduct a detailed analysis of ABC Synapse's manufacturing process to identify best practices and potential areas for improvement in our own production facilities. 
+• Battery Technology: The company has invested heavily in research and development to create high-performance, longlasting batteries for their EVs. Their proprietary battery technology offers extended range and faster charging times compared to competitors. 
+• Sales and Distribution: ABC Synapse has adopted a direct-toconsumer sales model, bypassing traditional dealerships. This allows them to maintain better control over the customer experience and offer competitive pricing. 
+Given our company's push for EV production, let's schedule a follow-up meeting with ABC Synapse's R&D team to discuss potential collaboration on battery technology and explore opportunities for joint research projects. We will also need to review our current sales and distribution strategies to determine if adopting a direct-to-consumer model similar to ABC Synapse's approach would be beneficial for our company. 
+Please feel free to reach out if you have any questions or require further information. Prompt ??? Response you want 1. 
+ Conduct a detailed analysis of ABC Synapse's manufacturing process to identify best practices and potential areas for improvement in our own production facilities. 2. Schedule a follow-up meeting with ABC Synapse's R&D team to discuss potential collaboration on battery technology and explore opportunities for joint research projects.  3. Review our current sales and distribution strategies to determine if adopting a direct-to-consumer model similar to ABC Synapse's approach would be beneficial for our company.  	 
+Tutorial 2 Answers 
+Qn Creativity Settings Prompt Response Remarks 1 Balanced 
+ 
+(Temperature = 0.5) John Smith 
+Emma Johnson 
+Michael Davis 
+Olivia Williams 
+Abbey Thompson 
+For each of the names above in the format of First Name, Last Name, extract out in table form with the first column being Last Name and the second column being First Name and the third column being Last Name + First Name. As above  2 Balanced 
+ 
+(Temperature = 0.5) <insert the news report> 
+ 
+Extract the following information from the above passage for each of the criminals: 
+Name of Criminal: 
+Age:  
+Sex:  
+Nationality: 
+Crime (include items stolen): As above  3 Balanced 
+ 
+(Temperature = 0.5) <insert the trip report> 
+ 
+Extract from the above passage any action items that needs to be done. As above Notice how that even though the action item "1. 	Conduct a detailed analysis of ABC Synapse's manufacturing process to identify best practices and potential areas for improvement in our own production facilities." is embedded within the key observations away from the other 2 action items, it is being detected and extracted.  
+ 
+ 
+ 	 
+Tutorial 3 - Clustering 
+Warning: Note that the data used here is purely fictional unless otherwise stated. 
+Question 1 
+Get the AI to form meaningful clusters Data 1) "The Great Gatsby" by F. Scott Fitzgerald 
+2) "Thriller" by Michael Jackson 
+3) "To Kill a Mockingbird" by Harper Lee 
+4) "Giraffe" 
+5) "1984" by George Orwell 
+6) "My Heart Will Go On" by Celine Dion 
+7) "Dolphin" 
+8) "Elephant" 
+9) " Hey Jude" by The Beatles 
+10) " Cosmos by Carl Sagan 
+11) "The Hobbit" by J.R.R. Tolkien 
+12) "Cheetah" 
+13) "Octopus" 
+14) "Hotel California" by The Eagles 
+15) "Penguin" Prompt ??? Response you want Group 1:  
+• Giraffe 
+• Dolphin 
+• Elephant 
+• Cheetah 
+• Octopus 
+• Penguin Group 2: 
+• Thriller by Michael Jackson 
+• My Heart Will Go On by Celine Dion 
+• Hotel California by The Eagles 
+• Hey Jude by The Beatles 
+ 
+Group 3: 
+• The Great Gatsby by F. Scott Fitzgerald 
+• To Kill a Mockingbird by Harper Lee 
+• 1984 by George Orwell 
+• Cosmos by Carl Sagan 
+• The Hobbit by J.R.R. Tolkien  
+ 	 
+
+ 
+      Question 2 Company Meeting Reports Data Your company spoke to several potential partners in tech. The following call reports are recorded after two weeks of meetings. 
+1. ABC Tech: Our representative met with ABC Tech to discuss the integration of their video analytics solutions into our organization's security framework. Although their AI-driven technology shows potential in enhancing surveillance systems, concerns were raised regarding the privacy implications of implementing such solutions. Both parties agreed to conduct further research to address these concerns before moving forward with any collaboration. We also asked them to show documentation of compliance to local laws. 
+ 
+2. DEF Synapse: Our team met with DEF Synapse to explore the application of their innovative Deep Neural Networks for enhancing our data analysis processes. While their AI technology appeared promising, the complexity of integrating it into our existing systems raised concerns about the feasibility and required resources. They did not seem to support implementation on the cloud. Both parties agreed to continue discussions but will re-evaluate the practicality of this potential partnership. 
+ 
+3. GHI Robotics: We engaged with GHI Robotics to discuss the potential incorporation of their cutting-edge manufacturing robotics into our production facilities. Unfortunately, the high costs associated with the implementation of their advanced robotic systems led to doubts about the overall return on investment. When we probed them about the recent incident 
+where the robot malfunctioned and crushed a worker's arm, they quickly downplayed that as a one-off unfortunate accident, and the bugs have been fixed. To be cautious, our team decided to postpone any collaboration and explore alternative solutions. 
+ 
+4. JKL Innovations: We had a fruitful meeting with JKL Innovations to discuss the potential implementation of blockchain and crypto technology within our existing infrastructure. They shared that they have gotten the go-ahead from authorities all over the world like US, China, Dhubai, Australia to operate their business. The company shared their expertise in web3 solutions, and we agreed to conduct additional research and analysis to determine the feasibility of this partnership, in particular, integrating them into payment systems here in Singapore.  
+ 
+5. MNO Solutions: Our team met with MNO Solutions to explore potential consulting services aimed at enhancing our business processes and overall strategy. Despite the company's wideranging experience in providing tailored solutions, their proposed consulting fees appeared to be significantly higher than our budgetary constraints allowed. We will be reconsidering our options and seeking alternative service providers. 
+ 
+6. PQR Automation: Our representative had a productive meeting with PQR Automation to discuss the possibility of collaborating on electric vehicle (EV) development projects. However, the company's limited track record in the EV industry raised concerns about their ability to effectively challenge established giants like Tesla. While their website and marketing materials boasted of big investors funding them, they were unable to reveal any big names to us citing confidentiality clauses. We agreed to monitor their progress before committing to any partnership. 
+ 
+7. STU Dynamics: We met with STU Dynamics to investigate the opportunities for integrating their next-generation robotics technology into our organization's operations. The company showcased their advanced robotic systems, and we are enthusiastic about the prospects of this collaboration. Further evaluations will be conducted to determine the most effective approach. Prompt ??? Response you want Group 1 (Follow-up Actions): 
+1. ABC Tech: Integration of video analytics solutions; concerns about privacy implications; further research needed; documentation of compliance requested. 
+2. JKL Innovations: Implementation of blockchain and crypto technology; additional research and analysis required; exploring integration into payment systems. 
+3. STU Dynamics: Integration of next-generation robotics technology; further evaluations needed to determine the most effective approach. 
+ 
+Group 2 (Lower Interest to Proceed): 
+4. DEF Synapse: Application of Deep Neural Networks; concerns about complexity, feasibility, and required resources; no support for cloud implementation; re-evaluating practicality. 
+5. GHI Robotics: Incorporation of manufacturing robotics; high costs and doubts about return on investment; concerns about recent robot malfunction incident; exploring alternative solutions. 
+6. MNO Solutions: Consulting services for business processes and strategy; proposed fees higher than budget; seeking alternative service providers. 7. PQR Automation: Collaboration on electric vehicle development; concerns about limited track record and ability to challenge established giants; unable to reveal big investors; monitoring progress before committing.  
+ 	 
+
+Tutorial 3 Answers 
+Qn Creativity Settings Prompt Response Remarks 1 Low 
+ 
+(Temperature = 0) <insert the list of 15 items> 
+Cluster the above into 3 groups in a list format - Group 1 is animals, Group 2 is music, and Group 3 is books. If unsure, put them into Group 4. As above.  2 Balanced 
+ 
+(Temperature = 0) <insert the list of company reports> 
+Cluster the reports above into 2 clusters - Group 1 is for meetings where there are follow-up actions, and Group 2 is for meetings where there is lower interest to proceed. If there are concerns raised, show it as well. 
+ 
+Then, summarize the contents of Group 1 and Group 2. Do not make up new contents. As above.   
+ 	 
+Tutorial 4 - Classifying 
+Warning: Note that the data used here is purely fictional unless otherwise stated. 
+Question 1 
+Below are some feedback responses about a course. Use the AI to determine if the course is well-received or not. Data Feedback 1 - "Mr. Baker Ree's cooking course was a great experience! The course was affordable, and the cooking school had excellent equipment, especially the very cool oven. I attended other courses before that charged an arm and a leg for just learning one or two recipes. This one had ten!" 
+Feedback 2 - "Hygiene - 1 star. Food variety - 4 stars. Trainer - 0 stars." 
+"Mr. Baker Ree's cooking course was a great value for the money. The school had modern equipment, and people are generally nice. The location at Orchard also make it very accessible. We also learned how to make a wide variety of dishes." 
+Feedback 3 - "Aiyo ... I didn't enjoy Mr. Baker Ree's cooking course. The trainer laughs at us when we make mistakes. Can like that meh? Very unprofessional. Ask him questions, he also never answer. Then we don't know so when he ask, I cannot answer. Then I got laughed at. Siao. Won't go again. " 
+Feedback 4 - "Mr. Baker Ree's cooking course was fantastic! What impressed me most was the brand-new Gaggenau ovens and appliances. Make me feel like a diva cooking for celebrities." 
+Feedback 5 - "I loved Mr. Baker Ree's cooking course! The price was unbeatable, and the school had some of the best cooking equipment I've seen. The course mates were also amazing, and we had a blast cooking together." 
+Feedback 6 - "I wouldn't recommend Mr. Baker Ree's cooking course. 
+He didn't seem to take hygiene seriously, and sometimes I saw him 
+talking over the food and even spitting while talking. It really turned me off from the course." 
+Feedback 7 - "Great investment! The school was modern and wellequipped, and I made some fantastic friends in the course. We also learned so many recipes that I can't wait to try at home!" 
+Feedback 8 - "Bad. Too much talking. Too little cooking." 
+Feedback 9 - "testing, testing" Prompt ??? Response you want Group 1 (Positive): Feedback 1, Feedback 4, Feedback 5, Feedback 7 
+• Affordable course with a good number of recipes taught 
+• Excellent and modern equipment, including Gaggenau ovens and appliances 
+• Great value for money 
+• Accessible location at Orchard 
+• Wide variety of dishes taught 
+• Friendly course mates and enjoyable cooking experience 
+• Good investment, with many recipes to try at home 
+Group 2 (Negative): Feedback 3, Feedback 6, Feedback 8 
+• Poor hygiene, with the trainer talking and spitting over the food 
+• Unprofessional trainer who laughs at mistakes and doesn't answer questions 
+• Too much talking and not enough cooking 
+Group 3 (Neutral): Feedback 2, Feedback 9 
+• Feedback 2 provides mixed opinions, with positive remarks on food variety and equipment, but negative comments on hygiene and the trainer 
+• Feedback 9 is a test and does not provide any relevant information  
+Question 2 
+Classify which feedback goes to which department for follow-up Data Feedback 1 - I was walking past Block 52 last night. I stepped onto a banana peel and fell down. There were a lot of broken glass bottles on the floor which cut me. Please do something about this, as a lot of people are drinking in the area, and leaving behind their stuff. 
+Feedback 2 - There is constant drilling sounds from late midnight to 3am. It is coming from my neighbour above. Can you do something about it? 
+Feedback 3 - I was coming home last night and something felt funny. I thought my gas stove was on, but it wasn't. I leaned out of my window, and I think there's some weird stench coming from the floor below mine. May be a decomposing corpse. Can you investigate? 
+Feedback 4 - There is a strong stench coming from the rubbish chute for the past week. Is nobody clearing it? 
+Feedback 5 - A lot of people are leaving their beer bottles all around the void deck. It is very unsightly. 
+Feedback 6 - I hear sounds of bouncing balls from the floor above. They are very inconsiderate. What can I do? Additional 
+Info Littering issues go to Department L 
+Smell issues go to Department S 
+Noise issues go to Department N Prompt ??? Response you want Group 1 (Littering issues - Department L): 
+• Feedback 1: Banana peel and broken glass bottles on the floor 
+• Feedback 5: Beer bottles left around the void deck 
+ 
+Group 2 (Smell issues - Department S): 
+• Feedback 3: Weird stench coming from the floor below 
+• Feedback 4: Strong stench coming from the rubbish chute 
+ 
+Group 3 (Noise issues - Department N): 
+• Feedback 2: Constant drilling sounds from late midnight to 3am 
+• Feedback 6: Sounds of bouncing balls from the floor above  
+ 
+ 	 
+Tutorial 4 Answers 
+ 
+Qn Creativity Settings Prompt Response Remarks 1 Low 
+ 
+(Temperature = 0) <insert the list of feedback> 
+Based on the above feedback, classify them into 3 groups - Group 1 is positive, Group 2 is negative, and Group 3 is neutral by listing the Feedback ID.  As above.  2 Low 
+ 
+(Temperature = 0) Based on the above feedback, classify them into 3 groups: <insert the list of feedback> 
+Group 1 is for Littering issues handled by Department L. Group 2 is for Smell issues handled by Department S. Group 3 is for Noise issues handled by Department N. As above.   	 
+Tutorial 5 - Summary 
+Warning: Note that the data used here is purely fictional unless otherwise stated. 
+      Question 1 Summarize News Report Data ABC Media 
+Headline: "Embracing the Future: New Digital Payment Programme Launches with Discounts and Convenience" 
+The new Digital Payment programme is now live, with trials taking place at 25 locations across hawker centres, food centres, and coffee shops. Paying via QR code with any smartphone has never been easier, and customers can benefit from a 5% discount until the end of the year. Residents, like Ms Lim, appreciate the convenience of going cashless, saying she no longer needs her wallet for food purchases. Many businesses have also welcomed the initiative, signalling a bright future for cashless transactions. 
+During the launch, the minister responsible for the programme shared his enthusiasm for the new payment system, stating that it aligns with Country X's vision of becoming a Smart Nation. He believes that cashless transactions will improve efficiency and provide better financial security for both residents and businesses alike. 
+The minister also mentioned other countries that have successfully adopted cashless payment systems, such as China, Sweden, and South Korea, which have experienced significant growth in digital transactions over the past few years. Drawing from these examples, Country X aims to leverage on the Digital Payment programme to boost its economy and enhance the quality of life for its citizens. 
+ 
+ 
+ 
+DEF Newstand 
+Headline: "Controversial Digital Payment Programme Causes Chaos and Business Discontent" 
+The recent launch of the new Digital Payment programme has been met with confusion and dissatisfaction. ABC Bakery, a tenant in one of the trial locations, claims they were left in the dark about the programme until it began, causing customer confusion. Additionally, DEF Snacks & Biscuits argue that the 3% surcharge on businesses is unjust, especially as customers enjoy a 5% discount. Furthermore, Mr Mohammed expressed his frustration with the lack of a cash option, citing inconvenience when he forgets his phone. 
+In response to the concerns, the minister in charge of the programme admitted that the rollout may not have been smooth in some cases, but emphasized that the trial phase is essential for identifying and addressing any issues before expanding the initiative nationwide. They also mentioned that other countries, such as China and Sweden, experienced similar growing pains during their own cashless transitions, but have since reaped significant benefits. 
+The minister also assured business owners that their concerns regarding the surcharge would be taken into consideration, with plans to reassess the fee structure and explore potential solutions to ensure a fair outcome for all parties involved. Furthermore, they clarified that cash would still be accepted during the transition period, stating that the programme aims to promote cashless transactions while accommodating the needs of residents like Mr Mohammed who prefer traditional payment methods. Prompt ??? Response you want Summary: 
+The Digital Payment Programme has been launched in Country X, with trial runs at 25 locations across hawker centres, food centres, and coffee shops. While the initiative aims to promote cashless transactions and has been well-received by some residents and businesses, certain issues have surfaced, including confusion, dissatisfaction with the 3% surcharge for businesses, and the desire for a cash payment option. 
+ 
+Key Points Requiring Follow-up from the Ministry: 
+• Address the confusion and communication issues experienced by businesses, such as ABC Bakery, during the launch of the programme. 
+• Review and reassess the 3% surcharge imposed on businesses, taking into consideration the concerns raised by DEF Snacks & Biscuits and other affected parties. 
+• Address the need for a cash option alongside the Digital Payment programme to accommodate residents who prefer traditional payment methods, like Mr Mohammed. 
+• Collect and utilize feedback from businesses and residents throughout the trial phase to improve and refine the programme before expanding it nationwide. 
+• Ensure that the experiences and lessons learned from other countries that successfully implemented cashless payment systems (e.g., China, Sweden, South Korea) are applied to Country X's Digital Payment programme for a smoother and more efficient rollout.  
+ 	 
+ 
+Question 2 
+Summarize Company Meeting Reports Data Your company spoke to several potential partners in tech. The following call reports are recorded after two weeks of meetings. 
+1. ABC Tech: Our representative met with ABC Tech to discuss the integration of their video analytics solutions into our organization's security framework. Although their AI-driven technology shows potential in enhancing surveillance systems, concerns were raised regarding the privacy implications of implementing such solutions. Both parties agreed to conduct further research to address these concerns before moving forward with any collaboration. We also asked them to show documentation of compliance to local laws. 
+ 
+2. DEF Synapse: Our team met with DEF Synapse to explore the application of their innovative Deep Neural Networks for enhancing our data analysis processes. While their AI technology appeared promising, the complexity of integrating it into our existing systems raised concerns about the feasibility and required resources. They did not seem to support implementation on the cloud. Both parties agreed to continue discussions but will re-evaluate the practicality of this potential partnership. 
+ 
+3. GHI Robotics: We engaged with GHI Robotics to discuss the potential incorporation of their cutting-edge manufacturing robotics into our production facilities. Unfortunately, the high costs associated with the implementation of their advanced robotic systems led to doubts about the overall return on investment. When we probed them about the recent incident 
+where the robot malfunctioned and crushed a worker's arm, they quickly downplayed that as a one-off unfortunate accident, and the bugs have been fixed. To be cautious, our team decided to postpone any collaboration and explore alternative solutions. 
+ 
+4. JKL Innovations: We had a fruitful meeting with JKL Innovations to discuss the potential implementation of blockchain and crypto technology within our existing infrastructure. They shared that they have gotten the go-ahead from authorities all over the world like US, China, Dhubai, Australia to operate their business. The company shared their expertise in web3 solutions, and we agreed to conduct additional research and analysis to determine the feasibility of this partnership, in particular, integrating them into payment systems here in Singapore.  
+ 
+5. MNO Solutions: Our team met with MNO Solutions to explore potential consulting services aimed at enhancing our business processes and overall strategy. Despite the company's wideranging experience in providing tailored solutions, their proposed consulting fees appeared to be significantly higher than our budgetary constraints allowed. We will be reconsidering our options and seeking alternative service providers. 
+ 
+6. PQR Automation: Our representative had a productive meeting with PQR Automation to discuss the possibility of collaborating on electric vehicle (EV) development projects. However, the company's limited track record in the EV industry raised concerns about their ability to effectively challenge established giants like Tesla. While their website and marketing materials boasted of big investors funding them, they were unable to reveal any big names to us citing confidentiality clauses. We agreed to monitor their progress before committing to any partnership. 
+ 
+7. STU Dynamics: We met with STU Dynamics to investigate the opportunities for integrating their next-generation robotics technology into our organization's operations. The company showcased their advanced robotic systems, and we are enthusiastic about the prospects of this collaboration. Further evaluations will be conducted to determine the most effective approach. Prompt ??? Response you want Group 1 (Follow-up Actions): 
+8. ABC Tech: Integration of video analytics solutions; concerns about privacy implications; further research needed; documentation of compliance requested. 
+9. JKL Innovations: Implementation of blockchain and crypto technology; additional research and analysis required; exploring integration into payment systems. 
+10. STU Dynamics: Integration of next-generation robotics technology; further evaluations needed to determine the most effective approach. 
+ 
+Group 2 (Lower Interest to Proceed): 
+11. DEF Synapse: Application of Deep Neural Networks; concerns about complexity, feasibility, and required resources; no support for cloud implementation; re-evaluating practicality. 
+12. GHI Robotics: Incorporation of manufacturing robotics; high costs and doubts about return on investment; concerns about recent robot malfunction incident; exploring alternative solutions. 
+13. MNO Solutions: Consulting services for business processes and strategy; proposed fees higher than budget; seeking alternative service providers. 14. PQR Automation: Collaboration on electric vehicle development; concerns about limited track record and ability to challenge established giants; unable to reveal big investors; monitoring progress before committing. 
+ 
+Summary: 
+Group 1 consists of meetings with ABC Tech, JKL Innovations, and STU Dynamics, where there are follow-up actions planned. These meetings focused on the integration of video analytics, blockchain and crypto technology, and next-generation robotics technology, respectively. Concerns and further research are needed in each case. 
+ 
+Group 2 includes meetings with DEF Synapse, GHI Robotics, MNO 
+Solutions, and PQR Automation, where there is lower interest to proceed. Concerns in these meetings revolved around complexity, feasibility, high costs, and limited track records. In some cases, alternative solutions or service providers are being sought.  
+ 	 
+Tutorial 5 Answers 
+Qn Creativity Settings Prompt Response Remarks 1 Balanced 
+ 
+(Temperature = 0.5) <insert the news reports> 
+The above news reports talk about the Digital Payment Programme our country is running. 
+Summarize the two news report succinctly. Then list out key points made that requires follow-up from the ministry. As above.  2 Low 
+ 
+(Temperature = 0) <insert the list of feedback> 
+Based on the above feedback, classify them into 3 groups - Group 1 is positive, Group 2 is negative, and Group 3 is neutral by listing the Feedback ID.  
+After that, for each of the groups, summarise the key points of the feedback given. Do not make up new contents. As above.   
+ 	 
+Tutorial 6 - Generate 
+Warning: Note that the data used here is purely fictional unless otherwise stated. 
+Question 1-3 
+Marketing For Tech Conference Task Marketing Department is organising a Tech Conference in 3 months time. Several speakers have agreed to come and speak. Generate the following: 
+Qn 1 - Overall tagline for the event 
+Qn 2 - Synopsis for each of the key speakers  
+Qn 3 - Marketing description for the event Additional 
+Info Guest of Honour: Dr Xavier McCarthy, Minister for Technology, Country X 
+ 
+Venue: Big Tech Convention Centre Lvl 3 
+Date: 20 Nov 2023 
+Time: 9am to 5pm 
+ 
+Keynote Speaker 1 
+Alan T, Director of AI from ABC Tech Topics: 
+• Recent advancements in video analytics technology 
+• How video analytics can be applied in various industries 
+• Role of AI in developing new video analytics products and solutions 
+Keynote Speaker 2 
+Bernard Shaylor, Head of Data from DEF Synapse, a deep neural networks company Topics: 
+• Discuss the advancements in deep neural networks  
+• How they're driving innovation in data analysis  
+• Potential impact on industries, academia, and government decision-making processes 
+ 
+ 
+Keynote Speaker 3 
+Caroline B. Simmons, Senior Vice President of Sustainablity from GHI Robotics 
+• Highlight the growing importance of sustainability in the robotics industry 
+• Strategies for integrating eco-friendly design and materials into the development and production of robotic systems. 
+Other speakers will be talking on a broad range of topics in AI, Robotics, Deep Learning, Responsible AI, Sustainability, etc. 
+Partner companies include: 
+• ABC Tech is an AI company building video analytics solutions  
+• DEF Synapse is an AI company building innovative Deep Neural Networks 
+• GHI Robotics is a robotics company dealing in manufacturing robotics 
+• JKL Innovations is a new web3 company focusing on blockchain and crypto technology, 
+• MNO Solutions is a consultancy company, 
+• PQR Automation is a new EV company rising up to challenge Tesla, 
+• STU Dynamics is a robotics company building next-gen multipurpose robots  
+• VW Technologies is a consultancy company for all things tech, especially Data Science and AI, 
+• XYZ Secure Tech is a consultancy company focusing on cybersecurity, penetration testing, and virus & malware prevention. Prompt ??? Response you want N.A. No right answers here. Assess the results for yourself.  
+ 	 
+
+Tutorial 6 Answers 
+ 
+Qn Creativity Settings Prompt Response Remarks 1 High 
+ 
+(Temperature = 1) Brainstorm 5 possible taglines for a conference event that cover topics such as AI, Robotics, Deep Learning, Responsible AI and Sustainability, etc. Be inspiring and creative that will catch the attention of industry professionals. 1. "Revolutionizing Industries with AI, 
+Robotics, and Deep Learning for a 
+Sustainable Future" 
+2. "Responsible AI: Paving the Way for a Better Tomorrow" 
+3. "Building a Sustainable World with AI and Robotics" 
+4. "From Data to Action: Exploring the Power of AI and Deep Learning" 
+5. "Innovative Solutions for a 
+Sustainable World: AI, Robotics, and 
+Beyond"  2 High 
+ 
+(Temperature = 1) <insert all 3 topics bullet points here> 
+For each of the keynote presentations, generate a one paragraph synopsis that will be shown on the marketing materials. Include contents and a call to action for industry professionals to be captivated and motivated to take part. Keynote Speaker 1: Alan T, Director of AI from ABC Tech - "Join us as we delve into the latest advancements in video analytics technology and discover its endless possibilities across various industries. 
+Learn from Alan T, Director of AI at ABC Tech, as he discusses the integral role of AI in developing new video analytics products and solutions. Don't miss this opportunity to explore and discover how video analytics can reshape the future of your industry!" 
+Keynote Speaker 2: Bernard Shaylor, Head of Data from DEF Synapse, a deep neural networks company - "Exciting breakthroughs in deep neural networks are revolutionizing the field of data analysis, and Bernard Shaylor, Head of Data at DEF Synapse, is at the forefront of this innovation. Join us as he discusses how deep neural networks are driving innovation and changing the way industries, academia, and government make decisions. Be inspired to adapt and learn about the potential impact of deep neural networks in your field." 
+Keynote Speaker 3: Caroline B. Simmons, 
+Senior Vice President of Sustainability from GHI Robotics - "As sustainability becomes  
+more important in the robotics industry, Caroline B. Simmons, Senior Vice President of Sustainability at GHI Robotics, sheds light on the strategies for integrating ecofriendly design and materials into the development and production of robotic systems. Don't miss this opportunity to hear from one of the leading experts on sustainability in robotics and learn how you can be a part of creating a sustainable future." 3 High 
+ 
+(Temperature = 1) Guest of Honour: Dr Xavier 
+McCarthy, Minister for Technology, 
+Country X 
+Venue: Big Tech Convention Centre Lvl 3 
+Date: 20 Nov 2023 
+Time: 9am to 5pm 
+Keynote Speaker 1: Alan T, 
+Director of AI from ABC Tech - "Join us as we delve into the latest advancements in video analytics technology and discover its endless possibilities across various industries. Learn from Alan T, Director of AI at ABC Tech, as he discusses the integral role of AI in developing new video analytics products and solutions. Don't miss this opportunity to explore and discover how video analytics can reshape the future of your industry!" 
+Keynote Speaker 2: Bernard 
+Shaylor, Head of Data from DEF Synapse, a deep neural networks company - "Exciting breakthroughs in deep neural networks are revolutionizing the field of data analysis, and Bernard Shaylor, Head of Data at DEF Synapse, is at the forefront of this innovation. Join us as he discusses how deep neural networks are driving innovation and changing the way industries, academia, and government make decisions. Be Dear Industry Professionals, 
+It is our pleasure to invite you to attend the upcoming conference at the Big Tech Convention Centre on November 20, 2023, from 9 am to 5 pm. Join us for an exciting day of exploring cutting-edge technology with key industry leaders in video analytics, deep neural networks, and robotics, among others. 
+We are honored to welcome Dr. Xavier 
+McCarthy, Minister for Technology, Country X, as the Guest of Honour, who will give an opening address on the importance of staying ahead of the curve in the ever-evolving tech industry. 
+Additionally, we have an impressive lineup of keynote speakers, including Alan T from ABC Tech, Bernard Shaylor from DEF 
+Synapse, and Caroline B. Simmons from GHI Robotics, who will discuss recent advancements and trends in AI, robotics, and sustainability. Moreover, our esteemed partner companies, such as JKL 
+Innovations, MNO Solutions, PQR 
+Automation, STU Dynamics, VW 
+Technologies, and XYZ Secure Tech, will exhibit their latest innovations and share their expertise with attendees. Don't miss out on this opportunity to network and learn from industry experts, and register now to secure your spot!  
+inspired to adapt and learn about the potential impact of deep neural networks in your field." 
+Keynote Speaker 3: Caroline B. 
+Simmons, Senior Vice President of 
+Sustainability from GHI Robotics - "As sustainability becomes more important in the robotics industry, Caroline B. Simmons, Senior Vice 
+President of Sustainability at GHI Robotics, sheds light on the strategies for integrating ecofriendly design and materials into the development and production of robotic systems. Don't miss this opportunity to hear from one of the leading experts on sustainability in robotics and learn how you can be a part of creating a sustainable future." 
+Partner companies include: 
+• ABC Tech is an AI company building video analytics solutions  
+• DEF Synapse is an AI company building innovative Deep Neural Networks 
+• GHI Robotics is a robotics company dealing in manufacturing robotics 
+• JKL Innovations is a new web3 company focusing on blockchain and crypto technology, 
+• MNO Solutions is a consultancy company, 
+• PQR Automation is a new EV company rising up to challenge Tesla, 
+• STU Dynamics is a robotics company building next-gen multi-purpose robots  
+• VW Technologies is a consultancy company for all things tech, especially Data Science and AI, 
+• XYZ Secure Tech is a consultancy company focusing on cybersecurity, penetration testing, and virus & malware prevention. 
+ 
+Based on the above information, write a short two paragraphs content that will be included in an email to be sent out to all industry professionals under our community mailing list. Make it succinct and inspiring, and highlight the minister's involvement as the Guest of Honour.  
+ 	 
+
+Conclusion 
+This is the end of the Beta version of the Prompt Engineering Playbook. If you've enjoyed it, please help us spread the word and share it with others that may benefit from this! 
+Prompt Engineering Playbook 
+      
+      
+Prompt Engineering Playbook 
+      
+      
+Page 2 
+      
+Page 2 
+      
+      
+      
+
+      
+Prompt Engineering Playbook 
+      
+      
+Prompt Engineering Playbook 
+      
+      
+Page 100 
+      
+101
+      
+Prompt Engineering Playbook 
+      
+      
+Page 100 
+      
+Prompt Engineering Playbook 
+      
+      
+Prompt Engineering Playbook 
+      
+      
+Page 100 
+      
+Page 100 
+      
+Prompt Engineering Playbook 
+      
+      
+Page 100 
+      

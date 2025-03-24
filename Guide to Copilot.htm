@@ -1,0 +1,631 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>Guide to Copilot</title>
+  <style>
+    html {
+      color: #1a1a1a;
+      background-color: #fdfdfd;
+    }
+    body {
+      margin: 0 auto;
+      max-width: 36em;
+      padding-left: 50px;
+      padding-right: 50px;
+      padding-top: 50px;
+      padding-bottom: 50px;
+      hyphens: auto;
+      overflow-wrap: break-word;
+      text-rendering: optimizeLegibility;
+      font-kerning: normal;
+    }
+    @media (max-width: 600px) {
+      body {
+        font-size: 0.9em;
+        padding: 12px;
+      }
+      h1 {
+        font-size: 1.8em;
+      }
+    }
+    @media print {
+      html {
+        background-color: white;
+      }
+      body {
+        background-color: transparent;
+        color: black;
+        font-size: 12pt;
+      }
+      p, h2, h3 {
+        orphans: 3;
+        widows: 3;
+      }
+      h2, h3, h4 {
+        page-break-after: avoid;
+      }
+    }
+    p {
+      margin: 1em 0;
+    }
+    a {
+      color: #1a1a1a;
+    }
+    a:visited {
+      color: #1a1a1a;
+    }
+    img {
+      max-width: 100%;
+    }
+    svg {
+      height: auto;
+      max-width: 100%;
+    }
+    h1, h2, h3, h4, h5, h6 {
+      margin-top: 1.4em;
+    }
+    h5, h6 {
+      font-size: 1em;
+      font-style: italic;
+    }
+    h6 {
+      font-weight: normal;
+    }
+    ol, ul {
+      padding-left: 1.7em;
+      margin-top: 1em;
+    }
+    li > ol, li > ul {
+      margin-top: 0;
+    }
+    blockquote {
+      margin: 1em 0 1em 1.7em;
+      padding-left: 1em;
+      border-left: 2px solid #e6e6e6;
+      color: #606060;
+    }
+    code {
+      font-family: Menlo, Monaco, Consolas, 'Lucida Console', monospace;
+      font-size: 85%;
+      margin: 0;
+      hyphens: manual;
+    }
+    pre {
+      margin: 1em 0;
+      overflow: auto;
+    }
+    pre code {
+      padding: 0;
+      overflow: visible;
+      overflow-wrap: normal;
+    }
+    .sourceCode {
+     background-color: transparent;
+     overflow: visible;
+    }
+    hr {
+      background-color: #1a1a1a;
+      border: none;
+      height: 1px;
+      margin: 1em 0;
+    }
+    table {
+      margin: 1em 0;
+      border-collapse: collapse;
+      width: 100%;
+      overflow-x: auto;
+      display: block;
+      font-variant-numeric: lining-nums tabular-nums;
+    }
+    table caption {
+      margin-bottom: 0.75em;
+    }
+    tbody {
+      margin-top: 0.5em;
+      border-top: 1px solid #1a1a1a;
+      border-bottom: 1px solid #1a1a1a;
+    }
+    th {
+      border-top: 1px solid #1a1a1a;
+      padding: 0.25em 0.5em 0.25em 0.5em;
+    }
+    td {
+      padding: 0.125em 0.5em 0.25em 0.5em;
+    }
+    header {
+      margin-bottom: 4em;
+      text-align: center;
+    }
+    #TOC li {
+      list-style: none;
+    }
+    #TOC ul {
+      padding-left: 1.3em;
+    }
+    #TOC > ul {
+      padding-left: 0;
+    }
+    #TOC a:not(:hover) {
+      text-decoration: none;
+    }
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: auto; overflow-x: auto;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    /* The extra [class] is a hack that increases specificity enough to
+       override a similar rule in reveal.js */
+    ul.task-list[class]{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      font-size: inherit;
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
+  </style>
+</head>
+<body>
+<p><img src="media/index-1_1.png" alt="index-1_1.png" /></p>
+<p><img src="media/index-1_2.png" alt="index-1_2.png" /></p>
+<p><img src="media/index-1_3.png" style="width:6.5in;height:6.5in"
+alt="index-1_3.png" /></p>
+<p><img src="media/index-1_4.png" style="width:6.5in;height:6.5in"
+alt="index-1_4.png" /></p>
+<p><img src="media/index-1_5.png" style="width:0.55556in;height:0.5in"
+alt="index-1_5.png" /></p>
+<p><img src="media/index-1_6.png"
+style="width:6.06944in;height:1.88889in" alt="index-1_6.png" /></p>
+<p><img src="media/index-1_7.png" style="width:6.5in;height:0.19444in"
+alt="index-1_7.png" /></p>
+<p>What is Microsoft Copilot?</p>
+<p>Microsoft Copilot is your personal Keep in mind that Copilot is
+continually</p>
+<p>AI companion. It’s a conversational evolving, so its features and
+capabilities</p>
+<p>chat interface that offers a range of may change over time. You can
+access</p>
+<p>functionalities: Copilot in different places:</p>
+<p><strong>1. Information Retrieval:</strong> You can ask Copilot
+<strong>• Copilot Website:</strong> Visit the Copilot website to</p>
+<p>specific questions and get answers. It’s use plug-ins, book
+restaurant reservations,</p>
+<p>like having a knowledgeable friend at your and more.</p>
+<p>fingertips.</p>
+<p><strong>• Windows Sidebar:</strong> If you’re using Windows,</p>
+<p><strong>2. Text Generation:</strong> Copilot can generate text
+Copilot in the sidebar allows you to change</p>
+<p>for you. For instance, if you need a concise settings, summarize
+selected text, and summary of a memo, just ask, and Copilot will perform
+other tasks.</p>
+<p>provide it.</p>
+<p>• Bing Search and Bing Mobile App: <strong>Copilot</strong></p>
+<p><strong>3. Image Creation:</strong> Describe what you want, and is
+integrated into Bing, allowing you to switch</p>
+<p>Copilot can create images based on your text between AI and regular
+search. prompts.</p>
+<p>• Edge Web Browser: <strong>In Microsoft Edge,</strong></p>
+<p><strong>4. Coding Assistance:</strong> Copilot can even write Copilot
+resides in the sidebar and lets you</p>
+<p>code in various programming languages, interact with text and create
+images. including JavaScript, C, and Python.</p>
+<p>The Ultimate Guide to Copilot | 2</p>
+<p>What is the Value in Having</p>
+<p>Copilot Turned On?</p>
+<p>Microsoft Copilot offers a variety of features that can significantly
+enhance you productivity and creativity. Here are some of the benefits
+to having Copilot turned on:</p>
+<p><strong>Change System Settings</strong> Copilot allows you to manage
+system settings with simple prompts.</p>
+<p><strong>on Windows 11</strong> Instead of navigating through
+different screens, you can ask Copilot to</p>
+<p>perform tasks like enabling “do not disturb”, adjusting volume
+levels, changing wallpapers, and more.</p>
+<p><strong>Efficient Task Execution</strong> Copilot streamlines daily
+tasks, making them easier to tackle. Whether it’s</p>
+<p>composing content, summarizing information, or creating images,
+Copilot provides efficient solutions within the Windows 11
+experience.</p>
+<p><strong>Boosted Creativity</strong> Copilot assists in planning,
+brainstorming, and collaborating seamlessly.</p>
+<p>It helps you stay in sync with team members, ensuring everyone is on
+the same page.</p>
+<p><strong>Integration Across</strong> Copilot isn’t limited to Windows
+11. It’s available across various Microsoft</p>
+<p><strong>Microsoft Products</strong> products, including Microsoft
+Paint, Photos apps, Microsoft Edge,</p>
+<p>Snipping Tool, and the web.</p>
+<p><strong>Enhanced Understanding</strong> Copilot’s comprehensive
+answers to virtually any question help you gain</p>
+<p>deeper insights and understanding of various topics.</p>
+<p>Copilot is your AI companion, ready to assist you with</p>
+<p>tasks, creativity, and knowledge—all at your fingertips! <strong>The
+Ultimate Guide to Copilot | 3</strong> How Will Copilot Integrate</p>
+<p>into Microsoft 365 Apps?</p>
+<p>Microsoft Copilot is seamlessly integrating into various Microsoft
+365 apps, enhancing your productivity and creativity. Here’s how it will
+present in each of these applications:</p>
+<p>Microsoft Teams Power BI (Preview)</p>
+<p>Copilot will be available within Teams, In Power BI, Copilot will
+offer interactive features.</p>
+<p>allowing you to collaborate more effectively. You can open the
+Copilot pane and ask it to</p>
+<p>Whether you’re composing messages, create report pages, summaries, or
+narrative</p>
+<p>scheduling meetings, or managing tasks, visuals. Copilot’s
+capabilities will help you analyze</p>
+<p>Copilot will be your AI companion, aiding and data and generate
+insights more efficiently.</p>
+<p>streamlining your workflow.</p>
+<p>Microsoft Viva, Word, Excel, PowerPoint,</p>
+<p>Power Platform, and More Outlook, and OneNote</p>
+<p>Copilot’s reach extends beyond the core Copilot will be embedded
+directly into these</p>
+<p>apps. It will integrate with Microsoft Viva, familiar Microsoft 365
+apps. As you work on</p>
+<p>Power Platform, and other productivity documents, spreadsheets,
+presentations, emails,</p>
+<p>tools, shaping the future of work and and notes, Copilot will unleash
+creativity, unlock</p>
+<p>enabling you to achieve more. productivity, and enhance your skills.
+Imagine</p>
+<p>having an AI collaborator right alongside you as</p>
+<p>you create content, summarize information, and</p>
+<p>explore new ideas.</p>
+<p>Copilot will be your trusted co-pilot across the Microsoft</p>
+<p>ecosystem, making your work smarter, more efficiently,</p>
+<p><strong>and with greater innovation!</strong> The Ultimate Guide to
+Copilot | 4 <strong>How Does Copilot Secure Data?</strong></p>
+<p>Microsoft Copilot for Microsoft 365 prioritizes data security and
+privacy. Here’s how it ensures the protection of your organizational
+data:</p>
+<p>1. Access Control: 4. Encryption:</p>
+<p>Copilot connects to your organizational data Service-side
+technologies encrypt customer</p>
+<p>through Microsoft Graph. It adheres to the same content both at rest
+and in transit. This robust</p>
+<p>access controls as other Microsoft 365 services. encryption ensures
+data security throughout</p>
+<p>This means it only accesses content that you its lifecycle.</p>
+<p>have permission to view, ensuring unauthorized</p>
+<p><strong>data remains off-limits.</strong> 5. Tenant-Level
+Protection:</p>
+<p><strong>2. Compliance Commitments:</strong> Copilot is architected to
+protect tenant,</p>
+<p>group, and individual data. It prioritizes</p>
+<p>Copilot complies with existing privacy, safeguarding against data
+leakage, which is a</p>
+<p>security, and compliance standards for Microsoft critical concern for
+organizations.</p>
+<p>365 commercial customers. These include the</p>
+<p>General Data Protection Regulation (GDPR) and <strong>6. Regulatory
+Compliance:</strong></p>
+<p>the European Union (EU) Data Boundary. Copilot meets regulatory
+requirements,</p>
+<p><strong>3. No Training on User Data:</strong> providing peace of mind
+for organizations. It</p>
+<p>aligns with privacy laws and data residency</p>
+<p>Prompts, responses, and data accessed commitments.</p>
+<p>through Microsoft Graph are not used to train</p>
+<p>foundation language models (LLMs), including <strong>7. Transparent
+Evolution:</strong></p>
+<p>those used by Copilot. Your proprietary As Copilot evolves, it
+continues to uphold</p>
+<p>organizational data remains confidential. these security and privacy
+principles. Regular</p>
+<p>updates ensure it remains a trusted AI</p>
+<p>Remember, Copilot is designed to enhance
+<strong>companion.</strong></p>
+<p>productivity while respecting your data privacy.</p>
+<p>The Ultimate Guide to Copilot | 5</p>
+<p>Copilot Security Best Practices</p>
+<p>When it comes to securing your data while using Microsoft Copilot for
+Microsoft 365, there are several best practices to follow:</p>
+<p>Copilot’s reach extends beyond the core apps. It will</p>
+<p><strong>Risk Assessment</strong> integrate with Microsoft Viva, Power
+Platform, and other</p>
+<p>productivity tools, shaping the future of work and enabling</p>
+<p>you to achieve more.</p>
+<p>Regularly review and clean up permissions. Ensure that</p>
+<p><strong>Permissions Cleanup</strong> users have just-enough-access
+permissions—only the</p>
+<p><strong>and Policy</strong> <strong>Enforcement</strong> necessary
+access required for their roles. Enforce policies</p>
+<p>to maintain data security and prevent unauthorized</p>
+<p>access.</p>
+<p>Continuously monitor and maintain your security</p>
+<p><strong>Maintain</strong> measures. Regularly update policies, review
+access</p>
+<p><strong>Security</strong> controls, and stay informed about security
+best practices. <strong>Measures</strong></p>
+<p>This proactive approach helps safeguard your data</p>
+<p>effectively.</p>
+<p>Remember, these practices contribute to a more secure experience with
+Microsoft Copilot, enhancing your data protection and privacy!</p>
+<p>The Ultimate Guide to Copilot | 6</p>
+<p>What O365 Tools Will</p>
+<p>Copilot Integrate With?</p>
+<p>Microsoft Copilot for Microsoft 365 seamlessly integrates with
+several essential Office 365 tools, enhancing your productivity and
+creativity. Here’s a breakdown of the integration:</p>
+<p>Word, Excel, PowerPoint, Outlook, Teams, and More</p>
+<p>Copilot works alongside popular Microsoft 365 Apps, including:</p>
+<p><strong>• Word:</strong> Enhance your document creation and
+editing.</p>
+<p><strong>• Excel:</strong> Get intelligent assistance with
+spreadsheets.</p>
+<p><strong>• PowerPoint:</strong> Elevate your presentation design.</p>
+<p><strong>• Outlook:</strong> Optimize email composition and
+management.</p>
+<p><strong>• Teams:</strong> Collaborate effectively within Teams.</p>
+<p>• And more! Copilot is your co-pilot across these familiar apps,</p>
+<p>unlocking creativity and productivity.</p>
+<p>OneDrive Integration</p>
+<p>Having a OneDrive account is essential for features within Copilot.
+It enables saving and sharing files seamlessly.</p>
+<p>The Ultimate Guide to Copilot | 7</p>
+<p>What O365 Tools Will</p>
+<p>Copilot Integrate With?</p>
+<p>New Outlook for Windows</p>
+<p>For seamless integration with Outlook, use the new Outlook for
+Windows, currently in preview. You can also switch to Outlook Mobile to
+access the new experience.</p>
+<p>Microsoft Loop and Whiteboard</p>
+<p>Copilot integrates with Microsoft Loop and Microsoft Whiteboard.
+Ensure these are enabled for your tenant to leverage Copilot’s
+capabilities.</p>
+<p>The Ultimate Guide to Copilot | 8</p>
+<p>What O365 Tools Will</p>
+<p>Copilot Integrate With?</p>
+<p>Foundational capabilities of Copilot</p>
+<p><strong>Natural Language</strong> Copilot can understand and generate
+human-like responses in multiple languages. It comprehends context,
+interprets user intent, and provides <strong>Understanding
+(NLU)</strong> relevant information.</p>
+<p><strong>Content Generation</strong> Copilot can create imaginative
+content such as poems, stories, code, essays, songs, and more. All you
+need to do is give it a simple prompt and it handles the rest.</p>
+<p>Copilot can search the web using Bing and provide relevant
+information.</p>
+<p><strong>Information Retrieval</strong> Whether it’s facts, summaries,
+or answers to specific questions, Copilot has</p>
+<p>you covered.</p>
+<p>Copilot can organize information into tables, lists, and markdown
+formatting</p>
+<p><strong>Structured Responses</strong> for readability. It’s like
+having a helpful assistant who knows how to present</p>
+<p>data effectively.</p>
+<p><strong>Error Detection</strong> Copilot can identify errors in
+conversations and rectify them. If it makes a mistake, it simply
+apologizes and provides accurate data <strong>and Correction</strong>
+based on the parameters of your original prompt.</p>
+<p><strong>Image Description</strong> image to Copilot and it will
+provide an accurate, detailed description. If you upload an image,
+Copilot can describe its contents. Simply send an</p>
+<p>The Ultimate Guide to Copilot | 9</p>
+<p>What O365 Tools Will</p>
+<p>Copilot Integrate With?</p>
+<p>Copilot web grounding refers to the process by which Copilot gathers
+information from the web to enhance its responses. When you ask a
+question or provide a prompt, Copilot can search the internet using Bing
+and retrieve relevant information. This helps ensure that the answers
+provided are accurate, up-to-date, and well-informed.</p>
+<p>Copilot’s commercial data protection ensures the safety and privacy
+of workplace AI-powered web chats. Here’s how it works:</p>
+<p>Authentication and Authorization</p>
+<p>• Users access Copilot using their work or school (Entra ID) account.
+• Tenant and user information is removed from chat data at the start of
+a session. • Search queries triggered by Entra ID users are not linked
+to specific individuals or organizations. • Microsoft doesn’t retain
+prompts or responses from Entra ID users.</p>
+<p>Data Encryption</p>
+<p>• Chat data sent to and from Copilot is encrypted in transit (TLS
+1.2+)</p>
+<p>and at rest (AES-128) during the chat session.</p>
+<p>• Microsoft has no ‘eyes-on’ access to this data.</p>
+<p>The Ultimate Guide to Copilot | 10</p>
+<p>What O365 Tools Will</p>
+<p>Copilot Integrate With?</p>
+<p>No Training Data</p>
+<p>• Because prompts and responses aren’t retained, they can’t be</p>
+<p>used for training the underlying large language model.</p>
+<p>Non-Targeted Advertising</p>
+<p>• Advertising shown to Entra ID users isn’t based on workplace
+identity or chat history.</p>
+<p>These data protections extend to eligible Entra ID user chats in
+Copilot across various platforms, including copilot.microsoft.com, Bing,
+Edge, and Windows. Additionally, Copilot doesn’t retain chat history or
+offer usage reporting when commercial data protection is enabled.
+Remember, Copilot is grounded in data from the public web (Bing search
+index) and doesn’t have access to organizational resources within
+Microsoft 365, such as documents or emails.</p>
+<p>The Ultimate Guide to Copilot | 11</p>
+<p>Different Copilot Use Cases</p>
+<p>Microsoft Copilot in Word to enhance your writing and document
+creation. Copilot in Word is a powerful feature that leverages AI to
+assist you throughout your writing process. Here are some key tips and
+tricks:</p>
+<p>1. Drafting New Content with Copilot: 2. Transforming Existing
+Content:</p>
+<p>• When starting a new document or adding a • Copilot not only helps
+you create new</p>
+<p>new line, the Draft with Copilot experience content but also
+transforms your existing</p>
+<p>appears. content.</p>
+<p>• Simply type or paste your prompt, such as • If rewriting and
+editing take more time than</p>
+<p>“Write an essay about baseball” or “Create a writing from scratch,
+Copilot can assist.</p>
+<p>paragraph about time management.”</p>
+<p>• Fine-tune your existing content by providing</p>
+<p>• If you have a Copilot for Microsoft 365 license, instructions like
+“Make this more concise.”</p>
+<p>you can also reference up to three existing files</p>
+<p>to ground the content Copilot drafts. <strong>3. Chat with
+Copilot:</strong></p>
+<p>• Copilot will generate new content based on in the ribbon’s Home
+tab. • Open the Copilot pane via the Copilot icon</p>
+<p>your prompt. You can choose to keep it, discard</p>
+<p>it, or ask Copilot to regenerate a different • Chat with Copilot
+allows you to ask version. questions—broad or specific—about your</p>
+<p>document.</p>
+<p>• Use the Inspire Me button to have Copilot</p>
+<p>continue writing based on existing content in • It provides helpful
+answers and actions your document. based on your content or obtains
+additional</p>
+<p>information from external resources.</p>
+<p>4. Enabling Copilot in Word:</p>
+<p>• To enable Copilot in Word, go to
+File&gt;Options&gt;Proofing&gt;AutoCorrect Options&gt;Use</p>
+<p>Microsoft Copilot.</p>
+<p>The Ultimate Guide to Copilot | 12</p>
+<p>Different Copilot Use Cases</p>
+<p>Microsoft Copilot in Excel to enhance your data analysis and
+productivity. Copilot in Excel is a powerful feature that combines AI
+with your natural language queries. Here are some tips and tricks:</p>
+<p>• Copilot helps you explore and understand your data better.</p>
+<p>• To use Copilot, format your data as a table in your
+spreadsheet.</p>
+<p><strong>Analyze and</strong> • Select the data, click the Copilot
+button in the ribbon, and choose Get started. <strong>Visualize
+Data</strong> • You can either select a suggested prompt or describe
+your question in your</p>
+<p>own words.</p>
+<p>• Copilot will analyze and visualize insights based on your
+input.</p>
+<p><strong>Effortlessly Highlight</strong> • Focus on what matters by
+using Copilot to highlight, filter, and sort your data. <strong>and
+Filter Data</strong> • If you already have access, give it a try by
+selecting your data and using Copilot.</p>
+<p>• Copilot suggests formula columns for complex calculations.</p>
+<p><strong>Columns</strong> • Activate Copilot, and it will provide
+formula column recommendations to <strong>Generate Formula</strong></p>
+<p>enhance your data analysis.</p>
+<p>• Open your Excel worksheet.</p>
+<p>• Go to the Home tab and click the Copilot icon.</p>
+<p><strong>Getting Started</strong> • The Copilot chat panel will appear
+on the right.</p>
+<p>• If your workbook doesn’t have Copilot active, it can convert</p>
+<p>your data into an Excel table for you.</p>
+<p>The Ultimate Guide to Copilot | 13</p>
+<p>Different Copilot Use Cases</p>
+<p>Microsoft Copilot in Power BI to enhance your data analysis and
+report creation. Copilot in Power BI leverages natural language and AI
+to assist you throughout your reporting process. Here’s what you need to
+know:</p>
+<p>1. Enabling Copilot in Power BI: 3. Interacting with Copilot:</p>
+<p>• To enable Copilot, follow these steps: • Open the Copilot pane
+within Power BI.</p>
+<p>- Navigate to File &gt; Options and Settings &gt; - Create a report
+page. Preview Features.- Summarize a page or an entire report.- Launch
+Power BI Desktop. • Ask Copilot to:- Enable Quick Measure
+Suggestions.</p>
+<p>- Generate synonyms for Q&amp;A capabilities.</p>
+<p>- Close and reopen Power BI Desktop to verify</p>
+<p>that Copilot is active. <strong>•</strong> Copilot provides a
+starting point, which</p>
+<p><strong>2. Generative AI for Report Creation:</strong> requirements.
+you can modify to meet your exact</p>
+<p>• Copilot allows you to create reports <strong>4. Supported
+SKUs:</strong> automatically by:- Prompting Copilot with specific
+topics.- Selecting a topic for a report. • Copilot is available for paid
+SKUs (F64 or higher, or P1 or higher). •</p>
+<p>It’s not supported on trial SKUs.</p>
+<p>• It generates visuals, analysis, and text</p>
+<p>narratives based on your input. • Ensure your Fabric tenant admin
+enables</p>
+<p>the necessary settings for Copilot.</p>
+<p>• You can create a narrative visual that</p>
+<p>summarizes data on your report canvas,</p>
+<p>offering an easy-to-read guide for end users.</p>
+<p>The Ultimate Guide to Copilot | 14</p>
+<p>Different Copilot Use Cases</p>
+<p>Microsoft Copilot in Edge to enhance your browsing experience and
+productivity. Copilot is an AI-powered feature that assists you with
+various tasks right from your browser sidebar. Here’s how you can make
+the most of it:</p>
+<p>1. Accessing Copilot in the Sidebar: 3. Tips and Tricks:</p>
+<p>• To try Copilot, sign into Microsoft Edge and • You can now ask
+Copilot questions, have it</p>
+<p>select the Copilot icon in the browser sidebar. summarize content,
+and review PDFs.</p>
+<p>• Feature availability and functionality may • Turn on Page context
+by going to More</p>
+<p>vary based on your device type, market, and options &gt; Notification
+and App settings at</p>
+<p>browser version. the top of your Copilot in the sidebar.</p>
+<p><strong>2. Examples of What Copilot Can Do:</strong> • Copilot can
+compare products, summarize documents (including PDFs), organize tabs, •
+Copilot can perform searches and provide and more. answers related to
+the page you’re viewing. • You can also access Copilot directly from the
+For instance: Edge app menu for on-the-go assistance. <em>“What did I
+miss from the 3PM meeting</em> <strong>4.</strong> <strong>Image
+Customization:</strong> <em>yesterday?”</em></p>
+<p><em>“Summarize the Q3 performance metrics for</em> • Don’t settle for
+less than perfect images!You</p>
+<p><em>me in an Excel spreadsheet.”</em> can tweak them to your liking
+by asking</p>
+<p>Copilot for changes in subsequent messages.</p>
+<p><em>“Compare this coffee maker to {other brand}</em> For example,
+adjust the color scheme, style,</p>
+<p><em>and put it in a table.”</em> or background details of your
+images.</p>
+<p>“Would this plant thrive in an east-facing</p>
+<p>window?”</p>
+<p>“Key takeaways of this report.”</p>
+<p>• Make sure to give Copilot permission by</p>
+<p>toggling on Page context in the sidebar. The Ultimate Guide to
+Copilot | 15 <strong>Different Copilot Use Cases</strong></p>
+<p>Microsoft Copilot in Windows 11. Copilot is an AI-powered feature
+that acts as your digital assistant, answering questions, summarizing
+content, customizing settings, and connecting across your preferred
+apps. Here’s how to get started:</p>
+<p>Enabling Copilot in Windows 11 Settings</p>
+<p>• By default, Copilot is turned on and represented by a permanent
+icon on the taskbar. • If you can’t find it on your taskbar, follow
+these steps:</p>
+<p>1. Open the Settings app on your Windows 11 PC. 3. Scroll down and
+choose Taskbar.</p>
+<p>2. Select the Personalization section from the 4. Turn On the toggle
+switch next to</p>
+<p>sidebar on the left. the Copilot option.</p>
+<p>• Once enabled, you’ll see the Copilot icon on the taskbar.</p>
+<p>What Can Copilot Assist With?</p>
+<p>• Copilot uses natural language processing to understand your
+requests. • It can help with tasks like navigating the operating system,
+troubleshooting technical</p>
+<p>issues, finding documents or files, and performing productivity
+actions.</p>
+<p>• Start a new conversation by clicking the ‘ <strong>New
+topic</strong>’ button near the text field or</p>
+<p>selecting ‘Refresh’ from the three dots at the top.</p>
+<p>The Ultimate Guide to Copilot | 16</p>
+<p>Different Copilot Use Cases</p>
+<p>Launching and Using Copilot in Windows</p>
+<p>• You can launch Copilot in two ways:</p>
+<p>1. Click the <strong>Copilot</strong> icon on the taskbar.</p>
+<p>2. Use the keyboard shortcut <strong>Windows + C</strong>.</p>
+<p>• Copilot will appear as a sidebar on the right edge of your screen,
+running</p>
+<p>alongside your open app windows.</p>
+<p>• It won’t overlap with your desktop content.</p>
+<p>• Copilot offers three conversation modes:</p>
+<p><strong>1. More Creative:</strong> Imaginative and inventive, but may
+lack accuracy. <strong>2. More Precise:</strong> Highly accurate and
+detailed, but less creative.</p>
+<p><strong>3. More Balanced:</strong> A blend of creativity and
+accuracy.</p>
+<p>• Choose the mode that suits your requirements.</p>
+<p>• Copilot may show sample tasks from its capabilities. Click a task
+to try it out.</p>
+<p>1. For example, it might suggest “Turn on dark mode.” Confirm or deny
+as needed.</p>
+<p>• Interact with Copilot through voice commands or text inputs.</p>
+<p><a href="https://www.uscloud.com/">If you would like more information
+visit us at www.uscloud.com</a></p>
+<p>The Ultimate Guide to Copilot | 17</p>
+</body>
+</html>

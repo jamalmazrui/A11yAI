@@ -1,0 +1,2437 @@
+﻿
+ 
+Seeing AI User Manual 
+
+Revision C 
+13-Mar-2024 
+EN 
+ 	 
+Seeing AI User Manual 
+
+Get Started 
+To use Seeing AI on your mobile device, please follow these instructions: 
+1. Make sure your device is up to date and running the latest version of iOS or Android. 
+2. Install Seeing AI from the Apple App Store from the following link: https://aka.ms/SeeingAIiOSDownload or from the Google Play Store from the following link: https://aka.ms/SeeingAIAndroidDownload 
+3. Open the app and follow the on-screen instructions to set up the device. 
+4. Once the device is set up, follow all in-app prompts and warnings. 
+5. If you experience any issues or have any questions, please contact the manufacturer for assistance, using the contact information listed in this manual. 
+6. It is important to follow all instructions and warnings provided by the manufacturer to ensure the safe and effective use of the device.  
+Use of this application is subject to the Seeing AI Terms of Use. It is your responsibility to confirm you understand and accept these terms and conditions as shown in the application.  
+Product Information 
+Product Name 
+Seeing AI 
+Seeing AI is a class I medical device in accordance with Regulation (EU) 2017/745 (for MDR). 
+Version 
+Available in the About Section of the Application 
+
+Date of Manufacture 
+Available in the About Section of the Application 
+
+Manufacturer 
+Microsoft Corporation  
+One Microsoft Way  
+Redmond, WA 98052  
+USA  
+
+European Union Authorized Representative Emergo Europe B.V. 
+Westervoortsedijk 60 
+6827 AT Arnhem 
+The Netherlands 
+United Kingdom Responsible Person Emergo Consulting (UK) Limited c/o Cr 360 - UL International Compass House, Vision Park Histon 
+Cambridge CB24 9BZ United Kingdom 
+Regulatory Information 
+
+ 
+
+ 
+Basic UDI-DI: 08600098825SEEINGAIIOSDN 
+EMDN Code: Y99 
+Important Safety Information 
+Intended Purpose 
+Seeing AI is a mobile app, for use with iOS and Android platforms, which provides a blind or otherwise visually impaired user with information about their visual environment by leveraging emerging technologies such as Artificial Intelligence (AI). Seeing AI is intended to augment an individual's existing awareness of their surroundings, by providing audio and haptic feedback about what has been detected.  
+Contraindications 
+Seeing AI is not designed to be and should not be used as a primary or exclusive technology by which persons who are blind or otherwise visually impaired learn about their environment. Seeing AI uses Artificial Intelligence (AI) to produce probabilistic outputs, which will vary in accuracy depending on where and how Seeing AI is used. Seeing AI does not detect, diagnose, monitor, manage, or treat any medical condition or disease. The user is responsible for understanding the functionality of the Seeing AI app, for assessing the conditions in which Seeing AI will be used, and for assessing the risk that use in those circumstances could result in unreasonable harm to the user or others.  
+Intended Users 
+Seeing AI is intended for use by persons who are blind or otherwise visually impaired. 
+Specification of Clinical Benefits and Performance Characteristics Provides audio/haptic information to users with the aim of augmenting their understanding of the physical environment 
+
+Reusability 
+This device is single patient reusable.  There are no requirements regarding cleaning, disinfection, or sterilization.  There is no maximum number of times it can be reused. 
+Interoperability 
+Seeing AI is a mobile app, for use with the iOS and Android platforms. 
+Precautions 
+Seeing AI is not always accurate. It should not be used in situations where you could be harmed or injured. It is not intended for use in the detection, diagnosis, monitoring, management or treatment of any medical condition or disease. Users should seek any medical advice from a physician. The user is responsible for understanding the functionality of the Seeing AI app, for assessing the conditions in which Seeing AI will be used, and for assessing the risk that use in those circumstances could result in unreasonable harm to the user or others.  
+Incident Reporting 
+Any serious incident that has occurred in relation to the device should be reported to the manufacturer and the competent authority of the Member State in which the user and/or patient is established.  
+Known Risks 
+The use of Seeing AI has been clinically evaluated, and has been demonstrated to be safe and effective for use as intended by the manufacturer.  There are no known intolerable residual risks that users need to be aware of when using Seeing AI.  
+Contact Microsoft 
+Any serious incident that has occurred in relation to the device should be reported to the manufacturer and the competent authority of the Member State in which the user and/or patient is established.  
+For all incidents, feedback, or for support with the Seeing AI application, or to request a paper copy of this manual that will be provided at no additional cost within 7 days, contact the Microsoft Disability Answer Desk for assistance: 
+seeingai@microsoft.com 
+ 	 
+
+
+ 
+Korisnički priručnik za aplikaciju Seeing 
+AI 
+
+Revizija C 
+13-mar-2024 
+BS 
+ 	 
+Korisnički priručnik za aplikaciju Seeing AI 
+
+Prvi koraci 
+Da biste koristili Seeing AI na svom mobilnom uređaju, slijedite ove upute: 
+1. Uvjerite se da je vaš uređaj ažuriran i da radi na najnovijoj verziji sistema iOS ili Android. 
+2. Instalirajte Seeing AI iz Apple App Store prodavnice sa sljedeće veze: https://aka.ms/SeeingAIiOSDownload ili iz Google Play Store prodavnice iz sljedeće veze: https://aka.ms/SeeingAIAndroidDownload 
+3. Otvorite aplikaciju i slijedite upute na ekranu da biste postavili uređaj. 
+4. Nakon postavljanja uređaja, pratite sve upite i upozorenja u aplikaciji. 
+5. Ako iskusite bilo kakve probleme ili imate pitanja, kontaktirajte proizvođača za pomoć, koristeći kontakt informacije navedene u ovom priručniku. 
+6. Važno je slijediti sve upute i upozorenja koje je dao proizvođač kako bi se osiguralo sigurno i djelotvorno korištenje uređaja.  
+Korištenje ove aplikacije podliježe uslovima korištenja aplikacije Seeing AI. Vaša je odgovornost da potvrdite da razumijete i prihvatate ove odredbe i uslove na način koji je prikazan u aplikaciji.  
+Informacije o proizvodu 
+Naziv proizvoda 
+Seeing AI 
+Seeing AI je medicinski uređaj I klase u skladu sa Uredbom (EU) 2017/745 (za MDR). 
+Verzija 
+Dostupno u odjeljku O aplikacije 
+
+Datum proizvodnje 
+Dostupno u odjeljku O aplikacije 
+
+Proizvođač 
+Microsoft Corporation  
+One Microsoft Way  
+Redmond, WA 98052  
+SAD  
+
+Ovlašćeni predstavnik Evropske unije 
+Emergo Europe B.V. 
+Westervoortsedijk 60 
+6827 AT Arnhem 
+Holandija  
+Odgovorna osoba za Ujedinjeno Kraljevstvo 
+Emergo Consulting (UK) Limited c/o Cr 360 - UL International Compass House, Vision Park Histon 
+Cambridge CB24 9BZ 
+Ujedinjeno Kraljevstvo 
+Regulatorne informacije 
+
+ 
+
+ 
+Osnovni UDI-DI: 08600098825SEEINGAIIOSDN 
+EMDN kod: Y99 
+Važne sigurnosne informacije 
+Predviđena svrha 
+Seeing AI je mobilna aplikacija za korištenje sa iOS i Android platformama, koja slijepim ili na drugi način slabovidnim korisnicima pruža informacije o njihovom vizualnom okruženju korištenjem novih tehnologija kao što je umjetna inteligencija (AI). Seeing AI ima za cilj da poveća postojeću svijest pojedinca o svojoj okolini, pružanjem zvučnih i haptičkih povratnih informacija o onome što je otkriveno.  
+Kontraindikacije 
+Seeing AI nije dizajniran da bude i ne bi se trebao koristiti kao primarna ili ekskluzivna tehnologija pomoću koje slijepe ili slabovidne osobe uče o svom okruženju. Seeing AI koristi umjetnu inteligenciju (AI) za proizvodnju probabilističkih izlaza koji će se razlikovati u zavisnosti od toga gdje i kako se Seeing AI koristi. Seeing AI ne otkriva, dijagnostikuje, prati, upravlja ili liječi bilo koje zdravstveno stanje ili bolest. Korisnik je odgovoran za razumijevanje funkcionalnosti aplikacije Seeing AI, za procjenu uslova u kojima će se Seeing AI koristiti i za procjenu rizika da bi korištenje u tim okolnostima moglo dovesti do nerazumne štete za korisnika ili druge.  
+Predviđeni korisnici 
+Seeing AI namijenjen je da ga koriste osobe koje su slijepe ili na drugi način slabovidne. 
+Specifikacija kliničkih prednosti i karakteristike performansi 
+Korisnicima pruža audio/haptične informacije s ciljem uvećanja razumijevanja fizičkog okruženja 
+
+Ponovna upotreba 
+Ovaj uređaj je za višekratnu upotrebu na jednom pacijentu.  Nema zahtjeva za čišćenje, dezinfekciju ili sterilizaciju.  Nema maksimalnog broja ponovnih korištenja. 
+Međuoperabilnost 
+Seeing AI je mobilna aplikacija za korištenje sa iOS i Android platformama. 
+Mjere predostrožnosti 
+Aplikacija Seeing AI nije uvijek precizna. Ne treba je koristiti u situacijama kada biste mogli biti ozlijeđeni ili povrijeđeni. Nije namijenjena za upotrebu u otkrivanju, dijagnostici, praćenju, upravljanju ili liječenju bilo kojeg medicinskog stanja ili bolesti. Korisnici bi trebali tražiti bilo kakav medicinski savjet od ljekara. Korisnik je odgovoran za razumijevanje funkcionalnosti aplikacije Seeing AI, za procjenu uslova u kojima će se Seeing AI koristiti i za procjenu rizika da bi korištenje u tim okolnostima moglo dovesti do nerazumne štete za korisnika ili druge.  
+Izvještavanje o incidentu 
+Svaki ozbiljan incident koji se dogodio u vezi s uređajem treba prijaviti proizvođaču i nadležnom tijelu države članice u kojoj se korisnik i/ili pacijent nalazi.  
+Poznati rizici 
+Upotreba aplikacije Seeing AI klinički je procijenjena i pokazalo se da je sigurna i efikasna za upotrebu prema namjeri proizvođača.  Ne postoje poznati nepodnošljivi preostali rizici kojih korisnici moraju biti svjesni kada koriste Seeing AI.  
+Kontaktirajte Microsoft 
+Svaki ozbiljan incident koji se dogodio u vezi s uređajem treba prijaviti proizvođaču i nadležnom tijelu države članice u kojoj se korisnik i/ili pacijent nalazi.  
+Za sve incidente, povratne informacije ili podršku s aplikacijom Seeing AI, ili da zatražite kopiju ovog priručnika na papiru koji će vam biti obezbijeđen bez dodatnih troškova u roku od 7 dana, obratite se Microsoft Disability Answer Desk za pomoć: 
+seeingai@microsoft.com 
+ 	 
+
+
+ 
+Manual d'usuari de Seeing AI 
+
+Revisió C 
+13-Març-2024 
+CA 
+ 	 
+Manual d'usuari de Seeing AI 
+
+Introducció 
+Per utilitzar Seeing IA al dispositiu mòbil, seguiu aquestes instruccions: 
+1. Assegureu-vos que el dispositiu estigui actualitzat i que executi l'última versió de l'iOS o l'Android. 
+2. Instal·leu Seeing IA des de l'App Store d'Apple des de l'enllaç següent: 
+https://aka.ms/SeeingAIiOSDownload o des de la Google Play Store des de l'enllaç següent: https://aka.ms/SeeingAIAndroidDownload 
+3. Obriu l'aplicació i seguiu les instruccions de la pantalla per configurar el dispositiu. 
+4. Un cop configurat el dispositiu, seguiu totes les sol·licituds i els advertiments de l'aplicació. 
+5. Si experimenteu cap problema o teniu cap pregunta, poseu-vos en contacte amb el fabricant per obtenir ajuda mitjançant la informació de contacte indicada en aquest manual. 
+6. És important seguir totes les instruccions i advertiments proporcionats pel fabricant per garantir l'ús segur i eficaç del dispositiu.  
+L'ús d'aquesta aplicació està subjecte a les Condicions d'ús de Seeing AI. És responsabilitat vostra confirmar que enteneu i accepteu aquests termes i condicions tal i com es mostren a l'aplicació.  
+Informació del producte 
+Nom del producte 
+Seeing AI 
+Seeing AI és un dispositiu mèdic de classe I d'acord amb el Reglament (UE) 2017/745 (per a MDR). 
+Versió 
+Disponible a la secció Quant a de l'aplicació 
+
+Data de la fabricació 
+Disponible a la secció Quant a de l'aplicació 
+
+Fabricant 
+Microsoft Corporation  
+One Microsoft Way  
+Redmond, WA 98052  
+EUA  
+
+Representant autoritzat de la Unió Europea Emergent Europa B.V. 
+Westervoortsedijk 60 
+6827 AT Arnhem 
+Països Baixos  
+Persona responsable del Regne Unit Emergo Consulting (UK) Limited c/o Cr 360 - UL International Compass House, Vision Park Histon 
+Cambridge CB24 9BZ Regne Unit 
+Informació reguladora 
+
+ 
+
+ 
+UDI-DI bàsic: 08600098825SEEINGAIIOSDN 
+Codi EMDN: Y99 
+Informació important de seguretat 
+Finalitat prevista 
+Seeing IA és una aplicació mòbil per utilitzar-la amb plataformes iOS i Android, que proporciona a un usuari cec o amb deficiències visuals informació sobre el seu entorn visual aprofitant les tecnologies emergents, com ara intel·ligència artificial (IA). Seeing IA té com a objectiu augmentar la consciència existent d'una persona del seu entorn proporcionant comentaris d'àudio i tecnologia tàctil sobre el que s'ha detectat.  
+Contraindicacions 
+Seeing AI no està dissenyada i no s'ha d'utilitzar com a tecnologia principal o exclusiva amb la qual les persones cegues o amb deficiència visual poden disposar de més informació sobre el seu entorn. Seeing AI fa servir la Intel·ligència artificial (IA) per produir sortides probabilístiques, la qual cosa variarà en la precisió en funció de la ubicació i la manera com s'utilitza Seeing AI. Seeing IA no detecta, diagnostica, supervisa, administra o tracta cap condició mèdica o malaltia. La persona usuària és responsable d'entendre la funcionalitat de l'aplicació Seeing AI, d'avaluar les condicions en què s'utilitzarà Seeing AI, i d'avaluar el risc que l'ús en aquestes circumstàncies podria ocasionar danys injustificats a la persona usuària o 
+altres persones.  
+Usuaris previstos 
+Seeing AI està destinada a l'ús per part de persones amb ceguesa o amb una altra discapacitat visual. 
+Especificació dels beneficis mèdics i les característiques de rendiment Proporciona informació d'àudio/hàptica als usuaris amb l'objectiu d'augmentar la seva comprensió de l'entorn físic 
+
+Reutilització 
+Aquest dispositiu és reutilitzable per a un sol pacient.  No hi ha requisits relatius a la neteja, la desinfecció o l'esterilització.  No hi ha cap nombre màxim de vegades que es pot reutilitzar. 
+Interoperabilitat 
+Seeing IA és una aplicació mòbil per utilitzar-la amb les plataformes iOS i Android. 
+Precaucions 
+Seeing AI no sempre és precisa. No s'hauria d'utilitzar en situacions en què podríeu prendre mal. No està pensat per al seu ús en la detecció, el diagnòstic, la supervisió, l'administració o el tractament de cap condició mèdica o malaltia. Els usuaris han de cercar qualsevol consell mèdic d'un metge. La persona usuària és responsable d'entendre la funcionalitat de l'aplicació Seeing AI, d'avaluar les condicions en què s'utilitzarà Seeing AI, i d'avaluar el risc que l'ús en aquestes circumstàncies podria ocasionar danys injustificats a la persona usuària o altres persones.  
+Informe d'incidents 
+Qualsevol incident greu que s'hagi produït en relació amb el dispositiu s'ha de notificar al fabricant i a l'autoritat competent de l'estat membre en què s'estableix l'usuari o el pacient.  
+Riscos coneguts 
+L'ús de Seeing AI s'ha avaluat clínicament i s'ha demostrat que és segur i eficaç per al seu ús segons el fabricant.  No hi ha riscos residuals intolerables coneguts que els usuaris hagin de conèixer quan utilitzin Seeing AI.  
+Poseu-vos en contacte amb Microsoft 
+Qualsevol incident greu que s'hagi produït en relació amb el dispositiu s'ha de notificar al fabricant i a l'autoritat competent de l'estat membre en què s'estableix l'usuari o el pacient.  
+Per a tots els incidents, comentaris o per a l'assistència tècnica de l'aplicació Seeing IA, o per sol·licitar una còpia en paper d'aquest manual que es proporcionarà sense cap cost addicional en un termini de 7 dies, poseu-vos en contacte amb el Microsoft Answer Desk Accessibilitat per obtenir ajuda: seeingai@microsoft.com 
+ 	 
+
+
+ 
+Uživatelská příručka k Seeing AI 
+
+Revize C 
+13-Bře-2024 
+CS 
+ 	 
+Uživatelská příručka k Seeing AI 
+
+Začínáme 
+Pokud chcete používat Seeing AI na mobilním zařízení, postupujte podle těchto pokynů: 
+1. Ujistěte se, že je vaše zařízení aktuální a používá nejnovější verzi systému iOS nebo Android. 
+2. Nainstalujte Seeing AI z Apple App Storu z následujícího odkazu: https://aka.ms/SeeingAIiOSDownload nebo z Obchodu Google Play z následujícího odkazu: https://aka.ms/SeeingAIAndroidDownload 
+3. Otevřete aplikaci a podle pokynů na obrazovce nastavte zařízení. 
+4. Po nastavení zařízení postupujte podle všech výzev a upozornění v aplikaci. 
+5. Pokud narazíte na nějaké problémy nebo máte nějaké dotazy, požádejte o pomoc výrobce pomocí kontaktních údajů uvedených v této příručce. 
+6. Je důležité postupovat podle všech pokynů a upozornění poskytnutých výrobcem, abyste zajistili bezpečné a efektivní používání zařízení.  
+Používání této aplikace podléhá podmínkám použití Seeing AI. Je na vás, abyste potvrdili, že rozumíte těmto podmínkám a ujednáním a přijímáte je, jak je uvedeno v aplikaci.  
+Informace o produktu 
+Název produktu 
+Seeing AI 
+Seeing AI je lékařské zařízení třídy I v souladu s nařízením (EU) 2017/745 (pro MDR). 
+Verze 
+K dispozici v části O aplikaci 
+
+Datum výroby 
+K dispozici v části O aplikaci 
+
+Výrobce 
+Microsoft Corporation  
+One Microsoft Way  
+Redmond, WA 98052  
+USA  
+
+Autorizovaný zástupce Evropské unie Emergo Europe B.V. 
+Westervoortsedijk 60 
+6827 AT Arnhem 
+The Netherlands  
+Odpovědná osoba ve Spojeném království Emergo Consulting (Spojené království) Limited 
+c/o Cr 360 - UL International Compass House, Vision Park Histon 
+Cambridge CB24 9BZ 
+Spojené království 
+Informace o právních opatřeních 
+
+ 
+
+ 
+Základní UDI-DI: 08600098825SEEINGAIIOSDN 
+Kód EMDN: Y99 
+Důležité informace o bezpečnosti 
+Účel použití 
+Seeing AI je mobilní aplikace pro platformy iOS a Android, která nevidomému nebo jinak zrakově postiženému uživateli poskytuje informace o jeho vizuálním prostředí s využitím nových technologií, jako je umělá inteligence (AI). Seeing AI má rozšířit stávající povědomí jednotlivce o jeho okolí tím, že mu poskytne zvukovou a haptickou zpětnou vazbu o tom, co bylo zjištěno.  
+Kontraindikace 
+Seeing AI není určena k tomu, aby sloužila a neměla by být používána jako primární nebo výhradní technologie, pomocí níž se nevidomé nebo jinak zrakově postižené osoby seznamují se svým okolím. Seeing AI využívá umělou inteligenci (AI) k vytváření pravděpodobnostních výstupů, jejichž přesnost se bude lišit v závislosti na tom, kde a jak je Seeing AI používána. Seeing AI nezjišťuje, nediagnostikuje, nesleduje, neřídí ani neléčí žádný zdravotní stav nebo nemoc. Uživatel je odpovědný za pochopení funkcí aplikace Seeing AI, za posouzení podmínek, za kterých bude Seeing AI používat, a za posouzení rizika, že by použití za těchto okolností mohlo vést k nepřiměřenému poškození uživatele nebo jiných osob.  
+Zamýšlení uživatelé 
+Seeing AI je určeno pro nevidomé nebo jinak zrakově postižené osoby. 
+Specifikace klinických výhod a charakteristik výkonu 
+Poskytuje uživatelům zvukové/haptické informace s cílem rozšířit jejich porozumění fyzického prostředí. 
+
+Opětovná použitelnost 
+Toto zařízení je opakovaně použitelné pro jednoho pacienta.  V oblasti čištění, dezinfekce nebo úklidu nejsou žádné požadavky.  Neexistuje maximální počet opakovaných použití. 
+Vzájemná funkční spolupráce 
+Seeing AI je mobilní aplikace pro platformy iOS a Android. 
+Opatření 
+Seeing AI není vždy přesná. Nemělo by se používat v situacích, kdy by mohlo dojít k poškození nebo zranění. Není určená k detekci, diagnostice, monitorování, správě nebo ošetření jakéhokoli zdravotního stavu nebo onemocnění. Uživatelé by měli vyhledávat jakékoli lékařské rady od lékaře. Uživatel je odpovědný za pochopení funkčnosti aplikace Seeing AI, za posouzení podmínek, za kterých bude Seeing AI používáno, a za posouzení rizika, že použití za těchto okolností by mohlo mít za následek nepřiměřenou újmu uživateli nebo ostatním.  
+Hlášení incidentů 
+Každá závažná událost, ke které došlo v souvislosti s prostředkem, by měla být nahlášena výrobci a příslušnému orgánu členského státu, ve kterém je uživatel nebo pacient zaveden.  
+Známá rizika 
+Použití Seeing AI bylo klinicky vyhodnoceno a bylo prokázáno, že je bezpečné a účinné při použití podle určení výrobce.  Nejsou známa žádná nepřijatelná reziduální rizika, kterých by si uživatelé museli být při používání Seeing AI vědomi.  
+Kontaktovat Microsoft 
+Každá závažná událost, ke které došlo v souvislosti s prostředkem, by měla být nahlášena výrobci a příslušnému orgánu členského státu, ve kterém je uživatel nebo pacient zaveden.  
+Pokud se jedná o všechny incidenty, zpětnou vazbu nebo podporu v aplikaci Seeing AI nebo pokud chcete požádat o fyzickou kopii této příručky, kterou obdržíte do 7 dnů bez dalších poplatků, požádejte o pomoc Microsoft Answer Desk pro usnadnění přístupu: seeingai@microsoft.com 
+ 	 
+
+
+ 
+Se brugermanualen til Seeing AI 
+
+Revision C 
+13-Mar.-2024 
+DA 
+ 	 
+Se brugermanualen til Seeing AI 
+
+Kom godt i gang 
+Hvis du vil bruge Seeing AI på din mobilenhed, skal du følge disse instruktioner: 
+1. Sørg for, at din enhed er opdateret og kører den nyeste version af iOS eller Android. 
+2. Installér Seeing AI fra Apple-App Store fra følgende link: 
+https://aka.ms/SeeingAIiOSDownload eller fra Google Play Butik fra følgende link: https://aka.ms/SeeingAIAndroidDownload 
+3. Åbn appen, og følg vejledningen på skærmen for at konfigurere enheden. 
+4. Når enheden er konfigureret, skal du følge alle instruktioner og advarsler i appen. 
+5. Hvis du oplever problemer eller har spørgsmål, kan du kontakte producenten for at få hjælp ved hjælp af de kontaktoplysninger, der er angivet i denne vejledning. 
+6. Det er vigtigt at følge alle instruktioner og advarsler fra producenten for at sikre sikker og effektiv brug af enheden.  
+Brug af dette program er underlagt vilkår for anvendelse af Seeing AI. Det er dit ansvar at bekræfte, at du forstår og accepterer disse vilkår og betingelser, som vist i programmet.  
+Produktoplysninger 
+Produktnavn 
+Seeing AI 
+Seeing AI er en medicinsk enhed i klasse I i overensstemmelse med forordning (EU) 2017/745 (for MDR). 
+Version 
+Tilgængelig i afsnittet Om i programmet 
+
+Fremstillingsdato 
+Tilgængelig i afsnittet Om i programmet 
+
+Producent 
+Microsoft Corporation  
+One Microsoft Way  
+Redmond, WA 98052  
+USA  
+
+Den Europæiske Union - autoriseret repræsentant Emergo Europe B.V. 
+Westervoortsedijk 60 
+6827 AT Arnhem 
+The Netherlands  
+Ansvarlig person i Storbritannien Emergo Consulting (Storbritannien) Limited c/o Cr 360 - UL International Compass House, Vision Park Histon 
+Cambridge Cb24 9BZ Storbritannien 
+Lovmæssige oplysninger 
+
+ 
+
+ 
+Grundlæggende UDI-DI: 08600098825SEEINGAIIOSDN 
+EMDN-kode: Y99 
+Vigtige sikkerhedsoplysninger 
+Formål 
+Seeing AI er en mobilapp til brug med iOS- og Android-platforme, som giver en blind eller på anden måde synshæmmet bruger oplysninger om deres visuelle miljø ved at udnytte nye teknologier som kunstig intelligens (AI). Seeing AI er beregnet til at øge en persons eksisterende kendskab til deres omgivelser ved at give lyd og haptisk feedback om, hvad der er blevet registreret.  
+Kontraindikationer 
+Seeing AI er ikke designet til at være og bør ikke bruges som primær eller eksklusiv teknologi, gennem hvilken personer, der er blinde eller synshæmmede, får mere at vide om deres miljø. Seeing AI bruger kunstig intelligens (AI) til at producere probabilistiske output, som varierer i nøjagtighed, afhængigt af hvor og hvordan Seeing AI bruges. Seeing AI registrerer, diagnosticerer, overvåger, administrerer eller behandler ikke nogen medicinsk tilstand eller sygdom. Brugeren er ansvarlig for at forstå funktionaliteten i Seeing AI-appen, for at vurdere de betingelser, som Seeing AI skal bruges under, og for at vurdere risikoen for, at brug under disse omstændigheder kan medføre unødig skade på brugeren eller andre.  
+Tiltænkte brugere 
+Seeing AI er beregnet til brug af blinde eller synshæmmede personer. 
+Specifikation af kliniske fordele og ydeevnekarakteristika 
+Leverer lyd-/haptiske oplysninger til brugerne med det formål at forbedre deres forståelse af det fysiske miljø 
+
+Genanvendelighed 
+Denne enhed kan genanvendes af en enkelt patient.  Der er ingen krav til rengøring, desinfektion eller sterilisering.  Der er ikke noget maksimalt antal gange, det kan genanvendes. 
+Interoperabilitet 
+Seeing AI er en mobilapp til brug med iOS- og Android-platforme. 
+Forholdsregler 
+Seeing AI er ikke altid nøjagtig. Den bør ikke bruges i situationer, hvor du kan komme til skade. Den er ikke beregnet til brug ved påvisning, diagnosticering, overvågning, administration eller behandling af nogen form for medicinsk tilstand eller sygdom. Brugerne skal søge medicinsk rådgivning fra en læge. Brugeren er ansvarlig for at forstå funktionaliteten af Seeing AI-appen, for at vurdere de betingelser, som Seeing AI skal bruges under, og for at vurdere risikoen for at brugen under disse omstændigheder, kan resultere i stor skade på brugeren eller andre.  
+Hændelsesrapportering 
+Enhver alvorlig hændelse, der er opstået i forbindelse med enheden, skal rapporteres til producenten og den myndighed i den stat, hvor brugeren og/eller patienten er etableret.  
+Kendte risici 
+Brugen af Seeing AI er blevet klinisk evalueret og har vist sig at være sikker og effektiv til brug efter producentens hensigt.  Der er ingen kendte risici, som brugerne skal være opmærksomme på, når de bruger Seeing AI.  
+Kontakt Microsoft 
+Enhver alvorlig hændelse, der er opstået i forbindelse med enheden, skal rapporteres til producenten og den myndighed i den stat, hvor brugeren og/eller patienten er etableret.  
+For alle hændelser, feedback eller for at få support til Seeing AI-programmet eller for at anmode om en papirkopi af denne vejledning, der leveres uden yderligere omkostninger inden for 7 dage, skal du kontakte Microsoft Answer Desk for handicappede for at få hjælp: seeingai@microsoft.com 
+ 	 
+
+
+ 
+Seeing AI-Benutzerhandbuch 
+
+Revision C 
+13-Mär-2024 
+DE 
+ 	 
+Seeing AI-Benutzerhandbuch 
+
+Erste Schritte 
+Um Seeing AI auf Ihrem Mobilgerät zu verwenden, befolgen Sie bitte diese Anweisungen: 
+1. Stellen Sie sicher, dass Ihr Gerät auf dem neuesten Stand ist und die aktuelle Version von iOS oder Android ausgeführt wird. 
+2. Installieren Sie Seeing AI über die Apple App Store über den folgenden Link: 
+https://aka.ms/SeeingAIiOSDownload oder über den Google Play Store über den folgenden Link: https://aka.ms/SeeingAIAndroidDownload 
+3. Öffnen Sie die App, und befolgen Sie die Anweisungen auf dem Bildschirm, um das Gerät einzurichten. 
+4. Nachdem das Gerät eingerichtet wurde, folgen Sie allen In-AppEingabeaufforderungen und Warnhinweisen. 
+5. Wenn Probleme auftreten oder Sie Fragen haben, wenden Sie sich bitte an den Hersteller, um Unterstützung zu erhalten. Verwenden Sie dazu die in diesem Handbuch aufgeführten Kontaktinformationen. 
+6. Es ist wichtig, alle Anweisungen und Warnhinweise des Herstellers zu befolgen, um die sichere und effektive Verwendung des Geräts sicherzustellen.  
+Die Nutzung dieser Anwendung unterliegt den Seeing AI-Nutzungsbedingungen. Es liegt in Ihrer Verantwortung, zu bestätigen, dass Sie diese Geschäftsbedingungen, wie in der Anwendung angezeigt, verstehen und akzeptieren.  
+Produktinformationen 
+Produktname 
+Seeing AI 
+Seeing AI ist ein medizinisches Gerät der Klasse I gemäß der Verordnung (EU) 2017/745 (für MDR). 
+Version 
+Verfügbar im Abschnitt "Info" der Anwendung 
+
+Herstellungsdatum 
+Verfügbar im Abschnitt "Info" der Anwendung 
+
+Hersteller 
+Microsoft Corporation  
+One Microsoft Way  
+Redmond, WA 98052  
+USA  
+
+Autorisierter Vertreter der Europäischen Union Emergo Europe B.V. 
+Westervoortsedijk 60 
+6827 AT Arnhem 
+The Netherlands  
+Verantwortliche Person im Vereinigten Königreich 
+Emergo Consulting (UK) Limited c/o Cr 360 - UL International Compass House, Vision Park Histon 
+Cambridge CB24 9BZ 
+Vereinigtes Königreich 
+Regulatorische Informationen 
+
+ 
+
+ 
+Basic-UDI-DI: 08600098825SEEINGAIIOSDN 
+EMDN-Code: Y99 
+Wichtige Sicherheitsinformationen 
+Beabsichtigter Zweck 
+Seeing AI ist eine mobile App für die Verwendung auf den iOS- und Android-
+Plattformen, die einem blinden oder anderweitig sehbehinderten Benutzer Informationen über seine sichtbare Umgebung bietet, indem er neue Technologien wie künstliche Intelligenz (KI) nutzt. Seeing AI soll das vorhandene Bewusstsein einer Person für ihre Umgebung erweitern, indem akustisches und haptisches Feedback über das Erkannte bereitstellt.  
+Kontraindikationen 
+Seeing AI ist nicht als primäre oder ausschließliche Technologie gedacht, mit der blinde oder anderweitig sehbehinderte Menschen etwas über ihre Umwelt erfahren können, und sollte auch nicht als solche eingesetzt werden. Seeing AI verwendet künstliche Intelligenz (KI), um probabilistische Ausgaben zu erzeugen, die in ihrer Genauigkeit variieren, je nachdem, wo und wie Seeing AI eingesetzt wird. Seeing AI erkennt, diagnostiziert, überwacht, verwaltet oder behandelt keine medizinischen 
+Zustände oder Krankheiten. Der Benutzer ist dafür verantwortlich, die 
+Funktionalität der Seeing AI-App zu verstehen, die Bedingungen zu beurteilen, unter denen Seeing AI verwendet wird, und das Risiko abzuschätzen, dass die Verwendung unter diesen Umständen zu unangemessenen Schäden für den Benutzer oder andere führen könnte.  
+Zielgruppe 
+Seeing AI ist für blinde oder anderweitig sehbehinderte Personen vorgesehen. 
+Spezifikation der klinischen Vorteile und Leistungsmerkmale 
+Stellt akustische/haptische Informationen für Benutzer bereit, um ihr Verständnis der physischen Umgebung zu erweitern. 
+
+Wiederverwendung 
+Dieses Gerät ist für einen einzelnen Patienten wiederverwendbar.  Es gibt keine Anforderungen bezüglich Reinigung, Desinfektion oder Sterilisation.  Es gibt keine Höchstzahl für die Wiederverwendung des Geräts. 
+Interoperabilität 
+Seeing AI ist eine mobile App für die Verwendung mit den iOS- und AndroidPlattformen. 
+Vorsichtsmaßnahmen 
+Seeing AI ist nicht immer genau. Es sollte nicht in Situationen verwendet werden, in denen Sie Schaden nehmen oder sich verletzen könnten. Es ist nicht für die Erkennung, Diagnose, Überwachung, Verwaltung oder Behandlung von medizinischen Beschwerden oder Krankheiten vorgesehen. Benutzer sollten sich von einem Arzt beraten lassen. Der Benutzer ist dafür verantwortlich, die Funktionalität der Seeing AI-App zu verstehen, die Bedingungen zu bewerten, unter denen Seeing AI verwendet wird, und das Risiko abzuschätzen, dass die Verwendung unter diesen Umständen zu einem unzumutbaren Schaden für den Benutzer oder andere führen könnte.  
+Vorfallsberichterstellung 
+Jeder schwerwiegende Vorfall, der in Bezug auf das Gerät auftritt, sollte dem Hersteller und der zuständigen Behörde des Mitgliedslandes gemeldet werden, in dem der Benutzer und/oder der Patient ansässig sind.  
+Bekannte Risiken 
+Die Verwendung von Seeing AI wurde klinisch evaluiert und hat sich als sicher und effektiv erwiesen, wenn sie wie vom Hersteller beabsichtigt verwendet wird.  Es sind keine nicht tolerierbaren Restrisiken bekannt, auf welche die Benutzer bei der Anwendung von Seeing AI achten müssen.  
+Wenden Sie sich an Microsoft 
+Jeder schwerwiegende Vorfall, der in Bezug auf das Gerät auftritt, sollte dem Hersteller und der zuständigen Behörde des Mitgliedslandes gemeldet werden, in dem der Benutzer und/oder der Patient ansässig sind.  
+Für alle Vorfälle, Rückmeldungen oder für Unterstützung bei der Anwendung Seeing 
+AI oder um eine Papierversion dieses Handbuchs anzufordern, die innerhalb von 7 Tagen ohne zusätzliche Kosten zur Verfügung gestellt wird, wenden Sie sich bitte an den Microsoft Disability Answer Desk: seeingai@microsoft.com 
+ 	 
+
+ 
+Εγχειρίδιο χρήστη Seeing AI 
+
+Αναθεώρηση C 13-Μάρ-2024 
+EL 
+ 	 
+Εγχειρίδιο χρήστη Seeing AI 
+
+Έναρξη 
+Για να χρησιμοποιήσετε το Seeing AI στην κινητή συσκευή σας, ακολουθήστε αυτές τις οδηγίες: 
+1. Βεβαιωθείτε ότι η συσκευή σας είναι ενημερωμένη και εκτελεί την πιο πρόσφατη έκδοση του iOS ή του Android. 
+2. Εγκαταστήστε το Seeing AI από το Apple App Store από την ακόλουθη σύνδεση: https://aka.ms/SeeingAIiOSDownload ή από το Κατάστημα του Google Play από την ακόλουθη σύνδεση: https://aka.ms/SeeingAIAndroidDownload 
+3. Ανοίξτε την εφαρμογή και ακολουθήστε τις οδηγίες στην οθόνη για να ρυθμίσετε τη συσκευή. 
+4. Μετά τη ρύθμιση της συσκευής, ακολουθήστε όλες τις οδηγίες και τις προειδοποιήσεις εντός εφαρμογής. 
+5. Αν αντιμετωπίσετε προβλήματα ή έχετε απορίες, επικοινωνήστε με τον κατασκευαστή για βοήθεια, χρησιμοποιώντας τα στοιχεία επικοινωνίας που αναφέρονται σε αυτό το εγχειρίδιο. 
+6. Είναι σημαντικό να ακολουθήσετε όλες τις οδηγίες και τις προειδοποιήσεις που παρέχονται από τον κατασκευαστή για να εξασφαλίσετε την ασφαλή και αποτελεσματική χρήση της συσκευής.  
+Η χρήση αυτής της εφαρμογής υπόκειται στους Όρους χρήσης Seeing AI. Είναι δική σας ευθύνη να επιβεβαιώσετε ότι κατανοείτε και αποδέχεστε αυτούς τους όρους και τις προϋποθέσεις, όπως φαίνεται στην εφαρμογή.  
+Πληροφορίες προϊόντος 
+Όνομα προϊόντος 
+Seeing AI 
+Το Seeing AI είναι μια ιατρική συσκευή κλάσης I σύμφωνα με τον Κανονισμό (ΕΕ) 2017/745 (για MDR). 
+Έκδοση 
+Διαθέσιμο στην ενότητα Πληροφορίες της εφαρμογής 
+
+Ημερομηνία κατασκευής 
+Διαθέσιμο στην ενότητα Πληροφορίες της εφαρμογής 
+
+Κατασκευαστής 
+Microsoft Corporation  
+One Microsoft Way  
+Redmond, WA 98052  
+USA  
+
+Εξουσιοδοτημένος αντιπρόσωπος Ευρωπαϊκής Ένωσης 
+Emergo Europe B.V. 
+Westervoortsedijk 60 
+6827 AT Arnhem 
+The Netherlands  
+Υπεύθυνο πρόσωπο του Ηνωμένου Βασιλείου 
+Emergo Consulting (UK) Limited c/o Cr 360 - UL International Compass House, Vision Park Histon 
+Cambridge CB24 9BZ 
+Ηνωμένο Βασίλειο 
+Κανονιστικές πληροφορίες 
+
+ 
+
+ 
+Βασικό UDI-DI: 08600098825SEEINGAIIOSDN 
+Κωδικός EMDN: Y99 
+Σημαντικές πληροφορίες ασφαλείας 
+Προορισμό 
+Το Seeing AI είναι μια εφαρμογή για κινητά, για χρήση με πλατφόρμες iOS και Android, η οποία παρέχει σε τυφλούς ή με άλλο τρόπο χρήστες με προβλήματα όρασης πληροφορίες σχετικά με το οπτικό τους περιβάλλον αξιοποιώντας αναδυόμενες τεχνολογίες όπως η Τεχνητή Νοημοσύνη (AI). Η παρακολούθηση της τεχνητής νοημοσύνης έχει σκοπό να αυξήσει την υπάρχουσα επίγνωση ενός ατόμου για το περιβάλλον του, παρέχοντας ηχητική και απτική ανατροφοδότηση σχετικά με το τι έχει εντοπιστεί.  
+Αντενδείξεις 
+Το Seeing AI δεν έχει σχεδιαστεί και δεν πρέπει να χρησιμοποιείται ως κύρια ή αποκλειστική τεχνολογία μέσω της οποίας τα άτομα που είναι τυφλά ή με άλλο τρόπο με προβλήματα όρασης μαθαίνουν για το περιβάλλον τους. Το Seeing AI χρησιμοποιεί Τεχνητή Νοημοσύνη (AI) για να παράγει πιθανολογικά αποτελέσματα, τα οποία θα ποικίλλουν σε ακρίβεια ανάλογα με το πού και πώς χρησιμοποιείται το Seeing AI. Η παρακολούθηση της τεχνητής νοημοσύνης δεν ανιχνεύει, διαγνώσει, παρακολουθεί, διαχειρίζεται ή θεραπεύει οποιαδήποτε ιατρική κατάσταση ή ασθένεια. Ο χρήστης είναι υπεύθυνος για την κατανόηση της λειτουργικότητας της εφαρμογής Seeing AI, για την αξιολόγηση των συνθηκών στις οποίες θα χρησιμοποιηθεί το Seeing AI και για την αξιολόγηση του κινδύνου η χρήση υπό αυτές τις συνθήκες να οδηγήσει σε παράλογη βλάβη στον χρήστη ή σε άλλους.  
+Προβλεπόμενοι χρήστες 
+Το Seeing AI προορίζεται για χρήση από άτομα με προβλήματα όρασης ή με άλλο τρόπο. 
+Καθορισμός κλινικών πλεονεκτημάτων και χαρακτηριστικών επιδόσεων 
+Παρέχει ηχητικές/απτικές πληροφορίες στους χρήστες με σκοπό την ενίσχυση της κατανόησης του φυσικού περιβάλλοντος 
+
+Επαναχρησιμοποίηση 
+Αυτή η συσκευή μπορεί να επαναχρησιμοποίησης ενός ασθενούς.  Δεν υπάρχουν απαιτήσεις σχετικά με τον καθαρισμό, την απολύμανση ή την αποστείρωση.  Δεν υπάρχει μέγιστος αριθμός φορών που μπορεί να χρησιμοποιηθεί ξανά. 
+Διαλειτουργικότητα 
+Το Seeing AI είναι μια εφαρμογή για κινητές συσκευές, για χρήση με τις πλατφόρμες iOS και Android. 
+Προφυλάξεις 
+Το Seeing AI δεν είναι πάντα ακριβές. Δεν θα πρέπει να χρησιμοποιείται σε περιπτώσεις όπου μπορεί να σας βλάψουν ή να σας βλάψουν. Δεν προορίζεται για χρήση στον εντοπισμό, τη διάγνωση, την παρακολούθηση, τη διαχείριση ή τη θεραπεία οποιασδήποτε ιατρικής κατάστασης ή ασθένειας. Οι χρήστες θα πρέπει να ζητήσουν οποιαδήποτε ιατρική συμβουλή από έναν γιατρό. Ο χρήστης είναι υπεύθυνος για την κατανόηση της λειτουργικότητας της εφαρμογής Seeing AI, για την αξιολόγηση των συνθηκών στις οποίες θα χρησιμοποιηθεί το Seeing AI, καθώς και για την αξιολόγηση του κινδύνου που ενέχει η χρήση σε αυτές τις περιπτώσεις θα μπορούσε να προκαλέσει πρόκληση πρόκλησης βλάβης στον χρήστη ή σε άλλους.  
+Αναφορά περιστατικών 
+Κάθε σοβαρό περιστατικό που έχει συμβεί σε σχέση με τη συσκευή θα πρέπει να αναφέρεται στον κατασκευαστή και στην αρμόδια αρχή του κράτους Μέλους στο οποίο είναι εγκατεστημένος ο χρήστης ή/και ο ασθενής.  
+Γνωστοί κίνδυνοι 
+Η χρήση του Seeing AI αξιολογήθηκε κλινικά και έχει αποδειχθεί ότι είναι ασφαλής και αποτελεσματική για χρήση όπως αναμένεται από τον κατασκευαστή.  Δεν υπάρχουν γνωστοί μη αποδεκτοί υπολειπόμενοι κίνδυνοι που πρέπει να γνωρίζουν οι χρήστες κατά τη χρήση του Seeing AI.  
+Επικοινωνία με τη Microsoft 
+Κάθε σοβαρό περιστατικό που έχει συμβεί σε σχέση με τη συσκευή θα πρέπει να αναφέρεται στον κατασκευαστή και στην αρμόδια αρχή του κράτους Μέλους στο οποίο είναι εγκατεστημένος ο χρήστης ή/και ο ασθενής.  
+Για όλα τα περιστατικά, τα σχόλια ή για υποστήριξη με την εφαρμογή Seeing AI ή για να ζητήσετε ένα αντίγραφο αυτού του εγχειριδίου που θα παρασχεθεί χωρίς επιπλέον κόστος εντός 7 ημερών, επικοινωνήστε με το Disability Answer Desk της Microsoft για βοήθεια: seeingai@microsoft.com 
+ 	 
+
+ 
+Manual de usuario de Seeing AI 
+
+Revisión C 
+13-Mar-2024 
+ES 
+ 	 
+Manual de usuario de Seeing AI 
+
+Primeros pasos 
+Para usar Seeing AI en el dispositivo móvil, siga estas instrucciones: 
+1. Asegúrese de que el dispositivo está actualizado y ejecutando la versión más reciente de iOS o Android. 
+2. Instale Seeing AI desde la App Store de Apple desde el siguiente vínculo: 
+https://aka.ms/SeeingAIiOSDownload o desde la Play Store de Google desde el siguiente vínculo: https://aka.ms/SeeingAIAndroidDownload 
+3. Abra la aplicación y siga las instrucciones en pantalla para configurar el dispositivo. 
+4. Una vez configurado el dispositivo, siga todos los avisos y advertencias en la aplicación. 
+5. Si experimenta algún problema o tiene alguna pregunta, póngase en contacto con el fabricante para obtener ayuda, utilizando la información de contacto que se muestra en este manual. 
+6. Es importante seguir todas las instrucciones y advertencias proporcionadas por el fabricante para garantizar el uso seguro y eficaz del dispositivo.  
+El uso de esta aplicación está sujeto a los Términos de uso de Seeing AI. Es su responsabilidad confirmar que comprende y acepta estos términos y condiciones como se muestra en la aplicación.  
+Información del producto 
+Nombre del producto 
+Seeing AI 
+Seeing AI es un dispositivo médico de clase I de acuerdo con el Reglamento (UE) 2017/745 (para MDR). 
+Versión 
+Disponible en la sección Acerca de la aplicación 
+
+Fecha de fabricación 
+Disponible en la sección Acerca de la aplicación 
+
+Fabricante 
+Microsoft Corporation  
+One Microsoft Way  
+Redmond, WA 98052  
+Estados Unidos  
+
+Representante autorizado de la Unión Europea Emergo Europe B.V. 
+Westervoortsedijk 60 
+6827 AT Arnhem 
+The Netherlands  
+Persona responsable del Reino Unido Emergo Consulting (UK) Limited c/o Cr 360 - UL International Compass House, Vision Park Histon 
+Cambridge CB24 9BZ United Kingdom 
+Información normativa 
+
+ 
+
+ 
+UDI-DI básico: 08600098825SEEINGAIIOSDN 
+Código EMDN: Y99 
+Información de seguridad importante 
+Propósito 
+Seeing AI es una aplicación móvil para usarse con la plataformas iOS y Android, que proporciona a un usuario invidente o con discapacidad visual información sobre su entorno visual aprovechando tecnologías emergentes como la inteligencia artificial 
+(IA). Seeing AI está pensado para aumentar el conocimiento existente de un 
+individuo sobre su entorno, proporcionando audio y comentarios hápticos sobre lo que se ha detectado.  
+Contraindicaciones 
+Seeing AI no está diseñado para ser y no debe usarse como tecnología principal o exclusiva por la que las personas invidentes o con discapacidad visual conozcan su entorno. Seeing AI usa inteligencia artificial (IA) para generar salidas 
+probabilísticas, que variarán en precisión en función de dónde y cómo se use Seeing AI. Seeing AI no detecta, diagnostica, supervisa, administra ni trata ninguna enfermedad o condición médica. El usuario es responsable de comprender la funcionalidad de la aplicación Seeing AI, de evaluar las condiciones en las que se usará Seeing AI y de evaluar el riesgo de que el uso en esas circunstancias pueda provocar un daño no razonable al usuario o a otros.  
+Usuarios previstos 
+Seeing AI está pensado para que lo usen personas invidentes o con discapacidad visual. 
+Especificación de las ventajas clínicas y las características de rendimiento Proporciona información de audio o háptica a los usuarios con el fin de aumentar su comprensión del entorno físico 
+
+Reutilización 
+Este dispositivo es reutilizable para un solo paciente.  No hay ningún requisito relacionado con la limpieza, desinfección o esterilización.  No hay ningún número máximo de veces que se puede reutilizar. 
+Interoperabilidad 
+Seeing AI es una aplicación móvil que se puede usar con la plataformas iOS y Android. 
+Precauciones 
+Seeing AI no siempre será preciso. No debería usarse en situaciones en las que se puedan producir daños o heridas. No está pensado para su uso en la detección, diagnóstico, supervisión, administración o tratamiento de ninguna condición médica o enfermedad. Los usuarios deberán solicitar cualquier consejo médico a sus médicos. El usuario será responsable de comprender la funcionalidad de la aplicación Seeing AI, de evaluar las condiciones en las que se usará Seeing AI y de evaluar el riesgo de que el uso en esas circunstancias pueda causar daños no razonables al usuario o a otros.  
+Informes de incidentes 
+Cualquier incidente grave que se haya producido en relación con el dispositivo debe notificarse al fabricante y a la autoridad correspondiente del Estado miembro en el que esté establecido el usuario o el paciente.  
+Riesgos conocidos 
+El uso de Seeing AI fue evaluado clínicamente y se ha demostrado que es seguro y eficaz para el uso previsto por el fabricante. No hay ningún riesgo residual intolerable conocido que los usuarios deban tener en cuenta al usar Seeing AI.  
+Ponerse en contacto con Microsoft 
+Cualquier incidente grave que se haya producido en relación con el dispositivo debe notificarse al fabricante y a la autoridad correspondiente del Estado miembro en el que esté establecido el usuario o el paciente.  
+Para todos los incidentes, comentarios o soporte técnico con la aplicación Seeing AI, o para solicitar una copia en papel de este manual que se proporcionará sin costo adicional en un plazo de 7 días, póngase en contacto con el Answer Desk Accesibilidad de Microsoft para obtener ayuda: seeingai@microsoft.com 
+ 	 
+
+
+ 
+Seeing AI kasutusjuhend 
+
+Redaktsioon C 
+13-Märts-2024 
+ET 
+ 	 
+Seeing AI kasutusjuhend 
+
+Alustamine 
+Seeing AI kasutamiseks mobiilsideseadmes täitke järgmised juhised. 
+1. Veenduge, et teie seade oleks ajakohane ja kasutaks iOS-i või Androidi uusimat versiooni. 
+2. Installige Seeing AI Apple App Store'ist lingi https://aka.ms/SeeingAIiOSDownload või Google Play Store'ist lingi https://aka.ms/SeeingAIAndroidDownload kaudu. 
+3. Avage rakendus ja järgige seadme häälestamiseks ekraanil kuvatavaid juhiseid. 
+4. Kui seade on häälestatud, järgige kõiki rakendusesiseseid viipasid ja hoiatusi. 
+5. Kui teil tekib probleeme või teil on küsimusi, pöörduge abi saamiseks tootja poole, kasutades selles juhendis toodud kontaktteavet. 
+6. Seadme ohutu ja tõhusa kasutamise tagamiseks on oluline järgida kõiki tootja esitatud juhiseid ja hoiatusi.  
+Selle rakenduse kasutamisele kehtivad Seeing AI kasutustingimused. Peate kinnitama, et mõistate neid tingimusi ja nõustute nendega, nagu rakenduses näidatud.  
+Tooteteave 
+Toote nimi Seeing AI 
+Seeing AI on määrusele (EL) 2017/745 (MDR) vastav I klassi meditsiiniseade. 
+Versioon 
+Saadaval rakenduse jaotises Teave 
+
+Tootmiskuupäev 
+Saadaval rakenduse jaotises Teave 
+
+Tootja 
+Microsoft Corporation  
+One Microsoft Way  
+Redmond, WA 98052  
+USA  
+
+Euroopa Liidu volitatud esindaja Emergo Europe B.V. 
+Westervoortsedijk 60 
+6827 AT Arnhem 
+Holland  
+Ühendkuningriigi vastutav isik Emergo Consulting (UK) Limited c/o Cr 360 - UL International Compass House, Vision Park Histon 
+Cambridge CB24 9BZ Ühendkuningriik 
+Regulatiivteave 
+
+ 
+
+ 
+Lihtne UDI-DI: 08600098825SEEINGAIIOSDN 
+EMDN-kood: Y99 
+Oluline ohutusteave 
+Sihtotstarve 
+Seeing AI on mobiilirakendus, mida saab kasutada iOS-i ja Androidi platvormidega, mis annab pimedale või muul viisil nägemispuudega kasutajale teavet nende visuaalse keskkonna kohta, kasutades selleks uusi tehnoloogiaid, nagu tehisintellekt (AI). Seeing AI eesmärk on suurendada isiku teadlikkust oma ümbritsevast keskkonnast, andes tuvastatud sisu kohta heli- ja haptilist tagasisidet.  
+Vastunäidustused 
+Rakendus Seeing AI pole ette nähtud ja seda ei tohiks kasutada peamise ega ainsa tehnoloogiana, mille abil pimedad või vaegnägijad oma keskkonda tundma õpivad. Seeing AI kasutab tehisintellekti (AI) tõenäosuslike väljundite loomiseks, mis erinevad täpsuse poolest olenevalt sellest, kus ja kuidas Seeing AI-d kasutatakse. Seeing AI ei saa tuvastada, diagnoosida, jälgida, hallata ega ravida ühtegi terviseseisundit ega haigust. Kasutaja vastutab Seeing AI rakenduse funktsioonide mõistmise, Seeing AI kasutustingimuste ja kasutamisega kaasneva riski hindamise eest, mis võib tekitada kasutajale või teistele põhjendamatut kahju.  
+Sihtkasutajad 
+Seeing AI on mõeldud kasutamiseks pimedatele või vaegnägijatele. 
+Meditsiiniliste eeliste ja jõudlusnäitajate spetsifikatsioon 
+Esitab kasutajatele helilist/haptilist teavet, mille eesmärk on parandada nende arusaama füüsilisest keskkonnast 
+
+Korduvkasutatavus 
+See seade on mõeldud ühele patsiendile korduvkasutamiseks.  Puhastamise, desinfitseerimise ega steriliseerimise kohta pole nõudeid.  Korduvkasutamise kordade arv ei ole piiratud. 
+Koostalitlusvõime 
+Seeing AI on mobiilirakendus, mida saab kasutada iOS-i ja Androidi platvormidega. 
+Ettevaatusabinõud 
+Seeing AI pole alati täpne. Seda ei tohi kasutada olukordades, kus võite viga saada. See ei ole mõeldud ühegi meditsiinilise seisundi või haiguse tuvastamiseks, diagnoosimiseks, jälgimiseks, haldamiseks ega ravimiseks. Kasutajad peavad mis tahes meditsiinilise nõu saamiseks pöörduma arsti poole. Kasutaja vastutab Seeing AI rakenduse funktsioonide mõistmise, Seeing AI kasutustingimuste ja kasutamisega kaasneva riski hindamise eest, mis võib tekitada kasutajale või teistele põhjendamatut kahju.  
+Intsidendi aruandlus 
+Kõigist seadmega seotud tõsistest intsidentidest tuleks teatada tootjale ja selle liikmesriigi pädevale asutusele, kus kasutaja ja/või patsient asub.  
+Teadaolevad riskid 
+Seeing AI kasutust on kliinilistes uuringutes hinnatud ning on tõestatud, et see on tootja sihtotstarbel kasutamisel ohutu ja tõhus.  Seeing AI kasutamisel pole teadaolevaid talumatuid jääkriske, millest kasutajad peavad teadlikud olema.  
+Microsoftiga ühenduse võtmine 
+Kõigist seadmega seotud tõsistest intsidentidest tuleks teatada tootjale ja selle liikmesriigi pädevale asutusele, kus kasutaja ja/või patsient asub.  
+Kõigi rakendusega Seeing AI seotud juhtumite, tagasiside andmise või tugiteenuste saamise jaoks või selle juhendi koopia taotlemiseks, mis saadetakse lisatasuta 7 päeva jooksul, pöörduge Microsofti erivajadusteabetoe poole: 
+seeingai@microsoft.com 
+ 	 
+
+
+ 
+Seeing AI:n käyttöopas 
+
+Tarkistusversio C 13-Maa-2024 
+FI 
+ 	 
+Seeing AI:n käyttöopas 
+
+Aloita 
+Jos haluat käyttää Seeing AI:tä mobiililaitteessasi, noudata näitä ohjeita: 
+1. Varmista, että laitteesi on ajan tasalla ja että käytössä on uusin iOS- tai Androidversio. 
+2. Asenna Seeing AI Apple App Storesta seuraavasta linkistä: https://aka.ms/SeeingAIiOSDownload tai Google Play Kaupasta seuraavasta linkistä: https://aka.ms/SeeingAIAndroidDownload 
+3. Avaa sovellus ja määritä laite noudattamalla näyttöön tulevia ohjeita. 
+4. Kun laite on määritetty, noudata kaikkia sovelluksen kehotteita ja varoituksia. 
+5. Jos sinulla on ongelmia tai sinulla on kysyttävää, ota yhteyttä valmistajaan ja käytä tässä oppaassa lueteltuja yhteystietoja. 
+6. On tärkeää noudattaa kaikkia valmistajan antamia ohjeita ja varoituksia laitteen turvallisen ja tehokkaan käytön varmistamiseksi.  
+Tämän sovelluksen käyttöä koskevat Seeing AI:n käyttöehdot. Sinun vastuullasi on vahvistaa, että ymmärrät ja hyväksyt nämä ehdot ja määräykset sovelluksen mukaisesti.  
+Tuotetiedot 
+Tuotteen nimi 
+Seeing AI 
+Seeing AI on I-luokan lääketieteellinen laite asetuksen (EU) 2017/745 (MDR) mukaisesti. 
+Versio 
+Saatavilla sovelluksen Tietoja-osassa 
+
+Valmistuspäivämäärä 
+Saatavilla sovelluksen Tietoja-osassa 
+
+Valmistaja 
+Microsoft Corporation  
+One Microsoft Way  
+Redmond, WA 98052  
+Yhdysvallat  
+
+Euroopan unionin valtuutettu edustaja Emergo Europe B.V. 
+Westervoortsedijk 60 
+6827 AT Arnhem 
+The Netherlands  
+Yhdistyneen kuningaskunnan vastuuhenkilö 
+Emergo Consulting (UK) Limited c/o Cr 360 - UL International Compass House, Vision Park Histon 
+Cambridge CB24 9BZ Iso-Britannia 
+Säädöstiedot 
+
+ 
+
+ 
+Perus-UDI-DI: 08600098825SEEINGAIIOSDN 
+EMDN-koodi: Y99 
+Tärkeät turvallisuustiedot 
+Käyttötarkoitus 
+Seeing AI on mobiilisovellus käytettäväksi iOS- ja Android-ympäristöjen kanssa. Se tarjoaa sokealle tai muuten näkörajoitteiselle käyttäjälle tietoja visuaalisesta ympäristöstään hyödyntämällä uusia tekniikoita, kuten tekoälyä (AI). Seeing AI:n tarkoitus on lisätä yksityishenkilön olemassa olevaa tietoisuutta ympäristöstään antamalla ääntä ja haptista palautetta siitä, mitä on havaittu.  
+Vasta-aiheet 
+Seeing AI:tä ei ole suunniteltu käytettäväksi, eikä sitä tule käyttää ensisijaisena tai yksinomaisena teknologiana, jonka avulla sokeat tai muuten näkörajoitteiset henkilöt oppivat ympäristöstään. Seeing AI käyttää tekoälyä (AI) todennäköisten tulosten tuottamiseen, minkä tarkkuus vaihtelee sen mukaan, missä ja miten Seeing AI:tä käytetään. Seeing AI ei havaitse, diagnosoi, valvo, hallitse tai käsittele mitään lääketieteellistä tilaa tai tautia. Käyttäjän vastuulla on ymmärtää Seeing AI sovelluksen toimivuus, arvioida Seeing AI:n käyttöehtoja ja arvioida näiden olosuhteiden aiheuttamaa riskiä, joka voi aiheuttaa peruuttamatonta vahinkoa käyttäjälle tai muille.  
+Aiotut käyttäjät 
+Seeing AI on tarkoitettu sokeille tai muuten näkörajoitteisille henkilöille. 
+Kliinisten hyötyjen ja suorituskyvyn ominaisuuksien erittely 
+Tarjoaa käyttäjille äänitietoja ja haptisia tietoja, joiden tarkoituksena on parantaa heidän ymmärrystään fyysisestä ympäristöstä 
+
+Uudelleenkäytettävyys 
+Tämä laite on yhden potilaan uudelleenkäytettävä.  Puhdistusta, desinfiointia tai sterilointia koskevia vaatimuksia ei ole.  Sen uudelleenkäyttökertojen enimmäismäärää ei ole. 
+Yhteentoimivuus 
+Seeing AI on mobiilisovellus, jota voi käyttää iOS- ja Android-ympäristöissä. 
+Varotoimet 
+Kaikki oikeudet pidätetään. Seeing AI ei ole aina tarkka. Sitä ei tule käyttää tilanteissa, joissa saatat vahingoittua tai loukkaantua. Sitä ei ole tarkoitettu käytettäväksi minkään lääketieteellisen tilan tai tautien havaitsemiseen, diagnosointiin, valvontaan, hallintaan tai käsittelyyn. Käyttäjien tulee kysyä lääketieteellisiä neuvoja lääkäriltä. Käyttäjän vastuulla on ymmärtää Seeing AI sovelluksen toimivuus, arvioida Seeing AI:n käyttöehtoja ja arvioida riskiä, jota käytetään näissä olosuhteissa, voi aiheuttaa peruuttamatonta vahinkoa käyttäjälle tai muille.  
+Tapausraportointi 
+Kaikki laitteeseen liittyvät vakavat häiriöt on ilmoitettava valmistajalle ja viranomaiselle siinä jäsenvaltiossa, jossa käyttäjä ja/tai potilas asuu.  
+Tunnetut riskit 
+Seeing AI:n käyttö on arvioitu manuaalisesti, ja sen on osoitettu olevan turvallinen ja tehokas käytettäväksi valmistajan tarkoittamalla tavalla.  Tiedossa ei ole tunnettuja sietämättömiä jäännösriskejä, joista käyttäjien on oltava tietoisia, kun he käyttävät Seeing AI:tä.  
+Ota yhteyttä Microsoftiin 
+Kaikki laitteeseen liittyvät vakavat häiriöt on ilmoitettava valmistajalle ja viranomaiselle siinä jäsenvaltiossa, jossa käyttäjä ja/tai potilas asuu.  
+Ota yhteyttä Microsoftin Aputoimintojen Answer Deskiin saadaksesi apua Seeing AI -sovelluksen kaikkiin tapauksiin, palautteeseen tai tukeen, tai jos haluat pyytää paperikopiota tästä käyttöoppaasta, joka toimitetaan veloituksetta 7 päivän kuluessa: seeingai@microsoft.com 
+ 	 
+
+
+ 
+Nakikita ang Manwal ng Gumagamit ng 
+AI 
+
+Rebisyon C 
+13-Mar-2024 
+FIL 
+ 	 
+Nakikita ang Manwal ng Gumagamit ng AI 
+
+Magsimula 
+Para gamitin ang Seeing AI sa iyong mobile device, mangyaring sundin ang mga tagubilin na ito: 
+1. Tiyaking napapanahon ang iyong device at pinapagana ang pinakabagong bersyon ng iOS o Android. 
+2. I-install ang Seeing AI mula sa Apple App Store mula sa sumusunod na link: https://aka.ms/SeeingAIiOSDownload o mula sa Google Play Store mula sa sumusunod na link: https://aka.ms/SeeingAIAndroidDownload 
+3. Buksan ang app at sundin ang mga on-screen tagubilin para i-set up ang device. 
+4. Kapag naka-set up na ang device, sundin ang lahat ng in-app na prompt at babala. 
+5. Kung nakakaranas ka ng anumang mga isyu o may anumang mga katanungan, makipag-ugnayan sa manufacturer para sa tulong, gamit ang impormasyon sa pakikipag-ugnayang nakalista sa manwal na ito. 
+6. Mahalagang sundin ang lahat ng tagubilin at babalang ibinigay ng manufacturer para matiyak ang ligtas at epektibong paggamit ng device.  
+Napapailalim ang paggamit sa aplikasyong ito sa Mga Tuntunin sa Paggamit ng Seeing AI. Tungkulin mong kumpirmahing nauunawaan at tinatanggap mo ang mga tuntunin at kundisyong ito gaya ng ipinapakita sa application.  
+Impormasyon ng Produkto 
+Pangalan ng Produkto 
+Seeing AI 
+Kategoryang I na medikal na device ang Seeing AI alinsunod sa Regulasyong (EU) 2017/745 (for MDR). 
+Bersyon 
+Available sa Seksiyong Tungkol ng Aplikasyon 
+
+Petsa ng Paggawa 
+Available sa Tungkol na Seksiyon ng Aplikasyon 
+
+Manufacturer 
+Microsoft Corporation  
+One Microsoft Way  
+Redmond, WA 98052  
+USA  
+
+Pinahihintulutang Kinatawan ng European Union Emergo Europe B.V. 
+Westervoortsedijk 60 
+6827 AT Arnhem 
+Ang Netherlands  
+Responsableng Tao sa United Kingdom 
+Emergo Consulting (UK) Limited c/o Cr 360 - UL International Compass House, Vision Park Histon 
+Cambridge CB24 9BZ 
+United Kingdom 
+Impormasyon sa Regulasyon 
+
+ 
+
+ 
+Basic UDI-DI: 08600098825SEEINGAIIOSDN 
+EMDN Code: Y99 
+Mahalagang Impormasyon sa Kaligtasan 
+Nilalayong Layunin 
+Ang Seeing AI ay isang mobile app, para magamit sa mga iOS at Android platform, na nagbibigay sa isang user na bulag o may kapansanan sa paningin ng impormasyon tungkol sa kanilang biswal na kapaligiran sa pamamagitan ng paggamit ng mga umuusbong na teknolohiya tulad ng Artificial Intelligence (AI). Ang Seeing AI ay nilayon para magdagdag ng kasalukuyang kamalayan ng isang indibidwal sa kanilang kapaligiran, sa pamamagitan ng pagbibigay ng audio at haptic na feedback tungkol sa kung ano ang na-detect.  
+Mga Contraindication 
+Hindi idinisenyo ang Seeing AI at hindi iminumungkahing gamitin bilang pangunahin o eksklusibong teknolohiya kung saan ang mga taong walang paningin o di kayaý may kapansanan sa paningin ay matuto tungkol sa kanilang kapaligiran. Gumagamit ang Seeing AI ng Artificial Intelligence (AI) para gumawa ng mga probabilistic na output, na mag-iiba sa katumpakan depende sa kung saan at paano ginagamit ang Seeing AI. Hindi nakaka-detect, nagda-diagnose, nagmo-monitor, namamahala, o gumagamot ang Seeing AI ng anumang medikal kundisyon o sakit. Responsable ang gumagamit sa pag-unawa sa functionality ng app na Seeing AI, para sa pagtatasa sa mga kundisyon kung saan gagamitin ang Seeing AI, at para sa pagtatasa sa panganib na maaaring magresulta ang paggamit sa mga sitwasyong iyon sa hindi makatwirang pinsala sa gumagamit o sa iba pa.  
+Mga Nilalayong Gumagamit 
+Nilalayon ang Seeing AI na gamitin ang mga taong walang paningin o di kayaý may kapansanan sa paningin. 
+Pagtutukoy ng Mga Klinikal na Benepisyo at Mga Katangian ng Pagganap Nagbibigay ng audio/haptic na impormasyon sa mga gumagamit na may layunin ng pag-augment sa kanilang pag-unawa sa pisikal na kapaligiran 
+
+Muling Paggamit 
+Ang device na ito ay isahang pasyenteng muling magagamit.  Walang kinakailangan tungkol sa paglilinis, pag-disinfect, o pag-sterilize.  Walang maximum na dami ng beses na maaari itong muling gamitin. 
+Interoperability 
+Ang Seeing AI ay isang mobile app, para sa paggamit sa mga platform ng iOS at Android. 
+Precautions 
+Hindi palaging tumpak ang Seeing AI. Hindi ito iminumungkahing gamitin sa mga sitwasyon kung saan maaari kang masaktan o mapinsala. Hindi ito nilalayong gamitin sa pag-detect, pag-diagnose, pag-monitor, pamamahala o paggamot ng anumang medikal na kundisyon o sakit. Dapat humingi ang mga gumagamit ng anumang medikal na payo mula sa isang manggagamot. Responsable ang gumagamit sa pag-unawa sa functionality ng app na Seeing AI, para sa pagtatasa sa mga kundisyon kung saan gagamitin ang Seeing AI, at para sa pagtatasa sa panganib na maaaring magresulta ang paggamit sa mga sitwasyong iyon sa hindi makatwirang pinsala sa gumagamit o sa iba pa.  
+Pag-uulat ng Insidente 
+Iminumungkahing iulat ang anumang seryosong insidenteng naganap kaugnay sa device sa manufacturer at sa karampatang awtoridad ng Estado ng Miyembro kung saan itinatag ang gumagamit at/o pasyente.  
+Mga Kilalang Panganib 
+Klinikal na nasuri ang paggamit ng Seeing AI, at naipakitang ligtas at mabisa para sa paggamit ayon sa inilaan ng manufacturer.  Walang kilalang hindi matitiis na residual na mga panganib na kailangang malaman ng mga gumagamit kapag gumagamit ng Seeing AI.  
+Makipag-ugnayan sa Microsoft 
+Iminumungkahing iulat ang anumang seryosong insidenteng naganap kaugnay sa device sa manufacturer at sa karampatang awtoridad ng Estado ng Miyembro kung saan itinatag ang gumagamit at/o pasyente.  
+Para sa lahat ng insidente, feedback, o para sa suporta sa Seeing AI application, o para humiling ng papel na kopya ng manual na ito na ibibigay nang walang karagdagang gastos sa loob ng 7 araw, makipag-ugnayan sa Microsoft Disability Answer Desk para sa tulong: seeingai@microsoft.com 
+ 	 
+  
+
+ 
+Manuel de l'utilisateur Seeing AI 
+
+Révision C 
+13-Mars-2024 
+FR 
+ 	 
+Manuel de l'utilisateur Seeing AI 
+
+Démarrer 
+Pour utiliser Seeing AI sur votre appareil mobile, suivez les instructions suivantes: 
+1. Vérifiez que votre appareil est à jour et exécute la dernière version d'iOS ou d'Android. 
+2. Installez Seeing AI à partir du App Store Apple à partir du lien suivant : https://aka.ms/SeeingAIiOSDownload ou à partir du Google Play Store à partir du lien suivant : https://aka.ms/SeeingAIAndroidDownload 
+3. Ouvrez l'application et suivez les instructions à l'écran pour configurer l'appareil. 
+4. Une fois l'appareil configuré, suivez toutes les invites et avertissements dans l'application. 
+5. Si vous rencontrez des problèmes ou si vous avez des questions, contactez le fabricant pour obtenir de l'aide en utilisant les informations de contact répertoriées dans ce manuel. 
+6. Il est important de suivre toutes les instructions et avertissements fournis par le fabricant pour garantir une utilisation sûre et efficace de l'appareil.  
+L'utilisation de cette application est soumise aux Conditions d'utilisation de Seeing AI. Il est de votre responsabilité de confirmer que vous comprenez et acceptez ces conditions générales comme indiqué dans l'application.  
+Informations sur le produit 
+Nom du produit 
+Seeing AI 
+Seeing AI est un appareil médical de classe I, conformément au Règlement (EU) 2017/745 (pour MDR). 
+Version 
+Disponible dans la section À propos de l'application 
+
+Date de fabrication 
+Disponible dans la section À propos de l'application 
+
+Fabricant 
+Microsoft Corporation  
+One Microsoft Way  
+Redmond, WA 98052  
+USA  
+
+Représentant de l Union européenne autorisé Emergo Europe B.V. 
+Westervoortsedijk 60 
+6827 AT Arnhem 
+The Netherlands  
+Personne responsable du Royaume-Uni 
+Emergo Consulting (UK) Limited c/o Cr 360 - UL International 
+Compas, Vision Park Histon 
+Cb24 9BZ 
+Royaume-Uni 
+Informations réglementaires 
+
+ 
+
+ 
+UDI-DI de base : 08600098825SEEINGAIIOSDN 
+Code EMDN : Y99 
+Informations de sécurité importantes 
+Finalité prévue 
+Seeing AI est une application mobile, destinée aux plateformes iOS et Android, qui fournit à un utilisateur aveugle ou malvoyant des informations sur son environnement visuel en s'appuyant sur des technologies émergentes telles que l'intelligence artificielle (IA). Seeing AI a pour but d'augmenter la conscience qu'a un individu de son environnement, en lui fournissant un retour audio et haptique sur ce qui a été détecté.  
+Contre-indications 
+Seeing AI n'est pas conçue pour être et ne doit pas être utilisée en tant que technologie principale ou exclusive avec laquelle les personnes non voyantes ou malvoyantes découvrent leur environnement. Seeing AI utilise l'intelligence artificielle (IA) pour produire des sorties probabilistes, ce qui varie en fonction de l'emplacement et de façon d'utiliser Seeing AI. Seeing AI n'effectue aucune détection, diagnostic, surveillance, gestion ou traitement d'un problème médical ou d'une maladie. L'utilisateur est responsable de la compréhension des fonctionnalités de l'application Seeing AI, de l'évaluation des conditions dans lesquelles Seeing AI est utilisée et de l'évaluation du risque que l'utilisation dans ces circonstances peut causer à l'utilisateur ou d'autres personnes.  
+Utilisateurs prévus 
+Seeing AI est destinée aux personnes non voyantes ou malvoyantes. 
+Spécification des avantages cliniques et des caractéristiques de performance 
+Fournit des informations audio/haptiques aux utilisateurs dans le but d'accroître leur compréhension de l'environnement physique 
+
+Réutilisation 
+Cet appareil est réutilisable par un seul patient.  Il n'y a aucune exigence concernant le nettoyage, la désinfection ou la stérilisation.  Il n'existe aucun nombre maximal de réutilisations possibles. 
+Interopérabilité 
+Seeing AI est une application mobile, à utiliser avec les plateformes iOS ou Android. 
+Précautions 
+L'application Seeing AI n'est pas toujours exacte. Elle ne doit pas être utilisée dans des situations où vous pourriez être blessé ou victime d'un accident. Elle n'est pas destinée à être utilisée pour la détection, le diagnostic, la surveillance, la gestion ou le traitement d'une condition médicale ou d'une maladie. Les utilisateurs doivent demander des conseils médicaux à un médecin. L'utilisateur est responsable de la compréhension des fonctionnalités de l'application Seeing AI, de l'évaluation des conditions dans lesquelles Seeing AI sera utilisée et de l'évaluation du risque que l'utilisation dans ces circonstances peut causer à l'utilisateur ou d'autres personnes.  
+Création de rapports sur les incidents 
+Tout incident grave qui s'est produit en relation avec l'appareil doit être signalé au fabricant et à l'autorité compétente de l'état membre dans lequel l'utilisateur et/ou le patient est établi.  
+Risques connus 
+L'utilisation de Seeing AI a été évaluée cliniquement et a démontré qu'elle était sûre et efficace pour être utilisée dans les conditions prévues par le fabricant.  Il n'existe aucun risque relatif aux dangers intolérables résiduels connus dont les utilisateurs doivent être conscients lors de l'utilisation de Seeing AI.  
+Contacter Microsoft 
+Tout incident grave qui s'est produit en relation avec l'appareil doit être signalé au fabricant et à l'autorité compétente de l'état membre dans lequel l'utilisateur et/ou le patient est établi.  
+Pour tous les incidents, commentaires ou pour obtenir de l'aide avec l'application Seeing AI, ou pour demander une copie papier de ce manuel qui sera fournie sans frais supplémentaires dans les 7 jours, contactez le Microsoft Disability Answer Desk pour obtenir de l'aide : seeingai@microsoft.com 
+ 	 
+
+ 
+Seeing AI उपयोगकर्ता मैन्युअल 
+
+पनु रतवलोकन C 
+13-मतर्ा-2024 
+HI 
+ 	 
+Seeing AI उपयोगकर्ता मैन्युअल 
+
+शरूु करें अपने मोबतइल डिवतइस पर Seeing AI कत उपयोग करने के ललए, कृपयत इन ननर्देशों कत पतलन करें: 1. सनु नश्चर्र् करें कक आपकत डिवतइस iOS यत Android कत नवीनर्म संस्करण अद्यनर्र् है और र्लत रहत है. 
+2. ननम्न ललकं से Apple App Store से Seeing AI इंस्टॉल करें: 
+https://aka.ms/SeeingAIiOSDownload, यत Google Play स्टोर से इस ललकं से इंस्टॉल करें: 
+https://aka.ms/SeeingAIAndroidDownload 
+3. ऐप खोलें और डिवतइस को सेट करने के ललए ऑन-स्रीन ननर्देशों कत पतलन करें. 
+4. डिवतइस सेट होने के बतर्द, ऐप में मौजर्दू सभी संके र्ों और र्ेर्तवननयों कत अनसु रण करें. 
+5. यदर्द आपको कोई समस्यत आ रही है यत कोई प्रचन है, र्ो कृपयत इस मैन्यअु ल में सर्ू ीबद्ध संपका जतनकतरी कत उपयोग करके सहतयर्त के ललए ननमतार्त से संपका करें. 
+6. डिवतइस के सरु क्षिर् और प्रभतवी उपयोग को स नुनश्चर्र् करने के ललए ननमतार्त द्वतरत दर्दए गए सभी ननर्देशों और र्ेर्तवननयों कत पतलन करनत महत्वपणू	ा है.  
+इस ऐप कत उपयोग AI की उपयोग की शर्ों के अधीन है. यह पश्ु टट करनत आपकत र्दतनयत्व है कक आप ऐप में दर्दखतए अनसु तर इन ननयमों और शर्ों को समझर्े और स्वीकतर करर्े हैं.  
+उत्पाद जानकारी उत्पाद का नाम 
+Seeing AI 
+Seeing AI ववननयमन (EU) 2017/745 (MDR के ललए) के अनसु तर एक वगा I मेडिकल डिवतइस है. 
+संस्करण 
+ऐप के 'इसके बतरे में' अनभु तग में उपलब्ध 
+
+ननमााण ददनांक 
+ऐप के 'इसके बतरे में' अनभु तग में उपलब्ध 
+
+ननमााता 
+Microsoft Corporation  
+One Microsoft Way  
+Redmond, WA 98052  USA  
+
+यरू ोपीय संघ के अधिकृत प्रनतननधि 
+Emergo Europe B.V. 
+Westervoortsedijk 60 
+6827 AT Arnhem The Netherlands  यनू ाइटेड ककंगडम उत्तरदायी व्यक्तत 
+Emergo Consulting (UK) Limited c/o Cr 360 - UL International Compass House, Vision Park Histon 
+Cambridge CB24 9BZ United Kingdom विननयामक जानकारी 
+
+ 
+
+ 
+मलू UDI-DI: 08600098825SEEINGAIIOSDN 
+EMDN कोि: Y99 
+महत्िपणू	ा सरु क्षा जानकारी 
+लक्षक्षत उद्देश्य 
+Seeing AI, iOS और Android प्लेटफॉमा के सतथ उपयोग के ललए एक मोबतइल ऐप है, जो नेत्रहीन यत अन्यथत दृश्टट बतधधर् उपयोगकर्ता को कृत्रत्रम बद्ु धधमत्तत (AI) जैसी उभरर्ी र्कनीकों कत लतभ उठतकर उनके दृचय पररवेश के बतरे में जतनकतरी प्रर्दतन करर्त है. Seeing AI कत उद्र्देचय पर्त लगतई गई र्ीजों के बतरे में ऑडियो और हैश्प्टक प्रनर्करयत प्रर्दतन करके उनके पररवेश के बतरे में ककसी व्यश्तर् की मौजर्दू त जतगरूकर्त को बढतनत है.  
+मतभेद 
+Seeing AI को इस र्रह से डिजतइन नहीं ककयत गयत है और इसकत उपयोग ऐसी प्रतथलमक यत एकमतत्र र्कनीक के रूप में नहीं ककयत जतनत र्तदहए श्जसके द्वतरत नेत्रहीन यत अन्यथत दृश्टटबतधधर् व्यश्तर् अपने पररवेश के बतरे में जतनें. Seeing AI संभतव्य आउटपटु उत्पन्न करने के ललए कृत्रत्रम बद्ु धधमत्तत (AI) कत उपयोग करर्त है, जो Seeing AI के उपयोग के आधतर पर सटीकर्त में अलगअलग होगत. Seeing AI ककसी भी धर्ककत्सत श्स्थनर् यत रोग कत पर्त लगतने, ननर्दतन करने, ननगरतनी करने, प्रबंधधर् करने यत उपर्तर करने जैसे कतम नहीं करर्त है. उपयोगकर्ता Seeing AI ऐप की कतयािमर्त को समझने, उन श्स्थनर्यों कत आकलन करने के ललए श्जम्मेर्दतर है श्जनमें Seeing AI कत उपयोग ककयत जतएगत, और उन पररश्स्थनर्यों में उपयोग के जोखखम कत आकलन करने के ललए उपयोगकर्ता यत अन्य लोगों को अनधु र्र् नकु सतन हो सकर्त है.  लक्षक्षत उपयोगकताा 
+Seeing AI उन व्यश्तर्यों द्वतरत उपयोग के ललए बनत है जो नेत्रहीन हैं यत अन्यथत दृश्टटबतधधर् हैं. तलीननकल लाभों और प्रदशान विशेषताओं का विननदेशन 
+उपयोगकर्ताओं को भौनर्क पररवेश की उनकी समझ बढतने के उद्र्देचय से ऑडियो/हैश्प्टक जतनकतरी प्रर्दतन करर्त है 
+
+पनु ः उपयोग करने की क्षमता 
+यह डिवतइस एकल रोगी पनु ः उपयोग योग्य है.  तलीननगं, डिसतइंफे तशन यत ननजामीकृर् के संबंध में कोई आवचयकर्तएँ नहीं हैं.  इसकत पनु ः उपयोग ककए जत सकने की कोई अधधकर्म संख्यत नहीं है. 
+अंतरसंचालनीयता 
+Seeing AI, iOS और Android प्लेटफॉमा के सतथ उपयोग करने के ललए एक मोबतइल ऐप है. साििाननयााँ 
+Seeing AI हमेशत सटीक नहीं होर्त है. इसकत उपयोग ऐसी श्स्थनर्यों में नहीं ककयत जतनत र्तदहए, जहतँ आपको नकु सतन पहुँर्े यत आप र्ोदटल हो जतएँ. इसे ककसी भी मेडिकल श्स्थनर् यत रोग की पहर्तन, ननर्दतन, ननगरतनी, प्रबंधन यत उपर्तर में उपयोग के ललए नहीं बनतयत गयत है. उपयोगकर्ताओं को कोई धर्ककत्सत सलतह िॉतटर से ही लेनी र्तदहए. उपयोगकर्ता Seeing AI ऐप की कतयािमर्त को समझने, उन श्स्थनर्यों कत आकलन करने के ललए श्जम्मेर्दतर है श्जनमें Seeing AI कत उपयोग ककयत जतएगत, और उन पररश्स्थनर्यों में उपयोग के जोखखम कत आकलन करने के ललए उपयोगकर्ता यत अन्य लोगों को अनधु र्र् नकु सतन हो सकर्त है.  घटना की ररपोटा 
+डिवतइस से जडु ी ककसी भी गंभीर घटनत की ररपोटा ननमतार्त और उस मेंबर स्टेट के सिम प्रतधधकतरी को की जतनी र्तदहए जहतँ कत उपयोगकर्ता और/यत रोगी है.  ज्ञात जोखिम 
+Seeing AI के उपयोग कत धर्ककत्सकीय मलू यतंकन ककयत गयत है और ननमतार्त द्वतरत र्य ककए गए उपयोग के ललए इसकत सरु क्षिर् और प्रभतवी होनत पतयत गयत है.  ऐसत कोई ज्ञतर् असहनीय अवलशटट जोखखम नहीं है श्जसके बतरे में उपयोगकर्ताओं को Seeing AI कत उपयोग करर्े समय जतनकतरी होने की आवचयकर्त होर्ी है.  
+Microsoft से संपका करें डिवतइस से जडु ी ककसी भी गंभीर घटनत की ररपोटा ननमतार्त और उस मेंबर स्टेट के सिम प्रतधधकतरी को की जतनी र्तदहए जहतँ कत उपयोगकर्ता और/यत रोगी है.  
+सभी घटनतओं, फीिबैक, यत Seeing AI एश्प्लके शन से जडु ी सहतयर्त के ललए, यत इस मैनअु ल की एक कतगजी प्रनर् कत अनरु ोध करने के ललए जो 7 दर्दनों के भीर्र त्रबनत ककसी अनर्ररतर् लतगर् के प्रर्दतन की जतएगी, सहतयर्त के ललए Microsoft Disability Answer Desk से संपका करें: 
+seeingai@microsoft.com 
+ 	 
+
+ 
+Korisnički priručnik za Seeing AI 
+
+Revizija C 
+13-ožu-2024 
+HR 
+ 	 
+Korisnički priručnik za Seeing AI 
+
+Početak rada 
+Da biste koristili Seeing AI na mobilnom uređaju, slijedite ove upute: 
+1. Provjerite je li vaš uređaj ažuran i koristi li najnoviju verziju sustava iOS ili Android. 
+2. Instalirajte Seeing AI iz trgovine Apple App Store sa sljedeće veze: 
+https://aka.ms/SeeingAIiOSDownload ili iz trgovine Google Play Store sa sljedeće veze: https://aka.ms/SeeingAIAndroidDownload 
+3. Otvorite aplikaciju i slijedite upute na zaslonu da biste postavili uređaj. 
+4. Nakon što postavite uređaj, slijedite sve upite i upozorenja u aplikaciji. 
+5. Ako naiđete na probleme ili imate pitanja, za pomoć se obratite proizvođaču s pomoću podataka za kontakt navedenih u ovom priručniku. 
+6. Važno je da slijedite sve upute i upozorenja proizvođača kako biste osigurali sigurnu i učinkovitu upotrebu uređaja.  
+Na upotrebu ove aplikacije primjenjuju se uvjeti upotrebe umjetne inteligencije. Vaša je odgovornost potvrditi da razumijete i prihvaćate ove uvjete i odredbe kako je prikazano u aplikaciji.  
+Informacije o proizvodu 
+Naziv proizvoda 
+Seeing AI 
+Seeing AI medicinski je proizvod I. razreda u skladu s Uredbom (EU) 2017/745 (za MDR). 
+Verzija 
+Dostupno u odjeljku O aplikaciji aplikacije 
+
+Datum proizvodnje 
+Dostupno u odjeljku O aplikaciji aplikacije 
+
+Proizvođač 
+Microsoft Corporation  
+One Microsoft Way  
+Redmond, WA 98052  
+SAD  
+
+Ovlašteni predstavnik Europske unije 
+Emergo Europe B.V. 
+Westervoortsedijk 60 
+6827 AT Arnhem 
+Nizozemska  
+Odgovorna osoba u Velikoj Britaniji Emergo Consulting (UK) Limited c/o Cr 360 - UL International Compass House, Vision Park Histon 
+Cambridge CB24 9BZ 
+Ujedinjena Kraljevina 
+Regulatorne informacije 
+
+ 
+
+ 
+Osnovni UDI-DI: 08600098825SEEINGAIIOSDN 
+EMDN kôd: Y99 
+Važne sigurnosne informacije 
+Predviđena namjena 
+Seeing AI je mobilna aplikacija za korištenje sa iOS i Android platformama, koja slijepim ili na neki drugi način slabovidnim korisnicima pruža informacije o njihovom vizualnom okruženju koristeći nove tehnologije kao što je umjetna inteligencija (AI). Seeing AI ima za cilj povećati postojeću svijest pojedinca o svojoj okolini, pružanjem zvučnih i taktilnih povratnih informacija o onome što je otkriveno.  
+Kontraindikacije 
+Seeing AI nije osmišljen i ne bi se trebao upotrebljavati kao primarna ili isključiva tehnologija s pomoću koje osobe koje su slijepe ili na neki drugi način slabovidne uče o svojoj okolini. Seeing AI upotrebljava umjetnu inteligenciju (AI) za proizvodnju vjerojatnosnih rezultata, čija će točnost varirati ovisno o tome gdje i kako se Seeing AI upotrebljava. Seeing AI ne otkriva, ne dijagnosticira, ne nadzire, ne upravlja niti liječi bilo koje zdravstveno stanje ili bolest. Korisnik je odgovoran za razumijevanje funkcionalnosti aplikacije Seeing AI, za procjenu uvjeta u kojima će se Seeing AI koristiti i za procjenu rizika da bi uporaba u tim okolnostima mogla rezultirati nerazumnom štetom za korisnika ili druge.  
+Predviđeni korisnici 
+Aplikacija Seeing AI namijenjena je slijepim i na drugi način slabovidnim osobama. 
+Specifikacija kliničkih pogodnosti i karakteristika učinkovitosti 
+Korisnicima pruža zvučne/haptičke informacije s ciljem poboljšanja razumijevanja fizičkog okruženja 
+
+Mogućnost ponovne upotrebe 
+Ovaj se uređaj može ponovno upotrebljavati samo za jednog pacijenta.  Nema preduvjeta u vezi čišćenja, dezinfekcije ili sterilizacije.  Ne postoji maksimalan broj ponovnih upotreba. 
+Interoperabilnost 
+Seeing AI je mobilna aplikacija za korištenje s iOS i Android platformama. 
+Mjere opreza 
+Aplikacije Seeing AI nije uvijek točna. Ne bi se trebala koristiti u situacijama gdje biste mogli biti oštećeni ili ozlijeđeni. Nije namijenjeno za korištenje u otkrivanju, dijagnosticiranju, nadzoru, upravljanju ili liječenju bilo kojeg zdravstvenog stanja ili bolesti. Korisnici bi trebali tražiti liječničke savjete od liječnika. Korisnik je odgovoran za razumijevanje funkcionalnosti aplikacije Seeing AI, za procjenu uvjeta u kojima će se Seeing AI koristiti i za procjenu rizika da bi uporaba u tim okolnostima mogla rezultirati nerazumnom štetom za korisnika ili druge.  
+Izvješćivanje o incidentima 
+Svaki ozbiljan incident koji se dogodio u vezi s uređajem mora se prijaviti proizvođaču i nadležnim tijelima države članice u kojoj korisnik i/ili pacijent ima prebivalište.  
+Poznati rizici 
+Upotreba aplikacije Seeing AI klinički je procijenjena te se pokazalo da je sigurna i učinkovita kada se upotrebljava onako kako je namijenio proizvođaču.  Nema poznatih nepodnošljivih rizika s kojima korisnici moraju biti upoznati tijekom upotrebe aplikacije Seeing AI.  
+Obratite se Microsoftu 
+Svaki ozbiljan incident koji se dogodio u vezi s uređajem mora se prijaviti proizvođaču i nadležnim tijelima države članice u kojoj korisnik i/ili pacijent ima prebivalište.  
+Za sve incidente, povratne informacije ili za podršku sa aplikacijom Seeing AI ili za traženje papirnate kopije ovog priručnika koja će biti dostavljena bez dodatnih troškova u roku od 7 dana, obratite se Microsoftovom odjelu za osobe sa invaliditetom za pomoć: seeingai@microsoft.com 
+ 	 
+
+
+ 
+Seeing AI - felhasználói útmutató 
+
+C változat 
+13-márc.-2024 
+HU 
+ 	 
+Seeing AI - felhasználói útmutató 
+
+Első lépések 
+Ha mobileszközén szeretné használni a Seeing AI-t, kövesse az alábbi utasításokat: 
+1. Győződjön meg arról, hogy az eszköz naprakész, és az iOS vagy az Android legújabb verziója fut. 
+2. A Seeing AI-t az Apple App Store-ból telepítheti a következő hivatkozásra kattintva: https://aka.ms/SeeingAIiOSDownload, vagy pedig a Google Play Áruházból a következő hivatkozásra kattintva: https://aka.ms/SeeingAIAndroidDownload 
+3. Nyissa meg az alkalmazást, és kövesse a képernyőn megjelenő utasításokat az eszköz beállításához. 
+4. Az eszköz beállítása után kövesse az alkalmazáson belüli összes javaslatot és figyelmeztetést. 
+5. Ha bármilyen problémát tapasztal, vagy bármilyen kérdése van, forduljon segítségért a gyártóhoz az útmutatóban felsorolt elérhetőségeken keresztül. 
+6. Az eszköz biztonságos és hatékony használata érdekében fontos, hogy a gyártó minden utasítását és figyelmeztetését betartsa.  
+Az alkalmazás használatára a Seeing AI használati feltételei vonatkoznak. Az Ön felelőssége annak megerősítése, hogy megértette és elfogadja ezeket a feltételeket és kikötéseket az alkalmazásban leírtak szerint.  
+Termékadatok 
+Terméknév 
+Seeing AI 
+A Seeing AI a 2017/745 EU rendelet szabályozásának megfelelően az I. osztályba sorolt orvostechnikai eszköz. 
+Verzió 
+Az alkalmazás Névjegy szakaszában érhető el 
+
+Gyártás dátuma 
+Az alkalmazás Névjegy szakaszában érhető el 
+
+Gyártó 
+Microsoft Corporation  
+One Microsoft Way  
+Redmond, WA 98052  
+USA  
+
+Európai unióbeli meghatalmazott képviselő 
+Emergo Europe B.V. 
+Westervoortsedijk 60 
+6827 AT Arnhem 
+The Netherlands 
+Egyesült királyságbeli felelős személy Emergo Consulting (UK) Limited c/o Cr 360 - UL International Compass House, Vision Park Histon 
+Cambridge CB24 9BZ 
+Egyesült Királyság 
+Szabályozási információk 
+
+ 
+
+ 
+Egyszerű UDI-DI: 08600098825SEEINGAIIOSDN 
+EMDN-kód: Y99 
+Fontos biztonsági információk 
+Felhasználási cél 
+A Seeing AI egy iOS és Android platformon használható mobilalkalmazás, amely a vak vagy gyengén látó felhasználók számára információkat nyújt a vizuális környezetükről, kihasználva az olyan új kialakulóban lévő technológiákat, mint a mesterséges intelligencia (AI). A Seeing AI célja, hogy az észlelt dolgokról hang- és tapintható visszajelzést adva kiegészítse a személyek meglévő környezettudatát.  
+Ellenjavallatok 
+A Seeing AI nem alkalmas és nem használható olyan elsődleges vagy kizárólagos technológiaként való használatra, amellyel a vak vagy gyengén látó személyek megismerhetik környezetüket. A Seeing AI mesterséges intelligenciát (AI) használ valószínűségi kimenetek előállítására, amelyek pontossága a Seeing AI használatának helyétől és módjától függően változik. A Seeing AI nem ismer fel, nem diagnosztizál, nem felügyel, nem kezel és nem gondoz semmilyen egészségügyi állapotot vagy betegséget. A Seeing AI alkalmazás működésének megértéséért, valamint a Seeing AI használati körülményeinek és annak felméréséért, hogy az adott körülmények között fennáll-e a felhasználónak vagy másoknak okozott károk indokolatlan mértékű kockázata, a felhasználó felel.  
+Célzott felhasználók 
+A Seeing AI vak vagy gyengén látó személyek számára készült. 
+Klinikai előnyök és teljesítményjellemzők specifikációja 
+Hang- és haptikus információt biztosít a felhasználóknak a fizikai környezettel kapcsolatos ismeretek bővítése céljából 
+
+Újrahasznosíthatóság 
+Ez az eszköz egy beteg által újrafelhasználható. A tisztításra, fertőtlenítésre vagy sterilizálásra vonatkozóan nincsenek előírások. Nincs megszabva, hogy legfeljebb hányszor lehet újra felhasználni. 
+Együttműködési képesség 
+A Seeing AI egy iOS és Android platformon használható mobilalkalmazás. 
+Óvintézkedések 
+A Seeing AI nem mindig pontos. Nem használható olyan helyzetekben, ahol Ön megsérülhet. Nem használható egészségügyi állapot vagy betegségek észlelésére, diagnosztizálására, figyelésére, kezelésére vagy gyógyítására. A felhasználóknak orvosi szaktanácsért orvoshoz kell fordulniuk. A felhasználó felelős a Seeing AI alkalmazás funkcióinak megértéséért, a Seeing AI használati feltételeinek felméréséért, valamint az ilyen körülmények között történő használat olyan kockázatának felméréséért, amely a felhasználó vagy mások számára kárt okozhat.  
+Incidensek jelentése 
+Az eszközzel kapcsolatban történt súlyos incidenseket jelenteni kell a gyártónak és azon tagállam illetékes hatóságának, amelyben a felhasználó és/vagy páciens lakik.  
+Ismert kockázatok 
+A Seeing AI alkalmazását klinikailag értékelték, és bebizonyosodott, hogy biztonságos és hatékony a gyártó által tervezett használatra. Nem ismertek olyan elfogadhatatlan fennmaradó kockázatok, amelyekkel a felhasználóknak tisztában kellene lenniük a Seeing AI használata során.  
+Kapcsolatfelvétel a Microsofttal 
+Az eszközzel kapcsolatban történt súlyos incidenseket jelenteni kell a gyártónak és azon tagállam illetékes hatóságának, amelyben a felhasználó és/vagy páciens lakik.  
+A Seeing AI alkalmazással kapcsolatos összes incidenssel, visszajelzéssel vagy támogatással kapcsolatban, vagy a kézikönyv papíralapú másolatának kéréséhez, amelyet 7 napon belül további költség nélkül biztosítunk, forduljon a Microsoft akadálymentességi Answer Deskhez segítségért: seeingai@microsoft.com 
+ 	 
+
+
+ 
+Manual Pengguna Seeing AI 
+
+Revisi C 
+13-Mar-2024 
+ID 
+ 	 
+Manual Pengguna Seeing AI 
+
+Mulai 
+Untuk menggunakan Seeing AI di perangkat seluler Anda, ikuti instruksi berikut: 
+1. Pastikan perangkat Anda telah diperbarui dan menjalankan versi terbaru iOS atau Android. 
+2. Instal Seeing AI dari Apple App Store dari tautan berikut: https://aka.ms/SeeingAIiOSDownload atau dari Google Play Store dari tautan berikut: https://aka.ms/SeeingAIAndroidDownload 
+3. Buka aplikasi dan ikuti instruksi di layar untuk menyiapkan perangkat. 
+4. Setelah perangkat disiapkan, ikuti semua perintah dan peringatan dalam aplikasi. 
+5. Jika Anda mengalami masalah atau memiliki pertanyaan, hubungi produsen untuk bantuan, menggunakan informasi kontak yang tercantum dalam manual ini. 
+6. Mengikuti semua instruksi dan peringatan yang disediakan oleh produsen sangat penting untuk memastikan penggunaan perangkat yang aman dan efektif.  
+Penggunaan aplikasi ini tunduk pada Ketentuan Penggunaan Seeing AI. Anda bertanggung jawab untuk mengonfirmasi bahwa Anda memahami dan menerima syarat dan ketentuan ini seperti yang ditunjukkan dalam aplikasi.  
+Informasi Produk 
+Nama Produk 
+Seeing AI 
+Seeing AI adalah perangkat medis kelas I sesuai dengan Peraturan (EU) 2017/745 (untuk MDR). 
+Versi 
+Tersedia di Bagian Tentang Aplikasi 
+
+Tanggal Produksi 
+Tersedia di Bagian Tentang Aplikasi 
+
+Produsen 
+Microsoft Corporation  
+One Microsoft Way  
+Redmond, WA 98052  
+USA  
+
+Perwakilan Resmi di Uni Eropa Emergo Europe B.V. 
+Westervoortsedijk 60 
+6827 PADA Arnhem 
+Belanda  
+Penanggung Jawab Di Inggris Raya Emergo Consulting (UK) Limited c/o Cr 360 - UL International Compass House, Vision Park Histon 
+Cambridge CB24 9BZ United Kingdom 
+Informasi Peraturan 
+
+ 
+
+ 
+UDI-DI Dasar: 08600098825SEEINGAIIOSDN 
+Kode EMDN: Y99 
+Informasi Keamanan Penting 
+Fungsi yang Dimaksudkan 
+Seeing AI adalah aplikasi seluler, untuk digunakan dengan platform iOS dan Android, yang menyediakan informasi kepada pengguna tunanetra atau yang memiliki gangguan penglihatan tentang lingkungan visual mereka dengan memanfaatkan teknologi yang muncul seperti Kecerdasan Buatan (AI). Seeing AI dimaksudkan untuk meningkatkan kesadaran individu yang sudah ada tentang lingkungan mereka, dengan memberikan umpan balik audio dan haptik tentang apa yang telah terdeteksi.  
+Kontraindikasi 
+Seeing AI tidak dirancang dan tidak boleh digunakan sebagai teknologi utama atau eksklusif oleh penyandang tunanetra atau gangguan penglihatan untuk mengetahui lingkungannya. Seeing AI menggunakan Kecerdasan Buatan (AI) untuk menghasilkan output probabilistik, yang keakuratannya akan bervariasi tergantung di mana dan bagaimana Seeing AI digunakan. Seeing AI tidak mendeteksi, mendiagnosis, memantau, mengelola, atau mengobati kondisi medis atau penyakit apa pun. Pengguna bertanggung jawab untuk memahami fungsionalitas aplikasi Seeing AI, untuk menilai kondisi-kondisi di mana Seeing AI akan digunakan, dan untuk menilai risiko di mana penggunaan dalam situasi tersebut dapat mengakibatkan cedera yang tidak masuk akal bagi pengguna atau orang lain.  
+Pengguna yang Dituju 
+Seeing AI ditujukan untuk digunakan oleh penyandang tunanetra atau gangguan penglihatan. 
+Spesifikasi Manfaat Klinis dan Karakteristik Performa Menyediakan informasi audio/haptik kepada pengguna dengan tujuan meningkatkan pemahaman mereka akan lingkungan fisik 
+
+Penggunaan Ulang 
+Perangkat ini dapat digunakan ulang oleh satu pasien.  Tidak ada ketentuan mengenai pembersihan, desinfeksi, atau sterilisasi.  Tidak ada jumlah maksimum berapa kali dapat digunakan ulang. 
+Interoperabilitas 
+Seeing AI adalah aplikasi seluler, untuk digunakan dengan platform iOS dan Android. 
+Tindakan pencegahan 
+Seeing AI tidak selalu akurat. Aplikasi ini tidak boleh digunakan dalam situasi yang dapat mencederai atau melukai Anda. Aplikasi ini tidak dimaksudkan untuk digunakan dalam mendeteksi, mendiagnosis, memantau, mengelola atau menangani kondisi atau penyakit medis apa pun. Pengguna harus mencari saran medis dari dokter. Pengguna bertanggung jawab untuk memahami fungsionalitas aplikasi Seeing AI, untuk menilai kondisi-kondisi di mana Seeing AI akan digunakan, dan untuk menilai risiko di mana penggunaan dalam situasi tersebut dapat mengakibatkan cedera yang tidak masuk akal bagi pengguna atau orang lain.  
+Pelaporan Insiden 
+Segala insiden serius yang terjadi terkait dengan perangkat harus dilaporkan ke produsen dan instansi terkait di Negara Anggota tempat pengguna dan/atau pasien berada.  
+Risiko yang Diketahui 
+Penggunaan Seeing AI telah dievaluasi secara klinis, dan telah menunjukkan Seeing AI aman dan efektif untuk digunakan sebagaimana dimaksud oleh produsen.  Tidak ada risiko residual yang tidak dapat ditoleransi sepanjang sepengetahuan kami yang perlu diketahui pengguna saat menggunakan Seeing AI.  
+Hubungi Microsoft 
+Segala insiden serius yang terjadi terkait dengan perangkat harus dilaporkan ke produsen dan instansi terkait di Negara Anggota tempat pengguna dan/atau pasien berada.  
+Untuk semua insiden, umpan balik, atau dukungan dengan aplikasi Seeing AI, atau untuk meminta salinan makalah manual ini yang akan diberikan tanpa biaya tambahan dalam 7 hari, hubungi Answer Desk Disabilitas Microsoft untuk mendapatkan bantuan: seeingai@microsoft.com 
+ 	 
+
+ 
+Manuale dell'utente di Seeing AI 
+
+Revisione C 
+13-Mar-2024 
+IT 
+ 	 
+Manuale dell'utente di Seeing AI 
+
+Per iniziare 
+Per usare Seeing AI nel dispositivo mobile, seguire queste istruzioni: 
+1. Assicurarsi che il dispositivo sia aggiornato e che esegua l'ultima versione di iOS o Android. 
+2. Installare Seeing AI dal App Store Apple dal collegamento seguente: https://aka.ms/SeeingAIiOSDownload o dal Google Play Store dal collegamento seguente: https://aka.ms/SeeingAIAndroidDownload 
+3. Aprire l'app e seguire le istruzioni visualizzate per configurare il dispositivo. 
+4. Dopo aver configurato il dispositivo, seguire tutte le richieste e gli avvisi in-app. 
+5. In caso di problemi o per eventuali domande, contattare il produttore per ottenere assistenza, utilizzando le informazioni di contatto elencate in questo manuale. 
+6. È importante seguire tutte le istruzioni e gli avvisi forniti dal produttore per garantire l'uso sicuro ed efficace del dispositivo.  
+L'utilizzo di questa applicazione è soggetto alle condizioni Seeing AI per l'utilizzo. È responsabilità dell'utente confermare la comprensione e l'accettazione di questi termini e condizioni, come illustrato nell'applicazione.  
+Informazioni sul prodotto 
+Nome del prodotto 
+Seeing AI 
+Seeing AI è un dispositivo medico di classe I conforme al Regolamento (UE) 2017/745 (per MDR). 
+Versione 
+Disponibile nella sezione Informazioni sull'applicazione 
+
+Data di produzione 
+Disponibile nella sezione Informazioni sull'applicazione 
+
+Produttore 
+Microsoft Corporation  
+One Microsoft Way  
+Redmond, WA 98052  
+USA  
+
+Rappresentante autorizzato dell'Unione Europea Emergo Europe B.V. 
+Westervoortsedijk 60 
+6827 AT Arnhem 
+The Netherlands  
+Responsabile Regno Unito Emergo Consulting (UK) Limited c/o Cr 360 - UL International Compass House, Vision Park Histon 
+Cb24 9BZ 
+Regno Unito 
+Informazioni normative 
+
+ 
+
+ 
+UDI-DI di base: 08600098825SEEINGAIIOSDN 
+Codice EMDN: Y99 
+Informazioni importanti sulla sicurezza 
+Scopo previsto 
+Seeing AI è un'app per dispositivi mobili, per l'uso con le piattaforme iOS e Android, che fornisce a un utente non vedente o con problemi di vista informazioni sul proprio ambiente visivo sfruttando tecnologie emergenti come intelligenza artificiale. Seeing AI ha lo scopo di aumentare la consapevolezza dell'ambiente circostante da parte di una persona, fornendo feedback audio e aptico su ciò che è stato rilevato.  
+Controindicazioni 
+Seeing AI non è progettata per essere e non deve essere usata come tecnologia primaria o esclusiva per consentire alle persone non vedenti o con problemi di vista di apprendere il proprio ambiente. Seeing AI usa l'intelligenza artificiale per produrre output probabilisti, che variano in base all'accuratezza a seconda di dove e come viene usato il Seeing AI. Seeing AI non rileva, diagnostica, monitora, gestisce o tratta alcuna condizione medica o malattia. L'utente è responsabile della comprensione della funzionalità dell'app Seeing AI, della valutazione delle condizioni in cui verrà usato Seeing AI e della valutazione del rischio che l'uso in tali circostanze potrebbe causare danni all'utente o ad altri.  
+Destinatari 
+Seeing AI è destinato all'uso da parte di persone non vedenti o con problemi di vista. 
+Specifica dei vantaggi clinici e delle caratteristiche delle prestazioni Fornisce agli utenti informazioni audio/aptiche allo scopo di migliorare la comprensione dell'ambiente fisico 
+
+Riusabilità 
+Questo dispositivo è riutilizzabile per singolo paziente.  Non sono previsti requisiti relativi a pulizia, disinfezione o sterilizzazione.  Non esiste un numero massimo di volte in cui può essere riutilizzato. 
+Interoperabilità 
+Seeing AI è un'app per dispositivi mobili, da usare con le piattaforme iOS e Android. 
+Precauzioni 
+Seeing AI non è sempre accurata. Non va usata nelle situazioni in cui l'utente potrebbe subire danni o lesioni. Non è destinata all'uso di rilevamento, diagnosi, monitoraggio, gestione o trattamento di qualsiasi condizione medica o malattia. Gli utenti devono rivolgersi a un medico per eventuali consigli. L'utente è responsabile della comprensione delle funzionalità dell'app Seeing AI, della valutazione delle condizioni d'uso di Seeing AI e del rischio che l'uso in tali circostanze potrebbe causare danni eccessivi all'utente o ad altri.  
+Report degli incidenti 
+Tutti gli eventi gravi che si sono verificati in relazione al dispositivo devono essere segnalati al produttore e all'autorità di competenza dello stato membro in cui è stabilito l'utente e/o il paziente.  
+Rischi noti 
+L'uso di Seeing AI è stato valutato in modo clinico ed è stato dimostrato che è sicuro ed efficace per l'uso come previsto dal produttore.  Non esistono rischi residui intollerabili noti di cui gli utenti devono essere a conoscenza quando usano Seeing 
+AI.  
+Contatta Microsoft 
+Tutti gli eventi gravi che si sono verificati in relazione al dispositivo devono essere segnalati al produttore e all'autorità di competenza dello stato membro in cui è stabilito l'utente e/o il paziente.  
+Per tutti gli eventi imprevisti, il feedback o il supporto con l'applicazione Seeing AI oppure per richiedere una copia cartacea di questo manuale, che verrà fornito senza costi aggiuntivi entro 7 giorni, contattare l'Answer Desk per l'accessibilità Microsoft per assistenza: seeingai@microsoft.com 
+ 	 
+
+ 
+Seeing AI ユーザー マニュアル 
+
+リビジョン C 
+13-3 月-2024 
+JA 
+ 	 
+Seeing AI ユーザー マニュアル 
+
+概要 
+モバイル デバイスで Seeing AI を使用するには、次の手順に従ってください。 
+1. デバイスが最新であり、最新バージョンの iOS または Android を実行していることを確認してください。 
+2. 次のリンク (https://aka.ms/SeeingAIiOSDownload) を使って Apple App Store から、または次のリンク (https://aka.ms/SeeingAIAndroidDownload) を使って 
+Google Play Store から Seeing AI をインストールします。 
+3. アプリを開き、画面の指示に従ってデバイスをセットアップします。 
+4. デバイスがセットアップされたら、アプリ内のすべてのプロンプトと警告に従います。 
+5. 問題が発生した場合、またはご質問がある場合は、このマニュアルに記載されている連絡先情報を使用して、製造元にお問い合わせください。 
+6. デバイスの安全で効果的な使用を確保するために、製造元から提供されるすべての指示と警告に従うことを重要です。  
+このアプリケーションの使用には Seeing AI の使用条件が適用されます。アプリケーションに示されているように、これらの使用条件を理解し、同意することを確認する責任があります。  
+製品情報 
+製品名 
+Seeing AI 
+Seeing AI の表示は、規制 (EU) 2017/745 (MDR の場合) に従ったクラス I の医療デバイスです。 
+バージョン 
+アプリケーションの [バージョン情報] セクションで利用できます 
+
+製造日 
+アプリケーションの [バージョン情報] セクションで利用できます 
+
+製造元 
+Microsoft Corporation  
+One Microsoft Way  
+Redmond, WA 98052  
+USA  
+
+欧州連合の承認された代表者 
+Emergo Europe B.V. 
+Westervoortsedijk 60 
+6827 AT Arnhem The Netherlands  
+英国責任者 
+Emergo Consulting (UK) Limited c/o Cr 360 - UL International Compass House, Vision Park Histon 
+Cambridge CB24 9BZ United Kingdom 
+規制情報 
+
+ 
+
+ 
+Basic UDI-DI: 08600098825SEEINGAIIOSDN 
+EMDN コード: Y99 
+重要な安全性情報 
+使用目的 
+Seeing AI の表示は、iOS および Android プラットフォームで使用するためのモバイル アプリであり、人工知能 (AI) などの新しいテクノロジーを活用することで、視覚に障碍のあるユーザーに視覚環境に関する情報を提供します。AI の表示は、検出された内容に関する音声と触覚フィードバックを提供することで、個人の周囲に対する既存の認識を強化することを目的としています。  
+禁忌 
+AI の表示は、視覚障碍のある人が自分の環境について学習する主要なテクノロジーや排他的なテクノロジーとしては設計されておらず、使用しないでください
+。Seeing AI は、人工知能 (AI) を使用して確率的な出力が生成されます。これは、Seeing AI の使用場所と使用方法によって精度が異なります。AI を見ると、病状や病気の検出、診断、監視、管理、または治療は行われません。ユーザーは、
+Seeing AI アプリの機能を理解し、Seeing AI が使用される条件を評価し、そのような状況で使用するとユーザーまたは他のユーザーに合理的な損害を与える可能性があるリスクを評価する責任があります。  
+対象のユーザー 
+Seeing AI は、目の見えない方または視覚障碍のある方が使用することを目的としています。 
+臨床上の利点とパフォーマンスの特性の仕様 
+物理的な環境に対する理解を深める目的で、ユーザーに音声/ハプティック情報を提供します 
+
+再利用 
+このデバイスは、1 人の患者で再利用可能です。 クリーニング、除去、または包装に関する要件はありません。 再利用できる最大回数がありません。 
+相互運用性 
+Seeing AI は、iOS および Android プラットフォームで使用するためのモバイルアプリです。 
+注意事項 
+AI の表示は常に正確であるとは限りません。危害を受けたり、けがをしたりする可能性がある状況では使用しないでください。これは、病状または病気の検出、診断、監視、管理、または治療での使用を目的としていません。ユーザーは医師に医療上のアドバイスを求める必要があります。ユーザーは、Seeing AI アプリの機能を理解し、Seeing AI が使用される条件を評価し、そのような状況で使用するとユーザーまたは他のユーザーに合理的な損害を与える可能性があるリスクを評価する責任があります。 
+インシデント レポート 
+デバイスに関連して発生した重大なインシデントは、製造元と、ユーザーまたは患者が確立されているメンバー状態の権限に報告する必要があります。  
+既知のリスク 
+Seeing AI の使用は臨床評価されており、製造元が意図したとおりに安全かつ効果的に使用することが実証されています。 Seeing AI を使用する際にユーザーが認識する必要がある、許容できない既知の残存リスクはありません。  
+Microsoft に問い合わせる 
+デバイスに関連して発生した重大なインシデントは、製造元と、ユーザーまたは患者が確立されているメンバー状態の権限に報告する必要があります。  
+すべてのインシデントおよびフィードバックと、Seeing AI アプリケーションに関するサポートのお問い合わせ、このマニュアルの印刷版 (7 日以内であれば無償でご提供します) のご請求は、Microsoft Disability Answer Desk 
+(seeingai@microsoft.com) 宛てにお送りください 
+ 	 
+
+
+ 
+Seeing AI یࡈ࢕ ֐Ѝ߲ 
+
+ܹࢽ C 
+13- 3 ࡖ-2024 
+KO 
+ 	 
+Seeing AI یࡈ࢕ ֐Ѝ߲ 
+
+시작 
+؂ֻࢊ ҡݛࢇ؂߾۰ Seeing AI ձ یࡈଜԮִ Ьࡸ ए৚ࡶ ծҬۿࡁ. 
+1. ҡݛࢇ؂ɼ ফۘ ݦ੓ࢇˈ ফ؟ ݦࢷࢂ iOS ӖЕ Android ձ ݨଭଜˈ ࢑Еए 
+୙ࢉଢТЬ. 
+2. Seeing AI ձ https://aka.ms/SeeingAIiOSDownload ր਺ձ ੼ଥ Apple App Store ߾۰ ۶৔ଜʠΟ https://aka.ms/SeeingAIAndroidDownload ր਺ձ ੼ଥ 
+Google Play ݛੵ߭߾۰ ଜ৔۶ۿࡁ. 
+3. ִ୘ ˈࠊ ࡶߚࢂ ए৚߾ ҬԂ ҡݛࢇ؂ձ ۶ࢽଢТЬ. 
+4. ҡݛࢇ؂ɼ Ѹࢽ۶ֻ ִҘ ߚ ΰ ଎Կ଎ઝ ؀ ˁˈձ ҬճТЬ. 
+5. חࢿɼ ۢ؈ଜʠΟ ओחࢇ ࢑Е ˁࡉ ࢇ ۶ָ۰߾ Οࠊѹ ࠉԃঈ ࢽؿձ یࡈଜࠆ ࢿ࣏߶঑߾ Ѧࡏࡶ ଜঐࡁۿࡁ. 
+6. ҡ߇ ࢂݛࢇ؂ࢷଜˈ ୪˕ࢶࢉ ؿ ࡶࡈیࢠଜ̛ ࡢଥ ࢿ࣏߶঑߾۰ ࢿ˓ଜЕ ֻҘ ए৚˕ ˁˈձ ҬծЕ ʨࢇ ࣸࡁଢТЬ.  
+ࢇ ߕଐչৼࢇی ࢂ܊ࡈ߾Е Seeing AI ߟ ࡈی˗ࢇ ࢶࡈѼТЬ. ߕଐչৼࢇݤ૲ ߾܊ѹ оԻ ࢇԜଞ ߟ ࡈی˗ࡶ ࢇଥଜˈ ѰࢂଜЕए ୙ࢉଜЕ ʨࡵ یࡈ࢕ࢂ ॺࢎ࢏ТЬ.  제품 정보 
+제품 이름 
+Seeing AI 
+Seeing AI Е Regulation (EU) 2017/745(MDR ࡈ)߾ ҬԂ Ԏ਽ݛ I ࢂՎ ҡݛࢇ؂Ի 
+ٗզѼТЬ. 버전 ߕଐչৼࢇی ۰߾܊܀ ؿࢽ ࢂ܊ࡈ ɼМ 
+
+제조 날짜 ߕࢇৼչଐی ۰߾܊܀ ؿࢽ ࢂ܊ࡈ ɼМ 
+
+제조업체 
+Microsoft Corporation  
+One Microsoft Way  
+Redmond, WA 98052  USA  
+
+유럽 연합 공인 대리인 
+Emergo Europe B.V. 
+Westervoortsedijk 60 
+6827 AT Arnhem The Netherlands 
+영국 책임자 
+Emergo Consulting (UK) Limited c/o Cr 360 - UL International Compass House, Vision Park Histon 
+Cambridge CB24 9BZ United Kingdom 
+규정 정보 
+
+ 
+
+ 
+̛ق UDI-DI: 08600098825SEEINGAIIOSDN 
+EMDN ਍Җ: Y99 
+중요 안전 정보 
+용도 
+Seeing AI Е ࢉ˓ एМ(AI)˕ ʋࡵ ফݦ ̛ܽࡶ ୛ࡈଜࠆ ֘ࢉ ӖЕ ݤɽ ࢠߕɼ 
+࢑Е یࡈ࢕߾ʯ ݤɽࢶ ୚ˁ߾ оଞ ࢽؿձ ࢿ˓ଜЕ iOS ؀ Android ଐԔ૪ࡈ ߚ ࢊ؂ֻ࢏ТЬ. Seeing AI Е ʃएѹ ʨ߾ оଞ ࠝҡࠝ ؀ ঠɽ Җଔؒࡶ ࢿ˓ଜࠆ ࣯ض ୚ˁ߾ оଞ ʎࢉࢂ ̛࣑ ࢉݥࡶ ʈ୘ଜ̛ ࡢଞ ʨ࢏ТЬ.  
+금지사항 
+Seeing AI Е ݤɽ ࢠߕɼ ࢑Е یࡈ࢕ɼ قࢉࢂ ୚ˁ߾ оଥ ؑࡉЕ і 
+ࢊ८ࢶࢇʠΟ Яѧࢶࢉ ̛ܽԻ یࡈଜѦԼ ۶˃Ѹए ֲࡳߑ߉ ̐ԥʯ یࡈଥ۰Е 
+߇ ѼТЬ. Seeing AI Е AI(ࢉ˓ एМ)ձ یࡈଜࠆ ୙թࢶ ষԯࡶ ۽ۢଢТЬ. ࢇЕ 
+Seeing AI ɼ یࡈѸЕ ࡢ৔ࠪ ؏ئ߾ ҬԂ ࢽ୙Ѧɼ бԂखТЬ. Seeing AI Е ओ୚ 
+ӖЕ ओ؈ ࡶػʺ, ऑЯ, ֻТਫ਼ր, ˗չ ӖЕ ৔Վଜए ݡ߉ТЬ. یࡈ࢕߾ʯЕ 
+Seeing AI ߚࢂ ̛Мࡶ ࢇଥଜˈ, Seeing AI ɼ یࡈѺ ࣏ʢࡶ ૡɼଜˈ, ଥк ۘଢ଼߾۰ یࡈଡࡳԻ ࢉଥ یࡈ࢕Ο Ьհ ࢇ߾ʯ ٙଢչଞ ଔଥɼ ۢ؈ଟ ܹ ࢑Е ࡢଵࡶ ૡɼଟ ॺࢎࢇ ࢑ݡТЬ.  대상 사용자 
+Seeing AI Е ֘ࢉ ӖЕ ݤɽ ࢠی ࢂࢉߕࡈࡶ ࡢଞ ʨ࢏ТЬ. 임상 혜택 및 성능 특성 사양 ݨࢿ ୚ˁ߾ оଞ ࢇଥձ ୙оଜ̛ ࡢଥ ࠝҡࠝ/ঠɽ ࢽؿձ یࡈ࢕߾ʯ ࢿ˓ଢТЬ. 
+
+재사용 가능성 
+ࢇ ࢠ৔Е Яࢊ ୚࢕ ࢢیࡈࢇ ɼМଢТЬ. ۿউ, ܕѧ ӖЕ ֵ̎߾ ˗ଞ ࡁ˱ یତࡵ ߷ݡТЬ. ࢢیࡈଟ ܹ ࢑Е ফо ୨ܹЕ ߷ݡТЬ. 
+상호 운용성 
+Seeing AI Е iOS ؀ Android ଐԔ૪߾۰ یࡈଜ̛ ࡢଞ ߚ ࢊ؂ֻ࢏ТЬ. 
+주의 사항 
+Seeing AI Е ତۘ ࢽ୙ଜएЕ ݡ߉ТЬ. ଔଥձ ࢏ʠΟ Ь৘ ܹ ࢑Е ۘଢ଼߾۰Е یࡈଥ۰Е ߇ ѼТЬ. Seeing AI Е ओ୚ ӖЕ ओ؈ ࢂػʺ, ऑЯ, ֻТਫ਼ր, ˗չ 
+ӖЕ ৔Վ߾ یࡈଜ̛ ࡢଞ ּࢶࡳԻ ۶˃Ѹए ݡߑ߉ТЬ. یࡈ࢕Е ࢂیԻٕਫ਼ 
+ࢂଝࢶ ܕʺࡶ ߭Қߞ ଢТЬ. یࡈ࢕߾ʯЕ Seeing AI ߚࢂ ̛Мࡶ ࢇଥଜˈ, 
+Seeing AI ɼ یࡈѺ ࣏ʢࡶ ૡɼଜˈ, ଥк ۘଢ଼߾۰ یࡈଡࡳԻ ࢉଥ یࡈ࢕Ο Ьհ ࢇ߾ʯ ٙଢչଞ ଔଥɼ ۢ؈ଟ ܹ ࢑Е ࡢଵࡶ ૡɼଟ ॺࢎࢇ ࢑ݡТЬ.  
+인시던트 보고서 ҡݛࢇ؂ࠪ ˗԰ଜࠆ ۢ؈ଞ ݪɽଞ یˈɼ ࢑ࡶ ˁࡉ ࢿ࣏߶঑ ی ؀ࡈ࢕/୚࢕ɼ ʠ࣯ଜЕ ୣࡕ˲ࢂ ˗ଟ ̛˗߾ ؿˈଥߞ ଢТЬ.  
+알려진 위험 
+Seeing AI ࢂ ۘࢎ ࡵࡈیࢶࡳԻ ࡳ߹Ѹɼૡֲ ࢿ࣏߶঑ɼ ࢂѦଞ оԻ یࡈଜ̛߾ 
+߇ࢷଜˈ ୪˕ࢶࢉ ʨࡳԻ ߹Ѹऎ࢏ݡТЬ.  Seeing AI ձ یࡈଟ Ҷ یࡈ࢕ɼ ߊˈ ߭࢑ߞ ଜЕ ߊԮऑ ରࡈ ٙɼМଞ ࢗࠆ ࡢଵࢇ ߷ݡТЬ.  
+Microsoft 에 문의 ҡݛࢇ؂ࠪ ˗԰ଜࠆ ۢ؈ଞ ݪɽଞ یˈɼ ࢑ࡶ ˁࡉ ࢿ࣏߶঑ ی ؀ࡈ࢕/୚࢕ɼ ʠ࣯ଜЕ ୣࡕ˲ࢂ ˗ଟ ̛˗߾ ؿˈଥߞ ଢТЬ.  
+ֻҘ ࢉݤыઝ, Җଔؒ ӖЕ Seeing AI ߕଐչৼࢇ܊߾ оଞ एࡕࡶ ؇ʠΟ 7 ࢊ ΰ߾ ঴ɼ ٸࡈ ߷ࢇ ࢿ˓ѸЕ ࢇ ۶قیـ ۰ח ۰ࢂָࡶ Ԯଜঐࡁִ Microsoft 
+Disability Answer Desk(seeingai@microsoft.com)߾ חࢂଜۿࡁ. 
+ 	 
+
+ 
+Seeing AI प्रयोतर्त मॅन्युअल 
+
+उजळणी C 
+13-मतर्ा-2024 
+MR 
+ 	 
+Seeing AI प्रयोतर्त मॅन्युअल 
+
+प्रारंभ करा आपलयत मोबतइल डिव्हतइसवर Seeing AI वतपरण्यतसतठी, कृपयत यत सर्ू नतंर्े अनसु रण करत: 
+1. आपले डिव्हतइस अद्ययतवर् असलयतर्े आखण iOS ककंवत Android र्ी नवीनर्म आवत्तृ ी रन करर् असलयतर्े सनु नश्चर्र् करत. 
+2. खतलील ललकं वरील Apple App Store वरून: https://aka.ms/SeeingAIiOSDownload ककंवत Google Play Store मधनू खतलील ललकं वरून: https://aka.ms/SeeingAIAndroidDownload Seeing AI स्थतवपर् करत 
+3. डिव्हतइस सेट अप करण्यतसतठी अनुप्रयोग उघित आखण ऑन-स्रीन सर्ू नतंर्े अनसु रण करत. 
+4. एकर्दत डिव्हतइस सेट अप झतलयतनंर्र, अनप्रु योगतमधील सवा सूर्नत आखण सर्ू नतंर्े अनसु रण करत. 
+5. आपलयतलत कतही समस्यत असलयतस ककंवत कतही प्रचन असलयतस, कृपयत सहतय्यतसतठी यत मॅन्यअु लमध्ये सर्ू ीबद्ध के लेलयत संपका मतदहर्ीवरून, उत्पतर्दकतशी संपका सतधत. 
+6. डिव्हतइसर्त सरु क्षिर् आखण प्रभतवी वतपर सुन नश्चर्र् करण्यतसतठी उत्पतर्दकतद्वतरे प्रर्दतन के लेलयत सवा सर्ू नत आखण र्ेर्तवणींर्े अनसु रण करणे महत्वतर्े आहे.  
+यत अनप्रु योगतर्त वतपर Seeing AI च्यत वतपरतच्यत अटीच्यत अधीन आहे. अनप्रु योगतमध्ये र्दशाववलयतप्रमतणे यत अटी आखण शर्ी आपलयतलत समजलयत आहेर् आखण आपण त्यतंर्त स्वीकतर करर् आहतर् यतर्ी पटु टी करणे ही आपली जबतबर्दतरी आहे.  
+उत्पादनाची मादहती उत्पादनाचे नाि 
+Seeing AI 
+Seeing AI हे (EU) 2017/745 (MDR सतठी) ननयतमकतच्यत अनषु ंगतने तलतस I वैद्यकीय डिव्हतइस आहे. आित्तृ ी 
+अनप्रु योगतच्यत यतववषयी ववभतगतमध्ये उपलब्ध आहे 
+
+उत्पादनाची तारीि अनप्रु योगतच्यत यतववषयी ववभतगतमध्ये उपलब्ध आहे 
+
+ननमााता 
+Microsoft Corporation  
+One Microsoft Way  
+Redmond, WA 98052  USA  
+
+यरु ोवपयन यनु नयन अधिकृत प्रनतननिी इमजो यरु ोप B.V. 
+Westervoortsedijk 60 
+6827 AT Arnhem 
+नेर्दरलँड्स  
+यनु ायटेड ककंगडम जबाबदार व्यतती 
+Emergo Consulting (UK) Limited c/o Cr 360 - UL International Compass House, Vision Park Histon 
+Cambridge CB24 9BZ United Kingdom ननयामक मादहती 
+
+ 
+
+ 
+मलु भर्ू UDI-DI: 08600098825SEEINGAIIOSDN 
+EMDN कोि: Y99 
+महत्त्िाची सरु क्षा मादहती हेतपु रु स्सर उद्देश 
+Seeing AI, iOS आखण Android प्लॅटफॉमासह वतपरण्यतसतठी एक मोबतइल अनुप्रयोग आहे, जो दृश्टटहीन ककंवत इर्र दृश्टट र्दोष असलेलयत प्रयोतत्यतलत कृत्रत्रम बद्ु धधमत्‍र्त (AI) सतरख्यत उर्दयोन्मखु	 र्ंत्रज्ञतनतंर्त लतभ घेऊन त्यतच्यत दृचय वतर्तवरणतववषयी मतदहर्ी प्रर्दतन करर्ो. जे आढळले आहे त्यतबद्र्दल ऑडिओ आखण हॅश्प्टक फीिबॅक प्रर्दतन करून एखतद्यत व्यतर्ीर्ी त्यतंच्यत सभोवर्तलर्ी ववद्यमतन जतगरूकर्त वतढवणे Seeing AI र्त हेर्ू आहे.  
+विसंगती 
+दृश्टटहीन ककंवत इर्र प्रकतरर्त दृटटी र्दोष असणतऱ्यत व्यतर्ी त्यतंच्यत पररसरतबद्र्दल जतणनू घेण्यतसतठी Seeing AI हे प्रतथलमक ककंवत अनन्य र्ंत्रज्ञतन म्हणून डिझतइन के लेले नतही आखण त्यतसतठी र्े वतपरले जतऊ नये. Seeing AI संभतव्यर्त पररणतम र्यतर करण्यतसतठी कृत्रत्रम बद्ु धधमत्तत (AI) र्त वतपर करर्े, त्यतच्यत अर्कू र्मे ध्ये Seeing AI कु ठे आखण कसत वतपरलत आहे यतनसु तर बर्दल होर्ो. Seeing AI कोणर्ीही वैद्यकीय श्स्थर्ी ककंवत आजतर शोधर् नतही, ननर्दतन, मॉननटर, व्यवस्थतवपर् करर् नतही ककंवत त्यतवर उपर्तर करर् नतही. Seeing AI अनप्रु योगतर्ी कतयािमर्त समजनू घेण्यतसतठी, Seeing AI कोणत्यत पररश्स्थर्ीर् वतपरलत जतईल यतर्े मलू यतंकन करण्यतसतठी आखण त्यत पररश्स्थर्ीर् वतपरलयतस प्रयोतत्यतलत ककंवत इर्रतंनत अवतस्र्व नकु सतन होऊ शकर्े अशत जोखमीर्े मलू यतंकन करण्यतसतठी प्रयोतर्त जबतबर्दतर असेल.  उधचत प्रयोतते 
+Seeing AI हत अंध ककंवत इर्र दृटटी र्दोष असणतऱ्यत व्यतर्ींद्वतरे वतपरण्यतसतठी आहे. 
+	क्तलननकल लाभ आखण कायाप्रदशान विशेषतांचे गणु	िमा 
+प्रयोतत्यतंनत त्यतंर्ी भौनर्क वतर्तवरणतववषयीर्ी समज सधु तरणेच्यत उद्दर्दटटतसह ऑडिओ/हॅश्प्टक मतदहर्ी प्रर्दतन करर्े 
+
+पनु िाापरक्षमता 
+हे डिव्हतइस एकमेव रूग्णतसतठीच्यत पनु वतापरतसतठी आहे.  सतफ करणे, संसगारदहर् करणे, ककंवत ननजर्ं कु ीकरणतसंर्दभतार् कोणत्यतही आवचयकर्त नतहीर्.  र्े कमतल ककर्ी वेळत पन्ु हत वतपरले जतऊ शकर्े हे ननश्चर्र् नतही. 
+परस्पर कायाक्षमता iOS आखण Android प्लॅटफॉम्सासह वतपरण्यतसतठी Seeing AI हत एक मोबतइल अनप्रु योग आहे. 
+िबरदारी 
+Seeing AI नेहमी अर्कू नसर्ो. आपलयतलत इजत ककंवत नकु सतन होऊ शकर्े अशत पररश्स्थर्ीर् यतर्त वतपर के लत जतऊ नये. हे कोणत्यतही वैद्यकीय श्स्थर्ी ककंवत रोगतर्त शोध, ननर्दतन, ननयंत्रण, व्यवस्थतपन ककंवत उपर्तर यतंमध्ये वतपरण्यतच्यत हेर्सू तठी नतही. प्रयोतत्यतंनी कोणर्तही वैद्यकीय सललत िॉतटरतंकिून घ्यतवत. Seeing AI अनप्रु योगतर्ी कतयािमर्त समजनू घेण्यतसतठी, Seeing AI कोणत्यत पररश्स्थर्ीर् वतपरलत जतईल यतर्े मलू यतंकन करण्यतसतठी आखण त्यत पररश्स्थर्ीर् वतपरलयतस प्रयोतत्यतलत ककंवत इर्रतंनत अवतस्र्व नकु सतन होऊ शकर्े अशत जोखमीर्े मलू यतकं न करण्यतसतठी प्रयोतर्त जबतबर्दतर असेल.  घटनेची तक्रार 
+डिव्हतइसच्यत संर्दभतार् घिलेलयत कोणत्यतही गंभीर घटनेर्त अहवतल ननमतात्यतलत आखण प्रयोतर्त आखण/ककंवत रुग्ण ज्यतमध्ये स्थतवपर् आहे त्यत सर्दस्य रतज्यतच्यत सिम प्रतधधकरणतलत द्यतवत.  ज्ञात िोके 
+Seeing AI च्यत वतपरतर्े वैद्यककयररत्यत मलू यमतपन के ले गेले आहे आखण उत्पतर्दकतच्यत हेर्प्रू मतणे वतपरण्यतसतठी सरु क्षिर् आखण प्रभतवी म्हणनू र्दशावले गेले आहे.  प्रयोतत्यतंनत Seeing AI वतपरर्तनत मतदहर्ी असणे आवचयक आहे असे कोणर्ेही ज्ञतर् असह्य अवलशटट धोके नतहीर्.  
+Microsoft शी संपका सािा 
+डिव्हतइसच्यत संर्दभतार् घिलेलयत कोणत्यतही गंभीर घटनेर्त अहवतल ननमतात्यतलत आखण प्रयोतर्त आखण/ककंवत रुग्ण ज्यतमध्ये स्थतवपर् आहे त्यत सर्दस्य रतज्यतच्यत सिम प्रतधधकरणतलत द्यतवत.  सवा घटनतंसतठी, फीिबॅक ककंवत Seeing AI अनप्रु योग पतहण्यतच्यत समथानतसतठी ककंवत यत मॅन्यअु लच्यत कतगर्दी प्रनर्ललपीर्ी ववनंर्ी करण्यतसतठी जी 7 दर्दवसतंच्यत आर्ील अनर्ररतर् मलू यतने प्रर्दतन के ली जतईल, सहतय्यतसतठी Microsoft Disability Answer Desk शी संपका सतधत: 
+seeingai@microsoft.com 
+ 	 
+
+
+ 
+Manual Pengguna Seeing AI 
+
+Semakan C 
+13-Mac-2024 
+MS 
+ 	 
+Manual Pengguna Seeing AI 
+
+Mari Bermula 
+Untuk menggunakan Seeing AI pada peranti mudah alih anda, sila ikut arahan berikut: 
+1. Pastikan peranti anda telah dikemas kini dan menjalankan versi iOS atau Android terkini. 
+2. Pasang Seeing AI daripada Apple App Store daripada pautan berikut: https://aka.ms/SeeingAIiOSDownload atau daripada Gedung Google Play daripada pautan berikut: https://aka.ms/SeeingAIAndroidDownload 
+3. Buka aplikasi dan ikut arahan pada skrin untuk menyediakan peranti. 
+4. Setelah peranti disediakan, ikut semua gesaan dan amaran dalam aplikasi. 
+5. Jika anda mengalami sebarang isu atau mempunyai sebarang pertanyaan, sila hubungi pengeluar untuk mendapatkan bantuan, menggunakan maklumat hubungan yang disenaraikan dalam manual ini. 
+6. Adalah penting untuk mengikuti semua arahan dan amaran yang diberikan oleh pengeluar untuk memastikan penggunaan peranti yang selamat dan berkesan.  
+Penggunaan aplikasi ini tertakluk kepada Terma Penggunaan Seeing AI. Anda bertanggungjawab untuk mengesahkan anda memahami dan menerima terma dan syarat ini seperti yang ditunjukkan dalam aplikasi.  
+Maklumat Produk 
+Nama Produk 
+Seeing AI 
+Seeing AI ialah peranti perubatan kelas I mengikut Peraturan (EU) 2017/745 (untuk MDR). 
+Versi 
+Tersedia dalam Seksyen Perihal Aplikasi 
+
+Tarikh Pengilangan 
+Tersedia dalam Seksyen Perihal Aplikasi 
+
+Pengeluar 
+Microsoft Corporation  
+One Microsoft Way  
+Redmond, WA 98052  
+USA  
+
+Wakil Sah Kesatuan Eropah Emergo Europe B.V. 
+Westervoortsedijk 60 
+6827 AT Arnhem 
+The Netherlands  
+Individu Bertanggungjawab United Kingdom 
+Emergo Consulting (UK) Limited c/o Cr 360 - UL International Compass House, Vision Park Histon 
+Cambridge CB24 9BZ United Kingdom 
+Maklumat Kawal Selia 
+
+ 
+
+ 
+UDI-DI Asas: 08600098825SEEINGAIIOSDN 
+Kod EMDN: Y99 
+Maklumat Keselamatan Penting 
+Tujuan Cadangan 
+Seeing AI merupakan aplikasi mudah alih, untuk digunakan dengan platform iOS dan Android, yang memberikan maklumat tentang persekitaran visual kepada pengguna buta atau kurang upaya penglihatan dengan memanfaatkan teknologi yang sedang pesat membangun seperti Kecerdasan Buatan (AI). Seeing AI bertujuan untuk menambahkan kesedaran yang sedia ada pada seseorang tentang persekitaran mereka, dengan memberikan maklum balas audio dan haptik tentang perkara yang dapat dikesan.  
+Kontraindikasi 
+Seeing AI tidak direka bentuk untuk menjadi dan tidak boleh digunakan sebagai teknologi utama atau satu-satunya teknologi yang digunakan oleh orang buta atau cacat penglihatan untuk mengetahui tentang persekitaran mereka. Seeing AI menggunakan Kecerdasan Buatan (AI) untuk menghasilkan output kebarangkalian yang berbeza-beza ketepatannya bergantung pada tempat dan cara Seeing AI digunakan. Seeing AI tidak mengesan, mendiagnosis, memantau, mengurus atau merawat sebarang keadaan perubatan atau penyakit. Pengguna bertanggungjawab untuk memahami fungsi aplikasi Seeing AI, untuk menilai keadaan di mana Seeing AI akan digunakan dan untuk menilai risiko bahawa penggunaan dalam keadaan tersebut boleh menyebabkan bahaya yang tidak munasabah kepada pengguna atau orang lain.  
+Pengguna Yang Dimaksudkan 
+Seeing AI bertujuan untuk digunakan oleh individu yang buta atau cacat penglihatan. 
+Spesifikasi Manfaat Klinikal dan Ciri Prestasi 
+Memberikan maklumat audio/haptik kepada pengguna dengan sasaran untuk menambah pemahaman mereka tentang persekitaran fizikal 
+
+Kebolehgunaan semula 
+Peranti ini boleh digunakan semula oleh pesakit tunggal.  Tiada keperluan mengenai pembersihan, pembasmian kuman atau pensterilan.  Tiada bilangan maksimum yang ia boleh digunakan semula. 
+Saling Kendali 
+Seeing AI ialah aplikasi mudah alih, untuk digunakan dengan platform iOS dan Android. 
+Langkah berjaga-jaga 
+Seeing AI tidak sentiasa tepat. Ia tidak seharusnya digunakan dalam situasi yang boleh menyebabkan anda dalam bahaya atau tercedera. Ia tidak bertujuan untuk digunakan dalam pengesanan, diagnosis, pemantauan, pengurusan atau rawatan bagi sebarang keadaan atau penyakit perubatan. Pengguna perlu mendapatkan sebarang nasihat perubatan daripada pakar perubatan. Pengguna bertanggungjawab untuk memahami fungsi aplikasi Seeing AI, untuk menilai keadaan di mana Seeing AI akan digunakan dan untuk menilai risiko bahawa penggunaan dalam keadaan tersebut boleh menyebabkan bahaya yang tidak munasabah kepada pengguna atau orang lain.  
+Pelaporan Kejadian 
+Sebarang kejadian serius yang berlaku berkaitan dengan peranti hendaklah dilaporkan kepada pengeluar dan pihak berkuasa Negara Anggota yang layak yang merupakan tempat pengguna dan/atau pesakit menetap.  
+Risiko yang Diketahui 
+Penggunaan Seeing AI telah dinilai secara klinikal dan didapati selamat dan berkesan untuk digunakan seperti yang dicadangkan oleh pengeluar.  Tiada risiko sisa tidak tertanggung yang diketahui yang perlu diketahui oleh pengguna apabila menggunakan Seeing AI.  
+Hubungi Microsoft 
+Sebarang kejadian serius yang berlaku berkaitan dengan peranti hendaklah dilaporkan kepada pengeluar dan pihak berkuasa Negara Anggota yang layak yang merupakan tempat pengguna dan/atau pesakit menetap.  
+Untuk semua kejadian, maklum balas atau untuk mendapatkan sokongan tentang aplikasi Seeing AI, atau meminta salinan kertas manual ini yang akan diberikan tanpa kos tambahan dalam masa 7 hari, hubungi Microsoft Disability Answer Desk untuk mendapatkan bantuan: seeingai@microsoft.com 
+ 	 
+
+ 
+Se brukerhåndboken for Seeing AI 
+
+Revisjon C 
+13-Mar-2024 
+NB 
+ 	 
+Se brukerhåndboken for Seeing AI 
+
+Kom i gang 
+Følg disse instruksjonene for å bruke Seeing AI på den mobile enheten: 
+1. Kontroller at enheten er oppdatert og kjører den nyeste versjonen av iOS eller Android. 
+2. Installer Seeing AI fra Apple App Store fra følgende kobling: https://aka.ms/SeeingAIiOSDownload eller fra Google Play-butikk fra følgende kobling: https://aka.ms/SeeingAIAndroidDownload 
+3. Åpne appen, og følg instruksjonene på skjermen for å konfigurere enheten. 
+4. Når enheten er konfigurert, følger du alle ledetekster og advarsler i appen. 
+5. Hvis du opplever problemer eller har spørsmål, kan du kontakte produsenten for å få hjelp ved hjelp av kontaktinformasjonen som er oppført i denne håndboken. 
+6. Det er viktig å følge alle instruksjoner og advarsler fra produsenten for å sikre sikker og effektiv bruk av enheten.  
+Bruk av dette programmet er underlagt vilkårene for bruk av Seeing AI. Det er ditt ansvar å bekrefte at du forstår og godtar disse vilkårene og betingelsene som vist i programmet.  
+Produktinformasjon 
+Produktnavn 
+Seeing AI 
+Seeing AI er en medisinsk enhet i klasse I i henhold til forskrifter (EU) 2017/745 (for MDR). 
+Versjon 
+Tilgjengelig i Om-delen av programmet 
+
+Produksjonsdato 
+Tilgjengelig i Om-delen av programmet 
+
+Produsent 
+Microsoft Corporation  
+One Microsoft Way  
+Redmond, WA 98052  
+USA  
+
+Autorisert representant for EU Emergo Europe B.V. 
+Westervoortsedijk 60 
+6827 AT Arnhem 
+The Netherlands  
+Ansvarlig person i Storbritannia Emergo Consulting (UK) Limited c/o Cr 360 - UL International Compass House, Vision Park Histon 
+Cambridge CB24 9BZ 
+United Kingdom 
+Forskriftsmessig informasjon 
+
+ 
+
+ 
+Basic UDI-DI: 08600098825SEEINGAIIOSDN 
+EMDN-kode: Y99 
+Viktig sikkerhetsinformasjon 
+Tiltenkt formål 
+Seeing AI er en mobilapp for bruk med iOS-plattformen, som gir en blind eller på annen måte synshemmet bruker informasjon om det visuelle miljøet rundt ved å utnytte nye teknologier, for eksempel kunstig intelligens (AI). Seeing AI er ment å øke en persons eksisterende oppmerksomhet rundt omgivelsene ved å gi lyd og haptisk tilbakemelding om hva som er oppdaget.  
+Kontraindikasjoner 
+Seeing AI er ikke utformet for å være og bør ikke brukes som en primær eller eksklusiv teknologi for at personer som er blinde eller på annen måte synshemmede skal lære om miljøet sitt. Seeing AI bruker kunstig intelligens (KI) for å produsere probabilistiske utganger, som vil variere i nøyaktighet avhengig av hvor og hvordan Seeing AI brukes. Seeing AI oppdager ikke, diagnostiserer, overvåker, administrerer eller behandler ingen medisinsk tilstand eller sykdom. Brukeren er ansvarlig for å forstå funksjonaliteten til Seeing AI-appen, for å vurdere under hvilke forhold Seeing AI skal brukes, og for å vurdere risikoen for at bruk under slike omstendigheter kan føre til urimelig skade for brukeren eller andre.  
+Tiltenkte brukere 
+Seeing AI er ment for bruk av personer som er blinde eller på annen måte er synshemmede. 
+Spesifikasjon av kliniske fordeler og ytelsesegenskaper 
+Gir lyd-/haptisk informasjon til brukere med mål om å øke forståelsen av det fysiske miljøet 
+
+Gjenbruk 
+Denne enheten kan brukes på nytt for én enkelt pasient.  Det er ingen krav til rengjøring, desinfisering eller utføring.  Det er ikke maksimalt antall ganger den kan brukes på nytt. 
+Interoperabilitet 
+Seeing AI er en mobilapp for bruk med iOS-plattformen. 
+Forholdsregler 
+Seeing AI er ikke alltid nøyaktig. Den bør ikke brukes i situasjoner der du kan bli skadet. Den er ikke beregnet for bruk til gjenkjenning, diagnose, overvåking eller behandling av medisinsk tilstand eller sykdom. Brukere skal søke medisinsk råd fra en lege. Brukeren er ansvarlig for å forstå funksjonaliteten til Seeing AI-appen, for kunne å vurdere betingelsene der Seeing AI-appen skal brukes, og for å vurdere risikoen for at bruk i disse situasjonene kan føre til urimelig skade på brukeren eller andre.  
+Hendelsesrapportering 
+Enhver alvorlig hendelse som har oppstått i forbindelse med utstyret, skal rapporteres til produsenten og vedkommende myndighet i medlemsstaten der brukeren og/eller pasienten befinner seg.  
+Kjente risikoer 
+Bruken av Seeing AI har blitt klinisk evaluert, og har vist seg å være sikker og effektiv for bruk som tiltenkt av produsenten.  Det finnes ingen kjente utålelige gjenværende risikoer som brukere må være klar over når de bruker Seeing AI.  
+Kontakt Microsoft 
+Enhver alvorlig hendelse som har oppstått i forbindelse med utstyret, skal rapporteres til produsenten og vedkommende myndighet i medlemsstaten der brukeren og/eller pasienten befinner seg.  
+For alle hendelser, tilbakemeldinger eller støtte med programmet Seeing AI, eller for å be om en papirkopi av denne håndboken som leveres uten ekstra kostnader innen sju dager, kan du kontakte Microsoft Answer Desk for å få hjelp: 
+seeingai@microsoft.com 
+ 	 
+
+
+ 
+Seeing AI प्रयोगकर्ता पुश्स्र्कत 
+
+पनु रतवलोकन C 
+13-मतर्ा-2024 
+NE 
+ 	 
+Seeing AI प्रयोगकर्ता पुश्स्र्कत 
+
+सरूु गनहाु ोस ् आफ्नो मोबतइल उपकरणमत Seeing AI प्रयोग गना, कृपयत यी ननर्देशनहरू पतलनत गनाहु ोस:् 
+1. सनु नश्चर्र् गनाहु ोस ्कक र्पतईंको उपकरण अद्यतवधधक छ र iOS वत Android को नवीनर्म संस्करण र्ललरहेको छ। 
+2. र्लको ललङ्कबतट Apple एप स्टोरबतट Seeing AI स्थतपनत गनाहु ोस:् https://aka.ms/SeeingAIiOSDownload वत ननम्न ललङ्कबतट Google Play स्टोरबतट: https://aka.ms/SeeingAIAndroidDownload 
+3. अनप्रु योग खोलनहु ोस ्र यन्त्र सेटअप गना अन-श्स्रन ननर्देशनहरू पतलनत गनाहु ोस।् 
+4. एक पटक यन्त्र सेट अप भएपनछ, सबै इन-एप प्रम्प्ट र र्ेर्तवनीहरू पतलनत गनाहु ोस।् 
+5. यदर्द र्पतईं कु नै पनन समस्यतहरू अनुभ व गर्दै हुनु हुन्छ वत कु नै प्रचनहरू छन् भने, यो पश्ु स्र्कतमत सर्ू ीबद्ध सम्पका जतनकतरी प्रयोग गरेर कृपयत सहयोगकत लतधग ननमतार्तलतई सम्पका गनाहु ोस।् 
+6. यन्त्रको सरु क्षिर् र प्रभतवकतरी प्रयोग सनु नश्चर्र् गना, ननमतार्तद्वतरत प्रर्दतन गररएकत सबै ननर्देशन र र्ेर्तवनीहरू पतलन गना महत्त्वपणू ा छ।  
+यो अनप्रु योगको प्रयोग प्रयोगको Seeing AI सर्ाहरूको अधीनमत छ। र्पतईंले अनप्रु योगमत र्देखतइएकत यी ननयम र सर्ाहरू बझ्ु नभु यो र स्वीकतर गनाभु यो भनी पश्ु टट गनाु र्पतईंको श्जम्मेवतरी हो।  
+उत्पादन जानकारी उत्पादन नाम 
+Seeing AI 
+AI ननयमन (EU) 2017/745 (MDR को लतधग) अनसु तर वगा I धर्ककत्सत उपकरण हो। संस्करण 
+अनप्रु योगको बतरेमत खण्िमत उपलब्ध छ 
+
+ननमााण ममनत 
+अनप्रु योगको बतरेमत खण्िमत उपलब्ध छ 
+
+ननमााता 
+Microsoft Corporation  
+One Microsoft Way  
+Redmond, WA 98052  USA  
+
+यरू ोपीय संघ अधिकृत प्रनतननधि एमरगो यरू ोप B.V. 
+Westervoortsedijk 60 
+6827 AT Arnhem नेर्दरलयतण्ि  
+संयतु त अधिराज्य क्जम्मेिार व्यक्तत 
+Emergo Consulting (UK) Limited c/o Cr 360 - UL International Compass House, Vision Park Histon 
+Cambridge CB24 9BZ United Kingdom ननयामक जानकारी 
+
+ 
+
+ 
+बेलसक UDI-DI: 08600098825SEEINGAIIOSDN 
+EMDN कोि: Y99 
+महत्िपणू	ा सरु क्षा जानकारी अमभप्रेत उद्देश्य 
+iOS र Android प्लेटफमाहरूमत प्रयोगको लतधग Seeing AI मोबतइल एप हो, जसले कृत्रत्रम बद्ु धधमत्तत (AI) जस्र्त उर्दीयमतन प्रववधधहरू प्रयोग गरेर दृश्टटववहीन वत अन्यथत दृश्टटववहीन प्रयोगकर्ताहरूलतई उनीहरूको दृचय वतर्तवरणको बतरेमत जतनकतरी प्रर्दतन गर्दाछ। Seeing AI भनेको पत्तत लतगेको कु रतको बतरेमत अडियो र ह्यतश्प्टक प्रनर्करयत प्रर्दतन गरेर आफ्नो वरपरको व्यश्तर्को अवश्स्थर् र्ेर्नत बढतउनु हो।  
+विरोिाभासहरू 
+Seeing AI लतई प्रतथलमक वत ववशेष प्रववधधको रूपमत डिजतइन गररएको छैन र दृश्टटववहीन वत अन्यथत दृश्टट अशतर् व्यश्तर्हरूले उनीहरूको वतर्तवरणको बतरेमत जतनकतरी प्रतप्र् प्रतथलमक वत ववशेष प्रववधधको रूपमत प्रयोग गनाु हुँर्दैन। Seeing AI ले सम्भतव्य आउटपटु हरू उत्पतर्दन गना कृत्रत्रम बद्ु धध (AI) को प्रयोग गछा, Seeing AI कहतँ र कसरी प्रयोग गररन्छ भन्ने आधतरमत सटीकर्तमत फरक पने छ। Seeing AI ले कु नै पनन धर्ककत्सत अवस्थत वत रोग पत्तत लगतउन, ननर्दतन, ननगरतनी, व्यवस्थतपन वत उपर्तर गर्दैन। Seeing AI अनप्रु योगको कतयािमर्त बझ्ु नकत लतधग, Seeing AI प्रयोग गररने सर्ाहरू मलू यतङ्कन गना र र्ी पररश्स्थनर्हरूमत प्रयोग गर्दता प्रयोगकर्ता वत अरूलतई अव्यतवहतररक हतनी हुन सतने जोखखमको मलू यतङ्कन गना प्रयोगकर्ता श्जम्मेवतर हुन्छ।  अमभप्रेत प्रयोगकतााहरू 
+Seeing AI दृश्टटववहीन वत अन्यथत दृश्टट अशतर् व्यश्तर्हरूद्वतरत प्रयोगकत लतधग अलभप्रेर् छ। 
+धचककत्सकीय लाभ र प्रदशान विशेषताहरूको ननददाक्टटकरण 
+भौनर्क वतर्तवरणको बतरेमत उनीहरूको बझु	तइ बढतउने उद्र्देचयकत सतथ प्रयोगकर्ताहरूलतई अडियो/ह्यतश्प्टक जतनकतरी प्रर्दतन गछा 
+
+पनु ः प्रयोज्यता 
+यो यन्त्र एकल रोगी पनु ः प्रयोग योग्य छ।  सफतई, कीटतणशु ोधन वत जीवतण ु रदहर् बनतउनु बतरे कु नै आवचयकर्तहरू छैनन।्  यसलतई पनु : प्रयोग गना सककने अधधकर्म संख्यत छैन। 
+इन्टरअपरेबबमलटी 
+iOS र Android प्लेटफमाहरूमत प्रयोगको लतधग Seeing AI मोबतइल एप हो। साििानीहरू 
+Seeing AI सधैं सही हुँर्दैन। र्पतईंलतई हतनन हुन वत र्ोट लतग्न सतने अवस्थतमत यो प्रयोग गनाु हुँर्दैन। यसको प्रयोग कु नै पनन धर्ककत्सत अवस्थत वत रोगको पदहर्तन, ननर्दतन, ननगरतनी, व्यवस्थतपन वत उपर्तरकत लतधग अलभप्रेर् छैन। प्रयोगकर्ताहरूले धर्ककत्सकबतट कु नै पनन धर्ककत्सत सललतह ललनु पछा। Seeing AI अनप्रु योगको कतयािमर्त बझ्ु नकत लतधग, Seeing AI प्रयोग गररने सर्ाहरू मलू यतङ्कन गना र र्ी पररश्स्थनर्हरूमत प्रयोग गर्दता प्रयोगकर्ता वत अरूलतई अव्यतवहतररक हतनी हुन सतने जोखखमको मलू यतङ्कन गना प्रयोगकर्ता श्जम्मेवतर हुन्छ।  घटना ररपोदटाङ 
+उपकरणको सम्बन्धमत भएको कु नै पनन गम्भीर घटनत ननमतार्त र सर्दस्य रतज्यको सिम अधधकतरीलतई ररपोटा गनाु पछा जहतँ प्रयोगकर्ता र / वत रोगी स्थतवपर् गररएको छ।  
+ज्ञात जोखिमहरू 
+Seeing A को प्रयोग धर्ककत्सकीय रूपमत मलू यतङ्कन गररएको छ, र ननमतार्तको अलभप्रतय अनरूु प प्रयोगकत लतधग सरु क्षिर् र प्रभतवकतरी भएको प्रर्दशान गररएको छ।  प्रयोगकर्ताहरूले Seeing AI प्रयोग गर्दता सर्ेर् हुन आवचयक कु नै ज्ञतर् असहनीय अवलशटट जोखखमहरू छैनन।्  
+Microsoft लाई सम्पका गनाहु ोस ् उपकरणको सम्बन्धमत भएको कु नै पनन गम्भीर घटनत ननमतार्त र सर्दस्य रतज्यको सिम अधधकतरीलतई ररपोटा गनाु पछा जहतँ प्रयोगकर्ता र / वत रोगी स्थतवपर् गररएको छ।  सबै घटनतहरू, प्रनर्करयतहरू, वत Seeing AI अनप्रु योगको समथानको लतधग, वत 7 दर्दन लभत्र कु नै अनर्ररतर् शलु क नदर्दई उपलब्ध गरतइने यस पश्ु स्र्कतको कतगज प्रनर्ललवप अनरु ोध गना, सहतयर्तको लतधग Microsoft अिमर्त उत्तर िेस्कमत सम्पका गनाहु ोस:् seeingai@microsoft.com 
+ 	 
+
+ 
+Gebruikershandleiding voor Seeing AI 
+
+Revisie C 
+13-Mrt-2024 
+NL 
+ 	 
+Gebruikershandleiding voor Seeing AI 
+
+Aan de slag 
+Volg deze instructies om Seeing AI op uw mobiele apparaat te gebruiken: 
+1. Zorg ervoor dat uw apparaat bijgewerkt is en de nieuwste versie van iOS of Android gebruikt. 
+2. Installeer Seeing AI via de App Store van Apple met behulp van de volgende koppeling: https://aka.ms/SeeingAIiOSDownload of via de Google Play Store met behulp van de volgende koppeling: https://aka.ms/SeeingAIAndroidDownload 
+3. Open de app en volg de instructies op het scherm om het apparaat in te stellen. 
+4. Zodra het apparaat is ingesteld, volgt u alle prompts en waarschuwingen in de app. 
+5. Als u problemen ondervindt of vragen hebt, neemt u contact op met de fabrikant voor hulp met behulp van de contactgegevens die in deze handleiding worden vermeld. 
+6. Het is belangrijk dat u alle instructies en waarschuwingen van de fabrikant opvolgt om ervoor te zorgen dat het apparaat veilig en effectief wordt gebruikt.  
+Het gebruik van deze app is onderworpen aan de Seeing AI gebruiksvoorwaarden. Het is uw verantwoordelijkheid om te bevestigen dat u deze voorwaarden begrijpt en accepteert zoals in de app wordt weergegeven.  
+Productinformatie 
+Productnaam 
+Seeing AI 
+Seeing AI is een medisch apparaat van klasse I en is in overeenstemming met verordening (EU) 2017/745 (voor MDR). 
+Versie 
+Beschikbaar in de sectie Info van de app 
+
+Productiedatum 
+Beschikbaar in de sectie Info van de app 
+
+Fabrikant 
+Microsoft Corporation  
+One Microsoft Way  
+Redmond, WA 98052  
+VS  
+
+Gemachtigde vertegenwoordiger van de Europese Unie Emergo Europe B.V. 
+Westervoortsedijk 60 
+6827 AT Arnhem 
+The Netherlands  
+Verantwoordelijke persoon Verenigd Koninkrijk 
+Emergo Consulting (VK) Limited c/o Cr 360 - UL International Compass House, Vision Park Histon 
+Cambridge CB24 9BZ 
+Verenigd Koninkrijk 
+Informatie over regelgeving 
+
+ 
+
+ 
+Basic UDI-DI: 08600098825SEEINGAIIOSDN 
+EMDN-code: Y99 
+Belangrijke veiligheidsinformatie 
+Beoogd doeleinde 
+Seeing AI is een mobiele app voor gebruik met een iOS-en Android-platform, dat een blinde of anderszins visueel beperkte gebruiker informatie biedt over hun visuele omgeving door gebruik te maken van opkomende technologieën zoals kunstmatige intelligentie (AI). Seeing AI is bedoeld om de bestaande kennis van de omgeving van een persoon te vergroten door audio- en haptische feedback te geven over wat er is gedetecteerd.  
+Contra-indicaties 
+Seeing AI is niet ontworpen om te worden en mag niet worden gebruikt als primaire of exclusieve technologie waarmee personen die blind of anderszins visueel beperkt zijn, meer te weten komen over hun omgeving. Seeing AI maakt gebruik van kunstmatige intelligentie (AI) om probabilistische uitvoer te produceren, wat in nauwkeurigheid varieert, afhankelijk van waar en hoe Seeing AI wordt gebruikt. Seeing AI detecteert, diagnosticeert, bewaakt, beheert of behandelt geen medische aandoeningen of ziektes. De gebruiker is verantwoordelijk voor het begrijpen van de functionaliteit van de Seeing AI-app, voor het beoordelen van de voorwaarden waarin Seeing AI wordt gebruikt en voor het beoordelen van het risico dat gebruik in die omstandigheden kan leiden tot onherstelbare schade aan de gebruiker of anderen.  
+Beoogde gebruikers 
+Seeing AI is bedoeld voor gebruik door personen die blind of anderszins visueel beperkt zijn. 
+Specificatie van klinische voordelen en prestatiekenmerken 
+Het biedt audio-/haptische informatie aan gebruikers die als doel hebben hun inzicht in de fysieke omgeving te vergroten 
+
+Herbruikbaarheid 
+Dit apparaat is herbruikbaar voor één patiënt. Er zijn geen vereisten met betrekking tot reiniging, desinfectie of sterilisatie. Er bestaat geen maximum aantal keren dat het apparaat opnieuw kan worden gebruikt. 
+Interoperabiliteit 
+Seeing AI is een mobiele app voor gebruik met het iOS- en Android-platform. 
+Voorzorgsmaatregelen 
+Seeing AI is niet altijd nauwkeurig. Het mag niet worden gebruikt in situaties waarin u schade of letsel kunt oplopen. Het is niet bedoeld voor gebruik bij de detectie, diagnose, bewaking, beheer of behandeling van medische aandoeningen of ziektes. Gebruikers moeten medisch advies van een arts inroepen. De gebruiker is verantwoordelijk voor het begrijpen van de functionaliteit van de Seeing AI-app, voor het beoordelen van de voorwaarden waarin Seeing AI wordt gebruikt en voor het beoordelen van het risico dat gebruik in die omstandigheden kan leiden tot onherstelbare schade aan de gebruiker of anderen.  
+Incidentrapportage 
+Elk ernstig incident dat is opgetreden met betrekking tot het apparaat, moet worden gemeld aan de fabrikant en de autoriteit van de lidstaat waarin de gebruiker en/of patiënt is gevestigd.  
+Bekende risico's 
+Het gebruik van Seeing AI is klinische geëvalueerd en is aangetoond dat het veilig en effectief is voor gebruik zoals bedoeld door de fabrikant.Er zijn geen onaanvaardbare restrisico's bekend waarmee de gebruikers Seeing AI rekening moeten houden.  
+Contact opnemen met Microsoft 
+Elk ernstig incident dat is opgetreden met betrekking tot het apparaat, moet worden gemeld aan de fabrikant en de autoriteit van de lidstaat waarin de gebruiker en/of patiënt is gevestigd.  
+Neem voor alle incidenten met, feedback over of ondersteuning voor de Seeing AIapp, of voor het aanvragen van een papieren exemplaar van deze handleiding, die gratis binnen 7 dagen wordt verstrekt, contact op met de Microsoft Disability Answer Desk voor hulp: seeingai@microsoft.com 
+ 	 
+
+ 
+Podręcznik użytkownika aplikacji Seeing AI 
+
+Poprawka C 
+13-Mar-2024 
+PL 
+ 	 
+Podręcznik użytkownika aplikacji Seeing AI 
+
+Wprowadzenie 
+Aby używać aplikacji Seeing AI na Twoim urządzeniu przenośnym, wykonaj następujące instrukcje: 
+1. Upewnij się, że Twoje urządzenie jest aktualne i działa na nim najnowsza wersja systemu iOS lub Android. 
+2. Zainstaluj aplikację Seeing AI ze sklepu Apple App Store, korzystając z poniższego linku: https://aka.ms/SeeingAIiOSDownload lub ze sklepu Google Play, korzystając z poniższego linku: https://aka.ms/SeeingAIAndroidDownload 
+3. Otwórz aplikację i postępuj zgodnie z instrukcjami wyświetlanymi na ekranie, aby skonfigurować urządzenie. 
+4. Po skonfigurowaniu urządzenia postępuj zgodnie ze wszystkimi monitami i ostrzeżeniami w aplikacji. 
+5. Jeśli występują jakiekolwiek problemy lub masz jakiekolwiek pytania, skontaktuj się z producentem w celu uzyskania pomocy, korzystając z informacji kontaktowych wymienionych w tym podręczniku. 
+6. Aby zapewnić bezpieczne i efektywne korzystanie z urządzenia, należy postępować zgodnie ze wszystkimi instrukcjami i ostrzeżeniami dostarczonymi przez producenta.  
+Korzystanie z tej aplikacji podlega warunkom użytkowania aplikacji Seeing AI. Twoim obowiązkiem jest potwierdzenie, że rozumiesz i akceptujesz te postanowienia, jak pokazano w aplikacji.  
+Informacje o produkcie 
+Nazwa produktu 
+Seeing AI 
+Seeing AI to urządzenie medyczne klasy I zgodnie z rozporządzeniem (Unia Europejska) 2017/745 (dla MDR). 
+Wersja 
+Dostępne w sekcji Informacje ogólne w aplikacji 
+
+Data produkcji 
+Dostępne w sekcji Informacje ogólne w aplikacji 
+
+Producent 
+Microsoft Corporation  
+One Microsoft Way  
+Redmond, WA 98052  
+Stany Zjednoczone  
+
+Upoważniony przedstawiciel Unii Europejskiej Emergo Europe B.V. 
+Westervoortsedijk 60 
+6827 AT Arnhem 
+The Netherlands  
+Osoba odpowiedzialna w Zjednoczonym Królestwie Wielkiej Brytanii i Irlandii Północnej 
+Emergo Consulting (UK) Limited c/o Cr 360 - UL International Compass House, Vision Park Histon 
+Cambridge CB24 9BZ 
+Zjednoczone Królestwo 
+Informacje prawne 
+
+ 
+
+ 
+Podstawowy kod UDI-DI: 08600098825SEEINGAIIOSDN 
+Kod EMDN: Y99 
+Ważne informacje o bezpieczeństwie 
+Zamierzony cel 
+Aplikacja Seeing AI to aplikacja mobilna do użytku na platformach iOS i Android, która zapewnia niewidomym lub niedowidzącym użytkownikom informacje o ich środowisku wizualnym, wykorzystując nowe technologie, takie jak sztuczna inteligencja (AI). Seeing AI ma na celu rozszerzenie istniejącej świadomości otoczenia poprzez dostarczanie dźwiękowych i dotykowych opinii na temat tego, co zostało wykryte.  
+Przeciwwskazania 
+Aplikacja Seeing AI nie jest przeznaczona i nie powinna być używana jako główna lub wyłączna technologia, za pomocą której osoby niewidome lub z innymi wadami wzroku uczą się o swoim otoczeniu. Seeing AI wykorzystuje sztuczną inteligencję 
+(AI) do tworzenia probabilistycznych wyników, których dokładność zależy od miejsca i sposobu korzystania z Seeing AI. Seeing AI nie wykrywa, nie diagnozuje, nie monitoruje, nie leczy żadnych schorzeń ani chorób. Użytkownik jest odpowiedzialny za zrozumienie funkcjonalności aplikacji Seeing AI, za ocenę warunków, w jakich Seeing AI będzie używana oraz za ocenę ryzyka, że korzystanie z niej w tych warunkach może spowodować nieuzasadnione szkody dla użytkownika lub innych osób. 
+Zamierzeni użytkownicy 
+Aplikacja Seeing AI jest przeznaczona do użytku przez osoby niewidome lub niedowidzące z innego powodu. 
+Specyfikacja korzyści klinicznych i charakterystyki wydajności 
+Udostępnia użytkownikom informacje dźwiękowe/haptyczne w celu zwiększenia ich rozumienia środowiska fizycznego 
+
+Ponowne użycie 
+To urządzenie umożliwia ponowne użycie w przypadku jednego pacjenta. Brak wymagań dotyczących czyszczenia, dezynfekcji lub sterylizacji.  Nie ma maksymalnej liczby ponownego używania. 
+Współdziałanie 
+Aplikacja Seeing AI to aplikacja mobilna do użytku z platformami iOS i Android. 
+Środki ostrożności 
+Aplikacja Seeing AI nie zawsze jest dokładna. Nie należy jej używać w sytuacjach, w których mogłoby dojść do uszkodzenia ciała lub zranienia. Nie jest przeznaczona do wykrywania, diagnozowania, monitorowania, zarządzania lub leczenia jakichkolwiek schorzeń lub chorób. Użytkownicy powinni zasięgać wszelkich porad lekarskich bezpośrednio u lekarza. Użytkownik bierze odpowiedzialność za zrozumienie sposobu funkcjonowania aplikacji Seeing AI, za ocenę warunków, w jakich aplikacja Seeing AI będzie używana oraz za ocenę ryzyka, że korzystanie z niej w tych warunkach może spowodować nieuzasadnioną szkodę dla użytkownika lub innych osób.  
+Raportowanie zdarzeń 
+Wszelkie poważne zdarzenia, które wystąpiły w odniesieniu do urządzenia, powinny być zgłaszane do producenta oraz właściwemu organowi państwa członkowskiego, w którym użytkownik i/lub pacjent ma siedzibę.  
+Znane ryzyka 
+Stosowanie produktu Seeing AI oceniono klinicznie i wykazano, że jest on bezpieczny i skuteczny w stosowaniu zgodnie z założeniami producenta.  Nie są dostępne żadne nietolerowane ryzyka resztkowe, o których użytkownicy muszą pamiętać podczas stosowania Seeing AI.  
+Skontaktuj się z firmą Microsoft 
+Wszelkie poważne zdarzenia, które wystąpiły w odniesieniu do urządzenia, powinny być zgłaszane do producenta oraz właściwemu organowi państwa członkowskiego, w którym użytkownik i/lub pacjent ma siedzibę.  
+W przypadku wszystkich zdarzeń, opinii lub pomocy technicznej dotyczącej aplikacji Seeing AI lub zażądania papierowej kopii tego podręcznika, który zostanie dostarczony bez żadnych dodatkowych kosztów w ciągu 7 dni, skontaktuj się z działem Microsoft Disability Answer Desk w celu uzyskania pomocy: 
+seeingai@microsoft.com 
+ 	 
+
+ 
+Exibir o manual do usuário do Seeing AI 
+
+Revisão C 
+13-Mar-2024 
+PT 
+ 	 
+Exibir o manual do usuário do Seeing AI 
+
+Introdução 
+Para usar o Seeing AI no seu dispositivo móvel, siga estas instruções: 
+1. Verifique se o dispositivo está atualizado e executando a versão mais recente do iOS ou Android. 
+2. Instale Seeing AI da Apple App Store a partir do seguinte link: 
+https://aka.ms/SeeingAIiOSDownload ou do Google Play Store do link a seguir: https://aka.ms/SeeingAIAndroidDownload 
+3. Abra o aplicativo e siga as instruções na tela para configurar o dispositivo. 
+4. Depois que o dispositivo for configurado, siga todos os avisos e solicitações no aplicativo. 
+5. Se você tiver algum problema ou alguma dúvida, entre em contato com o fabricante para obter assistência, usando as informações de contato listadas neste manual. 
+6. É importante seguir todas as instruções e avisos fornecidos pelo fabricante para garantir o uso seguro e eficaz do dispositivo.  
+O uso deste aplicativo está sujeito aos Termos de Uso do Seeing AI. É sua responsabilidade confirmar que você entende e aceita estes termos e condições, conforme mostrados no aplicativo.  
+Informações do Produto 
+Nome do Produto 
+Seeing AI 
+O Seeing AI é um dispositivo médico de classe I de acordo com o Regulamento (Europa) 2017/745 (para MDR). 
+Versão 
+Disponível na seção Sobre do aplicativo 
+
+Data de Fabricação 
+Disponível na seção Sobre do aplicativo 
+
+Fabricante 
+Corporação Microsoft  
+Caminho One Microsoft  
+Redmond, WA 98052  
+EUA  
+
+Representante autorizado da União Europeia Emergo Europe B.V. 
+Westervoortsedijk 60 
+6827 AT Arnhem 
+The Netherlands  
+Reino Unido Responsável 
+Emergo Consulting (Reino Unido) Limitada 
+c/o Cr 360 - UL Internacional Compass House, Vision Park Histon 
+Cambridge CB24 9BZ 
+Reino Unido 
+Informações Regulamentares 
+
+ 
+
+ 
+UDI-DI Básica: 08600098825SEEINGAIIOSDN 
+Código EMDN: Y99 
+Informações Importantes sobre Segurança 
+Finalidade 
+O Seeing AI é um aplicativo móvel, para uso em plataformas iOS e Android, que fornece a um usuário cego ou com deficiência visual informações sobre seu ambiente visual, aproveitando tecnologias emergentes, como Inteligência Artificial (IA). O Seeing AI destina-se a aumentar a consciência existente de um indivíduo sobre seus arredores, fornecendo feedback de áudio e tátil sobre o que foi detectado.  
+Contraindicações 
+O Seeing AI não foi projetado para ser e não deve ser usado como uma tecnologia primária ou exclusiva pela qual pessoas cegas ou com deficiência visual aprendem sobre seu ambiente. O Seeing AI usa Inteligência Artificial (IA) para produzir resultados probabilísticos, cuja precisão varia dependendo de onde e como o Seeing AI é usado. Seeing AI não detecta, diagnostica, monitora, gerencia ou trata qualquer condição médica ou doença. O usuário é responsável por entender a funcionalidade do aplicativo Seeing AI, por avaliar as condições em que o Seeing AI será usado e por avaliar o risco de que o uso nessas circunstâncias possa resultar em danos injustificados ao usuário ou a outros.  
+Usuários Pretendidos 
+O Seeing AI destina-se ao uso por pessoas cegas ou com deficiência visual. 
+Especificação de Benefícios Clínicos e Características de Desempenho Fornece informações de áudio/táteis aos usuários com o objetivo de aumentar a compreensão do ambiente físico 
+
+Reutilização 
+Este dispositivo é reutilizável por um único paciente.  Não há requisitos sobre limpeza, desinfecção ou esterilização.  Não há um número máximo de vezes que ele possa ser reutilizado. 
+Interoperabilidade 
+O Seeing AI é um aplicativo móvel, para uso em plataformas iOS e Android. 
+Precauções 
+Ver IA nem sempre é preciso. Não deve ser usado em situações em que você possa se machucar ou se ferir. Não se destina ao uso na detecção, diagnóstico, monitoramento, gerenciamento ou tratamento de qualquer condição médica ou doença. Os usuários devem procurar aconselhamento médico de um médico. O usuário é responsável por entender a funcionalidade do aplicativo Seeing AI, por avaliar as condições em que o Seeing AI será usado e por avaliar o risco de que o uso nessas circunstâncias possa resultar em danos injustificados ao usuário ou a outros.  
+Relatório de Incidentes 
+Qualquer incidente grave ocorrido em relação ao dispositivo deve ser comunicado ao fabricante e à autoridade competente do Estado-Membro em que o utilizador e/ou paciente está estabelecido.  
+Riscos Conhecidos 
+O uso do Seeing AI foi avaliado clinicamente e demonstrou ser seguro e eficaz para o uso pretendido pelo fabricante.  Não há riscos residuais intoleráveis conhecidos dos quais os usuários precisam estar cientes ao usar o Seeing AI.  
+Entrar em contato com a Microsoft 
+Qualquer incidente grave ocorrido em relação ao dispositivo deve ser comunicado ao fabricante e à autoridade competente do Estado-Membro em que o utilizador e/ou paciente está estabelecido.  
+Para todos os incidentes, comentários ou suporte com o aplicativo Seeing AI, ou para solicitar uma cópia impressa deste manual, que será fornecida sem custo adicional dentro de sete dias, entre em contato com o Microsoft Disability Answer Desk para obter assistência: seeai@microsoft.com 
+ 	 
+
+
+ 
+Manual de utilizare Seeing AI 
+
+Revizuire C 
+13-Mar-2024 
+RO 
+ 	 
+Manual de utilizare Seeing AI 
+
+Introducere 
+Pentru a utiliza Seeing AI pe dispozitivul mobil, urmați aceste instrucțiuni: 
+1. Asigurați-vă că dispozitivul este actualizat și că rulează cea mai recentă versiune de iOS sau Android. 
+2. Instalați Seeing AI din Apple App Store accesând următorul link: https://aka.ms/SeeingAIiOSDownload sau din Magazinul Google Play accesând următorul link: https://aka.ms/SeeingAIAndroidDownload 
+3. Deschideți aplicația și urmați instrucțiunile de pe ecran pentru a configura dispozitivul. 
+4. După configurarea dispozitivului, urmați toate solicitările și avertismentele din aplicație. 
+5. Dacă întâmpinați probleme sau aveți întrebări, contactați producătorul pentru asistență, utilizând informațiile de contact listate în acest manual. 
+6. Este important să urmați toate instrucțiunile și avertismentele furnizate de producător pentru o utilizare sigură și eficientă a dispozitivului.  
+Utilizarea acestei aplicații se supune Condițiilor de utilizare pentru Seeing AI. Este responsabilitatea dvs. să confirmați că înțelegeți și să acceptați acești termeni și condiții, așa cum sunt descriși în aplicație.  
+Informații de produs 
+Nume de produs 
+Seeing AI 
+Seeing AI este un dispozitiv medical de clasa I în conformitate cu Regulamentul (UE) 2017/745 (pentru MDR). 
+Versiune 
+Disponibil în secțiunea Despre a aplicației 
+
+Data fabricației 
+Disponibil în secțiunea Despre a aplicației 
+
+Producător 
+Microsoft Corporation  
+One Microsoft Way  
+Redmond, WA 98052  
+USA  
+
+Reprezentant autorizat al Uniunii Europene Emergo Europe B.V. 
+Westervoortsedijk 60 
+6827 AT Arnhem 
+Țările de Jos  
+Persoană responsabilă din Regatul Unit Emergo Consulting (UK) Limited c/o Cr 360 - UL International Compass House, Vision Park Histon 
+Cambridge CB24 9BZ 
+United Kingdom 
+Informații de reglementare 
+
+ 
+
+ 
+UDI-DI de bază: 08600098825SEEINGAIIOSDN Codul EMDN: Y99 
+Informații importante despre siguranță 
+Scopul propus 
+Seeing AI este o aplicație mobilă compatibilă cu platforme iOS și Android. Ea oferă unui utilizator nevăzător sau cu deficiențe de vedere informații despre mediul vizual prin valorificarea tehnologiilor emergente, cum ar fi Inteligența artificială (IA). Seeing AI este menită să sporească conștientizarea prezentă a unei persoane în ceea ce privește mediul înconjurător, oferind feedback audio și tactil despre elementele detectate.  
+Contraindicații 
+Seeing AI nu este concepută pentru a fi (și nu ar trebui să fie folosită ca) o tehnologie primară sau exclusivă prin care persoanele nevăzătoare sau cu deficiențe de vedere află informații despre mediul lor. Seeing AI utilizează inteligența artificială pentru a produce rezultate probabilistice a căror acuratețe variază în funcție de locul și de modul în care se utilizează aplicația. Seeing AI nu îndeplinește funcția de detectare, diagnosticare, monitorizare, gestionare sau tratare a afecțiunilor sau bolilor medicale. Utilizatorul are responsabilitatea să înțeleagă funcționalitatea aplicației Seeing AI, să evalueze condițiile în care va fi utilizată Seeing AI și să evalueze riscul ca utilizarea în respectivele situații să poată duce la vătămarea nejustificată a utilizatorului sau a altor persoane.  
+Utilizatori vizați 
+Seeing AI este destinată utilizării de către persoane nevăzătoare sau cu alte deficiențe de vedere. 
+Specificarea beneficiilor clinice și a caracteristicilor de performanță 
+Aceasta furnizează utilizatorilor informații audio/tactile cu scopul de a spori înțelegerea de către ei a mediului fizic 
+
+Reutilizare 
+Acest dispozitiv este reutilizabil pentru un singur pacient.  Nu există cerințe privind curățarea, dezinfectarea sau sterilizarea.  Nu există un număr maxim de reutilizări. 
+Interoperabilitate 
+Seeing AI este o aplicație mobilă compatibilă cu platformele iOS și Android. 
+Precauții 
+Aplicația Seeing AI nu este întotdeauna precisă. Nu trebuie utilizată în situații în care ați putea fi vătămat sau rănit. Nu este destinată utilizării în detectarea, diagnosticarea, monitorizarea, gestionarea sau tratarea niciunei probleme sau afecțiuni medicale. Utilizatorii trebuie să solicite sfaturi medicale de la un medic. Utilizatorul are responsabilitatea să înțeleagă funcționalitatea aplicației Seeing AI, să evalueze condițiile în care va fi utilizată Seeing AI și să evalueze riscul ca utilizarea în respectivele situații să poată duce la vătămarea nejustificată a utilizatorului sau a altor persoane.  
+Raportare de incidente 
+Orice incident grav care a avut loc în legătură cu dispozitivul trebuie raportat producătorului și autorității competente a statului membru în care este stabilit utilizatorul și/sau pacientul.  
+Riscuri cunoscute 
+Utilizarea Seeing AI a fost evaluată clinic și s-a demonstrat că este sigură și eficientă pentru utilizarea conform intenției producătorului.  Nu există riscuri reziduale intolerabile cunoscute de care utilizatorii trebuie să fie conștienți atunci când folosesc Seeing AI.  
+Contactați Microsoft 
+Orice incident grav care a avut loc în legătură cu dispozitivul trebuie raportat producătorului și autorității competente a statului membru în care este stabilit utilizatorul și/sau pacientul.  
+Pentru asistență privind toate incidentele, feedback sau asistență referitoare la aplicația Seeing AI sau pentru a solicita un exemplar fizic al acestui manual (care este furnizat fără costuri suplimentare, în termen de 7 zile), contactați Microsoft Disability Answer Desk: seeingai@microsoft.com 
+ 	 
+
+ 
+Руководство пользователя Seeing AI 
+
+Редакция C 
+13-Мар-2024 
+RU 
+ 	 
+Руководство пользователя Seeing AI 
+
+Начало работы 
+Для использования Seeing AI на мобильном устройстве следуйте этим инструкциям: 
+1. Убедитесь, что ваше устройство обновлено и на нем установлена последняя версия iOS или Android. 
+2. Установите Seeing AI из Apple App Store по ссылке https://aka.ms/SeeingAIiOSDownload или из Google Play Маркет по ссылке https://aka.ms/SeeingAIAndroidDownload 
+3. Для настройки устройства откройте приложение и следуйте инструкциям на экране. 
+4. После настройки устройства следуйте всем подсказкам и предупреждениям в приложении. 
+5. При возникновении проблем или вопросов обратитесь за помощью к производителю, используя контактные данные, указанные в данном руководстве. 
+6. Для обеспечения безопасного и эффективного использования устройства важно следовать всем инструкциям и предупреждениям производителя.  
+Использование этого приложения регулируется Условиями обслуживания Seeing AI. Вы должны подтвердить, что понимаете и принимаете условия, изложенные в приложении.  
+Сведения о продукте 
+Имя продукта 
+Seeing AI 
+Seeing AI - это медицинское устройство класса I в соответствии с Регламентом (ЕС) 2017/745 (для MDR). 
+Версия 
+Доступно в разделе "О приложении" 
+
+Дата производства 
+Доступно в разделе "О приложении" 
+
+Производитель 
+Microsoft Corporation  
+One Microsoft Way  
+Redmond, WA 98052  
+USA  
+
+Уполномоченный представитель в Европейском союзе 
+Emergo Europe B.V. 
+Westervoortsedijk 60 
+6827 AT Arnhem 
+The Netherlands  
+Ответственное лицо в Соединенном Королевстве 
+Emergo Consulting (UK) Limited c/o Cr 360 - UL International Compass House, Vision Park Histon 
+Cambridge CB24 9BZ United Kingdom 
+Нормативные сведения 
+
+ 
+
+ 
+Базовый UDI-DI: 08600098825SEEINGAIIOSDN 
+Код EMDN: Y99 
+Важные сведения о безопасности 
+Назначение 
+Seeing AI - это мобильное приложение для использования на платформах iOS и Android, которое предоставляет незрячим и слабовидящим пользователям информацию об их визуальной среде с помощью новых технологий, таких как искусственный интеллект (ИИ). Приложение Seeing AI предназначено для дополнения существующих знаний пользователя об окружающей его среде путем предоставления звуковой и тактильной информации об обнаруженных объектах.  
+Противопоказания 
+Приложение Seeing AI не предназначено для использования в качестве основной или единственной технологии, с помощью которой незрячие или слабовидящие люди узнают об окружающей их среде. Seeing AI использует искусственный интеллект (ИИ) для создания вероятностных результатов, точность которых зависит от способа и места использования Seeing AI. Seeing AI не обнаруживает, не диагностирует, не отслеживает, не регулирует и не лечит никакие медицинские состояния или заболевания. Пользователь несет ответственность за понимание функций приложения Seeing AI, оценку условий, в которых будет использоваться Seeing AI, а также за оценку риска, связанного с возможным нанесением вреда пользователю или другим лицам в этих условиях применения.  
+Предполагаемые пользователи 
+Seeing AI предназначен для использования слепыми или слабовидящими людьми. 
+Спецификация характеристик клинической диагностики и производительности 
+Предоставляет пользователям сведения в звуковом и тактильном формате с целью улучшения их понимания физической среды. 
+
+Возможность повторного использования 
+Это устройство предназначено для многократного использования одним пациентом. Требования к очистке, дезинфекции или стерилизации отсутствуют. Максимальное число повторных использований не установлено. 
+Взаимодействие 
+Seeing AI - это мобильное приложение для платформ iOS и Android. 
+Меры предосторожности 
+Seeing AI не всегда точен. Его не следует использовать в ситуациях, когда вы можете получить повреждение или травму. Он не предназначен для обнаружения, диагностики, мониторинга, регулирования или лечения какихлибо медицинских состояний или заболеваний. За медицинской помощью пользователи должны обращаться к врачу. Пользователь несет ответственность за понимание функций приложения Seeing AI, оценку условий, в которых будет использоваться Seeing AI, а также за оценку риска, связанного с возможным нанесением вреда пользователю или другим лицам в этих условиях применения.  
+Отчетность об инцидентах 
+О любых серьезных инцидентах, возникших в связи с устройством, следует сообщать изготовителю и компетентному органу страны или регионаучастника, где находится пользователь или пациент.  
+Известные риски 
+Использование Seeing AI оценено в ходе клинических испытаний и продемонстрировало свою безопасность и эффективность согласно целям изготовителя. С использованием Seeing AI не сопряжены никакие известные остаточные риски непереносимости.  
+Обратитесь в корпорацию Майкрософт. 
+О любых серьезных инцидентах, возникших в связи с устройством, следует сообщать изготовителю и компетентному органу страны или регионаучастника, где находится пользователь или пациент.  
+Для уведомления обо всех инцидентах, отправки отзывов, получения поддержки для приложения Seeing AI, а также для запроса физической копии этого руководства, предоставляемого бесплатно в течение 7 дней, обращайтесь в службу поддержки Microsoft Disability Answer Desk: 
+seeingai@microsoft.com 
+ 	 
+
+ 
+Používateľská príručka Seeing AI 
+
+Revízia C 
+13-Mar-2024 
+SK 
+ 	 
+Používateľská príručka Seeing AI 
+
+Začíname 
+Ak chcete používať funkciu Seeing AI v mobilnom zariadení, postupujte podľa týchto pokynov: 
+1. Uistite sa, že vaše zariadenie je aktualizované a používa najnovšiu verziu systému iOS alebo Android. 
+2. Nainštalujte si aplikáciu Seeing AI z obchodu Apple App Store z tohto prepojenia: https://aka.ms/SeeingAIiOSDownload alebo z obchodu Google Play z nasledujúceho odkazu: https://aka.ms/SeeingAIAndroidDownload 
+3. Otvorte aplikáciu a podľa pokynov na obrazovke nastavte zariadenie. 
+4. Po nastavení zariadenia postupujte podľa všetkých výziev a upozornení v aplikácii. 
+5. Ak sa vyskytnú akékoľvek problémy alebo máte akékoľvek otázky, obráťte sa na výrobcu a požiadajte ho o pomoc prostredníctvom kontaktných informácií uvedených v tejto príručke. 
+6. Je dôležité dodržiavať všetky pokyny a upozornenia poskytnuté výrobcom, aby sa zabezpečilo bezpečné a účinné používanie zariadenia.  
+Na používanie tejto aplikácie sa vzťahujú podmienky používania umelej inteligencie. Je vašou zodpovednosťou potvrdiť, že rozumiete týmto podmienkam a podmienkam, ktoré sú uvedené v aplikácii, a súhlasíte s nimi.  
+Informácie o produkte 
+Názov produktu 
+Seeing AI 
+Seeing AI je zdravotnícka pomôcka triedy I v súlade s nariadením (EÚ) 2017/745 (pre MDR). 
+Verzia 
+K dispozícii v časti Informácie o aplikácii 
+
+Dátum výroby 
+K dispozícii v časti Informácie o aplikácii 
+
+Výrobca 
+Microsoft Corporation  
+One Microsoft Way  
+Redmond, WA 98052  
+USA  
+
+Autorizovaný zástupca Európskej únie Emergo Európa B.V. 
+Westervoortsedijk 60 
+6827 AT Arnhem 
+Holandsko  
+Zodpovedná osoba v Spojenom kráľovstve Emergo Consulting (UK) Limited c/o Cr 360 - UL International 
+Compass House, 
+Vision Park Histon 
+Cambridge CB24 9BZ Spojené kráľovstvo 
+Regulačné informácie 
+
+ 
+
+ 
+Základné UDI-DI: 08600098825SEEINGAIIOSDN 
+Kód EMDN: Y99 
+Dôležité bezpečnostné informácie 
+Účel 
+Seeing AI je mobilná aplikácia pre platformy iOS a Android, ktorá poskytuje nevidiacemu alebo inak zrakovo postihnutému používateľovi informácie o jeho vizuálnom prostredí s využitím nových technológií, ako je umelá inteligencia (AI). 
+Seeing AI má rozšíriť existujúce povedomie jednotlivca o jeho okolí tým, že poskytuje zvukovú a hmatovú spätnú väzbu o tom, čo bolo zistené.  
+Kontraindikácie 
+Seeing AI nie je určená a nemala by sa používať ako primárna alebo výlučná technológia, pomocou ktorej sa nevidiace alebo inak zrakovo postihnuté osoby učia o svojom prostredí. Seeing AI využíva umelú inteligenciu (AI) na vytváranie pravdepodobnostných výstupov, ktorých presnosť sa líši v závislosti od toho, kde a ako sa Seeing AI používa. Seeing AI nezisťuje, nediagnostikuje, nesleduje, neriadi ani nelieči žiadny zdravotný stav alebo ochorenie. Používateľ je zodpovedný za pochopenie funkcií služby Seeing AI, za posúdenie podmienok, za ktorých bude službu Seeing AI používať, a za posúdenie rizika, že by jej používanie za týchto okolností mohlo spôsobiť neprimeranú škodu používateľovi alebo iným osobám.  
+Určení používatelia 
+Seeing AI je určená pre nevidiace alebo inak zrakovo postihnuté osoby. 
+Špecifikácia technických výhod a vlastností výkonu 
+Poskytuje používateľom zvukové/haptické informácie s cieľom zlepšiť ich pochopenie fyzického prostredia. 
+
+Opätovná použiteľnosť 
+Toto zariadenie je opätovne použiteľné pre jedného pacienta.  Neexistujú žiadne požiadavky týkajúce sa čistenia, dezinfekcie alebo sterilizácie.  Maximálny počet opakovaných použití nie je stanovený. 
+Interoperabilita 
+Seeing AI je mobilná aplikácia na použitie s platformami iOS a Android. 
+Opatrenia 
+Zobrazenie umelej inteligencie nie je vždy presné. Nemal by sa používať v situáciách, kedy by ste mohli byť poškodení alebo inovovaní. Nie je určený na použitie pri detekcii, diagnostike, monitorovaní, spravovaní alebo spracovaní akéhokoľvek zdravotného stavu alebo ochorenia. Používatelia by mali vyhľadať akúkoľvek lekársku pomoc od lekára. Používateľ je zodpovedný za pochopenie funkcií služby Seeing AI, za posúdenie podmienok, za ktorých bude službu Seeing AI používať, a za posúdenie rizika, že by jej používanie za týchto okolností mohlo spôsobiť neprimeranú škodu používateľovi alebo iným osobám.  
+Hlásenie incidentov 
+Každý závažný incident, ktorý sa vyskytol v súvislosti s pomôckou, by sa mal oznámiť výrobcovi a príslušnému orgánu členského štátu, v ktorom je používateľ a/alebo pacient usadený.  
+Známe riziká 
+Použitie lieku Seeing AI bolo klinicky vyhodnotené a preukázalo sa, že je bezpečné a účinné pri používaní podľa určenia výrobcu.  Nie sú známe žiadne neprípustné reziduálne riziká, ktorých by si používatelia museli byť vedomí pri používaní Seeing 
+AI.  
+Kontaktovať Microsoft 
+Každý závažný incident, ktorý sa vyskytol v súvislosti s pomôckou, by sa mal oznámiť výrobcovi a príslušnému orgánu členského štátu, v ktorom je používateľ a/alebo pacient usadený.  
+V prípade všetkých incidentov, spätnej väzby alebo podpory s aplikáciou Seeing AI, alebo ak chcete požiadať o papierovú kópiu tejto príručky, ktorá bude poskytnutá bez ďalších nákladov do 7 dní, kontaktujte Microsoft Disability Answer Desk a požiadajte o pomoc: seeingai@microsoft.com 
+ 	 
+
+ 
+Manuali i përdoruesit të Seeing AI 
+
+Korrigjimi C 
+13-Mar-2024 
+SQ 
+ 	 
+Manuali i përdoruesit të Seeing AI 
+
+Fillo 
+Për të përdorur Seeing AI në pajisjen tënde celulare, ndiqi këto udhëzime: 
+1. Sigurohu që pajisja jote të jetë e përditësuar dhe të ekzekutojë versionin më të fundit të iOS ose Android. 
+2. Instalo Seeing AI nga Apple App Store nga lidhja në vijim: 
+https://aka.ms/SeeingAIiOSDownload ose nga Google Play Store nga lidhja në vijim: https://aka.ms/SeeingAIAndroidDownload 
+3. Hap aplikacionin dhe ndiq udhëzimet në ekran për të parametrizuar pajisjen. 
+4. Pasi pajisja të jetë parametrizuar, ndiq të gjitha kërkesat dhe paralajmërimet brenda aplikacionit. 
+5. Nëse ke hasur ndonjë problem ose ke ndonjë pyetje, kontakto me prodhuesin për ndihmë, duke përdorur informacionin e kontaktit të shënuar në këtë manual. 
+6. Është e rëndësishme të ndjekësh të gjitha udhëzimet dhe paralajmërimet e dhëna nga prodhuesi për të siguruar përdorimin e sigurt dhe efektiv të pajisjes.  
+Përdorimi i këtij aplikacioni u nënshtrohet kushteve të përdorimit të Seeing AI. Është përgjegjësia jote të konfirmosh se i kupton dhe pranon këto kushte të përgjithshme, siç tregohen në aplikacion.  
+Informacion për produktin 
+Emri i produktit 
+Seeing AI 
+Seeing AI është një pajisje mjekësore e klasës I, në përputhje me Rregulloren (BE) 2017/745 (për MDR). 
+Versioni 
+Në dispozicion në seksionin "Rreth" të aplikacionit 
+
+Data e prodhimit 
+Në dispozicion në seksionin "Rreth" të aplikacionit 
+
+Prodhuesi 
+Microsoft Corporation  
+One Microsoft Way  
+Redmond, WA 98052  
+SHBA  
+
+Përfaqësuesi i autorizuar për Bashkimin Evropian Emergo Europe B.V. 
+Westervoortsedijk 60 
+6827 AT Arnhem 
+Holandë  
+Personi përgjegjës për Mbretërinë e Bashkuar 
+Emergo Consulting (UK) Limited c/o Cr 360 - UL International Compass House, Vision Park Histon 
+Cambridge CB24 9BZ Mbretëri e Bashkuar 
+Informacioni rregullator 
+
+ 
+
+ 
+UDI-DI bazë: 08600098825SEEINGAIIOSDN 
+Kodi EMDN: Y99 
+Informacione të rëndësishme për sigurinë 
+Qëllimi i paraparë 
+Seeing AI është një aplikacion celular për përdorim me platformat iOS dhe Android, i cili u jep përdoruesve të verbër ose me dëmtime të shikimit informacion për mjedisin e tyre pamor, duke shfrytëzuar teknologjitë në zhvillim, siç është inteligjenca artificiale (AI). Seeing AI ka për qëllim të shtojë ndërgjegjësimin ekzistues të një individi për mjedisin e tij, duke ofruar komente me audio dhe me haptikë për gjërat që janë zbuluar.  
+Kundërindikacionet 
+Seeing AI nuk është projektuar për të qenë dhe nuk duhet të përdoret si një teknologji parësore ose ekskluzive, me anë të së cilës personat që janë të verbër ose me dëmtime të shikimit mësojnë për mjedisin e tyre. Seeing AI përdor inteligjencën artificiale (AI) për të prodhuar rezultate probabilistike, saktësia e të cilave ndryshon në varësi të vendit dhe mënyrës se si Seeing AI përdoret. Seeing AI nuk zbulon, nuk diagnostikon, nuk monitoron, nuk menaxhon dhe nuk trajton ndonjë problem shëndetësor ose sëmundje. Përdoruesi është përgjegjës për të kuptuar funksionalitetet e aplikacionit Seeing AI, për të vlerësuar kushtet në të cilat do të përdoret Seeing AI dhe për të vlerësuar rrezikun e një dëmi të paarsyeshëm për përdoruesin ose të tjerët, që mund të rezultojë nga përdorimi në këto rrethana.  
+Përdoruesit e synuar 
+Seeing AI është paraparë të përdoret nga personat e verbër ose ndryshe me dëmtime të shikimit. 
+Specifikimi i përfitimeve klinike dhe karakteristikave të cilësisë së funksionimit 
+Ofron informacion me audio/haptikë për përdoruesit, me qëllim rritjen e të kuptuarit të tyre për mjedisin fizik 
+
+Ripërdorshmëria 
+Kjo pajisje është e ripërdorshme për një pacient të vetëm.  Nuk ka asnjë kërkesë në lidhje me pastrimin, dezinfektimin apo sterilizimin.  Nuk ka numër maksimal të herëve që mund të ripërdoret. 
+Ndërveprueshmëria 
+Seeing AI është një aplikacion celular për përdorim me platformat iOS dhe Android. 
+Masat paraprake 
+Seeing AI nuk është gjithmonë i saktë. Nuk duhet përdorur në situata ku mund të dëmtohesh apo të lëndohesh. Ai nuk është paraparë të përdoret për zbulimin, diagnostikimin, monitorimin, menaxhimin apo trajtimin e ndonjë problemi shëndetësor ose sëmundjeje. Përdoruesit duhet të kërkojnë këshilla mjekësore nga një mjek. Përdoruesi është përgjegjës për të kuptuar funksionalitetet e aplikacionit Seeing AI, për të vlerësuar kushtet në të cilat do të përdoret Seeing AI dhe për të vlerësuar rrezikun e një dëmi të paarsyeshëm për përdoruesin ose të tjerët, që mund të rezultojë nga përdorimi në këto rrethana.  
+Raportimi i incidenteve 
+Çdo incident i rëndë që ka ndodhur në lidhje me pajisjen, duhet t'i raportohet prodhuesit dhe autoritetit kompetent të shtetit anëtar në të cilin është i vendosur përdoruesi dhe/ose pacienti.  
+Rreziqet e njohura 
+Përdorimi i Seeing AI është vlerësuar klinikisht dhe është demonstruar të jetë i sigurt dhe efektiv kur përdoret siç është paraparë nga prodhuesi.  Nuk ka rreziqe të njohura dhe të patolerueshme të mbetura për të cilat përdoruesit duhet të jenë të vetëdijshëm kur përdorin Seeing AI.  
+Kontakto me Microsoft 
+Çdo incident i rëndë që ka ndodhur në lidhje me pajisjen, duhet t'i raportohet prodhuesit dhe autoritetit kompetent të shtetit anëtar në të cilin është i vendosur përdoruesi dhe/ose pacienti.  
+Për të raportuar incidente, për të bërë komente apo për mbështetje për aplikacionin Seeing AI, si dhe për të kërkuar një kopje në letër të këtij manuali që do të jepet pa kosto shtesë brenda 7 ditëve, kontakto me Answer Desk të Microsoft për personat me aftësi të kufizuara për ndihmë: seeingai@microsoft.com 
+ 	 
+
+ 
+Se användarhandboken för AI 
+
+Revision C 
+13-Mar-2024 
+SV 
+ 	 
+Se användarhandboken för AI 
+
+Kom igång 
+Följ de här anvisningarna om du vill använda Seeing AI på din mobila enhet: 
+1. Kontrollera att enheten är uppdaterad och kör den senaste versionen av iOS eller Android. 
+2. Installera Seeing AI från Apple App Store från följande länk: https://aka.ms/SeeingAIiOSDownload eller från Google Play Butik från följande länk: https://aka.ms/SeeingAIAndroidDownload 
+3. Öppna appen och följ anvisningarna på skärmen för att konfigurera enheten. 
+4. När enheten har konfigurerats följer du alla frågor och varningar i appen. 
+5. Om du får problem eller har frågor kontaktar du tillverkaren för att få hjälp, med hjälp av kontaktinformationen i den här handboken. 
+6. Det är viktigt att följa alla instruktioner och varningar från tillverkaren för att säkerställa säker och effektiv användning av enheten.  
+Användningen av det här programmet regleras av Användningsvillkoren för Seeing AI. Det är ditt ansvar att bekräfta att du förstår och accepterar de här villkoren som visas i programmet.  
+Produktinformation 
+Produktnamn 
+Seeing AI 
+Seeing AI är en medicinsk enhet av klass I i enlighet med förordning (EU) 2017/745 (för MDR). 
+Version 
+Tillgängligt i avsnittet Om i programmet 
+
+Tillverkningsdatum 
+Tillgängligt i avsnittet Om i programmet 
+
+Tillverkare 
+Microsoft Corporation  
+One Microsoft Way  
+Redmond, WA 98052  
+USA  
+
+EU-auktoriserad representant Emergo Europe B.V. 
+Westervoortsedijk 60 
+6827 AT Arnhem 
+The Netherlands  
+Ansvarig person i Storbritannien Emergo Consulting (UK) Begränsad c/o Cr 360 - UL International Compass House, Vision Park Histon 
+Cb24 9BZ 
+Storbritannien 
+Information om föreskrifter 
+
+ 
+
+ 
+Grundläggande UDI-DI: 08600098825SEEINGAIIOSDN 
+EMDN-kod: Y99 
+Viktig säkerhetsinformation 
+Avsett syfte 
+Seeing AI är en mobilapp för användning med iOS- och androidplattformar, som ger en blind eller på annat sätt synskadad användare information om sin visuella miljö genom att utnyttja ny teknik som artificiell intelligens (AI). Seeing AI är avsett att öka en individs befintliga medvetenhet om sin omgivning genom att ge ljud- och haptisk feedback om vad som har identifierats.  
+Kontraindikationer 
+Seeing AI är inte utformat för att vara och bör inte användas som primär eller exklusiv teknik där personer som är blinda eller på annat sätt har nedsatt syn lär sig om sin miljö. Seeing AI använder artificiell intelligens (AI) för att producera probabilistiska utdata, vilket varierar i noggrannhet beroende på var och hur Seeing AI används. Seeing AI identifierar, diagnostiserar, övervakar, hanterar eller behandlar inte medicinska tillstånd eller sjukdomar. Användaren ansvarar för att förstå funktionerna i Seeing AI-appen, för att utvärdera de villkor under vilka Seeing AI kommer att användas och för att bedöma risken som används under dessa omständigheter kan leda till en oåterkallelig skada för användaren eller andra.  
+Avsedda användare 
+Seeing AI är avsett för personer som är blinda eller har nedsatt syn. 
+Specifikation av kliniska fördelar och prestandaegenskaper 
+Tillhandahåller ljud-/haptisk information till användare i syfte att förbättra deras förståelse av den fysiska miljön 
+
+Återanvändningsbarhet 
+Den här enheten är enstaka patient som kan återanvändas.  Det finns inga krav på rengöring, desinfektion eller sterilisering.  Det finns inget maximalt antal gånger som det kan återanvändas. 
+Samverkan 
+Seeing AI är en mobilapp som kan användas med iOS- och Android-plattformarna. 
+Försiktighetsåtgärder 
+Seeing AI är inte alltid korrekt. Den bör inte användas i situationer där du kan skadas eller skadas. Den är inte avsedd för identifiering, diagnos, övervakning, hantering eller behandling av medicinska tillstånd eller sjukdomar. Användare bör söka medicinsk rådgivning från en läkare. Användaren ansvarar för att förstå funktionerna i Seeing AI-appen, för att utvärdera de villkor under vilka Seeing AI kommer att användas och för att bedöma risken som används under dessa omständigheter kan leda till en oåterkallelig skada för användaren eller andra.  
+Incidentrapportering 
+Alla allvarliga incidenter som har inträffat i förhållande till enheten ska rapporteras till tillverkaren och den behöriga auktoriteten i den medlems stat där användaren och/eller patienten har upprättats.  
+Kända risker 
+Användningen av Seeing AI har utvärderats kliniskt och har visat sig vara säker och effektiv för användning enligt tillverkarens avsikt. Det finns inga kända intolerbara residualrisker som användarna måste vara medvetna om när de använder Seeing AI.  
+Kontakta Microsoft 
+Alla allvarliga incidenter som har inträffat i förhållande till enheten ska rapporteras till tillverkaren och den behöriga auktoriteten i den medlems stat där användaren och/eller patienten har upprättats.  
+För alla incidenter, feedback eller för support med Seeing AI-programmet, eller för att begära en papperskopia av den här handboken som kommer att tillhandahållas utan extra kostnad inom 7 dagar, kontaktar du Microsoft Answer Desk för hjälpmedel för att få hjälp: seeingai@microsoft.com 
+ 	 
+
+
+ 
+Seeing AI Kullanım Kılavuzu 
+
+Düzeltme C 
+13-Mar-2024 
+TR 
+ 	 
+Seeing AI Kullanım Kılavuzu 
+
+Başlarken 
+Mobil cihazınızda Seeing AI kullanmak için lütfen şu yönergeleri izleyin: 
+1. Cihazınızın güncel olduğundan ve iOS ve Android'in en son sürümünde çalıştığından emin olun. 
+2. Seeing AI uygulamasını https://aka.ms/SeeingAIiOSDownload bağlantısını kullanarak App Store'dan veya https://aka.ms/SeeingAIAndroidDownload bağlantısını kullanarak Google Play Store'dan yükleyebilirsiniz 
+3. Cihazı ayarlamak için uygulamayı açıp ekrandaki yönergeleri izleyin. 
+4. Cihaz ayarlandıktan sonra tüm uygulama içi istemlere ve uyarılara uyun. 
+5. Bir sorun yaşarsanız veya sorularınız varsa lütfen üreticiye başvurup yardım almak için bu kullanım kılavuzunda listelenen iletişim bilgilerini kullanın. 
+6. Cihazın güvenli ve etkili bir şekilde kullanılması için üretici tarafından sağlanan tüm yönerge ve uyarılara uyulması önem taşır.  
+Bu uygulamanın kullanımı, Seeing AI Kullanım Koşullarına tabidir. Uygulamada gösterilen bu hüküm ve koşulları anlayıp kabul etme sorumluluğu size aittir.  
+Ürün Bilgileri 
+Ürün Adı 
+Seeing AI 
+Seeing AI, (AB) 2017/745 (MDR için) Yönetmeliği uyarınca birinci sınıf tıbbi cihazdır. 
+Sürüm 
+Uygulamanın "Hakkında" Bölümünde mevcuttur 
+
+Üretim Tarihi 
+Uygulamanın "Hakkında" Bölümünde mevcuttur 
+
+Üretici 
+Microsoft Corporation  
+One Microsoft Way  
+Redmond, WA 98052  
+ABD  
+
+Avrupa Birliği Yetkili Temsilcisi 
+Emergo Europe B.V. 
+Westervoortsedijk 60 
+6827 AT Arnhem 
+The Netherlands  
+Birleşik Krallık Sorumlu Kişi 
+Emergo Consulting (UK) Limited c/o Cr 360 - UL International Compass House, Vision Park Histon 
+Cambridge CB24 9BZ 
+Birleşik Krallık 
+Mevzuat Bilgileri 
+
+ 
+
+ 
+Temel UDI-DI: 08600098825SEEINGAIIOSDN 
+EMDN Kodu: Y99 
+Önemli Güvenlik Bilgileri 
+Hedeflenen Amaç 
+Seeing AI, Yapay Zeka (AI) gibi gelişmekte olan teknolojilerden yararlanarak görme engelli veya başka bir görme bozukluğu olan kullanıcılara görsel ortamları hakkında bilgi sağlayan, iOS ve Android platformlarıyla kullanıma yönelik bir mobil uygulamadır. Seeing AI, tespit edilen unsurlar hakkında sesli ve dokunsal geri bildirim sağlayarak, bireyin çevresi hakkındaki mevcut farkındalığını artırmayı amaçlar.  
+Kontrendikasyonlar 
+Seeing AI, görme engelli veya başka bir görme bozukluğu olan kişilerin çevreleri hakkında bilgi edindiği birincil veya özel bir teknoloji olarak tasarlanmamıştır ve bu amaçla kullanılmamalıdır. Seeing AI, bu uygulamanın nerede ve nasıl kullanıldığına bağlı olarak doğruluğu değişen olasılıksal çıktılar üretmek için Yapay Zekayı (AI) kullanır. Seeing AI, herhangi bir tıbbi durumu veya hastalığı tespit etmez, teşhis etmez, izlemez, yönetmez veya tedavi etmez. Kullanıcı, Seeing AI uygulamasının işlevselliğini anlamaktan, Seeing AI'nın kullanılacağı koşulları değerlendirmekten ve bu koşullarda kullanımın kullanıcıya veya başkalarına makul olmayan zararlara neden olabileceği riskini değerlendirmekten sorumludur.  
+Hedeflenen Kullanıcılar 
+Seeing AI görme engelli veya başka bir görme bozukluğu olan kişiler tarafından kullanım amaçlıdır. 
+Klinik Fayda Özellikleri ve Performans Nitelikleri 
+Kullanıcıların fiziksel ortam hakkındaki anlayışlarını artırmayı amaçlayan ses/haptik bilgiler sağlar 
+
+Yeniden kullanılabilirlik 
+Bu cihaz, tek bir hasta için yeniden kullanılabilir.  Temizleme, dezenfekte etme veya sterilizasyon ile ilgili bir gereklilik yoktur.  Yeniden kullanılabileceği azami bir sayı yoktur. 
+Birlikte çalışabilirlik 
+Seeing AI, iOS ve Android platformlarıyla kullanılan bir mobil uygulamadır. 
+Önlemler 
+Seeing AI her zaman doğru değildir. Zarar görebileceğiniz veya yararlanabileceğiniz durumlarda kullanılmamalıdır. Herhangi bir tıbbi durum veya hastalığın tespiti, teşhisi, izlenmesi, yönetimi veya tedavisinde kullanılmak üzere tasarlanmamıştır. Kullanıcılar bir doktordan tıbbi tavsiye almalıdır. Kullanıcı, Seeing AI uygulamasının işlevselliğini anlamaktan, Seeing AI'nın kullanılacağı koşulları değerlendirmekten ve bu durumlarda kullanımın kullanıcıya veya başkalarına makul olmayan zararlar verme riskini değerlendirmekten sorumludur.  
+Olay Raporu 
+Cihazla ilgili olarak meydana gelen herhangi bir ciddi olay, üreticiye ve kullanıcının ve/veya hastanın yerleşik olduğu Üye Devletin yetkili makamına bildirilmelidir.  
+Bilinen Riskler 
+Seeing AI'nın kullanımı klinik olarak değerlendirilip üretici tarafından amaçlandığı şekilde kullanımının güvenli ve etkili olduğu kanıtlanmıştır. Kullanıcıların Seeing AI kullanırken farkında olması gereken, bilinen, tolere edilemeyecek artık riskler yoktur.  
+Microsoft'a başvurun 
+Cihazla ilgili olarak meydana gelen herhangi bir ciddi olay, üreticiye ve kullanıcının ve/veya hastanın yerleşik olduğu Üye Devletin yetkili makamına bildirilmelidir.  
+Tüm olaylar, geri bildirim veya Seeing AI uygulaması hakkında yardım almak ya da bu kılavuzun 7 gün içinde ücretsiz olarak sağlanacak basılı nüshasını talep etmek için Microsoft Engelli Yanıt Masasına başvurun: seeingai@microsoft.com 
+ 	 
+
+
+ 
+Hướng dẫn sử dụng Seeing AI 
+
+Bản sửa đổi C 
+13-Tháng 3-2024 
+VI 
+ 	 
+Hướng dẫn sử dụng Seeing AI 
+
+Bắt đầu 
+Để sử dụng Seeing AI trên thiết bị di động, vui lòng làm theo các hướng dẫn sau: 
+1. Đảm bảo thiết bị của bạn được cập nhật và chạy phiên bản iOS hoặc Android mới nhất. 
+2. Cài đặt Seeing AI trong Apple App Store từ liên kết sau: 
+https://aka.ms/SeeingAIiOSDownload hoặc trong Google Play Store từ liên kết sau: 
+https://aka.ms/SeeingAIAndroidDownload 
+3. Mở ứng dụng và làm theo hướng dẫn trên màn hình để thiết lập thiết bị. 
+4. Sau khi thiết lập thiết bị, hãy làm theo tất cả lời nhắc và cảnh báo trong ứng dụng. 
+5. Nếu bạn gặp bất kỳ vấn đề nào hoặc có bất kỳ câu hỏi nào, vui lòng liên hệ với nhà sản xuất để được hỗ trợ, sử dụng thông tin liên hệ được liệt kê trong hướng dẫn sử dụng này. 
+6. Bạn cần làm theo tất cả hướng dẫn và cảnh báo do nhà sản xuất cung cấp để đảm bảo việc sử dụng thiết bị an toàn và hiệu quả.  
+Việc sử dụng ứng dụng này tuân theo Điều khoản sử dụng của Seeing AI. Bạn có trách nhiệm xác nhận bạn hiểu và chấp nhận các điều khoản và điều kiện này như được hiển thị trong ứng dụng.  
+Thông tin sản phẩm 
+Tên sản phẩm 
+Seeing AI 
+Seeing AI là thiết bị y tế bậc I theo Quy định (EU) 2017/745 (đối với MDR). 
+Phiên bản 
+Có sẵn trong Phần Giới thiệu của Ứng dụng 
+
+Ngày sản xuất 
+Có sẵn trong Phần Giới thiệu của Ứng dụng 
+
+Nhà sản xuất 
+Microsoft Corporation  
+One Microsoft Way  
+Redmond, WA 98052  
+USA  
+
+Đại diện được ủy quyền của Liên minh Châu Âu 
+Emergo Europe B.V. 
+Westervoortsedijk 60 
+6827 AT Arnhem 
+Hà Lan  
+Người chịu trách nhiệm tại Vương quốc Anh 
+Emergo Consulting (UK) Limited c/o Cr 360 - UL International Compass House, Vision Park Histon 
+Cambridge CB24 9BZ United Kingdom 
+Thông tin quy định 
+
+ 
+
+ 
+UDI-DI cơ bản: 08600098825SEEINGAIIOSDN 
+Mã EMDN: Y99 
+Thông tin an toàn quan trọng 
+Mục đích dự kiến 
+Seeing AI là một ứng dụng dành cho thiết bị di động, để sử dụng với nền tảng iOS và Android, cung cấp cho người mù hoặc khiếm thị thông tin về môi trường thị giác của họ bằng cách tận dụng các công nghệ mới nổi như Trí tuệ nhân tạo (AI). Seeing AI giúp tăng cường nhận thức hiện có của một cá nhân về môi trường xung quanh họ bằng cách cung cấp phản hồi âm thanh và xúc giác về các đối tượng đã được phát hiện.  
+Chống chỉ định 
+Seeing AI không được thiết kế và không nên được sử dụng như một công nghệ chính hoặc độc quyền mà qua đó người mù hoặc khiếm thị tìm hiểu về môi trường của họ. Seeing AI sử dụng Trí tuệ nhân tạo (AI) để tạo kết quả dựa trên xác suất, điều này sẽ thay đổi về độ chính xác tùy thuộc vào vị trí và cách sử dụng Seeing AI. Seeing AI không phát hiện, chẩn đoán, giám sát, quản lý hoặc điều trị bất kỳ tình trạng y tế hoặc bệnh tật nào. Người dùng có trách nhiệm tìm hiểu chức năng của ứng dụng 
+Seeing AI, đánh giá các điều kiện sử dụng Seeing AI và đánh giá rủi ro khi sử dụng trong những trường hợp có thể dẫn đến tổn hại không đáng có cho người dùng hoặc người khác hay không.  
+Người dùng dự định 
+Seeing AI được thiết kế cho người mù hoặc người khiếm thị. 
+Đặc tả về lợi ích lâm sàng và đặc điểm hiệu suất 
+Cung cấp thông tin âm thanh/xúc giác cho người dùng nhằm mục đích nâng cao hiểu biết của họ về môi trường vật lý 
+
+Khả năng tái sử dụng 
+Có thể tái sử dụng thiết bị này cho một bệnh nhân.  Không có yêu cầu nào về việc vệ sinh, khử trùng hoặc tiệt trùng.  Không có số lần tối đa có thể tái sử dụng. 
+Khả năng liên tác 
+Seeing AI là ứng dụng dành cho thiết bị di động, để sử dụng với nền tảng iOS và Android. 
+Biện pháp phòng ngừa 
+Seeing AI không phải lúc nào cũng chính xác. Không nên sử dụng trong những tình huống mà bạn có thể bị tổn hại hoặc bị thương. Ứng dụng này không nhằm mục đích sử dụng để phát hiện, chẩn đoán, giám sát, quản lý hoặc điều trị bất kỳ tình trạng hoặc bệnh tật y tế nào. Người dùng nên tìm lời khuyên y tế từ bác sĩ. Người dùng có trách nhiệm tìm hiểu chức năng của ứng dụng Seeing AI, đánh giá các điều kiện sử dụng Seeing AI và đánh giá rủi ro khi sử dụng trong những trường hợp có thể dẫn đến tổn hại không đáng có cho người dùng hoặc người khác hay không.  
+Báo cáo sự cố 
+Mọi sự cố nghiêm trọng đã xảy ra liên quan đến thiết bị phải được báo cáo cho nhà sản xuất và cơ quan thẩm quyền của Quốc gia thành viên nơi người dùng và/hoặc bệnh nhân được thiết lập.  
+Rủi ro đã biết 
+Việc sử dụng Seeing AI đã được đánh giá lâm sàng và đã được chứng minh là an toàn và hiệu quả để sử dụng theo như dự kiến của nhà sản xuất.  Không tồn tại rủi ro nào không thể chấp nhận được mà người dùng cần biết khi sử dụng Seeing AI.  
+Liên hệ với Microsoft 
+Mọi sự cố nghiêm trọng đã xảy ra liên quan đến thiết bị phải được báo cáo cho nhà sản xuất và cơ quan thẩm quyền của Quốc gia thành viên nơi người dùng và/hoặc bệnh nhân được thiết lập.  
+Đối với tất cả sự cố, phản hồi hoặc để được hỗ trợ về ứng dụng Seeing AI hoặc để yêu cầu bản sao dạng giấy của hướng dẫn sử dụng này sẽ được cung cấp miễn phí trong vòng 7 ngày, vui lòng liên hệ với Bộ phận hỗ trợ người khuyết tật của Microsoft để được trợ giúp: seeingai@microsoft.com 
+ 	 
+
+

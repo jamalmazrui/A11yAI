@@ -1,0 +1,41 @@
+﻿
+
+
+
+How does ChatGPT work ?
+ChatGPT is a chat interface based on a language program named GPT-3, which stands for Generative Pre-trained Transformer 3. In simple terms, GPT-3 is programmed to complete an initial text with other text that is most statistically likely to follow. 
+For instance, prompted with the simple request: 
+Give 10 examples of what word can come after "The Catcher In The"
+ChatGPT gives the following answer.
+
+
+
+
+
+
+
+
+The Guide
+KEY MESSAGING AND BRAND STRATEGY
+ǼɊɁ ÚÄɁÄÃ: List [20] brand names for a [Company / Product] that does 
+[Activity] ǽɊɁ ÚÄɁÞ1/2Ë£ÄÞ: Create [20] slogans for [Brand Name].
+ǾɊɁËÃ×ÄüɁõ"Þ"ËÄɁɗɁÃ"ÞÞ"ËÄɁÞææÃÄæÞ: Create a vision and mission statement for [Brand Name]. The brand values are [Values] and we care about [X].
+ǿɊɁq1/2êɁ×ÚË×ËÞ"æ"ËÄɁÞææÃÄæÞ: Create the value proposition statement for the [Brand / Product]. The brand is unique because it has the following USPs [USPs].
+ȀɊɁAÚºæ"Ä£Ɂ×ÚÞËÄÞ: Our product does [product description]. Create [5] consumer personas for it. ȁɊɁ1/2õæËÚɁ×"æ¨: Create the elevator pitch for our [Brand / Product]. ȂɊɁËÄæÄæɁÃÚºæ"Ä£Ɂ"Þ: Generate [20] content marketing ideas to promote the [Brand / Product] to generate [KPI (awareness, traffic, sales...)]. ȃɊɁɁË×ü: Write [5] versions of an ad for [media] to [promote / sell] [product]. ȄɊɁ1/21/2ɛæËɛæ"ËÄ: Suggest [10] calls-to-action to get people to [take desired action].
+SOCIAL MEDIA
+ǼǻɊɁ[Ë"1/2ɁÃ"ɁËÄæÄæɁ"Þ: Give me [10] ideas for [social platform] pieces of content about [topic].
+ǼǼɊɁ[Ë"1/2ɁÃ"Ɂ×ËÞæɁ×æ"ËÄ: Write [5] versions of a [social platform] post about [topic]. The post must mention [X]. You can base the posts on the following facts: [list of facts to include in the post].
+ǼǽɊɁ+ÄÞæ£ÚÃɁÞæËÚü: Create the storyboard for a [3]-screen Instagram story about [topic].
+ǼǾɊɁb"ºbËºɁɗɁ+ÄÞæ£ÚÃɁW1/2ɁɗɁxËêbêɁ[¨ËÚæ: Create the storyboard for a [60]-second long [TikTok video / Instagram reel / YouTube Short] about [topic].
+
+
+
+
+
+
+
+Eliott  Maidenberg
+JIN in the US is led by Eliott Maidenberg. Eliott has spent 10 years developing and implementing digital and marketing communication programs for global brands such as Chipotle, eBay, Europcar, Ricoh Imaging, Royal DSM, Roche Pharmaceuticals, Electronic Arts and Euronext, to name a few.
+Laser-focused on delivering results, Eliott is known for his strategic thinking and creative eye. He plays an integral role in building brands and their positioning, as well as integrated marketing programs and influencer relationships for leading consumer and B2B brands. Clients rely on Eliott for his keen social media and editorial skills, brand storytelling and dynamic approach to engage audiences and drive consumer awareness via holistic and innovative avenues.
+Before founding JIN NYC in 2018, Eliott spearheaded the agency's international presence by launching and growing the UK office from 2014 to 2017. He is currently the Strategic Director of JIN.
+

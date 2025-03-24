@@ -1,0 +1,176 @@
+﻿
+
+Four ways that AI can help with accessibility
+1. By making it easier to evaluate accessibility
+2. By making it easier to create accessible materials from birth
+3. By creating "auto-markup" and "auto-augment" browsers
+4. By allowing us to approach accessibility in an entirely new way
+1.  By making it easier to evaluate accessibility
+• More effective and accurate evaluation tools
+• Fewer warnings 
+• Present solutions not just problems
+• Provide recommendations on subjective aspects
+• Cognitive, language, and learning disabilities 
+• But not just cognitive, language, and learning disabilities 
+• Also multiple and more difficult to address in some cases but maybe not this site/page
+2. By making it easier to create born accessibility
+• If AI can identify errors and make suggestions - why not do it during creation?
+• Born accessible
+• Help reduce training - by providing in-situ and in-context training
+3. By creating "auto-markup" and "auto-augment" browsers
+• Repair ala WCAG 4.1.1
+• Auto alt-text for images of text,  auto heading markup, etc. 
+• NOT like 'overlays' 
+• works on ALL sites
+• works the same way 
+• and tunes pages for AT
+• Will work best as AI gets local so no cloud computation load
+4. By allowing us to approach accessibility in an entirely new way. 
+WHAT IF WE COULD....
+• Eliminate all mandates on authors/creators to make ICT accessible - except one. 
+• An easy one that required no knowledge of disability
+• Instead, create a means where... 
+• each person could get an interface to each ICT they encountered 
+• that exactly matched their own unique needs and abilities.
+Why?  What's wrong with our current approach?  
+• Very expensive     (small % of total product design - but still cumulatively...)
+• Very time-consuming - training, designing, evaluating, etc. ...
+• Assumes all designers know more about accessibility than most experts do  
+BUT MOST IMPORTANTLY
+• It isn't working
+• Only a small percentage of products are accessible
+• Those that are, are only accessible to some - often more technically proficient PWD
+What is proposed    - for consideration
+Change FROM  our current approach...
+1. All companies should design all products to meet the needs of all types, degrees, and combinations of disability
+2. PLUS making products accessible to assistive technologies 
+(as a safety net for when we fail #1)
+• EXCEPT if the product has closed functionality  in which case there is no safety net!
+• ALSO if there is no AT for some disabilities or some products no safety net again!
+• In these latter two cases  - they just have to make do in life without those ICT
+What is proposed    - for consideration
+Instead, what if we...
+1. Create an "info-bot" like functionality - that can understand and operate any ICT interface that  a 50th percentile human can.
+2. PLUS create Individual User Interface Generators (IUIGs)
+that take the information from the 'info-bot' and create an interface for each specific individual's needs, abilities, and preferences.
+
+
+
+	Some impacts      (more later)	
+1.	All products become accessible (not just 3-5%) even if vendors are unaware of accessibility - or make no effort to make them accessible.
+• Because the info-bot uses the standard interface as input
+	2.	Accessible to all types, degrees, and combinations of disability (not just some)
+• The only limitation being the disability sector's ability to define what an interface should look like for each individual  (i.e., what the IUIG should present as an interface for a product to an individual)
+3.	Companies can focus on making products 'born accessible and usable to more people'  but do not have hundreds of accessibility provisions to meet - and do not need to worry about "programmatic determinability" 
+• since it would all automatically be programmatically determinable".  
+	How it would work - High Level	
+• Use computer vision and AI to create an Info-Bot 
+• could perceive, understand, and operate any digital interface (on any product) that the median human user can
+• Combined with Individual User Interface Generators (IUIGs)
+• that can generate a custom interface that matches a person's abilities for any product they encounter
+• based a person's interface needs and preferences
+• Info-Bot is open source, cloud-based (later local) and free to use
+How it works    - Info-Bot
+• Uses computer vision and standard input mechanisms of the product to understand and operate any product the person wants to use.
+• Requires no accessibility APIs  (or perhaps a very simple API requiring no disability knowledge - more later)
+• Info-Bot is smart enough to figure out an interface after browsing it once.
+• Knowledge of products is centralized, so once it learns a product anywhere, it knows it everywhere.      ( Usually, it will learn it when a company tests their product with it.  Embargoing such learning is supported )
+• Info-Bot is open-source and central, so a company inventing something completely new - can introduce the Info-Bot to it.
+• But should not be necessary.  If the 50th % person can figure it out so should Info-Bot 
+How it works 
+- Individual User Interface Generators (IUIGs)
+• Created by accessibility experts  
+• Focus on creating an IUIG for every type, degree, and combination of disability - plus variations for user preferences
+• Takes information from Info-Bot and creates a bespoke interface for each individual - for each different product they encounter with a digital interface
+• IUIGs can be public domain or proprietary  (the same as AT is today)
+• Generate similar or same interface for products with similar or same function
+• Mental model for interfaces stays the same
+• IUIGs can be adaptive or not  - but should allow user control.
+
+• For users
+• Potential for near ubiquity of accessibility for all products (~100%)
+• Interface designed for them as an individual (even if not optimal for others)
+• Familiar Interface 
+• Different products have familiar interfaces (same mental model)
+• Same interface if same functionality
+• Interface doesn't change all the time - on same product
+• Control over change  
+• Adaptive - as abilities change - over time or during a day
+• Especially for cognitive, language, and learning disabilities and Multiple • Works on closed products
+• For developers / companies
+• No need to train for all types, degrees & combinations
+• No longer 100 or 200+ guidelines/ provisions
+• Just make sure Info-Bot can understand it
+• Also build in what direct accessibility/usability you can - but without  compliance pressure
+• Closed products no longer a barrier to accessibility
+• Simplified Design
+• Higher compliance and much reduced litigation risks
+• Wider market reach - with a fraction of the effort
+• For policymakers, consumer advocates, experts, and society
+• Instead of focus on advocacy and lobbying industry - can focus on figuring out the ideal interface for each types, degrees & combination of disability
+• Few and much simpler regulations (for ICT)
+• Fewer lawsuits
+• Many more people able to use newer ICT - including many who have no access today
+
+Limitations and Potential Problems
+• It will be hard to do    (but easier than any other approach with similar potential? )
+• It still won 't be 100 %     (Mona Lisa, Symphony)
+• Disruptive - and there will be a transition in accessibility and industries
+• Potential solution - make accessibility outcome-oriented.  Must do old until new works
+• Privacy - until the Info-Bot can be run locally
+• Distributive Justice - who gets a good IUIG?   (Same problem as AT today)
+• Funding - for the Info-Bot  and for public IUIGs.  Industry can help - especially with Info-Bot 
+• Requires a new social contract between industry, consumers, and society
+Theme and variation on new approach
+Can use Info-Bot and IUIG in early and developmental stages to
+• Increase 'born accessible' products
+• Use these technologies to identify and suggest ways to increase built-in accessibility
+• Create accessibility at delivery • Browsers that change inaccessible content to accessible
+• Born accessible to AT
+• Use them make AT add-on so that all info is 'programmatically determinable'
+• Later
+• Have the info-bot technology generate and adapt IUIGs on the fly for different people with different types, degrees, and combinations of disability.
+Implementation 
+• Funding agencies and industry provide support for development of Info-Bot and IUIG-like capabilities. 
+• Grand challenge  (e.g. NSF)
+• Info-Bot (e.g. industry) (cloud-based - though someday local) 
+• When Info-Bot and IUIGs are sufficiently developed - the industry can start relying on them to meet accessibility requirements as long as the Info-Bot can understand their product's interfaces.  As Info-Bot improves, it can be relied upon more. 
+• The reliance on it can take place without revising guidelines since 'equivalent facilitation' allows alternate approaches to achieving accessibility. 
+End Note:  Special Caution on Timing of Adoption
+• Consumers are (validly) very wary about new technologies and concerned that the technologies will be used to replace existing accessibility approaches before the new approaches are proven to be at least as effective as the old.
+• An incremental path that uses new techniques and technologies to keep enhancing existing approaches until they can evolve into the new approach may be best
+• Also, key would be if it was possible to use the new technologies as an easier, optional way (when they work well enough) to satisfy the old requirements.
+
+Thank you 
+Questions ?
+This work was funded in part by the National Science Foundation Grant #2312370 and by the National Institute on Disability, Independent Living and Rehabilitation Research at the Administration for Community Living, U.S. Dept. of Health and Human Services Grant #90REGE0008; The opinions herein are those of the author and not necessarily those of the funding agencies and no endorsement of the funding agencies should be assumed.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Potential advantages of such an approach  
+
+Potential advantages of such an approach  
+
+Potential advantages of such an approach  
+
+
+
+
+
+
+

@@ -1,0 +1,242 @@
+﻿
+
+ 
+From zero to ChatGPT 
+A step-by-step tutorial to familiarize yourself with the use of large language models 
+Henner Gimpel1,2,3 Carolin Jung2,3 Lena Utz2,3 Moritz Wöhl2,3 
+ 
+ 
+1 University of Hohenheim, Chair of Digital Management 
+2 Fraunhofer Institute for Applied Information Technology FIT 
+3 FIM Research Institute for Information Management 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Version 1.0 English  
+May 22, 2023  
+ 
+ 	 
+ 
+Table of contents 
+ 
+Table of contents	3 
+1.  Introduction	4 
+2.  Step-by-step guide	7 
+3.  Reflection	13 
+4.  Important final thoughts	13 
+About this white paper	14 
+
+
+
+ 
+
+Introduction 
+ 
+1. Introduction 
+ChatGPT is an impressively powerful chatbot based on a so-called Large Language Model (LLM). To assess and evaluate ChatGPT's and other such systems' potentials, challenges, and risks, it is useful to gain first-hand experience with ChatGPT.  
+This guide is intended to support students in their first use of ChatGPT. For this purpose, 40 simple prompts to ChatGPT are suggested, which can be used to research, structure, generate, revise, and check a text. Just reading the instructions will give you an idea of how to use ChatGPT. But don't stop there! Interacting with ChatGPT is more educational than just reading instructions, experience reports, or watching screenshots and videos. Try it out for yourself! 
+Preparation 
+If you do not yet have an account for ChatGPT, create one at https://chat.openai.com/auth/login and select the item "Sign up".  
+• For this, providing contact details or using your Google, Microsoft, or Apple account is necessary. It is required to accept the terms and conditions of OpenAI, the company that offers ChatGPT. Of course, you are not required to create an account and follow these instructions. This step is optional but educational. 
+• It is possible but not necessary to create a paid ChatGPT Plus account.  Log in at https://chat.openai.com/ 
+Use 
+Use ChatGPT to write a scientific text. The text should have a length of 800 words +/- 50 words, plus title, abstract, and references. 
+Work through the following steps. These are not designed to be as efficient or effective as possible for texting. Instead, they aim to ensure that working through the specific task along these steps gives you an idea of the power, usage scenarios, and limitations of ChatGPT. The best prompts to support a writing process will depend on your knowledge, skills, preferences, and text topic. 
+Commands to ChatGPT are called "prompts". We will write prompts in Courier font in the following. If you see such prompts in the next, copy them into ChatGPT's "Send a message..." input field, press the Enter key, or click the Send icon. Some of the prompts contain italicized text in square brackets. You should replace this bracketed text with your respective content at the point of the dialogue. Pay attention to how ChatGPT reacts to the prompts. 
+The prompts are intended as examples. Feel free to vary the prompts to get a feel for the different reactions of ChatGPT. 
+ChatGPT's answers have probabilistic elements. For a given prompt, the result may look different every time. If one if the prompts below is not reasonable given your specific chat with ChatGPT, try to adapt the prompt so that it makes sense.  
+Create two text files in a word processing program (e.g., Microsoft Word, Google Docs, Open-Office Writer, LibreOffice Writer). One should contain the final text at the end. The other should include all Introduction 
+ 
+the prompts you have used. The latter is for you to document and reflect on your use. 
+It can happen that ChatGPT "crashes" and, e.g., gives the error message "Something went wrong. If this issue persists, please contact us through our help center at help.openai.com". This happens especially if the chat has been inactive for long. In this case, reload the website https://chat.openai.com/. You may have to log in again. 
+On the left side of the browser window, you find the history of your previous chats with ChatGPT. You can create new chats, for example, to separate them thematically. You can name the chats yourself, or ChatGPT will make a suggestion. Create a new chat or select the corresponding history to continue the chat. 	 
+
+
+
+2. Step-by-step guide 
+After you carried out the steps described in the introduction, you are ready for the following trial of ChatGPT. 
+Topic selection 
+1. I would like to write a short scientific text on ChatGPT. Please suggest five topics that I could choose for it. They should be topics you know well and can support me in researching and writing the text. It can be something from the fields of education, digital transformation of companies, or technical basics of generative AI. In any case, it should be about ChatGPT. 
+Choose one of the suggestions. 
+2. Ok. Let's take topic [insert a number from 1-5 here]. Please suggest five headings that the article on the topic could have. 
+Decide on one of the suggestions. Copy it into the document in which you create the text. 
+One-Shot-approach 
+First, try to see if ChatGPT can easily complete the task immediately. 
+3. Please write me a scientific text for the heading [insert a number from 1-5 here; alternatively, you can insert your chosen heading from the previous answer here]. The text should have a length of 800 words +/- 50 words, plus title, abstract, and references. 
+Read through the result and assess whether you would be satisfied with it. A possible variation of the prompt is asking for a text of 8,000 words.  
+Start afresh with an iterative approach, going through numerous steps in dialogue with ChatGPT. 
+These steps are usually necessary to get a higher quality text than the one-shot approach delivered. 
+Work planning 
+4. I aim to write about two pages of scientific text on [insert the 
+	title chosen above]. What should I do for that? 	 
+Research 
+5. Explain the technical basics of ChatGPT. 
+6. Please summarize this very briefly in bullet points. 
+7. Thanks 
+8. I would like to understand this more simply. Please take the role of a father and explain it to your four-year-old daughter.  
+9. I would like to understand it in great detail now. Take the role of a computer science professor who works ChatGPT and similar systems and explains the technology behind them in detail to her doctoral students. 
+10. Please explain point 3 in more detail. 
+If you like, do these research steps again, similarly, focusing on the specific topic of the text you want to create. 
+Overall, this provides a first overview of the topic area. If you see important aspects in the answers that you want to come back to later, copy them into a document. 
+Structuring 
+11. Generate a 2-page academic text outline about [insert the heading chosen above]. 
+Click "Regenerate Response" for a different response to the same prompt. ChatGPT always introduces its posts with the green logo (in the free version using GPT-3.5). To the left of it, you will now see "< 2 / 2 >". By clicking on the "<" and ">" signs, you can switch between the response alternatives.  
+12. Please repeat the outline and write for each chapter how many words it should have so that I get a text with 800 words in total. Please add the title and abstract at the beginning. The title, abstract, and list of sources do not count toward the 800-word length requirement. 
+Calculate whether the number of words adds up to 800. 
+Copy the outline into your document, containing all the text at the end. In the following, you will fill this outline with text. 
+Text creation 
+13. Write the introduction to the above outline. 
+If you are unsatisfied with the text you have written, use the "Regenerate Response" option here (and for all other prompts). 
+14. How many words are in the text you just wrote? Does it fit in with our planning? 
+15. Please shorten the introduction to exactly 120 words. 
+Copy the generated variants of the introduction into your document and check the word count. 
+Keep the variant of the introduction that you like best. 
+Proceed in the same way with the other chapters. 
+16. Now for the next chapter. Please write me a draft. 
+Use similar prompts as above to have the remaining chapters written. 
+It can happen that the entire chat process becomes so long that ChatGPT forgets the self-suggested outline. You may also want to deviate from the suggested outline. In this case, use prompts such as 
+17. Please write me a text for the following chapter: [insert here the heading and bullet points that you have previously copied or edited from the outline proposal into your document] 
+Now you have a first draft of the whole text.  
+Text improvement 
+If the text is too long, you can instruct ChatGPT, for example:  
+18. Shorten the following paragraph by 20%: [insert text] 
+The extension of text works analogously. 
+If you identify statements in the text that you cannot fully comprehend, use the following prompt: 
+19. You made the following statement "[insert text]". Is this statement really true? If so, please explain it in more detail and give me a striking example. 
+Ask ChatGPT to give you sources as evidence for statements in your text that you consider particularly central. Then use the possibilities you know for researching literature (e.g., offers of your university library and https://scholar.google.de/) and search for the sources given by ChatGPT. Look for evidence for ChatGPT's statements in the sources. In case ChatGPT does not provide sufficient details (e.g., journal, issue, page number, DOI, etc.)., ask for these details. 
+20. You made the following statement "[insert text]". Please give me one or two scientific sources that support this statement. 
+21. What are the DOIs for these sources? 
+If you want to have individual passages rewritten, you can give ChatGPT the following prompt: 
+22. Paraphrase the following text: [insert text] 
+ 	 
+To correct the text, you can enter the following prompt, for example: 
+23. From now on, act as a proofreader for the texts you will receive in the following. Check the texts for technical accuracy and correct the language if necessary. The texts should be written for a specialist scientific audience.  
+In the following, copy individual paragraphs into the chat. If ChatGPT forgets the role, repeat the above prompt. If ChatGPT remains in the role and you want to stop it, use the following: 
+24. Finish editing and return to normal behavior, i.e., do not take on any special role.  
+Other useful prompts to improve your text could be:  
+25. Please check the following text for its grammar: [enter text] 
+26. Revise the following text so that it is more understandable, shorter, and more precise: [insert text] 
+27. What are synonyms for [insert word] in a scientific context? 
+Summary  
+28. Write an abstract of about 150 words on the following text: [insert entire text so far] 
+If you miss aspects in the abstract, you can use the following prompt: 
+29. Write an abstract of about 150 words containing the following words: [insert keywords]. First, ask me for the entire article text to be summarized in the abstract. 
+Create a title for the text: 
+30. Generate five titles for the abstract we just wrote. 
+31. Five more creative suggestions, please. 
+32. Please make five suggestions that use more fancy foreign words and thus sound more scientific. 
+33. And now five funny titles, please, where you can really laugh. 
+Translation 
+34. Please translate the following title and abstract into German: [insert title and abstract] 
+ 	 
+Final examination and communication 
+Go through your document containing the entire text and manually correct the formatting. Proofread the text for content and language. Correct it manually. 
+Continue with the following prompts to reflect on the text again: 
+35. What assessment criteria are usually used for scientific texts such as a seminar paper at a university? Please give me a numbered list of the criteria in descending order of importance. 
+36. What is the situation in information systems? 
+37. In the following, please work in the role of an business school professor who evaluates a text concerning these criteria. First, please ask me about the text that is to be evaluated. Then give me a rating for each criterion on a scale from 0 (very bad) to 100 (very good). It is not necessary to provide reasons for this assessment. Then please give an overall grade (on a school grade scale from 1.0 very good to 6.0 unsatisfactory). Finally, please provide the three main strengths of the text in bullet points and three suggestions for improvement.  
+Feel free to return to the text generated by prompt #3 and have it rated as well. 
+There are numerous internet services that offer to check whether ChatGPT or another AI system generated a text or whether it was written by humans. Such systems are called "AI Content Detector", "AI Classifier" or "ChatGPT detector". Look for such an internet service and have the generated text checked there. 
+If you are proud of "your" text, you may consider publishing it. 
+38. Please write a short LinkedIn post that I can use to promote the publication of the text. 
+39. And for TikTok? 
+40. Which AI tool can I use to produce a video of the text that I can then show on TikTok? 
+ 	 
+
+
+
+Reflection 
+
+ 
+3. Reflection 
+Answer the following questions: 
+• What are your main learnings about ChatGPT (and, more generally, language models and generative artificial intelligence, if applicable)? 
+• Which prompts worked particularly well, and which did not? 
+• What have you learned for formulating future prompts? (The technical word for this is "prompt engineering") 
+• What change, extension, or embedding of ChatGPT would improve the system? 
+• Is it "your" text or ChatGPT's text? Who should be named as author(s)? 
+• Do you want to use ChatGPT in the future, and if so, for what? 
+4. Important final thoughts 
+ 
+The experience based on this guide is not yet sufficient for the responsible use of ChatGPT: This sample exercise should give you a first impression of the power, usage scenarios, and limitations of ChatGPT. If you have followed this tutorial, you have not experienced all the possibilities of ChatGPT nor seen all the risks and limitations. 
+ 
+The information ChatGPT has given you may be wrong: ChatGPT often gives very good answers but often gives wrong answers. The term "hallucination" is often used for this. Do not believe ChatGPT without critically questioning the content and, if necessary, checking it with other sources. Even if ChatGPT has probably rated the text produced as very good in the final evaluation, you should not take this as evidence that this is certainly a very good scientific text. 
+ 
+Pay attention to the given rules: If you are considering using ChatGPT for examinations (e.g., written examinations, seminar papers, or theses), please get information about the admissibility of ChatGPT as an aid for this examination.  
+ 
+ 	 
+About this white paper 
+
+ 
+About this white paper 
+Acknowledgment 
+We would like to thank the Federal Ministry of Education and Research (BMBF) and the Ministry of Science, Research and the Arts (MWK) Baden-Württemberg for funding the ABBA project (funding code 16DHBKI002). We would also like to thank the Stiftung Innovation in der Hochschullehre (Foundation for Innovation in Higher Education) for funding the DeLLFi and S3G projects (grant reference FBM2020-EA-1670-01800, FRFMM-677/2022).  
+The logos of our institutions on the cover page are intended to honor the academic environment that shapes our thinking. 
+More whitepapers on ChatGPT 
+If you want to find out more, read, for example, the following white paper 
+      Gimpel, H., Hall, K., Decker, S., Eymann, T., Lämmermann, L., Mädche, A., Röglinger, R., Ruiner, C., Schoch, M., Schoop, M., Urbach, N., Vandirk, S. (2023). Unlocking the Power of Generative AI Models and Systems such as GPT-4 and ChatGPT for Higher Education: A Guide for Students and Lecturers. University of Hohenheim, March 20, 2023. Available at http://opus.uni-hohenheim.de/volltexte/2023/2146/  and the further literature suggested there. 
+Reuse as an Open Educational Resource 
+This document is licensed under the Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0) license (https://creativecommons.org/licenses/by-nc-sa/4.0/). You may use this teaching and learning material in any of the following ways as long as you comply with the license conditions: 
+- Retain: make, own, and control a copy of the resource 
+- Reuse: use your original, revised, or remixed copy of the resource publicly 
+- Revise: edit, adapt, and modify your copy of the resource 
+- Remix: combine your original or revised copy of the resource with other existing material to create something new 
+If you use this material, please cite it. If you wish to use the material commercially, please contact us by email. 
+Suggested source citation 
+Gimpel, H., Jung, C., Utz, L., Wöhl, M. (2023). From zero to ChatGPT: A step-by-step tutorial to familiarize yourself with the use of large language models. University of Hohenheim, May 22, 2023. 
+ 	 
+About this white paper 
+
+ 
+Feedback 
+Suggestions for corrections and additions are very welcome. If you have any, please contact us at: digital@uni-hohenheim.de. 
+Image sources 
+(c) shutterstock.de 
+Legal notice  
+University of Hohenheim, Dean's Office of the Faculty of Economics and Social Sciences, Hohenheim Palace 1B, 70593 Stuttgart, Germany. 
+The University of Hohenheim is a public corporation legally represented by its President, Prof. Dr. sc. agr. Stephan Dabbert. The sales tax identification number is DE147794207, and the tax number is 99134/02103. The Dean's Office of the Faculty of Economics and Social Sciences is a legally dependent institution of the University of Hohenheim. The person responsible for this publication is  Prof. Dr. Henner Gimpel. 
+Please contact us by post or by email to digital@uni-hohenheim.de. 
+ 	 
+
+
+2 
+ 
+
+2 
+ 
+
+
+
+Step-by-step guide 	8 
+ 
+
+Step-by-step guide 	8 
+ 
+
+
+
+14 
+
+14 
+
+
+
+
+
+
+
+
+

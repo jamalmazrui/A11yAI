@@ -1,0 +1,3205 @@
+<html>
+
+<head>
+<meta http-equiv=Content-Type content="text/html; charset=windows-1252">
+<meta name=Generator content="Microsoft Word 15 (filtered)">
+<title>Microsoft Responsible AI Standard v2 General Requirements</title>
+<style>
+<!--
+ /* Font Definitions */
+ @font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;}
+@font-face
+	{font-family:Calibri;
+	panose-1:2 15 5 2 2 2 4 3 2 4;}
+@font-face
+	{font-family:"Segoe UI";
+	panose-1:2 11 5 2 4 2 4 2 2 3;}
+@font-face
+	{font-family:"Segoe UI Symbol";
+	panose-1:2 11 5 2 4 2 4 2 2 3;}
+ /* Style Definitions */
+ p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin-top:0in;
+	margin-right:0in;
+	margin-bottom:8.0pt;
+	margin-left:0in;
+	line-height:107%;
+	font-size:11.0pt;
+	font-family:"Calibri",sans-serif;
+	color:black;}
+h1
+	{mso-style-link:"Heading 1 Char";
+	margin-top:0in;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:.5pt;
+	text-indent:-.5pt;
+	line-height:107%;
+	page-break-after:avoid;
+	font-size:18.0pt;
+	font-family:"Segoe UI",sans-serif;
+	color:black;}
+h2
+	{mso-style-link:"Heading 2 Char";
+	margin-top:0in;
+	margin-right:0in;
+	margin-bottom:8.15pt;
+	margin-left:.5pt;
+	text-indent:-.5pt;
+	line-height:107%;
+	page-break-after:avoid;
+	font-size:14.0pt;
+	font-family:"Segoe UI",sans-serif;
+	color:#C45911;
+	font-weight:normal;}
+p.MsoToc1, li.MsoToc1, div.MsoToc1
+	{margin-top:0in;
+	margin-right:.9pt;
+	margin-bottom:0in;
+	margin-left:23.25pt;
+	text-indent:-.5pt;
+	line-height:107%;
+	font-size:10.0pt;
+	font-family:"Segoe UI",sans-serif;
+	color:black;}
+span.Heading2Char
+	{mso-style-name:"Heading 2 Char";
+	mso-style-link:"Heading 2";
+	font-family:"Segoe UI",sans-serif;
+	color:#C45911;}
+span.Heading1Char
+	{mso-style-name:"Heading 1 Char";
+	mso-style-link:"Heading 1";
+	font-family:"Segoe UI",sans-serif;
+	color:black;
+	font-weight:bold;}
+.MsoChpDefault
+	{font-size:12.0pt;}
+.MsoPapDefault
+	{margin-bottom:8.0pt;
+	line-height:115%;}
+ /* Page Definitions */
+ @page WordSection1
+	{size:8.5in 11.0in;
+	margin:70.5pt 36.2pt 110.1pt .5in;}
+div.WordSection1
+	{page:WordSection1;}
+@page WordSection2
+	{size:8.5in 11.0in;
+	margin:66.85pt 34.9pt 52.3pt .5in;}
+div.WordSection2
+	{page:WordSection2;}
+ /* List Definitions */
+ ol
+	{margin-bottom:0in;}
+ul
+	{margin-bottom:0in;}
+-->
+</style>
+
+</head>
+
+<body lang=EN-US style='word-wrap:break-word'>
+
+<div class=WordSection1>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:575.8pt;margin-bottom:
+0in;margin-left:-.5in'><img width=816 height=1056
+src="Microsoft%20Responsible%20AI%20Standard_files/image001.gif"><br clear=ALL>
+<br clear=all style='page-break-before:always'>
+</p>
+
+<p class=MsoNormal style='margin-bottom:.75pt'><span style='font-family:"Segoe UI",sans-serif'> </span></p>
+
+<p class=MsoNormal style='margin-bottom:.75pt'><span style='font-family:"Segoe UI",sans-serif'> </span></p>
+
+<p class=MsoNormal style='margin-bottom:3.0pt'><span style='font-family:"Segoe UI",sans-serif'> </span></p>
+
+<p class=MsoNormal style='margin-bottom:.6pt'><img width=818 height=262
+src="Microsoft%20Responsible%20AI%20Standard_files/image002.gif"><br clear=ALL>
+<b><span style='font-family:"Segoe UI",sans-serif'> </span></b></p>
+
+<p class=MsoToc1><a href="#_Toc27756"><span style='color:black;text-decoration:
+none'>About this release........................................................................................................................................................................................... </span><span style='color:black;text-decoration:none'>3 </span></a></p>
+
+<p class=MsoToc1><a href="#_Toc27757"><span style='color:black;text-decoration:
+none'>Accountability Goals...................................................................................................................................................................................... </span><span style='color:black;text-decoration:none'>4 </span></a></p>
+
+<p class=MsoToc1><a href="#_Toc27758"><span style='color:black;text-decoration:
+none'>Transparency Goals........................................................................................................................................................................................ </span><span style='color:black;text-decoration:none'>9 </span></a></p>
+
+<p class=MsoToc1><a href="#_Toc27759"><span style='color:black;text-decoration:
+none'>Fairness Goals................................................................................................................................................................................................ </span><span style='color:black;text-decoration:none'>13 </span></a></p>
+
+<p class=MsoToc1><a href="#_Toc27760"><span style='color:black;text-decoration:
+none'>Reliability &amp; Safety Goals........................................................................................................................................................................... </span><span style='color:black;text-decoration:none'>21 </span></a></p>
+
+<p class=MsoToc1><a href="#_Toc27761"><span style='color:black;text-decoration:
+none'>Privacy &amp; Security Goals............................................................................................................................................................................ </span><span style='color:black;text-decoration:none'>26 </span></a></p>
+
+<p class=MsoToc1><a href="#_Toc27762"><span style='color:black;text-decoration:
+none'>Inclusiveness Goal........................................................................................................................................................................................ </span><span style='color:black;text-decoration:none'>27 </span></a></p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal style='margin-bottom:.75pt'><span style='font-family:"Segoe UI",sans-serif'> </span></p>
+
+<p class=MsoNormal style='margin-bottom:1.95pt'><span style='font-family:"Segoe UI",sans-serif'> </span></p>
+
+<p class=MsoNormal style='margin-bottom:0in'><span style='font-family:"Segoe UI",sans-serif'>             </span><br
+clear=all style='page-break-before:always'>
+</p>
+
+<p class=MsoNormal style='margin-bottom:12.35pt'><span style='font-family:"Segoe UI",sans-serif'> </span></p>
+
+<h1 style='margin-left:-.25pt'><a name="_Toc27756">About this release </a></h1>
+
+<p class=MsoNormal style='margin-bottom:.75pt'><span style='font-family:"Segoe UI",sans-serif'> </span></p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:1.4pt;
+margin-left:-.25pt;text-indent:-.5pt;line-height:103%'><span style='font-family:
+"Segoe UI",sans-serif'>When we embarked on our effort to operationalize
+Microsoft’s six AI principles, we knew there was a policy gap. Laws and norms
+had not caught up with AI’s unique risks or society’s needs. Yet, our product
+development teams needed concrete and actionable guidance as to what our
+principles meant and how they could uphold them. We leveraged the expertise on
+our research, policy, and engineering teams to develop guidance on how to fill
+that gap. </span></p>
+
+<p class=MsoNormal style='margin-bottom:.75pt'><span style='font-family:"Segoe UI",sans-serif'> </span></p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:1.4pt;
+margin-left:-.25pt;text-indent:-.5pt;line-height:103%'><span style='font-family:
+"Segoe UI",sans-serif'>The Responsible AI Standard is the product of a
+multi-year effort to define product development requirements for responsible
+AI.  We are making available this second version of the Responsible AI Standard
+to share what we have learned, invite feedback from others, and contribute to
+the discussion about building better norms and practices around AI. </span></p>
+
+<p class=MsoNormal style='margin-bottom:.75pt'><span style='font-family:"Segoe UI",sans-serif'> </span></p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:1.4pt;
+margin-left:-.25pt;text-indent:-.5pt;line-height:103%'><span style='font-family:
+"Segoe UI",sans-serif'>While our Standard is an important step in Microsoft’s
+responsible AI journey, it is just one step. As we make progress with
+implementation, we expect to encounter challenges that require us to pause,
+reflect, and adjust. Our Standard will remain a living document, evolving to
+address new research, technologies, laws, and learnings from within and outside
+the company.  </span></p>
+
+<p class=MsoNormal style='margin-bottom:.8pt'><span style='font-family:"Segoe UI",sans-serif'> </span></p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:1.4pt;
+margin-left:-.25pt;text-indent:-.5pt;line-height:103%'><span style='font-family:
+"Segoe UI",sans-serif'>There is a rich and active global dialog about how to
+create principled and actionable norms to ensure organizations develop and
+deploy AI responsibly. We have benefited from this discussion and will continue
+to contribute to it. We believe that industry, academia, civil society, and
+government need to collaborate to advance the state-of-the-art and learn from
+one another. Together, we need to answer open research questions, close
+measurement gaps, and design new practices, patterns, resources, and tools. </span></p>
+
+<p class=MsoNormal style='margin-bottom:.75pt'><span style='font-family:"Segoe UI",sans-serif'> </span></p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:1.4pt;
+margin-left:-.25pt;text-indent:-.5pt;line-height:103%'><span style='font-family:
+"Segoe UI",sans-serif'>As we continue our journey, we welcome feedback on our
+approach and insights on other ways forward: </span></p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:.8pt;
+margin-left:.05pt'><a href="https://aka.ms/ResponsibleAIQuestions"><span
+style='font-family:"Segoe UI",sans-serif;color:#0563C1'>https://aka.ms/ResponsibleAIQuestions</span></a><a
+href="https://aka.ms/ResponsibleAIQuestions"><span style='font-family:"Segoe UI",sans-serif;
+color:black;text-decoration:none'> </span></a></p>
+
+<p class=MsoNormal style='margin-bottom:.75pt'><span style='font-family:"Segoe UI",sans-serif'> </span></p>
+
+<p class=MsoNormal style='margin-bottom:.75pt'><span style='font-family:"Segoe UI",sans-serif'> </span></p>
+
+<p class=MsoNormal style='margin-bottom:.75pt'><span style='font-family:"Segoe UI",sans-serif'> </span></p>
+
+<p class=MsoNormal style='margin-bottom:.75pt'><span style='font-family:"Segoe UI",sans-serif'> </span></p>
+
+<p class=MsoNormal style='margin-bottom:.8pt'><span style='font-family:"Segoe UI",sans-serif'> </span></p>
+
+<p class=MsoNormal style='margin-bottom:.75pt'><span style='font-family:"Segoe UI",sans-serif'> </span></p>
+
+<p class=MsoNormal style='margin-bottom:.75pt'><span style='font-family:"Segoe UI",sans-serif'> </span></p>
+
+<p class=MsoNormal style='margin-bottom:.75pt'><span style='font-family:"Segoe UI",sans-serif'> </span></p>
+
+<p class=MsoNormal style='margin-bottom:.75pt'><span style='font-family:"Segoe UI",sans-serif'> </span></p>
+
+<p class=MsoNormal style='margin-bottom:.8pt'><span style='font-family:"Segoe UI",sans-serif'> </span></p>
+
+<p class=MsoNormal style='margin-bottom:0in'><span style='font-family:"Segoe UI",sans-serif'> </span></p>
+
+</div>
+
+<span style='font-size:11.0pt;line-height:107%;font-family:"Calibri",sans-serif;
+color:black'><br clear=all style='page-break-before:always'>
+</span>
+
+<div class=WordSection2>
+
+<h1 style='margin-left:-.25pt'><a name="_Toc27757">Accountability Goals </a></h1>
+
+<h2 style='margin-left:-.25pt'><b><span style='color:#3B3838'>Goal A1: </span></b>Impact
+assessment </h2>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:7.65pt;
+margin-left:-.25pt;text-indent:-.5pt;line-height:110%'><span style='font-size:
+10.5pt;line-height:110%;font-family:"Segoe UI",sans-serif'>Microsoft AI systems
+are assessed using Impact Assessments.  </span></p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:0in;
+margin-left:-.25pt;text-indent:-.5pt;line-height:110%'><b><i><span
+style='font-size:10.5pt;line-height:110%;font-family:"Segoe UI",sans-serif'>Applies
+to: </span></i></b><span style='font-size:10.5pt;line-height:110%;font-family:
+"Segoe UI",sans-serif'>All AI systems. </span></p>
+
+<table class=TableGrid border=0 cellspacing=0 cellpadding=0 width=720
+ style='width:539.9pt;margin-left:.3pt;border-collapse:collapse'>
+ <tr style='height:28.1pt'>
+  <td width=720 valign=bottom style='width:539.9pt;border:solid #F4B083 1.0pt;
+  background:#D83C15;padding:8.2pt 5.75pt 2.9pt 4.25pt;height:28.1pt'>
+  <p class=MsoNormal style='margin-bottom:0in'><b><span style='font-size:14.0pt;
+  line-height:107%;font-family:"Segoe UI",sans-serif;color:white'>Requirements                           </span></b></p>
+  </td>
+ </tr>
+ <tr style='height:66.55pt'>
+  <td width=720 valign=bottom style='width:539.9pt;border-top:none;border-left:
+  solid #F4B083 1.0pt;border-bottom:solid white 4.5pt;border-right:solid #F4B083 1.0pt;
+  background:#FEF5F4;padding:8.2pt 5.75pt 2.9pt 4.25pt;height:66.55pt'>
+  <p class=MsoNormal style='margin-top:0in;margin-right:6.75pt;margin-bottom:
+  0in;margin-left:0in'><b><span style='font-size:10.5pt;line-height:107%;
+  font-family:"Segoe UI",sans-serif'>A1.1</span></b><span style='font-size:
+  10.5pt;line-height:107%;font-family:"Segoe UI",sans-serif'> Assess the impact
+  of the system on people, organizations, and society by completing an Impact
+  Assessment early in the system’s development, typically when defining the
+  product vision and requirements. Document the effort using the Impact
+  Assessment template provided by the Office of Responsible AI. <b>Tags:</b>
+  Impact Assessment. </span></p>
+  </td>
+ </tr>
+ <tr style='height:51.05pt'>
+  <td width=720 valign=top style='width:539.9pt;border:solid #F4B083 1.0pt;
+  border-top:none;padding:8.2pt 5.75pt 2.9pt 4.25pt;height:51.05pt'>
+  <p class=MsoNormal style='margin-top:0in;margin-right:24.4pt;margin-bottom:
+  0in;margin-left:0in'><b><span style='font-size:10.5pt;line-height:107%;
+  font-family:"Segoe UI",sans-serif'>A1.2</span></b><span style='font-size:
+  10.5pt;line-height:107%;font-family:"Segoe UI",sans-serif'> Review the
+  completed Impact Assessment with the reviewers identified according to your
+  organization’s compliance process before development starts. Secure all
+  required approvals from those reviewers. <b>Tags:</b> Impact Assessment. </span></p>
+  </td>
+ </tr>
+ <tr style='height:49.3pt'>
+  <td width=720 valign=bottom style='width:539.9pt;border:solid #F4B083 1.0pt;
+  border-top:none;background:#FEF5F4;padding:8.2pt 5.75pt 2.9pt 4.25pt;
+  height:49.3pt'>
+  <p class=MsoNormal style='margin-bottom:0in;line-height:99%'><b><span
+  style='font-size:10.5pt;line-height:99%;font-family:"Segoe UI",sans-serif'>A1.3</span></b><span
+  style='font-size:10.5pt;line-height:99%;font-family:"Segoe UI",sans-serif'>
+  Update and review the Impact Assessment at least annually, when new intended
+  uses are added, and before advancing to a new release stage.   </span></p>
+  <p class=MsoNormal style='margin-bottom:0in'><b><span style='font-size:10.5pt;
+  line-height:107%;font-family:"Segoe UI",sans-serif'>Tags:</span></b><span
+  style='font-size:10.5pt;line-height:107%;font-family:"Segoe UI",sans-serif'>
+  Impact Assessment. </span></p>
+  </td>
+ </tr>
+</table>
+
+<p class=MsoNormal style='margin-bottom:7.9pt'><span style='font-family:"Segoe UI",sans-serif'> </span></p>
+
+<p class=MsoNormal style='margin-bottom:.75pt'><span style='font-family:"Segoe UI",sans-serif'> </span></p>
+
+<p class=MsoNormal style='margin-bottom:.75pt'><span style='font-family:"Segoe UI",sans-serif'> </span></p>
+
+<p class=MsoNormal style='margin-bottom:.75pt'><span style='font-family:"Segoe UI",sans-serif'> </span></p>
+
+<p class=MsoNormal style='margin-bottom:.8pt'><span style='font-family:"Segoe UI",sans-serif'> </span></p>
+
+<p class=MsoNormal style='margin-bottom:.75pt'><span style='font-family:"Segoe UI",sans-serif'> </span></p>
+
+<p class=MsoNormal style='margin-bottom:.75pt'><span style='font-family:"Segoe UI",sans-serif'> </span></p>
+
+<p class=MsoNormal style='margin-bottom:.75pt'><span style='font-family:"Segoe UI",sans-serif'> </span></p>
+
+<p class=MsoNormal style='margin-bottom:0in'><span style='font-family:"Segoe UI",sans-serif'> </span></p>
+
+<p class=MsoNormal style='margin-bottom:0in'><span style='font-family:"Segoe UI",sans-serif'>             </span></p>
+
+<h2 style='margin-left:-.25pt'><b><span style='color:#3B3838'>Goal A2: </span></b>Oversight
+of significant adverse impacts </h2>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:7.65pt;
+margin-left:-.25pt;text-indent:-.5pt;line-height:110%'><span style='font-size:
+10.5pt;line-height:110%;font-family:"Segoe UI",sans-serif'>Microsoft AI systems
+are reviewed to identify systems that may have a significant adverse impact on
+people, organizations, and society, and additional oversight and requirements
+are applied to those systems.   </span></p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:0in;
+margin-left:-.25pt;text-indent:-.5pt;line-height:110%'><b><i><span
+style='font-size:10.5pt;line-height:110%;font-family:"Segoe UI",sans-serif'>Applies
+to:</span></i></b><span style='font-size:10.5pt;line-height:110%;font-family:
+"Segoe UI",sans-serif'> All AI systems. </span></p>
+
+<table class=TableGrid border=0 cellspacing=0 cellpadding=0 width=720
+ style='width:539.9pt;margin-left:.3pt;border-collapse:collapse'>
+ <tr style='height:28.1pt'>
+  <td width=720 valign=bottom style='width:539.9pt;border:solid #F4B083 1.0pt;
+  background:#D83C15;padding:0in 2.0pt 2.9pt 4.25pt;height:28.1pt'>
+  <p class=MsoNormal style='margin-bottom:0in'><b><span style='font-size:14.0pt;
+  line-height:107%;font-family:"Segoe UI",sans-serif;color:white'>Requirements</span></b><b><span
+  style='font-size:14.0pt;line-height:107%;font-family:"Segoe UI",sans-serif;
+  color:#F28A19'> </span></b></p>
+  </td>
+ </tr>
+ <tr style='height:54.6pt'>
+  <td width=720 valign=bottom style='width:539.9pt;border-top:none;border-left:
+  solid #F4B083 1.0pt;border-bottom:solid white 4.5pt;border-right:solid #F4B083 1.0pt;
+  background:#FEF5F4;padding:0in 2.0pt 2.9pt 4.25pt;height:54.6pt'>
+  <p class=MsoNormal style='margin-top:0in;margin-right:9.8pt;margin-bottom:
+  0in;margin-left:0in'><b><span style='font-size:10.5pt;line-height:107%;
+  font-family:"Segoe UI",sans-serif'>A2.1</span></b><span style='font-size:
+  10.5pt;line-height:107%;font-family:"Segoe UI",sans-serif'> Review defined
+  Restricted Uses to determine whether the system meets the definition of any
+  Restricted Use. If it does, document this in the Impact Assessment, and
+  follow the requirements for the Restricted Use. <b>Tags:</b> Impact
+  Assessment. </span></p>
+  </td>
+ </tr>
+ <tr style='height:67.0pt'>
+  <td width=720 valign=bottom style='width:539.9pt;border:solid #F4B083 1.0pt;
+  border-top:none;padding:0in 2.0pt 2.9pt 4.25pt;height:67.0pt'>
+  <p class=MsoNormal style='margin-bottom:.05pt;line-height:99%'><b><span
+  style='font-size:10.5pt;line-height:99%;font-family:"Segoe UI",sans-serif'>A2.2</span></b><span
+  style='font-size:10.5pt;line-height:99%;font-family:"Segoe UI",sans-serif'> Answer
+  prompts in the Impact Assessment template to determine whether the system
+  meets the definition of a Sensitive Use</span><span style='font-size:10.5pt;
+  line-height:99%;font-family:"Segoe UI",sans-serif;color:#0563C1'>.</span><span
+  style='font-size:10.5pt;line-height:99%;font-family:"Segoe UI",sans-serif'>
+  If it does, report it to the Office of Responsible AI, and follow any
+  additional requirements resulting from a Sensitive Uses review. </span></p>
+  <p class=MsoNormal style='margin-bottom:0in'><b><span style='font-size:10.5pt;
+  line-height:107%;font-family:"Segoe UI",sans-serif'>Tags:</span></b><span
+  style='font-size:10.5pt;line-height:107%;font-family:"Segoe UI",sans-serif'>
+  Impact Assessment. </span></p>
+  </td>
+ </tr>
+ <tr style='height:51.3pt'>
+  <td width=720 valign=bottom style='width:539.9pt;border:solid #F4B083 1.0pt;
+  border-top:none;background:#FEF5F4;padding:0in 2.0pt 2.9pt 4.25pt;height:
+  51.3pt'>
+  <p class=MsoNormal style='margin-bottom:0in'><b><span style='font-size:10.5pt;
+  line-height:107%;font-family:"Segoe UI",sans-serif'>A2.3</span></b><span
+  style='font-size:10.5pt;line-height:107%;font-family:"Segoe UI",sans-serif'>
+  Review your systems at least annually against the definitions for Sensitive
+  Uses and Restricted Uses. If there are systems that meet the criteria for
+  Sensitive Uses, report them to the Office of Responsible AI. If there are
+  systems that meet the criteria for Restricted Uses, notify the Office of
+  Responsible AI. </span></p>
+  </td>
+ </tr>
+</table>
+
+<p class=MsoNormal style='margin-bottom:0in'><span style='font-family:"Segoe UI",sans-serif'> </span><br
+clear=all style='page-break-before:always'>
+</p>
+
+<h2 style='margin-left:-.25pt'><b><span style='color:#3B3838'>Goal A3: </span></b>Fit
+for purpose </h2>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:7.65pt;
+margin-left:-.25pt;text-indent:-.5pt;line-height:110%'><span style='font-size:
+10.5pt;line-height:110%;font-family:"Segoe UI",sans-serif'>Microsoft AI systems
+are fit for purpose in the sense that they provide valid solutions for the
+problems they are designed to solve. </span></p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:0in;
+margin-left:-.25pt;text-indent:-.5pt;line-height:110%'><b><i><span
+style='font-size:10.5pt;line-height:110%;font-family:"Segoe UI",sans-serif'>Applies
+to: </span></i></b><span style='font-size:10.5pt;line-height:110%;font-family:
+"Segoe UI",sans-serif'>All AI systems. </span></p>
+
+<table class=TableGrid border=0 cellspacing=0 cellpadding=0 width=720
+ style='width:539.65pt;margin-left:.3pt;border-collapse:collapse'>
+ <tr style='height:28.1pt'>
+  <td width=720 valign=bottom style='width:539.65pt;border:solid #F4B083 1.0pt;
+  background:#D83C15;padding:0in 3.05pt 2.85pt 4.25pt;height:28.1pt'>
+  <p class=MsoNormal style='margin-bottom:0in'><b><span style='font-size:14.0pt;
+  line-height:107%;font-family:"Segoe UI",sans-serif;color:white'>Requirements</span></b><b><span
+  style='font-size:14.0pt;line-height:107%;font-family:"Segoe UI",sans-serif;
+  color:#F28A19'> </span></b></p>
+  </td>
+ </tr>
+ <tr style='height:48.9pt'>
+  <td width=720 valign=bottom style='width:539.65pt;border:solid #F4B083 1.0pt;
+  border-top:none;background:#FEF5F4;padding:0in 3.05pt 2.85pt 4.25pt;
+  height:48.9pt'>
+  <p class=MsoNormal style='margin-top:0in;margin-right:22.6pt;margin-bottom:
+  0in;margin-left:0in'><b><span style='font-size:10.0pt;line-height:107%;
+  font-family:"Segoe UI",sans-serif'>A3.1</span></b><span style='font-size:
+  10.0pt;line-height:107%;font-family:"Segoe UI",sans-serif'> Document in the
+  Impact Assessment how the system’s use will solve the problem posed by each
+  intended use, recognizing that there may be multiple valid ways in which to
+  solve the problem. <b>Tags:</b> Impact Assessment. </span></p>
+  </td>
+ </tr>
+ <tr style='height:90.65pt'>
+  <td width=720 valign=bottom style='width:539.65pt;border:solid #F4B083 1.0pt;
+  border-top:none;padding:0in 3.05pt 2.85pt 4.25pt;height:90.65pt'>
+  <p class=MsoNormal style='margin-bottom:0in'><b><span style='font-size:10.0pt;
+  line-height:107%;font-family:"Segoe UI",sans-serif'>A3.2</span></b><span
+  style='font-size:10.0pt;line-height:107%;font-family:"Segoe UI",sans-serif'>
+  Define and document for each model in the AI system: </span></p>
+  <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:.05pt;
+  margin-left:.5in;text-indent:-.25in;line-height:98%'><span style='font-size:
+  10.0pt;line-height:98%;font-family:"Segoe UI",sans-serif'>1)<span
+  style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp; </span></span><span
+  style='font-size:10.0pt;line-height:98%;font-family:"Segoe UI",sans-serif'>the
+  model’s <i>proposed</i> <i>inputs </i>and how well they represent the
+  concepts they are intended to represent; include analysis of the limitations
+  of this representation, </span></p>
+  <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:0in;
+  margin-left:.5in;text-indent:-.25in;line-height:99%'><span style='font-size:
+  10.0pt;line-height:99%;font-family:"Segoe UI",sans-serif'>2)<span
+  style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp; </span></span><span
+  style='font-size:10.0pt;line-height:99%;font-family:"Segoe UI",sans-serif'>the
+  model’s <i>proposed</i> <i>output</i> and how well it represents the concept
+  it is intended to represent; include analysis of the limitations of this
+  representation, and </span></p>
+  <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:0in;
+  margin-left:.5in;text-indent:-.25in'><span style='font-size:10.0pt;
+  line-height:107%;font-family:"Segoe UI",sans-serif'>3)<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;
+  </span></span><span style='font-size:10.0pt;line-height:107%;font-family:
+  "Segoe UI",sans-serif'>limitations to the generalizability of the resulting
+  model based on the training and testing data that will be used.<b> </b></span></p>
+  </td>
+ </tr>
+ <tr style='height:60.55pt'>
+  <td width=720 valign=bottom style='width:539.65pt;border:solid #F4B083 1.0pt;
+  border-top:none;background:#FEF5F4;padding:0in 3.05pt 2.85pt 4.25pt;
+  height:60.55pt'>
+  <p class=MsoNormal style='margin-bottom:0in'><b><span style='font-size:10.0pt;
+  line-height:107%;font-family:"Segoe UI",sans-serif'>A3.3 </span></b><span
+  style='font-size:10.0pt;line-height:107%;font-family:"Segoe UI",sans-serif'>Define
+  and document Responsible Release Criteria for this Goal. Include: </span></p>
+  <p class=MsoNormal style='margin-top:0in;margin-right:193.25pt;margin-bottom:
+  0in;margin-left:.25in'><span style='font-size:10.0pt;line-height:107%;
+  font-family:"Segoe UI",sans-serif'>1)</span><span style='font-size:10.0pt;
+  line-height:107%;font-family:"Arial",sans-serif'> </span><span
+  style='font-size:10.0pt;line-height:107%;font-family:"Segoe UI",sans-serif'>a
+  concise definition of the problem being solved in the intended use, 2)</span><span
+  style='font-size:10.0pt;line-height:107%;font-family:"Arial",sans-serif'> </span><span
+  style='font-size:10.0pt;line-height:107%;font-family:"Segoe UI",sans-serif'>performance
+  metrics and their Responsible Release Criteria, and 3)</span><span
+  style='font-size:10.0pt;line-height:107%;font-family:"Arial",sans-serif'> </span><span
+  style='font-size:10.0pt;line-height:107%;font-family:"Segoe UI",sans-serif'>error
+  types and their Responsible Release Criteria. </span></p>
+  </td>
+ </tr>
+ <tr style='height:37.45pt'>
+  <td width=720 valign=bottom style='width:539.65pt;border:solid #F4B083 1.0pt;
+  border-top:none;padding:0in 3.05pt 2.85pt 4.25pt;height:37.45pt'>
+  <p class=MsoNormal style='margin-top:0in;margin-right:115.45pt;margin-bottom:
+  0in;margin-left:0in'><b><span style='font-size:10.0pt;line-height:107%;
+  font-family:"Segoe UI",sans-serif'>A3.4 </span></b><span style='font-size:
+  10.0pt;line-height:107%;font-family:"Segoe UI",sans-serif'>Document an
+  evaluation plan for each of the performance metrics and error types.  <b>Tags:</b>
+  Ongoing Evaluation Checkpoint.<b> </b></span></p>
+  </td>
+ </tr>
+ <tr style='height:60.6pt'>
+  <td width=720 valign=bottom style='width:539.65pt;border:solid #F4B083 1.0pt;
+  border-top:none;background:#FEF5F4;padding:0in 3.05pt 2.85pt 4.25pt;
+  height:60.6pt'>
+  <p class=MsoNormal style='margin-bottom:.05pt;line-height:99%'><b><span
+  style='font-size:10.0pt;line-height:99%;font-family:"Segoe UI",sans-serif'>A3.5</span></b><span
+  style='font-size:10.0pt;line-height:99%;font-family:"Segoe UI",sans-serif'>
+  Use the methods defined in requirement A3.4 to conduct evaluations. Document
+  the pre-release results of the evaluations. Determine and document how often
+  ongoing evaluation should be conducted to continue supporting this Goal.<b> </b></span></p>
+  <p class=MsoNormal style='margin-bottom:0in'><b><span style='font-size:10.0pt;
+  line-height:107%;font-family:"Segoe UI",sans-serif'>Tags:</span></b><span
+  style='font-size:10.0pt;line-height:107%;font-family:"Segoe UI",sans-serif'>
+  Ongoing Evaluation Checkpoint. </span></p>
+  </td>
+ </tr>
+ <tr style='height:90.65pt'>
+  <td width=720 valign=bottom style='width:539.65pt;border:solid #F4B083 1.0pt;
+  border-top:none;padding:0in 3.05pt 2.85pt 4.25pt;height:90.65pt'>
+  <p class=MsoNormal style='margin-bottom:0in'><b><span style='font-size:10.0pt;
+  line-height:107%;font-family:"Segoe UI",sans-serif'>A3.6</span></b><span
+  style='font-size:10.0pt;line-height:107%;font-family:"Segoe UI",sans-serif'>
+  Provide documentation to customers which describes the system’s:   </span></p>
+  <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:0in;
+  margin-left:.5in;text-indent:-.25in'><span style='font-size:10.0pt;
+  line-height:107%;font-family:"Segoe UI",sans-serif'>1)<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;
+  </span></span><span style='font-size:10.0pt;line-height:107%;font-family:
+  "Segoe UI",sans-serif'>intended uses, and </span></p>
+  <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:0in;
+  margin-left:.5in;text-indent:-.25in'><span style='font-size:10.0pt;
+  line-height:107%;font-family:"Segoe UI",sans-serif'>2)<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;
+  </span></span><span style='font-size:10.0pt;line-height:107%;font-family:
+  "Segoe UI",sans-serif'>evidence that the system is fit for purpose for each
+  intended use. </span></p>
+  <p class=MsoNormal style='margin-bottom:.05pt;line-height:98%'><span
+  style='font-size:10.0pt;line-height:98%;font-family:"Segoe UI",sans-serif'>When
+  the system is a platform service made available to<b> </b>external customers
+  or partners, include this information in the required Transparency Note. </span></p>
+  <p class=MsoNormal style='margin-bottom:0in'><b><span style='font-size:10.0pt;
+  line-height:107%;font-family:"Segoe UI",sans-serif'>Tags:</span></b><span
+  style='font-size:10.0pt;line-height:107%;font-family:"Segoe UI",sans-serif'>
+  Transparency Note. </span></p>
+  </td>
+ </tr>
+ <tr style='height:117.0pt'>
+  <td width=720 valign=bottom style='width:539.65pt;border:solid #F4B083 1.0pt;
+  border-top:none;background:#FEF5F4;padding:0in 3.05pt 2.85pt 4.25pt;
+  height:117.0pt'>
+  <p class=MsoNormal style='margin-bottom:1.75pt;line-height:99%'><b><span
+  style='font-size:10.0pt;line-height:99%;font-family:"Segoe UI",sans-serif'>A3.7</span></b><span
+  style='font-size:10.0pt;line-height:99%;font-family:"Segoe UI",sans-serif'>
+  If an intended use is not supported by evidence, or if evidence comes to
+  light that refutes that the system is fit for purpose for the intended use at
+  any point in the system’s use: </span></p>
+  <p class=MsoNormal style='margin-top:0in;margin-right:10.9pt;margin-bottom:
+  .35pt;margin-left:.25in;line-height:101%'><span style='font-family:"Segoe UI",sans-serif;
+  color:#3B3838'>1)</span><span style='font-family:"Arial",sans-serif;
+  color:#3B3838'> </span><span style='font-size:10.0pt;line-height:101%;
+  font-family:"Segoe UI",sans-serif'>remove the intended use from
+  customer-facing materials and make current customers aware of the issue, take
+  action to close the identified gap, or discontinue the system, </span><span
+  style='font-family:"Segoe UI",sans-serif;color:#3B3838'>2)</span><span
+  style='font-family:"Arial",sans-serif;color:#3B3838'> </span><span
+  style='font-size:10.0pt;line-height:101%;font-family:"Segoe UI",sans-serif'>revise
+  documentation related to the intended use, and </span></p>
+  <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:0in;
+  margin-left:.25in'><span style='font-family:"Segoe UI",sans-serif;color:#3B3838'>3)</span><span
+  style='font-family:"Arial",sans-serif;color:#3B3838'> </span><span
+  style='font-size:10.0pt;line-height:107%;font-family:"Segoe UI",sans-serif'>publish
+  the revised documentation to customers. </span></p>
+  <p class=MsoNormal style='margin-bottom:0in'><span style='font-size:10.0pt;
+  line-height:107%;font-family:"Segoe UI",sans-serif'>When the system is a
+  platform service made available to<b> </b>external customers or partners,
+  include this information in the required Transparency Note. </span></p>
+  </td>
+ </tr>
+ <tr style='height:24.05pt'>
+  <td width=720 valign=bottom style='width:539.65pt;border:solid #F4B083 1.0pt;
+  border-top:none;padding:0in 3.05pt 2.85pt 4.25pt;height:24.05pt'>
+  <p class=MsoNormal style='margin-bottom:0in'><b><span style='font-size:10.0pt;
+  line-height:107%;font-family:"Segoe UI",sans-serif'>A3.8</span></b><span
+  style='font-size:10.0pt;line-height:107%;font-family:"Segoe UI",sans-serif'> Communicate
+  with care about system benefits; follow any applicable guidance from your
+  attorney.  </span></p>
+  </td>
+ </tr>
+</table>
+
+<p class=MsoNormal style='margin-bottom:0in'><b><span style='font-size:16.0pt;
+line-height:107%;font-family:"Segoe UI",sans-serif;color:#3B3838'>         </span></b></p>
+
+<h2 style='margin-left:-.25pt'><b><span style='color:#3B3838'>Goal A4: </span></b>Data
+governance and management </h2>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:7.55pt;
+margin-left:-.25pt;text-indent:-.5pt;line-height:110%'><span style='font-size:
+10.5pt;line-height:110%;font-family:"Segoe UI",sans-serif'>Microsoft AI systems
+are subject to appropriate data governance and management practices. </span></p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:0in;
+margin-left:-.25pt;text-indent:-.5pt;line-height:110%'><b><i><span
+style='font-size:10.5pt;line-height:110%;font-family:"Segoe UI",sans-serif'>Applies
+to:</span></i></b><span style='font-size:10.5pt;line-height:110%;font-family:
+"Segoe UI",sans-serif'> All AI systems. </span></p>
+
+<table class=TableGrid border=0 cellspacing=0 cellpadding=0 width=720
+ style='width:539.9pt;margin-left:.3pt;border-collapse:collapse'>
+ <tr style='height:28.0pt'>
+  <td width=720 valign=bottom style='width:539.9pt;border:solid #F4B083 1.0pt;
+  background:#D83C15;padding:8.15pt 2.0pt 2.8pt 4.25pt;height:28.0pt'>
+  <p class=MsoNormal style='margin-bottom:0in'><b><span style='font-size:14.0pt;
+  line-height:107%;font-family:"Segoe UI",sans-serif;color:white'>Requirements</span></b><b><span
+  style='font-size:14.0pt;line-height:107%;font-family:"Segoe UI",sans-serif;
+  color:#F28A19'> </span></b></p>
+  </td>
+ </tr>
+ <tr style='height:50.95pt'>
+  <td width=720 valign=bottom style='width:539.9pt;border:solid #F4B083 1.0pt;
+  border-top:none;background:#FEF5F4;padding:8.15pt 2.0pt 2.8pt 4.25pt;
+  height:50.95pt'>
+  <p class=MsoNormal style='margin-bottom:0in'><b><span style='font-size:10.5pt;
+  line-height:107%;font-family:"Segoe UI",sans-serif'>A4.1 </span></b><span
+  style='font-size:10.5pt;line-height:107%;font-family:"Segoe UI",sans-serif'>Define
+  and document data requirements with respect to the system’s intended uses,
+  stakeholders, and the geographic areas where the system will be deployed.
+  Document these requirements in the Impact Assessment.  <b>Tags:</b> Impact
+  Assessment. </span></p>
+  </td>
+ </tr>
+ <tr style='height:38.8pt'>
+  <td width=720 valign=bottom style='width:539.9pt;border:solid #F4B083 1.0pt;
+  border-top:none;padding:8.15pt 2.0pt 2.8pt 4.25pt;height:38.8pt'>
+  <p class=MsoNormal style='margin-bottom:0in'><b><span style='font-size:10.5pt;
+  line-height:107%;font-family:"Segoe UI",sans-serif'>A4.2</span></b><span
+  style='font-size:10.5pt;line-height:107%;font-family:"Segoe UI",sans-serif'>
+  Define and document procedures for the collection and processing of data, to
+  include annotation, labelling, cleaning, enrichment, and aggregation, where
+  relevant.<b> </b></span></p>
+  </td>
+ </tr>
+ <tr style='height:64.85pt'>
+  <td width=720 valign=top style='width:539.9pt;border-top:none;border-left:
+  solid #F4B083 1.0pt;border-bottom:solid white 4.5pt;border-right:solid #F4B083 1.0pt;
+  background:#FEF5F4;padding:8.15pt 2.0pt 2.8pt 4.25pt;height:64.85pt'>
+  <p class=MsoNormal style='margin-bottom:0in;line-height:99%'><b><span
+  style='font-size:10.5pt;line-height:99%;font-family:"Segoe UI",sans-serif'>A4.3</span></b><span
+  style='font-size:10.5pt;line-height:99%;font-family:"Segoe UI",sans-serif'> If
+  you plan to use existing data sets to train the system, assess the quantity
+  and suitability of available data sets that will be needed by the system in
+  relation to the data requirements defined in A4.1.  Document this assessment
+  in the Impact Assessment.  </span></p>
+  <p class=MsoNormal style='margin-bottom:0in'><b><span style='font-size:10.5pt;
+  line-height:107%;font-family:"Segoe UI",sans-serif'>Tags:</span></b><span
+  style='font-size:10.5pt;line-height:107%;font-family:"Segoe UI",sans-serif'>
+  Impact Assessment. </span></p>
+  </td>
+ </tr>
+ <tr style='height:37.1pt'>
+  <td width=720 valign=top style='width:539.9pt;border:solid #F4B083 1.0pt;
+  border-top:none;padding:8.15pt 2.0pt 2.8pt 4.25pt;height:37.1pt'>
+  <p class=MsoNormal style='margin-bottom:0in'><b><span style='font-size:10.5pt;
+  line-height:107%;font-family:"Segoe UI",sans-serif'>A4.4</span></b><span
+  style='font-size:10.5pt;line-height:107%;font-family:"Segoe UI",sans-serif'>
+  Define and document methods for evaluating data to be used by the system
+  against the requirements defined in A4.1. </span></p>
+  </td>
+ </tr>
+ <tr style='height:21.35pt'>
+  <td width=720 valign=bottom style='width:539.9pt;border:solid #F4B083 1.0pt;
+  border-top:none;background:#FEF5F4;padding:8.15pt 2.0pt 2.8pt 4.25pt;
+  height:21.35pt'>
+  <p class=MsoNormal style='margin-bottom:0in;text-align:justify;text-justify:
+  inter-ideograph'><b><span style='font-size:10.5pt;line-height:107%;
+  font-family:"Segoe UI",sans-serif'>A4.5</span></b><span style='font-size:
+  10.5pt;line-height:107%;font-family:"Segoe UI",sans-serif'> Evaluate all data
+  sets using the methods defined in requirement A4.4. Document the results of
+  the evaluation. </span></p>
+  </td>
+ </tr>
+</table>
+
+<p class=MsoNormal style='margin-bottom:0in'><span style='font-family:"Segoe UI",sans-serif'>             </span></p>
+
+<h2 style='margin-left:-.25pt'><b><span style='color:#3B3838'>Goal A5: </span></b>Human
+oversight and control </h2>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:7.55pt;
+margin-left:-.25pt;text-indent:-.5pt;line-height:110%'><span style='font-size:
+10.5pt;line-height:110%;font-family:"Segoe UI",sans-serif'>Microsoft AI systems
+include capabilities that support informed human oversight and control.  </span></p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:0in;
+margin-left:-.25pt;text-indent:-.5pt;line-height:110%'><b><i><span
+style='font-size:10.5pt;line-height:110%;font-family:"Segoe UI",sans-serif'>Applies
+to:</span></i></b><span style='font-size:10.5pt;line-height:110%;font-family:
+"Segoe UI",sans-serif'> All AI systems. </span></p>
+
+<table class=TableGrid border=0 cellspacing=0 cellpadding=0 width=720
+ style='width:539.9pt;margin-left:.3pt;border-collapse:collapse'>
+ <tr style='height:28.0pt'>
+  <td width=720 valign=bottom style='width:539.9pt;border:solid #F4B083 1.0pt;
+  background:#D83C15;padding:0in 4.35pt 2.9pt 4.25pt;height:28.0pt'>
+  <p class=MsoNormal style='margin-bottom:0in'><b><span style='font-size:14.0pt;
+  line-height:107%;font-family:"Segoe UI",sans-serif;color:white'>Requirements</span></b><b><span
+  style='font-size:14.0pt;line-height:107%;font-family:"Segoe UI",sans-serif;
+  color:#F28A19'> </span></b></p>
+  </td>
+ </tr>
+ <tr style='height:64.9pt'>
+  <td width=720 valign=bottom style='width:539.9pt;border:solid #F4B083 1.0pt;
+  border-top:none;background:#FEF5F4;padding:0in 4.35pt 2.9pt 4.25pt;
+  height:64.9pt'>
+  <p class=MsoNormal style='margin-bottom:0in;line-height:99%'><b><span
+  style='font-size:10.5pt;line-height:99%;font-family:"Segoe UI",sans-serif'>A5.1</span></b><span
+  style='font-size:10.5pt;line-height:99%;font-family:"Segoe UI",sans-serif'> Identify
+  the stakeholders who are responsible for troubleshooting, managing,
+  operating, overseeing, and controlling the system during and after
+  deployment. Document these stakeholders and their oversight and control
+  responsibilities using the Impact Assessment template.  </span></p>
+  <p class=MsoNormal style='margin-bottom:0in'><b><span style='font-size:10.5pt;
+  line-height:107%;font-family:"Segoe UI",sans-serif'>Tags:</span></b><span
+  style='font-size:10.5pt;line-height:107%;font-family:"Segoe UI",sans-serif'>
+  Impact Assessment. </span></p>
+  </td>
+ </tr>
+ <tr style='height:164.45pt'>
+  <td width=720 valign=bottom style='width:539.9pt;border:solid #F4B083 1.0pt;
+  border-top:none;padding:0in 4.35pt 2.9pt 4.25pt;height:164.45pt'>
+  <p class=MsoNormal style='margin-bottom:.05pt;line-height:99%'><b><span
+  style='font-size:10.5pt;line-height:99%;font-family:"Segoe UI",sans-serif'>A5.2</span></b><span
+  style='font-size:10.5pt;line-height:99%;font-family:"Segoe UI",sans-serif'>
+  Identify the system elements (including system UX, features, alerting and
+  reporting functions, and educational materials) necessary for stakeholders
+  identified in requirement A5.1<b> </b>to effectively understand their
+  oversight responsibilities and carry them out.  Stakeholders must be able to
+  understand:  </span></p>
+  <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:0in;
+  margin-left:.5in;text-indent:-.25in'><span style='font-size:10.5pt;
+  line-height:107%;font-family:"Segoe UI",sans-serif'>1)<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;
+  </span></span><span style='font-size:10.5pt;line-height:107%;font-family:
+  "Segoe UI",sans-serif'>the system’s intended uses,  </span></p>
+  <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:0in;
+  margin-left:.5in;text-indent:-.25in'><span style='font-size:10.5pt;
+  line-height:107%;font-family:"Segoe UI",sans-serif'>2)<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;
+  </span></span><span style='font-size:10.5pt;line-height:107%;font-family:
+  "Segoe UI",sans-serif'>how to effectively execute interactions with the
+  system,  </span></p>
+  <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:0in;
+  margin-left:.5in;text-indent:-.25in'><span style='font-size:10.5pt;
+  line-height:107%;font-family:"Segoe UI",sans-serif'>3)<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;
+  </span></span><span style='font-size:10.5pt;line-height:107%;font-family:
+  "Segoe UI",sans-serif'>how to interpret system behavior,  </span></p>
+  <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:0in;
+  margin-left:.5in;text-indent:-.25in'><span style='font-size:10.5pt;
+  line-height:107%;font-family:"Segoe UI",sans-serif'>4)<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;
+  </span></span><span style='font-size:10.5pt;line-height:107%;font-family:
+  "Segoe UI",sans-serif'>when and how to override, intervene, or interrupt the
+  system, and  </span></p>
+  <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:0in;
+  margin-left:.5in;text-indent:-.25in;line-height:99%'><span style='font-size:
+  10.5pt;line-height:99%;font-family:"Segoe UI",sans-serif'>5)<span
+  style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp; </span></span><span
+  style='font-size:10.5pt;line-height:99%;font-family:"Segoe UI",sans-serif'>how
+  to remain aware of the possible tendency of over-relying on outputs produced
+  by the system (“automation bias”).  </span></p>
+  <p class=MsoNormal style='margin-bottom:0in'><span style='font-size:10.5pt;
+  line-height:107%;font-family:"Segoe UI",sans-serif'>Document the system
+  design elements that will support relevant stakeholders for each oversight
+  and control function.<b> </b></span></p>
+  </td>
+ </tr>
+ <tr style='height:49.25pt'>
+  <td width=720 valign=bottom style='width:539.9pt;border:solid #F4B083 1.0pt;
+  border-top:none;background:#FEF5F4;padding:0in 4.35pt 2.9pt 4.25pt;
+  height:49.25pt'>
+  <p class=MsoNormal style='margin-bottom:0in'><b><span style='font-size:10.5pt;
+  line-height:107%;font-family:"Segoe UI",sans-serif'>A5.3 </span></b><span
+  style='font-size:10.5pt;line-height:107%;font-family:"Segoe UI",sans-serif'>When
+  possible, design the system elements identified in A5.2. When this is not
+  possible (for example, when Microsoft is not responsible for the system UX),
+  provide guidance on human oversight considerations to the third party
+  responsible for implementing the system elements identified in A5.2. <b> </b></span></p>
+  </td>
+ </tr>
+ <tr style='height:80.7pt'>
+  <td width=720 valign=bottom style='width:539.9pt;border:solid #F4B083 1.0pt;
+  border-top:none;padding:0in 4.35pt 2.9pt 4.25pt;height:80.7pt'>
+  <p class=MsoNormal style='margin-bottom:0in'><b><span style='font-size:10.5pt;
+  line-height:107%;font-family:"Segoe UI",sans-serif'>A5.4</span></b><span
+  style='font-size:10.5pt;line-height:107%;font-family:"Segoe UI",sans-serif'> Define
+  and document the method to be used to evaluate whether each oversight or
+  control function can be accomplished by stakeholders in realistic conditions
+  of system use. Include the metrics or rubrics that will be used in the
+  evaluations. When this is not possible (for example, when Microsoft is not
+  responsible for oversight and control functions), provide guidance on
+  evaluating oversight and control functions to the third party responsible for
+  evaluating oversight or control functions. </span></p>
+  </td>
+ </tr>
+ <tr style='height:21.3pt'>
+  <td width=720 valign=bottom style='width:539.9pt;border:solid #F4B083 1.0pt;
+  border-top:none;background:#FEF5F4;padding:0in 4.35pt 2.9pt 4.25pt;
+  height:21.3pt'>
+  <p class=MsoNormal style='margin-bottom:0in'><b><span style='font-size:10.5pt;
+  line-height:107%;font-family:"Segoe UI",sans-serif'>A5.5</span></b><span
+  style='font-size:10.5pt;line-height:107%;font-family:"Segoe UI",sans-serif'>
+  Define and document Responsible Release Criteria to achieve this Goal.<b> </b></span></p>
+  </td>
+ </tr>
+ <tr style='height:38.75pt'>
+  <td width=720 valign=bottom style='width:539.9pt;border:solid #F4B083 1.0pt;
+  border-top:none;padding:0in 4.35pt 2.9pt 4.25pt;height:38.75pt'>
+  <p class=MsoNormal style='margin-bottom:0in'><b><span style='font-size:10.5pt;
+  line-height:107%;font-family:"Segoe UI",sans-serif'>A5.6</span></b><span
+  style='font-size:10.5pt;line-height:107%;font-family:"Segoe UI",sans-serif'>
+  Conduct evaluations defined by requirement A5.4 using a near-release version
+  of the system. Document the results.  </span></p>
+  </td>
+ </tr>
+ <tr style='height:49.3pt'>
+  <td width=720 valign=bottom style='width:539.9pt;border:solid #F4B083 1.0pt;
+  border-top:none;background:#FEF5F4;padding:0in 4.35pt 2.9pt 4.25pt;
+  height:49.3pt'>
+  <p class=MsoNormal style='margin-bottom:0in'><b><span style='font-size:10.5pt;
+  line-height:107%;font-family:"Segoe UI",sans-serif'>A5.7</span></b><span
+  style='font-size:10.5pt;line-height:107%;font-family:"Segoe UI",sans-serif'> If
+  there are Responsible Release Criteria for metrics or rubrics that have not
+  been met, consult with the reviewers named in the Impact Assessment, and in
+  the case of Sensitive Uses, with the Office of Responsible AI, to develop a
+  plan detailing how the gap will be managed until it can be closed. Document
+  that plan.  <b> </b></span></p>
+  </td>
+ </tr>
+</table>
+
+<p class=MsoNormal style='margin-bottom:0in'><span style='font-size:10.0pt;
+line-height:107%;font-family:"Segoe UI",sans-serif'> </span></p>
+
+<table class=TableGrid border=0 cellspacing=0 cellpadding=0 width=720
+ style='width:539.9pt;margin-left:.3pt;border-collapse:collapse'>
+ <tr style='height:28.0pt'>
+  <td width=720 valign=bottom style='width:539.9pt;border:solid #F4B083 1.0pt;
+  background:#D83C15;padding:0in 5.75pt 2.8pt 4.25pt;height:28.0pt'>
+  <p class=MsoNormal style='margin-bottom:0in'><b><span style='font-size:14.0pt;
+  line-height:107%;font-family:"Segoe UI",sans-serif;color:white'>Tools and
+  practices</span></b><span style='font-size:14.0pt;line-height:107%;
+  font-family:"Segoe UI",sans-serif;color:#F28A19'> </span></p>
+  </td>
+ </tr>
+ <tr style='height:23.0pt'>
+  <td width=720 valign=bottom style='width:539.9pt;border:solid #F4B083 1.0pt;
+  border-top:none;background:#FEF5F4;padding:0in 5.75pt 2.8pt 4.25pt;
+  height:23.0pt'>
+  <p class=MsoNormal style='margin-bottom:0in'><b><span style='font-size:10.5pt;
+  line-height:107%;font-family:"Segoe UI",sans-serif;color:#3B3838'>Recommendation
+  A5.3.</span></b><b><span style='font-size:10.5pt;line-height:107%;font-family:
+  "Segoe UI",sans-serif'>1</span></b><span style='font-size:10.5pt;line-height:
+  107%;font-family:"Segoe UI",sans-serif'> Follow the Guidelines for Human-AI
+  Interaction when designing the system. </span></p>
+  </td>
+ </tr>
+ <tr style='height:24.8pt'>
+  <td width=720 valign=bottom style='width:539.9pt;border:solid #F4B083 1.0pt;
+  border-top:none;padding:0in 5.75pt 2.8pt 4.25pt;height:24.8pt'>
+  <p class=MsoNormal style='margin-bottom:0in'><b><span style='font-size:10.5pt;
+  line-height:107%;font-family:"Segoe UI",sans-serif;color:#3B3838'>Recommendation
+  A5.4.1</span></b><span style='font-size:10.5pt;line-height:107%;font-family:
+  "Segoe UI",sans-serif;color:#3B3838'> </span><span style='font-size:10.5pt;
+  line-height:107%;font-family:"Segoe UI",sans-serif'>Assign user researchers
+  to design these evaluations. </span></p>
+  </td>
+ </tr>
+</table>
+
+<p class=MsoNormal style='margin-bottom:15.5pt'><span style='font-family:"Segoe UI",sans-serif'> </span></p>
+
+<h1 style='margin-left:-.25pt'><a name="_Toc27758">Transparency Goals </a></h1>
+
+<h2 style='margin-left:-.25pt'><b><span style='color:#3B3838'>Goal T1: </span></b><span
+style='color:#7961A7'>System intelligibility for decision making</span><b><span
+style='color:#3B3838'> </span></b></h2>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:7.65pt;
+margin-left:-.25pt;text-indent:-.5pt;line-height:110%'><span style='font-size:
+10.5pt;line-height:110%;font-family:"Segoe UI",sans-serif'>Microsoft AI systems
+that inform decision making by or about people are designed to support
+stakeholder needs for intelligibility of system behavior.  </span></p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:0in;
+margin-left:-.25pt;text-indent:-.5pt;line-height:110%'><b><i><span
+style='font-size:10.5pt;line-height:110%;font-family:"Segoe UI",sans-serif'>Applies
+to: </span></i></b><span style='font-size:10.5pt;line-height:110%;font-family:
+"Segoe UI",sans-serif'>All AI systems when the intended use of the generated
+outputs is to inform decision making by or about people. </span></p>
+
+<table class=TableGrid border=0 cellspacing=0 cellpadding=0 width=720
+ style='width:539.65pt;margin-left:.3pt;border-collapse:collapse'>
+ <tr style='height:28.1pt'>
+  <td width=720 valign=bottom style='width:539.65pt;border:solid #666666 1.0pt;
+  background:#7961A7;padding:0in 7.05pt 2.8pt 4.25pt;height:28.1pt'>
+  <p class=MsoNormal style='margin-bottom:0in'><b><span style='font-size:14.0pt;
+  line-height:107%;font-family:"Segoe UI",sans-serif;color:white'>Requirements</span></b><b><span
+  style='font-size:14.0pt;line-height:107%;font-family:"Segoe UI",sans-serif;
+  color:#F28A19'> </span></b></p>
+  </td>
+ </tr>
+ <tr style='height:78.85pt'>
+  <td width=720 valign=bottom style='width:539.65pt;border:solid #666666 1.0pt;
+  border-top:none;background:#F0EEF6;padding:0in 7.05pt 2.8pt 4.25pt;
+  height:78.85pt'>
+  <p class=MsoNormal style='margin-bottom:0in'><b><span style='font-size:10.5pt;
+  line-height:107%;font-family:"Segoe UI",sans-serif'>T1.1</span></b><span
+  style='font-size:10.5pt;line-height:107%;font-family:"Segoe UI",sans-serif'>
+  Identify:<b> </b></span></p>
+  <p class=MsoNormal style='margin-top:0in;margin-right:132.4pt;margin-bottom:
+  0in;margin-left:0in;text-indent:.25in;line-height:99%'><span
+  style='font-size:10.5pt;line-height:99%;font-family:"Segoe UI",sans-serif'>1)</span><span
+  style='font-size:10.5pt;line-height:99%;font-family:"Arial",sans-serif'> </span><span
+  style='font-size:10.5pt;line-height:99%;font-family:"Segoe UI",sans-serif'>stakeholders
+  who will use the outputs of the system to make decisions, and<b> </b>2)</span><span
+  style='font-size:10.5pt;line-height:99%;font-family:"Arial",sans-serif'> </span><span
+  style='font-size:10.5pt;line-height:99%;font-family:"Segoe UI",sans-serif'>stakeholders
+  who are subject to decisions informed by the system. <b> </b>Document these
+  stakeholders using the Impact Assessment template. </span></p>
+  <p class=MsoNormal style='margin-bottom:0in'><b><span style='font-size:10.5pt;
+  line-height:107%;font-family:"Segoe UI",sans-serif'>Tags:</span></b><span
+  style='font-size:10.5pt;line-height:107%;font-family:"Segoe UI",sans-serif'>
+  Impact Assessment.<b> </b></span></p>
+  </td>
+ </tr>
+ <tr style='height:150.5pt'>
+  <td width=720 valign=bottom style='width:539.65pt;border:solid #666666 1.0pt;
+  border-top:none;padding:0in 7.05pt 2.8pt 4.25pt;height:150.5pt'>
+  <p class=MsoNormal style='margin-bottom:0in;line-height:99%'><b><span
+  style='font-size:10.5pt;line-height:99%;font-family:"Segoe UI",sans-serif'>T1.2</span></b><span
+  style='font-size:10.5pt;line-height:99%;font-family:"Segoe UI",sans-serif'> Design
+  the system, including, when possible, the system UX, features, reporting
+  functions, and educational materials, so that stakeholders identified in
+  requirement T1.1 can:  </span></p>
+  <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:0in;
+  margin-left:.5in;text-indent:-.25in'><span style='font-size:10.5pt;
+  line-height:107%;font-family:"Segoe UI",sans-serif'>1)<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;
+  </span></span><span style='font-size:10.5pt;line-height:107%;font-family:
+  "Segoe UI",sans-serif'>understand the system’s intended uses, <b> </b></span></p>
+  <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:0in;
+  margin-left:.5in;text-indent:-.25in'><span style='font-size:10.5pt;
+  line-height:107%;font-family:"Segoe UI",sans-serif'>2)<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;
+  </span></span><span style='font-size:10.5pt;line-height:107%;font-family:
+  "Segoe UI",sans-serif'>interpret relevant system behavior effectively (i.e.,
+  in a way that supports informed decision making), and<b> </b></span></p>
+  <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:0in;
+  margin-left:.5in;text-indent:-.25in;line-height:99%'><span style='font-size:
+  10.5pt;line-height:99%;font-family:"Segoe UI",sans-serif'>3)<span
+  style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp; </span></span><span
+  style='font-size:10.5pt;line-height:99%;font-family:"Segoe UI",sans-serif'>remain
+  aware of the possible tendency of over-relying on outputs produced by the
+  system (&quot;automation bias&quot;). <b> </b></span></p>
+  <p class=MsoNormal style='margin-bottom:0in'><span style='font-size:10.5pt;
+  line-height:107%;font-family:"Segoe UI",sans-serif'>For the two categories of
+  stakeholders identified in requirement T1.1, document:<b> </b></span></p>
+  <p class=MsoNormal style='margin-top:0in;margin-right:64.95pt;margin-bottom:
+  0in;margin-left:.5in;text-indent:-.25in'><span style='font-size:10.5pt;
+  line-height:107%;font-family:"Segoe UI",sans-serif'>1)<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;
+  </span></span><span style='font-size:10.5pt;line-height:107%;font-family:
+  "Segoe UI",sans-serif'>how the system design will support their understanding
+  of the system’s intended uses, and <b> </b></span></p>
+  <p class=MsoNormal style='margin-top:0in;margin-right:64.95pt;margin-bottom:
+  0in;margin-left:.5in;text-indent:-.25in'><span style='font-size:10.5pt;
+  line-height:107%;font-family:"Segoe UI",sans-serif'>2)<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;
+  </span></span><span style='font-size:10.5pt;line-height:107%;font-family:
+  "Segoe UI",sans-serif'>how the system aids their ability to interpret
+  relevant system responses, and<b> </b>3)</span><span style='font-size:10.5pt;
+  line-height:107%;font-family:"Arial",sans-serif'> </span><span
+  style='font-size:10.5pt;line-height:107%;font-family:"Segoe UI",sans-serif'>how
+  the system design discourages automation bias. </span></p>
+  </td>
+ </tr>
+ <tr style='height:63.25pt'>
+  <td width=720 valign=bottom style='width:539.65pt;border:solid #666666 1.0pt;
+  border-top:none;background:#F0EEF6;padding:0in 7.05pt 2.8pt 4.25pt;
+  height:63.25pt'>
+  <p class=MsoNormal style='margin-bottom:0in;line-height:99%'><b><span
+  style='font-size:10.5pt;line-height:99%;font-family:"Segoe UI",sans-serif'>T1.3</span></b><span
+  style='font-size:10.5pt;line-height:99%;font-family:"Segoe UI",sans-serif'>
+  Define and document the method to be used to evaluate whether each
+  stakeholder who will make decisions or be subject to decisions based on the
+  behavior of the system can interpret the relevant system responses reasonably
+  well. Include the metrics or rubrics that will be used in the evaluations.<b>
+  </b></span></p>
+  <p class=MsoNormal style='margin-bottom:0in'><b><span style='font-size:10.5pt;
+  line-height:107%;font-family:"Segoe UI",sans-serif'>Tags:</span></b><span
+  style='font-size:10.5pt;line-height:107%;font-family:"Segoe UI",sans-serif'>
+  Ongoing Evaluation Checkpoint.<b> </b></span></p>
+  </td>
+ </tr>
+ <tr style='height:52.75pt'>
+  <td width=720 valign=bottom style='width:539.65pt;border:solid #666666 1.0pt;
+  border-top:none;padding:0in 7.05pt 2.8pt 4.25pt;height:52.75pt'>
+  <p class=MsoNormal style='margin-bottom:0in;line-height:99%'><b><span
+  style='font-size:10.5pt;line-height:99%;font-family:"Segoe UI",sans-serif'>T1.4</span></b><span
+  style='font-size:10.5pt;line-height:99%;font-family:"Segoe UI",sans-serif'> Define
+  and document a Responsible Release Plan, to include Responsible Release
+  Criteria to achieve this Goal. </span></p>
+  <p class=MsoNormal style='margin-bottom:0in'><b><span style='font-size:10.5pt;
+  line-height:107%;font-family:"Segoe UI",sans-serif'>Tags:</span></b><span
+  style='font-size:10.5pt;line-height:107%;font-family:"Segoe UI",sans-serif'>
+  Ongoing Evaluation Checkpoint.<b> </b></span></p>
+  </td>
+ </tr>
+ <tr style='height:49.25pt'>
+  <td width=720 valign=bottom style='width:539.65pt;border:solid #666666 1.0pt;
+  border-top:none;background:#F0EEF6;padding:0in 7.05pt 2.8pt 4.25pt;
+  height:49.25pt'>
+  <p class=MsoNormal style='margin-bottom:0in'><b><span style='font-size:10.5pt;
+  line-height:107%;font-family:"Segoe UI",sans-serif'>T1.5</span></b><span
+  style='font-size:10.5pt;line-height:107%;font-family:"Segoe UI",sans-serif'>
+  Conduct evaluations defined by requirement T1.3. Document the pre-release
+  results of the evaluations. </span></p>
+  <p class=MsoNormal style='margin-bottom:0in'><span style='font-size:10.5pt;
+  line-height:107%;font-family:"Segoe UI",sans-serif'>Determine and document
+  how often ongoing evaluation should be conducted to continue supporting this
+  Goal.<b> Tags:</b> Ongoing Evaluation Checkpoint.<b> </b></span></p>
+  </td>
+ </tr>
+ <tr style='height:52.7pt'>
+  <td width=720 valign=bottom style='width:539.65pt;border:solid #666666 1.0pt;
+  border-top:none;padding:0in 7.05pt 2.8pt 4.25pt;height:52.7pt'>
+  <p class=MsoNormal style='margin-bottom:0in'><b><span style='font-size:10.5pt;
+  line-height:107%;font-family:"Segoe UI",sans-serif'>T1.6</span></b><span
+  style='font-size:10.5pt;line-height:107%;font-family:"Segoe UI",sans-serif'> If
+  there are Responsible Release Criteria for metrics or rubrics that that have
+  not been met, consult with the reviewers named in the Impact Assessment, and
+  in the case of Sensitive Uses, with the Office of Responsible AI, to develop
+  a plan detailing how the gap will be managed until it can be closed. Document
+  that plan.<b> </b></span></p>
+  </td>
+ </tr>
+</table>
+
+<p class=MsoNormal style='margin-bottom:0in'><span style='font-family:"Segoe UI",sans-serif'> </span></p>
+
+<p class=MsoNormal style='margin-bottom:0in'><span style='font-size:10.5pt;
+line-height:107%;font-family:"Segoe UI",sans-serif'> </span></p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:1.15pt;margin-bottom:
+0in;margin-left:-.5in'>&nbsp;</p>
+
+<table class=TableGrid border=0 cellspacing=0 cellpadding=0 width=720
+ style='width:539.65pt;margin-left:.3pt;border-collapse:collapse'>
+ <tr style='height:28.0pt'>
+  <td width=720 valign=bottom style='width:539.65pt;border:solid #666666 1.0pt;
+  background:#7961A7;padding:0in 1.75pt 2.9pt 4.25pt;height:28.0pt'>
+  <p class=MsoNormal style='margin-bottom:0in'><b><span style='font-size:14.0pt;
+  line-height:107%;font-family:"Segoe UI",sans-serif;color:white'>Tools and
+  practices</span></b><b><span style='font-size:14.0pt;line-height:107%;
+  font-family:"Segoe UI",sans-serif;color:#F28A19'> </span></b></p>
+  </td>
+ </tr>
+ <tr style='height:64.9pt'>
+  <td width=720 valign=bottom style='width:539.65pt;border:solid #666666 1.0pt;
+  border-top:none;background:#F0EEF6;padding:0in 1.75pt 2.9pt 4.25pt;
+  height:64.9pt'>
+  <p class=MsoNormal style='margin-bottom:0in'><b><span style='font-size:10.5pt;
+  line-height:107%;font-family:"Segoe UI",sans-serif;color:#3B3838'>Recommendation
+  T1.2.1</span></b><span style='font-size:10.5pt;line-height:107%;font-family:
+  "Segoe UI",sans-serif;color:#3B3838'> </span><span style='font-size:10.5pt;
+  line-height:107%;font-family:"Segoe UI",sans-serif'>Follow the Guidelines for
+  Human-AI Interaction when designing the system. </span></p>
+  <p class=MsoNormal style='margin-bottom:0in'><span style='font-size:10.5pt;
+  line-height:107%;font-family:"Segoe UI",sans-serif'> </span></p>
+  <p class=MsoNormal style='margin-bottom:0in'><b><span style='font-size:10.5pt;
+  line-height:107%;font-family:"Segoe UI",sans-serif;color:#3B3838'>Recommendation
+  T1.2.2</span></b><span style='font-size:10.5pt;line-height:107%;font-family:
+  "Segoe UI",sans-serif;color:#3B3838'> </span><span style='font-size:10.5pt;
+  line-height:107%;font-family:"Segoe UI",sans-serif'>Use one or more
+  techniques available as part of the Interpret ML toolkit to understand the
+  impact of features on system behavior. This may help stakeholders who need to
+  understand model predictions. </span></p>
+  </td>
+ </tr>
+ <tr style='height:38.75pt'>
+  <td width=720 valign=bottom style='width:539.65pt;border:solid #666666 1.0pt;
+  border-top:none;padding:0in 1.75pt 2.9pt 4.25pt;height:38.75pt'>
+  <p class=MsoNormal style='margin-bottom:0in'><b><span style='font-size:10.5pt;
+  line-height:107%;font-family:"Segoe UI",sans-serif;color:#3B3838'>Recommendation
+  T1.3.1</span></b><span style='font-size:10.5pt;line-height:107%;font-family:
+  "Segoe UI",sans-serif;color:#3B3838'> </span><span style='font-size:10.5pt;
+  line-height:107%;font-family:"Segoe UI",sans-serif'>Assign user researchers
+  to define, design, and prioritize evaluations in appropriately realistic
+  contexts of use.  </span></p>
+  </td>
+ </tr>
+</table>
+
+<span style='font-size:11.0pt;line-height:107%;font-family:"Calibri",sans-serif;
+color:black'><br clear=all style='page-break-before:always'>
+</span>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<h2 style='margin-left:-.25pt'><b><span style='color:#3B3838'>Goal T2: </span></b><span
+style='color:#7961A7'>Communication to stakeholders</span><span
+style='color:#3B3838'>  </span></h2>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:7.45pt;
+margin-left:-.25pt;text-indent:-.5pt;line-height:110%'><span style='font-size:
+10.5pt;line-height:110%;font-family:"Segoe UI",sans-serif'>Microsoft provides
+information about the capabilities and limitations of our AI systems to support
+stakeholders in making informed choices about those systems.             </span></p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:0in;
+margin-left:-.25pt;text-indent:-.5pt;line-height:110%'><b><i><span
+style='font-size:10.5pt;line-height:110%;font-family:"Segoe UI",sans-serif'>Applies
+to:</span></i></b><span style='font-size:10.5pt;line-height:110%;font-family:
+"Segoe UI",sans-serif'> All AI systems. </span></p>
+
+<table class=TableGrid border=0 cellspacing=0 cellpadding=0 width=720
+ style='width:539.9pt;margin-left:.3pt;border-collapse:collapse'>
+ <tr style='height:28.0pt'>
+  <td width=720 valign=bottom style='width:539.9pt;border:solid #666666 1.0pt;
+  background:#7961A7;padding:0in 2.35pt 2.9pt 4.25pt;height:28.0pt'>
+  <p class=MsoNormal style='margin-bottom:0in'><b><span style='font-size:14.0pt;
+  line-height:107%;font-family:"Segoe UI",sans-serif;color:white'>Requirements</span></b><b><span
+  style='font-size:14.0pt;line-height:107%;font-family:"Segoe UI",sans-serif;
+  color:#F28A19'> </span></b></p>
+  </td>
+ </tr>
+ <tr style='height:78.9pt'>
+  <td width=720 valign=bottom style='width:539.9pt;border:solid #666666 1.0pt;
+  border-top:none;background:#F0EEF6;padding:0in 2.35pt 2.9pt 4.25pt;
+  height:78.9pt'>
+  <p class=MsoNormal style='margin-bottom:0in'><b><span style='font-size:10.5pt;
+  line-height:107%;font-family:"Segoe UI",sans-serif'>T2.1</span></b><span
+  style='font-size:10.5pt;line-height:107%;font-family:"Segoe UI",sans-serif'>
+  Identify:<b> </b></span></p>
+  <p class=MsoNormal style='margin-top:0in;margin-right:68.15pt;margin-bottom:
+  .05pt;margin-left:0in;text-indent:.25in;line-height:99%'><span
+  style='font-size:10.5pt;line-height:99%;font-family:"Segoe UI",sans-serif'>1)</span><span
+  style='font-size:10.5pt;line-height:99%;font-family:"Arial",sans-serif'> </span><span
+  style='font-size:10.5pt;line-height:99%;font-family:"Segoe UI",sans-serif'>stakeholders
+  who make decisions about whether to employ a system for particular tasks, and<b>
+  </b>2)</span><span style='font-size:10.5pt;line-height:99%;font-family:"Arial",sans-serif'>
+  </span><span style='font-size:10.5pt;line-height:99%;font-family:"Segoe UI",sans-serif'>stakeholders
+  who develop or deploy systems that integrate with this system. <b> </b>Document
+  these stakeholders in the Impact Assessment template. </span></p>
+  <p class=MsoNormal style='margin-bottom:0in'><b><span style='font-size:10.5pt;
+  line-height:107%;font-family:"Segoe UI",sans-serif'>Tags:</span></b><span
+  style='font-size:10.5pt;line-height:107%;font-family:"Segoe UI",sans-serif'>
+  Impact Assessment. </span></p>
+  </td>
+ </tr>
+ <tr style='height:178.45pt'>
+  <td width=720 valign=bottom style='width:539.9pt;border:solid #666666 1.0pt;
+  border-top:none;padding:0in 2.35pt 2.9pt 4.25pt;height:178.45pt'>
+  <p class=MsoNormal style='margin-bottom:.05pt;line-height:99%'><b><span
+  style='font-size:10.5pt;line-height:99%;font-family:"Segoe UI",sans-serif'>T2.2</span></b><span
+  style='font-size:10.5pt;line-height:99%;font-family:"Segoe UI",sans-serif'>
+  Publish documentation for the system so that stakeholders defined in T2.1 can
+  understand the system. Include: <b> </b></span></p>
+  <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:0in;
+  margin-left:.5in;text-indent:-.25in'><span style='font-size:10.5pt;
+  line-height:107%;font-family:"Segoe UI",sans-serif'>1)<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;
+  </span></span><span style='font-size:10.5pt;line-height:107%;font-family:
+  "Segoe UI",sans-serif'>capabilities,<b> </b></span></p>
+  <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:0in;
+  margin-left:.5in;text-indent:-.25in'><span style='font-size:10.5pt;
+  line-height:107%;font-family:"Segoe UI",sans-serif'>2)<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;
+  </span></span><span style='font-size:10.5pt;line-height:107%;font-family:
+  "Segoe UI",sans-serif'>intended uses,<b> </b></span></p>
+  <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:0in;
+  margin-left:.5in;text-indent:-.25in'><span style='font-size:10.5pt;
+  line-height:107%;font-family:"Segoe UI",sans-serif'>3)<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;
+  </span></span><span style='font-size:10.5pt;line-height:107%;font-family:
+  "Segoe UI",sans-serif'>uses that require extra care or guidance,<b> </b></span></p>
+  <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:0in;
+  margin-left:.5in;text-indent:-.25in;line-height:99%'><span style='font-size:
+  10.5pt;line-height:99%;font-family:"Segoe UI",sans-serif'>4)<span
+  style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp; </span></span><span
+  style='font-size:10.5pt;line-height:99%;font-family:"Segoe UI",sans-serif'>operational
+  factors and settings that allow for effective and responsible system use,<b> </b>5)</span><span
+  style='font-size:10.5pt;line-height:99%;font-family:"Arial",sans-serif'> </span><span
+  style='font-size:10.5pt;line-height:99%;font-family:"Segoe UI",sans-serif'>limitations,
+  including uses for which the system was not designed or evaluated, and<b> </b></span></p>
+  <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:0in;
+  margin-left:.5in;text-indent:-.25in;line-height:99%'><span style='font-size:
+  10.5pt;line-height:99%;font-family:"Segoe UI",sans-serif'>6)</span><span
+  style='font-size:10.5pt;line-height:99%;font-family:"Arial",sans-serif'> </span><span
+  style='font-size:10.5pt;line-height:99%;font-family:"Segoe UI",sans-serif'>evidence
+  of system accuracy and performance as well as a description of the extent to
+  which these results are generalizable across use cases that were not part of
+  the evaluation. <b> </b></span></p>
+  <p class=MsoNormal style='margin-bottom:.1pt;text-align:justify;text-justify:
+  inter-ideograph;line-height:99%'><span style='font-size:10.5pt;line-height:
+  99%;font-family:"Segoe UI",sans-serif'>When the system is a platform service
+  made available to external customers or partners, a Transparency Note is
+  required. </span></p>
+  <p class=MsoNormal style='margin-bottom:0in'><b><span style='font-size:10.5pt;
+  line-height:107%;font-family:"Segoe UI",sans-serif'>Tags:</span></b><span
+  style='font-size:10.5pt;line-height:107%;font-family:"Segoe UI",sans-serif'>
+  Transparency Note.<b> </b></span></p>
+  </td>
+ </tr>
+ <tr style='height:133.1pt'>
+  <td width=720 valign=bottom style='width:539.9pt;border:solid #666666 1.0pt;
+  border-top:none;background:#F0EEF6;padding:0in 2.35pt 2.9pt 4.25pt;
+  height:133.1pt'>
+  <p class=MsoNormal style='margin-bottom:0in'><b><span style='font-size:10.5pt;
+  line-height:107%;font-family:"Segoe UI",sans-serif'>T2.3</span></b><span
+  style='font-size:10.5pt;line-height:107%;font-family:"Segoe UI",sans-serif'>
+  Review and update documentation annually or when any of the following events
+  occur:<b> </b></span></p>
+  <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:0in;
+  margin-left:.25in;text-indent:0in'><span style='font-size:10.5pt;line-height:
+  107%;font-family:"Segoe UI",sans-serif'>1)<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;
+  </span></span><span style='font-size:10.5pt;line-height:107%;font-family:
+  "Segoe UI",sans-serif'>new uses are added,<b> </b></span></p>
+  <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:0in;
+  margin-left:.25in;text-indent:0in'><span style='font-size:10.5pt;line-height:
+  107%;font-family:"Segoe UI",sans-serif'>2)<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;
+  </span></span><span style='font-size:10.5pt;line-height:107%;font-family:
+  "Segoe UI",sans-serif'>functionality changes,<b> </b></span></p>
+  <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:0in;
+  margin-left:.25in;text-indent:0in'><span style='font-size:10.5pt;line-height:
+  107%;font-family:"Segoe UI",sans-serif'>3)<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;
+  </span></span><span style='font-size:10.5pt;line-height:107%;font-family:
+  "Segoe UI",sans-serif'>the product moves to a new release stage,<b> </b></span></p>
+  <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:.05pt;
+  margin-left:.25in;text-indent:0in;line-height:99%'><span style='font-size:
+  10.5pt;line-height:99%;font-family:"Segoe UI",sans-serif'>4)<span
+  style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp; </span></span><span
+  style='font-size:10.5pt;line-height:99%;font-family:"Segoe UI",sans-serif'>new
+  information about reliable and safe performance becomes known as defined by
+  requirement RS3.3, or<b> </b>5)</span><span style='font-size:10.5pt;
+  line-height:99%;font-family:"Arial",sans-serif'> </span><span
+  style='font-size:10.5pt;line-height:99%;font-family:"Segoe UI",sans-serif'>new
+  information about system accuracy and performance becomes available.<b> </b></span></p>
+  <p class=MsoNormal style='margin-bottom:0in;line-height:99%'><span
+  style='font-size:10.5pt;line-height:99%;font-family:"Segoe UI",sans-serif'>When
+  the system is a platform service made available to external customers or
+  partners, include this information in the required Transparency Note. </span></p>
+  <p class=MsoNormal style='margin-bottom:0in'><b><span style='font-size:10.5pt;
+  line-height:107%;font-family:"Segoe UI",sans-serif'>Tags:</span></b><span
+  style='font-size:10.5pt;line-height:107%;font-family:"Segoe UI",sans-serif'>
+  Transparency Note.<b> </b></span></p>
+  </td>
+ </tr>
+</table>
+
+<p class=MsoNormal style='margin-bottom:0in'><span style='font-family:"Segoe UI",sans-serif'>             </span></p>
+
+<h2 style='margin-left:-.25pt'><b><span style='color:#3B3838'>Goal T3: </span></b><span
+style='color:#7961A7'>Disclosure of AI interaction </span></h2>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:0in;
+margin-left:-.25pt;text-indent:-.5pt;line-height:110%'><span style='font-size:
+10.5pt;line-height:110%;font-family:"Segoe UI",sans-serif'>Microsoft AI systems
+are designed to inform people that they are interacting with an AI system or
+are using a system that generates or manipulates image, audio, or video content
+that could falsely appear to be authentic.  </span></p>
+
+<p class=MsoNormal style='margin-bottom:2.9pt'><b><i><span style='font-size:
+10.5pt;line-height:107%;font-family:"Segoe UI",sans-serif'> </span></i></b></p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:1.8pt;
+margin-left:-.25pt;text-indent:-.5pt;line-height:110%'><b><i><span
+style='font-size:10.5pt;line-height:110%;font-family:"Segoe UI",sans-serif'>Applies
+to: </span></i></b><span style='font-size:10.5pt;line-height:110%;font-family:
+"Segoe UI",sans-serif'>AI systems that impersonate interactions with humans,
+unless it is obvious from the circumstances or context of use that an AI system
+is in use.  AI systems that generate or manipulate image, audio, or video
+content that could falsely appear to be authentic. </span></p>
+
+<p class=MsoNormal style='margin-bottom:0in'><span style='font-size:10.0pt;
+line-height:107%;font-family:"Segoe UI",sans-serif'> </span></p>
+
+<table class=TableGrid border=0 cellspacing=0 cellpadding=0 width=720
+ style='width:539.9pt;margin-left:.3pt;border-collapse:collapse'>
+ <tr style='height:28.0pt'>
+  <td width=720 valign=bottom style='width:539.9pt;border:solid #666666 1.0pt;
+  background:#7961A7;padding:0in 5.75pt 2.8pt 4.25pt;height:28.0pt'>
+  <p class=MsoNormal style='margin-bottom:0in'><b><span style='font-size:14.0pt;
+  line-height:107%;font-family:"Segoe UI",sans-serif;color:white'>Requirements</span></b><b><span
+  style='font-size:14.0pt;line-height:107%;font-family:"Segoe UI",sans-serif;
+  color:#F28A19'> </span></b></p>
+  </td>
+ </tr>
+ <tr style='height:50.95pt'>
+  <td width=720 valign=bottom style='width:539.9pt;border:solid #666666 1.0pt;
+  border-top:none;background:#F0EEF6;padding:0in 5.75pt 2.8pt 4.25pt;
+  height:50.95pt'>
+  <p class=MsoNormal style='margin-top:0in;margin-right:14.8pt;margin-bottom:
+  0in;margin-left:0in'><b><span style='font-size:10.5pt;line-height:107%;
+  font-family:"Segoe UI",sans-serif'>T3.1</span></b><span style='font-size:
+  10.5pt;line-height:107%;font-family:"Segoe UI",sans-serif'> Identify
+  stakeholders who will use or be exposed to the system, in accordance with the
+  Impact Assessment requirements. Document these stakeholders using the Impact
+  Assessment template. <b>Tags:</b> Impact Assessment.<b> </b></span></p>
+  </td>
+ </tr>
+ <tr style='height:66.7pt'>
+  <td width=720 valign=bottom style='width:539.9pt;border:solid #666666 1.0pt;
+  border-top:none;padding:0in 5.75pt 2.8pt 4.25pt;height:66.7pt'>
+  <p class=MsoNormal style='margin-bottom:0in'><b><span style='font-size:10.5pt;
+  line-height:107%;font-family:"Segoe UI",sans-serif'>T3.2</span></b><span
+  style='font-size:10.5pt;line-height:107%;font-family:"Segoe UI",sans-serif'>
+  Design the system, including system UX, features, reporting functions,
+  educational materials, and outputs so that stakeholders identified in T3.1
+  will be informed of the type of AI system they are interacting with or
+  exposed to. Ensure that any image, audio, or video outputs that are intended
+  to be used outside the system are labelled as being produced by AI.<b> </b></span></p>
+  </td>
+ </tr>
+ <tr style='height:49.25pt'>
+  <td width=720 valign=bottom style='width:539.9pt;border:solid #666666 1.0pt;
+  border-top:none;background:#F0EEF6;padding:0in 5.75pt 2.8pt 4.25pt;
+  height:49.25pt'>
+  <p class=MsoNormal style='margin-bottom:0in;line-height:99%'><b><span
+  style='font-size:10.5pt;line-height:99%;font-family:"Segoe UI",sans-serif'>T3.3</span></b><span
+  style='font-size:10.5pt;line-height:99%;font-family:"Segoe UI",sans-serif'> Define
+  and document the method to be used to evaluate whether each stakeholder
+  identified in T3.1 is informed of the type of AI system they are interacting
+  with or exposed to. </span></p>
+  <p class=MsoNormal style='margin-bottom:0in'><b><span style='font-size:10.5pt;
+  line-height:107%;font-family:"Segoe UI",sans-serif'>Tags:</span></b><span
+  style='font-size:10.5pt;line-height:107%;font-family:"Segoe UI",sans-serif'>
+  Ongoing Evaluation Checkpoint. </span></p>
+  </td>
+ </tr>
+ <tr style='height:38.75pt'>
+  <td width=720 valign=bottom style='width:539.9pt;border:solid #666666 1.0pt;
+  border-top:none;padding:0in 5.75pt 2.8pt 4.25pt;height:38.75pt'>
+  <p class=MsoNormal style='margin-top:0in;margin-right:148.1pt;margin-bottom:
+  0in;margin-left:0in'><b><span style='font-size:10.5pt;line-height:107%;
+  font-family:"Segoe UI",sans-serif'>T3.4</span></b><span style='font-size:
+  10.5pt;line-height:107%;font-family:"Segoe UI",sans-serif'> Define and
+  document Responsible Release Criteria to achieve this Goal. <b>Tags:</b>
+  Ongoing Evaluation Checkpoint.<b> </b></span></p>
+  </td>
+ </tr>
+ <tr style='height:49.3pt'>
+  <td width=720 valign=bottom style='width:539.9pt;border:solid #666666 1.0pt;
+  border-top:none;background:#F0EEF6;padding:0in 5.75pt 2.8pt 4.25pt;
+  height:49.3pt'>
+  <p class=MsoNormal style='margin-bottom:0in'><b><span style='font-size:10.5pt;
+  line-height:107%;font-family:"Segoe UI",sans-serif'>T3.5</span></b><span
+  style='font-size:10.5pt;line-height:107%;font-family:"Segoe UI",sans-serif'>
+  Conduct evaluations defined by requirement T3.3. Document the pre-release
+  results of the evaluations. </span></p>
+  <p class=MsoNormal style='margin-bottom:0in'><span style='font-size:10.5pt;
+  line-height:107%;font-family:"Segoe UI",sans-serif'>Determine and document
+  how often ongoing evaluation should be conducted to continue supporting this
+  goal.<b> Tags:</b> Ongoing Evaluation Checkpoint.<b> </b></span></p>
+  </td>
+ </tr>
+</table>
+
+<p class=MsoNormal style='margin-bottom:0in'><span style='font-family:"Segoe UI",sans-serif'> </span></p>
+
+<p class=MsoNormal style='margin-bottom:0in'><span style='font-family:"Segoe UI",sans-serif'>             </span></p>
+
+<h1 style='margin-left:-.25pt'><a name="_Toc27759">Fairness Goals </a></h1>
+
+<h2 style='margin-left:-.25pt'><b><span style='color:#3B3838'>Goal F1: </span></b><span
+style='color:#4472C4'>Quality of service </span></h2>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:0in;
+margin-left:-.25pt;text-indent:-.5pt;line-height:110%'><span style='font-size:
+10.5pt;line-height:110%;font-family:"Segoe UI",sans-serif'>Microsoft AI systems
+are designed to provide a similar quality of service for identified demographic
+groups, including marginalized groups.  </span></p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:0in;
+margin-left:14.15pt'><span style='font-size:10.5pt;line-height:107%;font-family:
+"Segoe UI",sans-serif'> </span></p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:0in;
+margin-left:-.25pt;text-indent:-.5pt;line-height:110%'><b><i><span
+style='font-size:10.5pt;line-height:110%;font-family:"Segoe UI",sans-serif'>Applies
+to:</span></i></b><span style='font-size:10.5pt;line-height:110%;font-family:
+"Segoe UI",sans-serif'> AI systems when system users or people impacted by the
+system with different demographic characteristics might experience differences
+in quality of service that Microsoft can remedy by building the system
+differently. </span></p>
+
+<table class=TableGrid border=0 cellspacing=0 cellpadding=0 width=720
+ style='width:539.65pt;margin-left:.3pt;border-collapse:collapse'>
+ <tr style='height:28.0pt'>
+  <td width=720 valign=bottom style='width:539.65pt;border:solid #4472C4 1.0pt;
+  border-bottom:solid #4472C4 4.5pt;background:#4472C4;padding:0in 2.1pt 2.9pt 4.25pt;
+  height:28.0pt'>
+  <p class=MsoNormal style='margin-bottom:0in'><b><span style='font-size:14.0pt;
+  line-height:107%;font-family:"Segoe UI",sans-serif;color:white'>Requirements</span></b><b><span
+  style='font-size:14.0pt;line-height:107%;font-family:"Segoe UI",sans-serif;
+  color:#F28A19'> </span></b></p>
+  </td>
+ </tr>
+ <tr style='height:106.8pt'>
+  <td width=720 valign=bottom style='width:539.65pt;border:solid #8EAADB 1.0pt;
+  border-top:none;background:#D9E2F3;padding:0in 2.1pt 2.9pt 4.25pt;height:
+  106.8pt'>
+  <p class=MsoNormal style='margin-bottom:.05pt;line-height:99%'><b><span
+  style='font-size:10.5pt;line-height:99%;font-family:"Segoe UI",sans-serif'>F1.1</span></b><span
+  style='font-size:10.5pt;line-height:99%;font-family:"Segoe UI",sans-serif'>
+  Identify and prioritize demographic groups, including marginalized groups,
+  that may be at risk of experiencing worse quality of service based on
+  intended uses and geographic areas where the system will be deployed.
+  Include: </span></p>
+  <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:0in;
+  margin-left:.5in;text-indent:-.25in'><span style='font-size:10.5pt;
+  line-height:107%;font-family:"Segoe UI",sans-serif'>1)<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;
+  </span></span><span style='font-size:10.5pt;line-height:107%;font-family:
+  "Segoe UI",sans-serif'>groups defined by a single factor, and </span></p>
+  <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:0in;
+  margin-left:.5in;text-indent:-.25in'><span style='font-size:10.5pt;
+  line-height:107%;font-family:"Segoe UI",sans-serif'>2)<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;
+  </span></span><span style='font-size:10.5pt;line-height:107%;font-family:
+  "Segoe UI",sans-serif'>groups defined by a combination of factors. </span></p>
+  <p class=MsoNormal style='margin-top:0in;margin-right:55.25pt;margin-bottom:
+  0in;margin-left:0in'><span style='font-size:10.5pt;line-height:107%;
+  font-family:"Segoe UI",sans-serif'>Document the prioritized identified
+  demographic groups using the Impact Assessment template. <b>Tags:</b> Impact
+  Assessment.<b> </b></span></p>
+  </td>
+ </tr>
+ <tr style='height:38.75pt'>
+  <td width=720 valign=bottom style='width:539.65pt;border:solid #8EAADB 1.0pt;
+  border-top:none;padding:0in 2.1pt 2.9pt 4.25pt;height:38.75pt'>
+  <p class=MsoNormal style='margin-bottom:0in'><b><span style='font-size:10.5pt;
+  line-height:107%;font-family:"Segoe UI",sans-serif'>F1.2</span></b><span
+  style='font-size:10.5pt;line-height:107%;font-family:"Segoe UI",sans-serif'> Evaluate
+  all data sets to assess inclusiveness of identified demographic groups and
+  collect data to close gaps. Document this process and its results.<b> </b></span></p>
+  </td>
+ </tr>
+ <tr style='height:77.2pt'>
+  <td width=720 valign=bottom style='width:539.65pt;border:solid #8EAADB 1.0pt;
+  border-top:none;background:#D9E2F3;padding:0in 2.1pt 2.9pt 4.25pt;height:
+  77.2pt'>
+  <p class=MsoNormal style='margin-bottom:0in'><b><span style='font-size:10.5pt;
+  line-height:107%;font-family:"Segoe UI",sans-serif'>F1.3</span></b><span
+  style='font-size:10.5pt;line-height:107%;font-family:"Segoe UI",sans-serif'>
+  Define and document the evaluation that you will perform to support this
+  Goal. Include: </span></p>
+  <p class=MsoNormal style='margin-top:0in;margin-right:42.55pt;margin-bottom:
+  0in;margin-left:.25in;text-indent:0in'><span style='font-size:10.5pt;
+  line-height:107%;font-family:"Segoe UI",sans-serif'>1)<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;
+  </span></span><span style='font-size:10.5pt;line-height:107%;font-family:
+  "Segoe UI",sans-serif'>any system components to be evaluated, in addition to
+  the whole system,<b> </b></span></p>
+  <p class=MsoNormal style='margin-top:0in;margin-right:42.55pt;margin-bottom:
+  .05pt;margin-left:.25in;text-indent:0in;line-height:99%'><span
+  style='font-size:10.5pt;line-height:99%;font-family:"Segoe UI",sans-serif'>2)<span
+  style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp; </span></span><span
+  style='font-size:10.5pt;line-height:99%;font-family:"Segoe UI",sans-serif'>the
+  metrics to be used to evaluate the system components and the whole system,
+  and<b> </b>3)</span><span style='font-size:10.5pt;line-height:99%;font-family:
+  "Arial",sans-serif'> </span><span style='font-size:10.5pt;line-height:99%;
+  font-family:"Segoe UI",sans-serif'>a description of the data set to be used
+  for this evaluation.<b> </b></span></p>
+  <p class=MsoNormal style='margin-bottom:0in'><b><span style='font-size:10.5pt;
+  line-height:107%;font-family:"Segoe UI",sans-serif'>Tags:</span></b><span
+  style='font-size:10.5pt;line-height:107%;font-family:"Segoe UI",sans-serif'> Ongoing
+  Evaluation Checkpoint.<b> </b></span></p>
+  </td>
+ </tr>
+ <tr style='height:80.65pt'>
+  <td width=720 valign=bottom style='width:539.65pt;border:solid #8EAADB 1.0pt;
+  border-top:none;padding:0in 2.1pt 2.9pt 4.25pt;height:80.65pt'>
+  <p class=MsoNormal style='margin-bottom:0in'><b><span style='font-size:10.5pt;
+  line-height:107%;font-family:"Segoe UI",sans-serif'>F1.4</span></b><span
+  style='font-size:10.5pt;line-height:107%;font-family:"Segoe UI",sans-serif'>
+  Define and document Responsible Release Criteria to achieve this Goal, as
+  follows:  </span></p>
+  <p class=MsoNormal style='margin-bottom:0in'><span style='font-size:10.5pt;
+  line-height:107%;font-family:"Segoe UI",sans-serif'>For each metric,
+  document: </span></p>
+  <p class=MsoNormal style='margin-top:0in;margin-right:41.05pt;margin-bottom:
+  0in;margin-left:9.0pt;text-indent:.25in'><span style='font-size:10.5pt;
+  line-height:107%;font-family:"Segoe UI",sans-serif'>1)</span><span
+  style='font-size:10.5pt;line-height:107%;font-family:"Segoe UI",sans-serif'>any
+  target minimum performance level for all groups, and<b> </b></span></p>
+  <p class=MsoNormal style='margin-top:0in;margin-right:41.05pt;margin-bottom:
+  0in;margin-left:9.0pt;text-indent:.25in'><span style='font-size:10.5pt;
+  line-height:107%;font-family:"Segoe UI",sans-serif'>2)</span><span
+  style='font-size:10.5pt;line-height:107%;font-family:"Segoe UI",sans-serif'>the
+  target maximum (absolute or relative) performance difference between groups. <b>Tags:</b>
+  Ongoing Evaluation Checkpoint.<b> </b></span></p>
+  </td>
+ </tr>
+ <tr style='height:35.35pt'>
+  <td width=720 valign=bottom style='width:539.65pt;border:solid #8EAADB 1.0pt;
+  border-top:none;background:#D9E2F3;padding:0in 2.1pt 2.9pt 4.25pt;height:
+  35.35pt'>
+  <p class=MsoNormal style='margin-top:0in;margin-right:134.35pt;margin-bottom:
+  0in;margin-left:0in'><b><span style='font-size:10.5pt;line-height:107%;
+  font-family:"Segoe UI",sans-serif'>F1.5</span></b><span style='font-size:
+  10.5pt;line-height:107%;font-family:"Segoe UI",sans-serif'> Evaluate the
+  system according to the defined Responsible Release Criteria.  Tags: Ongoing
+  Evaluation Checkpoint.<b> </b></span></p>
+  </td>
+ </tr>
+ <tr style='height:136.45pt'>
+  <td width=720 valign=bottom style='width:539.65pt;border:solid #8EAADB 1.0pt;
+  border-top:none;padding:0in 2.1pt 2.9pt 4.25pt;height:136.45pt'>
+  <p class=MsoNormal style='margin-bottom:0in;line-height:99%'><b><span
+  style='font-size:10.5pt;line-height:99%;font-family:"Segoe UI",sans-serif'>F1.6</span></b><span
+  style='font-size:10.5pt;line-height:99%;font-family:"Segoe UI",sans-serif'> Reassess
+  the system design, including the choice of training data, features, objective
+  function, and training algorithm, to pursue the goals of:  </span></p>
+  <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:0in;
+  margin-left:.5in;text-indent:-.25in;line-height:99%'><span style='font-size:
+  10.5pt;line-height:99%;font-family:"Segoe UI",sans-serif'>1)<span
+  style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp; </span></span><span
+  style='font-size:10.5pt;line-height:99%;font-family:"Segoe UI",sans-serif'>improving
+  performance for any identified demographic group that does not meet any
+  target minimum performance level, and  </span></p>
+  <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:0in;
+  margin-left:.5in;text-indent:-.25in;line-height:99%'><span style='font-size:
+  10.5pt;line-height:99%;font-family:"Segoe UI",sans-serif'>2)<span
+  style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp; </span></span><span
+  style='font-size:10.5pt;line-height:99%;font-family:"Segoe UI",sans-serif'>minimizing
+  performance differences between identified demographic groups, paying
+  particular attention to those that exceed the target maximum, while
+  recognizing that doing so may appear to affect system performance and that it
+  is seldom clear how to make such tradeoffs.  </span></p>
+  <p class=MsoNormal style='margin-bottom:0in'><span style='font-size:10.5pt;
+  line-height:107%;font-family:"Segoe UI",sans-serif'>Consult with your
+  attorney to determine your approach to this, including how you will identify
+  and document tradeoffs.  </span></p>
+  </td>
+ </tr>
+ <tr style='height:26.0pt'>
+  <td width=720 style='width:539.65pt;border:solid #8EAADB 1.0pt;border-top:
+  none;padding:0in 2.1pt 2.9pt 4.25pt;height:26.0pt'>
+  <p class=MsoNormal style='margin-bottom:0in'><b><span style='font-size:10.5pt;
+  line-height:107%;font-family:"Segoe UI",sans-serif'>Tags:</span></b><span
+  style='font-size:10.5pt;line-height:107%;font-family:"Segoe UI",sans-serif'>
+  Ongoing Evaluation Checkpoint. </span></p>
+  </td>
+ </tr>
+ <tr style='height:91.15pt'>
+  <td width=720 valign=bottom style='width:539.65pt;border:solid #8EAADB 1.0pt;
+  border-top:none;background:#D9E2F3;padding:0in 2.1pt 2.9pt 4.25pt;height:
+  91.15pt'>
+  <p class=MsoNormal style='margin-bottom:0in;line-height:99%'><b><span
+  style='font-size:10.5pt;line-height:99%;font-family:"Segoe UI",sans-serif'>F1.7</span></b><span
+  style='font-size:10.5pt;line-height:99%;font-family:"Segoe UI",sans-serif'> Identify
+  and document any justifiable factors, such as circumstantial and other
+  operational factors (e.g., “background noise” for speech recognition systems
+  or “image resolution” for facial recognition systems), that account for:  </span></p>
+  <p class=MsoNormal style='margin-top:0in;margin-right:20.1pt;margin-bottom:
+  0in;margin-left:0in;text-indent:.25in'><span style='font-size:10.5pt;
+  line-height:107%;font-family:"Segoe UI",sans-serif'>1)</span><span
+  style='font-size:10.5pt;line-height:107%;font-family:"Arial",sans-serif'> </span><span
+  style='font-size:10.5pt;line-height:107%;font-family:"Segoe UI",sans-serif'>any
+  inability to meet any target minimum performance level for any identified
+  demographic group, and  2)</span><span style='font-size:10.5pt;line-height:
+  107%;font-family:"Arial",sans-serif'> </span><span style='font-size:10.5pt;
+  line-height:107%;font-family:"Segoe UI",sans-serif'>any remaining performance
+  differences between identified demographic groups.<b> Tags:</b> Ongoing
+  Evaluation Checkpoint.<b> </b></span></p>
+  </td>
+ </tr>
+ <tr style='height:52.75pt'>
+  <td width=720 valign=bottom style='width:539.65pt;border:solid #8EAADB 1.0pt;
+  border-top:none;padding:0in 2.1pt 2.9pt 4.25pt;height:52.75pt'>
+  <p class=MsoNormal style='margin-bottom:.05pt;line-height:99%'><b><span
+  style='font-size:10.5pt;line-height:99%;font-family:"Segoe UI",sans-serif'>F1.8</span></b><span
+  style='font-size:10.5pt;line-height:99%;font-family:"Segoe UI",sans-serif'>
+  Document the pre-release results from requirements F1.4, F1.5, and F1.6.
+  Determine and document how often ongoing evaluation should be conducted to
+  continue supporting this Goal.<b> </b></span></p>
+  <p class=MsoNormal style='margin-bottom:0in'><b><span style='font-size:10.5pt;
+  line-height:107%;font-family:"Segoe UI",sans-serif'>Tags:</span></b><span
+  style='font-size:10.5pt;line-height:107%;font-family:"Segoe UI",sans-serif'>
+  Ongoing Evaluation Checkpoint.<b> </b></span></p>
+  </td>
+ </tr>
+ <tr style='height:133.1pt'>
+  <td width=720 valign=bottom style='width:539.65pt;border:solid #8EAADB 1.0pt;
+  border-top:none;background:#D9E2F3;padding:0in 2.1pt 2.9pt 4.25pt;height:
+  133.1pt'>
+  <p class=MsoNormal style='margin-bottom:0in'><b><span style='font-size:10.5pt;
+  line-height:107%;font-family:"Segoe UI",sans-serif'>F1.9</span></b><span
+  style='font-size:10.5pt;line-height:107%;font-family:"Segoe UI",sans-serif'>
+  Publish information for customers about: <b> </b></span></p>
+  <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:0in;
+  margin-left:.5in;text-indent:-.25in'><span style='font-size:10.5pt;
+  line-height:107%;font-family:"Segoe UI",sans-serif'>1)<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;
+  </span></span><span style='font-size:10.5pt;line-height:107%;font-family:
+  "Segoe UI",sans-serif'>identified demographic groups for which performance
+  may not meet any target minimum performance </span></p>
+  <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:0in;
+  margin-left:.5in'><span style='font-size:10.5pt;line-height:107%;font-family:
+  "Segoe UI",sans-serif'>level,  </span></p>
+  <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:0in;
+  margin-left:.5in;text-indent:-.25in;line-height:99%'><span style='font-size:
+  10.5pt;line-height:99%;font-family:"Segoe UI",sans-serif'>2)<span
+  style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp; </span></span><span
+  style='font-size:10.5pt;line-height:99%;font-family:"Segoe UI",sans-serif'>any
+  remaining performance disparities between identified demographic groups that
+  may exceed the target maximum, and  </span></p>
+  <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:0in;
+  margin-left:.5in;text-indent:-.25in'><span style='font-size:10.5pt;
+  line-height:107%;font-family:"Segoe UI",sans-serif'>3)<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;
+  </span></span><span style='font-size:10.5pt;line-height:107%;font-family:
+  "Segoe UI",sans-serif'>any justifiable factors that account for these
+  performance levels and differences.  </span></p>
+  <p class=MsoNormal style='margin-bottom:0in;line-height:99%'><span
+  style='font-size:10.5pt;line-height:99%;font-family:"Segoe UI",sans-serif'>When
+  the system is a platform service made available to external customers or
+  partners, include this information in the required Transparency Note. </span></p>
+  <p class=MsoNormal style='margin-bottom:0in'><b><span style='font-size:10.5pt;
+  line-height:107%;font-family:"Segoe UI",sans-serif'>Tags:</span></b><span
+  style='font-size:10.5pt;line-height:107%;font-family:"Segoe UI",sans-serif'>
+  Transparency Note.<b> </b></span></p>
+  </td>
+ </tr>
+</table>
+
+<p class=MsoNormal style='margin-bottom:0in'><span style='font-family:"Segoe UI",sans-serif'> </span></p>
+
+<p class=MsoNormal style='margin-bottom:0in;text-align:justify;text-justify:
+inter-ideograph'><span style='font-family:"Segoe UI",sans-serif'>             </span></p>
+
+<table class=TableGrid border=0 cellspacing=0 cellpadding=0 width=726
+ style='width:544.15pt;margin-left:.3pt;border-collapse:collapse'>
+ <tr style='height:28.0pt'>
+  <td width=726 valign=bottom style='width:544.15pt;border:solid #4472C4 1.0pt;
+  border-bottom:solid #4472C4 4.5pt;background:#4472C4;padding:0in 5.75pt 2.8pt 4.25pt;
+  height:28.0pt'>
+  <p class=MsoNormal style='margin-bottom:0in'><b><span style='font-size:14.0pt;
+  line-height:107%;font-family:"Segoe UI",sans-serif;color:white'>Tools and
+  practices</span></b><b><span style='font-size:14.0pt;line-height:107%;
+  font-family:"Segoe UI",sans-serif;color:#F28A19'> </span></b></p>
+  </td>
+ </tr>
+ <tr style='height:176.65pt'>
+  <td width=726 valign=bottom style='width:544.15pt;border:solid #8EAADB 1.0pt;
+  border-top:none;background:#D9E2F3;padding:0in 5.75pt 2.8pt 4.25pt;
+  height:176.65pt'>
+  <p class=MsoNormal style='margin-bottom:0in;line-height:99%'><b><span
+  style='font-size:10.5pt;line-height:99%;font-family:"Segoe UI",sans-serif;
+  color:#3B3838'>Recommendation F1.1.1</span></b><span style='font-size:10.5pt;
+  line-height:99%;font-family:"Segoe UI",sans-serif;color:#3B3838'> </span><span
+  style='font-size:10.5pt;line-height:99%;font-family:"Segoe UI",sans-serif'>For
+  identifying people by age, gender identity, and ancestry in North America,
+  use Best Practices for Age, Gender Identity, and Ancestry</span><span
+  style='font-size:10.5pt;line-height:99%;font-family:"Segoe UI",sans-serif;
+  color:#0563C1'>.</span><span style='font-size:10.5pt;line-height:99%;
+  font-family:"Segoe UI",sans-serif'>  </span></p>
+  <p class=MsoNormal style='margin-bottom:0in'><span style='font-size:10.5pt;
+  line-height:107%;font-family:"Segoe UI",sans-serif'> </span></p>
+  <p class=MsoNormal style='margin-bottom:0in;line-height:99%'><b><span
+  style='font-size:10.5pt;line-height:99%;font-family:"Segoe UI",sans-serif;
+  color:#3B3838'>Recommendation F1.1.2</span></b><span style='font-size:10.5pt;
+  line-height:99%;font-family:"Segoe UI",sans-serif;color:#3B3838'> </span><span
+  style='font-size:10.5pt;line-height:99%;font-family:"Segoe UI",sans-serif'>Work
+  with user researchers to understand variations in demographic groups across
+  intended uses and geographic areas. </span></p>
+  <p class=MsoNormal style='margin-bottom:0in'><span style='font-size:10.5pt;
+  line-height:107%;font-family:"Segoe UI",sans-serif;color:#F28A19'> </span></p>
+  <p class=MsoNormal style='margin-bottom:.05pt;line-height:99%'><b><span
+  style='font-size:10.5pt;line-height:99%;font-family:"Segoe UI",sans-serif;
+  color:#3B3838'>Recommendation F1.1.3</span></b><i><span style='font-size:
+  10.5pt;line-height:99%;font-family:"Segoe UI",sans-serif;color:#3B3838'> </span></i><span
+  style='font-size:10.5pt;line-height:99%;font-family:"Segoe UI",sans-serif'>Work
+  with domain-specific subject matter experts to understand the factors that
+  impact performance of your system and how they vary across identified
+  demographic groups in this domain. </span></p>
+  <p class=MsoNormal style='margin-bottom:0in'><span style='font-size:10.5pt;
+  line-height:107%;font-family:"Segoe UI",sans-serif;color:#F28A19'> </span></p>
+  <p class=MsoNormal style='margin-bottom:0in'><b><span style='font-size:10.5pt;
+  line-height:107%;font-family:"Segoe UI",sans-serif;color:#3B3838'>Recommendation
+  F1.1.4</span></b><span style='font-size:10.5pt;line-height:107%;font-family:
+  "Segoe UI",sans-serif;color:#3B3838'> </span><span style='font-size:10.5pt;
+  line-height:107%;font-family:"Segoe UI",sans-serif'>Work with members of
+  identified demographic groups to understand the risks of and impacts
+  associated with differences in quality of service. Consider using the
+  Community Jury technique to conduct these discussions.</span><span
+  style='font-size:10.5pt;line-height:107%;font-family:"Segoe UI",sans-serif;
+  color:#F28A19'> </span></p>
+  </td>
+ </tr>
+ <tr style='height:80.7pt'>
+  <td width=726 valign=bottom style='width:544.15pt;border:solid #8EAADB 1.0pt;
+  border-top:none;padding:0in 5.75pt 2.8pt 4.25pt;height:80.7pt'>
+  <p class=MsoNormal style='margin-bottom:0in;line-height:99%'><b><span
+  style='font-size:10.5pt;line-height:99%;font-family:"Segoe UI",sans-serif;
+  color:#3B3838'>Recommendation F1.2.1</span></b><span style='font-size:10.5pt;
+  line-height:99%;font-family:"Segoe UI",sans-serif;color:#3B3838'> </span><span
+  style='font-size:10.5pt;line-height:99%;font-family:"Segoe UI",sans-serif'>Use
+  Analysis Platform to understand the representation of identified demographic
+  groups in data sets that you plan to use for training and evaluating your
+  system, respecting privacy controls for working with sensitive data. </span></p>
+  <p class=MsoNormal style='margin-bottom:0in'><span style='font-size:10.5pt;
+  line-height:107%;font-family:"Segoe UI",sans-serif'> </span></p>
+  <p class=MsoNormal style='margin-bottom:0in'><b><span style='font-size:10.5pt;
+  line-height:107%;font-family:"Segoe UI",sans-serif;color:#3B3838'>Recommendation
+  F1.2.2</span></b><span style='font-size:10.5pt;line-height:107%;font-family:
+  "Segoe UI",sans-serif;color:#3B3838'> </span><span style='font-size:10.5pt;
+  line-height:107%;font-family:"Segoe UI",sans-serif'>Document the
+  representation of identified demographic groups in a Datasheet. </span></p>
+  </td>
+ </tr>
+ <tr style='height:119.05pt'>
+  <td width=726 valign=bottom style='width:544.15pt;border:solid #8EAADB 1.0pt;
+  border-top:none;background:#D9E2F3;padding:0in 5.75pt 2.8pt 4.25pt;
+  height:119.05pt'>
+  <p class=MsoNormal style='margin-bottom:0in;line-height:99%'><b><span
+  style='font-size:10.5pt;line-height:99%;font-family:"Segoe UI",sans-serif;
+  color:#3B3838'>Recommendation F1.5.1</span></b><span style='font-size:10.5pt;
+  line-height:99%;font-family:"Segoe UI",sans-serif;color:#3B3838'> </span><span
+  style='font-size:10.5pt;line-height:99%;font-family:"Segoe UI",sans-serif'>Use
+  the Fairlearn Python toolkit’s assessment and mitigation capabilities, if
+  appropriate for the system. </span></p>
+  <p class=MsoNormal style='margin-bottom:0in'><span style='font-size:10.5pt;
+  line-height:107%;font-family:"Segoe UI",sans-serif'> </span></p>
+  <p class=MsoNormal style='margin-bottom:0in;line-height:99%'><b><span
+  style='font-size:10.5pt;line-height:99%;font-family:"Segoe UI",sans-serif;
+  color:#3B3838'>Recommendation F1.5.2</span></b><span style='font-size:10.5pt;
+  line-height:99%;font-family:"Segoe UI",sans-serif;color:#3B3838'> </span><span
+  style='font-size:10.5pt;line-height:99%;font-family:"Segoe UI",sans-serif'>Use
+  Error Analysis to help understand factors that may account for performance
+  levels and differences, if appropriate for the system. </span></p>
+  <p class=MsoNormal style='margin-bottom:0in'><span style='font-size:10.5pt;
+  line-height:107%;font-family:"Segoe UI",sans-serif;color:#F28A19'> </span></p>
+  <p class=MsoNormal style='margin-bottom:0in'><b><span style='font-size:10.5pt;
+  line-height:107%;font-family:"Segoe UI",sans-serif;color:#3B3838'>Recommendation
+  F1.5.3</span></b><span style='font-size:10.5pt;line-height:107%;font-family:
+  "Segoe UI",sans-serif;color:#3B3838'> </span><span style='font-size:10.5pt;
+  line-height:107%;font-family:"Segoe UI",sans-serif'>Use one or more
+  techniques available as part of the Interpret ML toolkit to help understand
+  factors that may account for performance levels and differences, if
+  appropriate for the system.</span><span style='font-size:10.5pt;line-height:
+  107%;font-family:"Segoe UI",sans-serif;color:#F28A19'> </span></p>
+  </td>
+ </tr>
+ <tr style='height:66.7pt'>
+  <td width=726 valign=bottom style='width:544.15pt;border:solid #8EAADB 1.0pt;
+  border-top:none;padding:0in 5.75pt 2.8pt 4.25pt;height:66.7pt'>
+  <p class=MsoNormal style='margin-bottom:0in;line-height:99%'><b><span
+  style='font-size:10.5pt;line-height:99%;font-family:"Segoe UI",sans-serif;
+  color:#3B3838'>Recommendation F1.6.1</span></b><span style='font-size:10.5pt;
+  line-height:99%;font-family:"Segoe UI",sans-serif;color:#3B3838'> </span><span
+  style='font-size:10.5pt;line-height:99%;font-family:"Segoe UI",sans-serif'>Use
+  the Fairlearn Python toolkit’s assessment and mitigation capabilities, if
+  appropriate for the system. </span></p>
+  <p class=MsoNormal style='margin-bottom:0in'><span style='font-size:10.5pt;
+  line-height:107%;font-family:"Segoe UI",sans-serif;color:#F28A19'> </span></p>
+  <p class=MsoNormal style='margin-bottom:0in'><b><span style='font-size:10.5pt;
+  line-height:107%;font-family:"Segoe UI",sans-serif;color:#3B3838'>Recommendation
+  F1.6.2</span></b><span style='font-size:10.5pt;line-height:107%;font-family:
+  "Segoe UI",sans-serif;color:#3B3838'> </span><span style='font-size:10.5pt;
+  line-height:107%;font-family:"Segoe UI",sans-serif'>Be prepared to collect
+  additional training data for identified demographic groups.<b> </b></span></p>
+  </td>
+ </tr>
+ <tr style='height:77.2pt'>
+  <td width=726 valign=bottom style='width:544.15pt;border:solid #8EAADB 1.0pt;
+  border-top:none;background:#D9E2F3;padding:0in 5.75pt 2.8pt 4.25pt;
+  height:77.2pt'>
+  <p class=MsoNormal style='margin-bottom:0in;line-height:99%'><b><span
+  style='font-size:10.5pt;line-height:99%;font-family:"Segoe UI",sans-serif;
+  color:#3B3838'>Recommendation F1.7.1</span></b><span style='font-size:10.5pt;
+  line-height:99%;font-family:"Segoe UI",sans-serif;color:#3B3838'> </span><span
+  style='font-size:10.5pt;line-height:99%;font-family:"Segoe UI",sans-serif'>Use
+  Error Analysis to help understand factors that may account for performance
+  levels and differences, if appropriate for the system.  </span></p>
+  <p class=MsoNormal style='margin-bottom:0in'><span style='font-size:10.5pt;
+  line-height:107%;font-family:"Segoe UI",sans-serif;color:#F28A19'> </span></p>
+  <p class=MsoNormal style='margin-bottom:0in'><b><span style='font-size:10.5pt;
+  line-height:107%;font-family:"Segoe UI",sans-serif;color:#3B3838'>Recommendation
+  F1.7.2</span></b><span style='font-size:10.5pt;line-height:107%;font-family:
+  "Segoe UI",sans-serif;color:#3B3838'> </span><span style='font-size:10.5pt;
+  line-height:107%;font-family:"Segoe UI",sans-serif'>Use one or more
+  techniques available as part of the Interpret ML toolkit to help understand
+  factors that may account for performance levels and differences, if
+  appropriate for the system.</span><span style='font-size:10.5pt;line-height:
+  107%;font-family:"Segoe UI",sans-serif;color:#F28A19'> </span></p>
+  </td>
+ </tr>
+</table>
+
+<p class=MsoNormal style='margin-bottom:0in;text-align:justify;text-justify:
+inter-ideograph'><b><span style='font-size:14.0pt;line-height:107%;font-family:
+"Segoe UI",sans-serif;color:#3B3838'>           </span></b></p>
+
+<h2 style='margin-left:-.25pt'><b><span style='color:#3B3838'>Goal F2: </span></b><span
+style='color:#4472C4'>Allocation of resources and opportunities </span></h2>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:7.45pt;
+margin-left:-.25pt;text-indent:-.5pt;line-height:110%'><span style='font-size:
+10.5pt;line-height:110%;font-family:"Segoe UI",sans-serif'>Microsoft AI systems
+that allocate resources or opportunities in essential domains are designed to
+do so in a manner that minimizes disparities in outcomes for identified
+demographic groups, including marginalized groups.   </span></p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:0in;
+margin-left:-.25pt;text-indent:-.5pt;line-height:110%'><b><i><span
+style='font-size:10.5pt;line-height:110%;font-family:"Segoe UI",sans-serif'>Applies
+to: </span></i></b><span style='font-size:10.5pt;line-height:110%;font-family:
+"Segoe UI",sans-serif'>AI systems that generate outputs that directly affect
+the allocation of resources or opportunities relating to finance, education,
+employment, healthcare, housing, insurance, or social welfare.<b><i> </i></b></span></p>
+
+<table class=TableGrid border=0 cellspacing=0 cellpadding=0 width=720
+ style='width:539.65pt;margin-left:.3pt;border-collapse:collapse'>
+ <tr style='height:32.75pt'>
+  <td width=720 valign=bottom style='width:539.65pt;border:solid #4472C4 1.0pt;
+  border-bottom:solid #4472C4 6.0pt;background:#4472C4;padding:0in 5.75pt 4.7pt 4.25pt;
+  height:32.75pt'>
+  <p class=MsoNormal style='margin-bottom:0in'><b><span style='font-size:14.0pt;
+  line-height:107%;font-family:"Segoe UI",sans-serif;color:white'>Requirements</span></b><b><span
+  style='font-family:"Segoe UI",sans-serif;color:#F28A19'> </span></b></p>
+  </td>
+ </tr>
+ <tr style='height:112.6pt'>
+  <td width=720 valign=bottom style='width:539.65pt;border:solid #8EAADB 1.0pt;
+  border-top:none;background:#D9E2F3;padding:0in 5.75pt 4.7pt 4.25pt;
+  height:112.6pt'>
+  <p class=MsoNormal style='margin-bottom:0in;line-height:99%'><b><span
+  style='font-size:10.5pt;line-height:99%;font-family:"Segoe UI",sans-serif'>F2.1</span></b><span
+  style='font-size:10.5pt;line-height:99%;font-family:"Segoe UI",sans-serif'> Identify
+  and prioritize demographic groups, including marginalized groups, that may be
+  at risk of being differentially impacted by the system based on intended uses
+  and geographic areas where the system will be deployed. Include: </span></p>
+  <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:0in;
+  margin-left:.5in;text-indent:-.25in'><span style='font-size:10.5pt;
+  line-height:107%;font-family:"Segoe UI",sans-serif'>1)<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;
+  </span></span><span style='font-size:10.5pt;line-height:107%;font-family:
+  "Segoe UI",sans-serif'>groups defined by a single factor, and<b> </b></span></p>
+  <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:0in;
+  margin-left:.5in;text-indent:-.25in'><span style='font-size:10.5pt;
+  line-height:107%;font-family:"Segoe UI",sans-serif'>2)<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;
+  </span></span><span style='font-size:10.5pt;line-height:107%;font-family:
+  "Segoe UI",sans-serif'>groups defined by a combination of factors.<b> </b></span></p>
+  <p class=MsoNormal style='margin-top:0in;margin-right:51.55pt;margin-bottom:
+  0in;margin-left:0in'><span style='font-size:10.5pt;line-height:107%;
+  font-family:"Segoe UI",sans-serif'>Document the prioritized identified
+  demographic groups using the Impact Assessment template.  <b>Tags:</b> Impact
+  Assessment.<b> </b></span></p>
+  </td>
+ </tr>
+ <tr style='height:45.65pt'>
+  <td width=720 valign=bottom style='width:539.65pt;border:solid #8EAADB 1.0pt;
+  border-top:none;padding:0in 5.75pt 4.7pt 4.25pt;height:45.65pt'>
+  <p class=MsoNormal style='margin-bottom:0in'><b><span style='font-size:10.5pt;
+  line-height:107%;font-family:"Segoe UI",sans-serif'>F2.2</span></b><span
+  style='font-size:10.5pt;line-height:107%;font-family:"Segoe UI",sans-serif'> Evaluate
+  all data sets to assess inclusiveness of identified demographic groups and
+  collect data to close any gaps. Document this process and its results.<b> </b></span></p>
+  </td>
+ </tr>
+ <tr style='height:81.9pt'>
+  <td width=720 valign=bottom style='width:539.65pt;border:solid #8EAADB 1.0pt;
+  border-top:none;background:#D9E2F3;padding:0in 5.75pt 4.7pt 4.25pt;
+  height:81.9pt'>
+  <p class=MsoNormal style='margin-bottom:0in'><b><span style='font-size:10.5pt;
+  line-height:107%;font-family:"Segoe UI",sans-serif'>F2.3</span></b><span
+  style='font-size:10.5pt;line-height:107%;font-family:"Segoe UI",sans-serif'>
+  Define and document the evaluation that you will perform to support this
+  Goal. Include:<b> </b></span></p>
+  <p class=MsoNormal style='margin-top:0in;margin-right:42.15pt;margin-bottom:
+  0in;margin-left:.25in;text-indent:0in'><span style='font-size:10.5pt;
+  line-height:107%;font-family:"Segoe UI",sans-serif'>1)<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;
+  </span></span><span style='font-size:10.5pt;line-height:107%;font-family:
+  "Segoe UI",sans-serif'>any system components to be evaluated, in addition to
+  the whole system,<b> </b></span></p>
+  <p class=MsoNormal style='margin-top:0in;margin-right:42.15pt;margin-bottom:
+  .05pt;margin-left:.25in;text-indent:0in;line-height:99%'><span
+  style='font-size:10.5pt;line-height:99%;font-family:"Segoe UI",sans-serif'>2)<span
+  style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp; </span></span><span
+  style='font-size:10.5pt;line-height:99%;font-family:"Segoe UI",sans-serif'>the
+  metrics to be used to evaluate the system components and the whole system,
+  and<b> </b>3)</span><span style='font-size:10.5pt;line-height:99%;font-family:
+  "Arial",sans-serif'> </span><span style='font-size:10.5pt;line-height:99%;
+  font-family:"Segoe UI",sans-serif'>the data set to be used for this
+  evaluation.<b> </b></span></p>
+  <p class=MsoNormal style='margin-bottom:0in'><b><span style='font-size:10.5pt;
+  line-height:107%;font-family:"Segoe UI",sans-serif'>Tags:</span></b><span
+  style='font-size:10.5pt;line-height:107%;font-family:"Segoe UI",sans-serif'> Ongoing
+  Evaluation Checkpoint.<b> </b></span></p>
+  </td>
+ </tr>
+ <tr style='height:73.6pt'>
+  <td width=720 valign=bottom style='width:539.65pt;border:solid #8EAADB 1.0pt;
+  border-top:none;padding:0in 5.75pt 4.7pt 4.25pt;height:73.6pt'>
+  <p class=MsoNormal style='margin-bottom:0in'><b><span style='font-size:10.5pt;
+  line-height:107%;font-family:"Segoe UI",sans-serif'>F2.4</span></b><span
+  style='font-size:10.5pt;line-height:107%;font-family:"Segoe UI",sans-serif'>
+  Define and document Responsible Release Criteria to achieve this Goal, as
+  follows:<b> </b></span></p>
+  <p class=MsoNormal style='margin-bottom:0in;line-height:99%'><span
+  style='font-size:10.5pt;line-height:99%;font-family:"Segoe UI",sans-serif'>For
+  each metric, document the target maximum difference (absolute or relative)
+  between the rates at which resources and opportunities are allocated to
+  groups. </span></p>
+  <p class=MsoNormal style='margin-bottom:0in'><b><span style='font-size:10.5pt;
+  line-height:107%;font-family:"Segoe UI",sans-serif'>Tags:</span></b><span
+  style='font-size:10.5pt;line-height:107%;font-family:"Segoe UI",sans-serif'>
+  Ongoing Evaluation Checkpoint.<b> </b></span></p>
+  </td>
+ </tr>
+ <tr style='height:40.0pt'>
+  <td width=720 valign=bottom style='width:539.65pt;border:solid #8EAADB 1.0pt;
+  border-top:none;background:#D9E2F3;padding:0in 5.75pt 4.7pt 4.25pt;
+  height:40.0pt'>
+  <p class=MsoNormal style='margin-top:0in;margin-right:131.5pt;margin-bottom:
+  0in;margin-left:0in'><b><span style='font-size:10.5pt;line-height:107%;
+  font-family:"Segoe UI",sans-serif'>F2.5</span></b><span style='font-size:
+  10.5pt;line-height:107%;font-family:"Segoe UI",sans-serif'> Evaluate the
+  system according to the defined Responsible Release Criteria. <b> Tags:</b>
+  Ongoing Evaluation Checkpoint.<b> </b></span></p>
+  </td>
+ </tr>
+ <tr style='height:157.4pt'>
+  <td width=720 valign=bottom style='width:539.65pt;border:solid #8EAADB 1.0pt;
+  border-top:none;padding:0in 5.75pt 4.7pt 4.25pt;height:157.4pt'>
+  <p class=MsoNormal style='margin-bottom:0in;line-height:99%'><b><span
+  style='font-size:10.5pt;line-height:99%;font-family:"Segoe UI",sans-serif'>F2.6</span></b><span
+  style='font-size:10.5pt;line-height:99%;font-family:"Segoe UI",sans-serif'> Reassess
+  the system design, including the choice of training data, features, objective
+  function, and training algorithm, to pursue the goal of minimizing
+  differences between the rates at which resources and opportunities are
+  allocated to identified demographic groups, paying particular attention to
+  those that exceed the target maximum difference, while recognizing that doing
+  so may appear to affect system performance and it is seldom clear how to make
+  such trade-offs. <b> </b></span></p>
+  <p class=MsoNormal style='margin-bottom:0in;line-height:99%'><span
+  style='font-size:10.5pt;line-height:99%;font-family:"Segoe UI",sans-serif'>Consult
+  with your attorney to determine your approach to this, including how you will
+  identify and document trade-offs. </span></p>
+  <p class=MsoNormal style='margin-bottom:0in'><b><span style='font-size:10.5pt;
+  line-height:107%;font-family:"Segoe UI",sans-serif'>Tags:</span></b><span
+  style='font-size:10.5pt;line-height:107%;font-family:"Segoe UI",sans-serif'>
+  Ongoing Evaluation Checkpoint. </span></p>
+  <p class=MsoNormal style='margin-top:0in;margin-right:526.7pt;margin-bottom:
+  0in;margin-left:0in'><span style='font-size:10.5pt;line-height:107%;
+  font-family:"Segoe UI",sans-serif'> <b> </b></span></p>
+  </td>
+ </tr>
+ <tr style='height:.75in'>
+  <td width=720 valign=bottom style='width:539.65pt;border:solid #8EAADB 1.0pt;
+  border-top:none;background:#D9E2F3;padding:0in 5.75pt 4.7pt 4.25pt;
+  height:.75in'>
+  <p class=MsoNormal style='margin-bottom:0in;line-height:99%'><b><span
+  style='font-size:10.5pt;line-height:99%;font-family:"Segoe UI",sans-serif'>F2.7</span></b><span
+  style='font-size:10.5pt;line-height:99%;font-family:"Segoe UI",sans-serif'>
+  Identify and document any justifiable factors that account for any remaining
+  differences between the rates at which resources and opportunities are
+  allocated to identified demographic groups.<b> </b></span></p>
+  <p class=MsoNormal style='margin-bottom:0in'><span style='font-size:10.5pt;
+  line-height:107%;font-family:"Segoe UI",sans-serif'>Tags: Ongoing Evaluation
+  Checkpoint.<b> </b></span></p>
+  </td>
+ </tr>
+ <tr style='height:59.6pt'>
+  <td width=720 valign=bottom style='width:539.65pt;border:solid #8EAADB 1.0pt;
+  border-top:none;padding:0in 5.75pt 4.7pt 4.25pt;height:59.6pt'>
+  <p class=MsoNormal style='margin-bottom:0in'><b><span style='font-size:10.5pt;
+  line-height:107%;font-family:"Segoe UI",sans-serif'>F2.8</span></b><span
+  style='font-size:10.5pt;line-height:107%;font-family:"Segoe UI",sans-serif'>
+  Document the pre-release results for the evaluation described by requirements
+  F2.4, F2.5, and F2.6. </span></p>
+  <p class=MsoNormal style='margin-bottom:0in'><span style='font-size:10.5pt;
+  line-height:107%;font-family:"Segoe UI",sans-serif'>Determine and document
+  how often ongoing evaluation should be conducted to continue supporting this
+  goal.<b> </b>Tags: Ongoing Evaluation Checkpoint.<b> </b></span></p>
+  </td>
+ </tr>
+ <tr style='height:95.9pt'>
+  <td width=720 valign=bottom style='width:539.65pt;border:solid #8EAADB 1.0pt;
+  border-top:none;background:#D9E2F3;padding:0in 5.75pt 4.7pt 4.25pt;
+  height:95.9pt'>
+  <p class=MsoNormal style='margin-bottom:0in'><b><span style='font-size:10.5pt;
+  line-height:107%;font-family:"Segoe UI",sans-serif'>F2.9</span></b><span
+  style='font-size:10.5pt;line-height:107%;font-family:"Segoe UI",sans-serif'>
+  Publish information for customers about:<b> </b></span></p>
+  <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:0in;
+  margin-left:27.0pt;text-indent:-.25in;line-height:99%'><span
+  style='font-size:10.5pt;line-height:99%;font-family:"Segoe UI",sans-serif'>1)<span
+  style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp; </span></span><span
+  style='font-size:10.5pt;line-height:99%;font-family:"Segoe UI",sans-serif'>any
+  remaining differences between the rates at which resources and opportunities
+  are allocated to identified demographic groups, and <b> </b></span></p>
+  <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:0in;
+  margin-left:27.0pt;text-indent:-.25in'><span style='font-size:10.5pt;
+  line-height:107%;font-family:"Segoe UI",sans-serif'>2)<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;
+  </span></span><span style='font-size:10.5pt;line-height:107%;font-family:
+  "Segoe UI",sans-serif'>any justifiable factors that account for these
+  differences. When the system is a platform service made available to external
+  customers or partners, include this information in the required Transparency
+  Note.<b> Tags:</b> Transparency Note.<b> </b></span></p>
+  </td>
+ </tr>
+</table>
+
+<p class=MsoNormal style='margin-bottom:0in'><span style='font-family:"Segoe UI",sans-serif'> </span></p>
+
+<p class=MsoNormal style='margin-bottom:0in;text-align:justify;text-justify:
+inter-ideograph'><span style='font-family:"Segoe UI",sans-serif'>             </span><br
+clear=all style='page-break-before:always'>
+</p>
+
+<table class=TableGrid border=0 cellspacing=0 cellpadding=0 width=720
+ style='width:539.65pt;margin-left:.3pt;border-collapse:collapse'>
+ <tr style='height:28.0pt'>
+  <td width=720 valign=bottom style='width:539.65pt;border:solid #4472C4 1.0pt;
+  border-bottom:solid #4472C4 4.5pt;background:#4472C4;padding:0in 5.75pt 2.8pt 4.25pt;
+  height:28.0pt'>
+  <p class=MsoNormal style='margin-bottom:0in'><b><span style='font-size:14.0pt;
+  line-height:107%;font-family:"Segoe UI",sans-serif;color:white'>Tools and
+  practices</span></b><span style='font-family:"Segoe UI",sans-serif;
+  color:#F28A19'> </span></p>
+  </td>
+ </tr>
+ <tr style='height:162.65pt'>
+  <td width=720 valign=bottom style='width:539.65pt;border:solid #8EAADB 1.0pt;
+  border-top:none;background:#D9E2F3;padding:0in 5.75pt 2.8pt 4.25pt;
+  height:162.65pt'>
+  <p class=MsoNormal style='margin-bottom:0in;line-height:99%'><b><span
+  style='font-size:10.5pt;line-height:99%;font-family:"Segoe UI",sans-serif;
+  color:#3B3838'>Recommendation F2.1.1</span></b><span style='font-size:10.5pt;
+  line-height:99%;font-family:"Segoe UI",sans-serif;color:#3B3838'> </span><span
+  style='font-size:10.5pt;line-height:99%;font-family:"Segoe UI",sans-serif'>For
+  North America, use Best Practices for Age, Gender Identity, and Ancestry to
+  help identify demographic groups and methods for collecting demographic
+  information.<b> </b></span></p>
+  <p class=MsoNormal style='margin-bottom:0in'><span style='font-size:10.5pt;
+  line-height:107%;font-family:"Segoe UI",sans-serif'> </span></p>
+  <p class=MsoNormal style='margin-bottom:0in;line-height:99%'><b><span
+  style='font-size:10.5pt;line-height:99%;font-family:"Segoe UI",sans-serif;
+  color:#3B3838'>Recommendation F2.1.2</span></b><span style='font-size:10.5pt;
+  line-height:99%;font-family:"Segoe UI",sans-serif;color:#3B3838'> </span><span
+  style='font-size:10.5pt;line-height:99%;font-family:"Segoe UI",sans-serif'>Work
+  with user researchers to understand variations in demographic groups across
+  intended uses and geographic areas. </span></p>
+  <p class=MsoNormal style='margin-bottom:0in'><span style='font-size:10.5pt;
+  line-height:107%;font-family:"Segoe UI",sans-serif'> </span></p>
+  <p class=MsoNormal style='margin-bottom:.05pt;line-height:99%'><b><span
+  style='font-size:10.5pt;line-height:99%;font-family:"Segoe UI",sans-serif;
+  color:#3B3838'>Recommendation F2.1.3</span></b><span style='font-size:10.5pt;
+  line-height:99%;font-family:"Segoe UI",sans-serif;color:#3B3838'> </span><span
+  style='font-size:10.5pt;line-height:99%;font-family:"Segoe UI",sans-serif'>Work
+  with domain-specific subject matter experts to understand the facts that
+  impact performance of your system and how they vary across identified
+  demographic groups in this domain. </span></p>
+  <p class=MsoNormal style='margin-bottom:0in'><span style='font-size:10.5pt;
+  line-height:107%;font-family:"Segoe UI",sans-serif'> </span></p>
+  <p class=MsoNormal style='margin-bottom:0in'><b><span style='font-size:10.5pt;
+  line-height:107%;font-family:"Segoe UI",sans-serif;color:#3B3838'>Recommendation
+  F2.1.4</span></b><span style='font-size:10.5pt;line-height:107%;font-family:
+  "Segoe UI",sans-serif;color:#3B3838'> </span><span style='font-size:10.5pt;
+  line-height:107%;font-family:"Segoe UI",sans-serif'>Work with members of
+  identified demographic groups to understand risks of and impacts associated
+  with differences between the rates at which resources and opportunities are
+  allocated. </span></p>
+  </td>
+ </tr>
+ <tr style='height:66.7pt'>
+  <td width=720 valign=bottom style='width:539.65pt;border:solid #8EAADB 1.0pt;
+  border-top:none;padding:0in 5.75pt 2.8pt 4.25pt;height:66.7pt'>
+  <p class=MsoNormal style='margin-bottom:0in;line-height:99%'><b><span
+  style='font-size:10.5pt;line-height:99%;font-family:"Segoe UI",sans-serif;
+  color:#3B3838'>Recommendation F2.2.1</span></b><span style='font-size:10.5pt;
+  line-height:99%;font-family:"Segoe UI",sans-serif;color:#3B3838'> </span><span
+  style='font-size:10.5pt;line-height:99%;font-family:"Segoe UI",sans-serif'>Use
+  Analysis Platform to understand the representation of identified demographic
+  groups, respecting privacy requirements for using sensitive data. </span></p>
+  <p class=MsoNormal style='margin-bottom:0in'><span style='font-size:10.5pt;
+  line-height:107%;font-family:"Segoe UI",sans-serif'> </span></p>
+  <p class=MsoNormal style='margin-bottom:0in'><b><span style='font-size:10.5pt;
+  line-height:107%;font-family:"Segoe UI",sans-serif;color:#3B3838'>Recommendation
+  F2.2.2</span></b><span style='font-size:10.5pt;line-height:107%;font-family:
+  "Segoe UI",sans-serif;color:#3B3838'> </span><span style='font-size:10.5pt;
+  line-height:107%;font-family:"Segoe UI",sans-serif'>Document the
+  representation of identified demographic groups in a Datasheet. </span></p>
+  </td>
+ </tr>
+ <tr style='height:147.0pt'>
+  <td width=720 valign=bottom style='width:539.65pt;border:solid #8EAADB 1.0pt;
+  border-top:none;background:#D9E2F3;padding:0in 5.75pt 2.8pt 4.25pt;
+  height:147.0pt'>
+  <p class=MsoNormal style='margin-bottom:0in;line-height:99%'><b><span
+  style='font-size:10.5pt;line-height:99%;font-family:"Segoe UI",sans-serif;
+  color:#3B3838'>Recommendation F2.5.1</span></b><span style='font-size:10.5pt;
+  line-height:99%;font-family:"Segoe UI",sans-serif;color:#3B3838'> </span><span
+  style='font-size:10.5pt;line-height:99%;font-family:"Segoe UI",sans-serif'>Use
+  the Fairlearn Python toolkit’s assessment and mitigation capabilities, if
+  appropriate for the system.  </span></p>
+  <p class=MsoNormal style='margin-bottom:0in'><span style='font-size:10.5pt;
+  line-height:107%;font-family:"Segoe UI",sans-serif'> </span></p>
+  <p class=MsoNormal style='margin-bottom:0in;line-height:99%'><b><span
+  style='font-size:10.5pt;line-height:99%;font-family:"Segoe UI",sans-serif;
+  color:#3B3838'>Recommendation F2.5.2</span></b><span style='font-size:10.5pt;
+  line-height:99%;font-family:"Segoe UI",sans-serif;color:#3B3838'> </span><span
+  style='font-size:10.5pt;line-height:99%;font-family:"Segoe UI",sans-serif'>Use
+  Error Analysis to help understand factors that may account for differences
+  between the rates at which resources and opportunities are allocated to the
+  identified demographic groups, if appropriate for the system.  </span></p>
+  <p class=MsoNormal style='margin-bottom:0in'><span style='font-size:10.5pt;
+  line-height:107%;font-family:"Segoe UI",sans-serif'> </span></p>
+  <p class=MsoNormal style='margin-bottom:0in'><b><span style='font-size:10.5pt;
+  line-height:107%;font-family:"Segoe UI",sans-serif;color:#3B3838'>Recommendation
+  F2.5.3</span></b><span style='font-size:10.5pt;line-height:107%;font-family:
+  "Segoe UI",sans-serif;color:#3B3838'> </span><span style='font-size:10.5pt;
+  line-height:107%;font-family:"Segoe UI",sans-serif'>Use one or more
+  techniques available as part of the Interpret ML toolkit to help understand
+  factors that may account for differences between the rates at which resources
+  and opportunities are allocated to the identified demographic groups, if
+  appropriate for the system. </span></p>
+  </td>
+ </tr>
+ <tr style='height:38.8pt'>
+  <td width=720 valign=bottom style='width:539.65pt;border:solid #8EAADB 1.0pt;
+  border-top:none;padding:0in 5.75pt 2.8pt 4.25pt;height:38.8pt'>
+  <p class=MsoNormal style='margin-bottom:0in'><b><span style='font-size:10.5pt;
+  line-height:107%;font-family:"Segoe UI",sans-serif'>Recommendation F2.6.1</span></b><span
+  style='font-size:10.5pt;line-height:107%;font-family:"Segoe UI",sans-serif'>
+  Use the Fairlearn Python toolkit’s assessment and mitigation capabilities, if
+  appropriate for the system.  </span></p>
+  </td>
+ </tr>
+ <tr style='height:105.1pt'>
+  <td width=720 valign=bottom style='width:539.65pt;border:solid #8EAADB 1.0pt;
+  border-top:none;background:#D9E2F3;padding:0in 5.75pt 2.8pt 4.25pt;
+  height:105.1pt'>
+  <p class=MsoNormal style='margin-bottom:0in;line-height:99%'><b><span
+  style='font-size:10.5pt;line-height:99%;font-family:"Segoe UI",sans-serif;
+  color:#3B3838'>Recommendation F2.7.1</span></b><span style='font-size:10.5pt;
+  line-height:99%;font-family:"Segoe UI",sans-serif;color:#3B3838'> </span><span
+  style='font-size:10.5pt;line-height:99%;font-family:"Segoe UI",sans-serif'>Use
+  Error Analysis to help understand factors that may account for differences
+  between the rates at which resources and opportunities are allocated to the
+  identified demographic groups, if appropriate for the system.  </span></p>
+  <p class=MsoNormal style='margin-bottom:0in'><b><span style='font-size:10.5pt;
+  line-height:107%;font-family:"Segoe UI",sans-serif'> </span></b></p>
+  <p class=MsoNormal style='margin-bottom:0in'><b><span style='font-size:10.5pt;
+  line-height:107%;font-family:"Segoe UI",sans-serif;color:#3B3838'>Recommendation
+  F2.7.2</span></b><span style='font-size:10.5pt;line-height:107%;font-family:
+  "Segoe UI",sans-serif;color:#3B3838'> </span><span style='font-size:10.5pt;
+  line-height:107%;font-family:"Segoe UI",sans-serif'>Use Interpret ML to help
+  understand factors that may account for differences between the rates at
+  which resources and opportunities are allocated to the identified demographic
+  groups, if appropriate for the system.<b> </b></span></p>
+  </td>
+ </tr>
+</table>
+
+<p class=MsoNormal style='margin-bottom:0in;text-align:justify;text-justify:
+inter-ideograph'><b><span style='font-size:14.0pt;line-height:107%;font-family:
+"Segoe UI",sans-serif;color:#3B3838'>           </span></b></p>
+
+<h2 style='margin-left:-.25pt'><b><span style='color:#3B3838'>Goal F3: </span></b><span
+style='color:#4472C4'>Minimization of stereotyping, demeaning, and erasing
+outputs </span></h2>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:7.65pt;
+margin-left:-.25pt;text-indent:-.5pt;line-height:110%'><span style='font-size:
+10.5pt;line-height:110%;font-family:"Segoe UI",sans-serif'>Microsoft AI systems
+that describe, depict, or otherwise represent people, cultures, or society are
+designed to minimize the potential for stereotyping, demeaning, or erasing
+identified demographic groups, including marginalized groups. </span></p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:0in;
+margin-left:-.25pt;text-indent:-.5pt;line-height:110%'><b><i><span
+style='font-size:10.5pt;line-height:110%;font-family:"Segoe UI",sans-serif'>Applies
+to: </span></i></b><span style='font-size:10.5pt;line-height:110%;font-family:
+"Segoe UI",sans-serif'>AI systems when system outputs include descriptions,
+depictions, or other representations of people, cultures, or society. </span></p>
+
+<table class=TableGrid border=0 cellspacing=0 cellpadding=0 width=720
+ style='width:539.65pt;margin-left:.3pt;border-collapse:collapse'>
+ <tr style='height:28.0pt'>
+  <td width=720 valign=bottom style='width:539.65pt;border:solid #4472C4 1.0pt;
+  border-bottom:solid #4472C4 4.5pt;background:#4472C4;padding:7.85pt 5.75pt 2.8pt 4.25pt;
+  height:28.0pt'>
+  <p class=MsoNormal style='margin-bottom:0in'><b><span style='font-size:14.0pt;
+  line-height:107%;font-family:"Segoe UI",sans-serif;color:white'>Requirements</span></b><b><span
+  style='font-size:14.0pt;line-height:107%;font-family:"Segoe UI",sans-serif;
+  color:#F28A19'> </span></b></p>
+  </td>
+ </tr>
+ <tr style='height:92.8pt'>
+  <td width=720 valign=bottom style='width:539.65pt;border:solid #8EAADB 1.0pt;
+  border-top:none;background:#D9E2F3;padding:7.85pt 5.75pt 2.8pt 4.25pt;
+  height:92.8pt'>
+  <p class=MsoNormal style='margin-bottom:.05pt;line-height:99%'><b><span
+  style='font-size:10.5pt;line-height:99%;font-family:"Segoe UI",sans-serif'>F3.1</span></b><span
+  style='font-size:10.5pt;line-height:99%;font-family:"Segoe UI",sans-serif'>
+  Identify and prioritize demographic groups, including marginalized groups,
+  that may be at risk of being subject to stereotyping, demeaning, or erasing
+  outputs of the system. Include:<b> </b></span></p>
+  <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:0in;
+  margin-left:.5in;text-indent:-.25in'><span style='font-size:10.5pt;
+  line-height:107%;font-family:"Segoe UI",sans-serif'>1)<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;
+  </span></span><span style='font-size:10.5pt;line-height:107%;font-family:
+  "Segoe UI",sans-serif'>groups defined by a single factor, and<b> </b></span></p>
+  <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:0in;
+  margin-left:.5in;text-indent:-.25in'><span style='font-size:10.5pt;
+  line-height:107%;font-family:"Segoe UI",sans-serif'>2)<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;
+  </span></span><span style='font-size:10.5pt;line-height:107%;font-family:
+  "Segoe UI",sans-serif'>groups defined by a combination of factors. <b> </b></span></p>
+  <p class=MsoNormal style='margin-top:0in;margin-right:51.55pt;margin-bottom:
+  0in;margin-left:0in'><span style='font-size:10.5pt;line-height:107%;
+  font-family:"Segoe UI",sans-serif'>Document the prioritized identified
+  demographic groups using the Impact Assessment template.  <b>Tags:</b> Impact
+  Assessment.<b> </b></span></p>
+  </td>
+ </tr>
+ <tr style='height:22.4pt'>
+  <td width=720 valign=top style='width:539.65pt;border:solid #8EAADB 1.0pt;
+  border-top:none;padding:7.85pt 5.75pt 2.8pt 4.25pt;height:22.4pt'>
+  <p class=MsoNormal style='margin-bottom:0in'><b><span style='font-size:10.5pt;
+  line-height:107%;font-family:"Segoe UI",sans-serif'>F3.2</span></b><span
+  style='font-size:10.5pt;line-height:107%;font-family:"Segoe UI",sans-serif'>
+  Define and document any system components to be evaluated, in addition to the
+  whole system.<b> </b></span></p>
+  </td>
+ </tr>
+ <tr style='height:49.2pt'>
+  <td width=720 valign=bottom style='width:539.65pt;border:solid #8EAADB 1.0pt;
+  border-top:none;background:#D9E2F3;padding:7.85pt 5.75pt 2.8pt 4.25pt;
+  height:49.2pt'>
+  <p class=MsoNormal style='margin-top:0in;margin-right:51.75pt;margin-bottom:
+  0in;margin-left:0in'><b><span style='font-size:10.5pt;line-height:107%;
+  font-family:"Segoe UI",sans-serif'>F3.3</span></b><span style='font-size:
+  10.5pt;line-height:107%;font-family:"Segoe UI",sans-serif'> Define and
+  document a plan to evaluate the system components and the whole system for
+  risks of stereotyping, demeaning, and erasing the prioritized identified
+  demographic groups. Tags: Ongoing Evaluation Checkpoint.<b> </b></span></p>
+  </td>
+ </tr>
+ <tr style='height:38.8pt'>
+  <td width=720 valign=bottom style='width:539.65pt;border:solid #8EAADB 1.0pt;
+  border-top:none;padding:7.85pt 5.75pt 2.8pt 4.25pt;height:38.8pt'>
+  <p class=MsoNormal style='margin-top:0in;margin-right:150.4pt;margin-bottom:
+  0in;margin-left:0in'><b><span style='font-size:10.5pt;line-height:107%;
+  font-family:"Segoe UI",sans-serif'>F3.4</span></b><span style='font-size:
+  10.5pt;line-height:107%;font-family:"Segoe UI",sans-serif'> Evaluate the
+  system according to the plan defined in requirement F3.3.  Tags: Ongoing
+  Evaluation Checkpoint.<b> </b></span></p>
+  </td>
+ </tr>
+ <tr style='height:63.2pt'>
+  <td width=720 valign=bottom style='width:539.65pt;border:solid #8EAADB 1.0pt;
+  border-top:none;background:#D9E2F3;padding:7.85pt 5.75pt 2.8pt 4.25pt;
+  height:63.2pt'>
+  <p class=MsoNormal style='margin-bottom:0in;line-height:99%'><b><span
+  style='font-size:10.5pt;line-height:99%;font-family:"Segoe UI",sans-serif'>F3.5</span></b><span
+  style='font-size:10.5pt;line-height:99%;font-family:"Segoe UI",sans-serif'>
+  Reassess the system design, including the choice of training data, features,
+  objective function, and training algorithm, to pursue the goal of minimizing
+  the potential for stereotyping, demeaning, and erasing the identified
+  demographic groups.  </span></p>
+  <p class=MsoNormal style='margin-bottom:0in'><b><span style='font-size:10.5pt;
+  line-height:107%;font-family:"Segoe UI",sans-serif'>Tags:</span></b><span
+  style='font-size:10.5pt;line-height:107%;font-family:"Segoe UI",sans-serif'>
+  Ongoing Evaluation Checkpoint.<b> </b></span></p>
+  </td>
+ </tr>
+ <tr style='height:52.75pt'>
+  <td width=720 valign=bottom style='width:539.65pt;border:solid #8EAADB 1.0pt;
+  border-top:none;padding:7.85pt 5.75pt 2.8pt 4.25pt;height:52.75pt'>
+  <p class=MsoNormal style='margin-bottom:0in;line-height:99%'><b><span
+  style='font-size:10.5pt;line-height:99%;font-family:"Segoe UI",sans-serif'>F3.6</span></b><span
+  style='font-size:10.5pt;line-height:99%;font-family:"Segoe UI",sans-serif'>
+  Document the pre-release results from requirements F3.4 and F3.5. Determine
+  and document how often ongoing evaluation should be conducted to continue
+  supporting this goal. </span></p>
+  <p class=MsoNormal style='margin-bottom:0in'><b><span style='font-size:10.5pt;
+  line-height:107%;font-family:"Segoe UI",sans-serif'>Tags:</span></b><span
+  style='font-size:10.5pt;line-height:107%;font-family:"Segoe UI",sans-serif'>
+  Ongoing Evaluation Checkpoint.<b> </b></span></p>
+  </td>
+ </tr>
+ <tr style='height:63.25pt'>
+  <td width=720 valign=bottom style='width:539.65pt;border:solid #8EAADB 1.0pt;
+  border-top:none;background:#D9E2F3;padding:7.85pt 5.75pt 2.8pt 4.25pt;
+  height:63.25pt'>
+  <p class=MsoNormal style='margin-bottom:0in;line-height:99%'><b><span
+  style='font-size:10.5pt;line-height:99%;font-family:"Segoe UI",sans-serif'>F3.7</span></b><span
+  style='font-size:10.5pt;line-height:99%;font-family:"Segoe UI",sans-serif'>
+  Publish information for customers about these risks involving identified
+  demographic groups. When the system is a platform service made available to
+  external customers or partners, include this information in the required
+  Transparency Note. </span></p>
+  <p class=MsoNormal style='margin-bottom:0in'><b><span style='font-size:10.5pt;
+  line-height:107%;font-family:"Segoe UI",sans-serif'>Tags:</span></b><span
+  style='font-size:10.5pt;line-height:107%;font-family:"Segoe UI",sans-serif'>
+  Transparency Note.<b> </b></span></p>
+  </td>
+ </tr>
+</table>
+
+<p class=MsoNormal style='margin-bottom:0in'><span style='font-family:"Segoe UI",sans-serif'> </span></p>
+
+<p class=MsoNormal style='margin-bottom:0in'><span style='font-family:"Segoe UI",sans-serif'> </span></p>
+
+<p class=MsoNormal style='margin-bottom:0in'><span style='font-family:"Segoe UI",sans-serif'> </span></p>
+
+<p class=MsoNormal style='margin-bottom:0in'><span style='font-family:"Segoe UI",sans-serif'> </span></p>
+
+<p class=MsoNormal style='margin-bottom:0in'><span style='font-family:"Segoe UI",sans-serif'> </span></p>
+
+<p class=MsoNormal style='margin-bottom:0in'><span style='font-family:"Segoe UI",sans-serif'> </span></p>
+
+<p class=MsoNormal style='margin-bottom:0in'><span style='font-family:"Segoe UI",sans-serif'> </span></p>
+
+<p class=MsoNormal style='margin-bottom:0in'><span style='font-family:"Segoe UI",sans-serif'> </span></p>
+
+<p class=MsoNormal style='margin-bottom:0in'><span style='font-family:"Segoe UI",sans-serif'> </span></p>
+
+<p class=MsoNormal style='margin-bottom:0in'><span style='font-family:"Segoe UI",sans-serif'> </span></p>
+
+<p class=MsoNormal style='margin-bottom:0in'><span style='font-family:"Segoe UI",sans-serif'> </span></p>
+
+<table class=TableGrid border=0 cellspacing=0 cellpadding=0 width=720
+ style='width:539.65pt;margin-left:.3pt;border-collapse:collapse'>
+ <tr style='height:28.0pt'>
+  <td width=720 valign=bottom style='width:539.65pt;border:solid #4472C4 1.0pt;
+  border-bottom:solid #4472C4 4.5pt;background:#4472C4;padding:0in 5.75pt 2.9pt 4.25pt;
+  height:28.0pt'>
+  <p class=MsoNormal style='margin-bottom:0in'><b><span style='font-size:14.0pt;
+  line-height:107%;font-family:"Segoe UI",sans-serif;color:white'>Tools and
+  practices</span></b><span style='font-family:"Segoe UI",sans-serif;
+  color:#F28A19'> </span></p>
+  </td>
+ </tr>
+ <tr style='height:37.0pt'>
+  <td width=720 valign=bottom style='width:539.65pt;border:solid #8EAADB 1.0pt;
+  border-top:none;background:#D9E2F3;padding:0in 5.75pt 2.9pt 4.25pt;
+  height:37.0pt'>
+  <p class=MsoNormal style='margin-bottom:0in'><b><span style='font-size:10.5pt;
+  line-height:107%;font-family:"Segoe UI",sans-serif;color:#3B3838'>Recommendation
+  F3.1.1</span></b><span style='font-size:10.5pt;line-height:107%;font-family:
+  "Segoe UI",sans-serif;color:#3B3838'> </span><span style='font-size:10.5pt;
+  line-height:107%;font-family:"Segoe UI",sans-serif'>Work with user
+  researchers, subject matter experts, and members of identified demographic
+  groups to understand these risks and their impacts. </span></p>
+  </td>
+ </tr>
+ <tr style='height:80.65pt'>
+  <td width=720 valign=bottom style='width:539.65pt;border:solid #8EAADB 1.0pt;
+  border-top:none;padding:0in 5.75pt 2.9pt 4.25pt;height:80.65pt'>
+  <p class=MsoNormal style='margin-bottom:0in;line-height:99%'><b><span
+  style='font-size:10.5pt;line-height:99%;font-family:"Segoe UI",sans-serif;
+  color:#3B3838'>Recommendation F3.4.1</span></b><span style='font-size:10.5pt;
+  line-height:99%;font-family:"Segoe UI",sans-serif;color:#3B3838'> </span><span
+  style='font-size:10.5pt;line-height:99%;font-family:"Segoe UI",sans-serif'>Use
+  CheckList to help evaluate these risks involving identified demographic
+  groups, if appropriate for the system.  </span></p>
+  <p class=MsoNormal style='margin-bottom:0in'><span style='font-size:10.5pt;
+  line-height:107%;font-family:"Segoe UI",sans-serif'> </span></p>
+  <p class=MsoNormal style='margin-bottom:0in'><b><span style='font-size:10.5pt;
+  line-height:107%;font-family:"Segoe UI",sans-serif;color:#3B3838'>Recommendation<i>
+  </i>F3.4.2</span></b><span style='font-size:10.5pt;line-height:107%;
+  font-family:"Segoe UI",sans-serif;color:#3B3838'> </span><span
+  style='font-size:10.5pt;line-height:107%;font-family:"Segoe UI",sans-serif'>Use
+  red teaming exercises to evaluate these risks involving identified
+  demographic groups.  </span></p>
+  </td>
+ </tr>
+ <tr style='height:63.25pt'>
+  <td width=720 valign=bottom style='width:539.65pt;border:solid #8EAADB 1.0pt;
+  border-top:none;background:#D9E2F3;padding:0in 5.75pt 2.9pt 4.25pt;
+  height:63.25pt'>
+  <p class=MsoNormal style='margin-bottom:0in'><b><span style='font-size:10.5pt;
+  line-height:107%;font-family:"Segoe UI",sans-serif;color:#3B3838'>Recommendation<i>
+  </i>F3.5.1</span></b><span style='font-size:10.5pt;line-height:107%;
+  font-family:"Segoe UI",sans-serif;color:#3B3838'> </span><span
+  style='font-size:10.5pt;line-height:107%;font-family:"Segoe UI",sans-serif'>Mitigate
+  any risks of these types of harms that you can. In addition, establish
+  feedback mechanisms and a plan for addressing problems, in alignment with
+  Reliability and Safety Goal RS3. Note that this approach is recommended in
+  acknowledgment of the fact that the state-of-the-art in mitigating these
+  risks is less advanced than the state-of-the-art in mitigating differences in
+  quality of service or allocative harms.</span><b><span style='font-size:10.5pt;
+  line-height:107%;font-family:"Segoe UI",sans-serif;color:#3B3838'> </span></b></p>
+  </td>
+ </tr>
+</table>
+
+<p class=MsoNormal style='margin-bottom:0in'><span style='font-family:"Segoe UI",sans-serif'> </span></p>
+
+<p class=MsoNormal style='margin-bottom:0in;text-align:justify;text-justify:
+inter-ideograph'><span style='font-family:"Segoe UI",sans-serif'>             </span><br
+clear=all style='page-break-before:always'>
+</p>
+
+<h1 style='margin-left:-.25pt'><a name="_Toc27760">Reliability &amp; Safety
+Goals</a><span style='font-size:14.0pt;line-height:107%;color:#3B3838'> </span></h1>
+
+<h2 style='margin-top:0in;margin-right:0in;margin-bottom:4.1pt;margin-left:
+-.25pt'><b><span style='color:#3B3838'>Goal RS1: </span></b><span
+style='color:#167D35'>Reliability and safety guidance<b> </b></span></h2>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:6.8pt;
+margin-left:-.25pt;text-indent:-.5pt;line-height:110%'><span style='font-size:
+10.5pt;line-height:110%;font-family:"Segoe UI",sans-serif'>Microsoft evaluates
+the operational factors and ranges within which AI systems are expected to
+perform reliably and safely, remediates issues, and provides related
+information to customers. </span></p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:0in;
+margin-left:-.25pt;text-indent:-.5pt;line-height:110%'><b><i><span
+style='font-size:10.5pt;line-height:110%;font-family:"Segoe UI",sans-serif'>Applies
+to: </span></i></b><span style='font-size:10.5pt;line-height:110%;font-family:
+"Segoe UI",sans-serif'>All AI systems. </span></p>
+
+<table class=TableGrid border=0 cellspacing=0 cellpadding=0 width=720
+ style='width:539.65pt;margin-left:.3pt;border-collapse:collapse'>
+ <tr style='height:26.9pt'>
+  <td width=720 valign=bottom style='width:539.65pt;border:solid #A8D08D 1.0pt;
+  background:#167D35;padding:7.45pt 2.1pt 2.5pt 4.25pt;height:26.9pt'>
+  <p class=MsoNormal style='margin-bottom:0in'><b><span style='font-size:14.0pt;
+  line-height:107%;font-family:"Segoe UI",sans-serif;color:white'>Requirements</span></b><b><span
+  style='font-size:14.0pt;line-height:107%;font-family:"Segoe UI",sans-serif;
+  color:#F28A19'> </span></b></p>
+  </td>
+ </tr>
+ <tr style='height:64.9pt'>
+  <td width=720 valign=bottom style='width:539.65pt;border-top:none;border-left:
+  solid #A8D08D 1.0pt;border-bottom:solid white 3.0pt;border-right:solid #A8D08D 1.0pt;
+  background:#F3FAEC;padding:7.45pt 2.1pt 2.5pt 4.25pt;height:64.9pt'>
+  <p class=MsoNormal style='margin-bottom:0in'><b><span style='font-size:10.5pt;
+  line-height:107%;font-family:"Segoe UI",sans-serif'>RS1.1</span></b><span
+  style='font-size:10.5pt;line-height:107%;font-family:"Segoe UI",sans-serif'> Document
+  how:  </span></p>
+  <p class=MsoNormal style='margin-top:0in;margin-right:15.2pt;margin-bottom:
+  0in;margin-left:9.0pt;text-indent:.25in'><span style='font-size:10.5pt;
+  line-height:107%;font-family:"Segoe UI",sans-serif'>1)</span><span
+  style='font-size:10.5pt;line-height:107%;font-family:"Segoe UI",sans-serif'>reliable
+  and safe behavior is defined for this system and,  </span></p>
+  <p class=MsoNormal style='margin-top:0in;margin-right:15.2pt;margin-bottom:
+  0in;margin-left:9.0pt;text-indent:.25in'><span style='font-size:10.5pt;
+  line-height:107%;font-family:"Segoe UI",sans-serif'>2)</span><span
+  style='font-size:10.5pt;line-height:107%;font-family:"Segoe UI",sans-serif'>what
+  acceptable error rates are for overall system performance in the context of
+  intended uses. <b>Tags:</b> Ongoing Evaluation Checkpoint.<b> </b></span></p>
+  </td>
+ </tr>
+ <tr style='height:49.65pt'>
+  <td width=720 valign=top style='width:539.65pt;border:solid #A8D08D 1.0pt;
+  border-top:none;padding:7.45pt 2.1pt 2.5pt 4.25pt;height:49.65pt'>
+  <p class=MsoNormal style='margin-top:0in;margin-right:43.8pt;margin-bottom:
+  0in;margin-left:0in'><b><span style='font-size:10.5pt;line-height:107%;
+  font-family:"Segoe UI",sans-serif'>RS1.2</span></b><span style='font-size:
+  10.5pt;line-height:107%;font-family:"Segoe UI",sans-serif'> Evaluate training
+  and test data sets to ensure that they include representation of the intended
+  uses, operational factors, and an appropriate range of settings for each
+  factor. Document the evaluation. <b>Tags:</b> Ongoing Evaluation Checkpoint.<b>
+  </b></span></p>
+  </td>
+ </tr>
+ <tr style='height:49.55pt'>
+  <td width=720 valign=top style='width:539.65pt;border-top:none;border-left:
+  solid #A8D08D 1.0pt;border-bottom:solid white 3.0pt;border-right:solid #A8D08D 1.0pt;
+  background:#F3FAEC;padding:7.45pt 2.1pt 2.5pt 4.25pt;height:49.55pt'>
+  <p class=MsoNormal style='margin-top:0in;margin-right:20.4pt;margin-bottom:
+  0in;margin-left:0in'><b><span style='font-size:10.5pt;line-height:107%;
+  font-family:"Segoe UI",sans-serif'>RS1.3</span></b><span style='font-size:
+  10.5pt;line-height:107%;font-family:"Segoe UI",sans-serif'> Determine and
+  document the operational factors, including quality of system input, use, and
+  operational context that are critical to manage for reliable and safe use of
+  the system in its deployed context.  <b>Tags:</b> Ongoing Evaluation
+  Checkpoint.<b> </b></span></p>
+  </td>
+ </tr>
+ <tr style='height:49.65pt'>
+  <td width=720 valign=top style='width:539.65pt;border:solid #A8D08D 1.0pt;
+  border-top:none;padding:7.45pt 2.1pt 2.5pt 4.25pt;height:49.65pt'>
+  <p class=MsoNormal style='margin-bottom:0in'><b><span style='font-size:10.5pt;
+  line-height:107%;font-family:"Segoe UI",sans-serif'>RS1.4</span></b><span
+  style='font-size:10.5pt;line-height:107%;font-family:"Segoe UI",sans-serif'> Define
+  and document acceptable ranges for each operational factor important to
+  support reliable and safe system use. Define and document an acceptable error
+  rate for the system when operating within these ranges. <b>Tags:</b> Ongoing
+  Evaluation Checkpoint.<b> </b></span></p>
+  </td>
+ </tr>
+ <tr style='height:63.5pt'>
+  <td width=720 valign=top style='width:539.65pt;border-top:none;border-left:
+  solid #A8D08D 1.0pt;border-bottom:solid white 3.0pt;border-right:solid #A8D08D 1.0pt;
+  background:#F3FAEC;padding:7.45pt 2.1pt 2.5pt 4.25pt;height:63.5pt'>
+  <p class=MsoNormal style='margin-bottom:.05pt;line-height:99%'><b><span
+  style='font-size:10.5pt;line-height:99%;font-family:"Segoe UI",sans-serif'>RS1.5</span></b><span
+  style='font-size:10.5pt;line-height:99%;font-family:"Segoe UI",sans-serif'>
+  Define intended uses, if any, where additional operational factors, more
+  narrow or different acceptable ranges, or lower acceptable error rates
+  (including false positive and false negative error rates), are advised to
+  ensure reliability and safety. Document your conclusions. </span></p>
+  <p class=MsoNormal style='margin-bottom:0in'><b><span style='font-size:10.5pt;
+  line-height:107%;font-family:"Segoe UI",sans-serif'>Tags:</span></b><span
+  style='font-size:10.5pt;line-height:107%;font-family:"Segoe UI",sans-serif'>
+  Ongoing Evaluation Checkpoint.<b> </b></span></p>
+  </td>
+ </tr>
+ <tr style='height:49.65pt'>
+  <td width=720 valign=top style='width:539.65pt;border:solid #A8D08D 1.0pt;
+  border-top:none;padding:7.45pt 2.1pt 2.5pt 4.25pt;height:49.65pt'>
+  <p class=MsoNormal style='margin-bottom:0in;line-height:99%'><b><span
+  style='font-size:10.5pt;line-height:99%;font-family:"Segoe UI",sans-serif'>RS1.6</span></b><span
+  style='font-size:10.5pt;line-height:99%;font-family:"Segoe UI",sans-serif'>
+  Define and document an evaluation plan based on requirements RS1.1, RS1.3,
+  RS1.4, and RS1.5, to include the environment in which the system will be
+  evaluated.<b> </b></span></p>
+  <p class=MsoNormal style='margin-bottom:0in'><b><span style='font-size:10.5pt;
+  line-height:107%;font-family:"Segoe UI",sans-serif'>Tags:</span></b><span
+  style='font-size:10.5pt;line-height:107%;font-family:"Segoe UI",sans-serif'>
+  Ongoing Evaluation Checkpoint.<b> </b></span></p>
+  </td>
+ </tr>
+ <tr style='height:63.5pt'>
+  <td width=720 valign=top style='width:539.65pt;border-top:none;border-left:
+  solid #A8D08D 1.0pt;border-bottom:solid white 3.0pt;border-right:solid #A8D08D 1.0pt;
+  background:#F3FAEC;padding:7.45pt 2.1pt 2.5pt 4.25pt;height:63.5pt'>
+  <p class=MsoNormal style='margin-bottom:.05pt;line-height:99%'><b><span
+  style='font-size:10.5pt;line-height:99%;font-family:"Segoe UI",sans-serif'>RS1.7</span></b><span
+  style='font-size:10.5pt;line-height:99%;font-family:"Segoe UI",sans-serif'>
+  Evaluate the system according to the evaluation plan defined in requirement
+  RS1.6 to ensure reliable and safe system behavior.  Document the pre-release
+  results of the evaluation. Determine and document how often ongoing
+  evaluation should be conducted to continue supporting this goal.   </span></p>
+  <p class=MsoNormal style='margin-bottom:0in'><b><span style='font-size:10.5pt;
+  line-height:107%;font-family:"Segoe UI",sans-serif'>Tags:</span></b><span
+  style='font-size:10.5pt;line-height:107%;font-family:"Segoe UI",sans-serif'>
+  Ongoing Evaluation Checkpoint.<b> </b></span></p>
+  </td>
+ </tr>
+ <tr style='height:63.65pt'>
+  <td width=720 valign=top style='width:539.65pt;border:solid #A8D08D 1.0pt;
+  border-top:none;padding:7.45pt 2.1pt 2.5pt 4.25pt;height:63.65pt'>
+  <p class=MsoNormal style='margin-bottom:0in;line-height:99%'><b><span
+  style='font-size:10.5pt;line-height:99%;font-family:"Segoe UI",sans-serif'>RS1.8</span></b><span
+  style='font-size:10.5pt;line-height:99%;font-family:"Segoe UI",sans-serif'> In
+  the event of failure cases within operational factors and defined ranges,
+  work to resolve the issues. If the Responsible Release Criteria established
+  in requirements RS1.1, RS1.3, RS1.4, and RS1.5 cannot be met, a reassessment
+  of intended uses and updated documentation is required. </span></p>
+  <p class=MsoNormal style='margin-bottom:0in'><b><span style='font-size:10.5pt;
+  line-height:107%;font-family:"Segoe UI",sans-serif'>Tags:</span></b><span
+  style='font-size:10.5pt;line-height:107%;font-family:"Segoe UI",sans-serif'>
+  Ongoing Evaluation Checkpoint.<b> </b></span></p>
+  </td>
+ </tr>
+ <tr style='height:76.1pt'>
+  <td width=720 valign=top style='width:539.65pt;border:solid #A8D08D 1.0pt;
+  border-top:none;background:#F3FAEC;padding:7.45pt 2.1pt 2.5pt 4.25pt;
+  height:76.1pt'>
+  <p class=MsoNormal style='margin-bottom:0in;line-height:99%'><b><span
+  style='font-size:10.5pt;line-height:99%;font-family:"Segoe UI",sans-serif'>RS1.9</span></b><span
+  style='font-size:10.5pt;line-height:99%;font-family:"Segoe UI",sans-serif'>
+  Provide documentation to customers and potential customers of the system that
+  includes the outputs of requirements RS1.2, RS1.7 and RS1.8, and any
+  unsupported uses defined in the Impact Assessment and in RS1.8. When the
+  system is a platform service made available to external customers or
+  partners, include this information in the required Transparency Note. </span></p>
+  <p class=MsoNormal style='margin-bottom:0in'><b><span style='font-size:10.5pt;
+  line-height:107%;font-family:"Segoe UI",sans-serif'>Tags:</span></b><span
+  style='font-size:10.5pt;line-height:107%;font-family:"Segoe UI",sans-serif'>
+  Impact Assessment, Transparency Note.<b> </b></span></p>
+  </td>
+ </tr>
+</table>
+
+<p class=MsoNormal style='margin-bottom:0in'><span style='font-family:"Segoe UI",sans-serif'> </span></p>
+
+<table class=TableGrid border=0 cellspacing=0 cellpadding=0 width=720
+ style='width:539.65pt;margin-left:.3pt;border-collapse:collapse'>
+ <tr style='height:28.0pt'>
+  <td width=720 valign=bottom style='width:539.65pt;border:solid #A8D08D 1.0pt;
+  background:#167D35;padding:8.2pt 5.75pt 2.9pt 4.25pt;height:28.0pt'>
+  <p class=MsoNormal style='margin-bottom:0in'><b><span style='font-size:14.0pt;
+  line-height:107%;font-family:"Segoe UI",sans-serif;color:white'>Tools and
+  practices</span></b><b><span style='font-size:14.0pt;line-height:107%;
+  font-family:"Segoe UI",sans-serif;color:#F28A19'> </span></b></p>
+  </td>
+ </tr>
+ <tr style='height:38.7pt'>
+  <td width=720 valign=bottom style='width:539.65pt;border-top:none;border-left:
+  solid #A8D08D 1.0pt;border-bottom:solid white 4.5pt;border-right:solid #A8D08D 1.0pt;
+  background:#F3FAEC;padding:8.2pt 5.75pt 2.9pt 4.25pt;height:38.7pt'>
+  <p class=MsoNormal style='margin-bottom:0in'><b><span style='font-size:10.5pt;
+  line-height:107%;font-family:"Segoe UI",sans-serif;color:#3B3838'>Recommendation
+  RS1.1.1</span></b><span style='font-size:10.5pt;line-height:107%;font-family:
+  "Segoe UI",sans-serif;color:#3B3838'> </span><span style='font-size:10.5pt;
+  line-height:107%;font-family:"Segoe UI",sans-serif'>Interview safety experts
+  and review relevant literature for domains where the system may impact the
+  safety of people.</span><b><i><span style='font-size:10.5pt;line-height:107%;
+  font-family:"Segoe UI",sans-serif;color:#F28A19'> </span></i></b></p>
+  </td>
+ </tr>
+ <tr style='height:23.05pt'>
+  <td width=720 valign=top style='width:539.65pt;border:solid #A8D08D 1.0pt;
+  border-top:none;padding:8.2pt 5.75pt 2.9pt 4.25pt;height:23.05pt'>
+  <p class=MsoNormal style='margin-bottom:0in'><b><span style='font-size:10.5pt;
+  line-height:107%;font-family:"Segoe UI",sans-serif;color:#3B3838'>Recommendation
+  RS1.4.1</span></b><span style='font-size:10.5pt;line-height:107%;font-family:
+  "Segoe UI",sans-serif;color:#3B3838'> </span><span style='font-size:10.5pt;
+  line-height:107%;font-family:"Segoe UI",sans-serif'>Interview customers to
+  understand operational factors and their variations. </span></p>
+  </td>
+ </tr>
+</table>
+
+<p class=MsoNormal style='margin-bottom:0in'><b><span style='font-size:14.0pt;
+line-height:107%;font-family:"Segoe UI",sans-serif;color:#3B3838'> </span></b></p>
+
+<p class=MsoNormal style='margin-bottom:0in;text-align:justify;text-justify:
+inter-ideograph'><b><span style='font-size:14.0pt;line-height:107%;font-family:
+"Segoe UI",sans-serif;color:#3B3838'>           </span></b><br clear=all
+style='page-break-before:always'>
+</p>
+
+<h2 style='margin-left:-.25pt'><b><span style='color:#3B3838'>Goal RS2: </span></b><span
+style='color:#167D35'>Failures and remediations</span><b><span
+style='color:#3B3838'> </span></b></h2>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:7.55pt;
+margin-left:-.25pt;text-indent:-.5pt;line-height:110%'><span style='font-size:
+10.5pt;line-height:110%;font-family:"Segoe UI",sans-serif'>Microsoft AI systems
+are designed to minimize the time to remediation of predictable or known
+failures. </span></p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:0in;
+margin-left:-.25pt;text-indent:-.5pt;line-height:110%'><b><i><span
+style='font-size:10.5pt;line-height:110%;font-family:"Segoe UI",sans-serif'>Applies
+to: </span></i></b><span style='font-size:10.5pt;line-height:110%;font-family:
+"Segoe UI",sans-serif'>All AI systems.<b><i> </i></b></span></p>
+
+<table class=TableGrid border=0 cellspacing=0 cellpadding=0 width=720
+ style='width:539.9pt;margin-left:.3pt;border-collapse:collapse'>
+ <tr style='height:28.0pt'>
+  <td width=720 valign=bottom style='width:539.9pt;border:solid #A8D08D 1.0pt;
+  background:#167D35;padding:8.35pt 3.35pt 2.9pt 4.25pt;height:28.0pt'>
+  <p class=MsoNormal style='margin-bottom:0in'><b><span style='font-size:14.0pt;
+  line-height:107%;font-family:"Segoe UI",sans-serif;color:white'>Requirements</span></b><b><span
+  style='font-size:14.0pt;line-height:107%;font-family:"Segoe UI",sans-serif;
+  color:#F28A19'> </span></b></p>
+  </td>
+ </tr>
+ <tr style='height:69.25pt'>
+  <td width=720 valign=bottom style='width:539.9pt;border-top:none;border-left:
+  solid #A8D08D 1.0pt;border-bottom:solid white 4.5pt;border-right:solid #A8D08D 1.0pt;
+  background:#F3FAEC;padding:8.35pt 3.35pt 2.9pt 4.25pt;height:69.25pt'>
+  <p class=MsoNormal style='margin-bottom:0in;line-height:99%'><b><span
+  style='font-family:"Segoe UI",sans-serif'>RS2.1</span></b><span
+  style='font-family:"Segoe UI",sans-serif'> Define predictable failures,
+  including false positive and false negative results for the system as a whole
+  and how they would impact stakeholders for each intended use. Use the Impact
+  Assessment template to document any adverse impacts of these failures on
+  stakeholders. </span></p>
+  <p class=MsoNormal style='margin-bottom:0in'><b><span style='font-family:
+  "Segoe UI",sans-serif'>Tags:</span></b><span style='font-family:"Segoe UI",sans-serif'>
+  Impact Assessment.<b> </b></span></p>
+  </td>
+ </tr>
+ <tr style='height:155.5pt'>
+  <td width=720 valign=top style='width:539.9pt;border:solid #A8D08D 1.0pt;
+  border-top:none;padding:8.35pt 3.35pt 2.9pt 4.25pt;height:155.5pt'>
+  <p class=MsoNormal style='margin-bottom:0in;line-height:99%'><b><span
+  style='font-family:"Segoe UI",sans-serif'>RS2.2</span></b><span
+  style='font-family:"Segoe UI",sans-serif'> For each case of a predictable
+  failure likely to have an adverse impact on a stakeholder, document the
+  failure management approach: </span></p>
+  <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:0in;
+  margin-left:.5in;text-indent:-.25in;line-height:99%'><span style='line-height:
+  99%;font-family:"Segoe UI",sans-serif'>1)<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;
+  </span></span><span style='font-family:"Segoe UI",sans-serif'>When possible,
+  design and build the system to avoid this failure. Describe the design
+  solution. Estimate the time range for resolving predictable failures for each
+  designed solution or indicate that the failure will be prevented by design. <b> </b></span></p>
+  <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:0in;
+  margin-left:.5in;text-indent:-.25in;line-height:99%'><span style='line-height:
+  99%;font-family:"Segoe UI",sans-serif'>2)<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;
+  </span></span><span style='font-family:"Segoe UI",sans-serif'>When a failure
+  cannot be prevented by design, build a fallback option that may be used when
+  this failure occurs. Describe the fallback option and document the estimated
+  time required to invoke and use the fallback option.<b> </b></span></p>
+  <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:0in;
+  margin-left:.5in;text-indent:-.25in'><span style='line-height:107%;
+  font-family:"Segoe UI",sans-serif'>3)<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;
+  </span></span><span style='font-family:"Segoe UI",sans-serif'>Provide
+  training and documentation for stakeholders accountable for system oversight
+  that supports their resolution of the failure. Describe the documentation and
+  training. </span></p>
+  </td>
+ </tr>
+ <tr style='height:155.35pt'>
+  <td width=720 valign=top style='width:539.9pt;border-top:none;border-left:
+  solid #A8D08D 1.0pt;border-bottom:solid white 4.5pt;border-right:solid #A8D08D 1.0pt;
+  background:#F3FAEC;padding:8.35pt 3.35pt 2.9pt 4.25pt;height:155.35pt'>
+  <p class=MsoNormal style='margin-top:0in;margin-right:.4pt;margin-bottom:
+  0in;margin-left:0in;line-height:99%'><b><span style='font-family:"Segoe UI",sans-serif'>RS2.3</span></b><span
+  style='font-family:"Segoe UI",sans-serif'> Document your plan for managing
+  previously unknown failures that come to light once the system is in use:  </span></p>
+  <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:0in;
+  margin-left:.5in;text-indent:-.25in;line-height:99%'><span style='line-height:
+  99%;font-family:"Segoe UI",sans-serif'>1)<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;
+  </span></span><span style='font-family:"Segoe UI",sans-serif'>Describe the
+  system’s rollback plan and document the time that may elapse until the entire
+  system, across all endpoints can be rolled back.  <b> </b></span></p>
+  <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:0in;
+  margin-left:.5in;text-indent:-.25in;line-height:99%'><span style='line-height:
+  99%;font-family:"Segoe UI",sans-serif'>2)<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;
+  </span></span><span style='font-family:"Segoe UI",sans-serif'>Describe
+  support for turning features off and document the time that may elapse until
+  the feature can be turned off across all endpoints.  <b> </b></span></p>
+  <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:0in;
+  margin-left:.5in;text-indent:-.25in;line-height:99%'><span style='line-height:
+  99%;font-family:"Segoe UI",sans-serif'>3)<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;
+  </span></span><span style='font-family:"Segoe UI",sans-serif'>Describe the
+  process for updating and releasing updates to each model and document the
+  time that may elapse until the system has been updated across all endpoints. 
+  <b> </b></span></p>
+  <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:0in;
+  margin-left:.5in;text-indent:-.25in'><span style='line-height:107%;
+  font-family:"Segoe UI",sans-serif'>4)<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;
+  </span></span><span style='font-family:"Segoe UI",sans-serif'>Describe how
+  customers, partners, and end users will be notified of changes to the system,
+  updated understandings of failures, and their best mitigations.  </span></p>
+  </td>
+ </tr>
+ <tr style='height:53.0pt'>
+  <td width=720 valign=top style='width:539.9pt;border:solid #A8D08D 1.0pt;
+  border-top:none;padding:8.35pt 3.35pt 2.9pt 4.25pt;height:53.0pt'>
+  <p class=MsoNormal style='margin-bottom:0in'><b><span style='font-family:
+  "Segoe UI",sans-serif'>RS2.4</span></b><span style='font-family:"Segoe UI",sans-serif'>
+  Provide training and documentation for system owners, developers, customer
+  support and other stakeholders responsible for managing the system to support
+  their remediation and mitigation of predictable failures identified in
+  requirement RS2.1. Document the training and documentation provided.<b> </b></span></p>
+  </td>
+ </tr>
+</table>
+
+<p class=MsoNormal style='margin-bottom:0in'><span style='font-family:"Segoe UI",sans-serif'> </span></p>
+
+<table class=TableGrid border=0 cellspacing=0 cellpadding=0 width=720
+ style='width:539.9pt;margin-left:.3pt;border-collapse:collapse'>
+ <tr style='height:28.0pt'>
+  <td width=720 valign=bottom style='width:539.9pt;border:solid #A8D08D 1.0pt;
+  background:#167D35;padding:8.2pt 5.75pt 2.95pt 4.25pt;height:28.0pt'>
+  <p class=MsoNormal style='margin-bottom:0in'><b><span style='font-size:14.0pt;
+  line-height:107%;font-family:"Segoe UI",sans-serif;color:white'>Tools and
+  practices</span></b><b><span style='font-size:14.0pt;line-height:107%;
+  font-family:"Segoe UI",sans-serif;color:#F28A19'> </span></b></p>
+  </td>
+ </tr>
+ <tr style='height:24.7pt'>
+  <td width=720 valign=bottom style='width:539.9pt;border-top:none;border-left:
+  solid #A8D08D 1.0pt;border-bottom:solid white 4.5pt;border-right:solid #A8D08D 1.0pt;
+  background:#F3FAEC;padding:8.2pt 5.75pt 2.95pt 4.25pt;height:24.7pt'>
+  <p class=MsoNormal style='margin-bottom:0in'><b><span style='font-size:10.5pt;
+  line-height:107%;font-family:"Segoe UI",sans-serif;color:#3B3838'>Recommendation
+  RS2.1.1</span></b><span style='font-size:10.5pt;line-height:107%;font-family:
+  "Segoe UI",sans-serif;color:#3B3838'> </span><span style='font-size:10.5pt;
+  line-height:107%;font-family:"Segoe UI",sans-serif'>Conduct Failure Mode and
+  Effects Analysis.</span><span style='font-size:10.5pt;line-height:107%;
+  font-family:"Segoe UI",sans-serif;color:#F28A19'> </span></p>
+  </td>
+ </tr>
+ <tr style='height:37.0pt'>
+  <td width=720 valign=top style='width:539.9pt;border:solid #A8D08D 1.0pt;
+  border-top:none;padding:8.2pt 5.75pt 2.95pt 4.25pt;height:37.0pt'>
+  <p class=MsoNormal style='margin-bottom:0in'><b><span style='font-size:10.5pt;
+  line-height:107%;font-family:"Segoe UI",sans-serif;color:#3B3838'>Recommendation
+  RS2.2.1</span></b><i><span style='font-size:10.5pt;line-height:107%;
+  font-family:"Segoe UI",sans-serif;color:#3B3838'> </span></i><span
+  style='font-size:10.5pt;line-height:107%;font-family:"Segoe UI",sans-serif'>Follow
+  the Guidelines for Human-AI Interaction when designing the system to help
+  manage failures. </span></p>
+  </td>
+ </tr>
+</table>
+
+<h2 style='margin-left:-.25pt'><b><span style='color:#3B3838'>Goal RS3: </span></b><span
+style='color:#167D35'>Ongoing monitoring, feedback, and evaluation </span></h2>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:0in;
+margin-left:-.25pt;text-indent:-.5pt;line-height:110%'><span style='font-size:
+10.5pt;line-height:110%;font-family:"Segoe UI",sans-serif'>Microsoft AI systems
+are subject to ongoing monitoring, feedback, and evaluation so that we can
+identify and review new uses, identify and troubleshoot issues, manage and
+maintain the systems, and improve them over time.  </span></p>
+
+<p class=MsoNormal style='margin-bottom:0in'><b><i><span style='font-size:10.5pt;
+line-height:107%;font-family:"Segoe UI",sans-serif'> </span></i></b></p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:0in;
+margin-left:-.25pt;text-indent:-.5pt;line-height:110%'><b><i><span
+style='font-size:10.5pt;line-height:110%;font-family:"Segoe UI",sans-serif'>Applies
+to:</span></i></b><span style='font-size:10.5pt;line-height:110%;font-family:
+"Segoe UI",sans-serif'> All AI systems. </span></p>
+
+<table class=TableGrid border=0 cellspacing=0 cellpadding=0 width=720
+ style='width:539.9pt;margin-left:.3pt;border-collapse:collapse'>
+ <tr style='height:28.0pt'>
+  <td width=720 valign=bottom style='width:539.9pt;border:solid #A8D08D 1.0pt;
+  background:#167D35;padding:6.6pt 1.35pt 2.9pt 4.25pt;height:28.0pt'>
+  <p class=MsoNormal style='margin-bottom:0in'><b><span style='font-size:14.0pt;
+  line-height:107%;font-family:"Segoe UI",sans-serif;color:white'>Requirements</span></b><b><span
+  style='font-size:14.0pt;line-height:107%;font-family:"Segoe UI",sans-serif;
+  color:#F28A19'> </span></b></p>
+  </td>
+ </tr>
+ <tr style='height:90.1pt'>
+  <td width=720 style='width:539.9pt;border-top:none;border-left:solid #A8D08D 1.0pt;
+  border-bottom:solid white 4.5pt;border-right:solid #A8D08D 1.0pt;background:
+  #F3FAEC;padding:6.6pt 1.35pt 2.9pt 4.25pt;height:90.1pt'>
+  <p class=MsoNormal style='margin-bottom:.9pt;line-height:99%'><b><span
+  style='font-size:10.5pt;line-height:99%;font-family:"Segoe UI",sans-serif'>RS3.1</span></b><span
+  style='font-size:10.5pt;line-height:99%;font-family:"Segoe UI",sans-serif'>
+  Establish and document a detailed inventory of the system health monitoring
+  methods to be used, to include: </span></p>
+  <p class=MsoNormal style='margin-top:0in;margin-right:79.45pt;margin-bottom:
+  0in;margin-left:.25in'><span style='font-family:"Segoe UI",sans-serif;
+  color:#3B3838'>1)</span><span style='font-family:"Arial",sans-serif;
+  color:#3B3838'> </span><span style='font-size:10.5pt;line-height:107%;
+  font-family:"Segoe UI",sans-serif'>data and insights generated from data
+  repositories, system analytics, and associated alerts,<b> </b></span><span
+  style='font-family:"Segoe UI",sans-serif;color:#3B3838'>2)</span><span
+  style='font-family:"Arial",sans-serif;color:#3B3838'> </span><span
+  style='font-size:10.5pt;line-height:107%;font-family:"Segoe UI",sans-serif'>processes
+  by which customers can submit information about failures and concerns, and<b>
+  </b></span><span style='font-family:"Segoe UI",sans-serif;color:#3B3838'>3)</span><span
+  style='font-family:"Arial",sans-serif;color:#3B3838'> </span><span
+  style='font-size:10.5pt;line-height:107%;font-family:"Segoe UI",sans-serif'>processes
+  by which the general public can submit feedback.<b> </b></span></p>
+  </td>
+ </tr>
+ <tr style='height:148.8pt'>
+  <td width=720 valign=top style='width:539.9pt;border:solid #A8D08D 1.0pt;
+  border-top:none;padding:6.6pt 1.35pt 2.9pt 4.25pt;height:148.8pt'>
+  <p class=MsoNormal style='margin-bottom:0in;line-height:99%'><b><span
+  style='font-size:10.5pt;line-height:99%;font-family:"Segoe UI",sans-serif'>RS3.2</span></b><span
+  style='font-size:10.5pt;line-height:99%;font-family:"Segoe UI",sans-serif'>
+  Define and document a standard operating procedure and system health
+  monitoring action plan for each monitoring channel for the system, to
+  include: <b> </b></span></p>
+  <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:0in;
+  margin-left:.5in;text-indent:-.25in'><span style='font-size:10.5pt;
+  line-height:107%;font-family:"Segoe UI",sans-serif'>1)<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;
+  </span></span><span style='font-size:10.5pt;line-height:107%;font-family:
+  "Segoe UI",sans-serif'>processes for reproducing system failures to support
+  troubleshooting and prevention of future failures,<b> </b></span></p>
+  <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:0in;
+  margin-left:.5in;text-indent:-.25in'><span style='font-size:10.5pt;
+  line-height:107%;font-family:"Segoe UI",sans-serif'>2)<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;
+  </span></span><span style='font-size:10.5pt;line-height:107%;font-family:
+  "Segoe UI",sans-serif'>which events will be monitored,<b> </b></span></p>
+  <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:0in;
+  margin-left:.5in;text-indent:-.25in'><span style='font-size:10.5pt;
+  line-height:107%;font-family:"Segoe UI",sans-serif'>3)<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;
+  </span></span><span style='font-size:10.5pt;line-height:107%;font-family:
+  "Segoe UI",sans-serif'>how events will be prioritized for review, <b> </b></span></p>
+  <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:0in;
+  margin-left:.5in;text-indent:-.25in'><span style='font-size:10.5pt;
+  line-height:107%;font-family:"Segoe UI",sans-serif'>4)<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;
+  </span></span><span style='font-size:10.5pt;line-height:107%;font-family:
+  "Segoe UI",sans-serif'>the expected frequency of those reviews, <b> </b></span></p>
+  <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:0in;
+  margin-left:.5in;text-indent:-.25in'><span style='font-size:10.5pt;
+  line-height:107%;font-family:"Segoe UI",sans-serif'>5)<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;
+  </span></span><span style='font-size:10.5pt;line-height:107%;font-family:
+  "Segoe UI",sans-serif'>how events will be prioritized for response and timing
+  to resolution, <b> </b></span></p>
+  <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:.05pt;
+  margin-left:.5in;text-indent:-.25in;line-height:99%'><span style='font-size:
+  10.5pt;line-height:99%;font-family:"Segoe UI",sans-serif'>6)<span
+  style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp; </span></span><span
+  style='font-size:10.5pt;line-height:99%;font-family:"Segoe UI",sans-serif'>how
+  high priority issues related to supporting the Standard and its goals will be
+  escalated to the Office of Responsible AI, and <b> </b></span></p>
+  <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:0in;
+  margin-left:.5in;text-indent:-.25in'><span style='font-size:10.5pt;
+  line-height:107%;font-family:"Segoe UI",sans-serif'>7)<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;
+  </span></span><span style='font-size:10.5pt;line-height:107%;font-family:
+  "Segoe UI",sans-serif'>engaging customer service to ensure that they are
+  aware of how to respond to issues for the system. </span></p>
+  </td>
+ </tr>
+ <tr style='height:176.65pt'>
+  <td width=720 valign=top style='width:539.9pt;border-top:none;border-left:
+  solid #A8D08D 1.0pt;border-bottom:solid white 4.5pt;border-right:solid #A8D08D 1.0pt;
+  background:#F3FAEC;padding:6.6pt 1.35pt 2.9pt 4.25pt;height:176.65pt'>
+  <p class=MsoNormal style='margin-bottom:.95pt;line-height:99%'><b><span
+  style='font-size:10.5pt;line-height:99%;font-family:"Segoe UI",sans-serif'>RS3.3</span></b><span
+  style='font-size:10.5pt;line-height:99%;font-family:"Segoe UI",sans-serif'> When
+  new uses, critical operational factors, or changes in the supported range of
+  an operational factor are identified, determine whether any new use or
+  operational factor can be supported with the existing system, will be
+  supported but require additional work, or will not be supported.  </span></p>
+  <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:.95pt;
+  margin-left:.5in;text-indent:-.25in;line-height:99%'><span style='font-size:
+  10.5pt;line-height:99%;font-family:"Arial",sans-serif'>•<span
+  style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span><span
+  style='font-size:10.5pt;line-height:99%;font-family:"Segoe UI",sans-serif'>When
+  new uses or operational factors identified are to be supported, evaluate the
+  updated system in accordance with requirement RS1.6, add the new intended use
+  to the Impact Assessment, and publish updated communication in accordance
+  with requirement RS1.9. </span></p>
+  <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:0in;
+  margin-left:.5in;text-indent:-.25in;line-height:99%'><span style='font-size:
+  10.5pt;line-height:99%;font-family:"Arial",sans-serif'>•<span
+  style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span><span
+  style='font-size:10.5pt;line-height:99%;font-family:"Segoe UI",sans-serif'>When
+  these new uses or operational factor range changes cannot or will not be
+  accommodated to ensure reliable and safe performance of the system update
+  customer documentation described in RS1.9 to include the new use as an
+  unsupported use.<b> </b></span></p>
+  <p class=MsoNormal style='margin-bottom:.05pt;line-height:99%'><span
+  style='font-size:10.5pt;line-height:99%;font-family:"Segoe UI",sans-serif'>When
+  the system is a platform service made available to external customers or
+  partners, include this information in the required Transparency Note. </span></p>
+  <p class=MsoNormal style='margin-bottom:0in'><b><span style='font-size:10.5pt;
+  line-height:107%;font-family:"Segoe UI",sans-serif'>Tags:</span></b><span
+  style='font-size:10.5pt;line-height:107%;font-family:"Segoe UI",sans-serif'>
+  Impact Assessment, Transparency Note. </span></p>
+  </td>
+ </tr>
+ <tr style='height:78.95pt'>
+  <td width=720 valign=top style='width:539.9pt;border:solid #A8D08D 1.0pt;
+  border-top:none;padding:6.6pt 1.35pt 2.9pt 4.25pt;height:78.95pt'>
+  <p class=MsoNormal style='margin-bottom:0in'><b><span style='font-size:10.5pt;
+  line-height:107%;font-family:"Segoe UI",sans-serif'>RS3.4</span></b><span
+  style='font-size:10.5pt;line-height:107%;font-family:"Segoe UI",sans-serif'> When
+  a system is to be used for a Sensitive Use that imposes qualification or
+  quality control requirements beyond the intended uses and/or operational
+  factor ranges, conduct an evaluation specific to this use. If the required
+  Responsible Release Criteria cannot be met, the Office of Responsible AI will
+  review the results and decide how to proceed. Document any changes to the
+  Responsible Release Criteria and document the results of evaluation.  </span></p>
+  </td>
+ </tr>
+ <tr style='height:21.35pt'>
+  <td width=720 valign=bottom style='width:539.9pt;border:solid #A8D08D 1.0pt;
+  border-top:none;background:#F3FAEC;padding:6.6pt 1.35pt 2.9pt 4.25pt;
+  height:21.35pt'>
+  <p class=MsoNormal style='margin-bottom:0in'><b><span style='font-size:10.5pt;
+  line-height:107%;font-family:"Segoe UI",sans-serif'>RS3.5</span></b><span
+  style='font-size:10.5pt;line-height:107%;font-family:"Segoe UI",sans-serif'>
+  Conduct all evaluations tagged as Ongoing Evaluation Checkpoints in other
+  Goals on an ongoing basis. </span></p>
+  </td>
+ </tr>
+ <tr style='height:49.4pt'>
+  <td width=720 valign=top style='width:539.9pt;border-top:none;border-left:
+  solid #A8D08D 1.0pt;border-bottom:solid #92D050 1.0pt;border-right:solid #A8D08D 1.0pt;
+  padding:6.6pt 1.35pt 2.9pt 4.25pt;height:49.4pt'>
+  <p class=MsoNormal style='margin-bottom:0in'><b><span style='font-size:10.5pt;
+  line-height:107%;font-family:"Segoe UI",sans-serif'>RS3.6</span></b><span
+  style='font-size:10.5pt;line-height:107%;font-family:"Segoe UI",sans-serif'> If
+  there are targets in Ongoing Evaluation Checkpoints that are no longer
+  satisfied, consult with named reviewers, and in the case of Sensitive Uses,
+  with the Office of Responsible AI, to develop and implement a plan to close
+  any gaps. Document the process, its results, and conclusions. </span></p>
+  </td>
+ </tr>
+ <tr style='height:136.4pt'>
+  <td width=720 valign=top style='width:539.9pt;border-top:none;border-left:
+  solid #92D050 1.0pt;border-bottom:solid white 4.5pt;border-right:solid #92D050 1.0pt;
+  background:#F3FAEC;padding:6.6pt 1.35pt 2.9pt 4.25pt;height:136.4pt'>
+  <p class=MsoNormal style='margin-bottom:.8pt;line-height:99%'><b><span
+  style='font-size:10.5pt;line-height:99%;font-family:"Segoe UI",sans-serif'>RS3.7</span></b><span
+  style='font-size:10.5pt;line-height:99%;font-family:"Segoe UI",sans-serif'>
+  If evidence comes to light that refutes the system is fit for purpose for an
+  intended use at any point in the system’s use:<b> </b></span></p>
+  <p class=MsoNormal style='margin-top:0in;margin-right:10.15pt;margin-bottom:
+  0in;margin-left:.25in;line-height:101%'><span style='font-family:"Segoe UI",sans-serif;
+  color:#3B3838'>1)</span><span style='font-family:"Arial",sans-serif;
+  color:#3B3838'> </span><span style='font-size:10.5pt;line-height:101%;
+  font-family:"Segoe UI",sans-serif'>remove the intended use from
+  customer-facing materials and make current customers aware of the issue, take
+  action to close the identified gap, or discontinue the system,<b> </b></span><span
+  style='font-family:"Segoe UI",sans-serif;color:#3B3838'>2)</span><span
+  style='font-family:"Arial",sans-serif;color:#3B3838'> </span><span
+  style='font-size:10.5pt;line-height:101%;font-family:"Segoe UI",sans-serif'>revise
+  documentation related to the intended use, and<b> </b></span><span
+  style='font-family:"Segoe UI",sans-serif;color:#3B3838'>3)</span><span
+  style='font-family:"Arial",sans-serif;color:#3B3838'> </span><span
+  style='font-size:10.5pt;line-height:101%;font-family:"Segoe UI",sans-serif'>publish
+  the revised documentation to customers.<b> </b></span></p>
+  <p class=MsoNormal style='margin-bottom:0in;line-height:99%'><span
+  style='font-size:10.5pt;line-height:99%;font-family:"Segoe UI",sans-serif'>When
+  the system is a platform service made available to external customers or
+  partners, include this information in the required Transparency Note. </span></p>
+  <p class=MsoNormal style='margin-bottom:0in'><b><span style='font-size:10.5pt;
+  line-height:107%;font-family:"Segoe UI",sans-serif'>Tags:</span></b><span
+  style='font-size:10.5pt;line-height:107%;font-family:"Segoe UI",sans-serif'>
+  Transparency Note.<b> </b></span></p>
+  </td>
+ </tr>
+ <tr style='height:120.85pt'>
+  <td width=720 valign=top style='width:539.9pt;border:solid #A8D08D 1.0pt;
+  border-top:none;padding:6.6pt 1.35pt 2.9pt 4.25pt;height:120.85pt'>
+  <p class=MsoNormal style='margin-bottom:0in'><b><span style='font-size:10.5pt;
+  line-height:107%;font-family:"Segoe UI",sans-serif'>RS3.8:</span></b><span
+  style='font-size:10.5pt;line-height:107%;font-family:"Segoe UI",sans-serif'>
+  Review and update documentation required by Goal T2 when any of the following
+  events occur:<b> </b></span></p>
+  <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:0in;
+  margin-left:.25in;text-indent:0in'><span style='font-size:10.5pt;line-height:
+  107%;font-family:"Segoe UI",sans-serif'>1)<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;
+  </span></span><span style='font-size:10.5pt;line-height:107%;font-family:
+  "Segoe UI",sans-serif'>new uses are added,<b> </b></span></p>
+  <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:0in;
+  margin-left:.25in;text-indent:0in'><span style='font-size:10.5pt;line-height:
+  107%;font-family:"Segoe UI",sans-serif'>2)<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;
+  </span></span><span style='font-size:10.5pt;line-height:107%;font-family:
+  "Segoe UI",sans-serif'>functionality changes,<b> </b></span></p>
+  <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:.05pt;
+  margin-left:.25in;text-indent:0in;line-height:99%'><span style='font-size:
+  10.5pt;line-height:99%;font-family:"Segoe UI",sans-serif'>3)<span
+  style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp; </span></span><span
+  style='font-size:10.5pt;line-height:99%;font-family:"Segoe UI",sans-serif'>new
+  information about reliable and safe performance becomes known as defined by
+  requirement RS3.3, or<b> </b>4)</span><span style='font-size:10.5pt;
+  line-height:99%;font-family:"Arial",sans-serif'> </span><span
+  style='font-size:10.5pt;line-height:99%;font-family:"Segoe UI",sans-serif'>new
+  information about system accuracy and performance becomes available.<b> </b></span></p>
+  <p class=MsoNormal style='margin-bottom:0in;line-height:99%'><span
+  style='font-size:10.5pt;line-height:99%;font-family:"Segoe UI",sans-serif'>When
+  the system is a platform service made available to external customers or
+  partners, include this information in the required Transparency Note. </span></p>
+  <p class=MsoNormal style='margin-bottom:0in'><b><span style='font-size:10.5pt;
+  line-height:107%;font-family:"Segoe UI",sans-serif'>Tags:</span></b><span
+  style='font-size:10.5pt;line-height:107%;font-family:"Segoe UI",sans-serif'>
+  Transparency Note. </span></p>
+  </td>
+ </tr>
+ <tr style='height:35.35pt'>
+  <td width=720 valign=bottom style='width:539.9pt;border:solid #A8D08D 1.0pt;
+  border-top:none;background:#F3FAEC;padding:6.6pt 1.35pt 2.9pt 4.25pt;
+  height:35.35pt'>
+  <p class=MsoNormal style='margin-bottom:0in'><b><span style='font-size:10.5pt;
+  line-height:107%;font-family:"Segoe UI",sans-serif'>RS3.9:</span></b><span
+  style='font-size:10.5pt;line-height:107%;font-family:"Segoe UI",sans-serif'>
+  Escalate unresolved issues related to supporting the Standard and its
+  requirements to the Office of Responsible AI.<b> </b></span></p>
+  </td>
+ </tr>
+</table>
+
+<p class=MsoNormal style='margin-bottom:8.85pt'><span style='font-family:"Segoe UI",sans-serif'> </span></p>
+
+<p class=MsoNormal style='margin-bottom:0in;text-align:justify;text-justify:
+inter-ideograph'><span style='font-family:"Segoe UI",sans-serif'>             </span></p>
+
+<h1 style='margin-left:-.25pt'><a name="_Toc27761">Privacy &amp; Security Goals</a><span
+style='color:#3B3838'> </span></h1>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:9.1pt;
+margin-left:-.25pt;text-indent:-.5pt'><b><span style='font-size:14.0pt;
+line-height:107%;font-family:"Segoe UI",sans-serif;color:#3B3838'>Goal PS1: </span></b><span
+style='font-size:14.0pt;line-height:107%;font-family:"Segoe UI",sans-serif;
+color:#3B3838'>Privacy Standard compliance<b> </b></span></p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:0in;
+margin-left:-.75pt;line-height:110%'><span style='font-size:10.5pt;line-height:
+110%;font-family:"Segoe UI",sans-serif'>Microsoft AI systems are designed to
+protect privacy in accordance with the Microsoft Privacy Standard.         </span></p>
+
+<p class=MsoNormal style='margin-bottom:0in'><b><i><span style='font-size:10.5pt;
+line-height:107%;font-family:"Segoe UI",sans-serif'> </span></i></b></p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:0in;
+margin-left:-.25pt;text-indent:-.5pt;line-height:110%'><b><i><span
+style='font-size:10.5pt;line-height:110%;font-family:"Segoe UI",sans-serif'>Applies
+when:</span></i></b><span style='font-size:10.5pt;line-height:110%;font-family:
+"Segoe UI",sans-serif'> Microsoft Privacy Standard applies. </span></p>
+
+<p class=MsoNormal style='margin-bottom:11.7pt'><span style='font-size:10.5pt;
+line-height:107%;font-family:"Segoe UI",sans-serif'> </span></p>
+
+<p class=MsoNormal style='margin-bottom:.4pt'><b><span style='font-size:14.0pt;
+line-height:107%;font-family:"Segoe UI",sans-serif;color:#3B3838'> </span></b></p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:9.1pt;
+margin-left:-.25pt;text-indent:-.5pt'><b><span style='font-size:14.0pt;
+line-height:107%;font-family:"Segoe UI",sans-serif;color:#3B3838'>Goal PS2:</span></b><span
+style='font-size:14.0pt;line-height:107%;font-family:"Segoe UI",sans-serif;
+color:#3B3838'> Security Policy compliance </span></p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:7.55pt;
+margin-left:-.75pt;line-height:110%'><span style='font-size:10.5pt;line-height:
+110%;font-family:"Segoe UI",sans-serif'>Microsoft AI systems are designed to be
+secure in accordance with the Microsoft Security Policy.         </span></p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:8.1pt;
+margin-left:-.25pt;text-indent:-.5pt;line-height:110%'><b><i><span
+style='font-size:10.5pt;line-height:110%;font-family:"Segoe UI",sans-serif'>Applies
+when: </span></i></b><span style='font-size:10.5pt;line-height:110%;font-family:
+"Segoe UI",sans-serif'>Microsoft Security Policy applies. </span></p>
+
+<p class=MsoNormal style='margin-bottom:0in'><span style='font-family:"Segoe UI",sans-serif'> </span></p>
+
+<p class=MsoNormal style='margin-bottom:0in'><span style='font-family:"Segoe UI",sans-serif'>             </span><br
+clear=all style='page-break-before:always'>
+</p>
+
+<h1 style='margin-left:-.25pt'><a name="_Toc27762">Inclusiveness Goal </a></h1>
+
+<p class=MsoNormal style='margin-bottom:9.65pt'><b><span style='font-size:14.0pt;
+line-height:107%;font-family:"Segoe UI",sans-serif;color:#3B3838'>Goal I1: </span></b><span
+style='font-size:14.0pt;line-height:107%;font-family:"Segoe UI",sans-serif'>Accessibility
+Standards compliance </span></p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:8.35pt;
+margin-left:-.75pt;line-height:103%'><span style='font-family:"Segoe UI",sans-serif'>Microsoft
+AI systems are designed to be inclusive in accordance with the Microsoft
+Accessibility Standards.</span><b><span style='font-family:"Segoe UI",sans-serif;
+color:#3B3838'>       </span></b></p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:8.4pt;
+margin-left:-.25pt;text-indent:-.5pt;line-height:103%'><b><i><span
+style='font-family:"Segoe UI",sans-serif'>Applies when:</span></i></b><span
+style='font-family:"Segoe UI",sans-serif'> Microsoft Accessibility Standards
+apply. </span></p>
+
+<p class=MsoNormal style='margin-bottom:.75pt'><span style='font-family:"Segoe UI",sans-serif'> </span></p>
+
+<p class=MsoNormal style='margin-bottom:.75pt'><span style='font-family:"Segoe UI",sans-serif'> </span></p>
+
+<p class=MsoNormal style='margin-bottom:.75pt'><span style='font-family:"Segoe UI",sans-serif'> </span></p>
+
+<p class=MsoNormal style='margin-bottom:.75pt'><span style='font-family:"Segoe UI",sans-serif'> </span></p>
+
+<p class=MsoNormal style='margin-bottom:.75pt'><span style='font-family:"Segoe UI",sans-serif'> </span></p>
+
+<p class=MsoNormal style='margin-bottom:.8pt'><span style='font-family:"Segoe UI",sans-serif'> </span></p>
+
+<p class=MsoNormal style='margin-bottom:.75pt'><span style='font-family:"Segoe UI",sans-serif'> </span></p>
+
+<p class=MsoNormal style='margin-bottom:.75pt'><span style='font-family:"Segoe UI",sans-serif'> </span></p>
+
+<p class=MsoNormal style='margin-bottom:.75pt'><span style='font-family:"Segoe UI",sans-serif'> </span></p>
+
+<p class=MsoNormal style='margin-bottom:.75pt'><span style='font-family:"Segoe UI",sans-serif'> </span></p>
+
+<p class=MsoNormal style='margin-bottom:.8pt'><span style='font-family:"Segoe UI",sans-serif'> </span></p>
+
+<p class=MsoNormal style='margin-bottom:.75pt'><span style='font-family:"Segoe UI",sans-serif'> </span></p>
+
+<p class=MsoNormal style='margin-bottom:.75pt'><span style='font-family:"Segoe UI",sans-serif'> </span></p>
+
+<p class=MsoNormal style='margin-bottom:.75pt'><span style='font-family:"Segoe UI",sans-serif'> </span></p>
+
+<p class=MsoNormal style='margin-bottom:.75pt'><span style='font-family:"Segoe UI",sans-serif'> </span></p>
+
+<p class=MsoNormal style='margin-bottom:4.15pt'><span style='font-family:"Segoe UI",sans-serif'> </span></p>
+
+<p class=MsoNormal style='margin-bottom:0in'><b><span style='font-size:16.0pt;
+line-height:107%;font-family:"Segoe UI",sans-serif'>Scan this code to access
+responsible AI resources from Microsoft: </span></b></p>
+
+<p class=MsoNormal style='margin-bottom:0in'><b><span style='font-size:16.0pt;
+line-height:107%;font-family:"Segoe UI",sans-serif'> </span></b></p>
+
+<p class=MsoNormal style='margin-bottom:0in'><img border=0 width=198
+height=198 id="Picture 3727"
+src="Microsoft%20Responsible%20AI%20Standard_files/image003.gif"><b><span
+style='font-size:14.0pt;line-height:107%;font-family:"Segoe UI",sans-serif'> </span></b></p>
+
+<p class=MsoNormal style='margin-bottom:.75pt'><span style='font-family:"Segoe UI",sans-serif'> </span></p>
+
+<p class=MsoNormal style='margin-bottom:0in'><span style='font-family:"Segoe UI",sans-serif'> </span></p>
+
+<p class=MsoNormal style='margin-bottom:0in;line-height:99%'><i><span
+style='font-size:10.0pt;line-height:99%;font-family:"Segoe UI",sans-serif'>©
+2022 Microsoft Corporation. All rights reserved. This document is provided
+“as-is.” It has been edited for external release to remove internal links,
+references, and examples. Information and views expressed in this document,
+including URL and other Internet Web site references, may change without
+notice. You bear the risk of using it. Some examples are for illustration only
+and are fictitious. No real association is intended or inferred. This document
+does not provide you with any legal rights to any intellectual property in any
+Microsoft product. You may copy and use this document for your internal,
+reference purposes.</span></i><span style='font-size:10.0pt;line-height:99%;
+font-family:"Segoe UI",sans-serif'> </span></p>
+
+</div>
+
+</body>
+
+</html>

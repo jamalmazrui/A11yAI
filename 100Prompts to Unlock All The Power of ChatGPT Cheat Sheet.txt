@@ -1,0 +1,175 @@
+﻿
+
+
+Blog Posts/Essays/Articles:
+Write a [adjective] [type of content] on [goal]. Explain why: [topic1, topic2, ...]
+ Write a friendly blog post on why people should lose weight . Explain why obesity is a problem, how people can lose weight, and why being healthy is important.  Write a humorous essay on how not to prepare for an exam.
+Writing Assistant:
+Can you [action] my text [adjective]?
+Can you make my paragraph less formal?
+Can you make my sentence easier to read?
+Can you complete my sentence? [insert sentence]
+Can you continue my paragraph? [insert paragraph]
+Copywriting:
+Write a [type of content] for [subject] showcasing the
+[benefit1, benefit2, ...].
+Write a social media ad for a productivity tool showcasing its simplicity and design. 
+Create a sales copy for a travel agency showcasing the price, destinations and commitment.
+Email:
+Reply to this email: [insert email]. Be [behavior] and say [ideas] . 
+Reply to this email. Be polite and say that I accept the offer if ...
+Reply to this email. Be friendly and say that I don't have time for the meeting
+Social Media:
+Create X  [type of content] for [platform]  [details]
+Create 5 hashtags and a caption for  a picture on
+Instagram of a cute cat
+Create 2 bios for LinkedIn highlighting  my work achievements
+Entertainment:
+Create X [element] considering [detail]
+Create 5 jokes 	considering 	words like knowledge and money
+Create 5 pickup lines considering that you're a doctor
+Planning:
+Create a X-day [type of plan] for [detail]
+Create a 7-day trip for our anniversary in
+September
+Create a 30-day workout for my arms and abs with no gym equipment
+Create a 5-day meal plan for a child who is lactose intolerant
+Gift Ideas:
+Provide X gift ideas for [type of people]
+Provide 3 gift ideas for clients of a travel agency Provide 4 gift ideas for  business partners in a healthcare company
+Provide 5 gift idea under $100 for a teenager who loves football
+Act as:
+Act as a [type of person] that is [behavior].  [Action]
+Act as a customer support assistant that is empathetic and polite. Now answer this email Act as a salesperson that is very persistent. Imagine we're on a phone call and try to sell a pen to me.
+ Act as my personal chef. I'll tell you about my dietary preferences and allergies, and you'll suggest recipes for me to try.
+ Act as a film critic. You'll review a movie and provide both positive and negative feedback about the plot, direction and music.Academic Life
+Improve Your Work:
+Provide X ways to improve [subject]
+Provide 3 ways to improve my resume summary:
+[insert text]
+Provide 2 ways to improve my essay: [insert essay] Provide 5 ways to improve the title of my article:
+[insert title]
+Step-by-step Guide:
+Provide step-by-step instructions on how to [subject]
+Provide step-by-step instructions on how to increase my vocabulary
+Provide step-by-step instructions on how to
+prepare for a job interview
+Provide step-by-step instructions on how to become a software engineer
+Summarization:
+Can you summarize [title]?
+Can you summarize the book The Little Prince?
+Can you summarize World War II in  400 words? Can you summarize this article? [insert text]
+Generate Names:
+Suggest a [adjective] name for my [type] using the words [word1, word2, ...]
+Suggest funny names for my college team using
+the words flawless and brain
+Suggest a catchy name for my website using the words artificial and age
+Suggest a simple name for my startup using the word cloud
+Keep pace with the AI revolution!
+ArtificialCorner.com
+
+
+Formula Generation in Excel:
+Create a formula to [goal] in cell [range of cells]
+Create a formula to calculate the sum in cells A1 to A10
+Create a formula to calculate the average in cells H10 to H20
+Create a formula that sums only the expenses that have the status "No" in column C
+Explain formula
+Explain the meaning of the formula [formula] 
+Explain the meaning of the formula 
+=SUM(A1:A10)
+Explain the meaning of the formula
+=AVERAGE(H10:H20)
+Explain the meaning of the formula
+=SUMIF(C1:C13,"No", B1:B13)
+Advanced Formiulas, Macros and VBA
+ I have a table with phone numbers in column A that have the format: (xxx) xxx-xxxx. Extract the numbers within parenthesis using Excel
+Create a macro that calculates the average of cells
+B1 to B10 and inserts the result in cell C1
+Create a macro that sorts sheets by tab name using VBA.
+Google Sheets
+Create a formula to [goal] in cell [range of cells]
+Create a formula in Google Sheets to calculate the sum in cells A1 to A10
+Create a formula in Google Sheets that puts data
+from one sheet into the current sheet
+Explain this Google Sheet command: [insert command]Foreign Language
+Ask questions:
+What's the difference between [word1] and
+[word2] in [language]? Provide X examples
+What's the difference between por and para in Spanish? Provide 2 examples
+What's the difference between tu and você in Portuguese? Provide 4 examples
+Conversation:
+Act as a language partner. You'll start a conversation with me about [topic] in [language]. In every response, you should provide your opinion and then ask me a question to keep the conversation going.
+Write essays in any level:
+Write a [level] [type of essay] in [language]. about [topic]. It must be X words long.
+Write a B1 report in English about pollution. It
+must be 500 words long
+Write a A2 letter in Spanish about your financial situation. It must be 300 words long Write a C1 review in Portuguese about a tech product. It must be 500 words long.
+Vocabulary:
+Create a table of difficult words from the previous essay and translate them into [language]
+Pronunciation:
+Create a table with 2 columns: In the first column type the [language] words: [word1, word2, ...]. In the second column, you should provide the phonetic transcription.
+Artificial CornerContent Creation
+Ideas Generation:
+Give me ideas for [type of content] about [subject], covering  topics like [topic1, topic2, ...]
+Give me ideas for a blog post about writing covering topics like writing tools and writer's block.
+Give me ideas for a podcast about technology covering topics like AI and machine learning.
+Give me ideas for a YouTube video about best books to read covering only self-help books.
+Outlines
+Create an outline for [type of content]
+Create an outline for a blog post about productivity Create an outline for a book "how to learn to learn a foreign language in 3 months"
+Create an outline for a course "how to learn Python for data science"
+Course Quiz:
+Turn a [list] into [type of quiz]
+Turn a list of facts about world history into a multiplechoice quiz
+Turn a list of facts about biology into true/false question
+Thumbnail:
+Act as a prompt generator for Midjourney's AI. Your job is to describe [object] as concisely as possible. Always give 3 different and contrasting versions of a [object] and include any random artist name prefixed by "in the style of"
+Giveaway:
+Choose X random contest winner(s) from a long list of names or emails: [insert names or emails]
+
+	Programming	Data Science
+	Coding Questions:	Data Science Questions:
+	How to [action] in [programming language]?	Where can I find data for my [describe project]?
+How to merge dictionaries in Python?Where can I find data for my credit card fraud detection project?
+How to join two datasets in Python?Where can I find data for my customer churn prediction project?
+	What's the difference between [concept1] and [concept2] in [language]?	How to [action] my dataset?
+What's the difference between lists and dictionaries in Python?How to oversample/undersample my dataset?
+What's the difference between OOP and functional programming?How to split my dataset into train and test sets with Python?
+Explain the [concept] in [language]
+	Explain the while loop in Python	Best practices:
+                                                                          Can you [best practice] my code? Explain the try/except in Python to a child
+Advice:Can you optimize the following Python code?
+Can you simplify the following R code?
+I want to learn [language] for [field]. Create a roadmap to learn [language]
+Can you document my code?
+I want to learn Python for data science. Create a roadmap to learn Python
+Can you check for readability in my code?
+I want to learn JavaScript for web development. Create a roadmap to learn it
+I want to automate [app]. Provide steps to [task] with [language]
+Automate Data Science Tasks:
+I want to automate Gmail. Provide steps to sending emails with Python
+Translate my Python code to R
+I want to automate Tinder. Provide steps to swipe right with Python
+Turn this SQL code to Python pandas code
+Simulate a job interview for a [position] by asking and answering questions as if
+Format my SQL code by converting the reserved keywords to uppercase
+you are a potential employer and I'm the candidate . Consider that [details]
+Create a SQL query that [describe query]
+Web Development:Write a regex in Python that [describe regex]
+I want to build a [type of website]. Can you generate some HTML for my website?
+Data Science Workflow:
+I want to build a job board website. Can you generate some HTML for my
+	website?	Web scraping (only working for a few websites)
+I want to build a price comparison website. Can you generate some HTML forWeb scrape [website] using [language] and [library] my website?	Generate data
+Additional steps:Act as a fake data generator. Create a dataset that has X rows and Y
+	Can you center the content in the HTML page, add a line break between the	columns: [column1, column2, ...]
+	inputs and add an image on a logo?	Train Classification model
+Add CSS to customize the size of the logo image  I have a dataset of [describe dataset], build a machine learning model that predicts [target variable]
+Automation:
+Tune Hyperparameter
+Send the message "[type message]" on Whatsapp using Python and pywhatkitI've trained a [model name]. Write code to tune the hyperparameters
+	Send an email from [email_1] to [email_2] with the subject [email subject] and the	Feature Importance
+content [email content] using PythonI've trained a [model name]. Write code to find the most important features
+Use Python to rename all the [file extension] files in my directory. Add the  word in the model [word] to each name
+Artificial Corner

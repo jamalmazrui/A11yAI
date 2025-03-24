@@ -1,0 +1,702 @@
+﻿
+
+ChatGPT
+Learning prompt engineering with 100+ examples
+José Alberto Hernández
+Javier Conde
+Blanca Querol
+Gonzalo Martínez
+Pedro Reviriego
+Madrid, 2024
+Print version available in: https://www.amazon.com/ChatGPT-Learning-promptengineering-examples-ebook/dp/B0CYQLM4HH 
+José Alberto Hernández
+Javier Conde
+Blanca Querol Gonzalo Martínez Pedro Reviriego
+iii
+Contents
+Before we start	1
+Warming up	3
+	What is ChatGPT?	. . . . . . . . . . . . . . . . . . . . . . . . . . .	3
+	How do I get access to an LLM . . . . . . . . . . . . . . . . . . . .	7
+Possibilities and uses . . . . . . . . . . . . . . . . . . . . . . . . . . 13
+	What is a prompt?	. . . . . . . . . . . . . . . . . . . . . . . . . . . 14
+First prompts: movie recommendations . . . . . . . . . . . . . . . 15
+First prompts: training plans . . . . . . . . . . . . . . . . . . . . . 18
+	Summary and exercises	. . . . . . . . . . . . . . . . . . . . . . . . 29
+Some basic techniques	31
+Simple prompts to obtain information . . . . . . . . . . . . . . . . 31
+	Summarizing and structuring information	. . . . . . . . . . . . . 33
+Generating artistic text . . . . . . . . . . . . . . . . . . . . . . . . . 36
+	Seeking numerical data and transforming it	. . . . . . . . . . . . 42
+	Working with different languages	. . . . . . . . . . . . . . . . . . 43
+	Summary and exercises	. . . . . . . . . . . . . . . . . . . . . . . . 46
+Advanced techniques	49
+Mimicking historical figures and assuming roles . . . . . . . . . . 49
+	Learning with small examples	. . . . . . . . . . . . . . . . . . . . 54
+Assigning numerical values to texts . . . . . . . . . . . . . . . . . 56
+	Arranging elements	. . . . . . . . . . . . . . . . . . . . . . . . . . 58
+Planning and approximate calculations for day-to-day routines . 61
+Assisting in reasoning step by step . . . . . . . . . . . . . . . . . . 63
+	Summary and exercises	. . . . . . . . . . . . . . . . . . . . . . . . 69
+Use cases and applications	71
+	Laws, contracts and claims	. . . . . . . . . . . . . . . . . . . . . . 71
+	Education	. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 78
+Communication . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 82
+Administration and numbers . . . . . . . . . . . . . . . . . . . . . 89
+Companies . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 94
+iv
+	Summary and exercises	. . . . . . . . . . . . . . . . . . . . . . . . 96
+Playing with images	99
+Medical images . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 99
+Analyzing text within images . . . . . . . . . . . . . . . . . . . . . 102
+Analyzing graphics . . . . . . . . . . . . . . . . . . . . . . . . . . . 110
+Analyzing general images . . . . . . . . . . . . . . . . . . . . . . . 117
+Artistic creation . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 136
+	Summary and exercises	. . . . . . . . . . . . . . . . . . . . . . . . 147
+Audio, conversations, customization, limits and risks	149
+Alternative uses . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 149
+Customized instructions . . . . . . . . . . . . . . . . . . . . . . . . 153
+Plugins . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 155
+Limits and risks . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 157
+In conclusion	159
+Before we start
+I
+n November 2022, OpenAI announced ChatGPT, reaching a
+ hundred million users in just a few days. This and other tools are known as Large Language Models (LLMs), and they enable a multitude of text-related tasks, representing a qualitative leap in the development of Artificial Intelligence. Since its introduction, a group of professors and students from Universidad Carlos III and Universidad Politécnica de Madrid (Spain) have been studying the potential and limitations of ChatGPT and its competitors in numerous research projects. However, these research works are aimed at a specialized and limited audience and do not reach the general public. That is why we have decided to write this book, whose target audience is the general public, and aims to showcase the great capabilities of this innovative tool.
+  Before the reader embarks on exploring the possibilities of the new artificial intelligence tools presented in the rest of the book, we want to make clear who it is aimed at and what its objectives are. Starting from the beginning: we are not facing a book but rather a user guide or a set of recipes to understand and use these tools. Furthermore, a book often comes into being to endure over time, yet in our case, we know that it will be obsolete within a few years, perhaps even months, of being published, in line with the ephemeral trend that permeates our society and the rapid development of artificial intelligence.
+  Setting aside considerations about the terminology used to refer to this document, our primary goal is to bring artificial intelligence tools closer to the generic public, especially to people who are not familiar with computing. In our opinion, we are facing a technological revolution similar to what the Internet was 2	chatgpt: learning prompt engineering with 100+ examples
+three or four decades ago or the early telephones were over a century ago. Artificial Intelligence is going to enter into our lives (in fact, it has already entered) just as email, the web, or even WhatsApp did.
+  Therefore, it is crucial for society as a whole to understand the possibilities of this new technology in order to take advantage of it. In summary, this book is aimed at people who do not know or have used ChatGPT or other similar tools or have done so in a very superficial way and want to discover it in a simple and enjoyable manner through example-based learning.
+  We also find it interesting to recall the importance that Socrates placed on questions in the process of acquiring knowledge. Interestingly, in a similar vein, the way we make/formulate queries (also known as prompts) plays a crucial role in using ChatGPT and similar AI tools. In other words, the teachings of the classics remain valid for artificial intelligence.
+  Before starting to interact with ChatGPT, we want to express our gratitude for the support we have received in the elaboration of this book. Thanks to Elena Merino and Miguel González for helping us learn about ChatGPT, language, and artificial intelligence. Our appreciation extends to Ana Reviriego and David Larrabeiti for reviewing the book and providing comments and suggestions, as well as to the members of the Next-Generation Internet Group (GING) at the Technical School of Telecommunication Engineers of the Universidad Politécnica de Madrid and the Advanced Switching and Communications Technologies Group (ADSCOM) at Universidad Carlos III for creating an environment in which to research and learn. Lastly, we would like to thank OpenAI for supporting our research through their researcher access program.
+José Alberto Hernández Gutiérrez, Univ. Carlos III de Madrid.
+Javier Conde Díaz, Univ. Politécnica de Madrid.
+Blanca Querol Álvarez-Buylla, Univ. Politécnica de Madrid.
+Gonzalo Martínez Ruiz de Arcaute, Univ. Carlos III de Madrid.
+Pedro Reviriego Vasallo, Univ. Politécnica de Madrid.
+Warming up
+What is ChatGPT?
+C
+hatGPT is a generative artificial intelligence (AI) tool that can be asked to perform numerous tasks using specific
+prompts. To warm up, we will ask ChatGPT some basic concepts about itself, prompts, and other generative AI models. Leaving aside strictness and technical details, the basis of these artificial intelligence tools is to try to 'guess' the next word, pixel, musical note, etc., generically referred to as a 'token.' For example, if I write the following sentence 'My friend Juan is from Madrid and is 45,' the word that completes the sentence could be 'years,' but it could also be 'friends,' or even 'cars.' The artificial intelligence would choose the word that is most frequently used in the context of the given sentence. In other words, we can understand generative artificial intelligence similarly as the predictive text on a mobile phone but with a much higher accuracy.
+4	chatgpt: learning prompt engineering with 100+ examples
+
+	warming up	5
+
+6	chatgpt: learning prompt engineering with 100+ examples
+
+warming up
+• Grok by xAI.
+• Mistral by Mistral AI.
+• Claude3 by Anthropic.
+• and many others in development by companies such as Amazon or Samsung.
+Most of the examples in this book have been created using ChatGPT v3.5 and v4, and in some cases, with Google Gemini and Llama.
+  To get the most out of LLMs, we must learn how to access them and ask for information and tasks in a concrete and specific way. This is called prompt engineering.
+How do I get access to an LLM
+Getting started with an LLM is very simple, as there's no need to install anything. Just open an internet browser and access one of the following websites:
+• https://chat.openai.com/
+• https://www.bing.com/ and then click on the Chat tab.
+• https://gemini.google.com/
+• https://www.llama2.ai/
+  It is true that in some LLMs, you may need to register or simply log in with your Gmail or Facebook accounts. Some LLMs are also available on other applications such as Skype or on specific AI websites like https://huggingface.co/ and https://replicate.com/.
+ChatGPT
+Once logged in ChatGPT (https://chat.openai.com), we need to choose the version of the model we want to try. Currently, there are two versions: GPT-3.5, which is open and free for everyone, and GPT-4, available only for paid users (this may change in the future). Figure 1.1 shows the interface of ChatGPT version 3.5: chatgpt: learning prompt engineering with 100+ examples
+
+Figure 1.1: ChatGPT Interface
+1) Conversation history menu. ChatGPT stores previous conversations, allowing you to access them whenever you want. Conversation names can be modified to make them easier to find.
+2) Current conversation. This screen displays all the information from the ongoing conversation. ChatGPT, like other LLMs, is capable of remembering the recent prompts from each conversation. However, be cautious, as it doesn't have an infinite 'memory,' and it may lose the thread of the conversation. The 3.5 version of ChatGPT (free version) doesn't have Internet access and only has knowledge of data up to
+January 2022. Therefore, for ChatGPT v3.5, Queen Elizabeth II is still alive, it is not aware of the conflict between Ukraine and Russia, and it does not know that Lionel Messi has won the Soccer World Cup.
+3) Prompt input menu. This is where to write prompts.
+4) Modify an old prompt. Be cautious, modifying an old prompt automatically deletes the conversation that was below that prompt.
+warming up
+5) Access to account settings.
+Copilot
+Copilot (previously Bing Chat) is the version of ChatGPT for
+Microsoft's search engine. You can go to https://www.bing.com/ chat, log in with a Microsoft account, and access the Chat menu. Figure 1.2 shows the interface of Copilot:
+
+Figure 1.2: Copilot Interface
+1) Current conversation. This screen displays all the information from the ongoing conversation.
+2) Suggestions on how to continue the conversation.
+3) Text input.
+4) Including other files in prompts. For example, you can ask questions about images.
+5) Voice input. You can use your device's microphone to communicate with Copilot. Copilot automatically transcribes your spoken words into text in the chat. In addition to responding in textual format, it will also reply in voice format if you have the volume activated.
+
+Google Gemini
+Gemini is Google's LLM. It can be accessed through https:// gemini.google.com with your Google account. Figure 1.3 shows its interface:
+
+Figure 1.3: Google Gemini Interface
+1) Conversation history menu. Similar to ChatGPT, Gemini stores previous conversations, allowing you to access them whenever you want.
+2) Current conversation. This screen displays all the information from the ongoing conversation. Gemini has Internet access and uses Google for queries, meaning that Gemini is also aware that Argentina won the last World Cup.
+3) Prompt input menu. It allows you to attach an image, ask questions about it, and use voice communication.
+Llama
+Llama is an open-source LLM developed by Meta (formerly Facebook). It is designed for companies or individuals to install a version of Llama on their infrastructure. However, it is possible to try it online at (https://www.llama2.ai). You don't need to log in, and it allows you to select different versions of the model. Its interface is shown in Figure 1.4.
+
+Figure 1.4: Llama Interface
+1) Current conversation. Displays information from the ongoing conversation. The online accessible Llama chat does not have Internet access, so it lacks current information. In fact, if asked about today's date, it responds with February 23, 2023.
+2) Prompt input menu.
+3) Attach file. Allows you to upload an image and ask questions about it.
+4) LLM configuration menu. Allows you to select different versions of the model (7B, 13B, 70B, Llava 13B, Salmonn), as well as configuration parameters that determine its behavior.
+Perplexity
+Accessible from the official website (https://www.perplexity. ai/), Perplexity is an intelligent search engine that uses LLM to return accurate results. It eliminates the barrier of having to enter the websites to find the result as occurs with search engines such as Google or Yahoo. In addition, it includes Copilot mode, an assistant that interacts with the user to refine searches and facilitate the process. It can also be set to only search certain sources like YouTube or Reddit.
+
+1) Current conversation.
+2) Sources of information
+3) Prompt input menu
+4) Attach files. Allows you to ask questions about different file formats. For example, you can attach a PDF and ask it to provide a summary.
+HuggingFace and Replicate
+HuggingFace and Replicate are not LLMs, but rather platforms where models generated by the AI research community can be uploaded for use by other people. In addition, they include the option to display demos of the models so that people can try them out. These demos are found in the so-called HuggingFace
+Spaces (https://huggingface.co/spaces) or in the exploration tab of Replicate (https://replicate.com/explore). Both
+Replicate and HuggingFace are the ideal choice for testing new models and exploring the latest AI advancements.
+Alternative accesses
+So far we have seen how to access different LLMs from the web. However, this is not the only option. There are applications that can be installed directly on the mobile or tablet, for example the ChatGPT mobile application, the Bing application, Gemini, Perplexity, etc.
+  Alternatively, LLMs have also been integrated into other systems, for example you can access Bing Chat from a Skype conversation.
+
+Figure 1.6: Conversation with Bing Chat from Skype
+Possibilities and uses
+What can we do with an LLM? What can we ask an LLM? Well the answer is everything (or almost everything). LLMs are very good at working with text. Some researchers refer to LLMs "text calculators" because they are capable of processing text efficiently and quickly. Just as in a calculator we have functions to add, subtract or multiply, we can ask an LLM for endless operations for a text such as:
+• Translate a text into another language. Example: can you translate the following text into French? "The boy runs up to his house to watch the game"
+• Summarize a text in a few lines or paragraphs. Example: Can you summarize the following news in 2-3 lines?
+• Classify a text by sentiment. Example: Can you identify if the customer who wrote this product review is satisfied with their purchase or not?
+• Response generation. Example: Can you write an email in response to this customer, informing them that I will be traveling next week?
+• Style generation. Example: Can you rewrite this poem in reggaeton song style?
+  As you will see from the following examples, LLMs are very good at understanding text and transforming it at will. But their skills do not stop there: LLMs can also handle data tables and programming code, and recently they have also been able to understand figures and images and incorporate them into the analysis.
+What is a prompt?
+The prompt is the way we make queries to an LLM. Generally, a prompt will be an instruction or initial text provided to the LLM with which we want to guide and direct the generation of responses or coherent text. It can be a phrase, a question, or even a complete paragraph that sets the context or defines the task that the LLM is expected to perform.
+  To fully exploit the potential of LLMs, we must learn to interact and request information in the most suitable way possible. This is called prompt engineering, that is, how to specify correctly in the prompt what we want and how we want it. Hence, this book
+discusses some techniques for interacting as effectively as possible with LLMs through appropriate and precise prompts.
+First prompts: movie recommendations
+As many teachers say: 'You learn to program by programming.' The more, the better.
+  The same goes for mastering prompts. You have to try many prompts, run many tests, and make errors to learn and refine the technique of accessing the LLM; that is, prompt engineering.
+  So, let's open an LLM and get started with our first prompt: we're going to ask the LLM for a recommendation of five movies to watch tonight.
+
+16	chatgpt: learning prompt engineering with 100+ examples
+
+suggesting to ChatGPT that a romantic comedy might be a good fit for us. We can fine-tune the recommendation even further with the following prompt:
+
+18	chatgpt: learning prompt engineering with 100+ examples
+it will be for the LLM to come up with a response closer to your needs.
+  With very concise prompts, LLM responses tend to be very generic and imprecise. The more details we incorporate into the prompt, the more likely we are to get better results.
+First prompts: training plans
+In the following example, we're going to try prompts with increasing context to refine a personalized physical training plan at a gym. You'll notice significant differences as you add more and more context to the prompts.
+
+	warming up	19
+
+20	chatgpt: learning prompt engineering with 100+ examples
+
+	warming up	21
+
+22	chatgpt: learning prompt engineering with 100+ examples
+  Although ChatGPT is one of the most advanced language model and is often a good choice, it is a good idea to try other LLMs from time to time. These other models may operate differently or have additional features that make them more suitable for certain tasks. Let's try the same gym task we did before with other LLMs to see how they differ.
+
+	warming up	23
+
+24	chatgpt: learning prompt engineering with 100+ examples
+
+	warming up	25
+
+26	chatgpt: learning prompt engineering with 100+ examples
+
+	warming up	27
+
+28	chatgpt: learning prompt engineering with 100+ examples
+
+	warming up	29
+
+30	chatgpt: learning prompt engineering with 100+ examples
+6) Ask ChatGPT, Gemini, and Llama for several of the proposed examples and analyze the differences between their responses.
+  Remember to correctly specify the problem you want to solve and the starting parameters and hypotheses. Normally it will take you 2 or 3 attempts to get the right prompt. With trial and error, you will fine-tune the prompt to achieve the expected results.
+
+Some basic techniques
+Simple prompts to obtain information
+W
+e have already seen in the previous chapter some prompts with different objectives, uses and utilities. In this chapter,
+we are going to study simple techniques to obtain information in a very similar way as we would do it from an Internet search engine. This type of simple and minimal prompts is often called
+"Zero-Shot Prompt", for example:	Zero-shot
+Prompting
+• What is cancer?
+• How many types of stars are there?
+• How old is the Universe?
+• How can I cook a cake?
+• In what year was Miguel de Cervantes born?
+• How many cities called Madrid are there in the world?
+  On this simple prompt, we can add instructions for the LLM to provide its answer in a certain way, for example, following a particular style or adopting a certain format for its presentation or just simplifying it for better understanding. This is the first major difference between LLMs and a classic Internet search engine.
+  In the following prompt, we ask an LLM for information about a topic without any restrictions or guidelines, so that the LLM is free to answer as it deems appropriate.
+32	chatgpt: learning prompt engineering with 100+ examples
+
+	some basic techniques	33
+  Perhaps this prompt is the simplest of all and any Internet search engine such as Google would have returned some web pages that define cancer in a similar way, for example Wikipedia or the World Health Organization. Perhaps the most obvious advantage of the LLM over the search engine is its ability to structure the information and present it in a simpler and more readable way.
+Summarizing and structuring information
+When a response is too long, we can add instructions to ourprompt requesting to reduce or summarize the result, forPromptexample:= Task +
+Output
+Structure
+
+34	chatgpt: learning prompt engineering with 100+ examples
+
+	some basic techniques	35
+
+36	chatgpt: learning prompt engineering with 100+ examples
+
+	some basic techniques	37
+
+38	chatgpt: learning prompt engineering with 100+ examples
+
+	some basic techniques	39
+
+40	chatgpt: learning prompt engineering with 100+ examples
+
+	some basic techniques	41
+
+42	chatgpt: learning prompt engineering with 100+ examples
+
+	some basic techniques	43
+
+44	chatgpt: learning prompt engineering with 100+ examples
+
+	some basic techniques	45
+
+46	chatgpt: learning prompt engineering with 100+ examples
+work with classical languages like Greek or Latin. The reader is encouraged to explore other uses of LLMs in language handling.
+Summary and exercises
+In summary, in this chapter, we have explored various ways to enhance a simple prompt by adding elements to expand, structure, or summarize the output information. We have also studied methods to give different styles to the output text and various formats for its integration into databases, web pages, or spreadsheets. Finally, we have studied the potential of LLMs in multilingual text processing.
+  To conclude, the reader is encouraged to practice what they've learned in this chapter by trying to create prompts for the following cases. Don't make just one attempt! LLMs are incredibly responsive to changes, so try different approaches.
+1) Ask it to explain what a derivative is in mathematics and then ask it to summarize it in simple language for children.
+2) Ask it to explain to you why children have nightmares at night in a single paragraph.
+3) Ask it to write a 2,000-word report on the economy in the Eurozone over the past year. Specify that it should include an introduction, a section on GDP, another on inflation, another on public debt and finally a paragraph with conclusions.
+4) Ask it to write a poem about your town or city. Add context explaining how your town or city and its natural surroundings are. Afterward, you can try asking him to write it as different poets would: William Shakespeare or Francisco de Quevedo.
+5) Ask it to rewrite the lyrics of your favorite song in the style and language of Stephen King.
+6) Ask it to show you how to order a glass of wine in ancient Rome in Latin.
+7) Ask it to write 10 basic phrases for a trip to China, including how to ask for the bill at a restaurant, request directions to a some basic techniques	47
+specific hotel for a taxi driver, or inquire about the cost of an umbrella in a store.
+
+
+
+Advanced techniques
+One of the most interesting features of LLMs is to request themto take on a specific role and mimic that role. Below, we illustratePromptthis case with a simple question about the meaning of friendship:= Task +
+Character Rolen this chapter, we will explore more sophisticated prompting techniques with various uses and applications. These include
+techniques for creative writing and composition, problem-solving using simple mathematics and reasoning. We also delve into techniques for interpreting sentiments in texts or assigning values between 0 and 10 to these texts for various purposes.
+Mimicking historical figures and assuming roles
+50	chatgpt: learning prompt engineering with 100+ examples
+
+	advanced techniques	51
+
+52	chatgpt: learning prompt engineering with 100+ examples
+
+	advanced techniques	53
+  As we can see, in each case, the LLM assumes a different role in explaining friendship from the point of view of different characters, based on their philosophy, beliefs, and personal experiences. The answers have a common denominator but are adapted to the experiences and philosophy of the different characters.
+  Likewise, in physics, we could ask about gravity for different physicists, according to their theories and convictions:
+
+54	chatgpt: learning prompt engineering with 100+ examples
+
+	advanced techniques	55
+
+56	chatgpt: learning prompt engineering with 100+ examples
+
+	advanced techniques	57
+
+58	chatgpt: learning prompt engineering with 100+ examples
+
+	advanced techniques	59
+
+60	chatgpt: learning prompt engineering with 100+ examples
+
+	advanced techniques	61
+Planning and approximate calculations for day-to-day routines
+LLMs can also assist in performing simple calculations and basic estimations, although it's important to be careful in this aspect as reasoning and logic are not their strong suits.
+Below is an example regarding planning for a barbecue:
+
+62	chatgpt: learning prompt engineering with 100+ examples
+
+	advanced techniques	63
+
+64	chatgpt: learning prompt engineering with 100+ examples
+Consequently, language models often struggle when tasked with complex calculations or reasoning that involves multiple mathematical steps.
+  A solution that users have found is simply asking the language model to perform the task step by step, adding to the promptthe message: "let's think step by step". Naturally, this doesn'tPrompt =make the model think step by step! But it prompts it to generate a series of steps with logic between them that will likely lead to the correct solution or at least a solution more similar to the correct one.
+  This technique is known as Chain-of-Thoughts (CoT). Let's look at some examples:Task + Let's think step by step
+
+	advanced techniques	65
+
+66	chatgpt: learning prompt engineering with 100+ examples
+
+	advanced techniques	67
+Below, we combine the use of examples (Few-Shot Prompting) with step-by-step reasoning (Chain-of-Thoughts):
+
+68	chatgpt: learning prompt engineering with 100+ examples
+
+	advanced techniques	69
+
+
+
+Use cases and applications
+T
+he use cases for ChatGPT are countless and cover practically
+any topic or task where text generation is needed. In this
+chapter we compile some examples that aim to highlight this versatility and show the reader the multiple possibilities of LLMs.
+  LLMs can serve as a great personal assistant. If you're a programmer, it can help you with coding and enhance your productivity. If you're an investor, it can assist in interpreting company data. If you're a teacher, it can help you create multiple-choice questions and examples for exams and classes. If you're a lawyer, the LLM can read complex laws and indicate the specific article of a law that contains what you're looking for.
+  In short, the LLM can aid you in your day-to-day tasks and make you more productive. As mentioned earlier, the LLM won't do your job for you, but it can help you a lot.
+Below are several examples.
+Laws, contracts and claims
+Legal documents often tend to be cumbersome and difficult for most people to understand . Their wording is directly beyond the reach of ordinary mortals. Below we show some very common examples and assess how ChatGPT can be helpful to us.
+Understanding the implications of a contract
+One of the figures that appears in mortgages is that of the guarantor; however, many people do not understand all the implications of guaranteeing a mortgage loan. In this example, 72	chatgpt: learning prompt engineering with 100+ examples
+we ask ChatGPT to review a clause in a mortgage contract and explain the risks of acting as a guarantor in that contract.
+
+	use cases and applications	73
+
+74	chatgpt: learning prompt engineering with 100+ examples
+
+	use cases and applications	75
+
+76	chatgpt: learning prompt engineering with 100+ examples
+
+	use cases and applications	77
+
+78	chatgpt: learning prompt engineering with 100+ examples
+
+	use cases and applications	79
+
+80	chatgpt: learning prompt engineering with 100+ examples
+
+	use cases and applications	81
+Summarizing the content
+Let's go back to the Constitution and see if ChatGPT can summarize some of the content that we need to study.
+
+82	chatgpt: learning prompt engineering with 100+ examples
+
+	use cases and applications	83
+
+84	chatgpt: learning prompt engineering with 100+ examples
+
+	use cases and applications	85
+
+86	chatgpt: learning prompt engineering with 100+ examples
+
+	use cases and applications	87
+
+88	chatgpt: learning prompt engineering with 100+ examples
+
+	use cases and applications	89
+
+90	chatgpt: learning prompt engineering with 100+ examples
+
+	use cases and applications	91
+  Once again, ChatGPT is able to interpret the Excel formula and explain it in a simple and coherent manner.
+Doing calculations
+Calculations are another task that often feels tedious and can lead us to waste money. Let's say we want to understand the impact of different options on our family expenses, but we don't have the exact data on our consumption, and we're fine with having an approximate estimate. Let's see if ChatGPT can make an initial estimation.
+
+92	chatgpt: learning prompt engineering with 100+ examples
+our exact consumption. In this case, we see that saving on milk is equivalent to saving on parsley.
+In the next case, we request a budget for a home renovation:
+
+	use cases and applications	93
+
+94	chatgpt: learning prompt engineering with 100+ examples
+Companies
+In the previous examples, we focused on the personal use of ChatGPT. Let's now explore some use cases within the business world. Again, the potential applications are countless, so we'll just touch on a few to showcase the immense potential of LLMs in enhancing productivity.
+  A significant portion of daily tasks in businesses is administrative and involves text writing. For instance, to manage the hiring of an individual by a human resources department, we need, as a first step, a description of the profile required for the position to be filled. Let's see if ChatGPT can help us.
+
+	use cases and applications	95
+
+96	chatgpt: learning prompt engineering with 100+ examples
+
+	use cases and applications	97
+countries. Write a prompt to create a news article covering the existing legislation regarding penalties for murder in countries like Thailand, Spain, and the USA. You need to know the approximate penalties for a murder that occurred in a bar, where an intoxicated person stabbed another intoxicated person during a braw.
+4) Ask what the recommended dosage of antibiotics would be for a 6-year-old girl who weighs 24 kilograms and has a urinary tract infection.
+5) Introduce the text of a current political news and request an optimistic and a pessimistic headline.
+6) Ask for 10 exercises on systems of equations with two equations and two unknowns to practice. Also, request solutions to verify the results.
+7) Ask for a plan to visit Paris in 3 days. Request recommendations for the most interesting places, considering that you want to visit at most one museum. Also, ask for recommendations for typical French dishes and restaurants where they serve them.
+8) Ask to draft a CV with your skills, education, and experience. Additionally, request to write a cover letter for an artificial intelligence consulting company.
+
+
+
+Playing with images
+G
+eenerative AI not only works with text, it can also analyze, modify or generate images. In this chapter we are going
+to see some practical examples of using ChatGPT (version 4) to process and generate images. We can ask it to generate an image from a text description but we can also drag an image into the ChatGPT interface and ask it a question about the image.
+Medical images
+Asking for advice on oral health
+We start with a photo of the mouth to see if ChatGPT can advise us on our oral health. We can take a picture of our mouth with our mobile phone and ask ChatGPT for advice.
+100	chatgpt: learning prompt engineering with 100+ examples
+
+Figure 6.1: Gums
+
+	playing with images	101
+
+102	chatgpt: learning prompt engineering with 100+ examples
+
+	playing with images	103
+A blood test
+
+104	chatgpt: learning prompt engineering with 100+ examples
+
+	playing with images	105
+
+106	chatgpt: learning prompt engineering with 100+ examples
+
+	playing with images	107
+
+108	chatgpt: learning prompt engineering with 100+ examples
+
+	playing with images	109
+
+Figure 6.6: An invoice
+110	chatgpt: learning prompt engineering with 100+ examples
+extract image data.
+Analyzing graphics
+ChatGPT is also capable of interpreting graphs in general and processing them.
+Population pyramid
+In the following example, we see how ChatGPT is able to interpret socio-economic graphs and process them.
+
+	playing with images	111
+
+112	chatgpt: learning prompt engineering with 100+ examples
+
+	playing with images	113
+
+
+Figure 6.9: Performance of the Standard and Poors 500 index of the U.S. economy
+	playing with images	115
+
+
+Figure 6.10: Evolution of CO2 emissions
+
+	playing with images	117
+
+
+Figure 6.12: Wrecked car
+
+	playing with images	119
+
+120	chatgpt: learning prompt engineering with 100+ examples
+
+	playing with images	121
+
+122	chatgpt: learning prompt engineering with 100+ examples
+
+	playing with images	123
+
+124	chatgpt: learning prompt engineering with 100+ examples
+
+	playing with images	125
+
+126	chatgpt: learning prompt engineering with 100+ examples
+
+	playing with images	127
+
+Figure 6.15: Exercises of mathematical series
+
+128	chatgpt: learning prompt engineering with 100+ examples
+
+	playing with images	129
+
+Figure 6.16: Alphabet soup
+130	chatgpt: learning prompt engineering with 100+ examples
+
+	playing with images	131
+
+132	chatgpt: learning prompt engineering with 100+ examples
+
+	playing with images	133
+
+134	chatgpt: learning prompt engineering with 100+ examples
+
+	playing with images	135
+
+136	chatgpt: learning prompt engineering with 100+ examples
+
+so that DALL-E adapts to that style. Of course, the more detailed the description, the more accurate the result will be.
+  The structure of a good prompt for generating images consists of the following:
+• Subject (a person, object, animal, character...)
+• Action (what he is doing, describing the context, e.g. "riding on a motorcycle, wearing a summer hat...")
+• Style (3D rendering, impressionist, anime, disney, fantasy, photography, illustration...)
+• Artist (add the name of a specific artist to serve as a reference, you can add several to match their styles)
+  We will try different styles using a dog in a bakery as the base prompt.
+
+138	chatgpt: learning prompt engineering with 100+ examples
+
+Figure 6.22: Example of an image generated by DALL-E for the prompt: "A dog attending a bakery, disney style, detailed, realistic, animation".
+
+Figure 6.23: Example of an image generated by DALL-E for the prompt: "A dog attending a bakery, illustration drawn by a child, crayons".
+
+Figure 6.24: Example of an image generated by DALL-E for the prompt: "A dog attending in a bakery, cubist painting, drawn by
+Picasso".
+
+Figure 6.25: Example of an image generated by DALL-E for the prompt: "A dog attending a bakery, drawing made with a single line, simple, minimalist, few details".
+140	chatgpt: learning prompt engineering with 100+ examples
+
+
+Figure 6.27: Example of an image generated by DALL-E for the prompt: "A dog serving in a bakery, anime style".
+
+Figure 6.28: Example of an image generated by DALL-E for the prompt: "A dog whose head is made of bread and cakes, surrealistic painting".
+multiple details and aspects. Like ChatGPT, these tools have revolutionized the fields of graphic design, art, advertising, architecture, and generally all disciplines where graphic
+142	chatgpt: learning prompt engineering with 100+ examples
+
+Figure 6.29: Example of an image generated by DALL-E for the prompt: "A golden retriever dog, standing at a bakery table delivering freshly baked bread to customers, realistic photograph, detailed".
+representation is a fundamental component. After images, the next step is creating video from text, which in the future could lead us to generate a series or movie from a script; as we can see, artificial intelligence seems to have no limits.
+More artistic creation
+
+
+Figure 6.31: Blue room 144	chatgpt: learning prompt engineering with 100+ examples
+
+	playing with images	145
+
+
+Figure 6.34: Cafeteria Asturias
+
+	playing with images	147
+
+5) Show it the nutritional information of a chocolate bar and ask it to approximate the Nutriscore value for that product.
+6) Ask it to draw a superhero similar to Batman (ChatGPT can't work with copyrighted images) hugging a child he just saved from a dog bite.
+7) Ask for an image of dragons playing basketball on Mars.
+8) Ask for a design of a perfume bottle with citrus tones. The perfume should evoke beauty, nature, and tranquility.
+9) Think of a funny image for a comic-style T-shirt, for example, a chicken next to a fried egg (which was his friend Pepe) asking him what happened to him.
+
+Audio, conversations, customization, limits and risks
+T
+he web is not the only way to utilize AI models, and chat
+is not the only mode of interacting with them. In this final
+chapter, we will discuss other ways to use LLMs and other more advanced topics that have not been covered in the previous chapters, as well as customization options or the risks and limits of this technology.
+Alternative uses
+Thanks to the mobile version or the paid version of ChatGPT, we have alternative ways to make the most of the models. In this section, we will describe them and give you ideas for using them.
+Audio
+The first one is through audio messages (similar to WhatsApp) and is only available for the mobile application of ChatGPT. To use it, simply tap the microphone icon as shown in the Figure 6.1, and it will start recording until we tap again.
+  Indeed, it is an incredibly useful feature for transcribing anything, but it becomes even more powerful when combined with the model. The possibilities are endless; you can use it to better prepare a presentation or to organize your thoughts and generate a draft of an article.
+
+Figure 6.1: Screenshot showing the use of audio messages. audio, conversations, customization, limits and risks	151
+  You can even use it to record group conversations or with other people. For example, a family member explaining a complex recipe to you and asking ChatGPT to help you understand it better.
+
+
+Figure 6.2: Screenshot showing the conversation mode.
+respond to you in the same language. You can customize this experience a lot by describing a situation you want to simulate and the role you want the model to assume. Below, we provide an example you can use:
+	audio, conversations, customization, limits and risks	153
+
+
+Figure 6.3: Sample of available plugins.
+automatically when starting the conversation. The first option is used to provide the model with more information about you so that it can respond to you in a more personalized way. For example: your occupation, preferences, etc. The second option is much more interesting; it is used to give commands to the model, which it will rigorously follow. For example, you can set rules for your children to use this language model more safely: "Respond in a simple and friendly manner. Use words that a small child of
+10 years old can understand. Avoid any adult topics."
+	audio, conversations, customization, limits and risks	155
+
+
+Figure 6.4: Sample of available plugins
+multiplications that elementary school students can easily do.
+
+	audio, conversations, customization, limits and risks	157
+  Now, ChatGPT has accessed Wolfram Alpha to solve the multiplication.
+  With the plugin activated, ChatGPT is now capable of performing more complex mathematical tasks. Let's see an example:
+
+  LLMs also make mistakes, as we have seen in some examples, and the problem is that often their errors are convincing, and we may take them as valid. These erroneous yet believable responses are generally known as hallucinations, and both companies and researchers are working to eliminate them and make the responses of LLMs more reliable. To minimize hallucinations, it is often a good idea to add the following sentence to your prompt:
+
+In conclusion
+n this book, we have tried to gather some basic tricks to learn how to use ChatGPT and other LLMs step by step. We started
+with simple examples and gradually introduced more advanced techniques to show the reader the immense possibilities of this new technology, which evolves day by day and never ceases to amaze us.
+  With what you have already learned and practiced, it is time that you seek out new prompts and applications for your daily life, both at home and at work. Just as programming is learned by programming, writing prompts is also learned by interacting extensively with LLMs, through trial and error, starting with simple questions and then moving on to more complex scenarios. Before the reader embarks on their own journey in using LLMs, we want to conclude with some advice and recommendations.
+  Experiment with various question and task formats, such as creative writing, problem solving, or code generation. It is helpful to read the available documentation and usage examples to gain a deeper understanding of its advanced features. Feedback is crucial, so by correcting incorrect or inaccurate ChatGPT answers, you contribute to their learning. Lastly, maintain a critical approach and be aware of the limitations of the model, ensuring that you verify the information provided and do not rely entirely on it for critical decisions.
+  Recall that LLMs experience sporadic hallucinations. Hallucinations in the context of ChatGPT and other language models refer to when the model generates information that is false, inaccurate, or nonsense, but does so convincingly. These responses can range from subtle errors in data or
+dates to completely fictitious claims that appear convincing. Hallucinations are a known challenge in natural language processing AI and can be caused by various reasons: limitations in training data, the way a question is formulated, or inherent biases in the model. Combating hallucinations involves techniques such as adjusting training methods, improving response validation algorithms, and designing interfaces that allow users to provide feedback to correct these errors.
+  It's also interesting for you to learn more details about LLMs, such as their main configuration parameters like temperature and top probability. The temperature controls the degree of randomness in the LLM's responses. If set to zero, it will always choose the most probable response, while higher values allow it to choose between different responses based on their estimated probability. In other words, temperature allows us to control the "creativity" of the LLM. Another common parameter is top probability, which allows us to set what responses the LLM can choose: if set to 1, it can choose from all responses, but if, for example, set to 0.8, it can only choose the most probable responses that sum up to 80
+  Again, top probability allows us to control the randomness of the responses. There are also parameters that allow penalizing word repetition or setting the maximum size of the LLM's response. As you progress in using LLMs, it's convenient for you to become familiar with all these possibilities. Currently, many of these options are only accessible through the LLM's programming interface, in more advanced or paid versions, but they will likely become more accessible in the future.
+  But hey, that's enough of us talking so much about ChatGPT, let's let it close the book.
+	in conclusion	161
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+8
+
+7
+
+7
+
+10	chatgpt: learning prompt engineering with 100+ examples
+
+	warming up	11
+
+10	chatgpt: learning prompt engineering with 100+ examples
+
+
+
+	warming up	11
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+114	chatgpt: learning prompt engineering with 100+ examples
+
+
+
+114	chatgpt: learning prompt engineering with 100+ examples
+
+
+
+
+
+
+
+
+
+	playing with images	137
+
+	playing with images	137
+
+114	chatgpt: learning prompt engineering with 100+ examples
+
+
+
+
+
+
+
+
+
+
+
