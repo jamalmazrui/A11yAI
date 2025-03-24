@@ -25,4 +25,4 @@ Individual documents may be downloaded from the following GitHub repository:
 
 Also, the whole collection may be downloaded in a single zip archive from the following address:
 
-<http://GitHub.com/JamalMazrui/A11yAI/archive/master.zip>
+<http://GitHub.com/JamalMazrui/A11yAI/archive/main.zip>
