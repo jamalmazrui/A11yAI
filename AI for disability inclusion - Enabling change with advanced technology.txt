@@ -1,0 +1,611 @@
+﻿Table of Contents
+Chapter 3: R(AI)S your AI game with guiding principles
+Chapter 4: Academics, regulators/policymakers,
+Chapter 1
+Chapter 2
+Chapter 3
+Chapter 4
+AI for
+disability
+inclusion
+Enabling change with
+advanced technology
+
+
+
+
+
+
+
+
+Introduction: Responsible and ethical AI
+as an enabler of change
+of AI to foster disability inclusion
+Table of Chapter 1: Expand executive awareness of the power
+contents Chapter 2: Focus on the benefits; screen for and eliminate potential for unintended consequences
+Chapter 3: R(AI)S your AI game with guiding principles
+Chapter 4: Academics, regulators/policymakers,
+investors, and developers can also R(AI)S the bar
+
+AI for disability inclusion | Enabling change with advanced technology
+
+
+
+More than one billion people globally are Our experience points to an overarching barrier: the To that end, we will explore three foundational steps living with some form of disability. persistent, misguided perception that finding, hiring, that organizations can take to help them leverage AI's
+onboarding and developing persons with disabilities is great potential as an enabler of change in this context.
+ethnicity, gender identity, race, sexual orientation, an organization would have to extend to do so. • Expand executive awareness of the power of AI and socioeconomic status. In the United States, In this report, through collaboration with Disability:IN Collectively, people with disabilities cross every age, too difficult-not worth the effort and resources that They are: 26% of adults (one in four) have a disability. Yet to foster disability inclusion;
+50% of this community in the US are more likely and the American Association of People with • Focus on the myriad benefits of AI while to be unemployed than nondisabled1 Disabilities (AAPD), we bring an evidence-based screening for and eliminating the possibility of people of working age.2 perspective to bear. Based on Accenture's ongoing unintended consequences; and Why is that? What is keeping organizations from study of persons with disabilities in the workplace, and • Use the R(AI)S guiding principles
+business case Artificial Intelligence (AI)-when developed and used to inform decision-making about using AI to for tapping individuals from this vast responsibly and ethically-has the potential to improve inclusion. hiring more people with disabilities? After all, the advances in "human + machine" work, we see that (Responsible, Accessible, Inclusive, Secure)
+and highly talented pool of individuals has been made. 4
+facilitate the entire employment journey for persons
+Hiring more individuals with disabilities can help with disabilities. It can help organizations identify improve performance and position organizations for candidates (and vice versa). It can enable engagement long-term growth. at work. And it can drive a culture of confidence in
+this underutilized segment of the workforce while
+supporting advancement within organizations.3
+AI for disability inclusion | Enabling change with advanced technology
+Accenture views AI as a constellation
+of technologies that allow smart
+
+As recent headlines attest (and as that second step machines to extend human capabilities
+acknowledges), AI can be a double-edged sword. by sensing, comprehending, acting,
+58% and learning, thereby allowing people identify AI as the biggest potential cause of One global survey of risk managers found that
+unintended consequences over the next two years. to achieve much more than they could
+Only 11% in that study described themselves as on their own. These technologies
+fully capable of assessing the risks associated with include natural language processing, 5 adopting AI organization-wide. The risk that AI could computer vision, and other applications create or exacerbate existing barriers to employment of machine learning recognition. or engagement at work, and the ancillary risk of
+liability, is real.
+It's worth noting that in April 2021, the European We have developed this report with these concerns
+Commission took a major step toward a new top of mind. There's no doubt that the work of taking
+regulatory framework to address high-risk sectors and these steps is hard; it requires dedication. And it is
+applications, including recruitment, facial recognition worth it. Designing, developing, and using responsible,
+technology, and applications linked with workers' and ethical AI can tap the incredible potential of talent
+consumers' rights. 6 with disabilities, while helping all workers reach their
+potential. Getting this right helps everyone thrive.
+AI for disability inclusion | Enabling change with advanced technology
+
+Expand executive
+awareness of the
+power of AI to foster
+disability inclusion
+Chapter 1
+While 84% of C-suite executives believe they must with disabilities. This work includes independent comfortable being open and giving their input. It's a
+leverage AI to achieve their growth objectives, 7 algorithmic assessments and auditing and adoption vicious cycle; as Accenture's global Getting to Equal
+most haven't put AI to work to advance growth of inclusive design principles. It ensures that AI 2020: Enabling Change research illustrates, 76% of through inclusion. Our research suggests one key solutions are designed-and their underlying employees with disabilities and 80% of executives reason: Many are not fully aware of the barriers to data are assessed-as rigorously as possible to with disabilities are not fully open about their inclusion that may exist in their organizations. While prevent unintended consequences such as bias disabilities at work. While some disabilities result in 67% of C-suite respondents believe they've built a and discrimination. Yet just 37% report that they a form of forced disclosure (mobility challenges, for supportive workplace that enables their disabled have inclusive design principles in place to support example, are apparent), many people with disabilities employees to thrive with the right technology, "human + machine" collaboration9-essential to the can and do successfully conceal a disability such as environment and support, only 41% of employees development of fair and unbiased AI solutions. (See dyslexia, autoimmune diseases like multiple sclerosis, with disabilities agree.8 the page, "What is 'inclusive design'?") or chronic mental illness.
+The majority of executives, 78%, believe their Finally, there is the lack of disability representation organizations will be able to leverage AI solutions to in data sets and this remains a critical source of address barriers to including persons with disabilities bias-and it's an issue whose solution rests, in part, over the next three years, particularly in the area on culture. Fostering a positive culture of safe self-of accessibility. To achieve this goal, they must disclosure is vital to achieving responsible and ethical fully understand the vital impact of "advance work" AI. Organizations can't incorporate the perspectives needed to deploy ethical AI that benefits workers of employees with disabilities if people aren't
+AI for disability inclusion | Enabling change with advanced technology
+What is "inclusive design"?
+Inclusive design considers the needs of all users Ideally, accessibility (the "what") and inclusive
+as a product or service is being developed, from design (the "how") work together to make start to finish. With inclusive or human-centered experiences that are not only compliant with
+design, a person with a disability is simply standards, but truly usable and open to all.
+another individual with specific lived experiences. And the "why": Together, inclusive design and
+Organizations that design for diversity and edge accessibility can allow teams to build more diverse
+cases, including individuals with disabilities, will products, attract talent, ensure product teams are
+create better solutions and experiences for all users. representative of the diversity of the customers
+we serve, and help identify new opportunities for
+Microsoft defines inclusive design as a
+revenue growth.
+methodology, born out of digital environments,
+that enables and draws on the full range of human Failing to accommodate and co-create solutions
+diversity. The company notes that "exclusion with and for employees with disabilities can be
+happens when we solve problems using our own very costly: According to the Equal Employment
+biases. As Microsoft designers, we seek out those Opportunity Commission (EEOC) in the US, over
+exclusions, and use them as opportunities to 24,000 disability discrimination charges were filled
+create new ideas and inclusive designs."10 with the agency in 2019. The EEOC's enforcement
+Effectively incorporating inclusive design into the 12 efforts have amounted to $116M in monetary
+benefits to plaintiffs.
+way organizations create products and services
+requires adopting a new culture. Organizations
+need to take charge, consciously integrating
+accessibility, diversity and inclusion into their
+ways of working. 11
+AI for disability inclusion | Enabling change with advanced technology
+
+
+
+
+
+
+
+
+
+Focus on
+the benefits;
+screen for and
+eliminate potential
+for unintended
+consequences
+Chapter 2
+AI has the potential to tackle some of the world's Consider, too, the extent to which racial bias is most intractable challenges, but only if the underlying imbued in facial recognition, detection, and related One tool developed by Accenture's algorithms and the data set powering them are technology. Research has found divergent error rates Responsible AI unit15 has the trustworthy and free of bias. Biases often occur across demographics, with accuracy rates being potential to help address bias. The
+other identities. Algorithmic Assessment Toolkit uses old. How might the technology perform when adding at the intersections of disability, race, gender, and lowest for women, Black people and those 18-30 years
+Case in point: A popular AI software that attempts 14 facial differences? groups of people are treated unfairly to predict how a candidate will perform on the job aspects of disabilities that cause disfigurement or statistical methods to identify when
+by analyzing factors on display in their job interview by an algorithm and visualizes To ensure that AI is helping and not inadvertently
+such as gestures, tone, and cadence. This software the impact of potential corrective working against the inclusion of all people with
+has been called out by experts as dangerously biased disabilities, regardless of gender, race, etc., it's measures. 16 It's important to point against persons with disabilities, who might present critical to assess the potential consequences of out that the tool has not yet been with a range of characteristics that would not hinder AI deployment on every part of the employment used for the purpose of detecting their work performance but could affect how their experience. In this report, we focus on three areas: bias on the basis of disability, but if potential is scored. 13 the hiring process, life at work, and employee
+evaluations. the desired variables were defined
+with set parameters, and there
+is agreement on the threshold
+considered to be "fair," and the right
+data is available, it could be used for
+that purpose.
+AI for disability inclusion | Enabling change with advanced technology
+The hiring process
+Research shows that approximately 76% of (including physical, cognitive, sensory, visible, organizations with 100 or more employees use and invisible). It is possible to navigate potential pitfalls
+algorithms to assess performance on hiring tests, 17 by allowing people who are applying for a The issue can be further compounded if the "fix" and 40% of organizations use AI when screening or job to tailor their interview or assessment is not appropriate. Simply adding in that data may assessing candidates during recruitment. 18 experience, as needed. Candidates who not be the solution. Here again, design matters may need more time to answer questions, or These systems have become much more enormously. Disability should not only be considered who may not be able to convey their talents sophisticated in recent years. Many of the new AI as a stand-alone category, but rather carefully adequately in a video interview scenario, tools for employment use neuroscience principles to examined regarding intersectional identities. Those for example, can work with a talent advisor perform pre-employment assessments of candidates. responsible for sourcing and including such data must or similar role to develop the best scenario Some tools aim to measure cognitive and emotional scrutinize who defines disability and how. 20 Programs for them. (Of course, candidates must be features of the candidate, while specifically trying to that evaluate cognitive performance, for example, notified - ahead of time - about how the avoid demographic (race, gender) bias through an could fail to recognize how neurodiversity plays interview or assessment tool works. That auditing process of the data that is present within the into candidates' responses. Plus, assessments that way, an informed decision can be made tool's algorithms. 19 They seek to match candidates' evaluate employees based on algorithmic perception whether or not an accommodation is performance against that of existing employees of their facial expressions, tone of voice or movements needed, including allowing or disallowing who have succeeded in the same role for which the can penalize candidates with disabilities. They may automated decision-making used to organization is hiring. also constitute unlawful pre-employment disability- evaluate performance.) related inquiries and/or medical examinations However, employers that use AI for pre-employment under federal anti-discrimination law. And timed assessments may unwittingly make unfair decisions. assessments can be unfair to people with disabilities, The data they gather, for example, may not include including those who use assistive technologies. considerations of disability in all its variations
+AI for disability inclusion | Enabling change with advanced technology
+Life at work
+Lacking inclusive design and accessibility, both These kinds of tools are not one-and-done built and digital work environments can be difficult solutions-nor are they one-size-fits-all. As AI-based Consider technology that describes to navigate if one has a disability. In some cases, systems become an integral part of HR processes people, text and objects aloud an individual may feel they have to do two jobs to and the workplace, it's important to assess whether for those with low vision. AI-
+overcoming obstacles so that they can perform their powered tools and apps such as help employees thrive at work and to leave them accomplish one, with the first job being the task of each tool is needed and, if so, what it is doing to
+actual job. AI-powered advances in accessibility, such Blindsquare22 seek to help those net better off .
+as predictive text, speech-to-text transcription, and with visual impairments navigate AI is also enabling immersive learning environments voice and visual recognition have great potential their travel and work environments using extended reality (XR) technologies-virtual, to help organizations eliminate some of these independently. There are also new augmented and mixed reality (VR, AR and MR)-in barriers-and comply with the law in the process. 21 customer-service training sessions. These tools closely solutions that operate computers The caveat is the need to foresee, avoid (and be ready mimic real-life situations and allow employees to gain via eye movements. Technologies to mitigate) negative impacts. greater levels of knowledge in less time than they like these can improve the lives of would through more traditional "on-the-job" training. employees with disabilities and have
+the potential to enable employers to
+meet their legal obligations in a cost-
+effective way.
+AI for disability inclusion | Enabling change with advanced technology
+As this technology and its use cases become more
+its associates in order to increase when procuring and utilizing XR tools to ensure that they work for everyone. For example, a lack of employee engagement around Walmart leverages VR training for sophisticated by the day, employers must be cautious
+areas such as empathy, diversity mobility can't use VR without assistance. Even with captioning24 is an issue, and individuals with limited
+and inclusion in their customer a headset on, many can't make the head or body
+experience as well as compliance movements required to get the full experience.
+for on-the-job training helps using VR difficult or even harmful. Fortunately, there are some worthwhile initiatives underway to address employees navigate a variety of training. Disabilities such as autism and anxiety can also make 23 Leveraging these tools
+situations and experiences in virtual Future of Work XR accessibility (XRA) concerns, such as PEAT's 25 project and the XRA Developers
+"practice worlds" (where mistakes Guide26 for accessibility and inclusive design in don't matter). immersive experiences. (See the page, "What is
+'inclusive design'?")
+AI for disability inclusion | Enabling change with advanced technology Employee evaluations
+Using AI-powered tools, managers can extract sponsored social activities. On the surface, those
+
+valuable insights from employees about their seem like viable metrics. But what if a person with
+strengths and areas for improvement and the ways disabilities is unable to attend work-sponsored social
+in which their learning experience and environment activities due to a lack of accessibility? What if travel
+could be customized to support higher levels of to/from work must happen at certain times due to
+engagement and job satisfaction. AI-driven feedback their personal needs or transportation availability?
+can help organizations assess employee performance What if an employee relies on paratransit which is
+based on historical data and achievement of current often delayed? What if an employee's schedule is
+metrics and suggest recommendations that can help affected by the need to care for a disabled relative, a
+individuals and groups achieve greater performance child or an elderly parent? The results will be skewed,
+levels going forward. likely against employees who stand out for any of
+these reasons though they have nothing to do with
+Such tools, however, must consider the range
+engagement, productivity, or loyalty.
+of needs and behaviors they may encounter in a
+given group of people if they're going to generate How do organizations avoid having such measures
+worthwhile insights. Suppose, for example, that result in unfair practices, unlawful disparate treatment
+an organization is seeking to figure out whether or impact based on an employee's protected employees are likely to remain there or pursue status? How can organizations prevent AI tools from
+employment elsewhere. And suppose to do this, it mistreating or excluding otherwise successful and
+uses AI-powered analytics to scan data from different productive employees?
+aspects of worker behavior, such as attendance,
+arrival/departure times and participation in work-
+AI for disability inclusion | Enabling change with advanced technology
+
+In the first instance, organizations should ask the This is an especially important tactic since, question outright: Who might be unintentionally again, organizations are struggling to create a
+excluded from using a given product (or service) culture of safe self-disclosure which impacts the
+and how will this (product or service) avoid bias availability of reliable, trustworthy datasets. Plus,
+if the employee has a disability? This will help organizations must ask if it is always appropriate to
+to unearth potential gaps and opportunities. make inferences based on data regarding disability.
+Bear in mind that not all platform vendors offer By anonymizing and aggregating employee
+accessible alternatives to their products, and that activity data, the risk of any bias creeping in while
+if a person needs to ask for help using a given measuring engagement can be mitigated. product, they may be compelled to disclose a
+disability even if they would prefer not to. Tools can
+employ mechanisms that seek to prevent bias or
+discrimination or unwanted disclosure. Some AI-
+powered analytics tools and platforms, for example,
+collect data and feedback from each employee
+not only by asking questions but also through
+anonymized, opt-in collaboration analytics.
+AI for disability inclusion | Enabling change with advanced technology
+While the rewards are ample and the ethical and legal With these foundational moves made,
+compliance imperatives are strong, the journey to organizations are better positioned to
+inclusion is not straightforward. Where to begin? It unleash the power of AI for all-while
+starts with your people: Organizations have to take working toward eliminating biases and
+steps to encourage a positive, safe culture of self-
+disclosure and inclusion (that can start with leadership sparking more innovation and growth for
+disclosing their own disabilities). At the same time, the organization too.
+employers must respect that they cannot lawfully
+require self-disclosure of a disability.
+The second necessary shift is one toward inclusive
+design and development of AI: All technological
+changes or implementations in an organization should
+be executed with these principles in mind, especially
+in light of self-disclosure and data privacy issues.
+Finally, leaders should take a strong, uniform, visible
+stance on process and governance: Transparency is
+key to any inclusion effort, and more so when complex
+capabilities like AI are under consideration.
+AI for disability inclusion | Enabling change with advanced technology
+
+R(AI)S your AI
+game with guiding
+principles
+Chapter 3
+To make sure that AI positively impacts people with
+disabilities and helps them achieve their goals, Responsible Inclusive employers can look to the set of guiding principles means adopting and scaling AI responsibly and means taking action for fairness in/with AI: Use we call R(AI)S (for Responsible, Accessible, Inclusive, ethically; innovating with purpose; and placing inclusive design approaches that incorporate and Secure). a premium on compliance, accountability, the lived experience of persons with disabilities,
+These principles synthesize insights from expert transparency and explainability.28 and debiasing techniques to create a culture of
+equality and inclusion.
+interviews, research from the Berkman Klein Center
+for Internet and Society at Harvard University,27 as
+well as a host of published AI principles from around
+the world. At a high level:
+Accessible Secure
+indicates that all AI endeavors put a premium at one level means ensuring that using AI will not
+on accessibility and that includes features and put data privacy at risk. However, it also recognizes
+functionality of the tool itself, the capabilities of security in the sense that individuals should not
+vendors involved, the experience of the person need to ask for help because of their disability
+with disability surrounding its use. (thus potentially depriving them of the autonomy
+and privacy that would otherwise be protected
+when using the technology).
+AI for disability inclusion | Enabling change with advanced technology
+To cover these four areas comprehensively,
+we recommend that employers ask themselves the
+framing questions listed below. The answers-followed
+up with "how can we do this better?"-will suggest
+outlines for a plan of action, which will be unique to
+each organization. Inspiration can also be drawn from
+examples of organizations that have demonstrated
+significant advancement in particular areas, as called
+out for each principle.
+AI for disability inclusion | Enabling change with advanced technology
+Responsible Salesforce
+• Are we assessing and communicating how our investment in or Salesforce's commitment to inclusive, ethical AI
+use of AI-powered systems impacts employees and/or candidates became even more important when its Einstein AI
+throughout the employee lifecycle, particularly those who might be technology was made available across its products.
+adversely affected (e.g., due to disabilities, race, gender, etc.)? The company founded the Office of Ethical and
+Humane Use as a part of its Office of Equality, which
+• Have we engaged an independent team responsible for evaluating represents diversity of all kinds, including disabilities.
+whether AI is used for its intended purposes? Is that team Its Office of Ethical and Humane Use developed
+empowered to stop deployment until negative impacts are assessed a framework for Responsible AI and implements it
+and eliminated? across the company. In addition to ensuring data
+privacy and security, Salesforce trains its employees
+• Are we open about the AI-based tools we build and/or use for the to recognize harmful stereotypes in AI algorithms and
+purpose of recruiting and interviewing candidates for hire? Do their consequences. In case of issues, Salesforce's
+recruiters, candidates, and hiring managers/staff know these tools ethical AI framework lists steps to solve them, such
+exist, what they do and why, and how to access them? protection mechanisms, commitment to transparency, 29 as communication with affected communities,
+• Are we providing accessible alternatives and complaint channels for and a Data Science Review Board.30
+employees and/or candidates with disabilities who need to report they may be disadvantaged by AI-powered tools for any reason?
+
+AI for disability inclusion | Enabling change with advanced technology AI for disability inclusion | Enabling change with advanced technology
+
+
+
+Accessible Microsoft
+• Have we appointed or established a Chief Accessibility Officer, Responsible AI is a group effort at Microsoft. In
+Office of Accessibility, executive sponsor, and/or leadership team addition to appointing a Chief Accessibility Officer
+champion to oversee and be accountable for accessibility efforts? and having a CEO eager to speak on the topic,
+the Office of Responsible AI sets company-wide
+• Are we engaging employees with disabilities in our accessibility guidelines and governs their implementation.
+efforts including, but not limited to, usability testing? Responsible AI Strategy in Engineering (RAISE) is an
+• Are we embedding accessibility into our relevant policies and initiative the engineering team built to enable the
+implementation of responsible AI rules and processes
+any commitments to ethics and corporate citizenship, and are we across engineering groups. The Aether Committee,
+monitoring progress and regularly seeking feedback from a wide established in 2017, advises senior leadership on
+range of stakeholders, including employees with disabilities, ERG issues, best practices, and R&D opportunities. Aether
+members, and the public? organizes working groups that focus on areas such
+as fairness and inclusiveness. Together, these three
+• Are we defining accessibility and usability as a requirement in groups put principles into practice. Outside of the
+our procurement contracts with tech vendors, including AI tool company, Microsoft's AI for Accessibility program
+vendors, and regularly testing for it? Likewise, are we evaluating provides seed grants to developers, universities,
+vendors with these capabilities top of mind?31 inventors, and NGOs that are creating solutions or products to assist people with disabilities with "work,
+life, and human connections." Microsoft then connects
+the most promising projects with their internal teams
+
+and experts to help them scale. Finally, Microsoft
+
+pledges to bring inclusive design to its products.32
+
+AI for disability inclusion | Enabling change with advanced technology AI for disability inclusion | Enabling change with advanced technology
+
+Inclusive The American
+Association of People
+• Are we directing and/or incentivizing our talent development with Disabilities (AAPD)
+teams (internally and externally) to use inclusive design principles?
+Are there consequences for failing to adhere to these principles?
+• Are we proactively assessing risk of role displacement as a result from Verizon and the Partnership on Employment and AAPD is leading the Start Access initiative with support
+of AI and providing inclusive and accessible ways of reskilling and Accessible Technology (PEAT). The program is focused
+training employees who may be affected? on AI-enabled tools that are increasingly used in
+• Are we conducting regular fairness assessments/audits of talent acquisition to source, screen, onboard and train
+algorithms (and the underlying dataset(s)) to understand and act to virtual spheres which will endure post-pandemic. employees, particularly as organizations move rapidly
+upon any potential negative impacts our AI tools could have for Start Access aims to build and convene an engaged
+persons with disabilities and other at-risk communities (e.g., based stakeholder community from across the startup on gender, race or age)? ecosystem to promote "born accessible" solutions such
+as inclusive development teams/co-design, inclusive
+datasets, algorithmic fairness tools and techniques, and
+transparency/accountability practices.
+
+AI for disability inclusion | Enabling change with advanced technology AI for disability inclusion | Enabling change with advanced technology
+
+
+
+Secure Telefónica
+• Do we have an internal governance model in place ensuring safe, In October 2018, Telefónica's Executive Committee
+secure and fair deployment and operation of AI systems? adopted its own AI Principles along with a governance
+model to ensure effective implementation within
+• Are we increasing investment in the security of our AI systems? the company. The first principle, Fair AI, states that
+• When assessing candidates for employment and using AI-based algorithms should not discriminate against people
+tools, do we recognize that candidates with disabilities have the with disabilities or other protected classes such as
+same reasonable expectations of privacy as do other candidates? race, gender, religion, or other personal conditions.
+Telefónica promises to monitor data sets for unfair bias
+• Is accessibility understood to be a key element of privacy and or discrimination, and to optimize algorithms while
+security for people with disabilities, enabling independence considering their impacts. Further, the company will
+and freedom from having to ask for help? Is accessibility also be explicit about what personal or non-personal data
+understood to be a key element of protecting system security is used and for what purpose. Users will know they are
+interacting with AI tools, that their data is secure, and
+because it eliminates the need for third parties to access systems practices are compliant and lawful. This extends to any
+designed for independent use? third-party AI tool Telefónica employs.33
+• Are we actively avoiding finding or using information that
+should not be considered while using AI-based tools for
+recruiting purposes?
+
+AI for disability inclusion | Enabling change with advanced technology AI for disability inclusion | Enabling change with advanced technology AI: A worthy match
+
+
+
+for barriers to inclusion AI-based tools have the potential
+to be a worthy match for
+
+the barriers to inclusion that
+persons with disabilities face
+along the employment journey.
+By responsibly and ethically
+blending advanced technologies
+with human ingenuity-and
+empathy-organizations can clear a
+path for a large group of people who
+are ready to contribute, innovate and
+grow their organizations.
+AI for disability inclusion | Enabling change with advanced technology
+
+Academics,
+regulators/
+policymakers,
+investors, and
+developers can also
+R(AI)S the bar
+Chapter 4
+While employers must be powerful advocates "How shall we do that?"
+and drivers for the ethical implementation of AI,
+organizations also need the engaged support
+of all stakeholders. Academics, regulators/
+policymakers, investors, and developers (with and
+without disabilities) must also work in concert with "How can we better organizations and persons with disabilities to realize
+the full potential of AI-based inclusiveness. In that our efforts here?" spirit, we offer a set of R(AI)S questions for each of
+these stakeholder groups to consider:
+AI for disability inclusion | Enabling change with advanced technology
+
+
+
+
+
+
+
+As a member
+of academia....
+Recognize that your role can have Responsible Accessible
+tremendous and direct influence; your • Are we fostering discovery and innovation in the area of • Are we encouraging/fostering R&D in the area of AI for ability to examine both the big picture AI-powered systems, and to what extent are we involving accessibility through convenings, thought leadership,
+informed curiosity, and your willingness • With input and leadership by people with disabilities, with the support and input of disabled people? are we considering how our research and development and individual cases with objectivity and persons with disabilities when doing so? relevant programs and initiatives, and are we doing so
+to share your analyses widely, with • Are we funding or seeking funding for initiatives and/
+(R&D) of AI-based systems impacts people with or programs/degrees that focus specifically on the
+conviction, can meaningfully shift the disabilities, particularly along the employment journey? area of accessibility with the support and input of trajectory of discussion and solutions. disabled people? • Are we advancing the quest for standardized frameworks, Keep in mind, always, that the design data labeling and auditing methods for AI systems, and execution of projects focusing on specifically to ensure disability inclusion?
+persons with disabilities must include
+members of this community. Ask the
+following questions, and follow each one
+with: "How shall we do this?" or "How
+can we better our efforts here?" Each
+answer will bring your action plan into
+clearer focus.
+AI for disability inclusion | Enabling change with advanced technology
+As a member
+of academia....
+Inclusive Secure
+
+• Are we implementing accessibility and inclusive design • Are we collaborating with policymakers to create
+as requirements/pillars of educational programs related representative, publicly-available datasets to to UX/UI design, computer science and data science? ensure inclusion of persons with disabilities when
+• Are we raising awareness among early career researchers training algorithms?
+and developers of the growing impact of AI on inclusion • Are we emphasizing the importance of metadata to
+and that this is a feasible career path? help stakeholders understand the context of data used
+• Are we actively involved in communities and/or research to train algorithms?
+delving into the topic of AI fairness with the aim of • Are we fostering standardization efforts with regards to
+ensuring that disability is included? bias analysis?
+AI for disability inclusion | Enabling change with advanced technology
+As a regulator
+or policymaker...
+Regulators and policymakers-especially Responsible Accessible
+those working alongside colleagues with • Are we strongly encouraging the funding of AI research • Are we providing accessibility standards for the disabilities, stakeholders and/or disability and employing regulation that recognizes the way people development of AI systems as well as for close organizations-can take significant steps with disabilities may both benefit from and be harmed monitoring once systems are in use, to be in line with the
+to advance inclusivity by considering by AI when considering funding, research and regulatory needs of persons with disabilities?
+these questions as comprehensively as of race and disability and ensuring that nothing done as a group to be considered when employing AI in our priorities? In doing so, are we recognizing the intersection • Are we specifically including persons with disabilities
+possible. Ask the following questions, for the claimed benefit of disability can in any way harm guidelines and policies? and follow each one with: "How shall Black and other people of color, including people with • Are we working with stakeholders with disabilities and
+we do this?" or "How can we better our disabilities in these groups? regulators/policymakers and organizations with expertise
+efforts here?" Each answer will bring your to include AI-powered technologies, with an understand the needs of various kinds of disabilities, to • Are we adapting existing regulations and frameworks in technology bias against persons with disabilities to
+action plan into clearer focus. eye to populations at risk/international human ensure that we set the right standards of accessibility
+rights conventions? for as many people as possible? How are we verifying/
+• Are we emphasizing that AI developers and users are pressure-testing these standards?
+bound by existing anti-discrimination legislation and
+responsible for the outcomes and consequences of their
+AI-enabled tools?
+• Are we including a disability lens when considering
+regulations and funding designed for AI ethical principles
+such as privacy, security, and autonomy?
+AI for disability inclusion | Enabling change with advanced technology
+As a regulator
+or policymaker...
+Inclusive Secure
+
+• Are we leveraging existing non-discrimination legislation • Are we specifically pushing for data protection for AI
+to support fairness in AI? And are we considering the need systems in high-risk areas (e.g., healthcare)? for additional legislation-doing so in collaboration with • Are we defining and enforcing quality requirements for
+affected communities and their representatives? data used to train AI systems?
+• Are we defining fairness, particularly for AI systems that • Are we funding, creating and/or providing access to
+are at risk of discriminating between people with diverse representative datasets that consider persons with
+backgrounds and experiences (e.g., in hiring)? disabilities to train AI systems?
+• Are we encouraging the use of standardized bias analysis? • Are we providing means for communication that are
+• Are we encouraging the use of validation datasets to test easily accessible to help persons with disabilities take
+for disparate impact on persons with disabilities? part in AI public participation initiatives?
+AI for disability inclusion | Enabling change with advanced technology
+As an investor...
+Investors set and sustain critical trends. Responsible Accessible
+To help do so in the interests of equity, • Are we emphasizing in our communication with investee • Are we funding organizations with the potential to corporate social responsibility (CSR), organizations the importance of responsible, inclusive ethically expand the capabilities of AI in promoting and heightened business performance, innovation for persons with disabilities that remove accessibility and inclusion in a manner desired by the
+ask the following questions and and barriers and enhance accessibility? disability community? follow each one with: "How shall we do • Are we regularly engaging with our portfolio • Are we investing in an AI ecosystem that appreciates
+organizations to address potential opportunities to the value of accessibility and leverages inclusive
+this?" or "How can we better our efforts advance disability inclusion (e.g., through the use of design principles? here?" Each answer will bring your ethical AI and other advanced technologies)? • Have we sought and listened to input from respected action plan into clearer focus. • Are we calling upon our investees to provide accessible disability organizations, disabled advocates, and others in
+re-skilling opportunities where there is potential for job determining whether organizations seeking funding meet
+displacement as a result of AI technology, including real needs in an ethical way?34
+employees with disabilities?
+AI for disability inclusion | Enabling change with advanced technology
+As an investor...
+Inclusive Secure
+
+• Have we proposed tying executive compensation to • Are we proposing to tie executive compensation to
+inclusive design, where applicable? security issues that may arise from misuse of data and/
+• Are we incorporating disability inclusion and equality or result in discrimination against areas of diversity,
+into our investment decisions, including relevance to including disability?
+any AI platforms and solutions and are we practicing • Are we actively communicating expectations on security
+rigorous due diligence (including listening to people measures related to AI-powered technology? with disabilities) when evaluating products or tools
+claiming to be inclusive?
+AI for disability inclusion | Enabling change with advanced technology
+As a developer
+of AI...
+AI developers are at the core of Responsible Accessible
+organizations' abilities to tap these • Are we developing AI-powered systems and algorithms • Have we appointed a person on our team who will technologies to include applicants and with datasets that include persons with disabilities, monitor accessibility of features and functions in
+thrive at work, and reap the performance race and gender, and avoid discrimination? • Are we designing with the end-user in mind, considering • Are we investing considerable effort upfront to avoid and workers with disabilities, help them recognize disability as a cross-cutting issue impacting our tools?
+benefits of doing so. Real progress starts the dynamic nature of disability?
+eliminate potential sources of bias? • Are we continuously engaging with persons with
+here. Ask the following questions, and • Are we providing user-facing, easy-to-comprehend disabilities, grasping the various needs of different kinds follow each one with: "How shall we do information for stakeholders to understand the collection of disabilities to make sure our accessibility efforts are this?" or "How can we better our efforts and processing of data? relevant to as many people as possible? here?" Each answer will bring your action • Are we leveraging the expertise of NGOs such as We • Are we verifying that AI-powered solutions work with the
+plan into clearer focus. others that are focused on algorithmic fairness, generally, Count,35 Center for Democracy and Technology,36 and assistive tech that users with disabilities rely on?
+and on disability inclusion in AI, specifically?
+• Are we providing information on a system's capabilities
+and limitations as it pertains to the needs of persons with
+disabilities (such as by including persons with disabilities
+who are people of color, LGBT, etc.)?
+AI for disability inclusion | Enabling change with advanced technology
+As a developer
+of AI...
+Inclusive Secure
+
+• Are we ensuring that our AI-based tools follow inclusive • Are we developing AI systems in alignment with existing
+design principles that include the lived experiences of laws and regulations protecting the rights of persons
+persons with disabilities? with disabilities?
+• Do we have feedback loops in place that leverage insights • Are we taking all available measures to prevent the
+gained from AI systems in use to improve bias analysis? malicious gaming of AI-based tools and systems at the
+• Are we using a methodology to measure fairness? Are hands of bad actors?
+we following methodologies from established/credible • Are we engaging regularly with all relevant internal and
+authorities in this space? external stakeholders to ensure the privacy, security, and
+• Are we proactively identifying and remedying any autonomy rights of persons with disabilities, keeping
+potential bias introduced by the development team itself? in mind, specifically and especially, the sensitivities
+• Are we evaluating our AI-based tools using validation regarding data?
+datasets that test for possible disparate impact on
+persons with disabilities?
+AI for disability inclusion | Enabling change with advanced technology
+Co-Authors
+Laurie Henneborn is an Accenture Ray Eitel-Porter is a Managing Director
+Research Managing Director who at Accenture and Global Lead for
+leads research and thought leadership Responsible AI. He Ied the formation of the
+development focused on raising Accenture / Alan Turing Institute Strategic
+awareness and taking actions pertaining Partnership to create a channel for cutting-
+to disability inclusion and equality in the edge research in data science and AI
+workplace. Some of her past works in this into real-world applications and has 20+
+Laurie space have included Getting to Equal: years of experience in technology start- Ray Eitel-Porter
+A. Henneborn Disability Inclusion Advantage and Getting ups and corporate leadership positions.
+to Equal: Enabling Change. She is also Ray is also an editorial board member of
+on the board of directors for AAPD and the academic journal AI and Ethics. He
+sits on the Disability Inclusion Leadership cares deeply about encouraging greater
+Council at Accenture. Laurie is especially innovation with data and analytics in
+passionate about coaching and mentoring business, schools, and further education
+colleagues with "invisible" disabilities and and has chaired the English government's
+chronic diseases, drawing from her own Data Skills Taskforce since 2015 and
+experience since being diagnosed with worked with TeenTech to create the first
+multiple sclerosis in 2004. National Data Science Prize for schools.
+AI for disability inclusion | Enabling change with advanced technology Special acknowledgements to the following people who
+
+
+
+
+
+
+
+
+
+contributed their expertise to this project:
+DISABILITY:IN AMERICAN ASSOCIATION OTHER
+OF PEOPLE WITH
+DISABILITIES (AAPD)
+Jill Houghton, Adam Forman, Maria Town,
+CEO Workplace Technology & Labor & President & CEO
+Chad Jerdee, Ted Kennedy, Jr., Becker, Green Employment Law Attorney, Epstein, Chair of the Board Chair of the Board
+& Executive Sponsor for Disability Henry Claypool, Employment Partner, Technology Policy Consultant (former Senior Managing Director Nathaniel Glasser, Inclusion initiatives at Accenture) Epstein, Becker, Green
+Lainey Feingold, Alexandra Reeve Givens, President
+Accessibility Subject Matter Expert & CEO,
+Center for Democracy &
+Technology
+AI for disability inclusion | Enabling change with advanced technology
+
+
+
+
+
+
+
+Additional Accenture contributors
+Lisa Bartolini
+Patrick Connolly
+Sytze Dijkstra
+Michelle Keating
+Emily Kish
+Amanda Leacy
+Tom Lounibos
+Regina Maruca
+Giju Mathew
+Deeksha Khare Patnaik
+Vani Seshadri
+Melissa Summers
+Jim Wilson
+AI for disability inclusion | Enabling change with advanced technology Methodology
+
+
+
+
+
+
+
+The principles and stakeholder Center for Democracy and Technology, Civil Rights Intelligence Applications, Jan. 2020.
+have been developed through extensive Daugherty, Paul R; Wilson, H. James. Human + Microsoft, AI for Accessibility - Microsoft AI. interviews and review of existing AI Machine: Reimagining Work in the Age of AI , Harvard Business Review Press, 2018. considerations included in this report Principles on the Use of AI in Hiring. Machine Learning for the Web.
+principles published globally. Here are NAP, Artificial Intelligence Applications for Older Adults and People with Disabilities: Balancing Safety some of our key sources: Fjeld, Jessica and Achten, Nele and Hilligoss, Hannah and Autonomy , May 2019 and Nagy, Adam and Srikumar, Madhulika, Principled Accenture, Driving the accessibility advantage Artificial Intelligence: Mapping Consensus in Ethical Slate, How Algorithmic Bias Hurts People at Accenture . and Rights-Based Approaches to Principles for AI With Disabilities .
+Accenture Federal Services, Responsible AI: A (January 15, 2020). Berkman Klein Center Research UNPRI, What are the Principles for Responsible Framework for Building Trust in Your AI Solutions . Publication No. 2020-1, Available at SSRN . Investment?
+Accenture, Human AI is Here. Harvard Business Review, Neurodiversity as a We Count, About. Competitive Advantage . AI Now Institute, Disability, Bias, and AI .
+Health Law Advisor, U.S. Advances AI Innovation
+American Bar Association, Epstein, Becker & Green,
+with NAIIA.
+P.C., Hacking Recruitment: Workforce Optimization in
+the Digital Age. IBM, Precision Regulation for Artificial Intelligence.
+Center for Democracy and Technology, Algorithm- Office of Management and Budget (OMB) Draft
+driven Hiring Tools: Innovative Recruitment or Memorandum to the Heads of Executive Departments
+Expedited Disability Discrimination? and Agencies, Guidance for Regulation of Artificial
+AI for disability inclusion | Enabling change with advanced technology About Accenture About Accenture Research
+Accenture is a global professional services company Accenture Research shapes trends and creates
+with leading capabilities in digital, cloud and data-driven insights about the most pressing issues
+security. Combining unmatched experience and global organizations face. Combining the power
+specialized skills across more than 40 industries, of innovative research techniques with a deep we offer Strategy and Consulting, Interactive, understanding of our clients' industries, our team
+Technology and Operations services-all powered by of 300 researchers and analysts spans 20 countries
+the world's largest network of Advanced Technology and publishes hundreds of reports, articles and
+and Intelligent Operations centers. Our more points of view every year. Our thought-provoking
+than 500,000 people deliver on the promise of research-supported by proprietary data and technology and human ingenuity every day, serving partnerships with leading organizations, such as MIT
+clients in more than 120 countries. We embrace the and Harvard-guides our innovations and allows us
+power of change to create value and shared success to transform theories and fresh ideas into real-world
+for our clients, people, shareholders, partners and solutions for our clients. For more information,
+communities. Visit us at www.accenture.com. visit www.accenture.com/research
+AI for disability inclusion | Enabling change with advanced technology
+
+
+
+
+
+
+
+Sources
+1. Please note that this report will use identity-first and people- 13. Brookings, For some employment algorithms, disability Based Approaches to Principles for AI (January 15, 2020).
+first language interchangeably due to the diversity in discrimination by default. Berkman Klein Center Research Publication No. 2020-1,
+perspectives in the disability community on the topic. Available at SSRN. 14. Harvard University, Racial Discrimination in Face
+2. Jerdee, Chad, "What organizations gain by including persons Recognition Technology . 28. Accenture, What is Explainable AI (XAI)? This is defined as
+3. Accenture has rich experience and thought leadership in the behave in the future. Algorithm-driven Hiring Tools: Innovative Recruitment or areas of Responsible AI, inclusion and diversity. Includes, but 29. Ad Law Access, Employers Beware: The Illinois Artificial Expedited Disability Discrimination? not limited to sources referenced in Methodology section. Intelligence Video Interview Act Is Now in Effect . 18. SHRM, Employers Embrace Artificial Intelligence for HR . 4. The core R(AI)S principles were developed through a 30. Becoming Human, Tackling ethics in AI algorithms: 19. Suggested reading: Slate, How Algorithmic Bias Hurts People partnership of Accenture, the American Association of People the case of Salesforce . With Disabilities . (CDT Opt-Ed) with Disabilities (AAPD) and Disability:IN to help employers Accenture, Disability:IN, AAPD. Getting to Equal: The Disability characterize the strengths and weaknesses of their decision- 16. Accenture, Tackling the challenge of ethics in AI . Inclusion Advantage . making process, and convey an understanding of how they will 17. Center for Democracy and Technology, with disabilities," World Economic Forum, April 23, 2019 3 systems with the ability to explain their rationale for decisions, 15. Accenture, AI ethics & governance .
+ensure that AI supports persons with disabilities in the 20. AI Now Institute, Disability, Bias, and AI. Hacking Recruitment: Workforce Optimization in the Digital 31. American Bar Association, Epstein, Becker & Green, P.C.,
+6. European Commission, 2019 Global Risk Management Study . 33. Telefónica, AI Principles of Telefónica. for employment, unless doing so would cause undue hardship Regulatory framework on AI | Shaping 34. Overlay Factsheet . Addresses the issue of "overlay" vendors/ to the organization. Europe's digital future solutions which may not be fully compliant and ethical. 22. BlindSquare, What is BlindSquare? 7. Accenture, AI: Built to Scale . 35. We Count, 5. Accenture, against any applicants or employees. employers to provide reasonable accommodation to qualified 32. Microsoft, Our Approach: Putting Principles into Practice. individuals with disabilities who are employees or applicants workplace and does not inadvertently limit or discriminate 21. Title I of the Americans with Disabilities Act (ADA) requires Age. Content contains a helpful checklist starting on page 27.
+8. Accenture, 23. Human Resource Executive, About. Training in a Virtual World: Getting to Equal: Enabling Change Global Survey . 36. Center for Democracy and Technology, About. The New Normal . 9. Accenture, Accenture Technology Vision 2020: From 24. 3PlayMedia, VR Lawsuit Filed Due to Lack of Captions . Tech-Clash to Trust, the Focus Must Be on People | 25. PEAT Works, Extended Reality (XR) . Accenture Newsroom .
+10. Microsoft, 26. XR Access, Resources. Inclusive Design .
+11. Accenture, 27. Fjeld, Jessica and Achten, Nele and Hilligoss, Hannah and Amplify You: How Technology Can Help Bridge The
+Digital Divide For People With Disabilities Nagy, Adam and Srikumar, Madhulika, Principled Artificial .
+12. EEOC, Intelligence: Mapping Consensus in Ethical and Rights-Fiscal Year 2019 Annual Performance Report . This content is provided for general information purposes and is not
+intended to be used in place of consultation with our professional advisors.
+AI for disability inclusion | Enabling change with advanced technology Copyright (c) 2021 Accenture. All rights reserved.
+Accenture and its logo are registered trademarks of Accenture.
