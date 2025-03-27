@@ -1,0 +1,213 @@
+﻿What AI Can Do For (and To) Web Accessibility
+Ricky Onsman, Hans Hillen
+Slide deck
+Find these slides at https://bit.ly/csun24ai, or scan this QR code (direct download)
+In this session:
+* AI & existing accessibility support
+o AI and overlays
+o AI generated captions
+o AI generated alt text
+* AI in personal lives of people with disabilities
+o Computer vision
+o Personalized output
+o AI as recruiter
+* AI making content accessible
+o Pros and cons
+About the TPGi Knowledge Center
+* Hans Hillen
+o Director of Knowledge Center
+* Ricky Onsman
+o Technical Content Writer
+* James Edwards
+o Technical consultant
+* ?
+o Content Lead
+AI & existing accessibility support
+AI definition
+* "Artificial Intelligence (AI) refers to the development of computer systems that can perform tasks that typically require human intelligence."
+o - ChatGPT
+AI technologies
+* Machine Learning uses structured data and algorithms to imitate the way humans learn
+* Natural Language Processing allows computers to engage with humans in conversational language
+* Large Language Models work off very large datasets to produce content humans can comprehend
+* Computer Vision enables computers to analyze, recognize and describe images in human terms
+* Deep Learning can learn from unstructured data, increasing scale, depth and complexity
+Technology enhanced by AI
+* Automatic Captioning
+* Automatic Alt Text
+* ChatBots
+* Predictive Text
+* User Interface Customization
+* Text-to-Speech
+* Speech-to-Text
+* Overlays
+Overlays and AI
+Overlays
+Screenshot of a pop-up dialog
+Digital Accessibility Overlays I
+Screenshot of Userway home page with overlay icon highlighted
+Digital Accessibility Overlays II
+Screenshot of Userway home page with overlay expanded and highlighted
+Overlay Criticisms
+* The modifications that overlays implement cannot guarantee full conformance with WCAG, because no automated tool can.
+* The modifications that overlays implement are often unreliable, ineffective, and / or create other accessibility issues than the ones they address.
+* The modifications that overlays make often interfere with assistive technologies and accessibility settings already in use.
+* The use of an overlay may create non-compliance with privacy regulations.
+Overlay Fact Sheet
+Screenshot of Overlay Fact Sheet home page
+accessiBe
+Screenshot of accessiBe home page
+The accessiBe Claim
+Screenshot of accessWidget landing page
+How accessiBe uses AI
+Website quote on role of AI in accessWidget
+accessWidget in background
+Illustration of widget
+The accessWidget widget
+Illustration of widget
+Automatic Captioning
+Early Captions
+A silent movie caption card that says "Bang!"
+Open Captioned TV
+a TV screen grab of The French Chef with captions - WGBH
+Speech Recognition I
+1950s speech recording and an early transcription device - Beyond Design
+Speech Recognition II
+1980s computerized speech recording - Electronic Products
+Facebook Captioning
+Screenshot Facebook captioning - Meta
+YouTube Captioning (2)
+Ken Harrenstien - New York Times
+Rocket Launch I
+Screenshot of video of NASA rocket launch with Facebook Captioning - Mashable
+Automatic v. Human
+Quote from Rev - Rev
+AI and Alt Text
+AI alt text history I
+Drawing of 1935 patent application for reading machine - Veryfi
+AI alt text history II
+Ray Kurzweil and his reader - Pedersen Recovery
+AI alt text history III
+Logos of JAWS, NVDA, VoiceOver, TalkBack, Narrator, and Orca screen readers
+Computer vision I
+Comparison of human and computer visual systems - N-ix
+Computer vision II
+Example of computer vision image labeling - Algotive
+Auto tagging I
+Screenshot of offensive Google autotagging - Peta Pixels
+Auto tagging II
+Door knob in the shape of a frog - Facebook
+Context I
+Screenshot of academic abstract - Cornell University
+Context II
+Screenshot of text generation logic - Cornell University
+Human alt text
+Racehorse entering a barrier stall
+Complex images
+Graph showing percentage of women in STEM jobs
+AI in personal lives of people with disabilities
+Examples of AI as personal disability aid
+* Generative voice AI
+o Synthetic speech, but more natural and 'human sounding'
+o Text to speech, speech to speech
+* AI powered hearing aids
+* AI powered limbs
+* Computer vision
+* Personalized AI responses
+Computer vision as disability aid
+* Describes pictures to people who are blind or have low vision, and allow them to ask follow up questions. 
+* Why is it a game changer?
+o 'perfect alt': does not exist.
+o you will never know what every single user needs or wants to know about your image 
+* Let user decide:
+o level of detail
+o Specific interests
+o follow up questions / corrections
+Be My AI
+* Part of Be My Eyes app
+* Uses ChatGPT4's computer vision
+* Describe images from anywhere, not just camera:
+o Photos app
+o Messaging app
+o Website (iOS VO: double tab long press > 'Share' > 'Describe with Be My Eyes')
+* Ask follow up questions
+* Share chat transcript
+Computer vision example: Learning more about an image
+Seagull perched on a Pouwhenua
+* "The picture shows a clear blue sky with a few trees in the background. In the foreground, there is an ornate, weathered stone carving resembling a Māori design, with a circular hole in the middle and a spiral pattern around it.
+* Perched on top of the carving is a white bird with grey wings and a red beak, possibly a seagull. Behind it, on a similar stone post, is another similar bird." (chat log)
+Computer vision example: getting it wrong 
+"How much battery percentage do I have left on my power bank?"
+Computer vision in screen readers
+* PictureSmart AI for JAWS
+o Added in March 2024 release
+o Descriptions provided by ChatGPT4 and Gemini
+o Choose short or long description
+o Follow up questions feature coming soon
+* NVDA addons, such as AI Content Describer
+o Requires Open AI API key and payment
+Personalized responses
+We learn in different ways
+* Content should adapt to us rather than vice versa
+* AI lets us personalize how information is presented to us
+o simplify language,
+o summarize it,
+o spend more time on certain presumed knowledge,
+o and so on.
+Example: simplifying WCAG
+* Me: "Can you explain WCAG success criterion 2.5.1?"
+* ChatGPT: "... The main requirement is that all functionality that uses multipoint or path-based gestures for operation can also be operated with a single pointer without a path-based gesture..." etc.
+* Me: "Can you explain it using less complex terminology, to someone who is confused by the term 'pointer gestures'"
+* ChatGPT: "... Imagine you're on a website or using an app. Sometimes, you need to do things like spread two fingers apart on the screen to zoom in, or swipe with your finger to move through pictures. These are called"complex gestures" because they need specific finger movements or more than one finger.
+* But what if someone finds it hard to make these gestures? Maybe they can't move their fingers that way, or they only have one hand available. This is where the rule comes in. It says that websites and apps should let people do the same things without needing those complex gestures. For example..." - Chat log
+AI as recruiter
+AI in recruiting procedures
+Recommended reading: The Algorithm, by Hilke Schellmann
+AI in recruiting procedures: risks for people with disabilities
+* 1: General patterns vs. individual variances (one-size-fits-all approach)
+* 2: Negative scores for disability-related factors
+* 3: AI technology as 'black box'
+Using AI to create accessible content
+AI as accessibility 'expert'
+* Most GPT chat flavors will handle basic accessibility related requests well
+* ChatGPT 'passed' my job interview 
+* Ask it to:
+o explain accessibility concepts
+o find accessibility issues in your code and recommend fixes
+o Write accessible code
+o test plans
+o testing bookmarklets
+o JAWS scripts
+o etc.
+GitHub Copilot: what can it do?
+* Answer questions
+* Explain what selected code does
+* Fix selected code
+* Recommend new code
+* Learn from your coding habits and project context
+Why you shouldn't fully outsource accessibility to an AI
+* Most code out there is not accessible, so how could a model trained on it be?
+* Good for smoothing over small knowledge gaps, not big ones
+* Mistakes hard to catch due to eloquence and (over)confidence of response
+* Human expertise still needed, or you'll crash
+(Almost) everyone is experimenting with AI. So is TPGi
+* We're exploring,
+* Looking into possibilities:
+o Wealth of data for training: knowledge base, Tutor, engagement audit data, helpdesk tickets
+o ARC KnowledgeBase Companion
+o Using AI to perform automated rules and assist manual testers
+* Keep an eye on our technical blog: tpgi.com/blog
+ARC KB Companion
+Wrap-up
+Take away points about AI in A11Y
+* It's all good, it's all bad, it's all ugly
+* Can hugely improve independence for people with disabilities
+* Can work against PWDs through exclusion or biases inherited from training data
+* Can be a great teaching tool for creating accessible content in a more productive way
+* 'Human in the loop' always needed
+Questions?
+Get in touch
+* Ricky Onsman @onsman@aus.social
+* Hans Hillen: @hhillen@mastodon.social
+* TPGi technical blog: www.tpgi.com/technical
+* TPGi Knowledge Center newsletter: email knowlege@tpgi.com

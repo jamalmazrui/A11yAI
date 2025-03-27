@@ -1,0 +1,131 @@
+﻿
+Table of Contents
+AI Platforms	1
+Resource Suites and Collections	2
+Educator Resources	2
+Parent, Family, and Community Resources	4
+Sample Policies and Resources	4
+Teaching Students About AI	4
+
+Resources for the 
+Educational Use of 
+Generative AI in K-12 Classrooms
+Below are a set of resources to support districts in setting policy around AI technologies. Not all of these resources are policy specific. These resources provide a starting point for schools and districts for discussion and dialogue about AI in education.  The ideas presented in the resources below are important to the topics discussed in this guidance, though the ideas and views reflected in any individual resources are those of the author(s), not the Oregon Department Education. These resources highlight pedagogical approaches to using AI in classrooms as well as address some of the concerns that might be raised by your community. The hope is that these resources will support making informed decisions based on equity and student learning experience. As this field is growing at a rapid pace, these resources will continue to be updated based on the newest information and trends. 
+AI Platforms
+ChatGPT
+ChatGPT is a generative AI platform developed by OpenAI that is trained to follow an instruction in a prompt and provide a detailed response.
+
+Resource Suites and Collections
+` AI Meets the Science of Reading and Writing Skill Development
+Developed by CSTA, this resource provides connections between generative AI and literacy skills development making a case for the use of AI tools in K-12 classrooms to support literacy development.
+` Digital Promise Artificial Intelligence in Education Resource Bank
+This resource suite contains current projects focused on AI in education as well as articles and blog posts providing insight into educational use.
+` EdSurge Collection of AI Articles
+These articles support thoughtful approaches to using ChatGPT in the classroom including strategies for teacher's use of ChatGPT, which provides guidance on how to prevent plagiarism.
+` Ditch that Textbook Resource Suite
+This resource suite contains information and videos regarding the use of ChatGPT, Chatbots and Artificial Intelligence in Education.
+` Educational Impacts and Benefits of AI
+This suite of resources was developed through collaboration of a wide variety of departments and school districts within the Portland, OR Metropolitan area and the Tigard Tualatin School District.
+` ISTE's Artificial Intelligence in Education Resource Suite
+ISTE developed a set of resources to support educators in embedding AI within their classrooms titled "Artificial Intelligence in Education." An essential resource included in the set are the AI Ethics Guides.
+` EdSAFE AI Alliance
+EdSAFE AI Alliance is a global network of initiatives to connect and provide leadership in the development of a safer, more equitable and more trusted education ecosystem of AI.
+Educator Resources
+` Shake Up Learning's podcast Unlocking the Potential of K-12 Students with ChatGPT: How AI Could Transform
+Education
+This podcast provides food for thought regarding the long-term impacts of AI on K-12 education.
+` Podcasts that center teacher voices:
+▪ What Will ChatGPT Mean for Teaching?
+▪ HardFork podcast
+▪ How to Use Chat GPT as an Example Machine
+These podcasts highlight the voices of teachers who have used ChatGPT successfully in their classrooms including the story of an Oregon teacher.
+` Prior to (or instead of) using ChatGPT with your students article by Autumn Caines
+This article provides a first-hand perspective regarding the importance of talking explicitly with students about AI technologies.
+` Teaching Writing in Harmony with Advancing AI Technology by Caitlin Tucker
+This article provides instructional uses of AI that can be used to support writing instruction.
+` Common Sense Media resource focused on "ChatGPT and Beyond: How to Handle AI in Schools"
+This resource provides an overview of concerns and how to handle them as well as the future of AI use in the classroom.
+` How To Use ChatGPT for Teaching by Paul DelSignore
+This article provides concrete strategies for using ChatGPT in the classroom.
+` With ChatGPT, Teachers Can Plan Lessons, Write Emails, and More. What's the Catch?
+This article provides ways in which ChatGPT can be used as an instructional tool as well as important insight into possible risks.
+` Three Steps to Prevent ChatGPT Misuse
+This article addresses possible misuses of ChatGPT in the classroom and provides strategies to address misuse proactively.
+` Editorial: ChatGPT: Challenges, Opportunities, and Implications for Teacher Education
+This article from the Contemporary Issues in Technology and Teacher Education discusses AI's implications for teacher education and also proposes a model of inclusion when addressing the challenges posed by AI.
+` Artificial intelligence in IB assessment and education: a crisis or an opportunity?
+This position statement by the International Baccalaureate discusses the challenges and opportunities that AI presents. Specifically, it calls for the thoughtful integration of AI tools instead of a ban on them.
+` Ethical guidelines on the use of artificial intelligence and data in teaching and learning for educators
+This downloadable guide from the European Union provides a discussion of data use in education as well as how AI can help teach students, support students, and support teachers.
+` Exploring New Frontiers for Learning by Michelle Zimmerman
+This book explores specifically how Artificial Intelligence can improve education. Published in 2023, this book offers multiple perspectives from around the world and includes AI related lesson plans and ideas for the classroom.
+` Measuring Reading Comprehension Is Hard. Can AI and Adaptive Tools Help?
+Education Week looks at the state of adaptive AI tools in helping students to read. It examines both possibilities and challenges and also incorporates teacher perceptions and feedback.
+` ISTE Guide to AI
+The International Society for Technology in Education's Artificial Intelligence in Education Guide includes educator guides, PD and projects centered on the use of AI in the classroom, as well as its background and implications.
+` What is ChatGPT and Why Does It Matter?
+This ZDNet article provides a broad overview of ChatGPT, potential classroom uses, the evolution of its use, and ongoing concerns.
+` 10 Things Teachers Can Do With ChatGPT to Save Time
+These tips from Class Tech Tips Blog provide examples of how teachers can use ChatGPT to save time on common tasks in order to spend more time with students.
+` Open Educational Resources (OER) on Artificial Intelligence
+Oregon's Open Learning Hub provides lesson plans and resources related to artificial intelligence.
+` ChatGPT's Impact on Education and Student Data Privacy
+This article discusses student data privacy risks associated with using ChatGPT. Although the article expresses legitimate concerns about privacy, it does not advocate for a total ban but rather on educating students about the risks involved.
+` ChatGPT and Beyond: How to Handle AI in Schools
+Common Sense Media provides what educators can do as this technology evolves.
+` How Should Schools Respond to ChatGPT?
+This article discusses the possibilities for the use of ChatGPT in ways that are productive, ethical, and safe.
+` WRITE Center Helps Teachers Grapple with ChatGPT and Future of Writing Instruction
+Educators in the field discuss the implications and possibilities for the use of ChatGPT in writing instruction.
+Parent, Family, and Community Resources
+Guide to ChatGPT for Parents and Caregivers
+Common Sense Media provides an overview of AI benefits and challenges as well as a list of talking points about AI for parents who want to engage in discussions with their children.
+Sample Policies and Resources
+` Understanding AI Writing Tools and their Uses for Teaching and Learning at UC Berkeley
+While this is geared toward higher education, the resources provided on this website are applicable to K-12 education both with regards to opportunities and potential threats as well as recommended teacher usage.
+` Iowa State University's Center for Excellence in Learning and Teaching resources for using ChatGPT
+While this is geared toward higher education, the resources provided on this website are applicable to K-12 education in terms of syllabus language and potential impacts of ChatGPT on assignments.
+` Brandeis University developed a resource regarding "Ethical and privacy concerns" regarding AI generative tools. While this is geared toward higher education, there are important points and resources regarding privacy, equity, ethical, and accessibility concerns related to artificial intelligence.
+Teaching Students About AI
+` Exploring Computer Science (ECS): Artificial Intelligence Unit
+Exploring Computer Science developed a unit to support students in gaining knowledge and skills while considering the social, moral, and ethical impacts of AI systems and usage. Designed to be used in tandem with the ECS curriculum, this unit, along with all supplementary resources are available for download.
+` The Hands-On AI Projects for the Classroom
+The Hands-On AI Projects for the Classroom from ISTE and GM has developed guides for elementary and secondary teachers to support student-driven learning related to AI and its impacts on society.
+` The CRAFT (Classroom-Ready Resources About AI For Teaching Project)
+The CRAFT (Classroom-Ready Resources About AI For Teaching Project), developed by Stanford University's Graduate School of Education has resources to support high school teachers in supporting students' AI literacy.
+` AI4All: Bytes of AI
+Bytes of AI are fun, quick introductions to artificial intelligence through a variety of different topics. These can be used to spark an interest in AI before exploring the AI4ALL curriculum further. Bytes of AI introduce students and teachers to some of the core ideas of AI including: How data becomes output in an AI model; What AI is capable of, what risks it can have; How human biases enter datasets; How AI can be used in diverse fields. Access the full series of AI4ALL's Bytes of AI from their website.
+` Teaching AI: Exploring New Frontiers
+This book for K-12 educators addresses what AI is, how it works, and how to use it to prepare students for a world with increased human-computer interaction. The book presents multiple perspectives on the benefits and challenges of AI and also provides ways to think about AI, tools for exploring AI, classroom activities, reflection questions, and lesson ideas to introduce AI concepts.
+` Preparing Students for an AI-Driven World
+This ISTE Blog focuses on how to teach about AI and introduces the idea of AI stewardship. It also has resources for the discussion of ethical questions centered around AI.
+` An Ethics of Artificial Intelligence Curriculum for Middle School Students
+This MIT Media Lab created curriculum for middle school students provides detailed lesson plans and teaching materials in order to cultivate a deeper and broader understanding of AI. This includes an examination of benefits, challenges, and many of the nuanced uses that are both benefits and challenges. The curriculum is licensed under the Creative Commons and allows for remixing and adaptation as long as the authors are credited.
+` Practical Deep Learning
+This free course from the University of Queensland is designed for people with some coding experience and who want to learn how to apply deep learning and machine learning to practical problems.
+Equity Impacts of AI
+Each of the below resources highlight and discuss concerns of the growth of AI technologies and potential risks associated with its use particularly regarding equity and social and racial justice.
+` Police drones are starting to think for themselves
+` Who is making sure the AI Machines Aren't Racist?
+` The Godfather of AI Leaves Google and Warns Danger Ahead
+` How Native Americans Are Trying to Debug AI's Biases
+` OpenAI Used Kenyan Workers on Less Than $2 Per Hour
+` Race After Technology: Abolitionist Tools for the New Jim Code by Ruha Benjamin
+` Google Vice President Warns That AI Chatbots Are Hallucinating
+` What Makes A.I. Chatbots Go Wrong?
+` White Supremacy and Artificial Intelligence
+` How Artificial Intelligence Can Deepen Racial and Economic Inequities
+` Artificial Intelligence Has a Problem With Gender and Racial Bias. Here's How to Solve It
+For more information, please contact ODE's Digital Learning Team at ode.onlineremotelearning@ode.oregon.gov.  
+
+
+
+
+	Oregon Department of Education - Resources for the Educational Use of Generative AI in K-12 Classrooms 	2
+
+	Oregon Department of Education - Resources for the Educational Use of Generative AI in K-12 Classrooms 	2
+
+
+
+
+

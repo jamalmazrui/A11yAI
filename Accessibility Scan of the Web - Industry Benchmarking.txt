@@ -1,0 +1,188 @@
+﻿Web Accessibility Ratings By Industry
+Aaron Farber
+ARC Platform Consultant
+Agenda
+* Overview
+* Methodology
+* Accessibility Benchmarking By Industry 
+* Most Common Errors
+* Research Highlights
+* Technical Configuration Pro-Tips
+* What's Next
+Overview
+Accessibility Benchmarking by Industry
+* TPGi has performed an automated scan of the top sites for private industry, U.S. government, and U.S. educational institutions using the Accessibility Resource Center, the ARC Platform.
+* At CSUN Assistive Technology Conference 2025, we are sharing the results.
+ARC Platform
+* ARC provides the tools and resources to plan and execute every area of accessibility.
+* ARC empowers each role at an organization to solve common issues, while growing their understanding of accessibility over time.
+* Empowerment is about providing evidence of one's ability to independently achieve.
+* At the platform's core is automated monitoring.
+Origin Story for ARC Study
+* Organizations report the state of accessibility to stakeholders as a total number of automated errors found in a website, known in ARC, as the WCAG Density Score.
+* However, the number lacks a frame of reference. This invites the question:
+* What is a good score?
+ARC Study Objectives
+* Report accessibility across an organization in relative and capitalistic terms - rather than exclusively technical terms.
+* Executive stakeholders gain the ability to understand how their accessibility compares with their overall industry.
+* Enable organizations to highlight accessibility as a competitive differentiator.
+Data must be shifted to view it all at once
+Individual data points may conflict with the big picture
+Methodology
+Scan Makeup
+* Top ~300 websites for 14 industry sectors
+o Based on SimliarWeb SEO analytics, Cloudflare Rank, and other heuristics.
+o Industries are determined by the IAB Content Taxonomy.
+* Top ~2,000 sites each for .gov and .edu domains
+o Based on Majestic Million, SimilarWeb
+Note: Individual site scores are anonymized.
+Scan Technical Configuration
+* Evaluates the website's homepage:
+o As a first-time site visitor
+o In logged-out state.
+o After scripting and styling is applied.
+o On page load - content that appears based on user-initiated action is not evaluated.
+How ARC Reports Scan Results
+Error - an element automatically identified as a WCAG violation
+Alert - an element which requires further manual inspection to confirm as a WCAG violation
+Best Practice - an element which may not represent a WCAG violation but impacts the user experience
+What about color contrast?
+Color contrast issues are not included in the WCAG Density Score
+* Color contrast difficult to accurately test via automated means - overlapping elements, fixed positioning, and exempt, disabled controls all present challenges.
+* A single line of CSS could result in hundreds of color contrast issues.
+o Moreover, color contrast issues always require manual inspection.
+o Go to the URL and run ARC Toolkit to visually inspect the automated findings.
+What % of Issues Are Detected By Automated Monitoring?
+* Automated testing has its limits. There's no substitute for manual testing.
+* ARC's automated rules provide a level of coverage and visibility for roughly 20 of the 57 WCAG 2.2 Success Criteria.
+* ARC's automated scan catch roughly 30-35% of issues.
+30%? OR 57%
+* There's controversy about whether color contrast issues should count in the % of automating testing coverage.
+o Axe DevTools states that they detect 57% of all issues!
+* The #1 automated issue is color contrast, which Axe chooses to includes in its measure.
+ARC Rules compared with open-source alternatives
+* ARC Rules are focused on supporting all the permutations of browser and assistive technology. 
+* ARC reports issues which could impact the user experience for people who use assistive technologies, even when they do not necessarily represent a WCAG violation.
+* ARC is focusing on reporting issues which could be indicative of larger WCAG violations i.e. code smells.
+* ARC catches issues which may elude those newer to manual testing.
+* Teams can solve common issues while growing their understanding of accessibility over time.
+Benchmarking By Industry
+Automated Errors (Median)
+INDUSTRYERRORSALERTSCOLOR CONTRASTArts and Entertainment101017Business and Consumer Services10193Community, Society, and Dating10203Computers, Electronics, and Technology19363E-Commerce and Shopping193617.6Finance13275.5Food & Drink15263Gambling651Games and Gaming10205Health7201Heavy Industry and Engineering11203Lifestyle1217.517.5Sports265415Vehicles1329810 Industries with Most Automated Errors (Chart form)
+Automated Errors (Mean)
+INDUSTRYERRORSALERTSCOLOR CONTRASTArts and Entertainment36.4355.5542.8Business and Consumer Services26.6132.5914.98Community, Society, and Dating26.333.8718.61Computers, Electronics, and Technology19.39417.58E-Commerce and Shopping45.4513758.46Finance25.0252.9326.5Food & Drink32.7555.7728.1Gambling22.839.0925.58Games and Gaming32.0658.3245.52Health28.444.925.2Heavy Industry and Engineering21.26118.3121.74Lifestyle40.254.6217.92Sports57.56219.2951.28Vehicles27.1256.8930.94Sites with extreme number of errors raise averages
+* For most industries, 3% - 6% of top sites have over 100 automated errors.
+* Sports, Vehicles, Games and Gaming have +10% of websites having 100% automated errors.
+US government and educational institutions (2025) - median
+INDUSTRY (top-level domains)ERRORSALERTSU.S. Government (.gov)7.120Education (.edu)818US government and educational institutions (2025) - mean
+INDUSTRY (top-level domains)ERRORSALERTSU.S. Government (.gov)14.4532.3Education (.edu)14.5426.38US government and educational institutions (2024)
+INDUSTRY (top-level domains)ERRORSALERTSU.S. Government (.gov)10.4626.16Education (.edu)16.2627.31Automated Errors - Patterns
+INDUSTRY>100 Errors< 5 ErrorsArts and Entertainment12%39%Business and Consumer Services6%39%Community, Society, and Dating3.50%35%Computers, Electronics, and Technology4.00%48%E-Commerce and Shopping13.70%34%Finance5.40%33%Food & Drink5%28.90%Gambling4.80%43.80%Games and Gaming14.80%37%Health2.70%27.90%Heavy Industry and Engineering6.30%31.20%Lifestyle2.70%41.91%Sports10%27%Vehicles1.39%42.11%Most Common Automated Errors
+Most Common Automated Errors 
+* The lack of a text alternative (traditional <img>, image-based links, SVG-based controls) is at the heart of nearly 50% of automated errors detected in the scan.
+* WCAG Success Criteria 1.1.1 Non-text Content and 2.4.4 Link Purpose (in Context) are the most common violations.
+Most Common ARC Assertions
+* Assertion as in ARC asserts an element does not comply with one of ARC's accessibility rules.
+o No alt text (*two similar ARC rules)
+o No link text
+o SVG-based control lacks an accessible name (*two similar ARC rules)
+o Non-active element in the tab order
+Issue: Product image-based links with product title text link
+Solution: Make the product image and product title text into a single link
+The image can be considered decorative as the product title text serves as the text alternative.
+Fewer links equals more efficient navigation.
+In-depth guide: Block Links, Cards, Clickable Regions, Rows, Etc. - Adrian Roselli
+Source for the Most Common Assertions #2
+* Icon-based navigation menu buttons may lack text alternatives or proper semantics.
+* Hamburger menus are a gateway to navigating the site. Critical issue.
+Non-active element in tab order (Alert)
+* Non-active tab element in the tab order indicates that a developer recognized an element must be keyboard accessible but failed to add a semantic role.
+* Indicates awareness of need for keyboard accessibility has awareness but lack of understanding of how to make the control accessible to full range of assistive technologies.
+Research Highlights
+Image-based links
+* 50-70% of instances of a link lacking text are image-based links where the image does not have a text alternative.
+* 23.6% of e-commerce site homepages have 50+ errors.
+* 32 of Sports home pages have 50+ errors.
+Government and Education Institutions Use Text Alternatives
+* Unlike the other industries, government and education did not have no alt text or no link text as their most common issues.
+* Instead, the most common issues were non-active element in tab order. Also, ARIA widget missing required parent was a top 3 finding.
+Government and Education Dramatically Reduced Automated Errors
+* In 12 months, top educational websites have nearly 50% fewer automated errors.
+* Top government sites have nearly 30% fewer automated errors.
+Carousels generate large number of errors
+* ARC frequently flags carousels for having focusable elements that are hidden from the accessibility tree or having focusable elements within presentational children.
+* Vehicles, Sports, and E-Commerce sites were most flagged for having these errors. 
+Technical Configuration Pro-Tip!
+* ARC resembles a bot. Yes, there are good bots!
+* Yet bad bots cause the entire web to escalate security policies.
+* More sites are using bot-blocking services which affect browser automation.
+* Significant rise in .ru and .cn sites are employing these services.
+* For scan resilience, it can be helpful to limit scans to specific regions.
+How to Check Whether Your Site Blocks Bots?
+How to Check Whether Your Site Blocks Bots?
+What's Next
+How to Scan and Benchmark Your Website
+Do you want to understand how your site compares with these scan results?
+Choose the method which best suits your team:
+Monitoring
+Toolkit
+API
+ARC Toolkit
+* A free Chrome browser extension which provides a set of semi-guided automated accessibility testing tools.
+o Rapidly scan pages for code-level WCAG violations
+o Highlights a page's user experience for assistive technology users
+o Visually inspect issues in color contrast, text formatting, and graphical elements
+Installation (Step 1)
+Download ARC Toolkit
+* Or one can search ARC Toolkit and it's comes right up!
+Installation (Step 2)
+* From the Chrome Web Store, select Add to Chrome
+ARC Toolkit is closely tied with Developer Tools
+* Once the extension is added to Chrome and enabled, open Developer Tools
+o Right click the page and select Inspect OR
+o Press Ctrl + Alt + I (Windows), Ctrl + Cmd + I (Mac)
+ARC Toolkit is located in DevTools
+* Select ARC Toolkit tab
+* ARC Toolkit may be located in a dropdown at end of DevTools tabs
+Run a scan whenever, wherever
+* ARC Toolkit makes it easy to scan pages 
+o Pages which require authentication
+o Pages behind a firewall or other security policies
+o Specific points deeper in user journeys
+o Local file URLs
+Scan Results
+* Results load in the main content panel
+Where to Find This Scan Data?
+* This data will be released in a long-form format in TPGi's blog.
+* Slides will be on CSUN conference site
+* Look for out an interactive experience enabling you rank your score on a bell curve, rather than simply compare to the median alone.
+I already use ARC.
+* Current ARC users will get special access to the data, helping them communicate their accessibility in a new way.
+* I can't wait to share what we've learned with all of you.
+If interested in using the data
+* Reach out to David Sloan, TPGi Chief Accessibility Officer (dsloan@tpgi.com) or me (afarber@tpgi.com).
+* So much more can be done.
+This scan data will be stratified by
+* Technologies used in a website
+* Whether a site has an accessibility statement
+* Whether a site uses an accessibility overlay.
+Automated testing is at the starting point of a revolution.
+* TPGi is starting to make the jump from evaluating code to evaluating the visual appearance of a page.
+* We've gained the ability to visually recognize buttons, headings, and other semantic elements.
+* JAWS Picture Smart AI is just the start.
+Perceptions Matter
+* Industries which may perceive disabled people as not fully using their products have the most accessibility errors.
+* A note about disability history... (see speaker notes for this slide)
+TO REGULATE COMMERCE WITH FOREIGN NATIONS AND AMONG THE SEVERAL STATES Article I, Section 8 - The Commerce Clause
+The Origin of Accessibility Laws
+Thanks
+* Jared Smith
+* Kashana Bridgeford
+* Zhi Huang
+* Ethan Farber
+Let's Make It Accessible
+Achieve your digital accessibility goals with TPGi. We can help you find the right solutions for your organization.
+Contact us:
++1 (877) 775-9474
+info@tpgi.com 
+Schedule a demo

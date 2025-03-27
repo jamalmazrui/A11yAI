@@ -1,0 +1,158 @@
+﻿CSUN Assistive Technology Conference
+March 10-14, 2025
+https://shorturl.at/QEgsT
+Introductions
+Hana Levay, Collection Assessment Librarian, University of Washington
+Barbara Maniar, Customer Support Panda, Olark
+Overview
+* Introduction to neurodiversity
+* Autism is a spectrum
+* Common challenges in autism and other neurodiverse people
+* Telephone communication is a barrier
+* Chat support is an accommodation
+* Autistic employees
+* Universal design is good design
+Definitions
+Neurodiversity refers to the virtually infinite neuro-cognitive variability within Earth's human population. It points to the fact that every human has a unique nervous system with a unique combination of abilities and needs. -Judy Singer
+Neurodivergent: individual with one or more neurological conditions.
+Autism, ADHD, Anxiety, Depression, Tourette, Apraxia of Speech, Aphasia, Dyslexia, etc. 
+Neurotypical: individuals with typical neurological development or functioning.
+Autism is a Spectrum
+The autism spectrum encompasses a variety of characteristics, including 
+* differences in social communication, 
+* repetitive behaviors, 
+* sensory sensitivities.
+Each person with autism is unique, and their experiences can vary significantly.
+Additionally, a person with autism has fluctuating capacity over time.
+https://the-art-of-autism.com/understanding-the-spectrum-a-comic-strip-explanation/?fbclid=IwAR2bt0iIjlCQQLRV8i-arBrDLhsdfb7c2chiXnzHg0DpgBuTk0oIxgx9LxQ
+"This Graphic Shows What the Autism Spectrum Really Looks Like" updated March 4, 2024 https://themighty.com/topic/autism-spectrum-disorder/autism-spectrum-wheel/
+Challenges
+* Audio processing delay
+* Social skills
+* Situational mutism/fluency
+* Working memory
+* Anxiety
+Audio processing delay
+APD is NOT hearing loss. It is a difference in the way the brain is organized.
+Symptoms
+* Difficulty prioritizing sounds (speech in a crowded bar, multiple people talking at once)
+* Misunderstand words
+* Struggle to process verbal instructions
+* Taking longer to process verbal speech
+* For real world stories, see the subreddit https://www.reddit.com/r/AudiProcDisorder/
+Live chat removes the reliance on auditory processing and takes the conversation to an entirely visual process, which mitigates these difficulties
+Social skills
+* Difficulty instinctively knowing what other people mean.
+* Asking for clarification can come across as combative.
+* Difficulty knowing when to speak, stop talking.
+Scripting
+Scripting can be a way for folks with autism to express themselves when they may have difficulty with spontaneous or original language. It allows them to communicate thoughts, emotions, or ideas using familiar and memorized scripts.
+In the real world this can look like phrases you always use in specific situations. For example, when it's warm out I end most interactions with a very cheerful "stay hydrated!".
+Live chat provides the ability to pre-write scripts for standard parts of conversation like greetings, wrapping up a conversation, etc, that can be triggered with a hotkey.
+Situational Mutism, speech disorders
+Some autistic individuals experience situational mutism
+Speech disorders
+* Stutter
+* Apraxia of Speech or Dysarthria
+* Aphasia
+Accent or temporary disability
+Working Memory
+Working memory is the small amount of information that can be held in mind and used in the execution of cognitive tasks, in contrast with short-term or long-term memory.
+For example, working memory is what allows someone to:
+* Ask relevant follow up questions during a conversation
+* Complete a multi-step process
+* Accurately repeat a phone number or email address 
+* Complete the steps of a recipe when not looking at the recipe
+Anxiety
+Social anxiety disorder is an intense, persistent fear of being watched and judged by others. 
+Generalized anxiety disorder usually involves a persistent feeling of anxiety or dread that interferes with how you live your life. 
+Autistic people have higher rates of both forms of anxiety than neurotypical people. 
+Camouflaging/Masking 
+Intentional scripting and application of learned social behavior
+* Exhausting
+* Detrimental to mental health
+* Anxiety, depression, suicidality
+Day to day communication
+* Accessing services
+* Education
+* Health care
+* Shopping
+* Seeking assistance
+Anything but the phone
+Results from survey of 245 autistic individuals asking which communication mode they prefer when accessing services. 
+Phonecall is ranked last.
+Howard, P. L., & Sedgewick, F. (2021). 'Anything but the phone!': Communication mode preferences in the autism community. Autism, 25(8), 2265-2278. https://doi.org/10.1177/13623613211014995
+Barriers to telephone use
+* Fewer social cues without visual aid (social skills)
+* Unpredictable timing to receive call, waiting on hold (anxiety)
+* Incorrect scripts prepared (social skills)
+* Lags in conversation (audio processing delay, social skills)
+* Hard to understand the speaker (audio processing delay, social skills)
+* Hard to filter out speech from noise (audio processing delay)
+* Difficulty with speaking can make it hard to be understood (situational mutism, other speaking difficulties)
+* Forgetting reasons, complete details for call (working memory, anxiety)
+* Forgetting details of the call immediately afterwards (working memory, anxiety)
+Real life examples
+Responses to a Reddit post asking about phone call anxiety in the neurodiversity subreddit
+* "It took me 7 hrs to make a very important phone call.. I cried out of frustration bc I have such a weird thing about phone calls.. I feel dread and panic when my phone rings. I can't use songs for phone calls bc I start to hate the song I use because it reminds me of phone calls.. anxiety attacks everytime" - wairu_907 
+* "I hate talking on the phone because I can't tell when it's my turn to talk. This results in awkward silences and interruptions." - cephalopodchampion 
+* "It sucks because I'm looking into mental health support for some other issues but the initial assessments are all via the phone and it's a huge obstacle for me" - PotatoPortal123 
+* "I only accept calls from friends and family members and strongly prefer text and email. I generally request that people text me to request permission to call me. I like how many businesses (especially travel businesses like taxis and airlines) do more things now online or via their app or text alerts." - LilyoftheRally
+How live chat supports neurodiverse users
+User perspectives
+* Writing gave people 'time to think about what I want to say', provided the opportunity to 'arrange my thoughts and ask all my questions before sending' and the ability to 'make sure it looks good and reads well' so their words 'have the effect that [they] are looking for'. 
+* The time it gave them to form a response was frequently highlighted, with several people pointing out that 'there is no expectation of an immediate reply', even in a live online chat, because there is the 'lag' time of typing. Removing this immediacy reduced anxiety: 'I can think of the response . . . without panicking or struggling to find the words I need'."
+Howard, P. L., & Sedgewick, F. (2021)
+Why Barbara loves live chat - more than any other contact method!
+* Real-time Interaction
+* Instant Clarification
+* Fewer Formalities
+* Efficiency
+* Easy to modify
+* Transcripts
+* Multitasking
+Barbara's coworkers notice and appreciate
+"Did you know that Barbara is a construct of machine learning? At least, that's the only explanation I have for her volume of chats, short of super powers."
+-Joe, Olark Chief Brit
+Autism-related workplace strengths
+* average to very high intelligence
+* good verbal skills, rich vocabulary
+* ability to think in visual images and identify patterns
+* propensity to think outside the box and generate novel solutions to problems
+* ability to absorb and retain large amounts of information, especially about topics of special interest
+* detail oriented
+* ability to focus for long periods on areas of interest
+* ability to perform repetitive tasks where accuracy, rules and routine are important
+* reliability and punctuality
+* honest, loyal, fair and just
+* non-judgemental listening
+From NeurodiversityHub "What is neurodiversity" 
+Employment Implications
+* People with autism are severely under or unemployed
+o 80% of autistic people are under or unemployed despite 60% of them having cognitive abilities at or above those of neurotypical people.
+* Different neurotypes prefer different positions
+o Employment that minimizes masking increases job and life satisfaction
+* Employing autistic people benefits companies
+o 30% higher productivity
+Universal Design is Good Design
+Accommodating any one specific group can help usability for all users.
+* Captions intended to accommodate deaf users also help people with audio processing delay.
+* Heading structures designed for screen readers also helps to organize page information for people with attentional or memory challenges. 
+* Creating an intuitive tab order for screen readers also helps people who rely on keyboard navigation.
+The best design is one that provides options.
+Want more info?
+For more info about Olark Live Chat and accessibility you can start with https://olark.com/ada-accessible-live-chat
+For more information about the University of Washington Libraries and the accessibility work done there, visit their Accessibility at the Libraries page at https://www.lib.washington.edu/services/accessibility.
+Questions?
+References
+* Cowan, N. Working Memory Underpins Cognitive Development, Learning, and Education. Educ Psychol Rev 26, 197-223 (2014). https://doi.org/10.1007/s10648-013-9246-y
+* Web Page: Working Memory: The Engine for Learning https://dyslexiaida.org/working-memory-the-engine-for-learning/
+* Web Page: What is neurodiversity https://www.health.harvard.edu/blog/what-is-neurodiversity-202111232645
+* Cassidy, S., Bradley, L., Shaw, R. et al. Risk markers for suicidality in autistic adults. Molecular Autism 9, 42 (2018). https://doi.org/10.1186/s13229-018-0226-4
+* Howard, P. L., & Sedgewick, F. (2021). 'Anything but the phone!': Communication mode preferences in the autism community. Autism, 25(8), 2265-2278. https://doi.org/10.1177/13623613211014995
+* Reid, D. J., & Reid, F. J. M. (2007). Text or talk? Social anxiety, loneliness, and divergent preferences for cell phone use. CyberPsychology & Behavior, 10(3), 424-435. https://doi.org/10.1089/cpb.2006.9936
+* Hull, L., Levy, L., Lai, MC. et al. Is social camouflaging associated with anxiety and depression in autistic adults?. Molecular Autism 12, 13 (2021). https://doi.org/10.1186/s13229-021-00421-1
+* Web page: Understanding the spectrum - a comic strip explanation, Rebecca Burgess, March 30, 2022 https://the-art-of-autism.com/understanding-the-spectrum-a-comic-strip-explanation/?fbclid=IwAR2bt0iIjlCQQLRV8i-arBrDLhsdfb7c2chiXnzHg0DpgBuTk0oIxgx9LxQ
+* Neurodiversity subreddit https://www.reddit.com/r/neurodiversity/
+* Web page: NeurodiversityHub https://www.neurodiversityhub.org/
+All links last accessed 3/13/2025

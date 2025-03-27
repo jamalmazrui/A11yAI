@@ -1,0 +1,225 @@
+﻿Artificial Intelligence and Employment Discrimination Law
+Anthony May
+Partner
+Brown Goldstein & Levy 
+Roadmap
+o Defining AI in the Workplace
+o How AI Discriminates
+o Efforts to Curb Discrimination
+o Best Practices for Employees & Employers 
+Defining AI in the Workplace
+What is it?
+What is it?
+* AI is a broadly applied term that simply encompasses a computer science that studies algorithms to solve problems that usually require human intelligence.
+* Machine Learning (ML) is one subset, which trains algorithms to learn and act upon data provided to it. Requires more human intervention to correct and learn.
+o E.g., Spotify - Learns your music preferences and recommends new music.
+* Deep learning uses artificial neural networks to mimic the learning process in human brains. 
+o Learns from a deep pool of datasets to act on its own. 
+What is it?
+Congressional Definition for AI
+"[A] machine-based system that can, for a given set of human-defined objectives, make predictions, recommendations or decisions influencing real or virtual environments."
+What is it?
+White House Definition:
+Algorithmic Discrimination
+Occurs when AI "contribute[s] to the unjustified different treatment or impacts disfavoring people based on their race, color, ethnicity, sex (including pregnancy, childbirth, and related medical conditions, gender identity, intersex status, and sexual orientation), religion, age, national origin, disability, veteran status, genetic information, or any other classification protected by law."
+What is it?
+EEOC Definition - AI in Employment
+"In the employment context, using AI has typically meant that the developer relies partly on the computer's own analysis of data to determine which criteria to use when making employment decisions. AI may include machine learning, computer vision, natural language processing and understanding, intelligent decision support systems, and autonomous systems."
+How is it Being Used?
+* 79% Recruitment and hiring
+* 41% Learning and development
+* 38% Performance management
+* 18% Productivity monitoring
+* 8% Succession planning
+* 4% Promotion decisions*
+*Survey conducted of HR Professionals from February 1, 2022, to February 17, 2022
+How is it Being Used?
+Three-quarters of all resumes submitted for jobs in the US are read by algorithms.
+How is it Being Used?
+* Create job postings 
+* Scan resumes for keywords and phrases
+* Monitor employees' productivity
+* Rate employee performance
+* Video interviews to evaluate facial expressions & speech patterns
+* Aptitude tests
+How is it Being Used?
+How is it Being Used?
+How AI Can Discriminate
+Primary Federal Laws
+Title VII of the Civil Rights Act of 1964 (Title VII)
+Americans with Disabilities Act (ADA)
+Age Discrimination in Employment Act (ADEA)
+Primary Federal Laws
+* Title VII
+* "[F]ail or refuse to hire or discharge," "deprive any individual of employment opportunities" or "adversely affect status of employment" because of: . . . 
+Primary Federal Laws
+* Title VII
+* Race
+* Color
+* Religion
+* Sex (including sexual orientation)
+* National origin
+Primary Federal Laws
+* ADA
+* Title I - Employment
+* "No covered entity shall discriminate against a qualified individual on the basis of disability in regard to job application procedures, the hiring, advancement, or discharge of employees, employee compensation, job training, and other terms, conditions, and privileges of employment."
+Primary Federal Laws
+* ADEA
+* Unlawful for employer to:
+* "(1) to fail or refuse to hire or to discharge any individual or otherwise discriminate against any individual with respect to his compensation, terms, conditions, or privileges of employment, because of such individual's age; . . . 
+Primary Federal Laws
+* ADEA
+* Unlawful for employer to:
+* (2) to limit, segregate, or classify his employees in any way which would deprive or tend to deprive any individual of employment opportunities or otherwise adversely affect his status as an employee, because of such individual's age; or . . .
+Primary Federal Laws
+* ADEA
+* Unlawful for employer to:
+* 3) to reduce the wage rate of any employee in order to comply with this chapter."
+EEOC Technical Guidance
+* Overview of ADA
+* How it applies in AI context
+* ERs are responsible even if administered by a vendor
+* Duty to provide reasonable accommodations
+* Examples of discrimination
+When AI Discriminates
+"Black-box AI, however, may function in a manner well outside of what the program's creators could foresee. To be sure, we may be able to tell what the AI's overarching goal was, but black-box AI may do things in ways the creators of the AI may not understand or be able to predict."
+Black Box Problem 
+When AI Discriminates
+Black Box Problem 
+When AI Discriminates
+When AI Discriminates
+When AI Discriminates 
+AI for People with Disabilities at Work
+* 8 of 10 largest private U.S. employers use AI to track productivity metrics of individual workers 
+* Millions of people interaction with screen and cameras due to disability may see unfair assessments
+* Barrier to accessible accommodations, technology does not permit accommodations, difficult request process, stigmatizing request process
+‌
+Efforts to Curb Discrimination
+What and Where?
+o Global
+o Federal
+o State and Local
+o Litigation
+Global
+The European Union AI Act 
+Federal
+White House Blueprint
+Federal
+* EEOC
+* The Americans with Disabilities Act and the Use of Software, Algorithms, and Artificial Intelligence to Assess Job Applicants and Employees
+* The Americans with Disabilities Act and the Use of Software, Algorithms, and Artificial Intelligence
+* EEOC Chair Burrows Joins DOJ, CFPB, and FTC Officials to Release Joint Statement on Artificial Intelligence (AI) and Automated Systems
+Federal
+National Labor Relations Board (NLRB)
+Federal 
+National Labor Relations Board (NLRB)
+Federal 
+President Biden's Executive Order 14110 (Nov. 1, 2023)
+* Calls Federal Government-wide approach to the responsible implementation and use of AI
+* Requires developers of most powerful AI systems to share their safety test results and other critical information with U.S. government
+* Incorporates by reference the National Institute of Standards and Technology's (NIST) Artificial Intelligence Risk Framework (AI RMF 1.0) to set standards, tools, and tests to ensure AI systems are safe before public release
+* Provides clear guidance for landlords, Federal benefits programs, and federal contractors to ensure AI is not used to exacerbate discrimination
+State & Local
+New York City
+State & Local
+New York City Hiring AI Regulation
+* New York City passed Local Law 144 in 2021
+* First global legislation to establish and set safeguards over the use of AI and AEDTs in the workplace
+* Automated Employment Decision Tools (AEDTs) are algorithmic systems
+* Law requires employers to use AEDTs to audit tools for race and gender bias, publish results on electronic platforms, and notify employees and job candidates that tools are being used.
+* Researchers at Cornell University found only 18 of 391 New York City employers has posted results
+State & Local
+Implementation of Local Law 144
+* Very narrow definition of AEDTs allows for loopholes of broader use
+* Compliance regulation is dependent on employee and applicant complaints - none submitted so far
+* Law is intended to grow new market of auditors and compliance monitoring
+* Looking forward towards more legislation - what will be effective vs. ineffective
+* Push for adopting European Union Parliament (EU) AI Act, approach more focused on policy, governance, and monitoring
+State & Local
+Maryland
+State & Local
+Washington State - HB 1951 (2023-2024 Legislative Session)
+State & Local 
+Hawaii - HB 1607 (2024 Legislative Session)
+State & Local
+Washington, D.C.
+Bill 25-114 
+State & Local
+State Executive Orders
+o Maryland (EO 01.01.2024.02)
+o Virginia (Number Thirty (2024))
+o California (EO N-12-23)
+o Pennsylvania (EO 2023-19)
+Litigation
+EEOC v. iTutorGroup, Inc., et al., No. 1:22-cv-02565 (E.D.N.Y. 2022)
+Litigation
+Mobley v. Workday, Inc., No. 3:23-cv-00770-TSH (N.D. Cal. 2023)
+Litigation
+Real Women in Trucking v. Meta Platforms, Inc. (EEOC Complaint)
+Best Practices
+Best Practices
+Employees
+Familiarize yourself with relevant employment discrimination laws
+o Title VII
+o ADA
+o ADEA
+o State & Local Laws
+Best Practices
+Employees
+Know when to request accommodations
+o AI video interviews
+o Applicant testing
+o Employment monitoring
+ 
+Best Practices
+Employees
+Keep track of productivity; request results of any AI monitoring or testing conducted by employers
+ 
+Best Practices
+Employees
+File charge with EEOC or obtain advice from private counsel 
+ 
+Best Practices
+Employers
+Familiarize yourself with relevant employment discrimination laws
+o Title VII
+o ADA
+o ADEA
+o State & Local Laws
+(Look familiar???)
+Best Practices
+Employers
+Thoroughly vet vendors
+Best Practices
+Employers
+Familiarize yourself with White House and EEOC guidance, executive orders  
+Best Practices
+Employers
+Use companies who consider potential discriminatory impacts as a model
+Best Practices
+Employers
+Conduct routine internal audits of AI systems
+Best Practices
+Employers
+Question vendors (and consult with outside counsel if needed)
+Best Practices
+Employers
+Provide notice of rights to employees and applicants
+o Reasonable accommodations
+o Privacy notices
+Conclusion
+Q & A
+Thank you!
+Sources
+Bathaee, Yavar. (2018, March 22). "The Artificial Intelligence Black Box and the Failure of Intent and Causation." Harvard Journal of Law & Technology, (32) 1, Spring 2018.
+Coursera Staff. (2024, Feb. 9). "Deep Learning vs. Machine Learning: A Beginner's Guide." https://www.coursera.org/articles/ai-vs-deep-learning-vs-machine-learning-beginners-guide
+Doyle, N. (n.d.). "Artificial Intelligence Is Dangerous For Disabled People At Work: 4 Takeaways For Developers And Buyers". Forbes. Retrieved February 29, 2024, from https://www.forbes.com/sites/drnancydoyle/2022/10/11/artificial-intelligence-is-dangerous-for-disabled-people-at-work-4-takeaways-for-developers-and-buyers/?sh=505ed35a35d3 
+Last Week Tonight. (2023, February 27). "Artificial Intelligence: Last Week Tonight With John Oliver (HBO)." Retrieved from https://www.youtube.com/watch?v=Sqa8Zo2XWc4 
+Law360.com. (n.d.) NYC Workplace AI Regulation Has Been Largely Insignificant - Law360. Retrieved February 29, 2024, from https://www.law360.com/articles/1806802
+Maurer, R. (2024, February 18). "New York City AI Law Is a Busy [Review of New York City AI Law Is a Busy]". The Society for Human Resources Management. https://www.shrm.org/topics-tools/news/technology/new-york-city-ai-law
+H.R. 6395, William M. (Mac) Thornberry National Defense Authorization Act for FY 2021 (Dec. 3, 2020). 
+The White House. (2023, November 22.) "Blueprint for an AI Bill of Rights | OSTP | the White House," Retrieved from https://www.whitehouse.gov/ostp/ai-bill-of-rights 
+US EEOC. (2022, May 12). "The Americans With Disabilities Act and the Use of Software, Algorithms, and Artificial Intelligence to Assess Job Applicants and Employees," Retrieved from https://www.eeoc.gov/laws/guidance/americans-disabilities-act-and-use-software-algorithms-and-artificial-intelligence.
+Soc'y Hum. Res. Mgmt., Automation & AI in HR, https://www.shrm.org/content/dam/en/shrm/topics-tools/news/inclusion-equity-diversitySHRM-2022-Automation-AI-Research.pdf
+Wright, L., Muenster, R. M., Vecchione, B., Qu, T., Cai, S., Smith, A., ... Matias, J. N. (2024, January 22). Null Compliance: NYC Local Law 144 and the Challenges of Algorithm Accountability. https://doi.org/10.17605/OSF.IO/UPFDK
+Shaping Europe's Digital Future | Policy and Legislation. (2021, April 21). "Proposal for a Regulation Laying Down Harmonised Rules on Artificial Intelligence." European Commission. Retrieved from https://digital-strategy.ec.europa.eu/en/library/proposal-regulation-laying-down-harmonised-rules-artificial-intelligence.

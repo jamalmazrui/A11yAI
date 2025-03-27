@@ -1,0 +1,375 @@
+﻿International Journal on Responsibility 
+
+Volume 7Issue 1 Ar tificial Intelligence and Responsibility 	Article 5 
+
+2024 
+Beyond Visual Limits: Systems Thinking for the Visually Impaired Using Generative AI 
+Allie Zombron 
+James Madison University 
+Raafat Zaini 
+James Madison University 
+Arwa Alnajashi 
+King's College London 
+Follow this and additional works at: https://commons.lib.jmu.edu/ijr 
+ Part of the Accessibility Commons, and the Curriculum and Instruction Commons 
+
+This work is licensed under a Creative Commons Attribution-NonCommercial-Share Alike 4.0 International License. 
+
+Recommended Citation 
+Zombron, Allie; Zaini, Raafat; and Alnajashi, Arwa (2024) "Beyond Visual Limits: Systems Thinking for the Visually Impaired Using Generative AI," International Journal on Responsibility: Vol. 7: Iss. 1, Article 5. 
+DOI: https://doi.org/10.62365/2576-0955.1123 
+Available at: https://commons.lib.jmu.edu/ijr/vol7/iss1/5 
+This Article is brought to you for free and open access by the Faculty Publications at JMU Scholarly Commons. It has been accepted for inclusion in International Journal on Responsibility by an authorized editor of JMU Scholarly Commons. For more information, please contact dc_admin@jmu.edu. 
+ 
+Beyond Visual Limits: Systems Thinking for the Visually Impaired Using Generative AI 
+ 
+Allie Zombron 1  
+Raafat Zaini 1 
+Arwa Alnajashi 2 
+ 
+Abstract 
+ 
+This paper explores the responsible use of Generative Artificial Intelligence (GenAI) to improve accessibility in STEM education for individuals with visual impairments. It presents a proof-of-concept for generating descriptions of visual representations used in Systems Thinking, a method that relies on visual models and complex diagrams, which can be challenging for visually impaired users. Aligning with Web Content Accessibility Guidelines (WCAG) 2.1 AA standards as required by the Americans with Disabilities Act (ADA) for Title II entities, this research seeks to improve the accessibility of dynamic systems and contribute to the ethical use of GenAI. Our approach emphasizes the value of inclusivity in Science, Technology, Engineering, and Mathematics (STEM) education. It demonstrates a commitment to developing a GenAI tool that promotes equitable access to educational resources for visually impaired users. We have successfully developed a ChatGPT 4 GenAI prompt capable of recognizing and describing basic Systems Thinking representations, providing a foundational step towards achieving comprehensive accessibility in interpreting visual system representations for visually impaired individuals.  
+ 
+Keywords: Generative Artificial Intelligence (GenAI), STEM, Systems Thinking, accessibility, visual impairments, System Dynamics  
+ 
+Introduction 
+ 
+      Systems Thinking is becoming a prominent aspect in STEM education to understand complex systems (Bielik et al., 2023). Systems Thinking uses complex and highly visual models that facilitate understanding interactions within various systems. A system is "an interconnected set of elements that is coherently organized in a way that achieves something" (Meadows, 2009: 11). Systems Thinking encourages individuals to view relationships and interconnectedness, helping them determine a system's function or purpose. This will guide individuals to view these issues holistically and examine how elements interact and influence each other, which is essential for addressing real-world problems in STEM fields. However, systems thinking's reliance on visual representations poses significant accessibility challenges for individuals with visual impairments, often limiting their participation in educational and professional settings. Ensuring this approach and its visual tools are accessible to all learners, including those with visual impairments, is fundamental in inclusive education. The inability to access these visual tools limits learning opportunities and reflects an ethical oversight in implementing 
+ 
+
+1 James Madison University, USA  
+2 King's College London, UK 	 
+ 
+Corresponding Author: Raafat Zaini, Ph.D., James Madison University, College of Integrated Science and Engineering, Harrisonburg, Virginia 22807, USA; zainirm@jmu.edu 
+ 
+Published by Scholarly Commons, James Madison University. https://commons.lib.jmu.edu/ijr 
+these educational resources. 
+      The ethical implementation of Artificial intelligence (AI) in education aims to remove these barriers through the responsible development of technologies that are accessible to all users (Miao et al., 2021). Focusing on responsible AI development and prioritizing ethical considerations is crucial to ensuring that technology in education contributes to a more inclusive learning environment and can help reduce the risks associated with existing barriers in accessibility (Dignum, 2021). This approach fosters a learning environment where educational opportunities are more equitably available to students, supporting broader access to STEM education (Global Education Monitoring Report Team, 2020).  
+      Specifically, this paper explores the application of Generative Artificial Intelligence (GenAI) to increase accessibility in Systems Thinking, a foundational approach in STEM education that relies heavily on visual representations to demonstrate interconnected relationships (Richmond, 2010). These visual models in Systems Thinking illustrate the patterns essential for understanding the interactions in the system. However, without accessible descriptions, these models present barriers for visually impaired users, limiting their ability to engage with these concepts in STEM education (Shoaib et al., 2023).  
+      Providing accessibility to Systems Thinking representations requires a significant commitment to providing detailed and accurate descriptions, and while tools like screen readers offer limited solutions, they fall short of conveying complex visual representations effectively. This paper reports on how GenAI capabilities can be used to generate detailed descriptions of these visual representations, enhancing accessibility for visually impaired learners and addressing the accessibility gap in STEM education (Adnin, Das, 2024). GenAI's ability to generate detailed descriptions provides a promising solution to this issue, yet it remains underused in accessible STEM education. The lack of accessible descriptions produced by GenAI limits learning opportunities and raises ethical concerns about inclusion in educational technology. To address this issue, we aim to develop an AI-driven software tool to accurately interpret and describe these visual representations making them accessible for visually impaired users to engage with. 
+      In doing so, this research demonstrates the application of GenAI that aligns with the Americans with Disabilities Act (ADA) guidelines, specifically adhering to the Web Content Accessibility Guidelines (WCAG) 2.1 AA standards for web accessibility (WWWC, 2024). By upholding these standards (Ahsan Uddin, 2023), this project aims to create a more inclusive learning environment where educational resources are equitably accessible.  
+      The following sections highlight the accessibility challenges faced by visually impaired learners in understanding Systems Thinking representations, expand on the development of our GenAI tool designed to address these barriers, and explore the ethical considerations that guide this implementation. We then present our proof-of-concept results and discuss the impact of this work on advancing inclusivity in STEM education.  
+ 
+Visual Representations in Systems Thinking 
+ 
+      In Systems Thinking, the three primary visual representations are Behavior Over Time Graphs (BOTGs), Causal Loop Diagrams (CLDs), and Stock and Flow Diagrams (Deaton, MacDonald, 2024). These representations are widely used to illustrate interactions within complex systems, with each one serving a distinct role in understanding interconnectedness within the system. Together, these visual tools provide a comprehensive framework for analyzing and interpreting complex systems, enabling a deeper understanding of the interactions within Systems Thinking. Next, we give a brief description of each of those representations and their utility.  
+      
+ 
+	Behavior Over Time Graphs (BOTGs) 	 
+ 
+      A Behavior Over Time Graph (BOTG) is a plot that uses time on the X-axis and one or more measures of problem severity on the Y-axis. This type of graph reveals the evolutionary history of a problem, illustrating periods of both worsening and improvement. It helps to assess whether the problem is a recent development or something that has been building over time (see Figure 1). Additionally, it provides insight into how far back one needs to look to understand the roots of the issue (Deaton, MacDonald, 2024). BOTGs help visualize patterns and the behavior of the model over time. This is crucial for understanding the dynamic nature of these complex problems.  
+ 
+ 
+Figure 1. Behavior Over Time Graph (BOTG) (Deaton, MacDonald, 2024) 
+ 
+Causal Loop Diagrams (CLDs) 
+ 
+       Causal Loop Diagrams (CLDs) "provide a useful way to represent dynamic interrelationships. CLDs make explicit one's understanding of a system's structure, provide a visual representation to help communicate that understanding, and capture complex systems in a succinct form" (Kim, 1995: 4). As shown in Figure 2, they consist "of four basic elements: the variables, the links between them, the signs on the links (which show how the variables are interconnected), and the sign of the loop (which shows what type of behavior the system will produce)" (Lannon, 2012). This tool is useful to visually represent cause and effect relationships between the variables and their links, which is important to visualize how they influence one another. When CLD's are used with BOTG's, they help identify the feedback loops, which "help examine and learn about the flow of information between different parts of a system" (Indeed Editorial Team, 2024). There are two types of feedback loops: balancing and reinforcing feedback loops. "Balancing feedback loops are equilibrating or goal-seeking structures in systems and are both sources of stability and sources of resistance to change. Reinforcing feedback loops are self-enhancing, leading to exponential growth or to runaway collapses over time" (Meadows, 2009: 189).  
+ 
+	      	 	    Figure 2. Sample Causal Loop Diagram (Deaton, MacDonald, 2024) 
+ 
+Stock and Flow Diagrams 
+ 
+      The two main elements of stock and flock diagrams consist of stocks and flows. In the system, stocks represent quantities or accumulations of something, "such as water, money, population, or inventory" (AI and LinkedIn Community, 2024). Flows indicate the rates of change or the "movement of something in and out of the stocks, such as rainfall, income, births, or sales" (ibid.). Linking stocks and flows are valves or converters, which represent those variables that affect the flows, as illustrated in Figures 3 and 4. Using water as an example, the amount of water in a bathtub is influenced by water that flows from the faucet and that flows from the drain, both of which are "controlled by the valves of the faucet and the drain" (ibid.). Stock and flow diagrams provide a visual representation of the behavior of a system so that one can comprehend the interaction between stocks and flows over time. They can illustrate how the system reacts "to different scenarios, events, or interventions" (ibid.). Their presence in feedback loops creates delays and nonlinearities. Stock and flow diagrams can also enhance the communication of one's insights and assumptions to others to foster collaboration and learning (ibid.) 
+ 
+ 
+ 
+Figure 3. Basic Stock and Flow Diagram Representation (Zaini et al., 2017) 
+ 
+ 
+      Figure 4. Sample Stock and Flow Diagram (Deaton, MacDonald, 2024)  
+ 
+The Accessibility Gap in Systems Thinking Education 
+ 
+      The field of Systems Thinking and System Dynamics is inherently visual, posing significant accessibility challenges for visually impaired people. Despite technological advancements and the emphasis on inclusivity, there remains a gap for making these representations accessible for students with visual impairments. As Wandy (2020: 17) notes, the "visual nature of STEM has prevented individuals with blindness and visual impairments (BVI) to integrate into and pursue the general curriculum." This limitation reiterates the need for adaptive resources that visually impaired students can use and implement in their learning curriculum, addressing barriers in accessibility and promoting equitable learning opportunities in STEM education.  
+      There have been efforts made to enhance accessibility in various fields, including STEM education. For example, screen readers and other assistive technologies have been developed to access digital content. However, these tools often fall short when it comes to interpreting highly visual content, such as Systems Thinking representations (Adnin, Das, 2024). For instance, causal loop diagrams or stock and flow diagrams, which are common representations used in Systems Thinking, can be challenging for screen readers to interpret accurately. Without accessible alternatives, visually impaired users are unable to engage with or interpret these models effectively.  
+      While Systems Thinking tools have been developed to visually represent System Dynamics, many of these tools are not designed with the needs of visually impaired users in mind. They often rely on spatial relationships or visual elements, such as feedback loops, causal links and their polarities, and stock and flows, which convey information about the structure and behavior of the system. According to AbouZahra et al. (2018: 3), in recent studies, the  "current rate of accuracy for automatic image recognition does not provide sufficient reliability to eliminate the need for text alternatives provided by the author." This highlights that while technology like image recognition has advanced, it is not yet accurate enough to fully replace human-generated text descriptions for complex visual models. Manual text alternatives are still needed to describe these visual elements adequately, ensuring that visually impaired users can access and benefit from Systems Thinking tools.  
+      This accessibility gap represents both a technical issue and an ethical concern in STEM education. From a technical standpoint, it involves the challenge of developing GenAI systems capable of accurately interpreting and describing complex visual representations used in Systems Thinking. This requires GenAI to effectively translate visual representations into detailed, accessible descriptions. This accessibility gap emphasizes the importance of inclusive education and equal access to learning resources for students, regardless of their visual abilities, aligning with the principles of educational equity and responsible AI use (Partovi, Yongpradit, 2024). Ensuring that all students, including individuals with visual impairments, can access and benefit from Systems Thinking tools is crucial for promoting educational equity that aligns with the responsible use of AI in education. This not only addresses the immediate need for accessible learning materials but also demonstrates a commitment to developing GenAI tools that are inclusive and beneficial for users with diverse needs.  
+      While some accessible educational technologies for visually impaired users exist, there remains a significant gap in their availability and implementation, especially within Systems Thinking (Shoaib et al., 2023). This limitation in accessible tools represents an ongoing ethical challenge in STEM education. The failure to include accessibility in the design of educational tools not only impedes learning for individuals with disabilities but also contradicts the ethical responsibility of educators and technology developers to ensure inclusivity (Lomellini et al., 2023). 
+ 
+Addressing Accessibility Gaps in Systems Thinking Education 
+ 
+      This research addresses this accessibility gap and the urgent need for ethically designed AI tools that provide equitable access to Systems Thinking educational content. We developed a tool that can accurately recognize and describe these visual representations in an accessible format. This involves leveraging GenAI capabilities to articulate these models efficiently. Specifically, the tool would need to recognize various types of Systems Thinking representations, such as BOTGs, CLDs, and Stock and Flow Diagrams, identify the key elements within these models, and generate clear, detailed descriptions of these elements and their interactions. The GenAI tool would then need to present this information in a format compatible with screen readers or other assistive technologies while adapting to different levels of complexity in Systems Thinking models, including simple population models to more complex representations. This approach aligns with the growing emphasis on ethical considerations in developing and implementing educational technologies, which Holmes et al. (2019) highlights as essential for fostering inclusivity and equity in AI-driven learning tools.  
+      The GenAI-generated descriptions will enable visually impaired users to engage with Systems Thinking models through screen readers and other assistive technologies, effectively bridging the accessibility gap by providing GenAI verbal and textual explanations. A custom GPT model, "Systems Thinking for the Visually Impaired," was developed to assist users by verbalizing the content of Systems Thinking representations. This tool allows visually impaired users to upload and interpret these models, promoting accessibility and fostering inclusivity in STEM education.  
+      By addressing these concerns, this proof-of-concept highlights the importance of developing GenAI tools that prioritize inclusivity while advancing their technical capabilities (Gibson, 2024). Creating these tools with a focus on accessibility promotes more equitable educational opportunities and demonstrates responsible AI development (Roshanaei et al., 2023).  Specifically, our work on a GenAIdriven tool provides accessible descriptions of Systems Thinking representations, aiming to enhance learning opportunities for visually impaired students in STEM fields. This highlights the importance of creating inclusive learning environments that welcome diverse needs and establishing best practices for responsible AI implementation in educational technology (Gabriel, 2024). This approach aligns with UNESCO's Recommendation on the Ethics of Artificial Intelligence (2021) promoting equitable access to education and resources, and reinforces the need to prioritize equity and inclusion for visually impaired learners.  
+ 
+Ethical Considerations for Stakeholders 
+ 
+      To effectively address the accessibility problem in Systems Thinking education, it is essential to consider the stakeholders involved in the process or impacted by the outcome. Each group plays a vital role in fostering an educational environment that is inclusive for visually impaired students in STEM fields. They include students with visual impairments, educators, advocacy organizations, special education programs, offices of disability services, and software developers, to name a few. Next, we explain in more detail how they fit into this area.  
+ 
+Students with Visual Impairments 
+ 
+      Creating accessible teaching environments is crucial, particularly for STEM courses that are visual by nature. Research indicates a significant positive change in the attitudes of students and teachers in STEM classes towards students with disabilities when adaptive materials were provided (Rule et al., 2010). This supports the idea that "creating an inclusive learning environment is crucial for promoting accessibility and inclusion" (Stefanic, 2024a). This ethical responsibility extends to ensuring that visually impaired students can have equal access to educational resources.  
+ 
+Educators 
+ 
+      Educators often face challenges in providing accessible content to students who have visual impairments (Rosenblum et al., 2018). Their direct interaction with students allows them to hold the responsibility of engaging each learner and supporting the comprehension of the material, particularly in STEM fields where accessibility needs are crucial (Burgstahler et al., 2014). Furthermore, they play a critical role in curriculum design and in implementing accommodations for diverse learning needs. As noted in Australian Disability Clearinghouse on Education and Training (ADCET) guidelines for the blind or vision impaired, "we often take for granted the amount of visual information received every day. Many students with a vision impairment do not have a lifetime of visual experiences to draw upon. It may be necessary to consider the amount of assumed visual content in your subject when designing learning tasks" (ADCET, 2022). This highlights the ethical obligation of educators to adapt their teaching pedagogy to meet their students' accessibility needs.  
+ 
+Advocacy Organizations 
+ 
+      Organizations such as the Virginia Department for the Blind and Vision Impaired (DBVI) and the National Federation of the Blind (NFB) are at the forefront of promoting inclusivity and accessibility in education (VA Department for the Blind and Vision Impaired, 2024; National Federation of the Blind, 2016). These organizations work to ensure that tools are available for people with diverse needs. By raising awareness and providing resources, organizations like the NFB enable users with visual impairments to be represented in educational settings, advocating for accessible materials and inclusive educational opportunities (National Federation of the Blind, 2016).   
+ 
+Special Education Programs 
+ 
+      Programs tailored for students with disabilities can integrate specialized educational needs with accessible tools to provide resources to support assistive technologies (Stefanic, 2024b). These special education programs can directly influence the improvement of Systems Thinking tools by offering practical feedback on their usability (Rule et al., 2010). By incorporating input from special education programs, developers can enhance the responsible design of the Systems Thinking software tool to better meet the needs of students with disabilities (Burgstahler et al., 2004).  
+ 
+Offices of Disability Services (ODS) 
+ 
+      Offices of Disability Services (ODS) assist universities in fostering accessibility via the creation of a community where students with disabilities are provided with the equal opportunity to fully participate in their educational experience (Carter, 2024). ODS ensures accessibility in academic institutions and serves as a resource center for students with disabilities. They advocate for changes in educational policies and raise awareness among educators and students for customized accommodations.  
+Software Developers 
+ 
+      Software Developers play a critical role in the construction of Systems Thinking tools. Their expertise in design and development allows them to integrate accessibility features that make these tools usable for individuals with disabilities. Research has shown that accessible digital technologies positively impact engagement and learning outcomes among students with disabilities (Rizk, Hillier, 2022). By implementing accessibility technologies and adhering to ethical standards for AI (UNESCO, 2021), developers can ensure that these tools align with accessibility guidelines, which enhance educational opportunities for visually impaired students or students with other disabilities.  
+      The diverse stakeholders play a crucial role in addressing the ethical considerations surrounding Systems Thinking in STEM education. Each group provides unique perspectives and responsibilities, contributing to the goal of achieving comprehensive accessibility in interpreting visual system representations for visually impaired users. Students with visual impairments are the primary focus for accessible Systems Thinking tools. Their experiences and needs should guide the design and implementation of these tools, ensuring they are developed with inclusivity in mind.  
+      Educators and special education programs have an ethical obligation to accommodate the various needs of students with visual impairments. This includes engaging with students to understand their challenges, which can guide the development of resources that effectively address needs. Advocacy organizations and ODS also play an essential role in promoting policies that protect the rights of individuals with disabilities. They ensure that students have equal access to education, fostering an inclusive learning environment that reinforces the need for ethical practices in developing and using Systems Thinking tools. Software developers are vital contributors to accessible education and must carefully consider the ethical implications of their work. Prioritizing accessibility and inclusivity in the design process allows developers to create tools that accommodate diverse users and support students with visual impairments. By collaborating with these essential stakeholders, developers can ensure that the tools they make are functional and ethically responsible to meet the range of needs of students with disabilities. With these collaborative efforts, this work seeks to leverage GenAI to generate accessible descriptions of Systems Thinking representations. The following sections examine how this GenAIdriven approach meets ethical and accessibility standards, creating opportunities for visually impaired students to engage with Systems Thinking concepts.  
+ 
+Responsible AI and Systems Thinking in Education 
+ 
+      "Responsible AI refers to the development, deployment, and use of artificial intelligence (AI) systems in ways that are ethical, transparent, and accountable. It aims to ensure that AI technologies are aligned with human values, respect fundamental rights, and are designed to promote fairness, safety, and the well-being of individuals and society" (SAP, 2024). In education, responsible AI aims to support learning and accessibility while minimizing risks associated with bias or privacy. The World Economic Forum (WEF) emphasizes that "while AI offers numerous potential benefits for education, it's vital to acknowledge and mitigate its risks. Education systems should provide guidance on using AI responsibly, ensuring it supports community goals like improving student and teacher well-being and learning outcomes" (Partovi, Yongpradit, 2024).  
+      Applying Systems Thinking to responsible AI encourages educators and developers to consider the interconnected elements and broader impacts of GenAI implementation in education. As defined by  Morganelli (2020), "Systems thinking is a holistic way to investigate factors and interactions that could contribute to a possible outcome." This approach allows for a more complete view of how each component interacts to enhance accessibility and inclusivity when integrating GenAI tools in STEM education.  
+      Creating an effective GenAI prompt that recognizes and captures the depth of these representations is a significant challenge. As Abou-Zahra et al. (2018: 3) note, "Images need to be understood in the context of their surrounding content and their intended purpose, in order to provide useful text alternatives for accessibility." This means that the GenAI tool must identify visual elements and interpret their meaning within the broader context of the Systems Thinking representation. For example, in Figure 2, the Causal Loop Diagram representing deer population dynamics would require the GenAI to recognize the individual elements (Deer Population, Deer Birth Per Year, and Deer Death Per Year) as well as understand and describe how these variables interact to create feedback loops that influence the overall behavior of the system. The deer population example illustrates how feedback loops shape system behavior, offering a concrete and relatable case to demonstrate dynamic interactions. This example provides a foundation for understanding how GenAI must interpret and describe causal relationships, making it easier to connect theoretical concepts with practical applications of Systems Thinking. 
+      It is crucial to ensure that these methods adhere to the ADA guidelines for legal compliance and ethical implementation. Specifically, adhering to the WCAG 2.1 AA standards for web accessibility (World Wide Web Consortium, 2024)  provides explicit criteria for ensuring that web content is  accessible to a wider range of individuals with disabilities. For instance, the GenAI descriptions would need to offer text alternatives for any non-text content to present accessible descriptions and be compatible with assistive technologies like screen readers and text-to-speech (TTS) tools. Additionally, ensuring keyboard navigation is fully supported allows mobility impaired users to interact effectively with the content. 
+      While progress has been made in improving accessibility across various educational fields, there remains a significant gap in ensuring that Systems Thinking is fully accessible for individuals with visual impairments. This includes providing accurate descriptions of the visual elements while ensuring that visually impaired students can actively engage with and utilize these Systems Thinking representations. A GenAI tool, powered by ChatGPT, developed within this study would need to allow users to explore relationships between variables, understand the system's behavior over time, and potentially create or refine models using accessible software tools or interfaces.  
+      By addressing these challenges, this paper aims to contribute toward closing the accessibility gap in STEM education by developing a Systems Thinking Software tool with GenAI capabilities. The aim is to create a tool that can recognize and describe these Systems Thinking representations accurately and comprehensively, aiding students with visual impairments in fully participating in and contributing to the field of Systems Thinking as well as broader STEM disciplines.  
+ 
+Methodology 
+ 
+      Developing the proof of concept for the GenAI-driven Systems Thinking tool involves creating a prompt, defined as "an input given to the [GenAI] model to elicit a response or output" (SATLE, 2024), that works for various models, including BOTGs, CLDs, and Stock and Flow Diagrams. Each representation serves a distinct purpose in illustrating System Dynamics, and providing accurate descriptions will enhance understanding for visually impaired users. This project seeks to create alternative text descriptions that comply with ADA guidelines while also generating longer, detailed text descriptions for screen reading tools, facilitating effective navigation for users with visual impairments. 
+The development process incorporated several key ethical considerations, including ethical GenAI prompt design, iterative development and testing, and collaboration with stakeholders to inform and refine the work. For example, one of the co-authors is visually impaired and has actively critiqued and refined the work.  
+ 
+GenAI Prompt Design 
+ 
+      The GenAI prompt was designed to accurately interpret and describe visual representations in a format accessible to users who are visually impaired. The design process focused on creating detailed and accurate representations that adhere to the accessibility standards, ensuring that this tool is both inclusive and ethical (Lomellini et al., 2023). According to IBM's Everyday Ethics for Artificial Intelligence, ethical AI must be designed to prioritize fairness, transparency, and inclusivity throughout the development process. This includes addressing and minimizing biases in AI systems and ensuring that the technology serves diverse users' needs (Cutler, Pribić, 2022). By integrating these principles, the GenAI tool as it continues to evolve, will establish best practices for the responsible and ethical use of GenAI, promoting accessibility while maintaining accountability and fairness.  
+Iterative Development and Testing 
+ 
+      This tool is expected to undergo comprehensive testing to validate the generated descriptions and provide feedback for model improvement. As outlined by Digital.ai (2024), accessibility testing is crucial in ensuring inclusive design and functionality, allowing seamless usage across various platforms. This iterative process will incorporate insights from actual users, allowing for continuous refinement of performance and usability based on direct input. The intended audience for this tool consists of users with visual impairments who are actively participating in STEM education (Wandy, 2020). This includes individuals with varying levels of visual impairments, including students in both K-12 and higher education settings.  
+ 
+Collaboration with Stakeholders  
+ 
+      The process involves collaborating closely with visually impaired individuals, Disability Services, and software developers to tailor the tool's functionality to meet real user needs and ensure alignment with ethical standards. Feedback from visually impaired users will help identify accessibility barriers and suggest improvements in GenAI descriptions. Disability Services will provide expert guidance on adhering to accessibility guidelines such as WCAG 2.1 AA and the ADA standards (World Wide Web Consortium, 2024) . By collaborating with stakeholders, this research ensures that the GenAI tool is both functional and inclusive. The full potential of AI-based inclusiveness can only be realized when academics, regulators/policymakers, developers (with and without disabilities), and individuals with disabilities work together (Henneborn, Eitel-Porter, 2021: 25). This collaborative approach assures that the GenAI tool meets accessibility standards and addresses the diverse needs of its users, promoting equitable access to STEM education.  
+      Consultation with a visually impaired individual was sought to determine the best way to deliver the Systems Thinking software tool. Additionally, Disability Services and Instructional Design at James Madison University were contacted to understand constraints such as the Learning Management System (LMS) Canvas' 120-character limit for alternative text, defined as "descriptive text that conveys the meaning of an image in digital content. It's designed to make visual content accessible to people with vision disabilities" (General Services Administration, 2024).  
+ 
+The Generative AI Prompt Framework 
+ 
+      For this study, we adopted a structured approach to ensure that each prompt is clear, targeted, and optimized for producing outputs that are accessible, accurate, and aligned with the needs of visually impaired users. Structured prompts play a vital role in developing GenAI-driven tools capable of analyzing and describing Systems Thinking representations into inclusive formats. We used the CREATE Framework (Birss, 2023) which provides a structured approach to designing prompts, enhancing the clarity and accessibility of AI-generated descriptions. This framework divides the process into six distinct components - Character, Request, Examples, Adjustments, Type of Output, and Extras. Each component plays a specific role in guiding the GenAI to produce accurate, detailed, and accessible responses. The following is a breakdown of how each component of the framework supports the development of effective prompts.  
+ 
+Character: Define the role you want the GenAI to play, such as an expert in a specific field. For example, "You are an expert in Systems Thinking and have a deep understanding of System Dynamics Models." 
+ 
+Request: Specify the tasks you want the GenAI to perform, such as analyzing, describing, or summarizing. For instance, "Examine the model's variables, specifically the interactions between stocks, flows, feedback loops, and its behavior over time."  
+ 
+Examples: Provide examples to guide the AI toward achieving the desired result. For example, 
+"Use the bathtub example or the predator-prey model to understand key points."  
+ 
+Adjustments: Add extra instructions to shape the GenAI's response, such as emphasizing key points or focusing on specific details. For example, "Focus on how each component influences the overall behavior and explain the feedback loops in the system." 
+ 
+Type of Output: Specify the desired format or type of response, such as a paragraph, bullet points, table, or detailed explanation. For example, "Give one description that is full length of what the system is showing in detail for every feedback loop, causal diagram, and behavior over time graph. Give another description that is Alternative Text compatible and is no more than 120 characters. Give the character count." 
+ 
+Extras: Include additional instructions or phrases to refine the structure or behavior of the GenAI. For example, "Ignore everything before this prompt," "explain your thinking," or "ask me questions before you answer."  
+ 
+ 
+ 
+ 
+ 
+Table 1. The CREATE Framework and Prompt Structure (Birss, 2023) 
+CREATE Component Prompt Description Character You are a Systems Dynamics expert, and you must provide a description of this image with the following requirements that comply with ADA guidelines for visually impaired individuals.  Request Start by providing a summary of the image, including the main subject or subjects and any significant details.    Examples Explain why the image is relevant or what purpose it serves in the content. Consider the context in which the image appears and its significance to the overall message.    Adjustments Describe the key elements, objects, or actions depicted in the image, focusing on essential details that contribute to understanding its meaning.    Type of Output Mention the spatial layout or arrangement of elements within the image, providing insights into their positions relative to each other.    Extras Provide one full-length description detailing every feedback loop, causal diagram, or behavior over time graph depicted in the image.   
+Provide a second description that is alternative text compatible, ensuring that it does not exceed 120 characters. Include the character count.   
+Describe visual attributes such as colors, shapes, sizes, textures, and patterns as necessary, particularly if they are crucial for understanding the image.     If applicable, convey any emotional or atmospheric elements depicted in the image, such as expressions, moods, or environmental conditions.     
+Results 
+ 
+      To evaluate the effectiveness of our GenAI tool in describing Systems Thinking representations and ensuring compliance with ADA guidelines, we developed a structured prompt using OpenAI's ChatGPT-4. This prompt was designed to generate detailed yet accessible descriptions of highly visual models, enabling visually impaired users to engage meaningfully with Systems Thinking concepts. These tests were conducted in March 2024 on a simple deer population model to assess the tool's ability to produce accurate and inclusive descriptions. The simple model and the structured prompt provided to ChatGPT-4 are described below, with additional details presented in Table 1.  
+ 
+Deer Population Example 
+ 
+      To test the effectiveness of our GenAI tool in describing Systems Thinking representations, we chose a simple Deer Population model (Deaton, MacDonald, 2024). Population models are commonly used in Systems Thinking, making an ideal starting point that is easy for both users and developers to understand and interact with. This example was chosen as our initial scenario because it effectively represents all three Systems Thinking diagrams and highlights key concepts such as feedback loops, stocks and flows, and behavior patterns over time. Figure 2 and Figure 4 illustrate the deer population example specifically, while Figure 1 depicts a basic population model that shares the same structure as the deer population example, providing a straightforward representation of System Dynamics. Using these examples allow us to test the GenAI tool's versatility across various Systems Thinking representations and verify its capability to generate clear, accessible descriptions for visually impaired users.  
+      By leveraging these simple population models, we aim to ensure that the GenAI tool can accurately interpret and describe each model type. The deer population example not only demonstrates the technical capabilities of the tool but also serves as a valuable resource for educators and other stakeholders, offering insights into the application of Systems Thinking in a way that promotes inclusivity and accessibility for visually impaired users.  
+ 
+Prompt Structure  
+ 
+      We developed a prompt using the CREATE framework (Briss, 2023), where we used parts of the framework as needed. We linked each part of the prompt to the CREATE framework as follows: 
+       You are a Systems Dynamics expert [Role], and you must provide a description of this image [Request] with the following requirements that comply with ADA guidelines for visually impaired individuals [Adjustments]:     
+ 
+Brief Description: Start by providing a summary of the image, including the main subject or subjects and any significant details.   
+ 
+Context: Explain why the image is relevant or what purpose it serves in the content. Consider the context in which the image appears and its significance to the overall message.  
+  
+Detailed Elements: Describe the key elements, objects, or actions depicted in the image, focusing on essential details that contribute to understanding its meaning.    
+ 
+Spatial Relationships: Mention the spatial layout or arrangement of elements within the image, providing insights into their positions relative to each other.    
+ 
+Visual Attributes: Describe visual attributes such as colors, shapes, sizes, textures, and patterns as necessary, particularly if they are crucial for understanding the image.    
+ 
+Emotional or Atmospheric Elements: If applicable, convey any emotional or atmospheric elements depicted in the image, such as expressions, moods, or environmental conditions.    
+ 
+Full-Length Description: Provide one full-length description detailing every feedback loop, causal diagram, or behavior over time graph depicted in the image [Type of Output].  
+ 
+Alternative Text Description (120 Characters): Provide a second description that is alternative text compatible, ensuring that it does not exceed 120 characters. Include the character count [Type of Output].  
+ 
+Developed Prompts and Generative AI (GenAI) Responses 
+ 
+      To address the accessibility challenges that students with visual impairments face, AI-generated descriptions were developed for basic Systems Thinking representations, including BOTGs (Figure 1), CLDs (Figure 2), and Stock and Flow Diagrams (Figure 3 and Figure 4). These descriptions benefit from the essential elements of the Generative AI Prompt Framework (Birss, 2023), while adhering to the ADA guidelines (Americans with Disabilities Act, 1990) to ensure accessibility.  
+      To further connect the figures to the GenAI Prompt Framework and ADA guidelines, each figure's description is structured to highlight key components identified by the framework, such as variables, relationships, and the behavior of the system. This approach ensures consistency across different Systems Thinking representations while providing comprehensive information. In terms of ADA compliance and aligning with the WCAG 2.1 AA standards for web accessibility, the descriptions are designed to be both concise and informative, adhering to the 120-character limit for ALT text required for LMS like Canvas (Instructure, Inc., 2024). For more complex models, longer descriptions are provided to ensure that visually impaired users can navigate and understand the full context of the Systems Thinking representations. A detailed summary of these AI-generated outputs for each Systems Thinking representation is included in Table 2. This approach attempts to make these visual models accessible to visually impaired users in STEM education. The preliminary results of this work were presented at the JMU 2024 Diversity Conference and the arXiv Accessibility Forum 2024 and were well-received as valuable tools for advancing Accessibility in Systems Thinking education.  
+      The development and testing of structured prompts based on the CREATE Framework (Birss, 2023) significantly enhanced the accuracy and clarity of the GenAI descriptions for Systems Thinking models. By generating comprehensive and detailed descriptions that adhere to ADA and WCAG 2.1 AA standards, this approach effectively addresses crucial gaps in STEM education. This evaluation confirmed that well-designed and thoughtfully developed prompts guide GenAI in providing high-quality outputs that can be further refined to meet user-specific needs, highlighting the potential and scalability of AIdriven solutions in creating more inclusive learning environments. Additionally, this process has demonstrated that GenAI's effectiveness depends on precise prompting, further noting the importance of continuous refinement and iterative testing on the generated outputs. This suggests that when GenAIdriven tools are ethically designed and applied, they can potentially improve accessibility in STEM education significantly by providing equitable learning opportunities and fostering inclusive learning environments for visually impaired users and beyond.  
+      Throughout this research, we explored various large language models (LLMs) such as Microsoft Copilot (Microsoft Copilot, 2024), Google Gemini (Google, 2024), and ChatGPT (OpenAI, 2024), to identify the best approach for generating accessible descriptions. While our current results are based on our experience with ChatGPT, we recognize that GenAI technologies continue to evolve. Future exploration of multiple LLMs may further enhance outcomes, recognizing that these findings are not definitive and will be refined as new technologies and capabilities emerge.  
+ 
+Limitations and Future Work  
+ 
+      As this research progresses, several enhancements are planned to further develop and refine the Systems Thinking GenAI tool. These enhancements will address ongoing challenges in accessibility for visually impaired users in STEM education. Building on insights from recent accessibility research in STEM (Shoaib et al., 2023), our future work aims to expand the tool's capabilities while addressing its current limitations.  
+      The study presents several limitations that must be considered in future development to enhance the GenAI tool's effectiveness and accessibility. Currently, the developed GenAI tool only supports three specific visual representations in Systems Thinking - BOTGs, CLDs, and Stock and Flow Diagrams - which may not comprehensively address the diverse set of visual models used in complex systems. Future work will focus on expanding the tool's capabilities to describe more complex and diverse models, enabling it to apply a broader range of Systems Thinking applications. 
+ 
+ 
+Table 2. AI Generated Outputs for Systems Thinking Diagrams (Alnajashi et al., March 2024) 
+Systems 
+Thinking 
+Model 
+Type Behavior Over Time Graph (BOTG) (Figure 1) Causal Loop Diagram  (CLD) (Figure 2) Stock and Flow Diagram  (Figure 4) Generated Description Brief Description: The image is a Behavior Over Time Graph (BOTG) for basic population dynamics, plotting population and birth and death flows over a 50-year period. Context: This graph serves to illustrate the changes in population over time, along with the corresponding rates of births and deaths, emphasizing how these factors interact within a population model. 
+Detailed Elements: The graph plots three data series against time:  1. The population (solid blue line),  
+2. Births per year (dashed red line), 3. Deaths per year (dotted purple line). 
+Spatial Relationships: The X-axis represents time in years from 0 to 50, while the Y-axis on the left measures population, and the Y-axis on the right measures flows (births and deaths) in people per year. The population curve shows a steady increase over time, while the births and deaths curves are somewhat proportional to the population but offset. 
+Visual Attributes: 
+- Population is depicted with a solid blue line that rises sharply, starting near the origin and extending towards the upper right, showing a consistent increase. 
+- Births are represented by a dashed red line that also rises, showing fluctuations that increase over time in step with the population. - Deaths are shown with a dotted purple line that generally follows the births' trend but at a lower rate. 
+Emotional or Atmospheric 
+Elements: While there are no direct emotional or atmospheric 
+components, the upward trend of the population curve can evoke a sense of growth or escalation. Brief Description: The image is a Causal Loop Diagram (CLD) for a deer population model. It contains two feedback loops, one reinforcing and one balancing. Context: The diagram is used in system dynamics to visualize how deer births and deaths interact and influence the overall deer population. 
+Detailed Elements: The diagram consists of three main elements: "Deer births per year," "Deer population," and "Deer deaths per year." Arrows with plus and minus signs depict the relationship between these elements.  
+Spatial Relationships: There are two loops: the left loop begins at "Deer births per year," moves to 
+"Deer population," and returns to "Deer births per year." The right loop moves from "Deer population" to "Deer deaths per year," and back. 
+Visual Attributes: Arrows are used to represent causal effects. A plus sign (+) on an arrow indicates a positive relationship, while a minus sign (-) indicates a negative relationship. The reinforcing loop is marked with an "R" and the balancing loop with a "B." Both are in triangular symbols. 
+Emotional or Atmospheric Elements: As an abstract diagram, it does not convey emotions or atmospheric conditions, but the structure implies a systematic and controlled approach to understanding population dynamics. Brief Description: The image displays a stock and flow diagram associated with the previously mentioned Causal Loop Diagram, specifically illustrating the dynamics of deer population change over time. 
+Context: This diagram is critical for understanding the operational structure behind the deer population model, showing the inflow and outflow mechanisms that affect the stock of deer. 
+Detailed Elements: The diagram features a central stock labeled "Deer population," with two flows: "Deer births per year" as an inflow on the left and "Deer deaths per year" as an outflow on the right. Spatial Relationships: "Deer births per year" enters from the left into the "Deer population" stock, increasing it, while "Deer deaths per year" exits from the right, decreasing the stock. The reinforcing loop (R) and balancing loop (B) are indicated around the inflow and outflow, respectively. Visual Attributes: Arrows indicate the direction of the flows with cloud symbols at the start and end points representing the external environment. The stock is represented by a rectangle, and the flows by pipes with valves, annotated with plus (+) and minus (-) signs to represent the positive and negative effects on the deer population. 
+Emotional or Atmospheric Elements: While the diagram is technical and lacks emotional content, the careful arrangement of the elements conveys a sense of order and balance in the system dynamics.  
+ 
+ 
+ 
+Table 2. Continued 
+Systems 
+Thinking 
+Model Type Behavior Over Time Graph (BOTG) (Figure 1)  Causal Loop Diagram (CLD)  (Figure 2) Stock and Flow Diagram  (Figure 4) Full-Length Description The graph titled "BOTG - Basic Population Dynamics" has a time horizon from 0 to 50 years, over which it tracks three key elements. The solid blue line labeled "1" represents the total population, beginning just above 250 people and rising to nearly 2000 by year 50. The dashed red line labeled "2" indicates the number of births per year, starting close to zero and reaching about 175 by the end of the period. The dotted purple line labeled "3" corresponds to the number of deaths per year, which starts at zero and rises to slightly above 50. The left Y-axis scales to 
+2000 people to match the population, while the right Y-axis scales to 200 flows (people per year) for births and deaths. The graph demonstrates the relationships and potential delays between population and its birth/death rates, showing how population growth leads to increased births and deaths, but with the number of births consistently outpacing the number of deaths. The Causal Loop Diagram (CLD) consists of two feedback loops. The reinforcing loop (labeled with 
+"R") suggests that an increase in "Deer births per year"  leads to an increase in "Deer population," which in turn leads to more "Deer births per year." This loop indicates growth and is symbolized by a blue triangular arrow circling back to its starting point, with plus signs indicating a positive correlation between the factors. 
+The balancing loop (labeled with 
+"B") shows that an increase in "Deer population" leads to an increase in "Deer deaths per year," which reduces the "Deer population," thus balancing the system. This loop is shown with a blue triangular arrow creating a circular path between the elements, with a plus sign from "Deer population" to "Deer deaths per year" and a minus sign from 
+"Deer deaths per year" back to 
+"Deer population." The stock and flow diagram features a central stock named "Deer population," depicted as a rectangle. To the left, a flow marked "Deer births per year" enters the stock, indicated by a pipe with a valve and a cloud symbol at the beginning of the flow. The positive effect of births on the population is marked by a plus sign. A red reinforcing feedback loop (R) circles around this flow, suggesting that an increase in population leads to an increase in births. To the right, a flow marked "Deer deaths per year" leaves the stock, similarly depicted with a pipe, valve, and a cloud symbol at the end. A plus sign shows the positive relationship between population and deaths, while a minus sign indicates the negative impact of deaths on the population. A black balancing loop (B) encircles this flow, representing the regulating effect of deaths on population growth. Alternative 
+Text 
+Description 
+(120 
+Characters) Graph showing population growth, and increasing birth and death rates over 50 years, with labeled lines for each variable. (117 characters) CLD with two loops for deer population: one reinforcing growth and one balancing through deaths. (116 characters) Stock & flow diagram for deer with births inflow, deaths outflow, reinforcing loop (R), and balancing loop (B). (117 characters)  
+      Additionally, the GenAI tool has inherited limitations in terms of accuracy and potential bias, as it relies on well-crafted prompts to generate clear and specific outputs. These limitations are not unique to this specific tool, but are challenges faced by all users when interacting with GenAI. Furthermore, we have undergone limited user testing, which leaves gaps in understanding the GenAI tool's effectiveness in current educational settings. To address this, we plan on extensive testing with diverse user groups, specifically visually impaired users, to evaluate and gather feedback based on real-world experiences. Finally, this tool is currently reliant on integrating with existing assistive technologies, such as screen readers and text-to-speech (TTS) tools. Future efforts will include compatibility testing with a variety of assistive technologies to ensure seamless usability and accessibility for users relying on these tools.   
+ We are currently working on a dedicated GPT that compiles all the lessons learned when developing the prompt, to be used by visually impaired individuals, educators, researchers, parents, or the public to generate more accessible descriptions of Systems Thinking models. This approach will enhance the tool's ability to provide clear descriptions, reducing the need for manual inputs and supporting accessibility in STEM education.  
+      A key focus is to adapt the GenAI tool to handle more complex visual representations, enhancing its ability to describe detailed System Dynamics models. This development aligns with the need for more accessible learning environments, as highlighted by Lomellini et al. (2023). To provide a seamless experience for users, we plan to integrate the developed GenI tool into an existing modeling software, Insight Maker (Insight Maker, 2024), a free model and simulation builder. This integration will allow users to access AI-generated descriptions directly within the software, improving usability and aligning with best practices in accessible design. Enhancing the integration of existing services to increase inclusivity for students with disabilities is a primary component of creating equitable learning environments (Burgstahler, 2015).  
+      To further enhance accessibility, this tool will be expanded to provide verbal instructions for building System Dynamics models, supporting users in constructing their models independently. This addresses the need for more comprehensive support in STEM education for visually impaired students (Rule et al., 2010). In addition to enhancing existing tools, continued efforts are underway to develop a custom GPT specifically tailored to the needs of visually impaired users for Systems Thinking. This GenAI tool will incorporate all necessary prompts and functions directly into the GenAI, allowing a more efficient user experience. The goal is to integrate the GenAI with full capabilities of understanding and generating descriptions of the Systems Thinking representations, eliminating the need for external tools. This advancement reflects best practices for developing GenAI tools that holistically address accessibility gaps, reduce reliance on external resources, and create a seamless user experience that further supports inclusivity in STEM education.  
+ 
+Conclusion 
+ 
+      This research demonstrates the potential of ethically responsible GenAI tool to create inclusive learning environments in STEM education, particularly in the field of Systems Thinking. By developing a ChatGPT-4 prompt capable of recognizing and describing basic Systems Thinking representations, we have taken a step towards achieving comprehensive accessibility in interpreting visual system representations for visually impaired individuals. This work directly addresses the accessibility barriers visually impaired learners face in engaging with the highly visual models used in Systems Thinking. The successful generation of accessible descriptions for BOTGs, CLDs, and Stock and Flow Diagrams in the deer population example showcases the tool's potential to bridge this accessibility gap.  
+      The results of this research highlight the effectiveness of using GenAI to generate detailed descriptions of complex visual representations while ensuring ADA and WCAG compliance. This aligns with recent studies emphasizing the need for assistive technologies in STEM education (Shoaib et al., 2023). Furthermore, this approach not only addresses the technical aspects of accessibility but also contributes to the ethical considerations required when implementing GenAI in educational settings (Holmes et al., 2019).  
+      From an ethical perspective, this approach emphasizes the responsibility of developers and educators to create AI tools that promote inclusivity and equal access for a diverse range of learners. Ensuring ADA and WCAG compliance demonstrates a commitment to universal accessibility standards that support visually impaired users while fostering fairness and equal opportunity in the development of these tools. By integrating these ethical implications, GenAI-driven solutions can help bridge accessibility gaps and create more equitable learning experiences in STEM education.  
+      Its potential applications extend beyond users with visual impairments in Systems Thinking, offering scalable accessibility solutions that could improve engagement and inclusivity across diverse disabilities and educational settings. As we continue to refine and expand this tool's capabilities, we remain committed to the ethical standards and inclusive practices that have guided this research.  
+      This study demonstrates that leveraging GenAI tools responsibly can achieve more equitable access to STEM education, particularly for visually impaired learners. It contributes to the growing research on ethical GenAI usage in education while shaping efforts to advance accessibility in learning tools. As we move forward, continued collaboration and research will be crucial in ensuring that the benefits of these advancements are accessible to all learners, whatever their visual abilities.  
+ 
+ 
+About the Authors 
+ 
+Allie Zombron is a fourth-year Integrated Science and Technology (ISAT) student at James Madison University (JMU), concentrating in Applied Computing within the College of Integrated Science and Engineering (CISE). Her capstone project focuses on developing a Systems Thinking Software tool with GenAI capabilities to assist visually impaired users in interpreting visual representations.  
+ 
+Raafat Zaini is an Assistant Professor at James Madison University. His research interests include the use of dynamic simulation models in organizational design, dissent, change, and strategy. He teaches systems thinking and systemic creativity and has recently focused on leveraging Generative AI across various domains, including accessibility for visually impaired and neurodiverse individuals, as well as studying organizational change.   
+ 
+Arwa Alnajashi is an MSc candidate in Data Science at King's College London, with a strong research interest in artificial intelligence and digital accessibility. With over three years of industry experience as a data scientist, she has applied advanced machine learning techniques to solve real-world challenges. Her academic work focuses on leveraging AI to promote inclusivity in digital systems. 
+ 
+ 
+References 
+ 
+Abou-Zahra, S., Brewer, J. Cooper, M. (2018) Artificial Intelligence (AI) for web accessibility: Is conformance evaluation a way forward? Proceedings of the 15th International Web for All Conference. Lyon, France. Association for Computing Machinery, Article 20, pp. 1-4. https://doi.org/10.1145/3192714.3192834 
+Adnin, R., Das, M. (2024) "I look at it as the king of knowledge": How blind people use and understand generative AI tools. The 26th International ACM SIGACCESS Conference on Computers and Accessibility. St. John's NL, Canada. Association for Computing Machinery, Article 64, pp. 1-14. https://doi.org/10.1145/3663548.3675631 
+Ahsan Uddin, A. S. M. (2023) The era of AI: Upholding ethical leadership. Open Journal of Leadership, 12(4), pp. 400-417. https://doi.org/10.4236/ojl.2023.124019 
+AI and LinkedIn Community (2024) What are the benefits and limitations of stock and flow diagrams for systems thinking? LinkedIn. https://www.linkedin.com/advice/1/what-benefits-limitationsstock-flow-diagrams, page accessed 11.04. 2024.  
+Americans With Disabilities Act of 1990, 42 U.S.C. § 12101 et seq. (1990). https://www.ada.gov, page accessed 05.30. 2024. 
+Australian Disability Clearinghouse on Education and Training (ADCET) (2022). Inclusive teaching: Blind and vision impaired. https://www.adcet.edu.au/inclusive-teaching/specificdisabilities/blind-vision-impaired, page accessed 5.03. 2024.  
+Bielik, T., Chalufour, S., Dickes, A., Papadouris, N. (2023) Characterising the literature on the teaching and learning of system thinking and complexity in STEM education: A bibliometric analysis and research synthesis. Journal for STEM Education Research, 6(1), pp. 1-28. https://doi.org/10.1007/ s41979-023-00087-9 
+Birss, D. (2023) The Prompt Collection. https://davebirss.com/documents/the_prompt_guide.pdf, page accessed 4.25.2024.  
+Burgstahler, S. (ed.) (2015) Making STEM accessible to postsecondary students with disabilities. Disabilities, Opportunities, Internetworking, and Technology, University of 
+Washington. https://www.washington.edu/doit/sites/default/files/atoms/files/Making%20S
+TEM%20Accessible%20to%20Postsecondary%20Students%20with%20Disabilities.pdf 
+Burgstahler, S., Jirikowic, T., Kolko, B., Eliot, M. (2004) Software accessibility, usability testing and individuals with disabilities. Information Technology and Disabilities Journal, 10(2). http://itd.athenpro.org/volume10/number2/burghsta.html, page accessed 11.12.2024.  
+Burgstahler, S., Stefanich, G., Stodden, R. (2014) College students with disabilities in STEM: Expanding opportunities by enhancing communication of evidence-based information with stakeholders. In B. Duerstock and C. Shingledecker (eds.) From college to careers: Fostering inclusion of persons with disabilities in STEM. Science/AAAS Custom Publishing Office, pp. 48-60. 
+https://www.science.org/content/resource/from-college-to-careers 
+Carter, J. (2024) Accessibility: Student resources. https://www.jmu.edu/accessibility/resources-forstudents.shtml, page accessed 11.12.2024.   
+Cutler, A., Pribić, M. (2022) Everyday ethics for AI. IBM Design Program Office. https://www.ibm.com/watson/assets/duo/pdf/everydayethics.pdf, page accessed 11.13.24. 
+Deaton, M., MacDonald, R. (2024) System dynamics learning guide. https://pressbooks.lib.jmu.edu/sd learningguide, page accessed 4.25.24.  
+Digital.ai (2024) Accessibility testing for web & mobile apps. https://digital.ai/glossary/accessibilitytesting, page accessed 11.13.2024.  
+Dignum, V. (2021) The role and challenges of education for responsible AI. London Review of Education, 19(1), 1-11. https://doi.org/10.14324/lre.19.1.01 
+Gabriel, J. (2024) How Artificial Intelligence (AI) impacts inclusive education. Educational Research and Reviews, 19(6), pp. 95-103. https://doi.org/10.5897/ERR2024.4404.  
+General Services Administration (2024) Content creation: Authoring meaningful alternative text. 
+https://www.section508.gov/create/alternative-text, page accessed 11.14. 2024.  
+Gibson, R. (2024) "The impact of AI in advancing accessibility for learners with disabilities." EDUCAUSE Review, 10, September. https://er.educause.edu/articles/2024/9/the-impact-of-ai-in-advancingaccessibility-for-learners-with-disabilities, page accessed 11.04. 2024.  
+Global Education Monitoring Report Team (2020) Global education monitoring report 2020: Inclusion and education: All means all (3rd ed.). UNESCO. https://doi.org/10.54676/JJNK6989 Google (2024) Gemini. https://gemini.google.com,  page accessed 8.30.2024. 
+Henneborn, L., Eitel-Porter, R. (2021) AI for disability inclusion: Enabling change with advanced technology. 
+Accenture. 	https://metroatlantaexchange.org/wp-content/uploads/2021/06/Accenture-AI-ForDisablility-Inclusion.pdf, page accessed 11.11. 2024. 
+Holmes, W., Bialik, M., Fadel, C. (2019) Artificial Intelligence in education: Promise and implications for teaching and learning. Center for Curriculum Redesign. http://bit.ly/AIED-BOOK 
+Indeed Editorial Team (2024) Indeed career guide: What is systemic thinking and why is it important? 
+	https://uk.indeed.com/career-advice/career-development/systemic-thinking, 	page 	accessed 
+11.03. 2024. 
+Insight Maker (2024) https://insightmaker.com, page accessed 8.30. 2024. 
+Instructure, Inc. (2024) Canvas. https://www.instructure.com/canvas, page accessed 11.15.2024  
+Kim, D. H. (1995) Systems thinking tools: A user's reference guide. The toolbox reprint series. Pegasus 
+Communication, Inc. https://thesystemsthinker.com/wp-content/uploads/2016/03/SystemsThinking-Tools-TRST01E.pdf 
+Lannon, C. (2012) Causal loop construction: The basics. The Systems Thinker, 23(8), pp. 7-8. 
+https://thesystemsthinker.com/wp-content/uploads/pdfs/230811pk.pdf, 	page 	accessed 11.04.2024. 
+Lomellini, A., Reese, R. M., Grennell, K. (2023) The imperfection of accessibility in instructional design: An ethical dilemma. In S. L Moore and T. A. Dousay, T. A. (eds.) Applied ethics for instructional design and technology: Design, decision making, and contemporary issues. EDTECH Books, pp. 178-195 https://doi.org/10.59668/270.12723 
+Meadows, D. H. (2009) Thinking in systems: a primer. Earthscan. 
+Miao, F., Holmes, W., Huang, R., Zhang, H. (2021) AI and education: guidance for policy-makers. UNESCO. https://doi.org/10.54675/PCSP7350 
+Microsoft Copilot: Microsoft AI (2024). https://www.microsoft.com/en-us/copilot, page accessed 5.10.2024  
+Morganelli, M. (2020) "What is Systems Thinking?" Southern New Hampshire University, 18, March. 
+https://www.snhu.edu/about-us/newsroom/business/what-is-systems-thinking, page accessed 
+11.05.2024.   
+National Federation of the Blind (2016). 2016 Resolutions. https://nfb.org/resources/speeches-andreports/resolutions/2016-resolutions, page accessed 11.12.2024. 
+OpenAI (2024). ChatGPT. https://chatgpt.com, page accessed 05.05.2024.   
+Partovi, H., Yongpradit, P. (2024) "AI and education: Kids need AI guidance in school. But who guides the schools?" World Economic Forum, 18, January. https://www.weforum.org/agenda/2024/01/aiguidance-school-responsible-use-in-education, page accessed 8.23.2024.  
+Richmond, B. (2010) The thinking in systems thinking: Eight critical skills. The Systems Thinker, 12(23), pp. 2-9. https://thesystemsthinker.com/wp-content/uploads/pdfs/210301pk.pdf, page accessed 11.07.2024.  
+Rizk, J., Hillier, C. (2022) Digital technology and increasing engagement among students with disabilities: Interaction rituals and digital capital. Computers and Education Open, 3, 100099. https://doi.org/10.1016/j.caeo.2022.100099 
+Rosenblum, L. P., Cheng, L., Beal, C. R. (2018) Teachers of students with visual impairments share experiences and advice for supporting students in understanding graphics. Journal of Visual Impairment & Blindness, 112(5), pp. 475-487. https://doi.org/10.1177/0145482X1811200505 
+Roshanaei, M., Olivares, H., Lopez, R. R. (2023) Harnessing AI to foster equity in education: 
+Opportunities, challenges, and emerging strategies. Journal of Intelligent Learning Systems and 
+Applications, 15(4), pp. 123-143. https://doi.org/10.4236/jilsa.2023.154009 
+ 
+ 
+Rule, A. C., Stefanich, G. P., Boody, R. M., Peiffer, B. (2010) Impact of adaptive materials on teachers and their students with visual impairments in secondary science and mathematics classes. International 
+Journal of Science Education, 33(6), pp. 865-887. https://doi.org/10.1080/09500693.2010.506619 
+SAP (2024) "What is responsible AI?", SAP Explainer, 21, May. https://www.sap.com/resources/whatis-responsible-ai, page accessed 11.12.2024.  
+Strategic Alignment of Teaching and Learning Enhancement (SATLE) Project Team (2024) Are you AI ready? Investigating AI tools in higher education, student guide. University College Dublin, Ireland Global University. https://ucddublin.pressbooks.pub/StudentResourcev1_od, page accessed 11.13.2024.  
+Shoaib, M., Fitzpatrick, D., Pitt, I. (2023) Assistive technology-based solutions in learning mathematics for visually-impaired people: Exploring issues, challenges and opportunities. Multimedia Tools and Applications, 82, pp. 46153-46184. https://doi.org/10.1007/s11042-023-17409-z 
+Stefanic, D. (2024a) Accessibility and inclusion in learning. https://hyperspace.mv/accessibility-andinclusion-in-learning, page accessed 8.23. 2024.  
+Stefanic, D. (2024b) Personalized learning for special needs. https://hyperspace.mv/special-needslearning, page accessed 11.12.2024.  
+UNESCO (2021) Recommendation on the ethics of Artificial Intelligence. https://unesdoc.unesco.org/ ark:/48223/pf0000381137, page accessed 11.08.2024.  
+VA Department for the Blind and Vision Impaired (2024). https://www.dbvi.virginia.gov, page accessed: 5.30.2024.  
+Wandy, A. (2020) STEM for students with blindness and visual impairments: Tenets of an inclusive classroom. M.S. Thesis. State University of New York. https://soar.suny.edu/handle/20.500.12648/4876, page accessed 4.18.2024.  
+World Wide Web Consortium (WWWC) (2024) Web Content Accessibility Guidelines (WCAG) 2.1. https://www.w3.org/TR/WCAG21, page accessed 5.30. 2024.  
+Zaini, R. M., Elmes, M. B., Pavlov, O. V., & Saeed, K. (2017) Organizational dissent dynamics: A conceptual framework. Management Communication Quarterly, 31(2), 258-277. 
+https://doi.org/10.1177/0893318916671216 
+ 
+Zombron, Zaini, & Alnajashi / International Journal on Responsibility Vol. 7 (2024) 
+      
+
+      
+https://commons.lib.jmu.edu/ijr                                                                                                              	2 
+      
+
+      
+
+      
+
+      
+Zombron, Zaini, & Alnajashi / International Journal on Responsibility Vol. 7 (2024) 
+      
+Zombron, Zaini, & Alnajashi / International Journal on Responsibility Vol. 7 (2024) 
+      
+	https://commons.lib.jmu.edu/ijr                                                                                                              	2 
+      
+	https://commons.lib.jmu.edu/ijr                                                                                                              	2 
+      
+Zombron, Zaini, & Alnajashi / International Journal on Responsibility Vol. 7 (2024) 
+      
+	https://commons.lib.jmu.edu/ijr                                                                                                              	2 
+      

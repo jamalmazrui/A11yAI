@@ -1,0 +1,135 @@
+﻿ Powering Inclusion:  
+Artificial Intelligence and Assistive Technology  
+
+Assistive technology (AT) is broadly defined as any equipment, product or service that can make society more inclusive. Eyeglasses, hearing aids, wheelchairs or even some mobile applications are all examples of AT. This briefing explores the power of using Artificial Intelligence (AI) to enhance the design of current and future AT, as well as to increase its reach.   
+Context 
+Globally, over 1 billion people are currently in need of AT. Lack of access to basic AT excludes individuals, reduces their ability to live independent lives [3], and is a barrier to the realisation of the Sustainable Development Goals (SDGs) [5].  
+Advances in AI offer the potential to develop and enhance AT and gain new insights into the scale and nature of AT needs (although the risks of potential bias and discrimination in certain AI-based tools must also be acknowledged). In June 2019, the Conference of State Parties to the UN Convention on the Rights of Persons with Disabilities (CRPD) recognized that AI has the potential to enhance inclusion, participation, and independence for people with disabilities [6]. AIenabled tools - such as predictive text, visual recognition, automatic speechto-text transcription, speech recognition, and virtual assistants - have experienced great advances in the last few years and are already being used by people with vision, hearing, mobility and learning impairments.  
+ 
+Roundtable Introduction 
+This briefing summarises the findings of an online expert roundtable on AI and AT held in November 2020. The event brought together experts working at the forefront of AI and AT to highlight the potential of using AI for AT and establish a list of 'grand challenges' to drive forward innovation in the AI & AT sector ahead of the launch of the newly formed International Research Centre on Artificial Intelligence under the auspices of UNESCO (IRCAI). Participants included industry leaders, innovators, entrepreneurs, policymakers, and AT users. The roundtable was funded by the AT2030 programme which is funded by FCDO and led by Global Disability Innovation. 
+Key facts 
+ 
+The UN Convention on the Rights of Persons with Disabilities (UNCRPD) established AT provision as a human right [1]. 
+ 
+Over 1 billion people are currently in need of AT. By 2050, this number is predicted to double [2]. 
+ 
+Only 10% of those who need AT currently have access to it [3].  
+ 
+Design constraints imposed by disability result in novel universal technologies [4] .  
+What could this mean for research?  
+Researchers and innovators should work with public administrations, industry and users to take a user-led design approach in need identification and throughout the process of development and evaluation of new ATs. The group identified nine "grand-challenges" for research in order to deliver on the opportunities for AI to improve ATs and increase access to ATs. A call for action, special attention and investment must be put in the following priority areas:   
+COMMUNICATION 
+ 
+1. To increase context-aware prediction of vocabulary. 
+2. To advance tone analysis of content adding non-verbal elements where these cannot be perceived by the user.  
+3. To improve prediction techniques and increase the integration of symbols into automatic text generation for AAC users (e.g. ☼ instead of sun). 
+The session focused on four areas: AI & Communication, AI & Mobility, AI & Improving Information, and also on more general requirements that must be considered when developing new technologies in this space. 
+COMMUNICATION 
+AI offers the opportunity to improve communication through increased accessibility and Augmentative and Alternative Communication (AAC). Examples might include sign language recognition, captioning for deaf and hard of hear-
+ing 	people 	or 	text-to-speech 	options 	for 	people 	with visual 
+or cognitive impairments. In the future, AI could provide a more nuanced reflection of context rather than just a literal transition from one mode to another.   
+Opportunities 
+AI has the potential to improve communication by: 
+• Enhancing speech recognition software. AI can improve prediction in challenging situations, which can then be used to offer improvements to hearing aid clarity in noisy environments.  
+• Increasing context-aware prediction of vocabulary, for example through recognition of new voices and minority languages. Delivering this technology over mobile could be of particular importance to people with disabilities living in low-resource settings where access to traditional AT can be prohibitively expensive.  
+• Improving speaker recognition for transcriptions from people with speech impairments, conversations with multiple voices, or additional layers of inference to deliver information that is not stated explicitly.   
+• Improving mobile phone-based AAC with underexplored physiological and behavioural cues (e.g. eye tracking, face expression recognition). 
+Barriers 
+• There is little data on the demand for these products, making it challenging to explain the use case to AI experts, and to present a case for investment on the industry side.  
+• Lack of diverse and inclusive datasets to train algorithms.  
+• Accuracy and connectivity limitations of AT devices.  
+ 
+MOBILITY 
+AI has the potential to power mobility in many areas: from wheelchair control, to obstacle navigation for people who are visually impaired; from intelligent prosthetic liners to automated bespoke design of prosthetics.   Opportunities 
+AI offers the opportunity to: 
+• Train algorithms based on the needs of individuals. E.g. Navigation systems for people with visual impairment. Feedback loops are needed to train these systems to adapt to the pacing and capacity of each individual.   
+• Facilitate bespoke personalised devices. Each user has different requirements depending on behaviour and contexts.   
+• Involve the user in collaboratively updating their system and allow systems to be continually adapted based on changing user needs.  
+• Use collaborative contextual tools where users can contribute to the information that is fed into the system to build a more generalised and inclusive view of needs.   
+• Focus on systems level rather than device level. E.g. Capitalise on the recent advances on autonomous vehicles to improve navigational tools for people with visual impairment or cognitive disabilities.   
+Barriers 
+A few of the barriers identified that could block AI-driven mobility go beyond the technical capacity of the systems.   
+• Data can be affected by the care pathway. The surrounding social and organisational factors that impact data should be taken into account during analysis.  
+• The ecosystem in which mobility occurs. AI should not be a replacement for improvements in the infrastructure. AI and accessibility of the environment need to grow together, balancing opportunity and functionality.  
+• Testing technologies in the "wild" may raise ethical issues due to increased risk or possible lack of safety.   
+IMPROVING INFORMATION 
+Surprisingly little is known about the scale and nature of the need for ATs. AI could help to fill this gap. For example, novel AI approaches could be used to identify people that might be in need, or services to enhance the awareness, distribution and policies relating to different AT products.    
+MOBILITY 
+ 
+1. To integrate diverse transport systems and diverse AT in an end-to-end model. 
+2. To develop bespoke mobility devices (e.g. prosthetics, wheelchairs) with AI being used to improve digital manufacturing possibilities for resilient supply chains. 
+3. To investigate the potential of embedding sensors into mobility devices to record big data sets which will be analysed using AI to create databased services (e.g. automatic adaptations to user environment, and predictive maintenance). 
+
+Opportunities 
+AI could help to deliver a more client-centred approach by enabling a better match between a person and technology: 
+• Finding the best option for each individual. AI could help to make sense of the many different options that might be available.  
+• Personalised solutions. AI could make recommendations based on an individual's needs and preferences.  
+• Increasing self-determination. AI could allow people to describe their own situations and goals directly, rather than relying on professional intermediaries to identify ATs on their behalf.  
+AI could also provide a new route for data collection, knowledge creation and 'deep learning': 
+• Crowdsourcing data not only from experts and published literature but from a much larger and disparate group of people (including AT users) could help to capture new insights and information.  
+• Learning about 'mainstream' accessible technologies that might benefit people with disabilities: AI could help to identify suitable technologies.  
+Barriers 
+• The interdisciplinary nature of the topic. Taking advantage of opportunities will require understanding between experts in AT, AI and web interfaces.  
+• The need for structured data sets. Assembling the huge amount of necessary data is a big task. In addition, finding a suitable way to structure and categorise the knowledge presents a challenge. There will be a trade-off between keeping up with the volume of data and maintaining its accuracy and validation.  
+ 
+CROSS-CUTING THEMES 
+The roundtable highlighted several opportunities and barriers that apply to new and emerging technologies across all sectors. 
+IMPROVING INFORMATION 
+ 
+1. To create and label datasets on the need, provision, distribution, and AT related policies. 
+2. To scale AI learning systems and mechanism to be more inclusive and multidisciplinary. 
+3. To use advanced language models to summarise and interpret ontological concepts across cultural and language differences facilitating integration into AI systems. 
+Opportunities 
+• Personalisation - AI offers the opportunity not only to give the user control of their data, but also to personalise AI for specific users.   
+• Co- design and development with all the relevant stakeholders.  
+• AI can facilitate human-centred solutions based on feedback loops and multisensory experiences.  Barriers 
+• Poor collection and labelling of underrepresented group datasets.  
+• Lack of inclusion of people with disabilities as technologies are designed, developed, and implemented.   
+• The need for multi-stakeholder & user engagement. Harnessing AT and involving key stakeholders: AI developers, AT developers, end users, regulators, decision makers, etc.   
+• Availability 	of 	appropriate follow-up 	and maintenance.  
+• Poor digital literacy of the users and/or confidence and motivation to use new technologies. 
+• Users who lack access to the internet.  
+• Ethical considerations: where AI is used to make decisions about who gets AT and which type of AT they are offered, users need to know why the system has taken a particular decision. AI should not be a 'black box'.  
+• Stigma associated with AT use.  
+• Risk of privacy and data protection flaws.  
+References  
+[1] U. Nations. "Convention on the Rights of Persons with 
+Disabilities (CRPD)." Department of Economic and Social Affairs. https://www.un.org/development/desa/disabilities/ convention-on-the-rights-of-persons-with-disabilities.html   [2] Director-General, "Improving access to assistive technology," WHO, 2018, vol. A71/21. [Online]. Available: https:// apps.who.int/gb/ebwha/pdf_files/WHA71/A71_21-en.pdf  [3] C. Holloway, Austin, V., Barbareschi, G., Ramos Barajas, 
+F., Pannell, L., Morgado Ramirez, D., Frost, R., McKinnon, I., Holmes, C., Frazer, R., Kett, M. Groce, N., Carew, M., 
+Abu Alghaib, O., Khasnabis, C., Tebbutt, E., Kobayashi, E., Seghers, F., "Scoping research Report on Assistive Technology. On the road for universal assistive technology coverage," Prepared by the GDI Hub & partners for the UK De-
+Recommendations for Policymakers: 
+• Policymakers should consider how data, knowledge and learning can be shared effectively between different countries in order to maximise benefits.  
+• Policymakers should consider the ethical implications of using AI, particularly where AI is used to recommend who gets access to AT and/or which technology they are offered.   
+• Policymakers should work with industry and users to develop guidelines to ensure transparency in AIbased decision making.  
+• Policymakers should ensure digital inclusion: make digital technologies and contents fully accessible to all people.  
+Conclusions  
+AI presents many opportunities to both enhance AT and to improve access to AT. It was clear from our roundtable that better data on the scale and nature of the need globally will be vital in making sure that the opportunities are realised. The importance of taking a user-led approach to designing new technologies was equally notable.  
+Our roundtable focused on harnessing the power of AI to create a more accessible World. But AI innovations such as image recognition, speech-to-text, and autonomousspatial guiding systems are technologies that can benefit society as a whole. By designing with accessibility in mind, we can all benefit from the creation of more intuitive, feature-rich and impactful products; Innovation for disability is innovation for everyone.  
+partment for International Development., 2018.   
+[4] C. Holloway, "Disability interaction (DIX): a manifesto," interactions, vol. 26, no. 2, pp. 44-49, 2019, doi: 10.1145/3310322.  
+[5] E. Tebbutt, R. Brodmann, J. Borg, M. MacLachlan, C. Khasnabis, and R. Horvath, "Assistive products and the Sustainable Development Goals (SDGs)," Globalization and Health, vol. 12, no. 1, p. 79, 2016/11/29 2016, doi: 10.1186/ s12992-016-0220-6.  
+[6] U. N. DESA. "12th session of the Conference of States Parties to the CRPD." https://www.un.org/development/desa/ disabilities/conference-of-states-parties-to-the-convention-on -the-rights-of-persons-with-disabilities-2/cosp12.html   
+
+
+Our research 
+This briefing was produced in partnership with UCL STEaPP's Policy Impact Unit, the Global Disability Innovation (GDI) Hub, the International Research Centre on Artificial Intelligence under the auspices of UNESCO (IRCAI), the European Disability Forum (EDF), and the Jožef Stefan Institute (JSI). To find out more information about GDI Hub (https://www.disabilityinnovation.com/) or IRCAI (https://ircai.org/) please visit the respective webpages. 
+Contributors 
+Dep. of Computer Science, UCL: Prof. Catherine Holloway (Academic Director, GDI Hub, c.holloway@ucl.ac.uk ) who specialises in disability innovation, and Prof. John Shawe-Taylor (IRCAI Director, j.shawe-taylor@ucl.ac.uk) who specialises in machine learning. STEaPP, UCL: Ana Rita Pinho (ana.pinho.14@ucl.ac.uk), is a policy engagement specialist in the PIU. For more information on the PIU, please visit https:// www.ucl.ac.uk/steapp/collaborate/policy-impact-unit-1. We would like to thank members of the organising team for the feedback received on this briefing: Alejandro Moledo (EDF), Jenny Bird (UCL STEaPP), Dr Youngjun Cho, Felipe Ramos-Barajas, and Richard Cave (GDI Hub). 
+POLICY BRIEF  	                                                                                    MARCH 2021 
+
+
+POLICY BRIEF  	                                                                                    MARCH 2021 
+
+
+  
+Global Disability Innovation Hub 	1 
+
+  
+Global Disability Innovation Hub 	1 
+
+
+
+  
+Global Disability Innovation Hub 	1 
+

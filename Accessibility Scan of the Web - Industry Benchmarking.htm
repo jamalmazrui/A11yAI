@@ -1,0 +1,999 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+     "http://www.w3.org/TR/html4/transitional.dtd">
+<html>
+<head>
+
+  <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+  <title>Accessibility Scan of the Web - Industry Benchmarking</title>
+  <meta name="generator" content="LibreOffice 7.6.5.2 (Windows)"/>
+  <meta name="created" content="2022-03-12T02:52:14"/>
+  <meta name="changed" content="2025-03-25T16:12:13"/>
+  <meta name="keywords" content="Aaron, Farber"/>
+  <meta name="AppVersion" content="16.0000"/>
+  <meta name="ContentTypeId" content="0x0101005FF3636D155F344684070AC5E47DF9AF"/>
+  <meta name="Notes" content="9"/>
+  <meta name="PresentationFormat" content="Widescreen"/>
+  <meta name="Slides" content="61"/>
+</head>
+<body>
+<h1>Web Accessibility Ratings <b>
+By Industry</b></h1>
+<h2>Aaron Farber</h2>
+<h2><i>ARC Platform Consultant</i></h2>
+<h1 style="page-break-before:always; "><b>Agenda</b></h1>
+<ul>
+<li>Overview</li>
+<li>Methodology</li>
+<li>Accessibility Benchmarking By Industry </li>
+<li>Most Common Errors</li>
+<li>Research Highlights</li>
+<li>Technical Configuration Pro-Tips</li>
+<li>What’s Next</li>
+</ul>
+<h1 style="page-break-before:always; "><b>Overview</b></h1>
+<h1 style="page-break-before:always; "><b>Accessibility Benchmarking by Industry</b></h1>
+<ul>
+<li>TPGi has performed an automated scan of the top sites for private industry, U.S. government, and U.S. educational institutions using the Accessibility Resource Center, the ARC Platform.</li>
+<li>At CSUN Assistive Technology Conference 2025, we are sharing the results.</li>
+</ul>
+<h1 style="page-break-before:always; "><b>ARC Platform</b></h1>
+<ul>
+<li>ARC provides the tools and resources to plan and execute every area of accessibility.</li>
+<li>ARC empowers each role at an organization to solve common issues, while growing their understanding of accessibility over time.</li>
+<li>Empowerment is about providing evidence of one’s ability to independently achieve.</li>
+<li>At the platform’s core is automated monitoring.</li>
+</ul>
+<h1 style="page-break-before:always; "><b>Origin Story for ARC Study</b></h1>
+<ul>
+<li>Organizations report the state of accessibility to stakeholders as a total number of automated errors found in a website, known in ARC, as the WCAG Density Score.</li>
+<li>However, the number lacks a frame of reference. This invites the question:</li>
+<li><i>What is a good score?</i></li>
+</ul>
+<h1 style="page-break-before:always; "><b>ARC Study Objectives</b></h1>
+<ul>
+<li>Report accessibility across an organization in relative <i>and capitalistic</i> terms – rather than exclusively technical terms.</li>
+<li>Executive stakeholders gain the ability to understand how their accessibility compares with their overall industry.</li>
+<li>Enable organizations to highlight accessibility as a competitive differentiator.</li>
+</ul>
+<h1 style="page-break-before:always; "><b>Data must be shifted to view it all at once</b></h1>
+<h1 style="page-break-before:always; "><b>Individual data points may conflict with the big picture</b></h1>
+<h1 style="page-break-before:always; "><b>Methodology</b></h1>
+<h1 style="page-break-before:always; "><b>Scan Makeup</b></h1>
+<ul>
+<li>Top ~300 websites for 14 industry sectors</li>
+<ul>
+<li>Based on SimliarWeb SEO analytics, Cloudflare Rank, and other heuristics.</li>
+<li>Industries are determined by the IAB Content Taxonomy.</li>
+</ul>
+<li>Top ~2,000 sites <i>each</i> for .gov and .edu domains</li>
+<ul>
+<li>Based on Majestic Million, SimilarWeb</li>
+<h2>Note: Individual site scores are anonymized.</h2>
+</ul>
+</ul>
+<h1 style="page-break-before:always; "><b>Scan Technical Configuration</b></h1>
+<ul>
+<li>Evaluates the website’s homepage:</li>
+<ul>
+<li>As a first-time site visitor</li>
+<li>In <i>logged-out</i> state.</li>
+<li>After scripting and styling is applied.</li>
+<li>On page load – content that appears based on user-initiated action is not evaluated.</li>
+</ul>
+</ul>
+<h1 style="page-break-before:always; "><b>How ARC Reports Scan Results</b></h1>
+<h2><b>Error</b> – an element automatically identified as a WCAG violation</h2>
+<p><b>Alert</b> – an element which requires further manual inspection to confirm as a WCAG violation</p>
+<p><b>Best Practice</b> – an element which may not represent a WCAG violation but impacts the user experience</p>
+<h1 style="page-break-before:always; "><b>What about color contrast?</b></h1>
+<h1 style="page-break-before:always; "><b>Color contrast issues are not included in the WCAG Density Score</b></h1>
+<ul>
+<li>Color contrast difficult to accurately test via automated means – overlapping elements, fixed positioning, and exempt, disabled controls all present challenges.</li>
+<li>A single line of CSS could result in hundreds of color contrast issues.</li>
+<ul>
+<li>Moreover, color contrast issues always require manual inspection.</li>
+<li>Go to the URL and run ARC Toolkit to visually inspect the automated findings.</li>
+</ul>
+</ul>
+<h1 style="page-break-before:always; "><b>What % of Issues Are Detected By Automated Monitoring?</b></h1>
+<ul>
+<li>Automated testing has its limits. There’s no substitute for manual testing.</li>
+<li>ARC’s automated rules provide a level of coverage and visibility for roughly 20 of the 57 WCAG 2.2 Success Criteria.</li>
+<li>ARC’s automated scan catch roughly 30-35% of issues.</li>
+</ul>
+<h1 style="page-break-before:always; "><b>30%? OR 57%</b></h1>
+<ul>
+<li>There’s controversy about whether color contrast issues should count in the % of automating testing coverage.</li>
+<ul>
+<li>Axe DevTools states that they detect 57% of all issues!</li>
+<ul>
+<li>The #1 automated issue is color contrast, which Axe chooses to includes in its measure.</li>
+</ul>
+</ul>
+</ul>
+<h1 style="page-break-before:always; "><b>ARC Rules compared with open-source alternatives</b></h1>
+<ul>
+<li>ARC Rules are focused on supporting all the permutations of browser and assistive technology. </li>
+<li>ARC reports issues which could impact the user experience for people who use assistive technologies, even when they do not necessarily represent a WCAG violation.</li>
+<li>ARC is focusing on reporting issues which could be indicative of larger WCAG violations i.e. <a href="https://refactoring.guru/refactoring/smells"><i><u>code smells</u></a>.</i></li>
+<li>ARC catches issues which may elude those newer to manual testing.</li>
+<li>Teams can solve common issues while growing their understanding of accessibility over time.</li>
+</ul>
+<h1 style="page-break-before:always; "><b>Benchmarking By Industry</b></h1>
+<h1 style="page-break-before:always; "><b>Automated Errors (Median)</b></h1>
+<table>
+  <tr>
+    <td>
+<p><b>INDUSTRY</b></p>
+    </td>
+    <td>
+<p><b>ERRORS</b></p>
+    </td>
+    <td>
+<p><b>ALERTS</b></p>
+    </td>
+    <td>
+<p><b>COLOR CONTRAST</b></p>
+    </td>
+  </tr>
+  <tr>
+    <td>
+<p><b>Arts and Entertainment</b></p>
+    </td>
+    <td>
+<p><b>10</b></p>
+    </td>
+    <td>
+<p>10</p>
+    </td>
+    <td>
+<p>17</p>
+    </td>
+  </tr>
+  <tr>
+    <td>
+<p><b>Business and Consumer Services</b></p>
+    </td>
+    <td>
+<p><b>10</b></p>
+    </td>
+    <td>
+<p>19</p>
+    </td>
+    <td>
+<p>3</p>
+    </td>
+  </tr>
+  <tr>
+    <td>
+<p><b>Community, Society, and Dating</b></p>
+    </td>
+    <td>
+<p><b>10</b></p>
+    </td>
+    <td>
+<p>20</p>
+    </td>
+    <td>
+<p>3</p>
+    </td>
+  </tr>
+  <tr>
+    <td>
+<p><b>Computers, Electronics, and Technology</b></p>
+    </td>
+    <td>
+<p><b>19</b></p>
+    </td>
+    <td>
+<p>36</p>
+    </td>
+    <td>
+<p>3</p>
+    </td>
+  </tr>
+  <tr>
+    <td>
+<p><b>E-Commerce and Shopping</b></p>
+    </td>
+    <td>
+<p><b>19</b></p>
+    </td>
+    <td>
+<p>36</p>
+    </td>
+    <td>
+<p>17.6</p>
+    </td>
+  </tr>
+  <tr>
+    <td>
+<p><b>Finance</b></p>
+    </td>
+    <td>
+<p><b>13</b></p>
+    </td>
+    <td>
+<p>27</p>
+    </td>
+    <td>
+<p>5.5</p>
+    </td>
+  </tr>
+  <tr>
+    <td>
+<p><b>Food &amp; Drink</b></p>
+    </td>
+    <td>
+<p><b>15</b></p>
+    </td>
+    <td>
+<p>26</p>
+    </td>
+    <td>
+<p>3</p>
+    </td>
+  </tr>
+  <tr>
+    <td>
+<p><b>Gambling</b></p>
+    </td>
+    <td>
+<p><b>6</b></p>
+    </td>
+    <td>
+<p>5</p>
+    </td>
+    <td>
+<p>1</p>
+    </td>
+  </tr>
+  <tr>
+    <td>
+<p><b>Games and Gaming</b></p>
+    </td>
+    <td>
+<p><b>10</b></p>
+    </td>
+    <td>
+<p>20</p>
+    </td>
+    <td>
+<p>5</p>
+    </td>
+  </tr>
+  <tr>
+    <td>
+<p><b>Health</b></p>
+    </td>
+    <td>
+<p><b>7</b></p>
+    </td>
+    <td>
+<p>20</p>
+    </td>
+    <td>
+<p>1</p>
+    </td>
+  </tr>
+  <tr>
+    <td>
+<p><b>Heavy Industry and Engineering</b></p>
+    </td>
+    <td>
+<p><b>11</b></p>
+    </td>
+    <td>
+<p>20</p>
+    </td>
+    <td>
+<p>3</p>
+    </td>
+  </tr>
+  <tr>
+    <td>
+<p><b>Lifestyle</b></p>
+    </td>
+    <td>
+<p><b>12</b></p>
+    </td>
+    <td>
+<p>17.5</p>
+    </td>
+    <td>
+<p>17.5</p>
+    </td>
+  </tr>
+  <tr>
+    <td>
+<p><b>Sports</b></p>
+    </td>
+    <td>
+<p><b>26</b></p>
+    </td>
+    <td>
+<p>54</p>
+    </td>
+    <td>
+<p>15</p>
+    </td>
+  </tr>
+  <tr>
+    <td>
+<p><b>Vehicles</b></p>
+    </td>
+    <td>
+<p><b>13</b></p>
+    </td>
+    <td>
+<p>29</p>
+    </td>
+    <td>
+<p>8</p>
+    </td>
+  </tr>
+</table>
+<h1 style="page-break-before:always; "><b>10 Industries with Most Automated Errors (Chart form)</b></h1>
+<h1 style="page-break-before:always; "><b>Automated Errors (Mean)</b></h1>
+<table>
+  <tr>
+    <td>
+<p><b>INDUSTRY</b></p>
+    </td>
+    <td>
+<p><b>ERRORS</b></p>
+    </td>
+    <td>
+<p><b>ALERTS</b></p>
+    </td>
+    <td>
+<p><b>COLOR CONTRAST</b></p>
+    </td>
+  </tr>
+  <tr>
+    <td>
+<p><b>Arts and Entertainment</b></p>
+    </td>
+    <td>
+<p><b>36.43</b></p>
+    </td>
+    <td>
+<p>55.55</p>
+    </td>
+    <td>
+<p>42.8</p>
+    </td>
+  </tr>
+  <tr>
+    <td>
+<p><b>Business and Consumer Services</b></p>
+    </td>
+    <td>
+<p><b>26.61</b></p>
+    </td>
+    <td>
+<p>32.59</p>
+    </td>
+    <td>
+<p>14.98</p>
+    </td>
+  </tr>
+  <tr>
+    <td>
+<p><b>Community, Society, and Dating</b></p>
+    </td>
+    <td>
+<p><b>26.3</b></p>
+    </td>
+    <td>
+<p>33.87</p>
+    </td>
+    <td>
+<p>18.61</p>
+    </td>
+  </tr>
+  <tr>
+    <td>
+<p><b>Computers, Electronics, and Technology</b></p>
+    </td>
+    <td>
+<p><b>19.3</b></p>
+    </td>
+    <td>
+<p>94</p>
+    </td>
+    <td>
+<p>17.58</p>
+    </td>
+  </tr>
+  <tr>
+    <td>
+<p><b>E-Commerce and Shopping</b></p>
+    </td>
+    <td>
+<p><b>45.45</b></p>
+    </td>
+    <td>
+<p>137</p>
+    </td>
+    <td>
+<p>58.46</p>
+    </td>
+  </tr>
+  <tr>
+    <td>
+<p><b>Finance</b></p>
+    </td>
+    <td>
+<p><b>25.02</b></p>
+    </td>
+    <td>
+<p>52.93</p>
+    </td>
+    <td>
+<p>26.5</p>
+    </td>
+  </tr>
+  <tr>
+    <td>
+<p><b>Food &amp; Drink</b></p>
+    </td>
+    <td>
+<p><b>32.75</b></p>
+    </td>
+    <td>
+<p>55.77</p>
+    </td>
+    <td>
+<p>28.1</p>
+    </td>
+  </tr>
+  <tr>
+    <td>
+<p><b>Gambling</b></p>
+    </td>
+    <td>
+<p><b>22.8</b></p>
+    </td>
+    <td>
+<p>39.09</p>
+    </td>
+    <td>
+<p>25.58</p>
+    </td>
+  </tr>
+  <tr>
+    <td>
+<p><b>Games and Gaming</b></p>
+    </td>
+    <td>
+<p><b>32.06</b></p>
+    </td>
+    <td>
+<p>58.32</p>
+    </td>
+    <td>
+<p>45.52</p>
+    </td>
+  </tr>
+  <tr>
+    <td>
+<p><b>Health</b></p>
+    </td>
+    <td>
+<p><b>28.4</b></p>
+    </td>
+    <td>
+<p>44.9</p>
+    </td>
+    <td>
+<p>25.2</p>
+    </td>
+  </tr>
+  <tr>
+    <td>
+<p><b>Heavy Industry and Engineering</b></p>
+    </td>
+    <td>
+<p><b>21.26</b></p>
+    </td>
+    <td>
+<p>118.31</p>
+    </td>
+    <td>
+<p>21.74</p>
+    </td>
+  </tr>
+  <tr>
+    <td>
+<p><b>Lifestyle</b></p>
+    </td>
+    <td>
+<p><b>40.2</b></p>
+    </td>
+    <td>
+<p>54.62</p>
+    </td>
+    <td>
+<p>17.92</p>
+    </td>
+  </tr>
+  <tr>
+    <td>
+<p><b>Sports</b></p>
+    </td>
+    <td>
+<p><b>57.56</b></p>
+    </td>
+    <td>
+<p>219.29</p>
+    </td>
+    <td>
+<p>51.28</p>
+    </td>
+  </tr>
+  <tr>
+    <td>
+<p><b>Vehicles</b></p>
+    </td>
+    <td>
+<p><b>27.12</b></p>
+    </td>
+    <td>
+<p>56.89</p>
+    </td>
+    <td>
+<p>30.94</p>
+    </td>
+  </tr>
+</table>
+<h1 style="page-break-before:always; "><b>Sites with extreme number of errors raise averages</b></h1>
+<ul>
+<li>For most industries, 3% - 6% of top sites have over 100 automated errors.</li>
+<li>Sports, Vehicles, Games and Gaming have +10% of websites having 100% automated errors.</li>
+</ul>
+<h1 style="page-break-before:always; "><b>      US government and educational institutions (2025) - median</b></h1>
+<table>
+  <tr>
+    <td>
+<p><b>INDUSTRY (<i>top-level domains)</b></i></p>
+    </td>
+    <td>
+<p><b>ERRORS</b></p>
+    </td>
+    <td>
+<p><b>ALERTS</b></p>
+    </td>
+  </tr>
+  <tr>
+    <td>
+<p><b>U.S. Government (.gov)</b></p>
+    </td>
+    <td>
+<p><b>7.1</b></p>
+    </td>
+    <td>
+<p>20</p>
+    </td>
+  </tr>
+  <tr>
+    <td>
+<p><b>Education (.edu)</b></p>
+    </td>
+    <td>
+<p><b>8</b></p>
+    </td>
+    <td>
+<p>18</p>
+    </td>
+  </tr>
+</table>
+<h1 style="page-break-before:always; "><b>      US government and educational institutions (2025) - mean</b></h1>
+<table>
+  <tr>
+    <td>
+<p><b>INDUSTRY (<i>top-level domains)</b></i></p>
+    </td>
+    <td>
+<p><b>ERRORS</b></p>
+    </td>
+    <td>
+<p><b>ALERTS</b></p>
+    </td>
+  </tr>
+  <tr>
+    <td>
+<p><b>U.S. Government (.gov)</b></p>
+    </td>
+    <td>
+<p><b>14.45</b></p>
+    </td>
+    <td>
+<p>32.3</p>
+    </td>
+  </tr>
+  <tr>
+    <td>
+<p><b>Education (.edu)</b></p>
+    </td>
+    <td>
+<p><b>14.54</b></p>
+    </td>
+    <td>
+<p>26.38</p>
+    </td>
+  </tr>
+</table>
+<h1 style="page-break-before:always; "><b>      US government and educational institutions (2024)</b></h1>
+<table>
+  <tr>
+    <td>
+<p><b>INDUSTRY (<i>top-level domains)</b></i></p>
+    </td>
+    <td>
+<p><b>ERRORS</b></p>
+    </td>
+    <td>
+<p><b>ALERTS</b></p>
+    </td>
+  </tr>
+  <tr>
+    <td>
+<p><b>U.S. Government (.gov)</b></p>
+    </td>
+    <td>
+<p><b>10.46</b></p>
+    </td>
+    <td>
+<p>26.16</p>
+    </td>
+  </tr>
+  <tr>
+    <td>
+<p><b>Education (.edu)</b></p>
+    </td>
+    <td>
+<p><b>16.26</b></p>
+    </td>
+    <td>
+<p>27.31</p>
+    </td>
+  </tr>
+</table>
+<h1 style="page-break-before:always; "><b>Automated Errors - Patterns</b></h1>
+<table>
+  <tr>
+    <td>
+<p><b>INDUSTRY</b></p>
+    </td>
+    <td>
+<p><b>&gt;100 Errors</b></p>
+    </td>
+    <td>
+<p><b>&lt; 5 Errors</b></p>
+    </td>
+  </tr>
+  <tr>
+    <td>
+<p><b>Arts and Entertainment</b></p>
+    </td>
+    <td>
+<p><b>12%</b></p>
+    </td>
+    <td>
+<p><b>39%</b></p>
+    </td>
+  </tr>
+  <tr>
+    <td>
+<p><b>Business and Consumer Services</b></p>
+    </td>
+    <td>
+<p><b>6%</b></p>
+    </td>
+    <td>
+<p><b>39%</b></p>
+    </td>
+  </tr>
+  <tr>
+    <td>
+<p><b>Community, Society, and Dating</b></p>
+    </td>
+    <td>
+<p><b>3.50%</b></p>
+    </td>
+    <td>
+<p><b>35%</b></p>
+    </td>
+  </tr>
+  <tr>
+    <td>
+<p><b>Computers, Electronics, and Technology</b></p>
+    </td>
+    <td>
+<p><b>4.00%</b></p>
+    </td>
+    <td>
+<p><b>48%</b></p>
+    </td>
+  </tr>
+  <tr>
+    <td>
+<p><b>E-Commerce and Shopping</b></p>
+    </td>
+    <td>
+<p><b>13.70%</b></p>
+    </td>
+    <td>
+<p><b>34%</b></p>
+    </td>
+  </tr>
+  <tr>
+    <td>
+<p><b>Finance</b></p>
+    </td>
+    <td>
+<p><b>5.40%</b></p>
+    </td>
+    <td>
+<p><b>33%</b></p>
+    </td>
+  </tr>
+  <tr>
+    <td>
+<p><b>Food &amp; Drink</b></p>
+    </td>
+    <td>
+<p><b>5%</b></p>
+    </td>
+    <td>
+<p><b>28.90%</b></p>
+    </td>
+  </tr>
+  <tr>
+    <td>
+<p><b>Gambling</b></p>
+    </td>
+    <td>
+<p><b>4.80%</b></p>
+    </td>
+    <td>
+<p><b>43.80%</b></p>
+    </td>
+  </tr>
+  <tr>
+    <td>
+<p><b>Games and Gaming</b></p>
+    </td>
+    <td>
+<p><b>14.80%</b></p>
+    </td>
+    <td>
+<p><b>37%</b></p>
+    </td>
+  </tr>
+  <tr>
+    <td>
+<p><b>Health</b></p>
+    </td>
+    <td>
+<p><b>2.70%</b></p>
+    </td>
+    <td>
+<p><b>27.90%</b></p>
+    </td>
+  </tr>
+  <tr>
+    <td>
+<p><b>Heavy Industry and Engineering</b></p>
+    </td>
+    <td>
+<p><b>6.30%</b></p>
+    </td>
+    <td>
+<p><b>31.20%</b></p>
+    </td>
+  </tr>
+  <tr>
+    <td>
+<p><b>Lifestyle</b></p>
+    </td>
+    <td>
+<p><b>2.70%</b></p>
+    </td>
+    <td>
+<p><b>41.91%</b></p>
+    </td>
+  </tr>
+  <tr>
+    <td>
+<p><b>Sports</b></p>
+    </td>
+    <td>
+<p><b>10%</b></p>
+    </td>
+    <td>
+<p><b>27%</b></p>
+    </td>
+  </tr>
+  <tr>
+    <td>
+<p><b>Vehicles</b></p>
+    </td>
+    <td>
+<p><b>1.39%</b></p>
+    </td>
+    <td>
+<p><b>42.11%</b></p>
+    </td>
+  </tr>
+</table>
+<h1 style="page-break-before:always; "><b>Most Common Automated Errors</b></h1>
+<h1 style="page-break-before:always; "><b>Most Common Automated Errors </b></h1>
+<ul>
+<li>The lack of a text alternative (traditional &lt;img&gt;, image-based links, SVG-based controls) is at the heart of nearly 50% of automated errors detected in the scan.</li>
+<li>WCAG Success Criteria 1.1.1 Non-text Content and 2.4.4 Link Purpose (in Context) are the most common violations.</li>
+</ul>
+<h1 style="page-break-before:always; "><b>Most Common ARC Assertions</b></h1>
+<ul>
+<li><i>Assertion </i>as in ARC asserts an element does not comply with one of ARC’s accessibility rules.</li>
+<ul>
+<li><b>No alt text 
+(*<i>two similar ARC rules)</b></i></li>
+<li><b>No link text</b></li>
+<li><b>SVG-based control lacks an accessible name (*<i>two similar ARC rules)</b></i></li>
+<li><b>Non-active element in the tab order</b></li>
+</ul>
+</ul>
+<h1 style="page-break-before:always; "><b>Issue: Product image-based links with product title text link</b></h1>
+<h1 style="page-break-before:always; "><b>Solution: Make the product image and product title text into a single link</b></h1>
+<h2>The image can be considered decorative as the product title text serves as the text alternative.</h2>
+<h2>Fewer links equals more efficient navigation.</h2>
+<h2>In-depth guide: <a href="https://adrianroselli.com/2020/02/block-links-cards-clickable-regions-etc.html"><u>Block Links, Cards, Clickable Regions, Rows, Etc. – Adrian Roselli</u></a></h2>
+<h1 style="page-break-before:always; "><b>Source for the Most Common Assertions #2</b></h1>
+<ul>
+<li>Icon-based navigation menu buttons may lack text alternatives or proper semantics.</li>
+<li>Hamburger menus are a gateway to navigating the site. Critical issue.</li>
+</ul>
+<h1 style="page-break-before:always; "><b>Non-active element in tab order (Alert)</b></h1>
+<ul>
+<li>Non-active tab element in the tab order indicates that a developer recognized an element must be keyboard accessible but failed to add a semantic role.</li>
+<li>Indicates awareness of need for keyboard accessibility has awareness but lack of understanding of how to make the control accessible to full range of assistive technologies.</li>
+</ul>
+<h1 style="page-break-before:always; "><b>Research Highlights</b></h1>
+<h1 style="page-break-before:always; "><b>Image-based links</b></h1>
+<ul>
+<li>50-70% of instances of a link lacking text are image-based links where the image does not have a text alternative.</li>
+<li>23.6% of e-commerce site homepages have 50+ errors.</li>
+<li>32 of Sports home pages have 50+ errors.</li>
+</ul>
+<h1 style="page-break-before:always; "><b>Government and Education Institutions Use Text Alternatives</b></h1>
+<ul>
+<li>Unlike the other industries, government and education did not have no alt text or no link text as their most common issues.</li>
+<li>Instead, the most common issues were non-active element in tab order. Also, ARIA widget missing required parent was a top 3 finding.</li>
+</ul>
+<h1 style="page-break-before:always; "><b>Government and Education Dramatically Reduced Automated Errors</b></h1>
+<ul>
+<li>In 12 months, top educational websites have nearly 50% fewer automated errors.</li>
+<li>Top government sites have nearly 30% fewer automated errors.</li>
+</ul>
+<h1 style="page-break-before:always; "><b>Carousels generate large number of errors</b></h1>
+<ul>
+<li>ARC frequently flags carousels for having focusable elements that are hidden from the accessibility tree or having focusable elements within presentational children.</li>
+<li>Vehicles, Sports, and E-Commerce sites were most flagged for having these errors. </li>
+</ul>
+<h1 style="page-break-before:always; "><b>Technical Configuration Pro-Tip!</b></h1>
+<ul>
+<li>ARC resembles a bot. Yes, there are good bots!</li>
+<li>Yet bad bots cause the entire web to escalate security policies.</li>
+<li>More sites are using bot-blocking services which affect browser automation.</li>
+<li>Significant rise in .ru and .cn sites are employing these services.</li>
+<li>For scan resilience, it can be helpful to limit scans to specific regions.</li>
+</ul>
+<h1 style="page-break-before:always; "><b>How to Check Whether Your Site Blocks Bots?</b></h1>
+<h1 style="page-break-before:always; "><b>How to Check Whether Your Site Blocks Bots?</b></h1>
+<h1 style="page-break-before:always; "><b>What’s Next</b></h1>
+<h1 style="page-break-before:always; "><b>How to Scan and Benchmark Your Website</b></h1>
+<h2>Do you want to understand how your site compares with these scan results?</h2>
+<h2>Choose the method which best suits your team:</h2>
+<p>Monitoring</p>
+<p>Toolkit</p>
+<p>API</p>
+<h1 style="page-break-before:always; "><b>ARC Toolkit</b></h1>
+<ul>
+<li>A free Chrome browser extension which provides a set of semi-guided automated accessibility testing tools.</li>
+<ul>
+<li>Rapidly scan pages for code-level WCAG violations</li>
+<li>Highlights a page’s user experience for assistive technology users</li>
+<li>Visually inspect issues in color contrast, text formatting, and graphical elements</li>
+</ul>
+</ul>
+<h1 style="page-break-before:always; "><b>Installation (Step 1)</b></h1>
+<h2><a href="https://chrome.google.com/webstore/detail/arc-toolkit/chdkkkccnlfncngelccgbgfmjebmkmce"><u>Download ARC Toolkit</u></a></h2>
+<ul>
+<li>Or one can search ARC Toolkit and it’s comes right up!</li>
+</ul>
+<h1 style="page-break-before:always; "><b>Installation (Step 2)</b></h1>
+<ul>
+<li>From the Chrome Web Store, select Add to Chrome</li>
+</ul>
+<h1 style="page-break-before:always; "><b>ARC Toolkit is closely tied with Developer Tools</b></h1>
+<ul>
+<li>Once the extension is added to Chrome and enabled, open Developer Tools</li>
+<ul>
+<li>Right click the page and select Inspect OR</li>
+<li>Press Ctrl + Alt + I (Windows), Ctrl + Cmd + I (Mac)</li>
+</ul>
+</ul>
+<h1 style="page-break-before:always; "><b>ARC Toolkit is located in DevTools</b></h1>
+<ul>
+<li>Select ARC Toolkit tab</li>
+<li>ARC Toolkit may be located in a dropdown at end of DevTools tabs</li>
+</ul>
+<h1 style="page-break-before:always; "><b>Run a scan whenever, wherever</b></h1>
+<ul>
+<li>ARC Toolkit makes it easy to scan pages </li>
+<ul>
+<li>Pages which require authentication</li>
+<li>Pages behind a firewall or other security policies</li>
+<li>Specific points deeper in user journeys</li>
+<li>Local file URLs</li>
+</ul>
+</ul>
+<h1 style="page-break-before:always; "><b>Scan Results</b></h1>
+<ul>
+<li>Results load in the main content panel</li>
+</ul>
+<h1 style="page-break-before:always; "><b>Where to Find This Scan Data?</b></h1>
+<ul>
+<li>This data will be released in a long-form format in TPGi’s blog.</li>
+<li>Slides will be on CSUN conference site</li>
+<li>Look for out an interactive experience enabling you rank your score on a bell curve, rather than simply compare to the median alone.</li>
+</ul>
+<h1 style="page-break-before:always; "><b>I already use ARC.</b></h1>
+<ul>
+<li>Current ARC users will get special access to the data, helping them communicate their accessibility in a new way.</li>
+<li>I can’t wait to share what we’ve learned with all of you.</li>
+</ul>
+<h1 style="page-break-before:always; "><b>If interested in using the data</b></h1>
+<ul>
+<li>Reach out to David Sloan, TPGi Chief Accessibility Officer (<a href="mailto:dsloan@tpgi.com"><u>dsloan@tpgi.com</u></a>) or me (<a href="mailto:afarber@tpgi.com"><u>afarber@tpgi.com</u></a>).</li>
+<li>So much more can be done.</li>
+</ul>
+<h1 style="page-break-before:always; "><b>This scan data will be stratified by</b></h1>
+<ul>
+<li>Technologies used in a website</li>
+<li>Whether a site has an accessibility statement</li>
+<li>Whether a site uses an accessibility overlay.</li>
+</ul>
+<h1 style="page-break-before:always; "><b>Automated testing is at the starting point of a revolution.</b></h1>
+<ul>
+<li>TPGi is starting to make the jump from evaluating code to evaluating the visual appearance of a page.</li>
+<li>We’ve gained the ability to visually recognize buttons, headings, and other semantic elements.</li>
+<li>JAWS Picture Smart AI is just the start.</li>
+</ul>
+<h1 style="page-break-before:always; "><b>Perceptions Matter</b></h1>
+<ul>
+<li>Industries which may perceive disabled people as not fully using their products have the most accessibility errors.</li>
+<li>A note about disability history… 
+<i>(see speaker notes for this slide)</i></li>
+</ul>
+<h1 style="page-break-before:always; "></h1>
+<p>TO REGULATE COMMERCE WITH FOREIGN NATIONS AND AMONG THE SEVERAL STATES
+Article I, Section 8 – The Commerce Clause</p>
+<h1 style="page-break-before:always; "><b>The Origin of Accessibility Laws</b></h1>
+<h1 style="page-break-before:always; "><b>Thanks</b></h1>
+<ul>
+<li>Jared Smith</li>
+<li>Kashana Bridgeford</li>
+<li>Zhi Huang</li>
+<li>Ethan Farber</li>
+</ul>
+<h1 style="page-break-before:always; "><b>Let’s Make It Accessible</b></h1>
+<h2>Achieve your digital accessibility goals with TPGi. We can help you find the right solutions for your organization.</h2>
+<h2><u><b>Contact us:</b></u></h2>
+<h2>+1 (877) 775-9474</h2>
+<h2><a href="mailto:ida@tpgi.com"><u>info@tpgi.com</u></a> </h2>
+<h2><a href="https://www.tpgi.com/#form"><u>Schedule a demo</u></a></h2>
+</body>
+</html>

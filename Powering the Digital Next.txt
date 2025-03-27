@@ -1,0 +1,246 @@
+﻿	WHITEPAPER 
+Powering the Digital Next 
+
+
+Table of contents 	Powering  the  Digital  Next
+
+1. Accessibility
+2. Background on Accessibility Laws
+2.1. The United States Web Accessibility Laws 
+2.2. Canada Web Accessibility Laws 
+2.3. The United Kingdom Web Accessibility Laws 
+3. Web Accessibility and WCAG
+3.1. Perceivable 
+3.2. Operable 
+3.3. Understandable 
+3.4. Robust 
+4. Accessibility testing in Mobile and PDF
+5. Usability with Accessibility
+6. Major challenges and solutions for Enterprises in Accessibility
+7. Benefits of Accessibility-Compliant Applications
+8. Tools for accessibility testing
+9. Innominds Best Practices for Accessibility Testing
+10. Artificial Intelligence in accessibility
+11. Conclusion
+
+1. Accessibility 
+Accessibility refers to the practice of designing and developing websites, tools, and technologies in a way that enables people with disabilities to access them without facing any barriers. In simpler terms, it is the process of making digital content inclusive and available to everyone. 
+ 
+For instance, a website video can be made accessible to individuals who are visually impaired by ensuring that the video player can be operated using a keyboard, the controls are properly labelled, and all the content in the video is available as audio. 
+ 
+In today's world, where digital content is becoming increasingly essential, it is crucial to ensure that it is accessible to all, including those with disabilities. Therefore, creating accessible websites, tools, and technologies is a critical aspect of digital development. 
+2. Background on Accessibility Laws 
+	Web Accessibility Laws in the United States: 
+The Americans with Disabilities Act (ADA) is an extensive anti-discrimination law that protects people with disabilities in all aspects of public life, including employment, education, transportation, and public and private organizations. 
+ 
+	Web Accessibility Laws in Canada: 
+The Accessibility for Ontarians with Disabilities Act (AODA) was introduced in 2005 to regulate accessibility standards for both the government and business sectors in Ontario. Its aim is to create a barrier-free Ontario by 2025, allowing everyone to participate fully in society. 
+ 
+	Web Accessibility Laws in the United Kingdom: 
+The Equality Act (EQA) is a significant anti-discrimination law in the UK, similar to the ADA in the US. It consolidates over 116 laws into a single bill and provides protection for individuals with disabilities. Employers are required to make "reasonable adjustments" to accommodate people with disabilities, ensuring that they are not disadvantaged in the workplace.  of 9
+3. Web Accessibility and WCAG 
+Web accessibility is a critical aspect of digital design and development that ensures that users with disabilities can access and use web content effectively. 
+ 
+It focuses on two key areas: how web content is accessed by users with disabilities and how web content is designed and developed to work with assistive devices used by individuals with disabilities. To ensure digital accessibility, the Web Content Accessibility Guidelines (WCAG) provide a versatile set of standards that comprise four main principles: Perceivable, Operable, Understandable, and Robust (POUR) for digital accessibility. 
+
+The perceivable principle focuses on ensuring that users with disabilities, especially those who are blind or deaf, can easily perceive or understand the information and user interface components on a webpage. To achieve this, WCAG provides the following perceivable guidelines 
+ 
+Perceivable guidelines: 
+	Alternative text: Provide alternate text to non-text content such as images, charts, graphs, images of text, icons, etc., to enable users to access and understand content. 	Time-based media: Provide an alternative way of presenting media with duration properties such as descriptions of sounds, dialogues, and alternative links for better understanding by the user. 
+	Create Content: Create page content in a well-structured manner so that all information is presented without loss, even when the page is resized to 200% and 400% zoom. 	Make it easier: Ensure that the information on a page is easily visible with appropriate color contrast between the background and text. 
+3.2 Operable 
+The operable principle ensures that all tasks on a webpage can be accomplished using a keyboard alone. The following operable guidelines are provided by WCAG: 
+	Accessible: Ensure that all functionality on a webpage is available using the keyboard alone. 
+	Enough Time: Users should have sufficient time to read, understand, and use the content. 
+	Physical reaction: Avoid designs on pages that cause physical reactions, such as seizures. 
+	Design: Provide multiple ways to navigate, find content, and focus indicators on the page. 	Various Inputs: Ensure that functionality is easily accessible with various input devices such as Braille keyboards, trackballs, joysticks, etc. 
+3.3 Understandable 
+The understandable principle ensures that the content on a webpage is easy to read and follow. To achieve this, WCAG provides the following understandable guidelines: 
+	Readable: Ensure that all content on a page is readable and understandable. 
+	Consistent: Maintain consistent navigation and identification of interactive elements on the page. 	Error Prevention: Identify errors and provide necessary text to fix them. Provide error prevention steps for financial transactions, legal commitments, and data storage systems. 
+3.4 Robust 
+Ensuring these features are accessible to all users can greatly improve the overall user experience. The robust principle focuses on ensuring that web content is compatible with a variety of user agents, such as browsers, assistive technologies, and other means of accessing web content. To achieve this, WCAG provides the following robust guidelines: 
+	Compatibility: Ensure that content is compatible with current browsers and assistive technologies. 
+4. Accessibility testing in Mobile and PDF 
+Accessibility testing is crucial for ensuring that digital content is inclusive and can be accessed by everyone, including people with disabilities. While web accessibility is widely discussed, it's also important to consider mobile applications and PDF documents. 
+ 
+To make mobile applications accessible, it's necessary to comply with WCAG 2.1, which includes specific criteria for mobile devices. Some key items on the mobile accessibility checklist include. 
+1. Orientation 
+2. Pointer gestures 
+3. Pointer cancellations 
+4. Motion actuation. 
+When it comes to PDF documents, it's important to follow WCAG 2.0 or PDF/UA (PDF/Universal Accessibility) guidelines to make them accessible. Common issues with PDF documents include. 
+1. Document is not machine-readable. 
+2. Lack of tagging 
+3. Missing language definitions 
+4. No title 
+By addressing these issues, PDF documents can be made more accessible and easier for all users to navigate. 
+ 
+Overall, accessibility testing should be an integral part of digital content creation for mobile and PDF documents, just as it is for web content. By considering the needs of all users, we can create a more inclusive and accessible digital world. 
+
+5. Usability with Accessibility 
+Usability and accessibility go hand in hand when it comes to designing a user-friendly application. Usability is all about making an application easy to use, whereas accessibility focuses on ensuring that people with disabilities can access and use the application without any barriers. 
+ 
+Designing an application with usability and accessibility in mind means designing features that make it easy to use for all users, regardless of their abilities. This can include things like clear and consistent navigation, easy-to-read fonts, and providing alternative text for images and other non-text content. 
+ 
+By considering both usability and accessibility in the design process, users can navigate and interact with the application without any difficulties. This, in turn, enhances the overall user experience and ensures that all users, regardless of their abilities, can accomplish their tasks effectively and efficiently. 
+6. Major challenges and solutions for Enterprises in Accessibility: 
+Accessibility is a critical aspect for all enterprises, and it's essential to overcome the major challenges faced by them. 
+Some of the significant challenges are discussed below: 
+ 
+One of the major challenges that organizations face is treating web accessibility as a cost, rather than an investment. This attitude leads to organizations focusing on the price tag rather than recognizing the profits and benefits. However, investing in accessibility compliance helps enterprises avoid legal obligations and reach a broader market of people with disabilities, which leads to potential growth in revenue and increases the brand image. 
+ 
+Another significant challenge is treating accessibility as a one-time project rather than an organizational principle. In such cases, employees may only focus on fixing high-level accessibility barriers, leading to poor real-time experiences for people with disabilities. Organizations can overcome this challenge by encouraging everyone in the organization to commit to accessibility testing, along with providing proper training and support. 
+Many organizations encourage visual users to test the applications, leading to knowledge acquisition of how to test with a screen reader and automation tools, but not experiential learning of how people with disabilities use the application. In such cases, it's always advisable to maintain a team of individuals with disabilities who can provide valuable insights into real-time barriers and enhance the user experience. 
+ 
+Finally, an inaccessible website of an organization can lead to legal risks and settlements, making legal aid too costly. 
+Thus, having an accessible website helps to avoid legal risks and settlements, reach a wider audience, and improve the end-user experience, leading to market opportunities. Therefore, addressing these challenges and investing in accessibility compliance can lead to significant benefits for enterprises, including increased revenue, brand image, and market opportunities. 
+7. Benefits of Accessibility-Compliant Applications: 
+In today's digital world, web accessibility has become a crucial aspect for any organization. It not only ensures that people with disabilities can access and use the digital content but also brings various benefits to the organization. In this section, we will discuss some of the benefits of accessibility-compliant applications. 
+Avoid Legal Complications: With many countries making it mandatory for websites to meet accessibility requirements, accessibility testing has become crucial to satisfy legal compliance. 
+01 An accessible website can avoid legal complications, such as lawsuits, and ensure compliance with accessibility guidelines. 
+ 
+Better SEO: Accessibility and SEO go hand-in- hand. If a website is made keeping accessibility in mind, it'll have rich text, which can make search engines find the website more easily as 
+02 search engines look for text while looking up content. A website that is more accessible will also have better chances of ranking higher in search engine results. 
+Better User Experience: Accessible digital content is not only useful for people with disabilities but also for any user who uses your application as intended. By keeping an 
+03 accessible design, the navigation, text, clarity, appearance, and other features become more appealing and user-friendly, resulting in a better user experience. 
+ 
+Potential Growth within the Business: Making applications accessible not only reaches people with disabilities but also leads to potential growth in the company's revenue. By ensuring that the 
+04 application is accessibility compliant, it can reach a wider audience and increase the company's brand image. 
+In conclusion, implementing accessibility guidelines can bring various benefits to an organization, including avoiding legal complications, better SEO, and potential growth within the business. It is essential for organizations to understand the importance of web accessibility and its benefits to ensure a better user experience for all users, regardless of their abilities. 
+8. Tools for accessibility testing: 
+Achieving website accessibility requires testing and evaluation, which can be done using a variety of tools and services. The tools can help developers to identify the accessibility issues and take the necessary measures to ensure compliance with accessibility standards. 
+ 
+Manual testing, semi-automation tools, and assistive technologies are the most common methods used to test the accessibility of web and mobile content. There are different types of assistive technologies available to help people with disabilities interact with digital content. 
+For visually impaired people,  tools such as 
+NVDA, JAWS, Narrator, Talkback, and Voiceover are widely used. These tools convert the text to speech, allowing visually impaired users to access digital content. 
+For users with low vision or color blindness, tools such as Zoom text, Magnifier, CCA, and Color blindly can be used to make content more accessible. 
+ 
+Mobility-impaired users can use tools such as Dragon, which converts speech to text, enabling them to interact with digital content. 
+ 
+Semi-automation tools such as Axe, 
+Accessibility Insights for Web/Android, and WAVE can also be used to evaluate website accessibility. These tools can help developers identify accessibility issues and provide suggestions for improving accessibility. 
+Finally, assistive technologies such as Talkback and Voiceover are available for mobile devices, enabling users to interact with digital content on their smartphones and tablets. Using these tools can help ensure that websites and mobile applications are accessible to everyone, regardless of their abilities. 
+9. Innominds Best Practices for Accessibility Testing 
+Accessibility testing is crucial for ensuring that websites are usable by people with disabilities. Innominds has developed some best practices for accessibility testing, which are listed below: 
+Test accessibility as early as possible: 
+
+It is essential to consider accessibility testing in the early phases of SDLC. This way, accessibility issues can be identified and fixed as early as possible. 
+
+White Paper | Accessibility
+Tables should be properly aligned: 
+
+Tables present on the website must bewell -organized and structured so that the overall alignment of the page is notbroken . 
+Videos must have captions and podcasts must have a transcripts: 
+
+Videos and podcasts on the website should have captions and transcripts respectively to make them accessible to people with hearing problems. 
+Real user feedback is very important 
+
+Involving people with disabilities in the development process is crucial. Their feedback, suggestions, and input can help in making the website more accessible and user-friendly. 
+Page 7  of 9  
+No "Click Here" or "More" links: 
+
+Links on websites should be meaningful and not just "Click Here" or "More". This helps in making the content more accessible to users. 
+ Forms should be properly labelled: 
+
+Forms on the website must have the correct label to enable users to fill them without any difficulty. 
+ Images should have <AltText>:  
+
+Images on a webpage should have descriptive and meaningful text associated with them in the <AltText> attribute. This is important for screen readers to understand and convey the content to users with visual disabilities, else if the images are decorative provide empty alt (alt=" "). 
+
+Screen-reader compatibility: 
+
+The website's functionality must be accessible through both keyboard and mouse, so that they can be used with a screen reader. 
+Skip Navigation: 
+
+The website must have the skip navigation feature to skip certain things that are unnecessary or repeated. 
+ Color contrast issues: 
+
+The color contrast ratio for text and background combinations should be at least 4.5:1 for small text and 3:1 for the text that is at least 18 points or bold 14 points.. Customized informative icons, edit field default borders, and focus indicators should have a contrast ratio of at least 3:1 with the background. www.innominds.com 
+
+White Paper | Accessibility	
+Speech Recognition: 
+The speech recognition feature is especially for motor, cognitive, and learning impairments users. The speech recognition software uses Natural Language Processing (NLP) and Machine Learning (ML) to recognize and translate the speech to text. 
+This helps the users to fill out the form, search and 
+
+The use of semantic HTML markup such as headings, tables, and lists is essential for good accessibility practices. Assistive technologies scan the HTML structure of the page to retrieve information, making it easier for users with disabilities to navigate the website. 
+By following these best practices for accessibility testing, website owners can ensure that their website is accessible to everyone, including people with disabilities. 
+10. Artificial Intelligence in accessibility 
+Artificial intelligence has been a game-changer for people with disabilities in their daily lives. AI and accessibility have simplified actions and provided various approaches to accomplish difficult tasks, reducing barriers and enhancing their experiences. With the integration of machine learning and semi-automation tools, identifying and fixing accessibility issues has become less manual. 
+AI has also made significant contributions to web accessibility. 
+Image Recognition: 
+Image recognition, for instance, dynamically sets alternative text for images on web pages, making them more accessible to visually impaired individuals. 
+ 
+Face Recognition: 
+Face recognition has simplified authentication processes for secured applications or devices, eliminating the need for typing passwords, PINs, or passing a CAPTCHA. 
+Page 8 of   
+place orders for the products, write a document, etc. 
+The future of AI and accessibility holds tremendous potential. As AI continues to evolve and become more advanced than 
+any other technology, we can expect to see even more web accessibility solutions with exceptional user experiences. It's no wonder why AI is referred to as the "future of technology. 
+ 
+At Innominds, we're committed to making the world more accessible using artificial and human intelligence. Our quality engineering services are designed to empower individuals with disabilities and create a more accessible world. 
+11. Conclusion 
+Web accessibility is often overlooked as an important testing requirement for websites, but with the government mandating it, it is now becoming a requirement for all websites to be accessible. The benefits of accessibility are vast, especially for people with disabilities, as it helps them to navigate, read, and understand web pages easily, just like everyone else. Making web content accessible is not just a service that is being provided, it is a responsibility to make the world accessible to everyone. It is imperative that web developers and organizations take this responsibility seriously and make their websites accessible to all. By doing so, they are not only fulfilling their legal obligations but also providing an inclusive online experience to a wider audience, which in turn can result in increased revenue and brand image. In conclusion, making web content accessible is not only a legal requirement but also a social responsibility to make the digital world accessible to everyone. 
+www.innominds.com 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Page 2 of 9 	www.innominds.com 
+
+Page 3	 	www.innominds.com 
+
+
+
+Page 2 of 9 	www.innominds.com 
+
+
+
+
+
+	Page 2 of 9 	www.innominds.com 
+
+	Page 2 of 9 	www.innominds.com 
+
+
+
+	Page 2 of 9 	www.innominds.com 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+9
+
+
+
+
+
+9
+
