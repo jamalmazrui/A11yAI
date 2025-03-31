@@ -1,0 +1,322 @@
+﻿
+
+Ask me anything... How is AI changing higher education?
+
+Connie Book
+President, Elon University
+"As AI begins to influence teaching and learning, as well as many operations of colleges and universities, you need a road map to help navigate these changes. This guide was written from the student perspective and includes practical advice on using AI responsibly while in college and preparing for the AI future." 
+Paul LeBlanc
+Former president, Southern 
+New Hampshire University
+"I am encouraged that many colleges are embracing the concept of human-centered AI. This important student guide illustrates that approach by combining common sense advice about using AI with guidance on developing strong personal relationships and recognizing your own unique knowledge, skills and creativity."
+Adam Clayton 
+Powell III
+Executive director, University of 
+Southern California  
+Cybersecurity Initiative
+"In the 21st century, knowledge of AI tools is not just useful: It is essential for mastering studies in colleges and universities, for navigating job opportunities in corporations and government, for creating startups in fields ranging from technology and finance to music and design, and for life-long learning, growth and fulfillment."
+www.studentguidetoAI.org
+C. Edward Watson
+Vice President for Digital Innovation, American Association of Colleges and Universities (AAC&U)
+"The world of learning and the world of work are both changing at a dramatic rate as a result of AI, so much so that using AI effectively has quickly become essential learning for college students. This guide is indispensable for students as they travel along their AI learning journey."
+Neeli Bendapudi
+President, The Pennsylvania State 
+University
+"AI poses new challenges for higher education but also represents profound opportunities to enhance our ability to learn, educate, conduct research and serve communities in ways that have never been possible. As students, scholars and innovators, we must leverage these new tools ethically and effectively to continue realizing the vital role of higher education in modern society."
+Ryan McCurdy
+Senior vice president and president, 
+Lenovo North America
+"At Lenovo, we applaud Elon University for empowering students to step into the future with confidence and curiosity as you prepare for AI-driven careers. With the proper framework, you can harness the power of artificial intelligence to carve your path in a world where technology is not just a tool, but an enabler of innovation, collaboration and creativity. Embrace the learning journey. The skills you cultivate today will be the foundation of tomorrow's workplace."
+01
+
+MindsHumans and AI Working Together +    Machines:
+Humanity is building exciting new partnerships with technology in the artificial intelligence age. Careers and work are rapidly being transformed and many of the jobs of tomorrow have not yet been invented. 
+"AI won't take your job. It's someone using AI who will take your job."
+Richard Baldwin, professor of international economics, 
+International Institute for Management Development
+Make it your goal to become skilled in using AI comfortably, effectively, safely and ethically. Learn AI's capabilities and limitations. Understand when and how it can augment your work and when your unique human expertise and creativity is invaluable.
+There is no doubt that AI will continue to evolve and impact many aspects of our lives. The changes ahead are hard to predict. This guide will help you get the most out of your college experience as you prepare for the revolution ahead.
+02
+The essential AI  "how-to" manual
+Ground rules for your classes
+Every class has a syllabus that tells you about the plan for learning and the professor's expectations. In most courses, professors will also include rules for using AI. Read the syllabus carefully and if AI isn't mentioned, ask the professor about it right away.
+Expect that AI policies will vary between professors, courses and even by projects and class assignments. Some faculty members will encourage or even require you to use AI, while others will prohibit it. Those decisions are based on the learning goals for the course. Keep track of the policies for each course and assignment so you don't get confused.
+Apply the highest ethical standards when using AI
+Originality: Ensure all work submitted is your own, representing your unique voice and ideas. When permitted, you can use AI tools for help but not to do the work for you, unless your professor says it's okay to use AI in a specific way.
+Acknowledgment and attribution: Follow your professors' and your institution's rules for acknowledging or citing AI use. If you're uncertain, ask about it. The APA and MLA both provide guidelines for citing generative AI work.
+Data security and safety: Any information you share with an AI tool is no longer private and may be used in ways you can't control. Guard your data vigilantly - never share sensitive, personal or confidential information about yourself, others or your organization with AI systems.
+03
+
+The essential AI "how-to" manual
+Make sure you can answer "yes"  to these questions
+Before you start
+❏ My school and my professor allow the use of the AI tools I'm considering for this assignment
+❏ I clearly understand when and how I can use AI for this assignment
+Doing the work
+❏ I am using my own thoughts, words and tone of voice
+❏ I have checked sources generated by AI and properly cited any facts, statistics or quotes
+❏ I have critically analyzed the AI output and identified any false, biased or harmful information
+❏ I have documented where and how I used AI and cited that use according to my professor's expectations
+❏ I have not used confidential, protected or copyrighted information
+When the assignment is complete
+❏ I can explain my findings and demonstrate full understanding without the  aid of AI
+❏ I can prove what sources I used and how I verified the information
+Some ways you can use AI
+Writing assistance: Use AI at discrete parts of your writing process, for example, to brainstorm or generate ideas, help you think about organization, adjust your writing style to suit your audience and purpose, and to check sentence clarity, grammar and citations. Always remain the primary author of 
+If AI is 	your work. 
+allowed	Creative assistance: AI tools can spark your imagination in production of art, graphic design, music, performing arts and other creative expressions. Be sure to credit creators of the original works.
+Study assistance: Use AI tools as a tutor partner; ask it to create study notes, challenge you with quizzes and test your understanding. Make sure you critically evaluate the accuracy of these materials as you study. 
+Research and information gathering: Ask AI to distill or explain complex concepts in language you can understand. Always critically evaluate AI output to ensure the information is credible and relevant. Read original sources to verify facts and gain a deeper understanding.
+Data analysis and visualization: Use AI to interpret and summarize data sets and create data visualizations. Always verify the work and make sure you are able to explain and justify the results.
+04
+
+
+
+
+Detailed prompts produce better responses
+	POOR PROMPT	BETTER PROMPT	EFFECTIVE PROMPT
+Give me an idea for 	Reply as if you're a 	Reply as if you're a student a service project.	student assigned 	in a sociology class. You to work with your 	have been assigned to work class members on a 	with your class members community project to 	on a community project help homeless people. 	to help homeless people. What ideas do you 	Suggest three practical 
+have? 	projects the group could complete in nine weeks and describe what the group would learn in the process. 
+Try meta-prompting
+You can design higher-level prompts that guide the AI in how it generates answers and meets your needs.   
+[Examples]
+Suggest some prompts for me to use to ask you about the concepts of 	] misinformation and its impact on society. explanation suitable for beginners. Follow up with a more detailed explanation and ] I have some questions about cell biology. Please start with a brief, straightforward 
+provide real-world examples to illustrate key points. Encourage me to ask follow-up questions and challenge me with questions to test my understanding. the future. For each scenario, please provide three different perspectives: optimistic, ] I am going to provide a series of scenarios about the ways AI may impact society in pessimistic and neutral.
+07
+
+
+
+
+
+
+
+AI as a life assistant
+Beyond your classes
+AI can be a valuable assistant in your life. You can tap into it for help throughout your college experience. The list of uses is endless, but here are a few examples:
+" Set up a calendar that organizes your schedule.
+ " Create a healthy living plan, including an exercise schedule, tips for high-quality sleep, easy menus for nutritious meals and ways to avoid stress.
+" Help you evaluate products or services you wish to purchase.
+" Create itineraries for study abroad experiences and time away from campus.
+ " Pursue an independent research project, generating ideas, conducting a literature review, running simulations and critiquing your findings.
+ " Plan activities for your student organization, such as service-learning or social events to engage group members.
+" Dig into social and political issues to help you consider many perspectives.
+" Find films, TV programs, books, music and games that fit your interests.
+Trust people first
+While it may be tempting to rely on AI in many aspects of your life, you should always turn to trusted family, friends, faculty, mentors, counselors, support groups or professionals for advice about issues such as:
+" Difficulties with or worries over your physical health, illnesses
+ " Mental health questions and issues, including personal crises, emotional distress
+" Complex relationship issues 
+" Spiritual and faith questions
+ " Personal legal and financial matters (never share any bank account information, passwords or other sensitive information online)
+" Personal and family dilemmas, disappointments or deaths
+    " Important life decisions and stressors, such as career choices, your responsibilities to those in your life, struggles with addiction, and so on www.studentguidetoAI.org
+11
+Plan your academic journey
+Taking many courses in the liberal arts and sciences sets the stage for lifelong learning. You will develop intellectual skills and a variety of perspectives that will help you leverage the power of AI, asking informed questions and critically analyzing AI outputs. 
+Classes in many disciplines will help you develop skills and 	Examples of subjects to explore knowledge in:
+                                               " Philosophy and ethics " Critical thinking, deep analysis and 	" Creative writing and literature curiosity
+                                                   " Communications and rhetoric " Creativity, originality and artistic 	" Economics, business and marketing expression
+" Cognitive science and psychology
+" Cultural and social understanding, 
+human relationships, empathy and 	" Sociology, history, geography, 
+compassion 	anthropology, political science
+" Ethics and philosophy	"sciences Neuroscience and biological 
+" Communication and collaboration	" Physical sciences and mathematics
+" Setting priorities, making complex 	" Visual and performing arts decisions, weighing consequences	" Gender and ethnic studies
+" Conflict resolution
+People who can navigate the intersections between knowledge, technology and the human experience will be prepared for success in the AI age.  
+www.studentguidetoAI.org
+12
+Prepare for your AI-infused career
+Whether your first job is with an organization that is using AI technologies, or one that needs your help in making the AI transition, your AI skills will be a big asset. In the future, you may be assessed on your ability to effectively use AI tools and you may work on a team that includes AI avatars. Preparing yourself with these skills increases your career readiness in an uncertain job landscape. AI skills are a priority for employers
+The 2024 Work Trend Index Annual Report from Microsoft and LinkedIn, surveyed 31,000 knowledge workers, business leaders and decision-makers in 31 countries in February-March 2024.
+
+AI, change and your future
+AI is being interwoven into human environments and the changes are impacting everyone. Embrace a mindset of lifelong learning and adaptability to keep pace with technology, and maintain a priority on close human relationships. 
+
+Develop an experiential learning plan in school...
+ " Read tech news, enroll in online courses about AI and seek certifications.
+ " Work with your professors, mentors and career services advisors to find internships and jobs that use AI in the workplace.
+ " Attend industry conferences, workshops and webinars to gain new insights and network with professionals.
+ " Participate in real-world projects, student organizations and volunteer work that help you develop empathy, cultural awareness, teamwork, problem-solving and leadership skills.
+ " Prioritize getting out in the world, away from screens. Build strong relationships and develop your confidence in real-world, in-person social situations.
+And after graduation...
+ " Continue to read about AI and tech news, enroll in useful online courses and stay current with advances.
+ " Take advantage of training programs and professional development opportunities provided by your employer. 
+ " Pursue a graduate degree, certificate programs or noncredentialed training resources to keep expanding your skills and knowledge.
+ " Don't allow yourself to get complacent. Jobs in your field may be completely transformed in just a few years. Become the indispensable, tech-savvy person on your team. Understand and prepare for the changes taking place.
+ " Continue to develop your human talents and abilities - essential assets in the AI era.
+14
+
+Your AI-powered career search
+Today's job market is AI-driven. Digital systems are being used by both employers and job applicants. Get in the game by understanding how it all works.
+How some employers are using AI to search for talent:
+" Screening resumés for keywords and assessing applicants' experiences, "fit" and performance potential
+" Searching job boards and social media sites to evaluate candidates and find those whose online profiles are the best match for positions
+" Conducting initial interviews of job candidates and answering their questions about job openings
+" Analyzing applicants' facial expressions, tone of voice 
+and body language in video interviews " Ensuring that applicants' submissions are anonymized to guard against bias in recruitment
+You can use AI to succeed
+" Customize your resumé and cover letter for each job opening, including keywords and other language to make your match for the jobs clear to the AI screening systems " Use a Word document with simple fonts instead of a PDF for your resumé and application letters; some applicant tracking systems struggle with parsing PDFs
+" Generate a list of likely interview questions you may be asked, along with guidance for good answers that demonstrate your skills and talents
+" To attract the attention of AI-driven recruitment search engines, create a LinkedIn profile with extensive details about your skills and experiences
+" Use mock interview tools to simulate real interview scenarios and get coaching on physical behaviors that will perform well in AI analysis
+Remember to combine AI strategies with human-to-human connections. Many jobs are won through smart networking, personal connections or even chance encounters with professionals at events.
+
+www.studentguidetoAI.org
+15
+FAQs 
+How will AI change how we learn in the classroom in the future? 
+While the role of teachers and mentors will remain central in fostering critical thinking, creativity and student development, many believe AI can be an asset for classroom learning. AI can create custom curricula and tutoring plans designed for individual students' needs and pace. These tools can also help identify students who need additional support or enrichment. AI can provide fast feedback on assignments, freeing up time for professors to focus on higher-level instruction and one-on-one interactions with students. Specialized AI tools may change instruction methods in math and science labs and enable simulations in many different disciplines.   
+Where is the line between using AI to generate ideas and cheating?  
+The line depends on how AI is used and the rules set by faculty members. Generally, using AI to brainstorm or explore concepts isn't cheating if a student uses those ideas to inspire their original work. Submitting AI-generated content as one's own work without significant modification and proper attribution of sources is cheating. Be honest and open. Disclose AI use as required and be ready to demonstrate your own understanding and skills. If you are unsure about the guidelines on acceptable AI use, ask questions. The goal of education is learning. You should use AI as a tool to enhance your understanding and skills, not to bypass or shortcut the learning process.
+Students from many schools submitted questions for inclusion in this guide What will the speed of change in AI be like going forward - will it alter everything?  
+Most experts predict the rate of AI development will remain high. Expect to see continued improvements in language models, new ways to interact with AI by voice and video, and AI systems customized for specific applications. Major advances are expected in healthcare, education, scientific research, business operations and more. However, AI may not "change everything" in the next few years. The speed of public adoption of AI, the cost of creating new AI systems, government regulation and business factors will influence the rate of AI's evolution.
+What types of jobs are most at risk of being automated by AI? 
+Jobs most at risk of AI automation tend to be those involving routine tasks, such as data entry, basic administrative work and customer service. Many aspects of bookkeeping, accounting and financial analysis will be impacted by AI. Repetitive assembly line jobs continue to be at risk. Other fields that may face disruption include basic legal work (document review, contract analysis), journalism and creative work like graphic design and content creation. As AI advances, the landscape of jobs will evolve. While some jobs change or are eliminated, new ones will emerge. People who adapt to AI will be best positioned to succeed in their careers.
+If we rely on AI for everything, will that diminish our critical thinking and creative skills?
+Overreliance on AI could diminish your critical thinking and creativity, but it's not an inevitable outcome. The key lies in how you integrate AI into your life and your education. AI can handle routine tasks and provide quick information, allowing you to focus on developing higher-order intellectual skills. However, if you use AI as a crutch rather than as a tool, your ability to use your own critical thinking and creative skills may decline. Think of the old adage "use it or lose it." Consider AI as an assistant rather than a shortcut. Prioritize your own, original thinking, hands-on problemsolving and creative expression.
+www.studentguidetoAI.org	16
+
+In summary
+7 essential principles
+Know and follow your school's rules
+Your institution, its departments and individual faculty members have established AI policies and expectations designed to optimize your learning and growth. Understand these policies and be aware that they may change over time. If you're uncertain, ask questions. 
+
+
+Everyone's future professional and personal success will be influenced by AI systems. Learn how they work. Understand their strengths and weaknesses. Ask questions, be curious, try things, share what you know and learn from others.
+4 Think beyond your major
+AI brings together knowledge from all disciplines. Develop a multidisciplinary mindset and explore classes in a wide range of subjects. Develop strong skills in using, analyzing and communicating about data and consider getting certifications related to AI.
+6 Prioritize privacy and security
+Always remember that AI systems are not private; you have limited or no control over how your data will be used. Use only reputable platforms, understand the terms of service and share as little information as possible about yourself or others.
+Learn to use AI ethically. Ensure that the work you submit is truly your own. Properly disclose and cite how you use AI-generated content. Deepen your critical thinking skills and ability to evaluate AI-generated content and spot false information, biases and fake images, video and audio.
+5 Commit to lifelong learning
+We are only at the beginning of the AI revolution. New tools and AI uses will continually emerge. Always be on the lookout for what's next. Work collaboratively with your peers and mentors. Adopt a lifelong learning mindset.
+7 Cultivate your human abilities
+Deepen your empathy and social skills. Stay focused on building strong relationships and thriving in the non-digital world. Exercise your apps-free creativity. Keep your unique human talents sharp in an environment filled with AI interactions. 
+
+
+www.studentguidetoAI.org
+17
+Acknowledgements
+Contributing authors, editors and reviewers
+Haya Ajjan, associate dean, Martha and Spencer Love School of Business, Elon University Mustafa Akben, assistant professor of management and director of artificial intelligence integration, Elon University
+Bryan Alexander, senior scholar, Geoergetown University; creator, Future of Education Observatory
+Daniel J. Anderson, special assistant to the president, Elon University (lead author)
+Janna Anderson, professor of communications and senior researcher, Imagining the Digital 
+Future Center, Elon University
+Neeli Bendapudi, president, The Pennsylvania State University
+Connie Book, president, Elon University
+Drissia Chouit, professor, Moulay Ismail University (Morocco); co-chair, International Steering 
+Committee of UNESCO Media and Information Literacy Alliance
+Emma Dooley, junior, statistical science major, Marquette University
+Peter Felten, assistant provost for teaching and learning and executive director of the Center for Engaged Learning, Elon University
+Divina Frau-Meigs, professor, Sorbonne Nouvelle University (France); UNESCO chair Savoir devenir in sustainable digital development
+Stephan G. Humer, professor and director, Internet Sociology department, Fresenius 
+University of Applied Sciences (Germany)
+Alan Inouye, senior director, public policy & government relations, American Library Association
+Klaus Bruhn Jensen, professor of communication, University of Copenhagen (Denmark) Dennis-Kenji Kipker, research director, Cyberintelligence Institute; professor of UT security law, Bremen University of Applied Sciences (Germany)
+Paul LeBlanc, former president, Southern New Hampshire University
+Pedro U. Lima, professor, Instituto Superior Técnico and president, Institute for Systems and 
+Robotics, University of Lisbon (Portugal)
+Ryan McCurdy, senior vice president and president, Lenovo, North America
+Hoda Mostafa, director, Center for Learning and Teaching, and professor of practice, The American University in Cairo (Egypt)
+Francisca O. Oladipo, vice chancellor and professor of computer science, Thomas Adewumi 
+University (Nigeria); executive director, VODAN Africa
+Arlindo Oliveira, IST distinguished professor, University of Lisbon; president, Institute for 
+Systems and Computer Engineering, Technology and Science (INESC) (Portugal)
+Sonia Parratt, professor of journalism, Complutense University of Madrid (Spain)
+Adam Clayton Powell III, executive director, University of Southern California Election 
+Cybersecurity Initiative
+R. Siva Prasad, former honorary professor, Centre for Digital Learning, Training & Resources, University of Hyderabad (India)
+Edson Prestes, professor and head of the Robotics Research Group, Federal University of Rio 
+Grande do Sul (UFRGS) (Brazil)
+Lee Rainie, director, Imagining the Digital Future Center, Elon University
+Catherine Régis, professor of law, University of Montreal; CIFAR Chair in AI and Human Rights, 
+Mila - Quebec Artificial Intelligence Institute (Canada)
+Paula Rosinski, professor of English/professional writing and rhetoric and director of Writing Across the University, Elon University
+Philippa Smith, associate professor and deputy director, Toroa Centre for Communication 
+Research, Auckland University of Technology (New Zealand)
+Jeff Stein, president, Mary Baldwin University
+Amanda Sturgill, associate professor of journalism and Center for Engaged Learning Scholar focused on AI and engaged learning, Elon University
+Evelyne Tauchnitz, senior researcher, University of Lucerne (Switzerland)
+Aaron Trocki, associate professor of mathematics and Center for Engaged Learning Scholar focused on the use of AI in the assessment of learning, Elon University
+C. Edward Watson, vice president for digital innovation, The American Association of Colleges and Universities (AAC&U)
+Amelia Zurcher, director, University Honors Program; professor of English, Marquette University
+Use of Generative AI in production of this guide
+Text outputs from ChatGPT, OpenAI; Gemini, Google; Claude, Anthropic; Perplexity, Perplexity.com; Meta AI, Meta. See www.studentguidetoAI.org/about for prompt details.  
+Graphics and images from Adobe Firefly, Meta AI, Adobe Stock, Flaticon.com
+	www.studentguidetoAI.org	18
+
+
+
+
+
+
+
+
+
+
+
+
+
+The essential AI "how-to" manual
+
+
+
+www.studentguidetoAI.org
+
+www.studentguidetoAI.org
+
+
+
+www.studentguidetoAI.org
+
+The essential AI "how-to" manual
+
+The essential AI "how-to" manual
+
+www.studentguidetoAI.org
+
+www.studentguidetoAI.org
+
+The essential AI "how-to" manual
+
+www.studentguidetoAI.org
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
