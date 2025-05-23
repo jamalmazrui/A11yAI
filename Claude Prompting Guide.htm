@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>Claude Prompting Guide</title>
+  <style>
+    html {
+      color: #1a1a1a;
+      background-color: #fdfdfd;
+    }
+    body {
+      margin: 0 auto;
+      max-width: 36em;
+      padding-left: 50px;
+      padding-right: 50px;
+      padding-top: 50px;
+      padding-bottom: 50px;
+      hyphens: auto;
+      overflow-wrap: break-word;
+      text-rendering: optimizeLegibility;
+      font-kerning: normal;
+    }
+    @media (max-width: 600px) {
+      body {
+        font-size: 0.9em;
+        padding: 12px;
+      }
+      h1 {
+        font-size: 1.8em;
+      }
+    }
+    @media print {
+      html {
+        background-color: white;
+      }
+      body {
+        background-color: transparent;
+        color: black;
+        font-size: 12pt;
+      }
+      p, h2, h3 {
+        orphans: 3;
+        widows: 3;
+      }
+      h2, h3, h4 {
+        page-break-after: avoid;
+      }
+    }
+    p {
+      margin: 1em 0;
+    }
+    a {
+      color: #1a1a1a;
+    }
+    a:visited {
+      color: #1a1a1a;
+    }
+    img {
+      max-width: 100%;
+    }
+    svg {
+      height: auto;
+      max-width: 100%;
+    }
+    h1, h2, h3, h4, h5, h6 {
+      margin-top: 1.4em;
+    }
+    h5, h6 {
+      font-size: 1em;
+      font-style: italic;
+    }
+    h6 {
+      font-weight: normal;
+    }
+    ol, ul {
+      padding-left: 1.7em;
+      margin-top: 1em;
+    }
+    li > ol, li > ul {
+      margin-top: 0;
+    }
+    blockquote {
+      margin: 1em 0 1em 1.7em;
+      padding-left: 1em;
+      border-left: 2px solid #e6e6e6;
+      color: #606060;
+    }
+    code {
+      font-family: Menlo, Monaco, Consolas, 'Lucida Console', monospace;
+      font-size: 85%;
+      margin: 0;
+      hyphens: manual;
+    }
+    pre {
+      margin: 1em 0;
+      overflow: auto;
+    }
+    pre code {
+      padding: 0;
+      overflow: visible;
+      overflow-wrap: normal;
+    }
+    .sourceCode {
+     background-color: transparent;
+     overflow: visible;
+    }
+    hr {
+      background-color: #1a1a1a;
+      border: none;
+      height: 1px;
+      margin: 1em 0;
+    }
+    table {
+      margin: 1em 0;
+      border-collapse: collapse;
+      width: 100%;
+      overflow-x: auto;
+      display: block;
+      font-variant-numeric: lining-nums tabular-nums;
+    }
+    table caption {
+      margin-bottom: 0.75em;
+    }
+    tbody {
+      margin-top: 0.5em;
+      border-top: 1px solid #1a1a1a;
+      border-bottom: 1px solid #1a1a1a;
+    }
+    th {
+      border-top: 1px solid #1a1a1a;
+      padding: 0.25em 0.5em 0.25em 0.5em;
+    }
+    td {
+      padding: 0.125em 0.5em 0.25em 0.5em;
+    }
+    header {
+      margin-bottom: 4em;
+      text-align: center;
+    }
+    #TOC li {
+      list-style: none;
+    }
+    #TOC ul {
+      padding-left: 1.3em;
+    }
+    #TOC > ul {
+      padding-left: 0;
+    }
+    #TOC a:not(:hover) {
+      text-decoration: none;
+    }
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: auto; overflow-x: auto;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    /* The extra [class] is a hack that increases specificity enough to
+       override a similar rule in reveal.js */
+    ul.task-list[class]{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      font-size: inherit;
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
+  </style>
+</head>
+<body>
+<h1 id="claude-prompting-guide">Claude prompting guide</h1>
+<h2 id="general-tips-for-effective-prompting">General tips for effective
+prompting</h2>
+<h3 id="be-clear-and-specific">1. Be clear and specific</h3>
+<ul>
+<li>Clearly state your task or question at the beginning of your
+message.</li>
+<li>Provide context and details to help Claude understand your
+needs.</li>
+<li>Break complex tasks into smaller, manageable steps.</li>
+</ul>
+<p>Bad prompt: <code>"Help me with a presentation."</code></p>
+<p>Good prompt:
+<code>"I need help creating a 10-slide presentation for our quarterly sales meeting. The presentation should cover our Q2 sales performance, top-selling products, and sales targets for Q3. Please provide an outline with key points for each slide."</code></p>
+<p>Why it’s better: The good prompt provides specific details about the
+task, including the number of slides, the purpose of the presentation,
+and the key topics to be covered.</p>
+<h3 id="use-examples">2. Use examples</h3>
+<ul>
+<li>Provide examples of the kind of output you’re looking for.</li>
+<li>If you want a specific format or style, show Claude an example.</li>
+</ul>
+<p>Bad prompt: <code>"Write a professional email."</code></p>
+<p>Good prompt: ``` “I need to write a professional email to a client
+about a project delay. Here’s a similar email I’ve sent before:</p>
+<p>‘Dear [Client], I hope this email finds you well. I wanted to update
+you on the progress of [Project Name]. Unfortunately, we’ve encountered
+an unexpected issue that will delay our completion date by approximately
+two weeks. We’re working diligently to resolve this and will keep you
+updated on our progress. Please let me know if you have any questions or
+concerns. Best regards, [Your Name]’</p>
+<p>Help me draft a new email following a similar tone and structure, but
+for our current situation where we’re delayed by a month due to supply
+chain issues.” ```</p>
+<p>Why it’s better: The good prompt provides a concrete example of the
+desired style and tone, giving Claude a clear reference point for the
+new email.</p>
+<h3 id="encourage-thinking">3. Encourage thinking</h3>
+<ul>
+<li>For complex tasks, ask Claude to “think step-by-step” or “explain
+your reasoning.”</li>
+<li>This can lead to more accurate and detailed responses.</li>
+</ul>
+<p>Bad prompt: <code>"How can I improve team productivity?"</code></p>
+<p>Good prompt: ``` “I’m looking to improve my team’s productivity.
+Think through this step-by-step, considering the following factors: 1.
+Current productivity blockers (e.g., too many meetings, unclear
+priorities) 2. Potential solutions (e.g., time management techniques,
+project management tools) 3. Implementation challenges 4. Methods to
+measure improvement</p>
+<p>For each step, please provide a brief explanation of your reasoning.
+Then summarize your ideas at the end.” ```</p>
+<p>Why it’s better: The good prompt asks Claude to think through the
+problem systematically, providing a guided structure for the response
+and asking for explanations of the reasoning process. It also prompts
+Claude to create a summary at the end for easier reading.</p>
+<h3 id="iterative-refinement">4. Iterative refinement</h3>
+<ul>
+<li>If Claude’s first response isn’t quite right, ask for clarifications
+or modifications.</li>
+<li>You can always say “That’s close, but can you adjust X to be more
+like Y?”</li>
+</ul>
+<p>Bad prompt: <code>"Make it better."</code></p>
+<p>Good prompt:
+<code>"That's a good start, but please refine it further. Make the following adjustments:    1. Make the tone more casual and friendly    2. Add a specific example of how our product has helped a customer    3. Shorten the second paragraph to focus more on the benefits rather than the features"</code></p>
+<p>Why it’s better: The good prompt provides specific feedback and clear
+instructions for improvements, allowing Claude to make targeted
+adjustments instead of just relying on Claude’s innate sense of what
+“better” might be — which is likely different from the user’s
+definition!</p>
+<h3 id="leverage-claudes-knowledge">5. Leverage Claude’s knowledge</h3>
+<ul>
+<li>Claude has broad knowledge across many fields. Don’t hesitate to ask
+for explanations or background information</li>
+<li>Be sure to include relevant context and details so that Claude’s
+response is maximally targeted to be helpful</li>
+</ul>
+<p>Bad prompt: <code>"What is marketing? How do I do it?"</code></p>
+<p>Good prompt: ``` “I’m developing a marketing strategy for a new
+eco-friendly cleaning product line. Can you provide an overview of
+current trends in green marketing? Please include: 1. Key messaging
+strategies that resonate with environmentally conscious consumers 2.
+Effective channels for reaching this audience 3. Examples of successful
+green marketing campaigns from the past year 4. Potential pitfalls to
+avoid (e.g., greenwashing accusations)</p>
+<p>This information will help me shape our marketing approach.” ```</p>
+<p>Why it’s better: The good prompt asks for specific, contextually
+relevant information that leverages Claude’s broad knowledge base. It
+provides context for how the information will be used, which helps
+Claude frame its answer in the most relevant way.</p>
+<h3 id="use-role-playing">6. Use role-playing</h3>
+<ul>
+<li>Ask Claude to adopt a specific role or perspective when
+responding.</li>
+</ul>
+<p>Bad prompt: <code>"Help me prepare for a negotiation."</code></p>
+<p>Good prompt: ``` “You are a fabric supplier for my backpack
+manufacturing company. I’m preparing for a negotiation with this
+supplier to reduce prices by 10%. As the supplier, please provide: 1.
+Three potential objections to our request for a price reduction 2. For
+each objection, suggest a counterargument from my perspective 3. Two
+alternative proposals the supplier might offer instead of a straight</p>
+</body>
+</html>
