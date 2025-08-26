@@ -1,0 +1,224 @@
+﻿
+
+
+Before we start:
+This is a guide put together by fellow Strategists and Creatives at Google, based on their experiences and observations of Gemini's potential to help on insights and ideation processes. 
+It does not reflect a comprehensive use of Gemini, but rather intends to inspire users on how to make the most of Gemini to help with specific tasks and use cases.
+We hope this can be helpful and welcome your feedback and suggestions of new prompts!
+Questions or feedback? teamadrenaline@google.com 
+
+
+
+Contents
+01 02 03 04
+Working with AI ▸                        How to Prompt ▸                Strategy Use Cases ▸ Creative Use Cases ▸
+You + AI: Relationship Building 101 Some tips and thoughts on how to think about 01
+AI in your everyday workflow as a marketer. 
+Bring AI Along  
+            for the Ride    ...
+Always invite AI to the table as you go through your work day. You'll quickly get a sense for which tasks AI can supercharge - and some where the human touch is what's needed. Chances are you'll be surprised by the ways in which AI can elevate your work.
+
+Defining the    
+            Relationship    
+As you'll see; Large Language Models (LLMs) often produces stronger results when you give it clear instructions and define its role. But in doing so, it's also worth considering your own role. 
+For example; maybe you're a Junior Copywriter? Well, with the help of AI you just got promoted to Creative Director with your own leaned-in collaborator! What information or instruction would you provide, so that it can help you achieve the task at hand?
+Build a Culture 
+Around AI Experimentation
+The best way to uncover new use cases and become familiar with AI is to build a work culture around it. Give your team an award for the most 'creative use of AI' in each team meeting. Keep a list of use case and prompts.
+More              Than Words  
+Open your mind to the possibilities that going beyond written text unlocks. Gemini is multimodal; which is a fancy way of saying it can understand different forms of information; including images, sound and video. 
+Chat with Gemini to supercharge your productivity and creativity. We'll run through some examples later, but you can ask Gemini to help with things like getting simple explanations of complex documents, or getting creative feedback on video ads. You can even leverage Gemini's image creation abilities to fuel the brainstorming process.
+What can Gemini help with?
+Expand, Condense, Iterate, Finesse.
+                        Expand                                       Condense                                
+Expansive thinking;                amounts of information, Synthesizing large   'Riffing' on existing ideas, Honing and generating new       simplifying complexity,       creating variations,              polishing existing ideas 
+perspectives, ideas and             research, reductive             different tones and voices.                and/or creative. modes of expression.                 thinking. 
+What can Gemini help with?
+Expand, Condense, Iterate, Finesse.
+
+                        Expand                                       Condense                                        Iterate                    Finesse
+
+
+The Art of the Prompt
+And like any art, there are no hard and fast rules. Experiment. Iterate.
+02
+Why are prompts important?
+A prompt is an instruction you write to interact with a chatbot.
+Large Language Models (LLM) can make sense of prompts written in a conversational tone. Natural Language Processing (NLP) is a significant development in improving AI systems.
+When you chat with Gemini, the prompts you write play a key role in shaping the response. Thoughtful prompts lead to better results.
+Next, we explore a structure to increase the quality of your prompts.
+The Art of the Prompt The Building Blocks  
+
+Persona
+What role do you want Gemini to take on?
+You are a Content Marketer for a major travel company. 
+ 
+Task
+Clearly define the task and/or goal. 
+Generate 5 ideas for blog content that feel relevant and will appeal to frequent travelers and the tourism industry.
+Context
+Provide more context on  the style or content.
+Make the topics unique. There are lots of tourism blogs out there - let's come up with fresh angles that would stand out. Keep the topics relevant. Tap into current trends or recent challenges and or innovations within the tourism industry when brainstorming. 
+Format
+What format do you want the result to take? 
+Share back the ideas in a bulleted list. Each idea should include a section for a) the target audience and why this appeals to them. b) The content outline c) a CTA. 
+
+The Art of the Prompt The Building Blocks  
+You don't always need to include all four; but it can be a good mental model for yourself when prompting. It can get a little getting used to; but imagine you're talking to a person with none of the context you have. 
+
+What am I really asking for? 
+Am I expecting a certain style?
+And just for fun; what if I asked for the complete opposite?
+
+4 Tips on Prompt Writing
+Use natural language.                              Be specific and iterate.
+Write as if you're speaking        Tell Gemini what you need to another person. Express     it to do (summarize, write, complete thoughts      change the tone, create). 
+In full sentences.                                        Provide as much context as possible.
+                                         01           02
+Be concise and avoid complexity. 
+State your request in brief - but specific - language. Avoid jargon.
+03
+Make it a conversation.
+Fine-tune your prompts if the results don't meet your expectations or if you believe there's room for improvement. Use follow-up prompts and an iterative process of review and refinement to yield better results.
+04
+
+Prompts for 
+Strategists
+03
+
+
+
+
+
+
+
+
+
+
+
+
+             Iterate Break Down Complex or Specialized Reports
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Prompts for 
+Creatives
+04
+
+
+
+Expand
+
+Limited Edition "Dinner Date" Packaging: Create a special edition package of the dog food designed to look like a fancy restaurant takeout 
+"Doggie Dining Etiquette" Guide: Develop a playful guide to dinnertime etiquette for dogs and their owners, filled with humorous tips and tricks for making mealtime more enjoyable for everyone.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Ideation: Creative Analysis
+Here are a few other ideas of how you can use Gemini as your creative partner, leveraging the different personas it can incorporate.
+How would you adapt this ad for the Japanese market? 
+What about this ad do you think will resonate emotionally?
+How original did you find this idea? 
+What were the most engaging parts of this ad?
+How would you adapt this ad for social media?
+How do you think a teenager would relay this ad back to their parent? Their best friend?  
+How would you give feedback in this idea if you were a Cannes Lions judge?
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Here are a few other use cases of Gemini to help you in copywriting
+
+Here are our brand guidelines (attached as a PDF) - could you rewrite this line with the brand guidelines in mind?
+Turn this [USP] into a pithy Tweet.
+Turn this [USP] into an engaging Instagram post copy.
+Let's Put It into 
+Action
+05
+
+Tips on Getting  
+            Started    ...
+By now, you've hopefully got an insight into the breadth of tasks and situations where Gemini can support the strategy and creative process. But the real unlock is to find how Gemini can help your work and routine. Before we leave, here are a few ideas on how to get started. Oh, and they all should take less than 5 minutes....
+
+Bring AI Along for the Ride
+The real key to unlocking the potential of Gemini and AI is finding use cases that really help you in your day-to-day work; whether it's time and productivity savings, generating new ideas and perspectives, all the way to tackling projects that might have seen too overwhelming or difficult before. Here are a few steps on how to do that. 
+Takeaway One:
+Head to your Google Drive (or Google Docs/Sheets) and take a look at the last 10 documents you worked on. Pick one or two and revisit; only now through the lens of Gemini. How might Gemini have helped you with this document? Could it have helped brainstorm the contents or agenda? Analyze a report or data source? Polish the writing? 
+01
+At the beginning of the presentation, we also touched upon the benefits of creating a culture around AI experimentation across your team. Here are a few quick and easy wins to put that into practice:
+Takeaway Two:
+Consider using 5 minutes at the beginning or end of a weekly team meeting to talk about AI and Gemini. Maybe it's an opportunity to share interesting use cases (from work or personal life) or an opportunity to discuss interesting inspiration examples from the industry.
+02
+
+Takeaway Three:
+Why not start a 'prompt library' for your team? It could be as simple as a Google Doc or Sheet where your teammates can share interesting use cases and the prompts they used as they discover them. It's a great way of discovering new ideas and approaches.
+03
+
+Has your team stumbled upon a great use case or prompt? Consider turning it into a Gem! Gems are custom versions of Gemini that can be created to tackle specific tasks. For example; a 'Brainstorming Assistant' or a 'Report Analyzer'. They're incredibly quick and easy to make; here are a few steps.
+Takeaway Four:
+1.             Navigate to 'Gem Manager' in the left-hand navigation bar of Gemini.
+2.             Click 'New Gem'
+3.             Give your Gem a name based on the task you're developing.
+4.             Add the instructions (your prompt) for the Gem. 
+5.             Give it a whirl! Once your happy with the output; you'll be able to return to this Gem whenever you want without having to re-prompt.
+04
+More Than Words
+We've also covered Gemini's multi-modal abilities. Some of the most interesting use cases involve supplementing a text prompt with another form of media (for example, an image or a document). Don't forget, it can generate images too!
+Takeaway Five:
+Try one interesting use case that leverages Gemini's multi-modal features. Perhaps it's sharing an infographic you discovered in a report and asking for an analysis or some follow-ups. Or maybe it's a photo of your bookcase with an ask for suggestions on new books based on your reading habits? 
+If you're stuck, you can also peek back at some of the previous slides for some inspiration.
+05
+
+
+

@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>Anthropic Prompt Engineering Guide</title>
+  <style>
+    html {
+      color: #1a1a1a;
+      background-color: #fdfdfd;
+    }
+    body {
+      margin: 0 auto;
+      max-width: 36em;
+      padding-left: 50px;
+      padding-right: 50px;
+      padding-top: 50px;
+      padding-bottom: 50px;
+      hyphens: auto;
+      overflow-wrap: break-word;
+      text-rendering: optimizeLegibility;
+      font-kerning: normal;
+    }
+    @media (max-width: 600px) {
+      body {
+        font-size: 0.9em;
+        padding: 12px;
+      }
+      h1 {
+        font-size: 1.8em;
+      }
+    }
+    @media print {
+      html {
+        background-color: white;
+      }
+      body {
+        background-color: transparent;
+        color: black;
+        font-size: 12pt;
+      }
+      p, h2, h3 {
+        orphans: 3;
+        widows: 3;
+      }
+      h2, h3, h4 {
+        page-break-after: avoid;
+      }
+    }
+    p {
+      margin: 1em 0;
+    }
+    a {
+      color: #1a1a1a;
+    }
+    a:visited {
+      color: #1a1a1a;
+    }
+    img {
+      max-width: 100%;
+    }
+    svg {
+      height: auto;
+      max-width: 100%;
+    }
+    h1, h2, h3, h4, h5, h6 {
+      margin-top: 1.4em;
+    }
+    h5, h6 {
+      font-size: 1em;
+      font-style: italic;
+    }
+    h6 {
+      font-weight: normal;
+    }
+    ol, ul {
+      padding-left: 1.7em;
+      margin-top: 1em;
+    }
+    li > ol, li > ul {
+      margin-top: 0;
+    }
+    blockquote {
+      margin: 1em 0 1em 1.7em;
+      padding-left: 1em;
+      border-left: 2px solid #e6e6e6;
+      color: #606060;
+    }
+    code {
+      font-family: Menlo, Monaco, Consolas, 'Lucida Console', monospace;
+      font-size: 85%;
+      margin: 0;
+      hyphens: manual;
+    }
+    pre {
+      margin: 1em 0;
+      overflow: auto;
+    }
+    pre code {
+      padding: 0;
+      overflow: visible;
+      overflow-wrap: normal;
+    }
+    .sourceCode {
+     background-color: transparent;
+     overflow: visible;
+    }
+    hr {
+      background-color: #1a1a1a;
+      border: none;
+      height: 1px;
+      margin: 1em 0;
+    }
+    table {
+      margin: 1em 0;
+      border-collapse: collapse;
+      width: 100%;
+      overflow-x: auto;
+      display: block;
+      font-variant-numeric: lining-nums tabular-nums;
+    }
+    table caption {
+      margin-bottom: 0.75em;
+    }
+    tbody {
+      margin-top: 0.5em;
+      border-top: 1px solid #1a1a1a;
+      border-bottom: 1px solid #1a1a1a;
+    }
+    th {
+      border-top: 1px solid #1a1a1a;
+      padding: 0.25em 0.5em 0.25em 0.5em;
+    }
+    td {
+      padding: 0.125em 0.5em 0.25em 0.5em;
+    }
+    header {
+      margin-bottom: 4em;
+      text-align: center;
+    }
+    #TOC li {
+      list-style: none;
+    }
+    #TOC ul {
+      padding-left: 1.3em;
+    }
+    #TOC > ul {
+      padding-left: 0;
+    }
+    #TOC a:not(:hover) {
+      text-decoration: none;
+    }
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: auto; overflow-x: auto;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    /* The extra [class] is a hack that increases specificity enough to
+       override a similar rule in reveal.js */
+    ul.task-list[class]{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      font-size: inherit;
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
+  </style>
+</head>
+<body>
+<p><img src="media/index-1_1.jpeg"
+style="width:4.31944in;height:0.94444in" alt="index-1_1.jpg" /></p>
+<p><img src="media/index-1_2.jpeg"
+style="width:2.95833in;height:3.70833in" alt="index-1_2.jpg" /></p>
+<h1 id="anthropic-prompt-engineering-guide">Anthropic prompt engineering
+guide</h1>
+<p>You can now generate production-ready prompt templates in the
+Anthropic Console using prompt engineering techniques. Describe what you
+want to achieve, and Claude will create an effective prompt. This
+feature helps new users and saves time for experienced engineers.
+Provide detailed information about your task for best results. Although
+generated prompts may not always produce perfect results, they often
+outperform hand-written prompts. The templates are editable, allowing
+you to tweak them for optimal performance. Prompting best practices
+include role setting and chain of thought reasoning. Role setting
+involves Claude taking on the characteristics of an expert at the chosen
+task, while chain of thought reasoning allows for more thorough
+responses. When generating prompts, variables are often placed between
+XML tags to clearly delineate different parts of the prompt. For
+example, when translating code to Python, the longer and more ambiguous
+{{CODE}} variable is marked by XML tags, while the simple {{LANGUAGE}}
+variable is positioned inline. Claude may also write example inputs and
+outputs to give itself clear direction around the types of answers it
+thinks you want. You can edit these examples to match your desired
+output formatting. When using templates generated by the prompt
+generator, you'll encounter Handlebars notation. For example, to review
+and classify a chat transcript, you might use: {{TRANSCRIPT}} . This
+process allows you to see how Claude responds across various situations.
+ZoomInfo uses Claude for making actionable recommendations and driving
+value for their customers. Their use of prompt generation significantly
+reduced the time it took to build an MVP of their RAG application, while
+also improving output quality. Anthropic's new prompt generator feature
+enabled them to reach production-ready outputs much faster, reducing the
+time spent tuning their app by 80%. To get started with building
+production-ready prompts using Claude, visit the Anthropic API. This
+course aims to provide a comprehensive understanding of how to engineer
+optimal prompts within Claude. After completing this course, you'll be
+able to: Master the basic structure of a good prompt Recognize common
+failure modes and learn techniques to address them Understand Claude's
+strengths and weaknesses Build strong prompts from scratch for common
+use cases This course is structured into 9 chapters with accompanying
+exercises, allowing you many chances to practice writing and
+troubleshooting prompts yourself. Each lesson includes an "Example
+Playground" area where you can experiment with the examples in the
+lesson and see how changing prompts affects Claude's responses. There is
+also an answer key. Note: This tutorial uses our smallest model, Claude
+3 Haiku. Anthropic has two other models, which are more intelligent than
+Haiku, with Opus being the most intelligent. Letting Claude think
+through complex tasks like research, analysis, or problem-solving with
+the "chain of thought" (CoT) prompting technique can significantly
+improve its performance. This method encourages Claude to break down
+problems step-by-step, leading to more accurate and nuanced outputs.
+There are different ways to prompt for thinking, ordered from least to
+most complex. Basic prompts include a simple instruction like "Think
+step-by-step," which lacks guidance on how to think. Guided prompts
+outline specific steps for Claude to follow in its thinking process,
+while structured prompts use XML tags to separate reasoning from the
+final answer. To get the best out of CoT, it's essential to understand
+your success criteria and have a clear definition of what you want to
+achieve. You should also be able to empirically test against those
+criteria and have a first draft prompt that needs improvement. This
+guide focuses on success criteria that can be controlled through prompt
+engineering. It suggests trying different techniques in order, starting
+with the most broadly effective methods.</p>
+<p>Prompt engineering guide. Anthropic prompt engineering. Prompt
+engineer antropic.</p>
+</body>
+</html>

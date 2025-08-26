@@ -1,0 +1,893 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>Gemini Advanced</title>
+  <style>
+    html {
+      color: #1a1a1a;
+      background-color: #fdfdfd;
+    }
+    body {
+      margin: 0 auto;
+      max-width: 36em;
+      padding-left: 50px;
+      padding-right: 50px;
+      padding-top: 50px;
+      padding-bottom: 50px;
+      hyphens: auto;
+      overflow-wrap: break-word;
+      text-rendering: optimizeLegibility;
+      font-kerning: normal;
+    }
+    @media (max-width: 600px) {
+      body {
+        font-size: 0.9em;
+        padding: 12px;
+      }
+      h1 {
+        font-size: 1.8em;
+      }
+    }
+    @media print {
+      html {
+        background-color: white;
+      }
+      body {
+        background-color: transparent;
+        color: black;
+        font-size: 12pt;
+      }
+      p, h2, h3 {
+        orphans: 3;
+        widows: 3;
+      }
+      h2, h3, h4 {
+        page-break-after: avoid;
+      }
+    }
+    p {
+      margin: 1em 0;
+    }
+    a {
+      color: #1a1a1a;
+    }
+    a:visited {
+      color: #1a1a1a;
+    }
+    img {
+      max-width: 100%;
+    }
+    svg {
+      height: auto;
+      max-width: 100%;
+    }
+    h1, h2, h3, h4, h5, h6 {
+      margin-top: 1.4em;
+    }
+    h5, h6 {
+      font-size: 1em;
+      font-style: italic;
+    }
+    h6 {
+      font-weight: normal;
+    }
+    ol, ul {
+      padding-left: 1.7em;
+      margin-top: 1em;
+    }
+    li > ol, li > ul {
+      margin-top: 0;
+    }
+    blockquote {
+      margin: 1em 0 1em 1.7em;
+      padding-left: 1em;
+      border-left: 2px solid #e6e6e6;
+      color: #606060;
+    }
+    code {
+      font-family: Menlo, Monaco, Consolas, 'Lucida Console', monospace;
+      font-size: 85%;
+      margin: 0;
+      hyphens: manual;
+    }
+    pre {
+      margin: 1em 0;
+      overflow: auto;
+    }
+    pre code {
+      padding: 0;
+      overflow: visible;
+      overflow-wrap: normal;
+    }
+    .sourceCode {
+     background-color: transparent;
+     overflow: visible;
+    }
+    hr {
+      background-color: #1a1a1a;
+      border: none;
+      height: 1px;
+      margin: 1em 0;
+    }
+    table {
+      margin: 1em 0;
+      border-collapse: collapse;
+      width: 100%;
+      overflow-x: auto;
+      display: block;
+      font-variant-numeric: lining-nums tabular-nums;
+    }
+    table caption {
+      margin-bottom: 0.75em;
+    }
+    tbody {
+      margin-top: 0.5em;
+      border-top: 1px solid #1a1a1a;
+      border-bottom: 1px solid #1a1a1a;
+    }
+    th {
+      border-top: 1px solid #1a1a1a;
+      padding: 0.25em 0.5em 0.25em 0.5em;
+    }
+    td {
+      padding: 0.125em 0.5em 0.25em 0.5em;
+    }
+    header {
+      margin-bottom: 4em;
+      text-align: center;
+    }
+    #TOC li {
+      list-style: none;
+    }
+    #TOC ul {
+      padding-left: 1.3em;
+    }
+    #TOC > ul {
+      padding-left: 0;
+    }
+    #TOC a:not(:hover) {
+      text-decoration: none;
+    }
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: auto; overflow-x: auto;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    /* The extra [class] is a hack that increases specificity enough to
+       override a similar rule in reveal.js */
+    ul.task-list[class]{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      font-size: inherit;
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
+  </style>
+</head>
+<body>
+<p>Table of Contents</p>
+<p><a href="#page_4"><u>01</u></a></p>
+<p><a href="#page_12"><u>02</u></a></p>
+<p><a href="#page_44"><u>03 Getting Started</u></a></p>
+<p><img src="media/index-1_1.png" style="width:6.5in;height:3.95833in"
+alt="index-1_1.png" /></p>
+<p>Generative AI</p>
+<p>for every role in</p>
+<p>your organization</p>
+<p>Gemini for Google Workspace</p>
+<p><img src="media/index-2_1.png" style="width:6.5in;height:7.31944in"
+alt="index-2_1.png" /></p>
+<p>Table of <a href="#page_4">01 Your organization-wide AI
+assistant</a></p>
+<p>contents <a href="#page_12">02 What Gemini Advanced can do for your
+teams</a></p>
+<p>Gemini Gemini Gemini Gemini Gemini</p>
+<p>Advanced for Advanced for Advanced for Advanced for Advanced</p>
+<p>Marketing Sales teams HR teams Finance teams for Software</p>
+<p>teams Developement</p>
+<p>teams</p>
+<p><a href="#page_44">03 Getting Started</a></p>
+<p>Gemini for Google Workspace 2</p>
+<p>summary • Desk Research: Get help researching new markets, trends,
+competitors, customers, new techniques, etc. • Get coding help:
+Developers, engineers, or anyone who writes code can leverage Gemini
+Advanced to help</p>
+<p>kickstart, optimize or debug code for them.</p>
+<p>expect substantial transformation in less than one year . But perform
+better, such as how to create Apps Scripts, 1 concepts related to your
+core job or that can help you business leaders also realize the
+productivity, quality and Excitement is high, and so are
+expectations—31% of leaders • Learn new concepts: Get help learning or
+refreshing</p>
+<p>pivot tables, and more.</p>
+<p>creativity gains require providing access to AI to employees •
+Summarizing and organizing information: Use Gemini</p>
+<p>across the organization, and infusing AI into everyday tasks.
+Advanced to read through and summarize complex</p>
+<p>information. Get its help organizing that information</p>
+<p>and creating process maps.</p>
+<p><a href="http://gemini.google.com">Gemini Advanced* is a
+mul</a>timodal generative AI chatbot,</p>
+<p>powered by Google’s most capable AI models. Using natural From
+writing code to generating sales pitches and</p>
+<p>language, users can easily interact with Gemini Advanced via
+analyzing financial report<a href="http://gemini.google.com">s, Gemini
+Advanced is a</a> text, uploaded files, and images. powerful tool that
+can transform how you work, and boost</p>
+<p>productivity, creativity, and innovation.</p>
+<p>Gemini for Gemini for Google Workspace Google Workspace 02</p>
+<p><span id="page_4" class="anchor"></span><img
+src="media/index-4_1.png" style="width:6.5in;height:3.65278in"
+alt="index-4_1.png" /></p>
+<p>Your organization-</p>
+<p>wide AI assistant.</p>
+<p>Gemini for Gemini for Google Workspace Google Workspace 03</p>
+<p><img src="media/index-5_1.png" style="width:6.5in;height:5.01389in"
+alt="index-5_1.png" /></p>
+<p><a href="https://gemini.google.com/app">Gemini Advanced is
+po</a>wered by Google’s most</p>
+<p>capable AI models, and can be used to enhance</p>
+<p>a wide range of tasks. Rather than being a point</p>
+<p>solution built with specific use cases in mind,</p>
+<p>Gemini Advanced is a versatile AI assistant that</p>
+<p>can help people tackle many different aspects of</p>
+<p>work, however generic or specific they might be.</p>
+<p>Gemini Advanced can help teams make effective, data-driven</p>
+<p>decisions more easily. With creative brainstorming and idea</p>
+<p>generation capabilities, it can unlock creativity, spark
+innovation,</p>
+<p>and explore new possibilities. It can also partner with you to</p>
+<p>more efficiently handle complex work like desk research,</p>
+<p>documentation, code writing, debugging, and more.</p>
+<p>By processing and retaining large amounts of information</p>
+<p>Gemini Advanced helps enable superior understanding and</p>
+<p>insightful responses, with an intuitive interface that requires
+minimal</p>
+<p>training for people to learn.</p>
+<p>Gemini for Gemini for Google Workspace Google Workspace 04</p>
+<p>Enterprise-ready</p>
+<p>Are you concerned about</p>
+<p>how a new tool will integrate</p>
+<p>with your existing tools, or the And your data safety</p>
+<p>change management required? is a priority for us.</p>
+<p>Don’t be. Gemini Advanced can work alongside Using Gemini Advanced
+with your Gemini for</p>
+<p>your existing tools right now. Gemini Advanced can Workspace account
+provides enterprise-grade</p>
+<p>also easily integrate with other Google products, security2 so you
+can work confidently and focus on</p>
+<p>such as Google Workspace apps like Gmail, Drive, what matters most.
+Additionally, your interactions</p>
+<p>and Docs, enhancing existing workflows. aren’t used for training of
+models.</p>
+<p>Gemini for Gemini for Google Workspace Google Workspace 05</p>
+<p>Features and capabilities</p>
+<p>Gemini Advanced is powered by Google’s most</p>
+<p>capable AI models, providing superior abilities in</p>
+<p>natural language processing, understanding, and</p>
+<p>generation.</p>
+<p>Multimodal understanding Complex reasoning</p>
+<p>Gemini Advanced can process and understand Gemini Advanced is capable
+of solving information from various sources, including text, complex
+problems, generating creative code, and images. This allows it to tackle
+tasks that content, and providing insightful analysis. require usage of
+different data types.</p>
+<p>Gemini for Google Workspace 06</p>
+<p>Features and capabilities</p>
+<p>Real-time</p>
+<p>access to current Data Analysis Google</p>
+<p>knowledge capabilities Search built-in</p>
+<p>With continuous access to Gemini Advanced has implicit With a focus
+on transparency</p>
+<p>real-time information grounded code execution, allowing users and to
+increase trust in the</p>
+<p>on web data, responses include to upload datasets (e.g Google
+responses, Gemini Advanced</p>
+<p>the most current knowledge. Sheets, CSVs) and ask Gemini lets you
+double-check its</p>
+<p>Advanced to analyze them. outputs via Google Search, with</p>
+<p>Gemini Advanced then writes the “Google it” button.</p>
+<p>and runs Python code to analyze</p>
+<p>content and provide specific</p>
+<p>analysis, visualizations, etc.</p>
+<p>Gemini for Google Workspace 07</p>
+<p>Features and capabilities</p>
+<p>Enterprise-grade</p>
+<p>security2 Extensibility Customization</p>
+<p>Using Gemini Advanced with your Gemini Advanced can pull Create
+custom AI experts for Workspace account provides knowledge and
+information any topic, tailored to specific the enterprise-grade
+security all from Google Workspace apps use cases, needs, and
+interests</p>
+<p>Google Workspace users enjoy (e.g. Gmail, Drive), enhancing using <a
+href="https://blog.google/products/gemini/google-gemini-update-may-2024/#personalize-gems">Gemini
+Gems.</a> and can rely on. productivity within existing</p>
+<p>workflows.</p>
+<p>Gemini for Google Workspace 08</p>
+<p>Benefits for organizations</p>
+<p>Gemini Advanced can directly and positively impact many</p>
+<p>parts of work. From productivity gains to tooling cost</p>
+<p>consolidation, here are some of the ways that Gemini</p>
+<p>Advanced can help create value for your organization.</p>
+<p>Increase productivity Enhance creativity</p>
+<p>Automate repetitive tasks, streamline workflows, and Spark innovation
+and generate creative</p>
+<p>accelerate complex work, freeing up employees to ideas across
+different work disciplines,</p>
+<p>focus on higher-value activities or generate more leading to new
+product solutions, services,</p>
+<p>output with the same amount of time. and marketing campaigns.</p>
+<p>Gemini for Google Workspace 09</p>
+<p>Benefits for organizations</p>
+<p>Scale</p>
+<p>customized Drive higher Improve Cost</p>
+<p>content creation work quality decision-making consolidation</p>
+<p>Gemini Advanced can Use its help to check your The tool’s advanced
+Gemini Advanced can do a lot empower you to scale grammar, improve the
+analytical and insights of what other point solutions and customize
+content by flow and structure of your generation capabilities do (e.g
+writing and grammar leveraging your insights copy or communications, can
+help businesses make checking, image generation, and Drive files to
+craft truly increase the overall quality data-driven decisions and role
+related support). So by personalized and impactful of workflows,
+technical uncover opportunities. getting Gemini Advanced, your
+communications. documents, marketing company can consolidate its</p>
+<p>briefs, reports, web copy, generative AI investments</p>
+<p>and more. into one tool that can</p>
+<p>effectively do many</p>
+<p>generative AI activities.</p>
+<p>Gemini for Google Workspace 10</p>
+<p><span id="page_12" class="anchor"></span><img
+src="media/index-12_1.png" style="width:6.5in;height:3.65278in"
+alt="index-12_1.png" /></p>
+<p>What Gemini Advanced</p>
+<p>can do for your teams</p>
+<p>Gemini for Gemini for Google Workspace Google Workspace 11</p>
+<p><img src="media/index-13_1.png" style="width:6.5in;height:3.65278in"
+alt="index-13_1.png" /></p>
+<p>Gemini Advanced is the AI</p>
+<p>assistant your enterprise has been Gemini Advanced for Marketing
+teams</p>
+<p>looking for. Its capabilities can</p>
+<p>unlock value across different teams</p>
+<p>in your organization. From Gemini Advanced for Sales teams</p>
+<p>improving operations to teaching</p>
+<p>new concepts and skills, you Gemini Advanced for HR teams can use
+Gemini Advanced for many</p>
+<p>different parts of work. Let’s look</p>
+<p>at some departmental examples: Gemini Advanced for Finance teams</p>
+<p>Gemini Advanced for Software Development teams</p>
+<p>Gemini for Gemini for Google Workspace Google Workspace 12</p>
+<p><img src="media/index-14_1.png" style="width:6.5in;height:3.65278in"
+alt="index-14_1.png" /></p>
+<p>Gemini Advanced for</p>
+<p>Marketing</p>
+<p>teams</p>
+<p>Gemini for Google Workspace</p>
+<p><img src="media/index-15_1.png" style="width:6.5in;height:3.65278in"
+alt="index-15_1.png" /></p>
+<p>Marketing teams need a constant</p>
+<p><img src="media/index-15_2.png" style="width:6.5in;height:5.80556in"
+alt="index-15_2.png" /></p>
+<p>eye on the market to truly</p>
+<p>understand their audiences.</p>
+<p>As marketers try to keep up with changing</p>
+<p>trends and stay on top of their workloads,</p>
+<p>they need to move quickly. These challenges</p>
+<p>highlight the need for innovative solutions</p>
+<p>that can help marketing teams operate more</p>
+<p>efficiently and effectively.</p>
+<p>Gemini for Gemini for Google Workspace Google Workspace 14</p>
+<p>Gemini Advanced helps marketing teams tackle</p>
+<p>many different types of challenges. Its capabilities</p>
+<p>help marketers, for example, streamline and</p>
+<p>turbocharge desk research, allowing them to</p>
+<p>quickly gather insights on new audiences, markets,</p>
+<p>competitors, and emerging trends. By unlocking the</p>
+<p>ability to quickly segment markets, define audience</p>
+<p>profiles, and learn about customer groups, Gemini</p>
+<p>Advanced helps crack the marketing code.</p>
+<p>Gemini for Gemini for Google Workspace Google Workspace 15</p>
+<p>Gemini Advanced also helps generate highly tailored content</p>
+<p>that cater to audiences’ unique needs and expectations across</p>
+<p>the marketing funnel. All of that can lead to better customer</p>
+<p>engagement, loyalty, and tangible business results.</p>
+<p>Research your Craft and stress Generate creative</p>
+<p>audience and market test content concepts at scale</p>
+<p>Use the tool to help quickly uncover Create personalized and
+high-quality Boost creative ideation by new market trends, understand
+your content fast, or ask Gemini Advanced generating unique and
+customized audience’s demographics, interests, to help stress test your
+copy to get the campaign concepts at scale and buying and media
+consumption most out of it. That can lead to faster in just a few
+moments, including behavior; research competitive experimentation and
+testing, and taglines and imagery. offerings, positioning, messaging,
+improve engagement and performance.</p>
+<p>and more.</p>
+<p>Gemini for Gemini for Google Workspace Google Workspace 16</p>
+<p>Prompt I am a at Cymbal Media working to launch a new campaign
+focused on a new TV show about professional race</p>
+<p>example drivers. Identify potential influencers and brands that
+Cymbal Media could partner with to amplify the campaign on social media
+channels. The goal is to reach a wide audience of motor sports fans
+across different demographics and geographies,</p>
+<p>while building credibility and driving engagement.</p>
+<p>Amplifying Your Race Driver TV Show Campaign</p>
+<p>Understanding the Target Audience</p>
+<p>Before diving into potential influencers and brands, it’s crucial
+to</p>
+<p>define your target audience in detail. Consider the following:</p>
+<p>• Demographics: Age, gender, location, income, occupation.</p>
+<p>• Interests: Types of racing (Formula 1, NASCAR, IndyCar, etc.),</p>
+<p>other sports, car brands, technology.</p>
+<p>• Platforms: Where do they spend their time online? (TikTok,</p>
+<p>Instagram, YouTube, Twitter, etc.)</p>
+<p>Potential Influencers</p>
+<p>1. Professional Race Drivers:</p>
+<p><img src="media/index-18_1.png" style="width:6.5in;height:0.54167in"
+alt="index-18_1.png" /></p>
+<p>Gemini for Gemini for Google Workspace Google Workspace 17</p>
+<p><img src="media/index-18_2.png"
+style="width:1.01389in;height:1.01389in" alt="index-18_2.png" /></p>
+<p>Prompt I am a focused on paid media at Cymbal Media. I need to
+conduct in-depth audience research so that I</p>
+<p>example can develop convincing marketing artifacts for Gen Z gamers.
+To start, help me generate a comprehensive profile of Gen Z gamers.
+Include core demographics and psychographics, online platforms they
+frequent, and suggest language and messaging</p>
+<p>that resonate with them.</p>
+<p>Gen Z Gamers: A Comprehensive Profile</p>
+<p>Core Demographics and Psychographics</p>
+<p>Gen Z gamers are a diverse group, but they share some key</p>
+<p>characteristics:</p>
+<p>• Age: Primarily 13-25 years old.</p>
+<p>• Digital Natives: Grew up with technology and are highly</p>
+<p>comfortable with digital platforms.</p>
+<p>• Mobile-First: Often prefer smartphones and tablets for</p>
+<p>gaming and social media.</p>
+<p>• Diverse Interests: Gaming is just one part of their lives. They</p>
+<p>have a wide range of interests, including music, fashion,</p>
+<p>social justice, and environmentalism.)</p>
+<p><img src="media/index-19_1.png" style="width:6.5in;height:0.54167in"
+alt="index-19_1.png" /></p>
+<p>Gemini for Gemini for Google Workspace Google Workspace 18</p>
+<p><img src="media/index-19_2.png"
+style="width:1.05556in;height:1.04167in" alt="index-19_2.png" /></p>
+<p><img src="media/index-20_1.png" style="width:6.5in;height:3.65278in"
+alt="index-20_1.png" /></p>
+<p>Gemini Advanced for</p>
+<p>Sales</p>
+<p>teams</p>
+<p>Gemini for Google Workspace</p>
+<p><img src="media/index-21_1.png" style="width:6.5in;height:3.65278in"
+alt="index-21_1.png" /></p>
+<p>Sales teams can spend significant</p>
+<p><img src="media/index-21_2.png" style="width:6.5in;height:5.47222in"
+alt="index-21_2.png" /></p>
+<p>time doing administrative tasks,</p>
+<p>such as data entry, finding</p>
+<p>information, and writing emails.</p>
+<p>This leaves less time for building</p>
+<p>customer relationships and actually</p>
+<p>selling, which gets in the way of</p>
+<p>productivity and revenue generation.</p>
+<p>Gemini for Gemini for Google Workspace Google Workspace 20</p>
+<p>Gemini Advanced can help sellers speed up desk</p>
+<p>research, personalize sales pitches, and more.</p>
+<p>It can accelerate complex work like understanding</p>
+<p>new territories and competitor’s offerings, leaving</p>
+<p>more time for sellers to deliver personalized</p>
+<p>experiences for their accounts.</p>
+<p>Gemini for Gemini for Google Workspace Google Workspace 21</p>
+<p>Benefits</p>
+<p>Accelerate client Optimize sales</p>
+<p>discovery Market research strategies</p>
+<p>Boost client understanding and Identify emerging trends, better
+Gemini Advanced can help leverage these insights to cultivate understand
+new territories, uncover evaluate and refine your sales meaningful
+conversations for opportunities, and proactively look pitch, approach,
+and go-to-market stronger relationships and impact. for threats. Use
+these insights to strategy. It can also anticipate</p>
+<p>develop enhanced sales strategies and objections and provide ideas
+for</p>
+<p>offers, and proactively reach out to overcoming them to drive
+sales</p>
+<p>customers that can benefit from them. success and close deals.</p>
+<p>Gemini for Gemini for Google Workspace Google Workspace 22</p>
+<p>Prompt I am an in charge of a new customer account called Cymbal
+Accounting. I need to do initial research. What</p>
+<p>example are some of the main products in their portfolio, and the
+largest markets they operate in? <strong>Cymbal Accounting: A Brief
+Overview</strong></p>
+<p>Cymbal Accounting is a cloud-based accounting software platform that
+has gained significant traction in recent years. It’s particularly
+popular among small to medium-sized businesses (SMBs) due to its
+user-friendly interface and integration capabilities.</p>
+<p>Key Products and Services</p>
+<p>• Cloud-based accounting software: This is Cymbal Accounting’s</p>
+<p>core offering, providing tools for invoicing, bank
+reconciliation,</p>
+<p>expense tracking, and financial reporting.</p>
+<p>• Payroll: Cymbal Accounting offers payroll solutions in various</p>
+<p>regions, streamlining the process of paying employees and</p>
+<p>managing payroll taxes.</p>
+<p>• Project management: For businesses that need to track project</p>
+<p><img src="media/index-24_1.png" style="width:6.5in;height:0.54167in"
+alt="index-24_1.png" /></p>
+<p>Gemini for Gemini for Google Workspace Google Workspace 23</p>
+<p><img src="media/index-24_2.png"
+style="width:1.05556in;height:1.04167in" alt="index-24_2.png" /></p>
+<p>Prompt I’m a that will have a sales meeting about a special pricing
+offer with the leadership team at Cymbal</p>
+<p>example Beverage. Summarize the attached earnings call transcript and
+tell me more about the company. What are some of the challenges and
+opportunities they have, and what are they looking to achieve in the
+upcoming quarters?</p>
+<p>Cymbal Beverage: A National Brewery</p>
+<p>Key Takeaways from Q3 Earnings Call</p>
+<p>• Growth: Reported 5.2% year-over-year revenue growth,</p>
+<p>reaching $550 million for Q3.</p>
+<p>• Addressing consumer pressure: Launched sustainability</p>
+<p>initiative, aiming for carbon neutrality by 2030.</p>
+<p>• Seizing opportunities: The company has successfully leveraged</p>
+<p>e-commerce and direct-to-consumer channels to reach new</p>
+<p>customers and capitalize on the trend of premiumization.</p>
+<p>• Expanding horizons: Cymbal Beverages is actively exploring</p>
+<p>international markets to drive growth and mitigate domestic</p>
+<p><img src="media/index-25_1.png" style="width:6.5in;height:0.54167in"
+alt="index-25_1.png" /></p>
+<p>Gemini for Gemini for Google Workspace Google Workspace 24</p>
+<p><img src="media/index-25_2.png"
+style="width:1.05556in;height:1.04167in" alt="index-25_2.png" /></p>
+<p><img src="media/index-26_1.png" style="width:6.5in;height:3.65278in"
+alt="index-26_1.png" /></p>
+<p>Gemini Advanced for</p>
+<p>HR</p>
+<p>teams</p>
+<p>Gemini for Google Workspace</p>
+<p><img src="media/index-27_1.png" style="width:6.5in;height:3.65278in"
+alt="index-27_1.png" /></p>
+<p>HR teams can face significant time</p>
+<p><img src="media/index-27_2.png" style="width:6.5in;height:5.44444in"
+alt="index-27_2.png" /></p>
+<p>constraints. Little resources can</p>
+<p>make it difficult to properly create</p>
+<p>and maintain interview guidelines</p>
+<p>and rubrics, personalize the</p>
+<p>onboarding experience, and</p>
+<p>create relevant training.</p>
+<p>Thankfully, Gemini Advanced can help</p>
+<p>HR teams streamline processes, enhance</p>
+<p>efficiency, and enable them to double</p>
+<p>down on impactful areas of their work,</p>
+<p>fostering a more engaged and productive</p>
+<p>workforce.</p>
+<p>Gemini for Gemini for Google Workspace Google Workspace 26</p>
+<p>Gemini Advanced can mitigate time constraints and</p>
+<p>hurdles that appear during the talent acquisition</p>
+<p>and talent development lifecycles. It can help teams</p>
+<p>streamline the creation of job descriptions and</p>
+<p>tailor them to attract the candidates that best suit</p>
+<p>the roles. And it can also generate personalized</p>
+<p>training materials and onboarding resources for</p>
+<p>when new hires are brought on.</p>
+<p>Gemini for Gemini for Google Workspace Google Workspace 27</p>
+<p>Benefits</p>
+<p>Simplify the Create onboarding Create training and</p>
+<p>hiring process content development materials</p>
+<p>Get help creating first drafts of Use it to help you develop
+customized Utilize Gemini Advanced’s job descriptions and suggestions
+onboarding schedules and materials, versatile capabilities to create for
+interview questions, so you can and generate role-specific welcome
+tailored training and skill assessment spend more time sourcing and
+packs, so you can have more time programs that cater to the scheduling
+the right candidates preparing to deliver those early unique
+requirements of different for your open roles. onboarding interactions
+that are departments, seniority levels, and</p>
+<p>crucial for new hires. locations within your organization.</p>
+<p>Gemini for Gemini for Google Workspace Google Workspace 28</p>
+<p>Prompt As a , generate a set of role related knowledge interview
+questions for a marketing manager</p>
+<p>example position. The questions should assess the candidate’s
+experience with campaign development, team leadership, budget
+management, and data-driven decision-making.</p>
+<p>Role-Related Knowledge Interview Questions</p>
+<p>for a Marketing Manager</p>
+<p>Campaign Development</p>
+<p>Question:</p>
+<p>Describe your process for developing a comprehensive</p>
+<p>marketing campaign from inception to execution. How do you</p>
+<p>ensure alignment with overall business objectives?</p>
+<p>Question:</p>
+<p>How do you balance short-term and long-term goals in campaign
+planning? Can you provide an example of a campaign where you</p>
+<p>successfully achieved both?</p>
+<p>Question:</p>
+<p>How do you measure the success of a marketing campaign?</p>
+<p><img src="media/index-30_1.png" style="width:6.5in;height:0.54167in"
+alt="index-30_1.png" /></p>
+<p>Gemini for Gemini for Google Workspace Google Workspace 29</p>
+<p><img src="media/index-30_2.png"
+style="width:1.05556in;height:1.04167in" alt="index-30_2.png" /></p>
+<p>Prompt As a and , develop a training module on decision-making
+techniques for managers.</p>
+<p>example The module should cover topics such as identifying the
+problem, gathering information, evaluating options, making a choice, and
+implementing the decision. It should also address common cognitive
+biases that can hinder effective decision-making.</p>
+<p>Training Module: Decision-Making Techniques for Managers</p>
+<p>Module Overview</p>
+<p>This module aims to equip managers with a systematic approach to
+decision-making, enhancing their ability to make informed, effective
+choices. Participants will learn to identify problems accurately, gather
+relevant information, evaluate alternatives, implement decisions</p>
+<p>confidently, and overcome common cognitive biases.</p>
+<p>Module Objectives</p>
+<p>By the end of this module, participants will be able to:</p>
+<p>• Define the decision-making process and its importance</p>
+<p>in management</p>
+<p><img src="media/index-31_1.png" style="width:6.5in;height:0.54167in"
+alt="index-31_1.png" /></p>
+<p>Gemini for Gemini for Google Workspace Google Workspace 30</p>
+<p><img src="media/index-31_2.png"
+style="width:1.05556in;height:1.04167in" alt="index-31_2.png" /></p>
+<p><img src="media/index-32_1.png" style="width:6.5in;height:3.65278in"
+alt="index-32_1.png" /></p>
+<p>Gemini Advanced for</p>
+<p>Finance</p>
+<p>teams</p>
+<p>Gemini for Google Workspace</p>
+<p><img src="media/index-33_1.png" style="width:6.5in;height:3.65278in"
+alt="index-33_1.png" /></p>
+<p>Finance teams are constantly doing</p>
+<p><img src="media/index-33_2.png" style="width:6.5in;height:5.43056in"
+alt="index-33_2.png" /></p>
+<p>complicated work – from building</p>
+<p>complex financial models from scratch</p>
+<p>to keeping up with the ever-changing</p>
+<p>landscape of financial regulations.</p>
+<p>Professionals in finance can highly</p>
+<p>benefit from a tool like Gemini Advanced,</p>
+<p>that can boost their ability to deliver</p>
+<p>high-quality work faster, drive strategic</p>
+<p>decision-making, and support the</p>
+<p>organization’s financial success.</p>
+<p>Gemini for Gemini for Google Workspace Google Workspace 32</p>
+<p>Gemini Advanced can provide a comprehensive</p>
+<p>toolkit for finance professionals. It can help with</p>
+<p>complex work by helping create, assess, or fine</p>
+<p>tune financial models, or by helping with statistical</p>
+<p>analysis or sophisticated calculus. It can also explain</p>
+<p>technical concepts at a high or detailed level,</p>
+<p>depending on your needs. Gemini Advanced is a</p>
+<p>solution that helps finance professionals be more</p>
+<p>efficient and impactful in their work; it does not,</p>
+<p>however, provide financial advice.</p>
+<p>Gemini for Gemini for Google Workspace Google Workspace 33</p>
+<p>Benefits</p>
+<p>Get help understanding Build and update</p>
+<p>concepts and analyzing data financial models</p>
+<p>Generate explanations of financial concepts to Get help creating new
+models or increase the</p>
+<p>refresh your knowledge, summarize key points from efficiency of
+existing ones by generating code</p>
+<p>financial reports, or get step-by-step breakdowns to snippets or
+formulas. Have Gemini Advanced assess</p>
+<p>learn new complex topics quickly. the work and suggest improvements
+along the way.</p>
+<p>Gemini for Gemini for Google Workspace Google Workspace 34</p>
+<p>Prompt As a help me develop an algorithmic trading strategy for
+high-frequency trading of S&amp;P 500 futures. Assist me in</p>
+<p>example designing a mean-reversion strategy, exploring optimal
+parameters for entry and exit signals, stop-loss levels, and position
+sizing. <strong>Developing a Mean-Reversion Strategy for
+High-Frequency</strong></p>
+<p>Trading of S&amp;P 500 Futures</p>
+<p>Understanding the Challenge</p>
+<p>High-frequency trading (HFT) of S&amp;P 500 futures is a complex and
+competitive domain. A mean-reversion strategy, while seemingly</p>
+<p>straightforward, requires meticulous parameter tuning and robust
+execution to be profitable.</p>
+<p>Key Considerations for Mean-Reversion Strategy</p>
+<p>• Data Quality and Frequency: High-resolution, tick-level data is</p>
+<p>essential.</p>
+<p>• Mean Calculation: Determine the appropriate lookback period</p>
+<p>for calculating the mean. Shorter periods for HFT, but balance</p>
+<p>with statistical significance.</p>
+<p><img src="media/index-36_1.png" style="width:6.5in;height:0.54167in"
+alt="index-36_1.png" /></p>
+<p>Gemini for Gemini for Google Workspace Google Workspace 35</p>
+<p><img src="media/index-36_2.png"
+style="width:1.05556in;height:1.04167in" alt="index-36_2.png" /></p>
+<p>Prompt As a , help me write an Apps Script to identify clusters in a
+monthly sales dataset to help me find</p>
+<p>example groups of stores that behave similarly in terms of total
+monthly sales and average ticket size. <strong>Creating an Apps Script
+for Sales Data Clustering</strong></p>
+<p>Understanding the Problem:</p>
+<p>We want to group stores based on their monthly sales behavior.</p>
+<p>This can be achieved using clustering techniques.</p>
+<p>Approach:</p>
+<p>Data Preparation:</p>
+<p>• Ensure your dataset has columns for store ID, total</p>
+<p>• monthly sales, and average ticket size.</p>
+<p>• Normalize the data (if necessary) to ensure features</p>
+<p>• are on a similar scale.</p>
+<p><img src="media/index-37_1.png" style="width:6.5in;height:0.54167in"
+alt="index-37_1.png" /></p>
+<p>Gemini for Gemini for Google Workspace Google Workspace 36</p>
+<p><img src="media/index-37_2.png"
+style="width:1.05556in;height:1.04167in" alt="index-37_2.png" /></p>
+<p><img src="media/index-38_1.png" style="width:6.5in;height:3.65278in"
+alt="index-38_1.png" /></p>
+<p>Gemini Advanced for</p>
+<p>Software</p>
+<p>Development</p>
+<p>teams</p>
+<p>Gemini for Google Workspace</p>
+<p><img src="media/index-39_1.png" style="width:6.5in;height:3.65278in"
+alt="index-39_1.png" /></p>
+<p>Repetitive coding tasks not only drain</p>
+<p><img src="media/index-39_2.png" style="width:6.5in;height:5.44444in"
+alt="index-39_2.png" /></p>
+<p>valuable time and hinder creativity</p>
+<p>but also create a bottleneck in the</p>
+<p>development process. Maintaining</p>
+<p>code quality and catching bugs</p>
+<p>demand constant attention to detail,</p>
+<p>and neglecting these aspects can lead</p>
+<p>to technical debt and costly reworks.</p>
+<p>Teams often grapple with limited resources, both in</p>
+<p>terms of talent and time, while striving to meet tight</p>
+<p>deadlines and deliver high-quality products. This</p>
+<p>constant pressure can result in developer burnout,</p>
+<p>lower code quality, and missed opportunities for</p>
+<p>innovation and process optimization.</p>
+<p>Gemini for Gemini for Google Workspace Google Workspace 38</p>
+<p>Acting as a personal coding assistant, Gemini</p>
+<p>Advanced can help bring your ideas to life faster by</p>
+<p>boosting development speed and accuracy. It can</p>
+<p>help developers and engineers write and debug code,</p>
+<p>explore new programming languages and</p>
+<p>frameworks, and brainstorm solutions to complex</p>
+<p>technical challenges. This lets them focus on</p>
+<p>higher-level work and creative problem-solving,</p>
+<p>reducing technical debt in the long run.</p>
+<p>Gemini for Gemini for Google Workspace Google Workspace 39</p>
+<p>Benefits</p>
+<p>Code Improve code Put your code Edit and run</p>
+<p>generation quality to the test Python</p>
+<p>Gemini Advanced can Use Gemini Advanced Have Gemini Advanced Edit and
+run Python code help you write code in a to review your code create mock
+data for directly in Gemini Advanced. range of languages, you - big or
+small - in a you to test your code or Experiment with code, see simply
+have to describe few brief moments to applications with. Simply how
+changes affect the what you’re looking to do identify potential bugs
+specify what kind of data output, and verify that the and what language
+you or performance issues. you need, the format you code works as
+intended. would like to use. Gemini Advanced can also would like the
+data in,</p>
+<p>suggest improvements to how many records you</p>
+<p>help address any issues it would like generated, and</p>
+<p>points out. any specific patterns or</p>
+<p>constraints you’d like the</p>
+<p>data to follow.</p>
+<p>Gemini for Gemini for Google Workspace Google Workspace 40</p>
+<p>Prompt I’d like to implement a for an e-commerce website using
+collaborative filtering. Can you help</p>
+<p>example me with the algorithm and code implementation in Python?
+<strong>Implementing a Collaborative Filtering
+Recommendation</strong></p>
+<p>Engine in Python</p>
+<p>Understanding Collaborative Filtering</p>
+<p>Collaborative filtering is a technique that recommends items to users
+based on the preferences of similar users. There are two main types:</p>
+<p>• User-based: Recommends items to a user based on the</p>
+<p>preferences of similar users.</p>
+<p>• Item-based: Recommends items to a user based on the similarity</p>
+<p>between items.</p>
+<p>Data Preparation</p>
+<p>Before diving into the code, ensure you have a dataset containing
+user-item interactions. This could be in the form of a matrix where</p>
+<p><img src="media/index-42_1.png" style="width:6.5in;height:0.54167in"
+alt="index-42_1.png" /></p>
+<p>Gemini for Gemini for Google Workspace Google Workspace 41</p>
+<p><img src="media/index-42_2.png"
+style="width:1.05556in;height:1.04167in" alt="index-42_2.png" /></p>
+<p>Prompt I want to build a with WebSockets using Node.js and React. Can
+you guide me through the server-</p>
+<p>example side and client-side code setup, and how to handle message
+broadcasting and persistence? <strong>Building a Real-Time Chat
+Application with Node.js, React,</strong></p>
+<p>and WebSockets</p>
+<p>Understanding the Components</p>
+<p>Before we dive into the code, let’s break down the key
+components:</p>
+<p>• Node.js: Handles the server-side logic, including WebSocket</p>
+<p>connections, message broadcasting, and potentially message</p>
+<p>persistence.</p>
+<p>• React: Builds the user interface, handles user interactions,
+and</p>
+<p>manages the WebSocket connection.</p>
+<p>• WebSockets: Provides real-time bidirectional communication</p>
+<p>between the client and server.</p>
+<p>• Socket.IO: A popular library that simplifies WebSocket</p>
+<p>development on both the client and server.</p>
+<p>Server-Side Setup (Node.js)</p>
+<p><img src="media/index-43_1.png" style="width:6.5in;height:0.54167in"
+alt="index-43_1.png" /></p>
+<p>Gemini for Gemini for Google Workspace Google Workspace 42</p>
+<p><img src="media/index-43_2.png"
+style="width:1.05556in;height:1.04167in" alt="index-43_2.png" /></p>
+<p><span id="page_44" class="anchor"></span><img
+src="media/index-44_1.png" style="width:6.5in;height:3.65278in"
+alt="index-44_1.png" /></p>
+<p>Getting started</p>
+<p>Gemini for Gemini for Google Workspace Google Workspace 43</p>
+<p><img src="media/index-45_1.png" style="width:6.5in;height:3.65278in"
+alt="index-45_1.png" /></p>
+<p>Organizations need to be confident</p>
+<p><img src="media/index-45_2.png" style="width:6.5in;height:3.65278in"
+alt="index-45_2.png" /></p>
+<p>in the tools they use.</p>
+<p>They want to know that innovation and productivity will come</p>
+<p>from their investment in generative AI. Gemini Advanced offers</p>
+<p>that confidence. It provides a versatile and secure solution that
+Gemini Advanced can power the future of can act as an AI collaborator
+across many different parts of your organization’s work. It can help you
+boost your organization. It isn’t just another AI tool, it’s a solution
+that productivity, enhance decision-making, fuel can transform the way
+your organization works across multiple creativity, deliver personalized
+experiences, departments and functions. and reduce costs.</p>
+<p>Your marketing Your sales Your HR Your finance Your</p>
+<p>team? professionals? department? team? coders?</p>
+<p>Helps them streamline Helps them develop Helps them simplify Helps
+them tackle Helps them automate research, enhance deeper customer hiring
+processes, create complex concepts, repetitive tasks, personalization,
+and insights, conduct engaging onboarding and accelerate data improve
+code quality, boost content creation. efficient market experiences, and
+analysis easily. and explore innovative</p>
+<p>research, and craft developmental training. solutions.</p>
+<p>compelling pitches.</p>
+<p>Gemini for Gemini for Google Workspace Google Workspace 44</p>
+<p><img src="media/index-46_1.png" style="width:6.5in;height:3.65278in"
+alt="index-46_1.png" /></p>
+<p>Are you a Google</p>
+<p>Workspace customer?</p>
+<p>Gemini Advanced works alongside your existing tools</p>
+<p>and solutions—like Gmail, Drive, and Docs. Simply</p>
+<p>add Gemini Advanced within t<a href="http://admin.google.com">he
+Admin Console</a> or</p>
+<p><a href="https://workspace.google.com/contact/">contact our sales
+team</a> to help you understand your</p>
+<p>options.</p>
+<p>Gemini for Google Workspace Not a Google</p>
+<p>*Gemini Advanced refers to the Gemini web app (gemini.google.com).
+Access Workspace customer?</p>
+<p>to the Gemini web app (<a
+href="http://gemini.google.com">gemini.google.com), and t</a>he Gemini
+mobile apps (for</p>
+<p>Android and iOS) and the terms that apply to the use of each are
+dependent on a</p>
+<p>user’<a href="http://workspace.google.com">s Google Workspace
+li</a>cense. See t<a href="http://workspace.google.com">he Help
+Center</a> for more details. Head t<a href="http://gemini.google.com">o
+gemini.google.com t</a>o learn more,</p>
+<p>1 Deloitte, 20<a
+href="https://www2.deloitte.com/content/dam/Deloitte/us/Documents/consulting/us-state-of-gen-ai-report.pdf">24,
+Now decides next: Insights from the leading edge of generative</a> or <a
+href="https://workspace.google.com/contact/">contact our sales team
+t</a>oday.</p>
+<p><a
+href="https://www2.deloitte.com/content/dam/Deloitte/us/Documents/consulting/us-state-of-gen-ai-report.pdf">AI
+adoption</a></p>
+<p>2 Enterprise-grade security are only available to Gemini Advanced for
+Google</p>
+<p>Workspace add-ons subscribers</p>
+<p>Gemini for Google Workspace</p>
+</body>
+</html>

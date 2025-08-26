@@ -1,0 +1,323 @@
+﻿AI Tools for Education and Resources for Learning About AI 
+Cobbled Together By:  
+Brandon Lee Henry  
+Washington State University - ITS 
+Table of Contents 
+INTRODUCTION	2 
+AI TOOLS FOR EDUCATORS AND LEARNERS	3 
+• Khanmigo	3 
+• AI Pro Tools by Contact North | Contact Nord	4 
+• Perplexity AI	5 
+LEARN ABOUT AI - FREE PROFESSIONAL RESOURCES	6 
+EDUCAUSE AI WEBINAR SERIES -  SUPPORTING AI LITERACY AND EFFECTIVE PRACTICE	9 
+2025 AI+EDUCATION SUMMIT VIA YOUTUBE -   	
+STANFORD UNIVERSITY HUMAN-CENTERED AI	14 
+AI INSIGHTS: PRODUCT DEVELOPMENTS, RISK LANDSCAPES,  	
+AND SCIENTIFIC RESEARCH: EDUCATIONAL TRANSFORMATION	17 
+• Generative AI Product Tracker	17 
+• AI Risk Repository - MIT	17 
+• Artificial Intelligence and Games Science in Education	17 
+RECOMMENDED BOOKS ABOUT AI IN EDUCATION	18 
+NEWSLETTERS AND FORUMS - SUBSCRIBE	19 
+AI-DRIVEN SOFTWARE DEVELOPMENT - YOUTUBE TUTORIALS	20 
+
+This work is licensed under the Creative Commons Zero License. To view a copy of the license, visit CC0.
+Introduction 
+In the dynamic and rapidly evolving landscape of higher education, artificial intelligence (AI) stands as a pivotal force reshaping traditional educational paradigms. This report offers an indepth exploration of AI-driven innovations, providing critical insights into the tools, resources, and methodologies that are currently transforming teaching and learning environments. 
+AI technologies present remarkable opportunities to enrich educational outcomes by offering personalized learning experiences, streamlining administrative tasks, and enhancing curriculum development and delivery. To maximize the effective adoption and integration of these emerging technologies, educators have access to a wealth of professional development resources, including comprehensive webinar series, global summits, and specialized workshops dedicated to exploring the forefront of AI in education. 
+Recognizing the broader implications of AI integration involves careful consideration of both its innovative potential and associated risks. This report synthesizes essential information from AI product trackers and risk repositories, alongside cutting-edge scientific research focused on educational transformation. Special attention is given to the intersection of AI with game science, highlighting innovative practices that significantly boost engagement and educational efficacy. 
+To ensure ongoing awareness and informed decision-making, the report also includes thoughtfully curated recommendations for further exploration, including seminal books, targeted newsletters, and accessible tutorials focused on AI-driven software development. 
+Ultimately, this report serves as a comprehensive resource, equipping university decision makers with essential knowledge to effectively navigate and leverage the full potential of AI for institutional growth and academic excellence. 
+Note: Any crimson text is a hyperlink to the associated information. Names of people will link to their LinkedIn profile, if available, to make it easy to connect with them. 
+AI Tools for Educators and Learners 
+Khanmigo 
+Khanmigo is an AI-powered educational assistant developed by Khan Academy, designed to support both teachers and learners. 
+For Teachers 
+Khanmigo serves as a virtual teaching assistant, offering features such as: 
+• Lesson Planning: Assists in creating standards-aligned lesson plans, saving educators time in preparation.
+• Activity Generation: Develops classroom activities and questions tailored to specific topics or student needs.
+• Progress Reports: Generates detailed reports on student performance, aiding in personalized instruction.
+Notably, Khanmigo is now available to teachers at no cost, aiming to enhance teaching efficiency and effectiveness.  
+For Learners 
+Khanmigo functions as an always-available tutor, providing: 
+• Personalized Tutoring: Offers guidance across various subjects, encouraging critical thinking by prompting students rather than providing direct answers.
+• Writing Assistance: Acts as a writing coach, offering real-time feedback to help improve writing skills.
+• Coding Support: Provides immediate feedback on coding exercises in languages like JavaScript, HTML, Python, and SQL.
+Access to Khanmigo for learners is available for $4 per month or $44 annually. 
+Khanmigo AI Tutor - In Depth Demo - YouTube Video 
+In summary, Khanmigo is a reputable AI-driven tool that enhances educational experiences for both teachers and learners. Its effectiveness is maximized when integrated thoughtfully into the broader educational context. 
+AI Pro Tools by Contact North | Contact Nord 
+AI Teaching Assistant Pro and AI Tutor Pro are AI-powered educational tools developed by Contact North | Contact Nord, a not-for-profit corporation established in 1986. These platforms aim to support educators and learners by automating instructional tasks and providing personalized learning experiences. 
+AI Teaching Assistant Pro  
+AI Teaching Assistant Pro serves as a free digital assistant for educators, offering features such as: 
+• Multiple-Choice Question Generation: Create quizzes on any topic by specifying the subject, number of questions, and answer options.
+• Essay Question Development: Generate essay prompts with customizable difficulty levels and optional scoring rubrics.
+• Course Design Assistance: Develop course descriptions, learning outcomes, syllabi, and teaching notes.
+• Slide Builder: Create presentation slides by inputting the number of slides and the topic, with suggested graphics for each slide.
+• Learning Shorts: Produce video presentations on any topic, selecting from provided templates and previewing content before finalizing.
+AI Tutor Pro  
+AI Tutor Pro is designed to facilitate free personalized learning for students, featuring: 
+• Knowledge Assessment: The 'Check' tool allows users to evaluate their understanding of a subject through AI-generated questions, with a summary provided upon completion.
+• Skill Development: The 'Grow' tool offers interactive tutoring sessions to enhance knowledge and skills in various subjects.
+• Faculty Assistant: Educators can upload course materials to create customized assistants, aligning AI Tutor Pro's responses with specific course content.
+Both platforms emphasize privacy and data security. User data is not utilized to train AI models, and interaction data sent to ChatGPT is retained by OpenAI for up to 30 days solely to ensure compliance with usage policies.   
+In summary, AI Teaching Assistant Pro and AI Tutor Pro offer comprehensive AI-driven solutions to streamline educational processes and support personalized learning, catering to the needs of both educators and students. 
+Perplexity AI 
+Perplexity is a free AI-driven search engine and conversational assistant that leverages large language models to provide users with concise, sourced answers to their queries with easy to share search results. By interpreting natural language inputs and summarizing information from multiple web sources, it offers a dynamic tool for both educators and learners. The paid Pro version has notable additional features. 
+For Educators 
+Perplexity AI offers several features that can enhance teaching and streamline educational tasks: 
+• Efficient Information Gathering: Educators can quickly obtain summarized information on diverse topics, aiding in lesson planning and staying updated on current events.
+• Citation Integration: The platform provides responses with inline citations, allowing educators to verify information and access original sources for deeper exploration.
+• Customized Research Presentations: With the 'Pages' feature, educators can create customizable web pages and research presentations based on user prompts, facilitating the sharing of compiled information with students or colleagues.
+• Focused Search Modes: The 'Focus' feature allows educators to tailor their searches to specific platforms such as Web (a broad search across the entire internet. It includes general websites, blogs, news articles, and other publicly available online content), Academic (scholarly and research-based content, such as peer-reviewed journal articles, conference papers, theses, and other academic publications), or Social (social media platforms, forums, and other places where discussions and opinions are shared), streamlining the retrieval of relevant content for instructional use.
+For Learners 
+Perplexity AI serves as a valuable resource for students, offering tools to enhance their learning experience: 
+• Homework Assistance: Students can input questions and receive concise, accurate answers, aiding in understanding complex topics and completing assignments effectively.
+• Research Support: The platform's ability to summarize information from multiple sources helps students gather and synthesize data for projects and papers efficiently.
+• Threaded Conversations: Learners can engage in follow-up questions within the same thread, maintaining context and allowing for deeper exploration of subjects.
+• Mobile Accessibility: With applications available for iOS and Android, students can access Perplexity AI on-the-go, making it a convenient tool for continuous learning.
+By integrating Perplexity AI into their routines, both educators and learners can benefit from streamlined access to information, personalized search experiences, and tools that support efficient teaching and learning processes. 
+Learn about AI - Free Professional Resources 
+Khan Academy	
+AI For Education offers three comprehensive units to enhance educators' understanding and application of artificial intelligence: 
+Unit 1: Getting Started with Generative AI introduces the fundamentals of artificial intelligence and its ethical considerations. It features video series such as "What is AI?" and "Ethics and AI" by Code.org, providing educators with a foundational understanding of AI concepts and the importance of ethical practices in AI implementation.  
+Unit 2: Getting Ready to Teach with AI focuses on preparing educators to integrate AI into their teaching practices, this unit includes the "AI 101 for Teachers" video series, which demystifies AI concepts. It also offers insights into AI trends, practical applications in education, and strategies for addressing bias and ethics, equipping teachers with the knowledge to effectively incorporate AI tools in the classroom.  
+Unit 3: Lesson Plans: AI Literacy provides a collection of lesson plans aimed at fostering AI literacy among students. Topics covered include understanding AI, training methodologies, recognizing and addressing AI bias, the impact of AI on daily life, and exploring AI technologies like chatbots and facial recognition. These resources empower educators to engage students in critical discussions about AI's role in society and its ethical implications.  
+Collectively, these units serve as a robust framework for educators to navigate the evolving landscape of AI in education, promoting informed and ethical use of AI technologies. 
+Microsoft Learn 	
+AI for Educators learning path on Microsoft Learn is designed to help educators integrate artificial intelligence (AI) into their teaching practices. It covers essential AI concepts, including large language models (LLMs), generative AI, and prompt engineering, emphasizing their responsible use in educational settings. 
+Student Hub is a comprehensive platform designed to empower students in their educational and professional journeys. It offers a wealth of resources, including interactive projects, self-paced training, and access to a supportive community, all aimed at enhancing students' skills and preparing them for the evolving landscape of artificial intelligence (AI) and technology. 
+Grow with Google 
+Google's Generative AI for Educators is a free, self-paced course designed to help teachers integrate generative AI tools into their teaching practices. Developed in collaboration with MIT RAISE (Responsible AI for Social Empowerment and Education), this two-hour program enables educators to save time on everyday tasks, personalize instruction, and enhance lessons creatively, all without prior AI experience. Upon completion, participants receive a certificate that can be presented for professional development credit, depending on district and state requirements.  
+Google Cloud Skills Boost 
+Beginner: Introduction to Generative AI Learning Path is a free resource that offers a comprehensive overview of generative AI concepts, including large language models and responsible AI principles. This self-paced program comprises five courses:  
+• Introduction to Generative AI: Explores the basics of generative AI and its applications.
+• Introduction to Large Language Models: Examines the functionalities and use cases of large language models.
+• Introduction to Responsible AI: Discusses the importance of ethical considerations in AI development and usage.
+• Prompt Design in Vertex AI: Provides hands-on experience in crafting effective prompts within Google's Vertex AI platform.
+• Responsible AI: Applying AI Principles with Google Cloud: Focuses on implementing responsible AI practices using Google Cloud tools.
+This learning path is designed to equip learners with foundational knowledge and practical skills in generative AI, suitable for individuals seeking to understand and apply AI technologies responsibly. 
+Udemy 
+AI For Teachers and Educators is a free tutorial designed to introduce educators to AI-powered tools and resources applicable in educational settings. The course aims to equip teachers with the knowledge to effectively integrate AI into their teaching practices, enhancing both teaching and learning experiences. 
+Amazon Web Services (AWS) Training 
+Learn About Generative AI from AWS offers a comprehensive suite of training resources on generative 
+AI, catering to both beginners and seasoned professionals. These resources include digital courses like "Introduction to Generative AI - The Art of the Possible" and "Generative AI for Executives," designed to enhance understanding of AI advancements and their business applications. Additionally, AWS provides pathways to earn industry-recognized credentials, such as the AWS Certified AI Practitioner certification, enabling individuals to validate their AI expertise and advance their careers. 
+Nvidia Deep Learning Institute 
+NVIDIA Programs for Educators offers comprehensive resources for educators aiming to enhance curricula in AI, data science, and accelerated computing. Through modular Teaching Kits, qualified university educators gain access to lecture materials, hands-on exercises, and GPU cloud resources, facilitating seamless integration into academic programs. Additionally, the DLI University Ambassador Program certifies educators to deliver DLI workshops, extending these advanced learning opportunities to students, researchers, and faculty worldwide. 
+NVIDIA Generative AI Explained is a free, self-paced course designed to demystify the concepts and applications of generative artificial intelligence. This course provides learners with a foundational understanding of how generative AI works, its various applications, and the challenges and opportunities it presents. By engaging with this material, participants can enhance their knowledge of AI technologies and their potential impact across different industries. 
+DeepLearning 
+DeepLearning.AI, founded by AI pioneer Andrew Ng, offers a comprehensive suite of courses designed to equip learners with essential artificial intelligence and machine learning skills. Their flagship "Deep Learning Specialization" encompasses five courses covering neural networks, hyperparameter tuning, structuring machine learning projects, convolutional neural networks, and sequence models. Additionally, "AI For Everyone" provides a non-technical overview of AI's capabilities and implications, making it accessible to individuals across various professional backgrounds. Other offerings include specialized programs in natural language processing, machine learning engineering, and AI for medicine, all aimed at fostering a global community of AI talent. 
+Gartner 
+Gartner Experts Answer the Top Generative AI Questions for Your Enterprise Gartner 
+highlights the transformative potential of generative AI, predicting that by 2026, over 80% of enterprises will have integrated generative AI APIs or models into their operations, a significant rise from less than 5% in 2023. This widespread adoption is expected to drive faster product development, enhance customer experiences, and boost employee productivity across various industries. Notably, Gartner forecasts that by 2026, 75% of businesses will utilize generative AI to create synthetic customer data, up from less than 5% in 2023, underscoring its growing role in data-driven decision-making.  
+EDUCAUSE AI Webinar Series - Supporting AI Literacy and Effective Practice 
+EDUCAUSE AI Webinar - Part 1 
+Session 1: Developing a multi-layer capability curriculum for AI literacy 
+Presenter: David Parsons 
+Summary: David Parsons introduced the Scaffolded AI Literacy (SAIL) framework, a structured approach developed through a Delphi study involving international experts. The SAIL framework comprises four progressive levels:  
+1. Know and Understand AI: Basic knowledge and passive use.
+2. Use and Apply AI: Active engagement, such as building simple AI applications.
+3. Evaluate and Create AI: Critical evaluation and advanced AI integration.
+4. Expert Level: Deep expertise beyond general literacy.
+Parsons also highlighted three domains within the framework: AI Concepts, Application of AI & Technical Skills, and AI Digital Citizenship. 
+• Try out David's AI Literacy Design Analyzer
+Session 2: AI Literacies for a New Era of Learning 
+Presenters: Angela Gunder and Nicole Weber 
+Summary: Angela Gunder and Nicole Weber presented a taxonomy of AI literacies encompassing eight interconnected dimensions: Cognitive, Constructive, Critical, Cultural, Communicative, Creative, Collaborative, and Technical. This comprehensive framework aims to equip educators and learners with the competencies necessary to navigate and critically engage with AI technologies. The presenters emphasized the importance of addressing ethical concerns, equity, and digital inclusion in AI literacy initiatives. They also noted that educators are increasingly focusing on constructive and critical AI literacies, moving beyond mere tool usage.  
+• For more information go to: Opened Culture - Dimensions of AI Literacies
+Overall, the webinar underscored the evolving nature of AI literacy and the need for adaptable, multidimensional frameworks to prepare individuals for an AI-driven future. 
+
+2
+Session 1: Demystifying AI: Digital Detox 2024 
+Presenters: Amy Collier and Tom Woodward 
+Summary: Launched in 2019, the Digital Detox Initiative aims to encourage critical reflection on technology's role in daily life, addressing issues such as privacy, misinformation, equity, bias, and AI's impact on education. In 2024, the initiative introduced "Demystifying AI," a seven-week email-based course featuring hands-on activities like prompt engineering challenges, bias detection tasks, and persona creation exercises. Participants, including Middlebury alumni, engaged deeply with the content, appreciating its interactive and playful approach. While AI literacy frameworks were not explicitly employed, the program naturally aligned with key AI literacy themes. Looking ahead, future iterations aim to explore evolving perceptions of AI and offer increased engagement opportunities. 
+• For more information go to: Demystifying AI - Digital Detox 2024
+Session 2: MIT Sloan's AI in Education Playbook 
+Presenters: Jillian Rubman, Shallon Silvestrone, and Anna Wright 
+Summary: In the fall of 2023, MIT Sloan rapidly developed an AI Hub within three weeks to address faculty and student needs regarding AI integration, ethics, and academic integrity. Spearheaded by the AI Working Group as part of a broader institutional strategy, the hub offers practical resources, ethical guidelines, ongoing training, secure AI tool access, and updates on AI advancements. Key features include AI ethics guidelines, faculty showcases of AI applications, hands-on tutorials, best practices for prompting, and data privacy recommendations. To facilitate AI adoption, MIT Sloan provides two primary tools: Microsoft's secure AI platform, offering a ChatGPT-like experience with data protection, and a NoCode AI Application Builder, enabling faculty to create AI-powered tools without programming expertise. 
+Regular training sessions, workshops, and forums promote community learning and experience sharing. Challenges encountered during the rapid development included balancing speed with quality and ensuring community collaboration for sustainable adoption. The initiative emphasizes clear AI usage policies over unreliable detection tools, focusing on fostering AI resilience in academic assignments to mitigate cheating concerns. 
+• For more information go to: MIT - AI Hub
+The webinar emphasized the critical importance of AI literacy, ethical considerations, and robust faculty support in integrating AI into education. Key strategies highlighted include launching AI initiatives during peak faculty interest periods, utilizing existing platforms to maximize adoption, tracking engagement data to refine offerings, prioritizing hands-on learning experiences, emphasizing AI's limitations and ethical use, fostering peer-to-peer learning communities, and focusing on long-term AI literacy over transient tools. Both initiatives underscore the evolving, community-centered nature of AI literacy in higher education. 
+3
+Session 1: AI Literacy 
+Presenter: Brandon Rich 
+Summary: The University of Notre Dame has developed a comprehensive AI engagement plan through its Generative AI Task Force, focusing on enhancing AI literacy among students, faculty, and staff; promoting responsible and ethical AI use; encouraging innovation while addressing concerns; and safeguarding university data. In June 2023, the AI Enablement Team was established, comprising AI pedagogy expert Roberto Cá sarez and AI change management specialist Joe Buckhanan. Their multilayered strategy includes dispelling AI misconceptions, offering tailored training sessions, fostering crossdisciplinary collaborations, providing hands-on learning opportunities, and centralizing resources on the AI@ND website. Notably, the "Get to Know AI" monthly webinar series features experts from various disciplines to enhance foundational AI knowledge across the campus community. 
+• For more information go to: AI at Notre Dame
+Session 2: AI and Information Literacy Online Module 
+Presenter: Mona Thompson 
+Summary: The AI and Information Literacy Module, co-created by Teaching and Learning Librarian Benjamin Shaw, is a Canvas-based resource designed to enhance critical thinking and AI literacy among students. Aimed at fostering responsible AI use in academic settings, the module comprises four sections: 
+1. How AI-Based Tools Work: Introduces the fundamentals of AI mechanics and addresses ethical concerns such as bias, labor, privacy, and environmental impact.
+2. Fact-Checking AI-Generated Content: Highlights common AI errors and teaches lateral reading strategies for content verification.
+3. Citing AI Correctly: Provides guidance on appropriately crediting AI-generated material in academic work.
+4. Advanced Engagement ("Level Up" Section): Offers additional resources for students interested in deeper AI exploration.
+Designed for easy integration into courses without requiring instructors to be AI experts, the module emphasizes cognitive skills over technical proficiency, ensuring adaptability as AI technologies evolve. It has been widely adopted, integrated into 257 courses at the University of Maryland and shared with over 85 institutions globally. The module is publicly accessible through UMD Libraries under a Creative Commons license, allowing customization to meet specific course needs. 
+• For more information go to: Artificial Intelligence and Information Literacy - UM
+The webinar emphasized the importance of AI literacy in higher education, advocating for tailored approaches for diverse campus audiences, cross-disciplinary collaborations, hands-on AI engagement, accessible resources, and positioning AI as a supportive tool. 
+4
+Session 1: Navigating the Future: Open Education with Generative AI 
+Presenters: Chloe McGinley and Judith Sebesta 
+Summary: The California Community Colleges Chancellor's Office has launched a 4-week asynchronous professional development course for faculty, focusing on AI literacy, ethical considerations, AI-enhanced open educational resources (OER), and open pedagogy. Offered through the California Virtual Campus (CVC) and delivered via the Canvas Learning Management System, the course includes discussions, quizzes, and reflections. Faculty participants can earn graduate credits from Fresno Pacific University. Recognized as an Educause Horizon Report Exemplar in 2024, the course has seen significant engagement, with 280 faculty registrations and full waitlists. Course materials are openly available in Canvas Commons, and a non-facilitated version will soon be accessible on ztctap.org. 
+• For more information go to: Catalog - Online Network of Educators
+Session 2: Design Forward: The AI Challenge 
+Presenter: Martha Burtis 
+Summary: The AI Challenge Module, part of the "Design Forward" faculty development curriculum, is a self-directed, asynchronous program designed to enhance educators' understanding of generative artificial intelligence (AI). Structured into four key topics: 
+1. Fundamentals of Generative AI
+2. Teaching With Generative AI
+3. Teaching Against Generative AI
+4. Teaching About Generative AI
+The module addresses AI's capabilities and limitations, ethical considerations, and its implications for education. Participants engage in reflection exercises, such as designing AI-integrated assignments and formulating AI policies, to foster critical thinking and responsible AI use. Freely accessible under a Creative Commons license, the module emphasizes the importance of preparing students and faculty to navigate an AI-driven world ethically and effectively. 
+• For more information go to: Design Forward - The AI Challenge
+The webinar underscored the imperative of AI literacy in higher education, emphasizing that faculty must critically engage with AI's integration into educational contexts. It highlighted the necessity for targeted training to ensure both students and educators can utilize AI ethically and effectively. The discussion also addressed the dual nature of AI in teaching-its potential to enhance educational experiences and the accompanying ethical and legal challenges it presents. Moreover, the webinar stressed the importance of collaboration among faculty, IT professionals, and administrators in developing comprehensive AI policies. 
+5
+Session 1: AI Across the Curriculum 
+Presenters: Alexandra Bitton-Bailey 
+Summary: The University of Florida (UF) is committed to integrating artificial intelligence (AI) across all disciplines, encapsulated in the ethos "AI is for everyone." This initiative spans all 16 UF colleges, focusing on pedagogy, technology, and ethics in AI curriculum development. UF has developed a threepart AI framework adaptable to any discipline, encompassing AI Fundamentals, AI Ethics, and AI Applications. This framework has led to the creation of over 230 AI-designated courses, enrolling between 7,000 to 12,000 students per semester, and the introduction of undergraduate AI certificate programs in fields such as engineering, philosophy, tourism, and public health. Faculty development is supported through workshops, online resources, and learning communities, with recognition programs like the AI Educator of the Year award. 
+• For more information go to: Artificial Intelligence - University of Florida
+Session 2: Generative AI and Assessment: Design Principles for the Future of Teaching and Learning in Higher Education 
+Presenter: Benjamin Taylor 
+Summary: McMaster University conducted a study from September 2023 to February 2024 to explore the impact of generative AI on assessment design in higher education. The research involved faculty surveys, instructor interviews, and the development of an AI-driven assessment framework. This framework identifies four key approaches to integrating AI in student assessments: 
+• Collaboration: Students partner with AI in assignments.
+• Critique: Students analyze and evaluate AI-generated outputs.
+• Content Disclosure: Students document and cite their use of AI.
+• Confirmation: Instructors verify the authenticity of student work to ensure it is not AI-generated.
+The study emphasizes the importance of transparency in AI usage and highlights the need for faculty to develop AI literacy to effectively guide students. It also suggests that assessment strategies should evolve from banning AI to leveraging it for deeper learning, preparing students to engage critically and ethically with AI technologies.  
+• For more information go to: Generative AI Sample Assessments
+The final webinar addressed the potential of AI to enhance learning while acknowledging the imperative to tackle ethical concerns such as bias and misinformation. The session also advocated for evolving assessment designs that incorporate AI to foster skill development, moving beyond outright bans.  
+
+2025 AI+Education Summit via YouTube - 
+Stanford University Human-Centered AI 
+Harnessing AI to Understand and Advance Human Learning
+The panel explored AI's rapid advancements, its role in learning research, and the challenges of integrating AI into education systems.  
+Moderator: 
+• Patrick Gittisriboongul - Assistant Superintendent, Technology & Innovation, Lynwood Unified School District 
+Panelists:  
+• Emma Brunskill - Associate Professor of Computer Science and, by courtesy, of Education, Stanford University
+• Mike Frank - Benjamin Scott Crocker Professor of Human Biology and, by courtesy, of Linguistics, Stanford
+• Victor Lee - Associate Professor of Education, Stanford University; Faculty Lead on the Initiative on AI and Education, Stanford Accelerator for Learning
+Video Summary: The panelists discussed AI's growing capabilities, ethical concerns around data privacy, and the importance of preparing students for an AI-driven future. The discussion emphasized the need for education to keep pace with AI advancements and to balance AI's potential with humancentered learning. 
+One key theme was AI's rapid progress in problem-solving and educational research. AI systems, like DeepMind's math-solving model, have gone from struggling with basic arithmetic to outperforming top high schoolers in just a few years, while educational innovation typically moves much slower. AI also holds promise for accelerating learning research, with AI models helping to simulate student learning and refine educational materials. However, ensuring AI-generated content aligns with real student needs and developmental patterns remains a challenge. AI is also being used to study child learning, with research showing that AI trained on child input mimics human learning stages, offering insights into how young students acquire knowledge. 
+The panel also addressed AI literacy and its evolving definition. Students already use AI tools for grammar checks, study assistance, and content creation, but understanding AI's biases, decision-making, and limitations is crucial. Teachers require different levels of AI literacy training-some need to use AI in their teaching, while others must teach about AI itself. Scaling AI in education presents logistical and ethical challenges, as AI tools must integrate into existing school systems and accommodate diverse learning styles and cultural contexts. The discussion stressed that AI should support, not replace, educators, and policymakers must ensure AI serves all students equitably. 
+Data privacy and security were also major concerns, with student data restrictions limiting AI's ability to improve learning tools. While some countries share education data more freely, the U.S. remains cautious due to privacy laws like FERPA. The panelists suggested that de-identified, open data could help researchers innovate while protecting privacy. In the closing discussion on essential skills for an AIdriven world, panelists emphasized healthy skepticism, learning how to learn, and understanding information sources as the most critical skills for students.  
+Empowering Educators - What AI Can (and Can't) Do for Teachers 
+The panel focused on how AI can support teachers in instruction, assessment, and curriculum design while emphasizing that AI should enhance, not replace, human-centered education.  
+Moderator: 
+• Karin Forssell - Director, Learning Design and Technology (LDT) Master's Program; Senior Lecturer, Stanford Graduate School of Education
+Panelists: 
+• Molly Montgomery - Teacher Special Programs (Educational Consultant), Bay Area Writing Project (BAWP) 
+• Stephanie Sumarna - EdTech & Innovation Teacher on Special Assignment
+• Suba Marti - District STEAM Instructional Coach and Robotics and Computer Science Teacher, Kennedy Middle School
+Video Summary: The panelists discussed AI's role in personalizing learning, streamlining feedback, and making education more inclusive, while also warning against potential pitfalls like over-reliance and bias. 
+A key takeaway was that AI is a tool, not a replacement for teachers. It works best when guided by educators to personalize instruction, scaffold learning, and provide feedback, as seen in tools like Brisk, which adapts reading levels and offers automated writing feedback. However, AI-generated assessments still require human oversight to ensure accuracy and fairness. The panelists argued that traditional assessment models should evolve to reduce the temptation for students to rely on AI-generated work, shifting towards authentic, purpose-driven assignments instead of rigid formats like five-paragraph essays. 
+The discussion also stressed the importance of AI literacy-students need to understand how AI works, its ethical implications, and its limitations (such as lacking personal experience and deep reasoning). AI's role in education should shift focus from memorization to higher-order skills like critical thinking, creativity, and interdisciplinary learning. Additionally, AI can support inclusivity, offering alternative assessment methods for students with special needs. However, concerns remain about efficiency-driven AI policies that could lead to automated student tracking or AI-driven placement systems reinforcing inequalities. The panelists urged that teachers, administrators, and parents must be actively involved in shaping AI policies to prevent unintended consequences. 
+In closing, the panelists emphasized that students will be key drivers of AI innovation in education, often finding creative uses for AI beyond what teachers anticipate. AI-powered personalized learning must go beyond simple progress tracking to measure engagement and comprehension, and professional development in AI should be hands-on and relevant to real classroom needs. If used responsibly, AI has the potential to enhance accessibility, improve learning outcomes, and support educators-without replacing the vital human connection at the heart of education. 
+AI's Impact on Education - A Visionary Conversation
+The panel featured experts from Google for Education, Stanford University, and Anthropic, exploring AI's role in learning, pedagogy, and workforce preparation.  
+Moderator: 
+• Allison Scott - Chief Executive Officer, Kapor Foundation
+Panelists: 
+• Shantanu Sinha - VP and GM, Google for Education
+• Drew Bent - Higher Education Lead, Anthropic
+• Chris Piech - Assistant Professor of Computer Science and, by courtesy, of Education, Stanford University
+Video Summary: The panelists discussed AI's opportunities and challenges in bridging educational gaps, redefining teaching, and fostering creativity while addressing concerns about accessibility and reliance on AI. 
+A major theme was AI's potential to both bridge and widen education gaps. AI can reduce costs, provide scalable learning, and expand education globally, but concerns persist about inequalities-students with paid AI access may have an advantage, and developing nations might lack access to cutting-edge models. The panel emphasized that AI must be designed inclusively, with tools that cater to diverse learners. Additionally, while AI can scale learning experiences, it cannot replace human connection, as shown in Stanford's Code in Place study, where students with human mentors had higher completion rates than those with AI tutors. AI should function as a complement, not a substitute, for educators. 
+The role of educators is shifting from knowledge delivery to skill development. AI can automate tasks like grading, freeing teachers for personalized mentorship, allowing students to focus on creativity, critical thinking, and social skills. AI also serves as a creativity and learning accelerator, shifting learning from content generation to refinement and critical judgment. Project-based learning is evolving, with AI-driven debates, oral testing, and instant multimedia creation. However, risks include over-reliance on AI, potential misuse in assessments, declining human interaction, and intellectual property concerns regarding AI-generated work. 
+Finally, the panel highlighted that AI is reshaping education's curriculum-it's not just about how we teach, but what we teach. Schools must revise curricula quickly to stay relevant, emphasizing skills AI cannot replace, such as critical thinking, collaboration, and lifelong learning. The discussion closed with a reminder that education should be about more than just acquiring knowledge-it should foster human connection and growth. 
+AI Insights: Product Developments, Risk Landscapes, 
+and Scientific Research: Educational Transformation  
+Generative AI Product Tracker 	
+Generative AI Product Tracker by Ithaka S+R is a continually updated resource that catalogs generative AI tools specifically designed for or actively utilized by postsecondary educators and students in teaching, learning, or research contexts. This living document offers concise descriptions of each product, detailing their pricing models, key features, underlying large language models or datasets, and vendor backgrounds. By providing this comprehensive overview, the tracker assists faculty, students, and institutional decision-makers in navigating the rapidly evolving landscape of AI applications in higher education.  
+AI Risk Repository - MIT 
+AI Risk Repository, developed by MIT, is a comprehensive, continually updated database cataloging over 1,000 AI-related risks. It serves as a valuable resource for researchers, developers, policymakers, and educators, offering insights into potential threats posed by artificial intelligence. 
+Key Components: 
+• AI Risk Database: This extensive collection links each identified risk to its source, providing detailed descriptions and supporting evidence.
+• Causal Taxonomy: Classifies risks based on their origins, examining how, when, and why they occur.
+• Domain Taxonomy: Organizes risks into seven primary domains and 23 subdomains, such as "Misinformation," facilitating targeted exploration.
+By providing structured and detailed information, the AI Risk Repository serves as a crucial tool for comprehending and addressing the multifaceted risks associated with artificial intelligence. 
+Artificial Intelligence and Games Science in Education 
+This Special Issue, containing over 20 research papers published by Multidisciplinary Digital 
+Publishing Institute (MDPI), is aimed at providing selected contributions on advances in Artificial Intelligence in Education (AIED), encompassing technical, pedagogical, ethical, and cultural aspects for making meaningful inferences on the impact of AI in teaching and learning. 
+Recommended Books about AI in Education 
+Sourced from: Al Kingsley's recommended list of AI in Education books - LinkedIn 
+"Hands On" Guides and Books 
+ AI in Education: An Educator's Handbook - Matthew Wemyss (Amazon Link) 
+ AI in Education: A Student's Handbook - Matthew Wemyss (Amazon Link) 
+  Teaching with AI: A Practical Guide to a New Era of Human Learning - C. Edward Watson and José Antonio Bowen (Amazon Link) 
+ A Little Guide for Teachers: Generative AI in the Classroom - Laura Knight (Amazon Link) 
+  AI in Education: A Roadmap For Teacher-Led Transformation - Mike Kentz and Nick Potkalitsky, PhD (Amazon Link) 
+  Back-To-School AI Guide 2024: 46 Steps & Tools For Educators Exploring Artificial Intelligence - Dan Fitzpatrick (Amazon Link) 
+  AI for Educators: Learning Strategies, Teacher Efficiencies, and a Vision for an Artificial Intelligence Future - Matt Miller (Amazon Link) 
+ Practical AI Strategies: Engaging with Generative AI in Education - Leon Furze (Amazon Link) 
+ Little Book of Generative AI for Teaching Support Staff - Mark Anderson FCCT (Amazon Link) 
+ When AI Goes to School - Tai Paschall (Amazon Link) 
+AI in Education Books 
+  The AI Classroom: The Ultimate Guide to Artificial Intelligence in Education - Dan Fitzpatrick and 
+Amanda Fox and Brad Weinstein (Amazon Link) 
+ The Next Word: AI and Teachers - Dr Nick Jackson and Matthew Esterman (Amazon Link) 
+  The Promises and Perils of AI in Education: Ethics and Equity Have Entered The Chat - Ken Shelton and Dee Lanier (Amazon Link) 
+ Learning Evolution: The New Era of AI in the Classroom - Carl Hooker (Amazon Link) 
+  Navigating the AI Revolution in Our Schools: Ethical Insights, Policy Innovations, and Personalized 
+Learning Strategies for Educators from K to College - Samuel Mormando, Christine Gumpert and Julie Devine (Amazon Link) 
+  Infinite Education: The Four-Step Strategy for Leading Change in the Age of Artificial Intelligence - Dan Fitzpatrick (Amazon Link) 
+  What the Tech?: An Educator's Guide to AI, AR/VR, the Metaverse and More - Dr. Rachelle Dené Poth (Amazon Link) 
+  The Awkward Questions in Education: The Elephants in the Room from AI to Teacher Retention - Al Kingsley MBE (Amazon Link) 
+Newsletters and Forums - Subscribe 
+EDUCAUSE AI Community Group: A dedicated forum for higher education professionals to discuss and explore the multifaceted implications of artificial intelligence (AI) within academic settings. This group addresses a wide array of topics, including pedagogical strategies, ethical considerations, privacy issues, and the broader impact of generative AI on students, faculty, and staff. 
+Al's Edu Recommends: By Al Kingsley MBE, this newsletter provides weekly Education resources, with a focus on AI, EdTech, Edu news, apps, books and more.  
+One Useful Thing: By Ethan Mollick, a professor at the University of Pennsylvania, this newsletter provides practical advice on AI use along with analyses of future trends. Mollick is noted as a valuable source of AI insights across various platforms. 
+The Neuron: This daily newsletter delivers bite-sized information spanning advancements in machine learning, natural language processing, and practical AI tools in an easily digestible format. It balances technical insights with accessibility, making complex topics understandable to a wide audience. 
+The Rundown: Founded by Rowan Cheung, it provides quick, concise daily updates covering essential AI trends, tools, and research in a format that's easy to understand for both technical and non-technical readers. Its consistent delivery of timely insights has made it one of the most popular AI newsletters in circulation. 
+Import AI: Created by Jack Clark, this newsletter provides weekly updates on AI breakthroughs, applications, and occasional failures. This newsletter is known for its thorough analysis and sometimes includes bonus futuristic stories that provoke thought about AI's future implications. 
+FutureTools Weekly: By Matt Wolfe this newsletter delivers 5 innovative AI tools, 3 news articles, 3 videos, and monetization strategies weekly. This newsletter is particularly useful for those looking to explore practical applications of AI and potential business opportunities. 
+AI Tool Report: Teaches subscribers how to save time and earn more with AI, focusing on practical applications and productivity enhancements enabled by AI technologies. This newsletter is ideal for professionals looking to integrate AI tools into their workflows. 
+The Algorithmic Bridge: offers engaging essays on AI's impact and ethics, providing thoughtful analysis of how AI technologies are reshaping various aspects of society. This newsletter helps readers understand the wider implications of AI beyond just the technical capabilities.  
+Hugging Face Forums: An excellent forum caters to a broader range of topics, including coding, mathematics, academic papers, AI news, and more. This community focuses particularly on machine learning models and implementations, though it maintains accessibility for participants with varying levels of expertise. 
+AI in Education Community of Practice: Hosted by Future Learning, this community focuses on sharing best practices, challenges, and resources related to AI in education. It includes a moderated resource bank and toolkit for educators to enhance their ability to integrate AI into teaching practices. Members can join fortnightly online meetings and access recorded sessions. 
+AI-Driven Software Development - YouTube Tutorials 
+This section highlights real-world examples demonstrating how artificial intelligence is enabling users to effortlessly transform ideas into fully functional webpages or applications, even without any prior coding experience. While numerous tools exist, this overview specifically focuses on Cursor AI, a platform I've personally utilized and found particularly impressive due to its intuitive and powerful capabilities. With advancements like these, it becomes easy to envision a near-future reality where anyone can leverage AI agents to quickly and seamlessly create customized digital solutions in mere minutes. 
+Cursor AI 
+Building an App with ZERO Coding Knowledge is NOW Possible (Claude 3.7 in Cursor) 
+In a recent tutorial, Riley Brown demonstrates how to create a functional app in approximately 20 minutes using Claude 3.7 Sonnet within the Cursor AI coding environment. Within a short timeframe, Riley successfully develops the "Deep Content" app without writing traditional code. The application enables users to input a content idea, select a target format (either by pasting a transcript or providing a YouTube link), answer follow-up questions, and receive a comprehensive content script. This process showcases the capabilities of Claude 3.7 Sonnet and Cursor in facilitating rapid application development for individuals without coding backgrounds. 
+Vibe Coding Tutorial and Best Practices (Cursor / Windsurf) 
+In the tutorial, Matthew Berman discusses his extensive experience with "Vibe coding," an AI-assisted programming approach where an AI agent handles most, if not all, of the coding tasks. This method involves providing detailed specifications to the AI, which then generates the necessary code to build complete applications. Matthew emphasizes the importance of setting up clear rules and preferences within AI coding environments like Cursor or WindSurf to ensure the AI adheres to desired coding standards and practices. He highlights challenges encountered, such as the AI introducing unintended technologies or patterns, and stresses the necessity of guiding the AI to maintain consistency across the codebase.  
+Cursor AI Tutorial for Beginners [2025 Edition] 
+The tutorial provides an overview of Cursor's functionality, emphasizing how AI-driven features can significantly accelerate coding workflows. The speaker explains how Cursor operates similarly to VS Code but integrates AI assistance, allowing users to write code, troubleshoot errors, and even build full applications with minimal manual input. 
+The tutorial highlights key features such as AI-assisted code completion, agent-driven automation, and built-in chat capabilities that enable real-time assistance and modification of code across multiple files. Users can interact with the AI through different modes, such as "Ask" for design and debugging assistance and "Agent" for automated coding tasks. The video also explores advanced capabilities, including automated command generation, AI-driven debugging, and using context-aware tools like documentation references and external APIs. Throughout the tutorial, the speaker demonstrates how Cursor can be used to build applications efficiently while refining workflows through iterative AI feedback and real-time debugging. 
+AI Tools for Education and Resources for Learning About AI 
+
+AI Tools for Education and Resources for Learning About AI 
+
+                                                                                  Page 2 of 20Return to the Table of Contents 
+
+                                                                                  Page 2 of 20Return to the Table of Contents 
+
+
+
+
+
+AI Tools for Education and Resources for Learning About AI 
+EDUCAUSE AI Webinar - Part  
+
+AI Tools for Education and Resources for Learning About AI 
+EDUCAUSE AI Webinar - Part  
+
+                                                                                 Page 10 of 20Return to the Table of Contents 
+
+                                                                                 Page 10 of 20Return to the Table of Contents 
+
+AI Tools for Education and Resources for Learning About AI 
+EDUCAUSE AI Webinar - Part  
+
+                                                                                 Page 10 of 20Return to the Table of Contents 
+
+AI Tools for Education and Resources for Learning About AI 
+
+AI Tools for Education and Resources for Learning About AI 
+
+                                                                                 Page 10 of 20Return to the Table of Contents 
+
+                                                                                 Page 10 of 20Return to the Table of Contents 
+
+AI Tools for Education and Resources for Learning About AI 
+
+                                                                                 Page 10 of 20Return to the Table of Contents 
+
