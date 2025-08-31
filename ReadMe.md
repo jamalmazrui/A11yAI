@@ -5,11 +5,11 @@ Consultant, Access Success LLC
 
 This is a curated collection of freely-distributable, documentation addressing accessibility and AI. Accessibility is often abbreviated as a11y. 
 
-Some documements are specifically about the topic of a11y and AI. Others are intended as guides to various AI engines, structured according to accessibility guidelines for compatibility with assistive technology employed by users with disabilities.
+Some documents are specifically about the topic of a11y and AI. Others are intended as accessible guides to various AI engines-- documents viewable with assistive technology such as screen readers.
 
 The original documents are in .pdf format. Each file name is the same as the title of its content (or a close approximation to the title). For maximum accessibility, conversions to HTML and plain text formats (.htm and .txt) are also included (files with the same names except for a different extension).
 
-About 20 documents are included on the following topics:
+About 60 documents are included on the following topics:
 
 - Ethical AI
 - Google Gemini
