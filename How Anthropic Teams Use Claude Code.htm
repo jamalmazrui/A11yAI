@@ -1,11 +1,14 @@
 <!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<html xmlns="http://www.w3.org/1999/xhtml">
 <head>
   <meta charset="utf-8" />
   <meta name="generator" content="pandoc" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
-  <title>How Anthropic Teams Use Claude Code V 2</title>
+  <title>howAnthropicTeamsUseClaudeCode</title>
   <style>
+    /* Default styles provided by pandoc.
+    ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+    */
     html {
       color: #1a1a1a;
       background-color: #fdfdfd;
@@ -88,6 +91,7 @@
       color: #606060;
     }
     code {
+      white-space: pre-wrap;
       font-family: Menlo, Monaco, Consolas, 'Lucida Console', monospace;
       font-size: 85%;
       margin: 0;
@@ -107,8 +111,8 @@
      overflow: visible;
     }
     hr {
-      background-color: #1a1a1a;
       border: none;
+      border-top: 1px solid #1a1a1a;
       height: 1px;
       margin: 1em 0;
     }
@@ -151,7 +155,6 @@
     #TOC a:not(:hover) {
       text-decoration: none;
     }
-    code{white-space: pre-wrap;}
     span.smallcaps{font-variant: small-caps;}
     div.columns{display: flex; gap: min(4vw, 1.5em);}
     div.column{flex: auto; overflow-x: auto;}
@@ -170,26 +173,54 @@
 </head>
 <body>
 <p>Table of Contents</p>
-<p><a href="#Claude_Code_for_data"><u>Claude Code for data
-infrastructure</u></a></p>
-<p><a href="#Claude_Code_for_product"><u>Claude Code for product
-development</u></a></p>
-<p><a href="#Claude_Code_for_security"><u>Claude Code for security
-engineering 7</u></a></p>
-<p><a href="#Claude_Code_for_inference"><u>Claude Code for inference
-9</u></a></p>
-<p><a href="#Claude_Code_for_data_science"><u>Claude Code for data
-science and visualization 11</u></a></p>
-<p><a href="#Claude_Code_for_API"><u>Claude Code for API 13</u></a></p>
-<p><a href="#Claude_Code_for_growth"><u>Claude Code for growth marketing
-15</u></a></p>
-<p><a href="#Claude_Code_for_product_design"><u>Claude Code for product
-design 17</u></a></p>
-<p><a href="#Claude_Code_for_RL_engineering"><u>Claude Code for RL
-engineering 19</u></a></p>
-<p><a href="#Claude_Code_for_legal"><u>Claude Code for legal
-21</u></a></p>
-<p>How Anthropic teams</p>
+<p><a
+href="#How_Anthropic_teams"><u>How-Anthropic-teams-use-Claude-Code-01</u></a></p>
+<p><a
+href="#Contents____Claude_Code_for_data"><u>How-Anthropic-teams-use-Claude-Code-02</u></a></p>
+<p><a
+href="#Claude_Code_for_data"><u>How-Anthropic-teams-use-Claude-Code-03</u></a></p>
+<p><a
+href="#Claude_Code_for_data_1"><u>How-Anthropic-teams-use-Claude-Code-04</u></a></p>
+<p><a
+href="#Claude_Code_for_product"><u>How-Anthropic-teams-use-Claude-Code-05</u></a></p>
+<p><a
+href="#Claude_Code_for_product_1"><u>How-Anthropic-teams-use-Claude-Code-06</u></a></p>
+<p><a
+href="#Claude_Code_for_security"><u>How-Anthropic-teams-use-Claude-Code-07</u></a></p>
+<p><a
+href="#Claude_Code_for_security_1"><u>How-Anthropic-teams-use-Claude-Code-08</u></a></p>
+<p><a
+href="#Claude_Code_for_inference"><u>How-Anthropic-teams-use-Claude-Code-09</u></a></p>
+<p><a
+href="#Claude_Code_for_inference_1"><u>How-Anthropic-teams-use-Claude-Code-10</u></a></p>
+<p><a
+href="#Claude_Code_for_data_science"><u>How-Anthropic-teams-use-Claude-Code-11</u></a></p>
+<p><a
+href="#Claude_Code_for_data_science_1"><u>How-Anthropic-teams-use-Claude-Code-12</u></a></p>
+<p><a
+href="#Claude_Code_for_API"><u>How-Anthropic-teams-use-Claude-Code-13</u></a></p>
+<p><a
+href="#Claude_Code_for_API_1"><u>How-Anthropic-teams-use-Claude-Code-14</u></a></p>
+<p><a
+href="#Claude_Code_for_growth"><u>How-Anthropic-teams-use-Claude-Code-15</u></a></p>
+<p><a
+href="#Claude_Code_for_growth_1"><u>How-Anthropic-teams-use-Claude-Code-16</u></a></p>
+<p><a
+href="#Claude_Code_for_product_design"><u>How-Anthropic-teams-use-Claude-Code-17</u></a></p>
+<p><a
+href="#Claude_Code_for_product_design_1"><u>How-Anthropic-teams-use-Claude-Code-18</u></a></p>
+<p><a
+href="#Claude_Code_for_RL_engineering"><u>How-Anthropic-teams-use-Claude-Code-19</u></a></p>
+<p><a
+href="#Claude_Code_for_RL_engineering_1"><u>How-Anthropic-teams-use-Claude-Code-20</u></a></p>
+<p><a
+href="#Claude_Code_for_legal"><u>How-Anthropic-teams-use-Claude-Code-21</u></a></p>
+<p><a
+href="#Claude_Code_for_legal_1"><u>How-Anthropic-teams-use-Claude-Code-22</u></a></p>
+<p><a
+href="#Top_of_index_html"><u>How-Anthropic-teams-use-Claude-Code-23</u></a></p>
+<p><span id="How_Anthropic_teams" class="anchor"></span>How Anthropic
+teams</p>
 <p>use Claude Code</p>
 <p>Anthropic’s internal teams are transforming their workflows with
 Claude Code, enabling developers and non-technical staff to tackle
@@ -199,10 +230,11 @@ complex projects, automate tasks, and bridge</p>
 gathered insights on how</p>
 <p>different departments leverage Claude Code, its impact on their work,
 and tips for other organizations considering adoption.</p>
-<p>Contents <a href="#Claude_Code_for_data">Claude Code for data
-infrastructure</a> <a href="#Claude_Code_for_data">3</a> <a
-href="#Claude_Code_for_product">Claude Code for product development</a>
-<a href="#Claude_Code_for_product">5</a></p>
+<p><span id="Contents____Claude_Code_for_data"
+class="anchor"></span>Contents <a href="#Claude_Code_for_data">Claude
+Code for data infrastructure</a> <a href="#Claude_Code_for_data">3</a>
+<a href="#Claude_Code_for_product">Claude Code for product
+development</a> <a href="#Claude_Code_for_product">5</a></p>
 <p><a href="#Claude_Code_for_security">Claude Code for security
 engineering 7</a></p>
 <p><a href="#Claude_Code_for_inference">Claude Code for inference
@@ -235,7 +267,8 @@ through Google Cloud’s</p>
 <p>new IP pool and add it to the cluster, bypassing the need to
 involve</p>
 <p>team members to access and networking specialists. for technical and
-non-technical manipulate data independently.</p>
+non-technical</p>
+<p>manipulate data independently.</p>
 <p>Plain text workflows for finance team</p>
 <p>The team showed finance team members how to write plain text files
 describing their data workflows, then load them into Claude Code to get
@@ -265,7 +298,8 @@ instance maintains full context, so when they switch back after hours or
 days, Claude Code remembers exactly what they were doing and where they
 left off, enabling true parallel workflow management without</p>
 <p>context loss.</p>
-<p>Claude Code for data</p>
+<p><span id="Claude_Code_for_data_1" class="anchor"></span>Claude Code
+for data</p>
 <p>infrastructure</p>
 <p>Team impact Resolved infrastructure problems without specialized
 expertise Resolved Kubernetes cluster issues that would normally require
@@ -338,7 +372,8 @@ side), the team uses Claude Code to quickly understand how systems work.
 Instead of waiting for Slack responses, they ask Claude directly for
 explanations and code references, saving significant time in</p>
 <p>context switching.</p>
-<p>Claude Code for product</p>
+<p><span id="Claude_Code_for_product_1" class="anchor"></span>Claude
+Code for product</p>
 <p>development</p>
 <p>Team impact Faster feature implementation Successfully implemented
 complex features like Vim mode with 70% of</p>
@@ -408,7 +443,8 @@ Code</p>
 <p>to write, review, and execute specifications written in markdown and
 stored in the codebase, enabling meaningful contributions within days
 instead of weeks.</p>
-<p>Claude Code for security</p>
+<p><span id="Claude_Code_for_security_1" class="anchor"></span>Claude
+Code for security</p>
 <p>engineering</p>
 <p>Team impact Reduced incident resolution time Infrastructure debugging
 that normally takes 10-15 minutes of manual</p>
@@ -470,7 +506,8 @@ languages just for testing purposes.</p>
 <p>Instead of remembering complex Kubernetes commands, they ask Claude
 for the correct syntax, like “how to get all pods or deployment status,”
 and receive the exact commands needed for their infrastructure work.</p>
-<p>Claude Code for inference</p>
+<p><span id="Claude_Code_for_inference_1" class="anchor"></span>Claude
+Code for inference</p>
 <p>Team impact Accelerated ML concept learning Research time reduced by
 80% - what took an hour of Google searching</p>
 <p>now takes 10-20 minutes.</p>
@@ -538,7 +575,8 @@ gather context from the monorepo and execute tasks without their
 involvement in the actual coding process. This allows productivity in
 areas outside their expertise instead of spending time learning new
 technologies.</p>
-<p>Claude Code for data science</p>
+<p><span id="Claude_Code_for_data_science_1"
+class="anchor"></span>Claude Code for data science</p>
 <p>and visualization</p>
 <p>Team impact Achieved 2-4x time savings Routine refactoring tasks that
 were tedious but manageable manually</p>
@@ -569,9 +607,9 @@ simpler approaches.</p>
 <p><span id="Claude_Code_for_API" class="anchor"></span>Claude Code for
 API</p>
 <p>The API Knowledge team works Main Claude Code use cases</p>
-<p>on features like PDF support, First-step workflow planning</p>
-<p>citations, and web search that The team uses Claude Code as their
-“first stop” for any task, asking it</p>
+<p>on features like PDF support, First-step workflow planning citations,
+and web search that The team uses Claude Code as their “first stop” for
+any task, asking it</p>
 <p>bring additional knowledge into to identify which files to examine
 for bug fixes, feature development,</p>
 <p>Working across large, complex manually navigating the codebase and
@@ -590,8 +628,7 @@ help. They can ask Claude “Do you examine for any given task, and</p>
 behavior I’m seeing” and often get</p>
 <p>this experience by serving as a immediate progress, which wasn’t
 feasible before given the time guide that can help them investment
-required.</p>
-<p>understand system architecture,</p>
+required. understand system architecture,</p>
 <p>identify relevant files, and Model iteration testing through
 dogfooding explain complex interactions. Claude Code automatically uses
 the latest research model snapshots,</p>
@@ -604,7 +641,8 @@ Claude.ai</p>
 <p>while explaining problems extensively, they can ask questions
 directly in Claude Code without additional context gathering,
 significantly reducing mental overhead.</p>
-<p>Claude Code for API</p>
+<p><span id="Claude_Code_for_API_1" class="anchor"></span>Claude Code
+for API</p>
 <p>Team impact Increased confidence in tackling unfamiliar areas Team
 members can independently debug bugs and investigate incidents</p>
 <p>in unfamiliar codebases.</p>
@@ -676,7 +714,8 @@ experiments across ad iterations, allowing the system to pull previous
 test results into context when generating new variations, creating a
 self-improving testing framework. This enables systematic
 experimentation that would be impossible to track manually.</p>
-<p>Claude Code for growth</p>
+<p><span id="Claude_Code_for_growth_1" class="anchor"></span>Claude Code
+for growth</p>
 <p>marketing</p>
 <p>Team impact Dramatic time savings on repetitive tasks Ad copy
 creation reduced from 2 hours to 15 minutes, freeing up time for</p>
@@ -747,7 +786,8 @@ entire codebase, they used Claude Code to find all instances, review
 surrounding copy, coordinate changes with legal in real-time, and
 implement updates - a process that took two 30-minute calls instead of a
 week of back-and-forth coordination.</p>
-<p>Claude Code for product design</p>
+<p><span id="Claude_Code_for_product_design_1"
+class="anchor"></span>Claude Code for product design</p>
 <p>Team impact Transformed core workflow Claude Code becomes a primary
 design tool, with Figma and Claude Code</p>
 <p>open 80% of the time.</p>
@@ -812,7 +852,8 @@ manual code reading or extensive debugging output generation.</p>
 <p>They frequently ask Claude Code about Kubernetes operations that
 would otherwise require extensive Googling, getting immediate answers
 for configuration and deployment questions.</p>
-<p>Claude Code for RL engineering</p>
+<p><span id="Claude_Code_for_RL_engineering_1"
+class="anchor"></span>Claude Code for RL engineering</p>
 <p>Development Experimental approach enabled They now use a “try and
 rollback” methodology, frequently committing workflow impact checkpoints
 so they can test Claude’s autonomous implementation</p>
@@ -875,7 +916,8 @@ show to domain experts (like showing accessibility tools to UCSF</p>
 <p>specialists) to validate ideas and identify existing solutions
 before</p>
 <p>investing more time.</p>
-<p>Claude Code for legal</p>
+<p><span id="Claude_Code_for_legal_1" class="anchor"></span>Claude Code
+for legal</p>
 <p>Work style and impact Planning in Claude.ai, building in Claude Code
 They use a two-step process where they brainstorm and plan with</p>
 <p>Claude.ai first, then move to Claude Code for implementation, asking

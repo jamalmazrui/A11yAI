@@ -1,0 +1,188 @@
+﻿
+
+
+AI tools for mobile phones? 
+The majority of AI tools are used on PCs and laptops but there are many tools that work just as well on mobile phones. 
+This stream will show you how to use some of these tools on your phone. 
+ 
+How can they help me? 
+AI tools on your phone can help you in many ways. For example, you can use AIpowered voice assistants like Google Assistant to ask questions, set reminders, or make phone calls without having to type anything. You can also use AI-powered apps to record and transcribe conversations, edit your photos and video. AI tools on your phone can make your life easier and more efficient. 
+One of the major benefits to using AI on your mobile is to compile results into one answer. Instead of having multiple tabs open while searching for something, AI apps can compile the results into one easy to read answer. One of the tools shown below, Perplexity, is a great way to do this. 
+ 
+Which AI tools for mobile phones will we be exploring today? 
+There are currently a countless number of AI tools available and being developed for phones. In this self-guided demonstration, we will explore some applications including Perplexity AI, the image generation tool Wombo, and how AI is used in the music playing app Spotify. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+1. Using Perplexity AI  
+Perplexity AI is a user-friendly and versatile artificial intelligence tool that can assist with various tasks such as answering questions, generating text, writing creative content, and summarising information. It is designed to be easy to use and does not require technical expertise to access its features.  
+ 
+Load the app on your phone: 
+To get started with Perplexity, download the app onto your phone from the Google Play Store, or the Apple App Store.  
+After it has downloaded, open it and you will find yourself on a login screen. After logging in, ignore the request to pay for Perplexity by clicking the cross on the top left - if you want to pay for the premium version, you can do so later.  
+This will take you to the prompt screen, which works like most AI chatbots - after entering a question into the bar at the bottom Perplexity will generate an answer. 
+ 
+ 
+ 
+ 
+ 
+Ask a question: 
+To start with, you could either use one of the questions suggested on the prompt screen, or enter a prompt such as "What is the most common bird in New Zealand?.  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Find the sources of information. 
+Perplexity has a number of different tools that help with your search.  
+It provides sources for the information, look at the sources tab at the top of the screen. AI can be prone to getting facts wrong - so by checking the sources yourself, you can make sure that the information is sensible.  
+ 
+ 
+ 
+ 
+ 
+ 
+Useful tools. 
+Some other useful tools are at the bottom of the text. 
+ 
+●       The first option is to rewrite the text with a different AI model. AI models all have differences that means they generate answers in different ways producing different results (just like you would get different answers when you talk to different people). 
+●       With the free version of Perplexity, the only additional AI model you can use is Copilot. This provides "a more accurate and thorough search" but can only be used 5 times per day.  
+●       The other options include providing feedback on the answer, copying the answer, or sharing it online.  
+●       Below that, the app suggests follow up 'Related' questions you might like to ask. 
+ 
+ 
+ 
+ 
+ 
+Using the Copilot tool. 
+To demonstrate the abilities of Copilot, go back to the homepage of Perplexity by clicking the cross on the top right. Now, ask "Where should I travel in New Zealand?". This should give you a basic answer with some common travel destinations.  
+Now, ask Perplexity to rewrite the answer using Copilot, using the rewrite bottom shown on the bottom left of the image. 
+After answering some questions about what kind of travel you enjoy, you will be given a personalised answer. 
+This works for a variety of different questions, and can be very helpful for a question that needs to be modified for you. 
+ 
+ 
+ 
+ 
+ 
+ 
+Make your searches quicker. 
+The Perplexity search can be a great tool to avoid opening lots of tabs - for example you could ask "What are the reviews on the Iphone 15?" 
+Instead of having to click through a number of different reviews to find your answer, Perplexity can compile them into a paragraph, with sources if you want to look further.  
+Ask a follow up question. 
+Then, you can ask a follow up, something such as "What's the battery life like?" 
+ 
+These features make Perplexity a great app to use on your phone to compile search results and generate a quick answer. 
+ 
+2. Using SpotifyMany people already use Spotify, but its AI features are a little less known. Available on both the Google Play Store and Apple App Store, Spotify is an app made specifically for downloading and listening to music and podcasts.  
+Once on the app, you can access the AI features by going to the search tab, and clicking on the 'Made For You' section, as shown here: 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+The first and most obvious AI tool in this section is the DJ, which you can start by clicking on it. Although still in beta version, this is basically an AI radio station, with a DJ that selects songs for you and talks to you in between them.  
+ 
+The DJ picks three or four songs at a time based on different categories. While making this tutorial, the DJ told me that it had picked songs for me based on "what I listen to most on a Monday", some "early 2000's R&B hits" and songs that would "remind me of my school days". 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+At any time, you can go to the next category of songs by either skipping through the remaining songs in the current category, or clicking on the blue DJ icon shown on the bottom right.  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Spotify also uses AI to create playlists based on the music you already listen to. If you scroll down on the same "Made for You" section where the DJ is, you will find a variety of different playlists based on your music - "Artist Mixes" with songs similar to your favourite artists, "Mood Mixes" with songs for different moods, and "Decade Mixes" with songs from each decade, among others.  
+Note that you do have to be an active Spotify user and have some playlists and listening history for the AI to 'learn' what suggestions to make for you. 
+Each playlist has a mixture of songs that you listen to and songs that you may not have heard before. At the very bottom of the page, you should see your Daily Mixes, which have different music for you each day, always based on a specific genre that you listen to. These features are a great way to both discover new music and listen to your favourites 
+ 
+ 
+ 
+ 
+ 
+3. Using Wombo for generating images.Wombo is an app that can be used both on Android and Apple that can generate images. There are many similar tools available and Wombo is one of the better image generators. 
+ 
+Once downloaded, you can test it by clicking "Try it out". This will take you to a page where you can type in your prompt, and choose an art style.  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+For this test, we asked it to create a picture of a "Sunny shore with people lying on the beach, small waves hitting the sand, and mountains in the background" with the "Realistic V2" art style. It generated the following image.  
+For your image, you can do whatever you like, but to save the image, you will have to create an account. This is free, although there is a paid version available. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Once you have signed into an account you can generate other images - although with the free version, there is a limit to how much you can create.  
+To create new artwork, click on the "add" symbol on the bottom of the page.  
+On the following page, you can create artwork based on either text or image - you may have to scroll down to get to the prompt box. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+The text to image creation works similar to what you have already done - type in a prompt, and choose an artwork style. Put in another prompt to this image - for this image, we used "Man surfing on a big wave with lush jungle in the background", and an anime art style.  
+Once it has been generated, you have the option to regenerate the image, download it with the button on the bottom left of the image, share it, or publish it to the Wombo main page. 
+ 
+ 
+Overall, there are many great image generation apps, and Wombo is just one of them. If you find that it doesn't work the way you want, you could try other apps such as Bing's Image Creator or Imagine AI Art Generator. 
+ 
+Summary: 
+Through this demonstration you have seen just some of the many AI apps available for phones including Perplexity AI, the image generation tool Wombo, and how AI is used in the music playing app Spotify. 
+Other apps you might like to explore include Microsoft's Bing app, which has both a chatbot and an image generation feature, ChatGPT, and DungeonAI (a game using AI text generation).  
+ 

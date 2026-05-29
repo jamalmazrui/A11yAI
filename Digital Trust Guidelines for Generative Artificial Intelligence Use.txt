@@ -1,0 +1,88 @@
+﻿
+
+
+Digital Trust Guidelines for Generative Artificial
+Intelligence Use
+
+Arizona State University is committed to the practice of Principled Innovation, embracing innovation with curiosity and wisdom. The following guidelines were developed during a Summer Series of Digital Trust in AI conversations, bringing together individuals from across the campus to identify appropriate considerations for the use of Generative Artificial Intelligence (genAI) at ASU.
+"As AI models are not generally developed in consideration of educational usage or student privacy, the educational application of these models may not be aligned with the educational institution's efforts to comply with federal student privacy laws, such as FERPA, or state privacy laws." (U.S. Department of Education Office of Educational Technology, 2023) Before using a generative AI tool consider the following questions:
+●     What information am I submitting to the tool? Could it include personal information?
+●     Are you using this for personal usage or is this for ASU business or academic purposes?
+●     Are you requiring students to use the tool?
+●     Is it easy to find and understand who owns the data and content that you submit and create with the tool?
+●     Is it easy to find and understand their privacy, ethics, risk, safety and accessibility policies?
+●     What is the public discourse around the ethics and policies of the tool?
+Intellectual Property Considerations
+Intellectual property laws are designed for humans, and we're just beginning to have legal cases to help establish how we'll protect creative work that is made with the use of AI tools.
+Free generative AI tools assume that you are giving your prompts and inputs to them in return for the use of their tool. Use them with the assumption that all of what you give them and create with them is public.
+Submitting Content to a GenerativeAI Tool
+Generative AI tools learn through their interactions with users. For that reason, many generative AI tools require you to agree that they can keep the information you submit for future use, including by providing it to other users. This is especially true for free generative AI tools.
+Do not share information that is confidential under university policies and rules.
+Examples include:
+●     Student information
+●     Personnel information
+●     Information that the university has promised to keep confidential, for example, in a contract, a grant application, or a disclosure to research participants
+●     Information about the university that is confidential, proprietary, or otherwise not public
+Do not share valuable intellectual property, whether it is yours, the university's, or someone else's.
+The owner of intellectual property is entitled to control who can copy or use that intellectual property. By submitting information to a generative AI tool, you may give up valuable rights to control who can use that intellectual property in the future. This is especially problematic if you do not own the intellectual property or do not have the right to authorize others to copy or use it (for example, if the intellectual property belongs to ABOR, to another institution, or to a co-author or collaborator).
+Be absolutely certain any information submitted to an AI-based model is public and does not include any sensitive or personally identifiable information - including information that could identify someone when combined with other data.
+ASU Policy Manual
+ACD125: Computer, Internet, and Electronic Communications Information Policy ACD204-02: Code of Ethics
+Finding or submitting a new tool for consideration
+ASU has committed resources to help you assess and integrate a variety of tools into your work and classes. By using an ASU-approved tool, you will benefit from the data privacy protections and cybersecurity terms we have agreed to, as well as the risk mitigations we have put in place.
+Before you use a generative AI tool, you should understand whether you are agreeing that the tool can keep or use the information you submit and, if so, whether that conflicts with your other responsibilities.
+Many of these tools are 'click-through agreements,' and do not go through a formal procurement process. Using such tools as part of your role at the University may require taking on personal risk for the use of that tool.
+Leverage ASU's Vendor IT Risk Assessment process to ensure that the tool has been reviewed and how to integrate it into Canvas.
+Do not upload any of your own work that would result in loss of copyright or intellectual property. Here are guidelines for understanding your rights and responsibilities, including Arizona Board of Regent's (ABOR) Intellectual Property Policy 6-908:
+ASU Copyright for Authors
+ASU IP Policy
+Using the Output of a GenerativeAI Tool
+The output of a generative AI tool is a combination of the input you provide to the tool and the information the tool supplies from its data resources and processes. The more you interact with the tool, the greater your personal contribution to the resulting materials. For example, you choose what information to submit and what questions to ask, and you may also provide additional input, make follow-up inquiries, edit, select, or compile the output of the generative AI tool to assemble the final product.
+Before using a generative AI tool to prepare materials, consider whether collaborating with the generative AI tool to prepare those materials will interfere with your ability to use the output in the way you plan.
+Be honest about your use of generative AI tools in preparing the materials. Do not hide or misrepresent your use of the tool and be prepared to answer questions about how the tool contributed to the materials. If the recipient of the materials is potentially unaware that you used a generative AI tool to create them, you should affirmatively disclose that you used a generative AI tool. For example, if you were asked to provide a writing sample as part of a job application, you should disclose to what extent a generative AI tool produced the end product, as the prospective employer would otherwise assume that you had prepared the materials yourself.
+Educate yourself about and follow any specific rules that apply to the preparation of specificmaterials, including any rules that restrict the use of generative AI tools in preparing information. This could include rules in a classroom syllabus or assignment, or provisions of a grant agreement.
+Consider whether you or the university need to own the intellectual property rights of selected materials. Materials prepared using a generative AI tool may not be eligible for intellectual property rights if there is not enough direct human involvement in their development. Not owning intellectual property rights may impact your or the university's ability to publish, distribute, patent, or use the materials.
+Various grant sponsors may have different approaches to the use of generative AI.For example, the NIH prohibits reviewers from using generative AI tools in analyzing and critiquing NIH grant applications and R&D contracts proposals, seeing them as violation of confidentiality requirements.
+Understand that the international community may come to different conclusions on your rights with respect to generative AI and intellectual property. The US recently launched an effort to understand the emerging space of generative AI and copyright. The United Kingdom has working groups and anticipate guidance in 2023. Europe is considering broader AI regulation for which intellectual property will be a component.
+In the meantime, these questions may help you navigate ownership of intellectual property:
+●     Which humans are contributing to your work, and what is their contribution?
+                        ○    What expectations does your team have regarding those contributions?
+                        ○    What existing agreements or contracts might frame your work?
+                                        ■    Grant stipulations
+                                        ■    Work for Hire agreements
+                                        ■    Employee agreements
+○    Where are your team members, and what international frameworks might your work fall under?
+●     Which AI tools are you using, and what are those tools contributing to your work?
+●     Describe how your human contributions significantly shape and define the final product.
+●     Document the design process and the inputs coming from your human teams.
+Building Digital Trust
+Digital Trust is built on a foundation of preserving data dignity, designing for cybersecurity and architecting for resilience. With genAI, we are laying the groundwork for future opportunities to explore creativity and pursue our mission of access at scale.
+Transparency is a key element to building trust.
+Look for tools that make it easy to find their privacy, ethics, risk, safety and accessibility policies.
+ChatGPT and OpenAI
+ASU does not have an enterprise contract with OpenAI and has not agreed to terms and conditions that would protect your use of the tool. Consider all use of ChatGPT to be public, and currently without privacy or copyright protections.
+Zoom
+Zoom is continuously innovating and leveraging AI to improve its products. Zoom has an enterprise agreement with ASU, and we actively review our agreements to ensure that ASU data and use allow us to pursue innovation in a safe and trusted way. Their statements are typically easy to find, for example: https://explore.zoom.us/en/trust/academic-freedom/ https://explore.zoom.us/en/expression-safety-and-process-at-zoom/
+Always authenticate to Zoom using your ASU credentials to ensure your use falls under our existing data protection agreements. Keep up to date with privacy and security efforts to ensure ASU's safe use of zoom on campus.
+Engage in the conversation.
+These tools are quickly evolving - join in the conversation as we establish best practices. The ASU community is invited to join the discussion and working teams on Slack at:
+●     #ai
+●     #ai-digital-trust
+Additional Guidance
+By fostering a culture of awareness, responsibility, and compliance, we can ensure that the utilization of generative AI at ASU not only enhances our academic mission but does so in a manner that reflects our commitment to Principled Innovation.
+We recognize that the innovative application of generative AI presents a tremendous opportunity for enhancing learning, research, and administrative functions at Arizona State University. As we embark on this exciting journey, it is imperative that we adhere to a set of principles and guidelines that align with our institutional values, federal regulations and state laws.
+ASU's Provost provides resources for generative AI in Teaching.
+Policy Resources
+ACD 121: Privacy Rights of Students
+SSM 107-01: Release of Student Information
+ABOR 6-912: Access to or Disclosure of Personnel Records or Information
+ACD 811: Access to and Release of Official Personnel Records Information
+SPP 1101: Personnel Records
+ABOR 6-908: Intellectual Property Policy
+ACD 204-01: Code of Ethics
+
+ACD 204-02: Standards of Professional Conduct for Faculty Members and Academic Professionals
+SPP 801: Employee Conduct and Work Rules
+RSP 101: General Research Policy
+ASU Academic Integrity Policies and Standards: https://provost.asu.edu/academic-integrity ASU Research Integrity Policies and Standards: https://researchintegrity.asu.edu/
+ACD 125: Computer, Internet, and Electronic Communications Information Management Policy

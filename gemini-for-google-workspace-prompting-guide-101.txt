@@ -1,61 +1,63 @@
-﻿
+﻿
+
 
 
 Writing effective prompts 
 From the very beginning, Google Workspace was built to allow you to collaborate in real time with other people. Now, you can also collaborate with AI using Gemini for Google Workspace to help boost your productivity and creativity without sacrificing privacy or security. The embedded generative AI-powered features can help you write, organize information, create images, accelerate workflows, have richer meetings, and much more, all while using your favorite apps like Gmail, Google Docs, Google Drive, Google Sheets, Google Meet, Google Slides, and Gemini Advanced (the standalone chat experience available at gemini.google.com with enterprisegrade security). Gemini is accessible right where you are doing your work - with access to your personal knowledge base in Drive, Docs, Gmail, and more - so you can enhance and create powerful workflows across the Workspace apps with less tab switching and interruption.
 This guide provides you with the foundational skills to write effective prompts when using Gemini for Workspace. You can think of a prompt as a conversation starter with your AI-powered assistant. You might write several prompts as the conversation progresses. While the possibilities are virtually endless, you can put consistent best practices to work today. 
 The four main areas to consider when writing an effective prompt are:
-• Persona 
-• Task 
-• Context 
-• Format 
+•     Persona 
+•     Task 
+•     Context 
+•     Format 
  
 Here is an example of a prompt using all four areas that could work well in Gmail and Google Docs: 
  You are a program manager in [industry].  Draft an executive summary email to  [persona] based on [details  about relevant program docs].  Limit to bullet points. 
 You don't need to use all four in every prompt, but using a few will help! Always remember to include a verb or command as part of your task; this is the most important component of a prompt.
 
 Here are quick tips to get you started with Gemini for Google Workspace: 
-1. Use natural language. Write as if you're speaking to another person. Express complete thoughts in  full sentences.
-2. Be specific and iterate. Tell Gemini what you need it to do (summarize, write, change the tone, create). Provide as much context as possible.
-3. Be concise and avoid complexity. State your request in brief - but specific - language. Avoid jargon.
-4. Make it a conversation. Fine-tune your prompts if the results don't meet your expectations or if you believe there's room for improvement. Use follow-up prompts and an iterative process of review and refinement to yield better results.
-5. Use your documents. Personalize Gemini's output with information from your own files in Google Drive.
-6. Make Gemini your prompt editor. When using Gemini Advanced, start your prompts with: "Make this a power prompt: [original prompt text here]." Gemini will make suggestions on how to improve your prompt. Ensure it says what you need, and then paste it back into Gemini Advanced to get an output.
+1.    Use natural language. Write as if you're speaking to another person. Express complete thoughts in  full sentences.
+2.    Be specific and iterate. Tell Gemini what you need it to do (summarize, write, change the tone, create). Provide as much context as possible.
+3.    Be concise and avoid complexity. State your request in brief - but specific - language. Avoid jargon.
+4.    Make it a conversation. Fine-tune your prompts if the results don't meet your expectations or if you believe there's room for improvement. Use follow-up prompts and an iterative process of review and refinement to yield better results.
+5.    Use your documents. Personalize Gemini's output with information from your own files in Google Drive.
+6.    Make Gemini your prompt editor. When using Gemini Advanced, start your prompts with: "Make this a power prompt: [original prompt text here]." Gemini will make suggestions on how to improve your prompt. Ensure it says what you need, and then paste it back into Gemini Advanced to get an output.
 Prompting is a skill we can all learn. You don't have to be a prompt engineer to use generative AI. However, you will likely need to try a few different approaches for your prompt if you don't get your desired outcome the first time. Based on what we've learned from our users so far, the most fruitful prompts average around 21 words with relevant context, yet the prompts people try are usually less than nine words.
 Generative AI and all of its possibilities are exciting, but it's still new. Even though our models are getting better every day, prompts can sometimes have unpredictable responses. 
 Before putting an output from Gemini for Workspace into action, review it to ensure clarity, relevance, and accuracy. And of course, keep the most important thing in mind: Generative AI is meant to help humans but the final output is yours.
 The example prompts in this guide are meant for illustrative purposes.
 Table of contents
-Writing effective prompts .................................................... Page	2 
-Introduction .................................................................. Page	5
-Administrative support ....................................................... Page	7
-Communications ............................................................. Page	11
-Customer service ........................................................... Page	15
-Executives ................................................................... Page	20
-Frontline management ...................................................... Page	28
-Human resources ........................................................... Page	32
-Marketing .................................................................... Page	37
-Project management ........................................................ Page	46
-Sales ......................................................................... Page	50
-Small business owners and entrepreneurs ................................. Page	58
-Startup leaders  .............................................................. Page	62
-Leveling up your prompt writing ............................................ Page	67
-
+Writing effective prompts .................................................... Page                                            2 
+Introduction .................................................................. Page                                                     5
+Administrative support ....................................................... Page                                              7
+Communications ............................................................. Page                                                11
+Customer service ........................................................... Page                                                 15
+Executives ................................................................... Page                                                     20
+Frontline management ...................................................... Page                                             28
+Human resources ........................................................... Page                                                 32
+Marketing .................................................................... Page                                                    37
+Project management ........................................................ Page                                              46
+Sales ......................................................................... Page                                                        50
+Small business owners and entrepreneurs ................................. Page                                  58
+Startup leaders  .............................................................. Page                                                 62
+Leveling up your prompt writing ............................................ Page                                       67
+ 
 Introduction
 Gemini for Google Workspace: Prompting 101
 Gemini for Workspace is your AI-powered assistant integrated into the apps you use every day - Gmail, Google Docs, Google Sheets, Google Meet, Google Slides, and Gemini Advanced (the standalone chat experience available at gemini.google.com with enterprise-grade security). This means the apps you know and use will work together smoothly so you can collaborate with Gemini right where you are. You can have fewer interruptions to your focus and workflow, helping you complete tasks and do things you might not have initially known how to do. 
 You can access the features of Gemini for Workspace in multiple ways. Engaging with Gemini in the side panel of your Workspace apps allows you to create highly personalized generative AI outputs that are based on your own files and documents - even if they aren't Google Docs. You can generate personalized emails in seconds referencing your own Docs to pull in relevant context, generate Slides that are based on information directly  from your own briefs or reports, and so much more. 
 Understanding what makes an effective prompt and learning to craft prompts on the fly can boost your productivity and creativity. Gemini for Workspace can help you:
-• Improve your writing
-• Organize data
-• Create original images
-• Summarize information and surface insights 
-• Have better meetings with automatic note taking
-• Research unfamiliar topics easily
-• Spot trends, synthesize information, and identify business opportunities 
+•   Improve your writing
+•   Organize data
+•   Create original images
+•   Summarize information and surface insights 
+•   Have better meetings with automatic note taking
+•   Research unfamiliar topics easily
+•   Spot trends, synthesize information, and identify business opportunities 
 For 25 years, Google has built helpful, secure products that give users choice and control over their data. It's a bedrock principle for us. This was the case back when we first launched Gmail in 2004, and it remains true in the era of generative AI. This means your data is your data and does not belong to Google. Your data stays in your Workspace environment. Your privacy is protected. Your content is never used for targeting ads or to train or improve Gemini or any other generative AI models.
 How to use this prompt guide
 This guide introduces you to prompting with Gemini for Workspace. It includes strong prompt design examples to help you get started. Additionally, it covers scenarios for different personas, use cases, and potential prompts.
+
 You will notice a variety of prompt styles. Some prompts have brackets, which indicate where you would fill in specific details or tag your own personal files by typing @file name. Other prompts are presented without variables highlighted to show you what a full prompt could look like. All of the prompts in this guide are meant to inspire you, but ultimately they will need to be customized to help you with your specific work.
 To get started, use the role-specific suggested prompts as inspiration to help you unlock a new and powerful way of working.
 
@@ -69,7 +71,7 @@ Prompt iteration example
 NEW Use case: Plan agendas (offsite, meetings, and more)
 You're planning a three-day offsite meeting. To build an agenda, you brainstorm with Gemini Advanced. You type:
  I am an executive administrator to a team director.  Our newly formed team now consists of content   marketers, digital marketers, and product marketers. We are gathering for the first time at a three-day   offsite in Washington, DC.  Plan activities for each day that include team bonding activities and time for   deeper strategic work.  Create a sample agenda for me.  (Gemini Advanced) 
-	•  Persona 	•  Task 	•  Context 	•  Format 
+              •  Persona               •  Task                •  Context               •  Format 
 
 This is a helpful start to your planning. You need to generate specific ideas for the team bonding activities.  You type:
 
@@ -109,7 +111,7 @@ Prompt iteration example
 NEW Use case: Create a press release
 You are in charge of public relations at a company in the personal care industry. The company you work for has just acquired a smaller brand, and you need to craft a press release. You've completed interviews with your company's CEO, CFO, and the acquired company's CEO. You've stored all of the most important quotes in one Doc. You also have a Doc with all of the information about the acquired brand, its vision, how it got started, and stats. You open a new Doc and prompt Gemini in the Docs side panel and type @file name to reference your relevant files. You type:
  I'm a PR manager.  I need to create a press release with a catchy title.  Include quotes from  @[VIP Quotes Acquisition].  (Gemini in Docs) 
-	•  Persona 	•  Task 	•  Context 	•  Format 
+              •  Persona               •  Task                •  Context               •  Format 
 
 [Gemini returns a response]
 Now you have a starting place for the press release, but you want to include more details about the brand that is being acquired and its founder. This information is stored in your Drive in another file. In the press release Doc,  you prompt Gemini in the Docs side panel. You type:
@@ -150,7 +152,7 @@ Prompt iteration example
 Use case: Draft customer communications
 You're a customer service representative, and you're responsible for responding directly to customer inquiries and concerns. You just received an email from a customer who received damaged goods. You open a new Google Doc and click on Help me write to prompt Gemini in Docs. Type the following:
  Help me craft an empathetic email response.  I am a customer service representative,  and I need to   create a response to a customer complaint.  The customer ordered a pair of headphones that arrived   damaged. They've already contacted us via email and provided pictures of the damage. I've offered a   replacement, but they're requesting an expedited shipping option that isn't typically included with their   order.  Include a paragraph that acknowledges their frustration and three bullet points with potential   resolutions.  (Gemini in Docs) 
-	•  Persona 	•  Task 	•  Context 	•  Format 
+              •  Persona               •  Task                •  Context               •  Format 
 Gemini in Docs: [Drafts email copy]
 
 You like the email that Gemini in Docs created so you select Insert. But you want to brainstorm ways to resolve the issue without offering expedited shipping. You prompt by selecting Help me write. You type: 
@@ -204,7 +206,7 @@ Prompt iteration example
 Use case: Communicate on the go
 You are an executive about to board a long flight, and you just received an invitation for the next board meeting with an agenda. You have a couple of comments, and you want to propose adding a few topics to the agenda. You open Gmail, and you prompt Gemini in Gmail. You type: 
  Draft an email  confirming that I will be at the board meeting.  Ask if we can adjust the agenda to give 15   minutes to [urgent topics].  (Gemini in Gmail) 
-	•  Persona 	•  Task 	•  Context 	•  Format 
+              •  Persona               •  Task                •  Context               •  Format 
 Gemini in Gmail: [Drafts an email]
 
 The email looks good, but you want to make sure the tone is as formal as possible. You select Refine  and Formalize.
@@ -295,7 +297,7 @@ Prompt iteration example
 NEW Use case: Find accurate information quickly 
 A customer just approached you with a question about an ongoing sale. You could use help navigating the numerous files you have access to so that you find the right information quickly. You prompt Gemini in the Drive side panel. You type:
  Find the document  that details the [company name]'s  [holiday] sale details.  (Gemini in Drive) 
-	•  Persona 	•  Task 	•  Context 	•  Format 
+              •  Persona               •  Task                •  Context               •  Format 
 
 Gemini in Drive returns suggested relevant files. From the side panel, you can directly summarize the files or you can click into a specific document. You open a suggested Doc to help answer the question. You prompt Gemini in the Docs side panel. You type:
  How much can customers save on [product type] during this sale?  (Gemini in Docs) 
@@ -334,7 +336,7 @@ Prompt iteration example
 Use case: Welcome new employees
 You're an HR manager working on a presentation script. You have a Google Doc full of notes, bullet points, and topics that you would like to cover. You begin by opening your Google Doc with notes, and you prompt Gemini  in Docs.
  I am an HR manager,  and I am developing a script for my presentation for new hires.  I need to create the   script for an onboarding presentation about our company's commitment to employee development and   well-being.  Help me draft talking points that showcase why employee mentorship and development are   core values for our company using @[Mission Statement and Core Values].  (Gemini in Docs) 
-	•  Persona 	•  Task 	•  Context 	•  Format 
+              •  Persona               •  Task                •  Context               •  Format 
 Gemini in Docs: [Drafts talking points] 
 
 You select Insert. Now, you want to add more targeted talking points. You type:
@@ -400,7 +402,7 @@ You own your own consulting business and are often hired to function as a brand 
  Target Audience: Appeal to a wide range of gamers (casual and enthusiast), as well as coffee lovers  
  seeking a unique hangout spot.
  Style Options: I'm open to these approaches - let's get a few examples in each of these three styles to  compare: Modern and Playful: Bold colors, fun graphics, maybe a pixel art aesthetic. Retro-Cool: Think   classic arcade style - chunky lettering, neon color inspiration. Sleek and Minimalist: Clean lines,   geometric shapes, a more subtle nod to both themes.  (Gemini Advanced) 
-	•  Persona 	•  Task 	•  Context 	•  Format 
+              •  Persona               •  Task                •  Context               •  Format 
 
 You like the retro-cool options. You continue your conversation and you type: 
  I like the retro-cool options.  Can you provide three more  in that same style?  (Gemini Advanced) 
@@ -497,7 +499,7 @@ Prompt iteration example
 Use case: Generate user acceptance tests
 Your team completed the registration form for a new website, and now you need to generate user acceptance tests (UATs). To start, you visit Gemini Advanced and type: 
  Create a table with 10 user acceptance tests (UAT)  for the website registration form.  (Gemini Advanced) 
-	•  Persona 	•  Task 	•  Context 	•  Format 
+              •  Persona               •  Task                •  Context               •  Format 
 
 You think the results are a helpful starting point, so you copy the results to a Google Sheet before drafting an email to your colleague who is running the UATs. You want to explain what they need to do. You continue your conversation with Gemini Advanced. You type: 
  Draft an email  to [my colleague] who is running this UAT and explain what they need to do next.  
@@ -538,7 +540,7 @@ Prompt iteration example
 Use case: Conduct customer research 
 You're an account executive, and you've just been assigned to a new customer. You need a research assistant. You will need to get to know key contacts at the account to begin building trust between your teams, but first, you want to send an introductory email, so you open Gmail and prompt Gemini in Gmail by selecting Help me write. You type:
  Write an email to [name], the new [title] at [company].  Congratulate them on their new role. Introduce me   as their contact point at [company name]. Invite them to lunch next week and check if they prefer Monday  or Tuesday.  (Gemini in Gmail) 
-	•  Persona 	•  Task 	•  Context 	•  Format 
+              •  Persona               •  Task                •  Context               •  Format 
 Gemini in Gmail: [Drafts email]
 
 This provides a helpful starting point, but you want to try getting an even better response. You click Refine  and Formalize.
@@ -635,7 +637,7 @@ Use case: Create pricing comparison
 You are the owner of a local spa. You are evaluating offers you've received from two different cleaning companies. You want to find a company with the right price, flexibility, and level of service. You open a new Doc and prompt Gemini in the Docs side panel and tag relevant files by typing @file name in your prompt. You type:
  I'm a business owner  and I'm trying to determine the right cleaning vendor using 
  @[Company A Proposal] and @[Company B Proposal]. I need someone to come twice a week,   and I want them to vacuum, mop, dust, clean the windows, and wipe down all surfaces. If available,   include information about the booking and cancellation policy.  Create a comparison table between   the two companies' proposals.  (Gemini in Docs) 
-	•  Persona 	•  Task 	•  Context 	•  Format 
+              •  Persona               •  Task                •  Context               •  Format 
 
 Gemini returns a formatted table comparing the two proposals. After you make your decision, you go to your email and prompt Gemini in the Gmail side panel. You type:
  Write an email to Company A  thanking them for their time and their proposal.  Ask for a few times  
@@ -678,7 +680,7 @@ Prompt iteration example
 Use case: Brainstorm business and strategy 
 You just had a productive planning and strategy brainstorming session with colleagues and you took many notes physically on a whiteboard. You snap a quick image with your phone and upload it directly to Gemini Advanced. You type:
  I am a founder at a startup focused on [industry].  I was brainstorming with colleagues about [topic], and   we took notes on this whiteboard.  Turn these notes into text.  (Gemini Advanced) 
-	•  Persona 	•  Task 	•  Context 	•  Format 
+              •  Persona               •  Task                •  Context               •  Format 
 
 Now you want to proactively continue brainstorming before you recap all of the ideas and notes for the group in a follow-up email. You continue the conversation and type:
         Suggest follow-up items we could discuss for our [topic of brainstorm session].  What was not covered   that could have been, and what are we potentially missing?  (Gemini Advanced) You save all of your notes by clicking Share & export and Export to Docs. You are ready to send the recap message to the team, so you open your email and prompt Gemini in the Gmail side panel and tag the relevant file of notes by typing @file name. You type:
@@ -721,22 +723,16 @@ I am head of product at [startup] in the [industry] industry. We are adding [fea
 Gemini returns a helpful starting point. You want to save the work so you click Export to Docs.
 Leveling up your prompt writing
 This guide is meant to serve as inspiration, and the possibilities are nearly endless with Gemini for Google Workspace. Build on your prompt-writing skills using these tips.
-• Break it up. If you want Gemini for Workspace to perform several related tasks, break them into  separate prompts.
-• Give constraints. To generate specific results, include details in your prompt such as character count limits or the number of options you'd like to generate.
-• Assign a role. To encourage creativity, assign a role. You can do this by starting your prompt with language like: "You are the head of a creative department for a leading advertising agency ..." 
-• Ask for feedback. In your conversation with Gemini Advanced, tell it that you're giving it a project, include all the relevant details, and then describe the output you want. Continue the conversation by asking questions like, "What questions do you have for me that would help you provide the best output?"
-• Consider tone. Tailor your prompts to suit your intended audience. Ask for outputs to have a specific tone, such as formal, informal, technical, creative, or casual.
-• Say it another way. Fine-tune your prompts if the results don't meet your expectations or if you believe there's room for improvement. An iterative process of review and refinement often yields better results.
+•   Break it up. If you want Gemini for Workspace to perform several related tasks, break them into  separate prompts.
+•   Give constraints. To generate specific results, include details in your prompt such as character count limits or the number of options you'd like to generate.
+•   Assign a role. To encourage creativity, assign a role. You can do this by starting your prompt with language like: "You are the head of a creative department for a leading advertising agency ..." 
+•   Ask for feedback. In your conversation with Gemini Advanced, tell it that you're giving it a project, include all the relevant details, and then describe the output you want. Continue the conversation by asking questions like, "What questions do you have for me that would help you provide the best output?"
+•   Consider tone. Tailor your prompts to suit your intended audience. Ask for outputs to have a specific tone, such as formal, informal, technical, creative, or casual.
+•   Say it another way. Fine-tune your prompts if the results don't meet your expectations or if you believe there's room for improvement. An iterative process of review and refinement often yields better results.
 Generative AI and all of its possibilities are exciting, but it's still new.  Even though our models are getting better every day, prompts can sometimes have unpredictable responses.
 Before putting an output from Gemini for Workspace into action, review it to ensure clarity, relevance, and accuracy. And of course, keep the most important thing in mind: Generative AI is meant to help humans,  but the final output is yours.
 The example prompts in this guide are meant for illustrative purposes.
 Stay up to date 
 workspace.google.com  workspace.google.com/blog
-	Happy prompting!
-
-1
-
-1
-
-1
+      Happy prompting!
 

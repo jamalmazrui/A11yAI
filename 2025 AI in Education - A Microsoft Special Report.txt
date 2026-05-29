@@ -1,0 +1,213 @@
+﻿
+
+
+
+
+
+The Age of Creation and Conversation
+Over the past year, AI has emerged as a creative thought partner in the classroom. Leaders at Fulton County Schools in Georgia wanted to create more personalized learning experiences for their 87,000 students across 104 schools. After training educators and students on how to use the tool and create a structured and protective environment, the district wove Copilot Chat into the curriculum. They quickly saw an increase in student confidence and curiosity. "We use Copilot Chat as a brainstorming partner to ideate, but not to actually do our work for us," said Pragya Modgil, a junior in the district. "It helps us collaborate and expand our creativity to think of more ambitious ideas."
+"I see great examples where AI is used, not just in a one-to-one situation-one kid in front of a computer-but a group or a whole class using it as a catalyst for conversation. This is the age of conversation. It's fueled by AI, but it's about the power of conversation and dialoguing, and that's a very human experience."
+Mark Sparvell,
+Director, Marketing Education, 
+Microsoft
+
+
+
+
+
+
+
+
+
+
+A Steep Adoption Curve
+•   The percentage of students and educators in the US1 who say they use AI "often" for school-related purposes jumped from last year by 26 points and 21 points, respectively.
+•   The portion of US students who say they have never used AI dropped by 20 points from last year.
+•   Notably, while most respondents in all groups have used AI at least once (with many who use it daily or weekly), less than half of educators and students said they knew a lot about it, a disconnect that points to the importance of AI discussions, training, and literacy.
+•   Discover more insights in the extended survey data.
+¹Global year-over-year figures are not available
+7
+
+AI for Students
+Students' familiarity, use, and comfort with AI has increased dramatically; they often use it to save time, improve work, and assist with learning.
+In a recent study from Australia, university students who used an AI-powered chatbot saw a nearly 10% improvement on their exam grades over peers who weren't using the tech. Predictably, AI use peaked during the weekend before the final exam; after the test, 72% of users stated they would be very disappointed if they couldn't use it again.
+AI for Educators
+Creating materials for class and answering common questions from students are time-consuming jobs for educators, who increasingly leverage AI to support these core tasks. Many have also expanded their use of AI to help students learn inside and outside of the classroom.
+The Education Authority of Northern Ireland, which encompasses 
+21,000 educators and 380,000 students, integrated Microsoft 365 Copilot to reduce teacher workload, enabling them to more quickly prepare lesson materials like PowerPoint presentations and develop resource materials that can address diverse learning styles.
+Faculty at the University of Manchester are using Microsoft 365 Copilot to support curriculum development and design, expedite research processes, tailor learning materials, and save time. They're also focusing on sharing knowledge, building AI skills, and exploring the potential of agents.
+
+
+
+From a Boost in the Classroom to a Boost in the Workplace
+According to our survey, 33% of leaders use AI to provide accessibility tools that help students participate more fully, a benefit that is also borne out in workplace studies: a recent study from EY and Microsoft found that more than three-quarters of self-reported neurodivergent participants said that Copilot helped them perform better at work, improved the quality of their work, and boosted feelings of inclusion.
+It helped 80% of them with written communication, while 90% reported that it made key tasks, like understanding meeting contributions and creating follow-up actions, more accessible and efficient.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Increased AI Literacy and Training Needs
+Students and educators are still gaining the AI knowledge and skills they need as new standards are being defined, such as the AI Literacy Framework from the European Commission, OECD, and Code.org.
+Given the speed at which AI is improving, there is a substantial learning curve and, in many schools and districts, an urgent need to increase training opportunities.
+Internationally, 76% of academic and IT leaders say that half or more of AI users at their institution had received training, but 45% of educators globally and 52% of students in the US said they had not received any training. This gap points to both a need for more training and a need for leaders to focus on the gap between what they feel they have provided and what educators and students feel they have received. (Explore the survey data details.)
+"Teachers are saying, 'I need training, it needs to be high quality, relevant, and job-embedded.' I hope that administrators will not say 'no one's allowed to use AI' or 'AI's the future, 
+figure it out.' In reality, people require guidance, and that means teachers and administrators going through professional development."
+Pat Yongpradit, Chief Academic Officer, Code.org / TeachAI
+Working 
+Together to 
+Address Challenges
+Now more than ever, it's important for educators and students to collaborate on challenges.
+A key concern is privacy and security-and with good reason: according to a recent Microsoft Digital Defense report, Education and Research was the second-most-targeted sector (21%) by nation-state threat actors in 2024. Some students have joined the fight. At universities across the country, AI is being used to battle cybercrime, and students assist their school's security operations centers (SOCs) and use Security Copilot. It's a win-win: universities get the IT resources they need, while students get on-the-job cybersecurity training.
+In the Kent School District in Washington State, teachers use Minecraft Education to bridge the digital divide, building skills like AI literacy and coding among their diverse student body by harnessing the lure of the popular video game. For educators lacking in AI literacy themselves, the district offers intensive content-based training tailored to their specific subjects.
+Another creative approach to training: At the University of Sydney, professors build their own trusted AI "agents" to act as virtual TAs. The professors are empowered by becoming an active part of the AI process while modeling appropriate usage for their students.
+
+
+
+
+
+
+
+
+
+
+Increasing AI Proficiency
+Microsoft's latest Work Trend Index Annual Report explored how AI is transforming today's workplace and the skills needed to thrive in these Frontier Firms, where intelligence is available "on tap." Data from that research showed that 71% of education leaders say their institution is considering adding AI-focused roles, and 75% are confident they'll use agents to expand workforce capacity in the next 12 to 18 months.
+When it comes to the workforce of the future, upwards of 47% of leaders consider upskilling employees in AI as the top workforce strategy for the next 12 to 18 months, while 78% are considering hiring for AI-specific roles to prepare for the future. Key AI skills that today's students (and thus, tomorrow's workers) will need, according to the report:
+•   Knowing how to use AI as a colleague and team member, not as a tool
+•   Learning how and when to delegate to AI, versus human workers
+•   Thinking like a manager-since everyone will be managing AI
+"My theory is that educational institutions are going to start to need to think about, how do we essentially produce early-in-career talent that works as well as mid-career talent used to? In other words, during their education, how do they learn to become the boss of agents, such that they are able to command a team, able to produce the same type of work a medium- or large-size team would produce. And we expect that earlyin-career folks will be able to do that work now with the aid of these tools."
+Jared Spataro,
+Chief Marketing Officer, 
+AI at Work
+
+
+
+
+Introducing training, with 54% of global educators and 76% of global leaders viewing AI Educators and education leaders acknowledge the need for more AI skills 
+literacy as an essential component of basic education for every student. In the AI Fluency to US, 79% of higher education educators say AI literacy is essential.
+the Curriculum
+At Auburn University, a "teaching with AI" course helps faculty incorporate AI into their curriculum, while formal training programs in AI help students and staff continuously improve their AI skills.
+In a collaboration between Microsoft and World Wide Technology, 60 K-12 educators from several metro Atlanta school districts received training in AI literacy this spring, covering everything from prompting techniques to how to use AI to personalize learning for individual students. "As we prepare students for jobs that do not yet exist, integrating AI into education ensures they develop critical problem-solving and computational thinking skills," one participant said.
+At the University of Waterloo, an AI-powered tool helps students search for and land jobs-while the school's Waterloo Experience Accelerate program helps them prepare for AI-driven careers, with hands-on training in everything from cloud computing to data analytics.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+A Thought Partner
+Asking AI for assistance with quick answers is one thing; but the real opportunity lies in helping students better understand how to get there on their own. In a Microsoft Research study, researchers found that learners gain a deeper comprehension of course material when given LLM-based explanations versus just the correct answers. Exposure to those explanations also increased how much students felt they learned-and decreased how difficult the problems seemed to them. "How do you structure writing assignments so that you're helping kids build the skills that you want them to build, and maybe also integrating the new tools and ways of building those skills we have because of AI? The student articulates an argument, outlines a draft of that argument, and then critiques, refines, and polishes it with AI as a thought partner."
+Jake Hofman, Senior Principal Researcher at Microsoft Research
+
+Exploring New brought Microsoft 365 Copilot to 12,500 of its educators and support staff, Brisbane Catholic Education (BCE), which encompasses more than 140 schools, 
+resulting in a reduced administrative load and more time to support students- Opportunities essential for a profession with high burnout and attrition risk. BCE also provided 
+students aged 13 and up access to Microsoft 365 Copilot Chat to aid in with AI brainstorming and confidence building, resulting in a 275% increase in learner agency for at-risk cohorts.
+In one study conducted in a master's program at Indiana University's Kelley 
+School of Business, students performed two tasks-one group using Microsoft 365 Copilot, the other with no AI assistance. The group using Copilot significantly improved their performance, increasing grades by 10% and reducing the time taken for the task by 40%. However, the use of Copilot diminished students' perceptions that the work was their own-highlighting a novel tension between learning efficiency and the intrinsic value of learning.
+Critical educational data is often unstructured, and British Columbia's Coquitlam School District transformed that data into actionable insights to make more informed real-time decisions. "Intelligent, AI-supported tools like Copilot will give us the ability to gain insights that will change the educational world," said Assistant Superintendent and CIO Stephen Whiffin.
+
+Sparking Curiosity and New Ideas
+In a survey of university students and educators in the UK, students looked to AI to explain study materials to them, summarize and search for information, and to help spark ideas in collaborative give-and-take sessions ("what would you suggest reading further?," one asked his AI "tutor"). They reported that AI helped them overcome creative blocks and learn beyond the school-provided material, and appreciated that AI-driven assistance was available around the clock.
+"When kids are curious, motivation isn't an issue. When we look at effective learning design using technology, it has to come from a place of: how can we leverage AI to spark curiosity? It's not just a pathway to employability, but it's a pathway to be able to fully participate in civic society, to fully participate in the social fabric of the future world. It's those very human qualities that are going to make the difference between those who are successful and those who might be left behind."
+Mark Sparvell,
+Director, Marketing Education, 
+Microsoft
+
+
+
+
+
+
+
+
+
+
+
+
+
+References
+AI in Education Microsoft Study, 2025
+The AI in Education Microsoft study was conducted in partnership with PSB Insights among 1,851 respondents from K-12 and higher education institutions in the United States, the United Kingdom, Australia, Brazil, Japan, and Saudi Arabia. International audiences included educators and academic leaders across K-12 and higher education. US audiences also included students (ages 16+) and IT leaders across K-12 and higher education. Global data is weighted based on World Bank education spend estimates. Leader data points include both academic and IT leaders. The online quantitative survey was fielded February 13 - March 9.
+Case Studies:
+"Fulton County Schools transform learning experiences with Microsoft 365 Copilot Chat" (May 12, 2025)
+"Macquarie University students' exam scores up by nearly 10 percent thanks to new AI- powered chatbot" (Microsoft Source Asia, March 24, 2025)
+Students excel with Northern Ireland's 
+Microsoft Copilot integration (December 12, 2024)
+"How AI is Transforming Business Operations in K-12" (EdTech Magazine, April 8, 2025)
+"With Microsoft 365 Copilot, teachers at the Primary School of Aš Czechia prepare for classes 3x faster" (October 21, 2024)
+AI and Traditional Learning: Complementary Strategies for Deeper Learning
+"How Universities are tapping students and AI to fight the growing threat of cybercrime" (Deborah Bach, March 24, 2025)
+"Kent School District deepens learning and student engagement with Minecraft Education" (June 26, 2024)
+"The University of Sydney utilizes the power of Azure OpenAI to allow professors to create their own AI assistants" (June 28, 2024)
+"Auburn University empowers thousands of students, faculty, and staf f to explore new ways 
+of using AI with Microsoft Copilot"(July 18, 2024)
+"King Collaborates with Microsoft, World Wide
+Technology to Provide AI Education to Metro
+Atlanta School Districts" (Georgia State News 
+Hub, March 24, 2025)
+
+References
+"Meet JADA: The AI Assistant Expanding Job 
+Opportunities for University of Waterloo Students" (Derek Kirk, March 4, 2025)
+"Lights, Camera, Copilot: How the National 
+Youth Theatre is Innovating with AI," Rory 
+Leader, Microsoft UK Stories" (February 24, 2025)
+"How one school uses Reading Progress to improve student outcomes" (Sarah Buist, September 19, 2023)
+"Empowering the future: Microsoft Copilot and Azure AI helps guide Babson College's AI- driven journey" (December 3, 2024)
+"Brisbane Catholic Education boosts agency and efficiency with Microsoft 365 Copilot" (Microsoft News Center, December 2024) "Coquitlam School District partners with "LinkedIn Reveals the Most In-Demand Skills Microsoft to build secure infrastructure and On The Rise For 2025" (Caroline Castrillon, 
+enhance data insights with PowerApps and Forbes, March 19, 2025) Copilot" (December 3, 2024)
+"Microsoft Digital Defense Report 2024"
+"AI and the Global Economy: Unlocking Growth 
+Research Studies and Reports:       and Reshaping Work" (LinkedIn, April 2025)
+IDC's 2024 AI opportunity study: Education, 
+2024   IDC White Paper, sponsored by Microsoft, "A 
+Blueprint for AI-Ready Campuses: Strategies 
+"AI Data Drop: How AI Breaks Down Barriers to from the Frontlines of Higher Education," 
+Inclusivity"
+#USUS53344625, May 2025
+"From Chalkboards to Chatbots: Evaluation the 
+"Math Education With Large Language Models: 
+Impact of Generative AI on Learning Outcomes 
+                                           Peril or Promise?" (Harsh Kumar, Daniel in Nigeria" (World Bank Group, May 2025)
+G. Goldstein, David M. Rothschild, Jake M. 
+"AI and Traditional Learning: Complementary                                        Hofman, November 2023)
+Strategies for Deeper Learning" "Copilot in Education: Impact on the Student Impact of AI Assistance on Learning Outcomes Learning Experience," November 20, 2024
+"How Students and Educators See AI in Higher 
+Education"
+
+
+

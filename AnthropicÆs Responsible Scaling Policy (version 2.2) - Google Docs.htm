@@ -1,0 +1,2468 @@
+<html>
+
+<head>
+<meta http-equiv=Content-Type content="text/html; charset=windows-1252">
+<meta name=Generator content="Microsoft Word 15 (filtered)">
+<title>Anthropic’s Responsible Scaling Policy (version 2.2) - Google Docs</title>
+<style>
+<!--
+ /* Font Definitions */
+ @font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;}
+@font-face
+	{font-family:Calibri;
+	panose-1:2 15 5 2 2 2 4 3 2 4;}
+ /* Style Definitions */
+ p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin-top:0in;
+	margin-right:0in;
+	margin-bottom:10.3pt;
+	margin-left:18.5pt;
+	text-indent:-18.5pt;
+	line-height:115%;
+	font-size:9.0pt;
+	font-family:"Calibri",sans-serif;
+	color:black;}
+h1
+	{mso-style-link:"Heading 1 Char";
+	margin-top:0in;
+	margin-right:0in;
+	margin-bottom:3.45pt;
+	margin-left:.5pt;
+	text-indent:-.5pt;
+	line-height:107%;
+	page-break-after:avoid;
+	font-size:18.0pt;
+	font-family:"Calibri",sans-serif;
+	color:black;
+	font-weight:normal;}
+h2
+	{mso-style-link:"Heading 2 Char";
+	margin-top:0in;
+	margin-right:0in;
+	margin-bottom:6.85pt;
+	margin-left:34.9pt;
+	text-indent:-.5pt;
+	line-height:107%;
+	page-break-after:avoid;
+	font-size:14.0pt;
+	font-family:"Calibri",sans-serif;
+	color:black;
+	font-weight:normal;}
+h3
+	{mso-style-link:"Heading 3 Char";
+	margin-top:0in;
+	margin-right:0in;
+	margin-bottom:6.85pt;
+	margin-left:34.9pt;
+	text-indent:-.5pt;
+	line-height:107%;
+	page-break-after:avoid;
+	font-size:14.0pt;
+	font-family:"Calibri",sans-serif;
+	color:black;
+	font-weight:normal;}
+p.MsoToc1, li.MsoToc1, div.MsoToc1
+	{margin-top:0in;
+	margin-right:.75pt;
+	margin-bottom:8.0pt;
+	margin-left:.75pt;
+	line-height:107%;
+	font-size:11.0pt;
+	font-family:"Calibri",sans-serif;
+	color:black;}
+p.MsoToc2, li.MsoToc2, div.MsoToc2
+	{margin-top:0in;
+	margin-right:.75pt;
+	margin-bottom:8.0pt;
+	margin-left:.75pt;
+	line-height:107%;
+	font-size:11.0pt;
+	font-family:"Calibri",sans-serif;
+	color:black;}
+p.footnotedescription, li.footnotedescription, div.footnotedescription
+	{mso-style-name:"footnote description";
+	mso-style-link:"footnote description Char";
+	margin-top:0in;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:9.0pt;
+	line-height:110%;
+	font-size:8.0pt;
+	font-family:"Calibri",sans-serif;
+	color:black;
+	font-style:italic;}
+span.footnotedescriptionChar
+	{mso-style-name:"footnote description Char";
+	mso-style-link:"footnote description";
+	font-family:"Calibri",sans-serif;
+	color:black;
+	font-style:italic;}
+span.Heading3Char
+	{mso-style-name:"Heading 3 Char";
+	mso-style-link:"Heading 3";
+	font-family:"Calibri",sans-serif;
+	color:black;}
+span.Heading1Char
+	{mso-style-name:"Heading 1 Char";
+	mso-style-link:"Heading 1";
+	font-family:"Calibri",sans-serif;
+	color:black;}
+span.Heading2Char
+	{mso-style-name:"Heading 2 Char";
+	mso-style-link:"Heading 2";
+	font-family:"Calibri",sans-serif;
+	color:black;}
+span.footnotemark
+	{mso-style-name:"footnote mark";
+	font-family:"Calibri",sans-serif;
+	color:black;
+	font-style:italic;
+	vertical-align:super;}
+.MsoChpDefault
+	{font-size:12.0pt;}
+.MsoPapDefault
+	{margin-bottom:8.0pt;
+	line-height:115%;}
+ /* Page Definitions */
+ @page WordSection1
+	{size:8.5in 11.0in;
+	margin:68.25pt 72.4pt 38.0pt 1.0in;}
+div.WordSection1
+	{page:WordSection1;}
+@page WordSection2
+	{size:8.5in 11.0in;
+	margin:1.0in 1.0in 37.5pt 1.0in;}
+div.WordSection2
+	{page:WordSection2;}
+ /* List Definitions */
+ ol
+	{margin-bottom:0in;}
+ul
+	{margin-bottom:0in;}
+-->
+</style>
+
+</head>
+
+<body lang=EN-US style='word-wrap:break-word'>
+
+<div class=WordSection1>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:136.1pt;
+margin-left:10.5pt;text-indent:0in;line-height:107%'><img width=174 height=20
+id="Picture 22"
+src="AnthropicÆs%20Responsible%20Scaling%20Policy%20(version%202.2)%20-%20Google%20Docs_files/image001.gif"></p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:0in;
+margin-left:8.75pt;text-indent:-.5pt;line-height:107%'><span style='font-size:
+54.0pt;line-height:107%'> Responsible </span></p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:0in;
+margin-left:8.75pt;text-indent:-.5pt;line-height:107%'><span style='font-size:
+54.0pt;line-height:107%'> Scaling Policy </span></p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:17.65pt;
+margin-left:8.75pt;text-indent:-.5pt;line-height:110%'><span style='font-size:
+16.0pt;line-height:110%'> Version 2.2 </span></p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:245.6pt;
+margin-left:8.75pt;text-indent:-.5pt;line-height:110%'><span style='font-size:
+16.0pt;line-height:110%'> Effective May 14, 2025 </span></p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:21.2pt;
+margin-left:3.0pt;text-indent:0in;line-height:107%'><span style='font-size:
+11.0pt;line-height:107%'><img width=617 height=1 id="Group 26141"
+src="AnthropicÆs%20Responsible%20Scaling%20Policy%20(version%202.2)%20-%20Google%20Docs_files/image002.gif"></span></p>
+
+<p class=MsoNormal style='margin:0in;text-indent:0in;line-height:107%'><i><span
+style='font-size:10.5pt;line-height:107%'> Supplementary info available at </span></i><a
+href="http://www.anthropic.com/rsp-updates"><i><span style='font-size:10.5pt;
+line-height:107%;color:#1155CC'> </span></i></a><a
+href="http://www.anthropic.com/rsp-updates"><i><span style='font-size:10.5pt;
+line-height:107%;color:#1155CC'>www.anthropic.com/rsp-updates</span></i></a><a
+href="http://www.anthropic.com/rsp-updates"><i><span style='font-size:10.5pt;
+line-height:107%;color:#1155CC;text-decoration:none'> </span></i></a></p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:3.45pt;
+margin-left:-.25pt;text-indent:-.5pt;line-height:107%'><span style='font-size:
+18.0pt;line-height:107%'> Executive Summary </span></p>
+
+<p class=MsoNormal style='margin-left:0in;text-indent:0in'> In September 2023,
+we released our Responsible Scaling Policy (RSP), a public commitment not to
+train or  deploy models capable of causing catastrophic harm unless we have
+implemented safety and security  measures that will keep risks below acceptable
+levels. We are now updating our RSP to account for the lessons  we’ve learned
+over the last year. This updated policy reflects our view that risk governance
+in this rapidly  evolving domain should be proportional, iterative, and
+exportable. </p>
+
+<p class=MsoNormal style='margin-left:0in;text-indent:0in'><b> Background. </b> AI
+Safety Level Standards (ASL Standards)  are a set of technical and operational
+measures for  safely training and deploying frontier AI models. These currently
+fall into two categories: Deployment  Standards and Security Standards. As
+model capabilities increase, so will the need for stronger safeguards,  which
+are captured in successively higher ASL Standards. At present, all of our
+models must meet the ASL-2  Deployment and Security Standards. To determine
+when a model has become sufficiently advanced such that  its deployment and
+security measures should be strengthened, we use the concepts of Capability
+Thresholds  and Required Safeguards. A Capability Threshold tells us <i> when </i> we
+need to upgrade our protections, and the  corresponding Required Safeguards
+tell us <i> what standard </i> should apply. </p>
+
+<p class=MsoNormal style='margin-left:0in;text-indent:0in'><b> Capability
+Thresholds and Required Safeguards. </b> The  Required Safeguards for each
+Capability Threshold are  intended to mitigate risk to acceptable levels. This
+update to our RSP provides specifications for Capabilities  Thresholds related
+to Chemical, Biological, Radiological, and Nuclear (CBRN) weapons and
+Autonomous AI  Research and Development (AI R&amp;D) and identifies the
+corresponding Required Safeguards. </p>
+
+<p class=MsoNormal style='margin-left:0in;text-indent:0in'><b> Capability
+assessment. </b> We will routinely test models  to determine whether their
+capabilities fall sufficiently  far below the Capability Thresholds such that
+the ASL-2 Standard remains appropriate. We will first conduct  preliminary
+assessments to determine whether a more comprehensive evaluation is needed. For
+models  requiring comprehensive testing, we will assess whether the model is
+unlikely to reach any relevant Capability  Thresholds absent surprising
+advances in widely accessible post-training enhancements. If, after the 
+comprehensive testing, we determine that the model is sufficiently below the
+relevant Capability Thresholds,  then we will continue to apply the ASL-2
+Standard. If, however, we are unable to make the required showing,  we will act
+as though the model has surpassed the Capability Threshold. This means that we
+will both upgrade  to the ASL-3 Required Safeguards and conduct a follow-up
+capability assessment to confirm that the ASL-4  Standard is not necessary. </p>
+
+<p class=MsoNormal style='margin-left:0in;text-indent:0in'><b> Safeguards
+assessment. </b> To determine whether the measures  we have adopted satisfy the
+ASL-3 Required  Safeguards, we will conduct a safeguards assessment. For the
+ASL-3 Deployment Standard, we will evaluate  whether it is robust to persistent
+attempts to misuse the capability in question. For the ASL-3 Security 
+Standard, we will evaluate whether it is highly protected against non-state
+attackers attempting to steal model  weights. If we determine that we have met
+the ASL-3 Required Safeguards, then we will proceed to  deployment, provided we
+have also conducted a follow-up capability assessment. </p>
+
+<p class=MsoNormal style='margin-left:0in;text-indent:0in'><b> Follow-up
+capability assessment. </b> In parallel with  upgrading a model to the ASL-3
+Required Safeguards, we  will conduct a follow-up capability assessment to
+confirm that further safeguards are not necessary. </p>
+
+<p class=MsoNormal style='margin-left:0in;text-indent:0in'><b> Deployment and
+scaling outcomes. </b> We may deploy or  store a model if either of the
+following criteria are met:  (1) the model’s capabilities are sufficiently far
+away from the existing Capability Thresholds, making the  current ASL-2
+Standard appropriate; or (2) the model’s capabilities have surpassed the
+existing Capabilities  Threshold, but we have implemented the ASL-3 Required
+Safeguards and conducted the follow-up capability  assessment. In any scenario
+where we determine that a model requires ASL-3 Required Safeguards but we are 
+unable to implement them immediately, we will act promptly to reduce interim
+risk to acceptable levels until  the ASL-3 Required Safeguards are in place. </p>
+
+<p class=MsoNormal style='margin-left:0in;text-indent:0in'><b> Governance and
+transparency. </b> To facilitate the effective implementation of this policy
+across the company,  we commit to several internal governance measures,
+including maintaining the position of Responsible  Scaling Officer,
+establishing a process through which Anthropic staff may anonymously notify
+the  Responsible Scaling Officer of any potential instances of noncompliance,
+and developing internal safety  procedures for incident scenarios. To advance
+the public dialogue on the regulation of frontier AI model risks  and to enable
+examination of our actions, we will also publicly release key materials related
+to the evaluation  and deployment of our models with sensitive information
+removed and solicit input from external experts in  relevant domains. <br
+clear=all style='page-break-before:always'>
+</p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:3.45pt;
+margin-left:-.25pt;text-indent:-.5pt;line-height:107%'><span style='font-size:
+18.0pt;line-height:107%'> Contents </span></p>
+
+<p class=MsoToc1><a href="#_Toc32317"><span style='font-size:9.0pt;line-height:
+107%;color:black;text-decoration:none'> Introduction</span><span
+style='color:black;text-decoration:none'>                                                                                                                                                                                        </span><span style='font-size:9.0pt;line-height:107%;color:black;text-decoration:none'>1 </span></a></p>
+
+<p class=MsoToc1><a href="#_Toc32318"><span style='font-size:9.0pt;line-height:
+107%;color:black;text-decoration:none'> 1. Background</span><span
+style='color:black;text-decoration:none'>                                                                                                                                                                                     </span><span style='font-size:9.0pt;line-height:107%;color:black;text-decoration:none'>2 </span></a></p>
+
+<p class=MsoToc1><a href="#_Toc32319"><span style='font-size:9.0pt;line-height:
+107%;color:black;text-decoration:none'> 2. Capability Thresholds and Required
+Safeguards</span><span style='color:black;text-decoration:none'>                                                                                                                            </span><span style='font-size:9.0pt;line-height:107%;color:black;text-decoration:none'>3 </span></a></p>
+
+<p class=MsoToc1><a href="#_Toc32320"><span style='font-size:9.0pt;line-height:
+107%;color:black;text-decoration:none'> 3. Capability Assessment</span><span
+style='color:black;text-decoration:none'>                                                                                                                                                                    </span><span style='font-size:9.0pt;line-height:107%;color:black;text-decoration:none'>5 </span></a></p>
+
+<p class=MsoToc2><a href="#_Toc32321"><span style='font-size:9.0pt;line-height:
+107%;color:black;text-decoration:none'> 3.1. Preliminary Assessment</span><span
+style='color:black;text-decoration:none'>                                                                                                                                                               </span><span style='font-size:9.0pt;line-height:107%;color:black;text-decoration:none'>5 </span></a></p>
+
+<p class=MsoToc2><a href="#_Toc32322"><span style='font-size:9.0pt;line-height:
+107%;color:black;text-decoration:none'> 3.2. Comprehensive Assessment</span><span
+style='color:black;text-decoration:none'>                                                                                                                                                        </span><span style='font-size:9.0pt;line-height:107%;color:black;text-decoration:none'>6 </span></a></p>
+
+<p class=MsoToc2><a href="#_Toc32323"><span style='font-size:9.0pt;line-height:
+107%;color:black;text-decoration:none'> 3.3. Capability Decision</span><span
+style='color:black;text-decoration:none'>                                                                                                                                                                       </span><span style='font-size:9.0pt;line-height:107%;color:black;text-decoration:none'>7 </span></a></p>
+
+<p class=MsoToc1><a href="#_Toc32324"><span style='font-size:9.0pt;line-height:
+107%;color:black;text-decoration:none'> 4. Safeguards Assessment</span><span
+style='color:black;text-decoration:none'>                                                                                                                                                                   </span><span style='font-size:9.0pt;line-height:107%;color:black;text-decoration:none'>7 </span></a></p>
+
+<p class=MsoToc2><a href="#_Toc32325"><span style='font-size:9.0pt;line-height:
+107%;color:black;text-decoration:none'> 4.1. ASL-3 Deployment Standard</span><span
+style='color:black;text-decoration:none'>                                                                                                                                                        </span><span style='font-size:9.0pt;line-height:107%;color:black;text-decoration:none'>8 </span></a></p>
+
+<p class=MsoToc2><a href="#_Toc32326"><span style='font-size:9.0pt;line-height:
+107%;color:black;text-decoration:none'> 4.2. ASL-3 Security Standard</span><span
+style='color:black;text-decoration:none'>                                                                                                                                                               </span><span style='font-size:9.0pt;line-height:107%;color:black;text-decoration:none'>8 </span></a></p>
+
+<p class=MsoToc2><a href="#_Toc32327"><span style='font-size:9.0pt;line-height:
+107%;color:black;text-decoration:none'> 4.3. Safeguards Decision</span><span
+style='color:black;text-decoration:none'>                                                                                                                                                                   </span><span style='font-size:9.0pt;line-height:107%;color:black;text-decoration:none'>10 </span></a></p>
+
+<p class=MsoToc1><a href="#_Toc32328"><span style='font-size:9.0pt;line-height:
+107%;color:black;text-decoration:none'> 5. Follow-Up Capability Assessment</span><span
+style='color:black;text-decoration:none'>                                                                                                                                                 </span><span style='font-size:9.0pt;line-height:107%;color:black;text-decoration:none'>10 </span></a></p>
+
+<p class=MsoToc1><a href="#_Toc32329"><span style='font-size:9.0pt;line-height:
+107%;color:black;text-decoration:none'> 6. Deployment and Scaling Outcomes</span><span
+style='color:black;text-decoration:none'>                                                                                                                                              </span><span style='font-size:9.0pt;line-height:107%;color:black;text-decoration:none'>11 </span></a></p>
+
+<p class=MsoToc2><a href="#_Toc32330"><span style='font-size:9.0pt;line-height:
+107%;color:black;text-decoration:none'> 6.1. Continue Deployment and Further
+Scaling</span><span style='color:black;text-decoration:none'>                                                                                                                                </span><span style='font-size:9.0pt;line-height:107%;color:black;text-decoration:none'>11 </span></a></p>
+
+<p class=MsoToc2><a href="#_Toc32331"><span style='font-size:9.0pt;line-height:
+107%;color:black;text-decoration:none'> 6.2. Restrict Deployment and Further
+Scaling</span><span style='color:black;text-decoration:none'>                                                                                                                                  </span><span style='font-size:9.0pt;line-height:107%;color:black;text-decoration:none'>11 </span></a></p>
+
+<p class=MsoToc1><a href="#_Toc32332"><span style='font-size:9.0pt;line-height:
+107%;color:black;text-decoration:none'> 7. Governance and Transparency</span><span
+style='color:black;text-decoration:none'>                                                                                                                                                     </span><span style='font-size:9.0pt;line-height:107%;color:black;text-decoration:none'>12 </span></a></p>
+
+<p class=MsoToc2><a href="#_Toc32333"><span style='font-size:9.0pt;line-height:
+107%;color:black;text-decoration:none'> 7.1. Internal Governance</span><span
+style='color:black;text-decoration:none'>                                                                                                                                                                  </span><span style='font-size:9.0pt;line-height:107%;color:black;text-decoration:none'>12 </span></a></p>
+
+<p class=MsoToc2><a href="#_Toc32334"><span style='font-size:9.0pt;line-height:
+107%;color:black;text-decoration:none'> 7.2. Transparency and External Input</span><span
+style='color:black;text-decoration:none'>                                                                                                                                               </span><span style='font-size:9.0pt;line-height:107%;color:black;text-decoration:none'>13 </span></a></p>
+
+<p class=MsoToc1><a href="#_Toc32335"><span style='font-size:9.0pt;line-height:
+107%;color:black;text-decoration:none'> Appendices</span><span
+style='color:black;text-decoration:none'>                                                                                                                                                                                        </span><span style='font-size:9.0pt;line-height:107%;color:black;text-decoration:none'>14 </span></a></p>
+
+<p class=MsoToc2><a href="#_Toc32336"><span style='font-size:9.0pt;line-height:
+107%;color:black;text-decoration:none'> Appendix A: Glossary</span><span
+style='color:black;text-decoration:none'>                                                                                                                                                                        </span><span style='font-size:9.0pt;line-height:107%;color:black;text-decoration:none'>14 </span></a></p>
+
+<p class=MsoToc2><a href="#_Toc32337"><span style='font-size:9.0pt;line-height:
+107%;color:black;text-decoration:none'> Appendix B: ASL-2 Standard</span><span
+style='color:black;text-decoration:none'>                                                                                                                                                             </span><span style='font-size:9.0pt;line-height:107%;color:black;text-decoration:none'>15 </span></a></p>
+
+<p class=MsoToc2><a href="#_Toc32338"><span style='font-size:9.0pt;line-height:
+107%;color:black;text-decoration:none'> Appendix C: Detailed Capability
+Thresholds</span><span style='color:black;text-decoration:none'>                                                                                                                                     </span><span style='font-size:9.0pt;line-height:107%;color:black;text-decoration:none'>16 </span></a></p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+</div>
+
+<span style='font-size:9.0pt;line-height:115%;font-family:"Calibri",sans-serif;
+color:black'><br clear=all style='page-break-before:always'>
+</span>
+
+<div class=WordSection2>
+
+<h1 style='margin-left:-.25pt;text-indent:0in'><a name="_Toc32317"> Introduction
+</a></h1>
+
+<p class=MsoNormal style='margin-left:0in;text-indent:0in'> As frontier AI
+models advance, we believe they will bring about transformative benefits for
+our society and  economy. AI could accelerate scientific discoveries,
+revolutionize healthcare, enhance our education system,  and create entirely
+new domains for human creativity and innovation. Frontier AI models also,
+however,  present new challenges and risks that warrant careful study and
+effective safeguards. In September 2023, we  released our Responsible Scaling
+Policy (RSP), a first-of-its-kind public commitment not to train or deploy 
+models capable of causing catastrophic harm unless we have implemented safety
+and security measures that  will keep risks below acceptable levels. Our RSP
+serves several purposes: it is an internal operating procedure  for investigating
+and mitigating these risks and helps inform the public of our plans and
+commitments. We  also hope it will serve as a prototype for other companies
+looking to adopt similar frameworks and,  potentially, inform regulators about
+possible best practices. </p>
+
+<p class=MsoNormal style='margin-left:0in;text-indent:0in'> We are now updating
+our RSP to account for the lessons we’ve learned over the last year. This
+policy reflects  our view that risk governance in this rapidly evolving domain
+should be <b> proportional, iterative, and  exportable. </b></p>
+
+<p class=MsoNormal style='margin-left:0in;text-indent:0in'><b> First, our
+approach to risk should be proportional. </b> Central to our policy is the
+concept of AI Safety Level  Standards: technical and operational standards for
+safely training and deploying frontier models that  correspond with a
+particular level of risk. By implementing safeguards that are proportional to
+the nature and  extent of an AI model’s risks, we can balance innovation with
+safety, maintaining rigorous protections without  unnecessarily hindering
+progress. This approach also enables us to allocate resources efficiently,
+focusing our  most stringent safeguards on the models that pose the greater
+risk, while affording more flexibility for  lower-risk systems. </p>
+
+<p class=MsoNormal style='margin-left:0in;text-indent:0in'><b> Second, our
+approach to risk should be iterative. </b> Since the frontier of AI is rapidly
+evolving, we cannot  anticipate what safety and security measures will be
+appropriate for models far beyond the current frontier.  We will thus regularly
+measure the capability of our models and adjust our safeguards accordingly.
+Further, we  will continue to research potential risks and next-generation
+mitigation techniques. And, at the highest level  of generality, we will look
+for opportunities to improve and strengthen our overarching risk management 
+framework. </p>
+
+<p class=MsoNormal style='margin-left:0in;text-indent:0in'><b> Third, our
+approach to risk should be exportable. </b> To demonstrate that it is possible
+to balance innovation  with safety, we must put forward our proof of concept: a
+pragmatic, flexible, and scalable approach to risk  governance. By sharing our
+approach externally, we aim to set a new industry standard that encourages 
+widespread adoption of similar frameworks. In the long term, we hope that our
+policy may offer relevant  insights for regulation. In the meantime, we will
+continue to share our findings with policymakers. </p>
+
+<p class=MsoNormal style='margin-left:0in;text-indent:0in'> Although this
+policy focuses on catastrophic risks, they are not the only risks that we
+consider important. Our <a href="https://www.anthropic.com/legal/aup"><span
+style='color:black'> </span></a><a href="https://www.anthropic.com/legal/aup"><span
+style='color:black'>Usage Policy</span></a>  sets forth our standards for the
+use  of our products, including prohibitions on using our models  to spread
+misinformation, incite violence or hateful behavior, or engage in fraudulent or
+abusive practices, and  we continually refine our technical measures for
+enforcing our trust and safety standards at scale. Further, we  conduct
+research to understand the broader <a
+href="https://www.anthropic.com/research#societal-impacts"><span
+style='color:black'> </span></a><a
+href="https://www.anthropic.com/research#societal-impacts"><span
+style='color:black'>societal </span></a><a
+href="https://www.anthropic.com/research#societal-impacts"><span
+style='color:black'> </span></a><a
+href="https://www.anthropic.com/research#societal-impacts"><span
+style='color:black'>impacts</span></a>  of our models. Our Responsible Scaling
+Policy  complements our work in these areas, contributing to our understanding
+of current and potential risks. </p>
+
+<p class=MsoNormal style='margin-left:0in;text-indent:0in'> At Anthropic, we
+are committed to developing AI responsibly and transparently. Since our
+founding, we have  recognized the importance of proactively addressing
+potential risks as we push the boundaries of AI capability  and of clearly
+communicating about the nature and extent of those risks. We look forward to
+continuing to  refine our approach to risk governance and to collaborating with
+stakeholders across the AI ecosystem. </p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:31.85pt;
+margin-left:0in;text-indent:0in;line-height:118%'><i> This policy is designed
+in the spirit of the </i><a href="https://metr.org/blog/2023-09-26-rsp/"><i><span
+style='color:black'> </span></i></a><a
+href="https://metr.org/blog/2023-09-26-rsp/"><i><span style='color:black'>Responsible
+Scaling Policy (RSP) framework</span></i></a><a
+href="https://metr.org/blog/2023-09-26-rsp/"><i><span style='color:black;
+text-decoration:none'> </span></i></a><i> introduced by the non-profit AI 
+safety organization </i><a href="https://metr.org/"><i><span style='color:black'> </span></i></a><a
+href="https://metr.org/"><i><span style='color:black'>METR</span></i></a><a
+href="https://metr.org/"><i><span style='color:black;text-decoration:none'>,</span></i></a><a
+href="https://metr.org/"><i><span style='color:black;text-decoration:none'> </span></i></a><i> as
+well as emerging government  policy proposals in the UK, EU, and US. This
+policy also  helps satisfy our </i><a
+href="https://bidenwhitehouse.archives.gov/briefing-room/statements-releases/2023/07/21/fact-sheet-biden-harris-administration-secures-voluntary-commitments-from-leading-artificial-intelligence-companies-to-manage-the-risks-posed-by-ai/"><i><span
+style='color:black'> </span></i></a><a
+href="https://bidenwhitehouse.archives.gov/briefing-room/statements-releases/2023/07/21/fact-sheet-biden-harris-administration-secures-voluntary-commitments-from-leading-artificial-intelligence-companies-to-manage-the-risks-posed-by-ai/"><i><span
+style='color:black'>Voluntary White House Commitments</span></i></a><a
+href="https://bidenwhitehouse.archives.gov/briefing-room/statements-releases/2023/07/21/fact-sheet-biden-harris-administration-secures-voluntary-commitments-from-leading-artificial-intelligence-companies-to-manage-the-risks-posed-by-ai/"><i><span
+style='color:black;text-decoration:none'> </span></i></a><i> (2023) and </i><a
+href="https://www.gov.uk/government/publications/frontier-ai-safety-commitments-ai-seoul-summit-2024"><i><span
+style='color:black'> </span></i></a><a
+href="https://www.gov.uk/government/publications/frontier-ai-safety-commitments-ai-seoul-summit-2024"><i><span
+style='color:black'>Frontier AI Safety Commitments</span></i></a><a
+href="https://www.gov.uk/government/publications/frontier-ai-safety-commitments-ai-seoul-summit-2024"><i><span
+style='color:black;text-decoration:none'> </span></i></a><i> (2024).  We
+extend  our sincere gratitude to the many external groups that provided
+invaluable guidance on the development and  refinement of our Responsible
+Scaling Policy. We actively welcome feedback on our policy and suggestions for 
+improvement from other entities engaged in frontier AI risk evaluations or
+safety and security standards. To submit  your feedback or suggestions, please
+contact us at <u> rsp@anthropic.com</u> . </i></p>
+
+<h1 style='margin-left:.5in;text-indent:-30.05pt'><a name="_Toc32318"><span
+style='line-height:107%'>1.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span>Background </a></h1>
+
+<p class=MsoNormal style='margin-left:0in;text-indent:0in'><b> AI Safety Level
+Standards (ASL Standards) are core to our risk mitigation strategy. </b> An ASL
+Standard  is a set  of technical and operational measures for safely training
+and deploying frontier AI models. As model  capabilities increase, so will the
+need for stronger safeguards, which are captured in successively higher ASL 
+Standards. Definitions of ASL Standards and other key terms are available in <u> Appendix
+A</u> . </p>
+
+<p class=MsoNormal style='margin-left:0in;text-indent:0in'> The types of
+measures that compose an ASL Standard currently fall into two
+categories–Deployment  Standards and Security Standards–which map onto the
+types of risks that frontier AI models may pose. </p>
+
+<p class=MsoNormal style='margin-left:35.25pt;text-indent:-.25in'><span
+style='line-height:115%;font-family:"Arial",sans-serif'>&#9679;<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span><b>Deployment
+Standards: </b> Deployment Standards are technical,  operational, and policy
+measures to  ensure the safe usage of AI models by external users (i.e., our
+users and customers) as well as internal  users (i.e., our employees).
+Deployment Standards aim to strike a balance between enabling beneficial  use
+of AI technologies and mitigating the risks of potentially catastrophic cases
+of misuse. </p>
+
+<p class=MsoNormal style='margin-left:35.25pt;text-indent:-.25in'><span
+style='line-height:115%;font-family:"Arial",sans-serif'>&#9679;<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span><b>Security
+Standards: </b> Security Standards are technical,  operational, and policy
+measures to protect AI  models–particularly their weights and associated
+systems–from unauthorized access, theft, or  compromise by malicious actors.
+Security Standards are intended to maintain the integrity and  controlled use
+of AI models throughout their lifecycle, from development to deployment. </p>
+
+<p class=MsoNormal style='margin-left:0in;text-indent:0in'> We expect to
+continue refining our framework in response to future risks (for example, the
+risk that an AI  system attempts to subvert the goals of its operators). </p>
+
+<p class=MsoNormal style='margin-left:0in;text-indent:0in'><b> At present, all
+of our models must meet the ASL-2 Deployment and Security Standards. </b> The
+ASL-2 Security  and Deployment Standards provide a baseline level of safe
+deployment and model security for AI models.  These standards, which are
+summarized below, are available in full in <u> Appendix B</u> . </p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:13.4pt;
+margin-left:35.25pt;text-indent:-.25in'><span style='line-height:115%;
+font-family:"Arial",sans-serif'>&#9679;<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span>The ASL-2 Deployment Standard reduces the prevalence of misuse,
+and includes the publication of  model cards and enforcement of <a
+href="https://www.anthropic.com/legal/aup"><span style='color:black'> </span></a><a
+href="https://www.anthropic.com/legal/aup"><span style='color:black'>Usage
+Policy</span></a><a href="https://www.anthropic.com/legal/aup"><span
+style='color:black;text-decoration:none'> </span></a><a
+href="https://www.anthropic.com/legal/aup"><span style='color:black;text-decoration:
+none'>;</span></a> harmlessness  training such as <a
+href="https://www.anthropic.com/index/constitutional-ai-harmlessness-from-ai-feedback"><span
+style='color:black'> </span></a><a
+href="https://www.anthropic.com/index/constitutional-ai-harmlessness-from-ai-feedback"><span
+style='color:black'>Constitutional AI</span></a>  and  automated detection
+mechanisms; and establishing vulnerability reporting channels as well as a <a
+href="https://www.anthropic.com/news/model-safety-bug-bounty"><span
+style='color:black'> </span></a><a
+href="https://www.anthropic.com/news/model-safety-bug-bounty"><span
+style='color:black'>bug</span></a><a
+href="https://www.anthropic.com/news/model-safety-bug-bounty"><span
+style='color:black;text-decoration:none'> </span></a><a
+href="https://www.anthropic.com/news/model-safety-bug-bounty"><span
+style='color:black'> </span></a><a
+href="https://www.anthropic.com/news/model-safety-bug-bounty"><span
+style='color:black'>bounty for universal jailbreaks</span></a><a
+href="https://www.anthropic.com/news/model-safety-bug-bounty"><span
+style='color:black;text-decoration:none'> </span></a><a
+href="https://www.anthropic.com/news/model-safety-bug-bounty"><span
+style='color:black;text-decoration:none'>.</span></a> </p>
+
+<p class=MsoNormal style='margin-left:35.25pt;text-indent:-.25in'><span
+style='line-height:115%;font-family:"Arial",sans-serif'>&#9679;<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span>The
+ASL-2 Security Standard requires a security system that can likely thwart most
+opportunistic  attackers and includes vendor and supplier security reviews,
+physical security measures, and the use  of secure-by-design principles. </p>
+
+<p class=MsoNormal style='margin-left:0in;text-indent:0in'> Although the ASL-2
+Standard is appropriate for all of our current models, that may not hold true
+in the future  as our models become more capable. To determine when a model has
+become sufficiently advanced such that  its deployment and security measures
+should be strengthened, we use the concepts of Capability Thresholds  and
+Required Safeguards. </p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:32.2pt;
+margin-left:0in;text-indent:0in'><b> A Capability Threshold tells us <i> when </i> we
+need to upgrade our protections, and the corresponding Required  Safeguards
+tell us <i> what standard </i> should apply. </b> A Capability Threshold is a
+prespecified level of AI capability  that, if reached, signals (1) a meaningful
+increase in the level of risk if the model remains under the existing  set of
+safeguards and (2) a corresponding need to upgrade the safeguards to a higher
+ASL Standard. In other  words, a Capability Threshold serves as a trigger for
+shifting from an ASL-N Standard to an ASL-N+1 Standard  (or, in some cases,
+moving straight to ASL N+2 or higher). Depending on the Capability Threshold,
+it may not  be necessary to upgrade both the Deployment and Security Standards;
+each Capability Threshold corresponds  to specific Required Safeguards that
+identify which of the ASL Standards must be met. </p>
+
+<h1 style='margin-left:32.35pt;text-indent:-33.1pt'><a name="_Toc32319"><span
+style='line-height:107%'>2.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span>Capability Thresholds and Required Safeguards </a></h1>
+
+<p class=MsoNormal style='margin-left:0in;text-indent:0in'><b> Below, we
+specify the Capability Thresholds and their corresponding Required Safeguards. </b> The
+Required  Safeguards for each Capability Threshold are intended to mitigate
+risk from a model with such capabilities to  acceptable levels. In developing
+these standards, we have weighed the risks and benefits of frontier model 
+development. We believe these safeguards are achievable with sufficient
+investment and advance planning  into research and development and would
+advocate for the industry as a whole to adopt them. We will conduct 
+assessments to inform when to implement the Required Safeguards (see <u> Section
+4</u> ). The Capability Thresholds  summarized below are available in full in <u> Appendix 
+C</u> . <br clear=all style='page-break-before:always'>
+</p>
+
+<table class=TableGrid border=0 cellspacing=0 cellpadding=0 width=623
+ style='width:467.25pt;margin-left:1.8pt;border-collapse:collapse'>
+ <tr style='height:22.5pt'>
+  <td width=97 style='width:72.85pt;border:solid black 1.0pt;background:#E5D2BB;
+  padding:5.7pt 3.55pt 0in 4.9pt;height:22.5pt'>
+  <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:0in;
+  margin-left:.1pt;text-indent:0in;line-height:107%'><b> Capability </b></p>
+  </td>
+  <td width=237 style='width:177.75pt;border:solid black 1.0pt;border-left:
+  none;background:#E5D2BB;padding:5.7pt 3.55pt 0in 4.9pt;height:22.5pt'>
+  <p class=MsoNormal style='margin:0in;text-indent:0in;line-height:107%'><b> Capability
+  Thresholds </b></p>
+  </td>
+  <td width=289 style='width:216.65pt;border:solid black 1.0pt;border-left:
+  none;background:#E5D2BB;padding:5.7pt 3.55pt 0in 4.9pt;height:22.5pt'>
+  <p class=MsoNormal style='margin:0in;text-indent:0in;line-height:107%'><b> Required
+  Safeguards </b></p>
+  </td>
+ </tr>
+ <tr style='height:113.35pt'>
+  <td width=97 rowspan=2 valign=top style='width:72.85pt;border:solid black 1.0pt;
+  border-top:none;padding:5.7pt 3.55pt 0in 4.9pt;height:113.35pt'>
+  <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:.9pt;
+  margin-left:.1pt;text-indent:0in;line-height:107%'><b> Chemical, </b></p>
+  <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:0in;
+  margin-left:.1pt;text-indent:0in;line-height:107%'><b> Biological, 
+  Radiological,  and Nuclear  (CBRN)  weapons </b></p>
+  </td>
+  <td width=237 valign=top style='width:177.75pt;border-top:none;border-left:
+  none;border-bottom:solid black 1.0pt;border-right:solid black 1.0pt;
+  padding:5.7pt 3.55pt 0in 4.9pt;height:113.35pt'>
+  <p class=MsoNormal style='margin:0in;text-indent:0in;line-height:107%'><b> CBRN-3:
+  </b> The ability to significantly  help individuals or groups with basic 
+  technical backgrounds (e.g.,  undergraduate STEM degrees)  create/obtain and
+  deploy CBRN  weapons. </p>
+  </td>
+  <td width=289 style='width:216.65pt;border-top:none;border-left:none;
+  border-bottom:solid black 1.0pt;border-right:solid black 1.0pt;padding:5.7pt 3.55pt 0in 4.9pt;
+  height:113.35pt'>
+  <p class=MsoNormal style='margin-top:0in;margin-right:1.15pt;margin-bottom:
+  0in;margin-left:0in;text-indent:0in;line-height:107%'> This capability could
+  greatly increase the  number of actors who could cause this sort of  damage,
+  and there is no clear reason to expect  an offsetting improvement in
+  defensive  capabilities. The <u> ASL-3 Deployment Standard</u>  and the <u> ASL-3
+  Security Standard</u> , which protect  against misuse and model-weight theft
+  by  non-state adversaries, are required. </p>
+  </td>
+ </tr>
+ <tr style='height:113.25pt'>
+  <td width=237 style='width:177.75pt;border-top:none;border-left:none;
+  border-bottom:solid black 1.0pt;border-right:solid black 1.0pt;padding:5.7pt 3.55pt 0in 4.9pt;
+  height:113.25pt'>
+  <p class=MsoNormal style='margin-top:0in;margin-right:1.05pt;margin-bottom:
+  0in;margin-left:0in;text-indent:0in;line-height:107%'><b> CBRN-4: </b> The
+  ability to substantially  uplift CBRN development capabilities  of moderately
+  resourced state  programs (with relevant expert teams),  such as by novel
+  weapons design,  substantially accelerating existing  processes, or dramatic
+  reduction in  technical barriers. </p>
+  </td>
+  <td width=289 valign=top style='width:216.65pt;border-top:none;border-left:
+  none;border-bottom:solid black 1.0pt;border-right:solid black 1.0pt;
+  padding:5.7pt 3.55pt 0in 4.9pt;height:113.25pt'>
+  <p class=MsoNormal style='margin:0in;text-indent:0in;line-height:107%'> We
+  expect this threshold will require the ASL-4  Deployment and Security
+  Standards. We plan to  add more information about what those entail in  a
+  future update. </p>
+  </td>
+ </tr>
+ <tr style='height:152.25pt'>
+  <td width=97 rowspan=2 valign=top style='width:72.85pt;border:solid black 1.0pt;
+  border-top:none;padding:5.7pt 3.55pt 0in 4.9pt;height:152.25pt'>
+  <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:0in;
+  margin-left:.1pt;text-indent:0in;line-height:116%'><b> Autonomous  AI
+  Research  and </b></p>
+  <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:.9pt;
+  margin-left:.1pt;text-indent:0in;line-height:107%'><b> Development </b></p>
+  <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:0in;
+  margin-left:.1pt;text-indent:0in;line-height:107%'><b> (AI R&amp;D) </b></p>
+  </td>
+  <td width=237 valign=top style='width:177.75pt;border-top:none;border-left:
+  none;border-bottom:solid black 1.0pt;border-right:solid black 1.0pt;
+  padding:5.7pt 3.55pt 0in 4.9pt;height:152.25pt'>
+  <p class=MsoNormal style='margin-top:0in;margin-right:1.3pt;margin-bottom:
+  0in;margin-left:0in;text-indent:0in;line-height:107%'><b> AI R&amp;D-4: </b> The
+  ability to fully  automate the work of an entry-level,  remote-only
+  Researcher at Anthropic. </p>
+  </td>
+  <td width=289 style='width:216.65pt;border-top:none;border-left:none;
+  border-bottom:solid black 1.0pt;border-right:solid black 1.0pt;padding:5.7pt 3.55pt 0in 4.9pt;
+  height:152.25pt'>
+  <p class=MsoNormal style='margin-top:0in;margin-right:5.3pt;margin-bottom:
+  0in;margin-left:0in;text-indent:0in;line-height:107%'> The <u> ASL-3 Security
+  Standard</u>  is required. In  addition, we will develop an affirmative case 
+  that (1) identifies the most immediate and  relevant risks from models
+  pursuing  misaligned goals and (2) explains how we have  mitigated these
+  risks to acceptable levels. The  affirmative case will describe, as
+  relevant,  evidence on model capabilities; evidence on AI  alignment;
+  mitigations (such as monitoring  and other safeguards); and our overall 
+  reasoning. </p>
+  </td>
+ </tr>
+ <tr style='height:87.75pt'>
+  <td width=237 valign=top style='width:177.75pt;border-top:none;border-left:
+  none;border-bottom:solid black 1.0pt;border-right:solid black 1.0pt;
+  padding:5.7pt 3.55pt 0in 4.9pt;height:87.75pt'>
+  <p class=MsoNormal style='margin-top:0in;margin-right:1.25pt;margin-bottom:
+  0in;margin-left:0in;text-indent:0in;line-height:107%'><b> AI R&amp;D-5: </b> The
+  ability to cause  dramatic acceleration in the rate of  effective scaling </p>
+  </td>
+  <td width=289 style='width:216.65pt;border-top:none;border-left:none;
+  border-bottom:solid black 1.0pt;border-right:solid black 1.0pt;padding:5.7pt 3.55pt 0in 4.9pt;
+  height:87.75pt'>
+  <p class=MsoNormal style='margin:0in;text-indent:0in;line-height:107%'> At
+  minimum, the ASL-4 Security Standard  (which would protect against
+  model-weight  theft by state-level adversaries) is required,  although we
+  expect a higher security standard  may be required. As with AI R&amp;D-4, we
+  also  expect an affirmative case will be required. </p>
+  </td>
+ </tr>
+</table>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:13.35pt;
+margin-left:0in;text-indent:0in'> These Capability Thresholds represent our
+current understanding of the most pressing catastrophic risks. As  our
+understanding evolves, we may identify additional thresholds. For each
+threshold, we will identify and  describe the corresponding Required Safeguards
+as soon as feasible, and at minimum before training or  deploying any model
+that reaches that threshold. </p>
+
+<p class=MsoNormal style='margin-left:0in;text-indent:0in'> We will consider it
+sufficient to rule out the possibility that a model has surpassed the two
+Autonomous AI  R&amp;D Capability Thresholds by considering an earlier (i.e.,
+less capable) checkpoint: the ability to autonomously  perform a wide range of
+2-8 hour software engineering tasks. We would view this level of capability as
+an  important checkpoint towards both Autonomous AI R&amp;D as well as other
+capabilities that may warrant similar  attention (for example, autonomous
+replication). We will test for this checkpoint and, by the time we reach it, 
+we will (1) aim to have met (or be close to meeting) the ASL-3 Security
+Standard as an intermediate goal; (2)  share an update on our progress around
+that time; and (3) begin testing for the full Autonomous AI R&amp;D  Capability
+Threshold and any additional risks. </p>
+
+<p class=MsoNormal style='margin-left:0in;text-indent:0in'><b> We will also
+maintain a list of capabilities that we think require significant investigation
+and may require  stronger safeguards than ASL-2 provides. </b> This group  of
+capabilities could pose serious risks, but the exact  Capability Threshold and
+the Required Safeguards are not clear at present. These capabilities may
+warrant a  higher standard of safeguards, such as the ASL-3 Security or
+Deployment Standard. However, it is also possible  that by the time these
+capabilities are reached, there will be evidence that such a standard is not
+necessary (for  example, because of the potential use of similar capabilities
+for defensive purposes). Instead of prespecifying  particular thresholds and
+safeguards today, we will conduct ongoing assessments of the risks with the
+goal of  determining in a future iteration of this policy what the Capability
+Thresholds and Required Safeguards would  be. </p>
+
+<p class=MsoNormal style='margin:0in;text-indent:0in'> At present, we have
+identified one such capability: </p>
+
+<table class=TableGrid border=0 cellspacing=0 cellpadding=0 width=627
+ style='width:470.25pt;margin-left:.3pt;border-collapse:collapse'>
+ <tr style='height:22.5pt'>
+  <td width=270 style='width:202.6pt;border:solid black 1.0pt;background:#E5D2BB;
+  padding:5.75pt 5.65pt 0in 4.9pt;height:22.5pt'>
+  <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:0in;
+  margin-left:.1pt;text-indent:0in;line-height:107%'><b> Capabilities </b></p>
+  </td>
+  <td width=357 style='width:267.65pt;border:solid black 1.0pt;border-left:
+  none;background:#E5D2BB;padding:5.75pt 5.65pt 0in 4.9pt;height:22.5pt'>
+  <p class=MsoNormal style='margin:0in;text-indent:0in;line-height:107%'><b> Ongoing
+  Assessment </b></p>
+  </td>
+ </tr>
+ <tr style='height:126.05pt'>
+  <td width=270 valign=top style='width:202.6pt;border:solid black 1.0pt;
+  border-top:none;padding:5.75pt 5.65pt 0in 4.9pt;height:126.05pt'>
+  <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:0in;
+  margin-left:.1pt;text-indent:0in;line-height:107%'><b> Cyber Operations</b> :
+  The ability to  significantly enhance or automate  sophisticated destructive
+  cyber attacks,  including but not limited to discovering  novel zero-day
+  exploit chains, developing  complex malware, or orchestrating extensive 
+  hard-to-detect network intrusions. </p>
+  </td>
+  <td width=357 style='width:267.65pt;border-top:none;border-left:none;
+  border-bottom:solid black 1.0pt;border-right:solid black 1.0pt;padding:5.75pt 5.65pt 0in 4.9pt;
+  height:126.05pt'>
+  <p class=MsoNormal style='margin:0in;text-indent:0in;line-height:116%'> This
+  will involve engaging with experts in cyber operations  to assess the
+  potential for frontier models to both enhance  and mitigate cyber threats,
+  and considering the  implementation of tiered access controls or phased 
+  deployments for models with advanced cyber capabilities.  We will conduct
+  either pre- or post-deployment testing,  including specialized evaluations.
+  We will document any  salient results alongside our Capability Reports (see <u> Section</u>
+  </p>
+  <p class=MsoNormal style='margin:0in;text-indent:0in;line-height:107%'><u> 3</u>
+  ). <sup><span style='font-size:8.5pt;line-height:107%'> <a href="#_ftn1"
+  name="_ftnref1" title=""><sup><span style='font-size:8.5pt;line-height:115%;
+  font-family:"Calibri",sans-serif;color:black'>[1]</span></sup></a> </span></sup></p>
+  </td>
+ </tr>
+</table>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:34.2pt;
+margin-left:0in;text-indent:0in'> Overall, our decision to prioritize the
+capabilities in the two tables above is based on commissioned research 
+reports, discussions with domain experts, input from expert forecasters, public
+research, conversations with  other industry actors through the <a
+href="https://www.frontiermodelforum.org/"><span style='color:black'> </span></a><a
+href="https://www.frontiermodelforum.org/"><span style='color:black'>Frontier
+Model Forum</span></a> ,  and internal discussions. As the field evolves and
+our  understanding deepens, we remain committed to refining our approach. <sup><span
+style='font-size:8.5pt;line-height:115%'> <a href="#_ftn2" name="_ftnref2"
+title=""><sup><span style='font-size:8.5pt;line-height:115%;font-family:"Calibri",sans-serif;
+color:black'>[2]</span></sup></a> </span></sup></p>
+
+<h1 style='margin-top:0in;margin-right:0in;margin-bottom:8.35pt;margin-left:
+.5in;text-indent:-31.8pt'><a name="_Toc32320"><span style='line-height:107%'>3.<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span>Capability Assessment </a></h1>
+
+<h2 style='margin-left:1.0in;text-indent:-37.6pt'><a name="_Toc32321"><span
+style='line-height:107%'>3.1.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span>Preliminary Assessment </a></h2>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:10.25pt;
+margin-left:-.25pt;text-indent:-.5pt;line-height:116%'><b> We will routinely
+test models to determine whether their capabilities fall sufficiently far below
+the  Capability Thresholds such that we are confident that the ASL-2 Standard
+remains appropriate. We will  first conduct preliminary assessments (on both new
+and existing models, as needed) to determine  whether a more comprehensive
+evaluation is needed. </b> The purpose of this preliminary assessment is to 
+identify whether the model is notably more capable than the last model that
+underwent a comprehensive  assessment. </p>
+
+<p class=MsoNormal style='margin-left:0in;text-indent:0in'> The term “notably
+more capable” is operationalized as at least one of the following: </p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:1.4pt;
+margin-left:35.25pt;text-indent:-.25in'><span style='line-height:115%'>1.<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span>The model is notably more performant on automated tests in
+risk-relevant domains (defined as 4x or  more in Effective Compute <sup><span
+style='font-size:8.5pt;line-height:115%'> <a href="#_ftn3" name="_ftnref3"
+title=""><sup><span style='font-size:8.5pt;line-height:115%;font-family:"Calibri",sans-serif;
+color:black'>[3]</span></sup></a> </span></sup> ). </p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:1.15pt;
+margin-left:35.25pt;text-indent:-.25in'><span style='line-height:115%'>2.<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span>Six months’ worth of finetuning and other capability elicitation
+methods have accumulated.            <sup><span style='font-size:8.5pt;
+line-height:115%'> <a href="#_ftn4" name="_ftnref4" title=""><sup><span
+style='font-size:8.5pt;line-height:115%;font-family:"Calibri",sans-serif;
+color:black'>[4]</span></sup></a> </span></sup> This is  measured in calendar
+time, since we do not yet have a metric to estimate the impact of these </p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:12.95pt;
+margin-left:.5in;text-indent:0in'> improvements more precisely. <sup><span
+style='font-size:8.5pt;line-height:115%'> <a href="#_ftn5" name="_ftnref5"
+title=""><sup><span style='font-size:8.5pt;line-height:115%;font-family:"Calibri",sans-serif;
+color:black'>[5]</span></sup></a> </span></sup></p>
+
+<p class=MsoNormal style='margin-left:0in;text-indent:0in'> In addition, the
+Responsible Scaling Officer may in their discretion determine that a
+comprehensive  assessment is warranted. </p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:15.45pt;
+margin-left:0in;text-indent:0in'> If a new or existing model is below the
+“notably more capable” standard, no further testing is necessary. </p>
+
+<h2 style='margin-left:1.0in;text-indent:-40.3pt'><a name="_Toc32322"><span
+style='line-height:107%'>3.2.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span>Comprehensive Assessment </a></h2>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:11.55pt;
+margin-left:-.25pt;text-indent:-.5pt;line-height:116%'><b> For models requiring
+comprehensive testing, we will assess whether the model is unlikely to reach
+any  relevant Capability Thresholds absent surprising advances in widely
+accessible post-training  enhancements. </b><b><sup><span style='font-size:
+8.5pt;line-height:116%'> <a href="#_ftn6" name="_ftnref6" title=""><b><sup><span
+style='font-size:8.5pt;line-height:115%;font-family:"Calibri",sans-serif;
+color:black'>[6]</span></sup></b></a> </span></sup> To make the required
+showing, we will  need to satisfy the following criteria: </b></p>
+
+<p class=MsoNormal style='margin-left:35.25pt;text-indent:-.25in'><span
+style='line-height:115%'>1.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><b>Threat model mapping: </b> For each capability threshold, 
+make a compelling case that we have mapped  out the most likely and
+consequential threat models: combinations of actors (if relevant), attack 
+pathways, model capability bottlenecks, and types of harms. We also make a compelling
+case that  there does not exist a threat model that we are not evaluating that
+represents a substantial amount of  risk. </p>
+
+<p class=MsoNormal style='margin-left:35.25pt;text-indent:-.25in'><span
+style='line-height:115%'>2.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><b>Evaluations: </b> Design and run empirical tests that provide 
+strong evidence that the model does not  have the requisite skills; explain why
+the tests yielded such results; and check at test time that the  results are
+attributable to the model’s capabilities rather than issues with the test
+design. Findings  from partner organizations and external evaluations of our
+models (or similar models) should also be  incorporated into the final
+assessment, when available. </p>
+
+<p class=MsoNormal style='margin-left:35.25pt;text-indent:-.25in'><span
+style='line-height:115%'>3.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><b>Elicitation: </b> Demonstrate that, when given enough
+resources  to extrapolate to realistic attackers,  researchers cannot elicit
+sufficiently useful results from the model on the relevant tasks. We should 
+assume that jailbreaks and model weight theft are possibilities, and therefore
+perform testing on  models without safety mechanisms (such as harmlessness
+training) that could obscure these  capabilities. We will also consider the
+possible performance increase from using resources that a  realistic attacker
+would have access to, such as scaffolding, finetuning, and expert prompting.
+At  minimum, we will perform basic finetuning for instruction following, tool
+use, minimizing refusal  rates. </p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:0in;
+margin-left:35.25pt;text-indent:-.25in;line-height:118%'><span
+style='line-height:118%'>4.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><b>Forecasting: </b> Make informal forecasts about the likelihood
+that further training and elicitation will  improve test results between the
+time of testing and the next expected round of comprehensive </p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:13.4pt;
+margin-left:.5in;text-indent:0in'> testing. <sup><span style='font-size:8.5pt;
+line-height:115%'> <a href="#_ftn7" name="_ftnref7" title=""><sup><span
+style='font-size:8.5pt;line-height:115%;font-family:"Calibri",sans-serif;
+color:black'>[7]</span></sup></a> </span></sup></p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:15.25pt;
+margin-left:0in;text-indent:0in'> This testing and the subsequent capability
+decision should ideally be concluded within about a month of  reaching the
+“notably more capable” threshold. </p>
+
+<h2 style='margin-left:1.0in;text-indent:-38.95pt'><a name="_Toc32323"><span
+style='line-height:107%'>3.3.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span>Capability Decision </a></h2>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:10.25pt;
+margin-left:-.25pt;text-indent:-.5pt;line-height:116%'><b> If, after the
+comprehensive testing, we determine that the model is sufficiently below the
+relevant  Capability Thresholds, then we will continue to apply the ASL-2
+Standard. </b><sup><span style='font-size:8.5pt;line-height:116%'> <a
+href="#_ftn8" name="_ftnref8" title=""><sup><span style='font-size:8.5pt;
+line-height:115%;font-family:"Calibri",sans-serif;color:black'>[8]</span></sup></a>
+</span></sup> The process for making such  a  determination is as follows: </p>
+
+<p class=MsoNormal style='margin-left:35.25pt;text-indent:-.25in'><span
+style='line-height:115%'>1.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span>First, we will <b> compile a Capability Report </b> that
+documents the findings from the comprehensive  assessment, makes an affirmative
+case for why the Capability Threshold is sufficiently far away, and  advances
+recommendations on deployment decisions. </p>
+
+<p class=MsoNormal style='margin-left:35.25pt;text-indent:-.25in'><span
+style='line-height:115%'>2.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span>The report will be <b> escalated to the CEO and the Responsible 
+Scaling Officer</b> , who will (1) make the  ultimate determination as to
+whether we have sufficiently established that we are unlikely to reach  the
+Capability Threshold and (2) decide any deployment-related issues. </p>
+
+<p class=MsoNormal style='margin-left:35.25pt;text-indent:-.25in'><span
+style='line-height:115%'>3.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span>In general, as noted in <u> Sections 7.1.4</u>  and <u> 7.2.2</u>
+,  we will <b> solicit both internal and external expert  feedback </b> on the
+report as well as the CEO and RSO’s  conclusions to inform future refinements
+to our  methodology. For high-stakes issues, however, the CEO and RSO will
+likely solicit internal and  external feedback on the report prior to making
+any decisions. </p>
+
+<p class=MsoNormal style='margin-left:35.25pt;text-indent:-.25in'><span
+style='line-height:115%'>4.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span>If the CEO and RSO decide to proceed with deployment, they will <b> share
+their decision</b> –as well as the  underlying Capability Report, internal
+feedback, and any external feedback–with the Board of  Directors and the <a
+href="https://www.anthropic.com/news/the-long-term-benefit-trust"><span
+style='color:black'> </span></a><a
+href="https://www.anthropic.com/news/the-long-term-benefit-trust"><span
+style='color:black'>Long-Term Benefit Trust</span></a>  before moving  forward.
+</p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:32.15pt;
+margin-left:0in;text-indent:0in'><b> If, however, we determine we are unable to
+make the required showing, we will act as though the model  has surpassed the
+Capability Threshold. </b><b><sup><span style='font-size:8.5pt;line-height:
+115%'> <a href="#_ftn9" name="_ftnref9" title=""><b><sup><span
+style='font-size:8.5pt;line-height:115%;font-family:"Calibri",sans-serif;
+color:black'>[9]</span></sup></b></a> </span></sup></b>This means          that
+we will (1) upgrade to the ASL-3 Required Safeguards (see          <u> Section
+4</u> ) and (2) conduct follow-up  a capability assessment to confirm that the
+ASL-4  Standard is not necessary (see <u> Section 5</u> ). </p>
+
+<h1 style='margin-left:31.8pt;text-indent:-32.55pt'><a name="_Toc32324"><span
+style='line-height:107%'>4.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span>Safeguards Assessment </a></h1>
+
+<p class=MsoNormal style='margin-left:0in;text-indent:0in'><b> To determine
+whether the measures we have adopted satisfy the ASL-3 Required Safeguards, we
+will  conduct a safeguards assessment. </b> As noted, the Required  Safeguards
+for each Capability Threshold are  specified in <u> Section 2</u> . We will
+document our implementation  of the Required Safeguards in a Safeguards 
+Report. </p>
+
+<h2 style='margin-left:1.0in;text-indent:-38.2pt'><a name="_Toc32325"><span
+style='line-height:107%'>4.1.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span>ASL-3 Deployment Standard </a></h2>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:10.25pt;
+margin-left:-.25pt;text-indent:-.5pt;line-height:116%'><b> When a model must
+meet the ASL-3 Deployment Standard, we will evaluate whether the measures we 
+have implemented make us robust to persistent attempts to misuse the capability
+in question. </b> To make  the required showing, we will need to satisfy the
+following criteria: </p>
+
+<p class=MsoNormal style='margin-left:35.25pt;text-indent:-.25in'><span
+style='line-height:115%'>1.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><b>Threat modeling: </b> Make a compelling case that the set  of
+threats and the vectors through which an  adversary could catastrophically
+misuse the deployed system have been sufficiently mapped out, and  will commit
+to revising as necessary over time. </p>
+
+<p class=MsoNormal style='margin-left:35.25pt;text-indent:-.25in'><span
+style='line-height:115%'>2.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><b>Defense in depth: </b> Use a “defense in depth” approach  by
+building a series of defensive layers, each  designed to catch misuse attempts
+that might pass through previous barriers. As an example, this  might entail
+achieving a high overall recall rate using harm refusal techniques. This is an
+area of  active research, and new technologies may be added when ready. </p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:.3pt;
+margin-left:35.25pt;text-indent:-.25in'><span style='line-height:115%'>3.<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><b>Red-teaming: </b> Conduct red-teaming that demonstrates  that
+threat actors with realistic access levels  and resources are highly unlikely
+to be able to consistently elicit information from any generally  accessible
+systems that greatly increases their ability to cause catastrophic harm
+relative to other </p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:13.3pt;
+margin-left:.5in;text-indent:0in'> available tools. <sup><span
+style='font-size:8.5pt;line-height:115%'> <a href="#_ftn10" name="_ftnref10"
+title=""><sup><span style='font-size:8.5pt;line-height:115%;font-family:"Calibri",sans-serif;
+color:black'>[10]</span></sup></a> </span></sup></p>
+
+<p class=MsoNormal style='margin-left:35.25pt;text-indent:-.25in'><span
+style='line-height:115%'>4.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><b>Rapid remediation: </b> Show that any compromises of the 
+deployed system, such as jailbreaks or other  attack pathways, will be
+identified and remediated promptly enough to prevent the overall system  from
+meaningfully increasing an adversary’s ability to cause catastrophic harm.
+Example techniques  could include rapid vulnerability patching, the ability to
+escalate to law enforcement when  appropriate, and any necessary retention of
+logs for these activities. </p>
+
+<p class=MsoNormal style='margin-left:35.25pt;text-indent:-.25in'><span
+style='line-height:115%'>5.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><b>Monitoring: </b> Prespecify empirical evidence that would 
+show the system is operating within the  accepted risk range and define a
+process for reviewing the system’s performance on a reasonable  cadence.
+Process examples include monitoring responses to jailbreak bounties, doing
+historical  analysis or background monitoring, and any necessary retention of
+logs for these activities. </p>
+
+<p class=MsoNormal style='margin-left:35.25pt;text-indent:-.25in'><span
+style='line-height:115%'>6.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><b>Trusted users: </b> Establish criteria for determining  when
+it may be appropriate to share a version of the  model with reduced safeguards
+with trusted users. In addition, demonstrate that an alternative set of 
+controls will provide equivalent levels of assurance. This could include a
+sufficient combination of  user vetting, secure access controls, monitoring,
+log retention, and incident response protocols. </p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:15.25pt;
+margin-left:35.25pt;text-indent:-.25in'><span style='line-height:115%'>7.<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><b>Third-party environments: </b> Document how all relevant 
+models will meet the criteria above, even if  they are deployed in a
+third-party partner’s environment that may have a different set of safeguards. </p>
+
+<h2 style='margin-left:1.0in;text-indent:-40.9pt'><a name="_Toc32326"><span
+style='line-height:107%'>4.2.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span>ASL-3 Security Standard </a></h2>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:10.25pt;
+margin-left:-.25pt;text-indent:-.5pt;line-height:116%'><b> When a model must
+meet the ASL-3 Security Standard, we will evaluate whether the measures we
+have  implemented make us highly protected against most attackers’ attempts at
+stealing model weights. </b></p>
+
+<p class=MsoNormal style='margin-left:0in;text-indent:0in'> We consider the
+following groups in scope: hacktivists, criminal hacker groups, organized
+cybercrime groups,  terrorist organizations, corporate espionage teams,
+internal employees, <sup><span style='font-size:8.5pt;line-height:115%'> <a
+href="#_ftn11" name="_ftnref11" title=""><sup><span style='font-size:8.5pt;
+line-height:115%;font-family:"Calibri",sans-serif;color:black'>[11]</span></sup></a>
+</span></sup> and state-sponsored programs  that  use broad-based and
+non-targeted techniques (i.e., not novel attack chains). </p>
+
+<p class=MsoNormal style='margin-left:0in;text-indent:0in'> The following
+groups are out of scope for the ASL-3 Security Standard because further testing
+(as discussed  below) should confirm that the model would not meaningfully
+increase their ability to do harm:  state-sponsored programs that specifically
+target us (e.g., through novel attack chains or insider compromise)  and a
+small number (~10) of non-state actors with state-level resourcing or backing
+that are capable of  developing novel attack chains that utilize 0-day attacks.
+</p>
+
+<p class=MsoNormal style='margin-left:0in;text-indent:0in'> To make the
+required showing, we will need to satisfy the following criteria: </p>
+
+<p class=MsoNormal style='margin-left:35.25pt;text-indent:-.25in'><span
+style='line-height:115%'>1.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><b>Threat modeling: </b> Follow risk governance best practices, 
+such as use of the MITRE ATT&amp;CK  Framework to establish the relationship
+between the identified threats, sensitive assets, attack  vectors and, in doing
+so, sufficiently capture the resulting risks that must be addressed to protect 
+model weights from theft attempts. As part of this requirement, we should
+specify our plans for  revising the resulting threat model over time. </p>
+
+<p class=MsoNormal style='margin-left:35.25pt;text-indent:-.25in'><span
+style='line-height:115%'>2.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><b>Security frameworks: </b> Align to and, as needed, extend 
+industry-standard security frameworks for  addressing identified risks, such as
+disclosure of sensitive information, tampering with accounts and  assets, and
+unauthorized elevation of privileges with the appropriate controls. This
+includes: </p>
+
+<p class=MsoNormal style='margin-left:1.0in;text-indent:-.25in'><span
+style='line-height:115%'>a.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><b>Perimeters and access controls: </b> Building strong
+perimeters  and access controls around  sensitive assets to ensure AI models
+and critical systems are protected from unauthorized  access. We expect this
+will include a combination of physical security, encryption, cloud  security,
+infrastructure policy, access management, and weight access minimization and 
+monitoring. </p>
+
+<p class=MsoNormal style='margin-left:1.0in;text-indent:-.25in'><span
+style='line-height:115%'>b.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><b>Lifecycle security: </b> Securing links in the chain of 
+systems and software used to develop  models, to prevent compromised components
+from being introduced and to ensure only  trusted code and hardware is used. We
+expect this will include a combination of software  inventory, supply chain
+security, artifact integrity, binary authorization, hardware  procurement, and
+secure research development lifecycle. </p>
+
+<p class=MsoNormal style='margin-left:1.0in;text-indent:-.25in'><span
+style='line-height:115%'>c.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><b>Monitoring: </b> Proactively identifying and mitigating 
+threats through ongoing and effective  monitoring, testing for vulnerabilities,
+and laying traps for potential attackers. We expect this  will include a
+combination of endpoint patching, product security testing, log management, 
+asset monitoring, and intruder deception techniques. </p>
+
+<p class=MsoNormal style='margin-left:1.0in;text-indent:-.25in'><span
+style='line-height:115%'>d.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><b>Resourcing: </b> Investing sufficient resources in security. 
+We expect meeting this standard of  security to require roughly 5-10% of
+employees being dedicated to security and  security-adjacent work. </p>
+
+<p class=MsoNormal style='margin-left:1.0in;text-indent:-.25in'><span
+style='line-height:115%'>e.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><b>Existing guidance: </b> Aligning where appropriate with 
+existing guidance on securing model  weights, including <a
+href="https://www.rand.org/pubs/research_reports/RRA2849-1.html?utm_campaign=AI,thread&amp;utm_content=1717021989&amp;utm_medium=rand_social&amp;utm_source=twitter"><span
+style='color:black'> </span></a><a
+href="https://www.rand.org/pubs/research_reports/RRA2849-1.html?utm_campaign=AI,thread&amp;utm_content=1717021989&amp;utm_medium=rand_social&amp;utm_source=twitter"><span
+style='color:black'>Securing AI Model Weights, Preventing </span></a><a
+href="https://www.rand.org/pubs/research_reports/RRA2849-1.html?utm_campaign=AI,thread&amp;utm_content=1717021989&amp;utm_medium=rand_social&amp;utm_source=twitter"><span
+style='color:black'> </span></a><a
+href="https://www.rand.org/pubs/research_reports/RRA2849-1.html?utm_campaign=AI,thread&amp;utm_content=1717021989&amp;utm_medium=rand_social&amp;utm_source=twitter"><span
+style='color:black'>Theft and Misuse of Frontier</span></a><a
+href="https://www.rand.org/pubs/research_reports/RRA2849-1.html?utm_campaign=AI,thread&amp;utm_content=1717021989&amp;utm_medium=rand_social&amp;utm_source=twitter"><span
+style='color:black;text-decoration:none'> </span></a><a
+href="https://www.rand.org/pubs/research_reports/RRA2849-1.html?utm_campaign=AI,thread&amp;utm_content=1717021989&amp;utm_medium=rand_social&amp;utm_source=twitter"><span
+style='color:black'> </span></a><a
+href="https://www.rand.org/pubs/research_reports/RRA2849-1.html?utm_campaign=AI,thread&amp;utm_content=1717021989&amp;utm_medium=rand_social&amp;utm_source=twitter"><span
+style='color:black'>Models (2024)</span></a> ; security recommendations like <a
+href="https://media.defense.gov/2024/Apr/15/2003439257/-1/-1/0/CSI-DEPLOYING-AI-SYSTEMS-SECURELY.PDF"><span
+style='color:black'> </span></a><a
+href="https://media.defense.gov/2024/Apr/15/2003439257/-1/-1/0/CSI-DEPLOYING-AI-SYSTEMS-SECURELY.PDF"><span
+style='color:black'>Deploying </span></a><a
+href="https://media.defense.gov/2024/Apr/15/2003439257/-1/-1/0/CSI-DEPLOYING-AI-SYSTEMS-SECURELY.PDF"><span
+style='color:black'> </span></a><a
+href="https://media.defense.gov/2024/Apr/15/2003439257/-1/-1/0/CSI-DEPLOYING-AI-SYSTEMS-SECURELY.PDF"><span
+style='color:black'>AI Systems Securely</span></a>  (CISA/NSA/FBI/ASD/CCCS/GCSB
+/GCHQ), <a href="https://www.iso.org/standard/81230.html"><span
+style='color:black'> </span></a><a
+href="https://www.iso.org/standard/81230.html"><span style='color:black'>ISO
+42001</span></a><a href="https://www.iso.org/standard/81230.html"><span
+style='color:black;text-decoration:none'> </span></a><a
+href="https://www.iso.org/standard/81230.html"><span style='color:black;
+text-decoration:none'>,</span></a> CSA’s <a
+href="https://cloudsecurityalliance.org/research/working-groups/artificial-intelligence"><span
+style='color:black'> </span></a><a
+href="https://cloudsecurityalliance.org/research/working-groups/artificial-intelligence"><span
+style='color:black'>AI Safety Initiative</span></a><a
+href="https://cloudsecurityalliance.org/research/working-groups/artificial-intelligence"><span
+style='color:black;text-decoration:none'> </span></a><a
+href="https://cloudsecurityalliance.org/research/working-groups/artificial-intelligence"><span
+style='color:black;text-decoration:none'>,</span></a> and <a
+href="https://www.coalitionforsecureai.org/about/"><span style='color:black'> </span></a><a
+href="https://www.coalitionforsecureai.org/about/"><span style='color:black'>CoSAI</span></a>
+; and  standards frameworks like <a href="https://csrc.nist.gov/projects/ssdf"><span
+style='color:black'> </span></a><a href="https://csrc.nist.gov/projects/ssdf"><span
+style='color:black'>SSDF</span></a><a href="https://csrc.nist.gov/projects/ssdf"><span
+style='color:black;text-decoration:none'> </span></a><a
+href="https://csrc.nist.gov/projects/ssdf"><span style='color:black;text-decoration:
+none'>,</span></a><a
+href="https://en.wikipedia.org/wiki/System_and_Organization_Controls"><span
+style='color:black;text-decoration:none'> </span></a><a
+href="https://en.wikipedia.org/wiki/System_and_Organization_Controls"><span
+style='color:black'> </span></a><a
+href="https://en.wikipedia.org/wiki/System_and_Organization_Controls"><span
+style='color:black'>SOC 2</span></a> , <a
+href="https://csrc.nist.gov/pubs/sp/800/53/r5/upd1/final"><span
+style='color:black'> </span></a><a
+href="https://csrc.nist.gov/pubs/sp/800/53/r5/upd1/final"><span
+style='color:black'>NIST 800-53</span></a> . </p>
+
+<p class=MsoNormal style='margin-left:35.25pt;text-indent:-.25in'><span
+style='line-height:115%'>3.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><b>Audits: </b> Develop plans to (1) audit and assess the  design
+and implementation of the security program  and (2) share these findings (and
+updates on any remediation efforts) with management on an  appropriate cadence.
+We expect this to include independent validation of threat modeling and risk 
+assessment results; a sampling-based audit of the operating effectiveness of
+the defined controls;  periodic, broadly scoped, and independent testing with
+expert red-teamers who are  industry-renowned and have been recognized in
+competitive challenges. </p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:15.25pt;
+margin-left:35.25pt;text-indent:-.25in'><span style='line-height:115%'>4.<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><b>Third-party environments: </b> Document how all relevant 
+models will meet the criteria above, even if  they are deployed in a
+third-party partner’s environment that may have a different set of safeguards. </p>
+
+<h2 style='margin-left:1.0in;text-indent:-39.55pt'><a name="_Toc32327"><span
+style='line-height:107%'>4.3.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span>Safeguards Decision </a></h2>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:10.25pt;
+margin-left:-.25pt;text-indent:-.5pt;line-height:116%'><b> If, after the
+evaluations above, we determine that we have met the ASL-3 Required Safeguards,
+then we  may proceed with deploying and training models above the Capability
+Threshold, provided we have also  conducted a follow-up capability assessment. </b> The
+process  for determining whether we have met the ASL-3  Required Safeguards is
+as follows: </p>
+
+<p class=MsoNormal style='margin-left:35.25pt;text-indent:-.25in'><span
+style='line-height:115%'>1.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span>First, we will <b> compile a Safeguards Report </b> for each 
+Required Safeguard that documents our  implementation of the measures above,
+makes an affirmative case for why we have satisfied them,  and advances
+recommendations on deployment decisions. </p>
+
+<p class=MsoNormal style='margin-left:35.25pt;text-indent:-.25in'><span
+style='line-height:115%'>2.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span>The Safeguards Report(s) will be <b> escalated to the  CEO and
+the Responsible Scaling Officer</b> , who will  (1) make the ultimate
+determination as to whether we have satisfied the Required Safeguards and (2) 
+decide any deployment-related issues. </p>
+
+<p class=MsoNormal style='margin-left:35.25pt;text-indent:-.25in'><span
+style='line-height:115%'>3.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span>In general, as noted in <u> Sections 7.1.4</u>  and <u> 7.2.2</u>
+,  we will <b> solicit both internal and external expert  feedback </b> on the
+report as well as the CEO and RSO’s  conclusions to inform future refinements
+to our  methodology. For high-stakes issues, however, the CEO and RSO will
+likely solicit internal and  external feedback on the report prior to making
+any decisions. </p>
+
+<p class=MsoNormal style='margin-left:35.25pt;text-indent:-.25in'><span
+style='line-height:115%'>4.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span>If the CEO and RSO decide to proceed with deployment and
+training, they will <b> share their  decision</b> –as well as the underlying
+Safeguards Report,  internal feedback, and any external  feedback–with the
+Board of Directors and the <a
+href="https://www.anthropic.com/news/the-long-term-benefit-trust"><span
+style='color:black'> </span></a><a
+href="https://www.anthropic.com/news/the-long-term-benefit-trust"><span
+style='color:black'>Long-Term </span></a><a
+href="https://www.anthropic.com/news/the-long-term-benefit-trust"><span
+style='color:black'> </span></a><a
+href="https://www.anthropic.com/news/the-long-term-benefit-trust"><span
+style='color:black'>Benefit Trust</span></a>  before moving forward. </p>
+
+<p class=MsoNormal style='margin-left:35.25pt;text-indent:-.25in'><span
+style='line-height:115%'>5.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span>After the ASL-3 Required Safeguards are approved, they will be <b> revisited
+and re-approved at least  annually </b> to re-affirm their suitability and
+sound  implementation. </p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:32.05pt;
+margin-left:-.25pt;text-indent:-.5pt;line-height:116%'><b> If, however, we are
+unable to make the showing required above, we will restrict model deployment
+and  further scaling. </b></p>
+
+<h1 style='margin-left:.5in;text-indent:-31.75pt'><a name="_Toc32328"><span
+style='line-height:107%'>5.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span>Follow-Up Capability Assessment </a></h1>
+
+<p class=MsoNormal style='margin-left:0in;text-indent:0in'> In parallel with
+upgrading a model to the Required Safeguards, we will (1) update this policy to
+include any  additional Capability Thresholds for which the Required Safeguards
+would be insufficient; and (2) conduct a  follow-up capability assessment to
+determine that the model’s capabilities fall sufficiently far away from those 
+Capability Thresholds, following the procedures outlined in <u> Section 3</u> .
+</p>
+
+<h1 style='margin-top:0in;margin-right:0in;margin-bottom:8.35pt;margin-left:
+31.95pt;text-indent:-32.7pt'><a name="_Toc32329"><span style='line-height:107%'>6.<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span>Deployment and Scaling Outcomes </a></h1>
+
+<h2 style='margin-left:1.0in;text-indent:-38.3pt'><a name="_Toc32330"><span
+style='line-height:107%'>6.1.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span>Continue Deployment and Further Scaling </a></h2>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:15.25pt;
+margin-left:0in;text-indent:0in'> To summarize the commitments and procedures
+outlined above, we may deploy or store a model if either of  the following
+criteria are met: (1) the model’s capabilities are sufficiently far away from
+the existing Capability  Thresholds, making the current ASL-2 Standard
+appropriate; or (2) the model’s capabilities have surpassed the  existing
+Capabilities Threshold, but we have implemented the ASL-3 Required Safeguards
+and confirmed that  the model is sufficiently far away from the next set of
+Capability Thresholds as to make the model ASL-3  Standard appropriate. We may
+also continue to train more capable models, conducting preliminary and 
+comprehensive assessments as before. </p>
+
+<h2 style='margin-left:1.0in;text-indent:-41.0pt'><a name="_Toc32331"><span
+style='line-height:107%'>6.2.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span>Restrict Deployment and Further Scaling </a></h2>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:10.25pt;
+margin-left:-.25pt;text-indent:-.5pt;line-height:116%'><b> In any scenario
+where we determine that a model requires ASL-3 Required Safeguards but we are
+unable  to implement them immediately, we will act promptly to reduce interim
+risk to acceptable levels until the  ASL-3 Required Safeguards are in place: </b></p>
+
+<p class=MsoNormal style='margin-left:35.25pt;text-indent:-.25in'><span
+style='line-height:115%;font-family:"Arial",sans-serif'>&#9679;<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span><b>Interim
+measures: </b> The CEO and Responsible Scaling  Officer may approve the use of
+interim  measures that provide the same level of assurance as the relevant
+ASL-3 Standard but are faster or  simpler to implement. In the deployment
+context, such measures might include blocking model  responses, downgrading to
+a less-capable model in a particular domain, or increasing the sensitivity  of
+automated monitoring. <sup><span style='font-size:8.5pt;line-height:115%'> <a
+href="#_ftn12" name="_ftnref12" title=""><sup><span style='font-size:8.5pt;
+line-height:115%;font-family:"Calibri",sans-serif;color:black'>[12]</span></sup></a>
+</span></sup> In the security context,  an example of such a measure would be
+storing the  model weights in a single-purpose, isolated network that meets the
+ASL-3 Standard. In either case,  the CEO and Responsible Scaling Officer will
+share their plan with the Board of Directors and the  Long-Term Benefit Trust. </p>
+
+<p class=MsoNormal style='margin-left:35.25pt;text-indent:-.25in'><span
+style='line-height:115%;font-family:"Arial",sans-serif'>&#9679;<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span><b>Stronger
+restrictions: </b> In the unlikely event that  we cannot implement interim
+measures to  adequately mitigate risk, we will impose stronger restrictions. In
+the deployment context, we will  de-deploy the model and replace it with a
+model that falls below the Capability Threshold. Once the  ASL-3 Deployment
+Standard can be met, the model may be re-deployed. In the security context, we 
+will delete model weights. Given the availability of interim deployment and
+security protections,  however, stronger restrictions should rarely be
+necessary. </p>
+
+<p class=MsoNormal style='margin-left:35.25pt;text-indent:-.25in'><span
+style='line-height:115%;font-family:"Arial",sans-serif'>&#9679;<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span><b>Monitoring
+pretraining: </b> We will not train models with  comparable or greater
+capabilities to the one  that requires the ASL-3 Security Standard. <sup><span
+style='font-size:8.5pt;line-height:115%'> <a href="#_ftn13" name="_ftnref13"
+title=""><sup><span style='font-size:8.5pt;line-height:115%;font-family:"Calibri",sans-serif;
+color:black'>[13]</span></sup></a> </span></sup> This is achieved by monitoring
+the capabilities of the   model in pretraining and comparing them against the
+given model. If the pretraining model’s capabilities are comparable or greater,
+we will pause training until we have implemented the ASL-3   Security Standard
+and established it is sufficient for the model. We will set expectations with
+internal  stakeholders about the potential for such pauses. </p>
+
+<h1 style='margin-top:0in;margin-right:0in;margin-bottom:8.35pt;margin-left:
+.5in;text-indent:-30.1pt'><a name="_Toc32332"><span style='line-height:107%'>7.<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span>Governance and Transparency </a></h1>
+
+<h2 style='margin-left:1.0in;text-indent:-36.25pt'><a name="_Toc32333"><span
+style='line-height:107%'>7.1.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span>Internal Governance </a></h2>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:10.25pt;
+margin-left:-.25pt;text-indent:-.5pt;line-height:116%'><b> To facilitate the
+effective implementation of this policy across the company, we commit to the
+following: </b></p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:11.7pt;
+margin-left:35.25pt;text-indent:-.25in'><span style='line-height:115%'>1.<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><b>Responsible Scaling Officer: </b> We will maintain the 
+position of Responsible Scaling Officer, a  designated member of staff who is
+responsible for reducing catastrophic risk, primarily by ensuring  this policy
+is designed and implemented effectively. The Responsible Scaling Officer’s
+duties will  include (but are not limited to): (1) as needed, proposing updates
+to this policy to the Board of  Directors; (2) approving relevant model
+training or deployment decisions based on capability and  safeguard
+assessments; (3) reviewing major contracts (i.e., deployment partnerships) for
+consistency  with this policy; (4) overseeing implementation of this policy,
+including the allocation of sufficient resources; (5) receiving and addressing
+reports of potential instances of noncompliance              <sup><span
+style='font-size:8.5pt;line-height:115%'> <a href="#_ftn14" name="_ftnref14"
+title=""><sup><span style='font-size:8.5pt;line-height:115%;font-family:"Calibri",sans-serif;
+color:black'>[14]</span></sup></a> </span></sup> ; (6) promptly  notifying the
+Board of Directors of any cases of noncompliance that pose material risk <sup><span
+style='font-size:8.5pt;line-height:115%'> <a href="#_ftn15" name="_ftnref15"
+title=""><sup><span style='font-size:8.5pt;line-height:115%;font-family:"Calibri",sans-serif;
+color:black'>[15]</span></sup></a> </span></sup> ; and (7)  making judgment
+calls on policy interpretation <sup><span style='font-size:8.5pt;line-height:
+115%'> <a href="#_ftn16" name="_ftnref16" title=""><sup><span style='font-size:
+8.5pt;line-height:115%;font-family:"Calibri",sans-serif;color:black'>[16]</span></sup></a>
+</span></sup> and  application. </p>
+
+<p class=MsoNormal style='margin-left:35.25pt;text-indent:-.25in'><span
+style='line-height:115%'>2.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><b>Readiness: </b> We will develop internal safety procedures 
+for incident scenarios. Such scenarios include  (1) pausing training in
+response to reaching Capability Thresholds; (2) responding to a security 
+incident involving model weights; and (3) responding to severe jailbreaks or
+vulnerabilities in  deployed models, including restricting access in safety
+emergencies that cannot otherwise be  mitigated. We will run exercises to
+ensure our readiness for incident scenarios. </p>
+
+<p class=MsoNormal style='margin-left:35.25pt;text-indent:-.25in'><span
+style='line-height:115%'>3.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><b>Transparency: </b> We will share summaries of Capability 
+Reports and Safeguards Reports with  Anthropic’s regular-clearance staff,
+redacting any highly-sensitive information. We will share a  minimally redacted
+version of these reports with a subset of staff, to help us surface relevant
+technical  safety considerations. </p>
+
+<p class=MsoNormal style='margin-left:35.25pt;text-indent:-.25in'><span
+style='line-height:115%'>4.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><b>Internal review: </b> For each Capabilities or Safeguards 
+Report, we will solicit feedback from internal  teams with visibility into the
+relevant activities, with the aims of informing future refinements to our 
+methodology and, in some circumstances, identifying weaknesses and informing
+the CEO and RSO’s  decisions. </p>
+
+<p class=MsoNormal style='margin-left:35.25pt;text-indent:-.25in'><span
+style='line-height:115%'>5.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><b>Noncompliance: </b> We will maintain a process through  which
+Anthropic staff may anonymously notify  the Responsible Scaling Officer of any
+potential instances of noncompliance with this policy. We will  also establish
+a policy governing noncompliance reporting, which will (1) protect reporters
+from  retaliation and (2) set forth a mechanism for escalating reports to one
+or more members of the Board  of Directors in cases where the report relates to
+conduct of the Responsible Scaling Officer. Further, we  will track and investigate
+any reported or otherwise identified potential instances of noncompliance  with
+this policy. Where reports are substantiated, we will take appropriate and
+proportional corrective  action and document the same. The Responsible Scaling
+Officer will regularly update the Board of  Directors on substantial cases of
+noncompliance and overall trends. </p>
+
+<p class=MsoNormal style='margin-left:35.25pt;text-indent:-.25in'><span
+style='line-height:115%'>6.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><b>Employee agreements: </b> We will not impose contractual
+non-disparagement obligations on  employees, candidates, or former employees in
+a way that could impede or discourage them from  publicly raising safety
+concerns about Anthropic. If we offer agreements with a non-disparagement 
+clause, that clause will not preclude raising safety concerns, nor will it
+preclude disclosure of the  existence of that clause. </p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:15.25pt;
+margin-left:35.25pt;text-indent:-.25in'><span style='line-height:115%'>7.<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><b>Policy changes: </b> Changes to this policy will be proposed 
+by the CEO and the Responsible Scaling  Officer and approved by the Board of
+Directors, in consultation with the Long-Term Benefit Trust. <sup><span
+style='font-size:8.5pt;line-height:115%'> <a href="#_ftn17" name="_ftnref17"
+title=""><sup><span style='font-size:8.5pt;line-height:115%;font-family:"Calibri",sans-serif;
+color:black'>[17]</span></sup></a> </span></sup> The current version of the RSP
+is accessible at <a href="http://anthropic.com/responsible-scaling-policy"><span
+style='color:black'> </span></a><a
+href="http://anthropic.com/responsible-scaling-policy"><span style='color:black'>www.anthropic.com/rsp</span></a><a
+href="http://anthropic.com/responsible-scaling-policy"><span style='color:black;
+text-decoration:none'> </span></a><a
+href="http://anthropic.com/responsible-scaling-policy"><span style='color:black;
+text-decoration:none'>.</span></a>  We will update the public  version of the
+RSP before any changes take effect and record any differences from the prior
+draft in a change log.  </p>
+
+<h2 style='margin-left:1.0in;text-indent:-38.95pt'><a name="_Toc32334"><span
+style='line-height:107%'>7.2.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span>Transparency and External Input </a></h2>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:10.25pt;
+margin-left:-.25pt;text-indent:-.5pt;line-height:116%'><b> To advance the
+public dialogue on the regulation of frontier AI model risks and to enable
+examination of  our actions, we commit to the following: </b></p>
+
+<p class=MsoNormal style='margin-left:35.25pt;text-indent:-.25in'><span
+style='line-height:115%'>1.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><b>Public disclosures: </b> We will publicly release key
+information  related to the evaluation and deployment  of our models (not
+including sensitive details). These include summaries of related Capability
+and  Safeguards reports when we deploy a model <sup><span style='font-size:
+8.5pt;line-height:115%'> <a href="#_ftn18" name="_ftnref18" title=""><sup><span
+style='font-size:8.5pt;line-height:115%;font-family:"Calibri",sans-serif;
+color:black'>[18]</span></sup></a> </span></sup> as well  as plans for current
+and future comprehensive  capability assessments and deployment and security
+safeguards. <sup><span style='font-size:8.5pt;line-height:115%'> <a
+href="#_ftn19" name="_ftnref19" title=""><sup><span style='font-size:8.5pt;
+line-height:115%;font-family:"Calibri",sans-serif;color:black'>[19]</span></sup></a>
+</span></sup> We will also periodically release  information on internal
+reports of potential instances of non-compliance and other implementation 
+challenges we encounter. </p>
+
+<p class=MsoNormal style='margin-left:35.25pt;text-indent:-.25in'><span
+style='line-height:115%'>2.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><b>Expert input: </b> We will solicit input from external 
+experts in relevant domains in the process of  developing and conducting
+capability and safeguards assessments. We may also solicit external  expert
+input prior to making final decisions on the capability and safeguards
+assessments. </p>
+
+<p class=MsoNormal style='margin-left:35.25pt;text-indent:-.25in'><span
+style='line-height:115%'>3.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><b>U.S. Government notice: </b> We will notify a relevant  U.S.
+Government entity if a model requires stronger  protections than the ASL-2
+Standard. </p>
+
+<p class=MsoNormal style='margin-left:35.25pt;text-indent:-.25in'><span
+style='line-height:115%'>4.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><b>Procedural compliance review: </b> On approximately an  annual
+basis, we will commission a third-party  review that assesses whether we
+adhered to this policy’s main procedural commitments (we expect to  iterate on
+the exact list since this has not been done before for RSPs). This review will
+focus on  procedural compliance, not substantive outcomes. We will also do such
+reviews internally on a more  regular cadence. </p>
+
+<h1 style='margin-top:0in;margin-right:0in;margin-bottom:8.35pt;margin-left:
+-.25pt;text-indent:0in'><a name="_Toc32335"> Appendices </a></h1>
+
+<h2 style='margin-top:0in;margin-right:0in;margin-bottom:0in;margin-left:-.25pt;
+text-indent:0in'><a name="_Toc32336"> Appendix A: Glossary </a></h2>
+
+<table class=TableGrid border=0 cellspacing=0 cellpadding=0 width=627
+ style='width:470.25pt;margin-left:-.4pt;border-collapse:collapse'>
+ <tr style='height:50.25pt'>
+  <td width=97 valign=top style='width:72.75pt;border:solid black 1.0pt;
+  padding:5.65pt 5.6pt 0in 4.9pt;height:50.25pt'>
+  <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:1.15pt;
+  margin-left:0in;text-indent:0in;line-height:107%'> AI Safety </p>
+  <p class=MsoNormal style='margin:0in;text-indent:0in;line-height:107%'> Levels
+  (ASLs) </p>
+  </td>
+  <td width=530 style='width:397.5pt;border:solid black 1.0pt;border-left:none;
+  padding:5.65pt 5.6pt 0in 4.9pt;height:50.25pt'>
+  <p class=MsoNormal style='margin:0in;text-indent:0in;line-height:107%'> Technical
+  and operational standards for safely training and deploying frontier AI
+  models.  Higher ASLs correspond to stronger safety and security measures
+  required for more  capable models. </p>
+  </td>
+ </tr>
+ <tr style='height:37.5pt'>
+  <td width=97 style='width:72.75pt;border:solid black 1.0pt;border-top:none;
+  padding:5.65pt 5.6pt 0in 4.9pt;height:37.5pt'>
+  <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:1.15pt;
+  margin-left:0in;text-indent:0in;line-height:107%'> ASL-2 </p>
+  <p class=MsoNormal style='margin:0in;text-indent:0in;line-height:107%'> Standard
+  </p>
+  </td>
+  <td width=530 style='width:397.5pt;border-top:none;border-left:none;
+  border-bottom:solid black 1.0pt;border-right:solid black 1.0pt;padding:5.65pt 5.6pt 0in 4.9pt;
+  height:37.5pt'>
+  <p class=MsoNormal style='margin:0in;text-indent:0in;line-height:107%'> The
+  current default standard for all Anthropic models, including security
+  measures, safety  testing, and automated misuse detection. </p>
+  </td>
+ </tr>
+ <tr style='height:50.25pt'>
+  <td width=97 valign=top style='width:72.75pt;border:solid black 1.0pt;
+  border-top:none;padding:5.65pt 5.6pt 0in 4.9pt;height:50.25pt'>
+  <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:1.15pt;
+  margin-left:0in;text-indent:0in;line-height:107%'> ASL-3 </p>
+  <p class=MsoNormal style='margin:0in;text-indent:0in;line-height:107%'> Standard
+  </p>
+  </td>
+  <td width=530 style='width:397.5pt;border-top:none;border-left:none;
+  border-bottom:solid black 1.0pt;border-right:solid black 1.0pt;padding:5.65pt 5.6pt 0in 4.9pt;
+  height:50.25pt'>
+  <p class=MsoNormal style='margin:0in;text-indent:2.15pt;line-height:107%'> A
+  higher level of safeguards required when a model cannot be certified as
+  ASL-2  appropriate. It includes more stringent security and deployment
+  measures designed to  mitigate risks from more capable models. </p>
+  </td>
+ </tr>
+ <tr style='height:63.0pt'>
+  <td width=97 valign=top style='width:72.75pt;border:solid black 1.0pt;
+  border-top:none;padding:5.65pt 5.6pt 0in 4.9pt;height:63.0pt'>
+  <p class=MsoNormal style='margin:0in;text-indent:0in;line-height:107%'> Capability 
+  Report </p>
+  </td>
+  <td width=530 style='width:397.5pt;border-top:none;border-left:none;
+  border-bottom:solid black 1.0pt;border-right:solid black 1.0pt;padding:5.65pt 5.6pt 0in 4.9pt;
+  height:63.0pt'>
+  <p class=MsoNormal style='margin:0in;text-indent:0in;line-height:107%'> A
+  document attesting that a model is sufficiently far from each of the relevant
+  Capability  Thresholds, and therefore (still) appropriate for storing under
+  an ASL-N Standard. It  includes evaluation procedures, results, and other
+  relevant evidence gathered around the  time of testing. </p>
+  </td>
+ </tr>
+ <tr style='height:37.5pt'>
+  <td width=97 style='width:72.75pt;border:solid black 1.0pt;border-top:none;
+  padding:5.65pt 5.6pt 0in 4.9pt;height:37.5pt'>
+  <p class=MsoNormal style='margin:0in;text-indent:0in;line-height:107%'> Capability 
+  Thresholds </p>
+  </td>
+  <td width=530 style='width:397.5pt;border-top:none;border-left:none;
+  border-bottom:solid black 1.0pt;border-right:solid black 1.0pt;padding:5.65pt 5.6pt 0in 4.9pt;
+  height:37.5pt'>
+  <p class=MsoNormal style='margin:0in;text-indent:0in;line-height:107%'> Specific
+  AI capabilities that, if reached, would require stronger safeguards than the
+  current  baseline ASL-N standard provides. </p>
+  </td>
+ </tr>
+ <tr style='height:36.75pt'>
+  <td width=97 style='width:72.75pt;border:solid black 1.0pt;border-top:none;
+  padding:5.65pt 5.6pt 0in 4.9pt;height:36.75pt'>
+  <p class=MsoNormal style='margin:0in;text-indent:0in;line-height:107%'> Effective 
+  Compute </p>
+  </td>
+  <td width=530 valign=top style='width:397.5pt;border-top:none;border-left:
+  none;border-bottom:solid black 1.0pt;border-right:solid black 1.0pt;
+  padding:5.65pt 5.6pt 0in 4.9pt;height:36.75pt'>
+  <p class=MsoNormal style='margin:0in;text-indent:0in;line-height:107%'> A
+  scaling trend-based metric that accounts for both FLOPs and algorithmic
+  improvements. </p>
+  </td>
+ </tr>
+ <tr style='height:50.25pt'>
+  <td width=97 valign=top style='width:72.75pt;border:solid black 1.0pt;
+  border-top:none;padding:5.65pt 5.6pt 0in 4.9pt;height:50.25pt'>
+  <p class=MsoNormal style='margin:0in;text-indent:0in;line-height:107%'> Evaluations
+  </p>
+  </td>
+  <td width=530 style='width:397.5pt;border-top:none;border-left:none;
+  border-bottom:solid black 1.0pt;border-right:solid black 1.0pt;padding:5.65pt 5.6pt 0in 4.9pt;
+  height:50.25pt'>
+  <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:1.15pt;
+  margin-left:0in;text-indent:0in;line-height:107%'> Empirical tests designed
+  to provide early warning when a model is approaching a </p>
+  <p class=MsoNormal style='margin:0in;text-indent:0in;line-height:107%'> Capability
+  Threshold. These tests are intended to trigger before a model actually
+  reaches a  dangerous capability. </p>
+  </td>
+ </tr>
+ <tr style='height:50.25pt'>
+  <td width=97 valign=top style='width:72.75pt;border:solid black 1.0pt;
+  border-top:none;padding:5.65pt 5.6pt 0in 4.9pt;height:50.25pt'>
+  <p class=MsoNormal style='margin:0in;text-indent:0in;line-height:107%'> FLOP(s)
+  </p>
+  </td>
+  <td width=530 style='width:397.5pt;border-top:none;border-left:none;
+  border-bottom:solid black 1.0pt;border-right:solid black 1.0pt;padding:5.65pt 5.6pt 0in 4.9pt;
+  height:50.25pt'>
+  <p class=MsoNormal style='margin:0in;text-indent:0in;line-height:107%'> Floating-Point
+  Operation(s). The amount of computation required to train or run a model.  The
+  number of FLOPs can be used as one indicator of a model’s computational
+  complexity  and, indirectly, its potential capabilities. </p>
+  </td>
+ </tr>
+ <tr style='height:63.75pt'>
+  <td width=97 valign=top style='width:72.75pt;border:solid black 1.0pt;
+  border-top:none;padding:5.65pt 5.6pt 0in 4.9pt;height:63.75pt'>
+  <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:1.15pt;
+  margin-left:0in;text-indent:0in;line-height:107%'> Long-Term </p>
+  <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:1.15pt;
+  margin-left:0in;text-indent:0in;line-height:107%'> Benefit Trust </p>
+  <p class=MsoNormal style='margin:0in;text-indent:0in;line-height:107%'> (LTBT)
+  </p>
+  </td>
+  <td width=530 style='width:397.5pt;border-top:none;border-left:none;
+  border-bottom:solid black 1.0pt;border-right:solid black 1.0pt;padding:5.65pt 5.6pt 0in 4.9pt;
+  height:63.75pt'>
+  <p class=MsoNormal style='margin:0in;text-indent:0in;line-height:107%'> Anthropic’s
+  Board of Directors approves the RSP and receives Capability Reports and 
+  Safeguards Reports. The LTBT is an external body that is consulted on policy
+  changes and  also provided with Capability Reports and Safeguards Reports.
+  More details about the LTBT  are available <a
+  href="https://www.anthropic.com/news/the-long-term-benefit-trust"><span
+  style='color:black'> </span></a><a
+  href="https://www.anthropic.com/news/the-long-term-benefit-trust"><span
+  style='color:black'>here</span></a> . </p>
+  </td>
+ </tr>
+ <tr style='height:37.5pt'>
+  <td width=97 style='width:72.75pt;border:solid black 1.0pt;border-top:none;
+  padding:5.65pt 5.6pt 0in 4.9pt;height:37.5pt'>
+  <p class=MsoNormal style='margin:0in;text-indent:0in;line-height:107%'> Required 
+  Safeguards </p>
+  </td>
+  <td width=530 style='width:397.5pt;border-top:none;border-left:none;
+  border-bottom:solid black 1.0pt;border-right:solid black 1.0pt;padding:5.65pt 5.6pt 0in 4.9pt;
+  height:37.5pt'>
+  <p class=MsoNormal style='margin:0in;text-indent:0in;line-height:107%'> The
+  standard of safety and security measures that must be implemented when a
+  model  reaches a Capability Threshold. </p>
+  </td>
+ </tr>
+ <tr style='height:63.0pt'>
+  <td width=97 valign=top style='width:72.75pt;border:solid black 1.0pt;
+  border-top:none;padding:5.65pt 5.6pt 0in 4.9pt;height:63.0pt'>
+  <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:1.15pt;
+  margin-left:0in;text-indent:0in;line-height:107%'> Responsible </p>
+  <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:1.15pt;
+  margin-left:0in;text-indent:0in;line-height:107%'> Scaling </p>
+  <p class=MsoNormal style='margin:0in;text-indent:0in;line-height:107%'> Officer
+  (RSO) </p>
+  </td>
+  <td width=530 style='width:397.5pt;border-top:none;border-left:none;
+  border-bottom:solid black 1.0pt;border-right:solid black 1.0pt;padding:5.65pt 5.6pt 0in 4.9pt;
+  height:63.0pt'>
+  <p class=MsoNormal style='margin:0in;text-indent:0in;line-height:107%'> A
+  designated staff member responsible for reducing catastrophic risk, primarily
+  by  ensuring this policy is designed and implemented effectively. Their
+  duties include  reviewing policy updates, approving reports, overseeing
+  implementation, and approving  deployments. </p>
+  </td>
+ </tr>
+ <tr style='height:50.25pt'>
+  <td width=97 valign=top style='width:72.75pt;border:solid black 1.0pt;
+  border-top:none;padding:5.65pt 5.6pt 0in 4.9pt;height:50.25pt'>
+  <p class=MsoNormal style='margin:0in;text-indent:0in;line-height:107%'> Safeguards 
+  Report </p>
+  </td>
+  <td width=530 style='width:397.5pt;border-top:none;border-left:none;
+  border-bottom:solid black 1.0pt;border-right:solid black 1.0pt;padding:5.65pt 5.6pt 0in 4.9pt;
+  height:50.25pt'>
+  <p class=MsoNormal style='margin:0in;text-indent:0in;line-height:107%'> A
+  document attesting that the implemented safeguards meet an ASL-N Standard. It
+  details  the design and planned implementation of safeguards, and evidence to
+  demonstrate their  expected effectiveness. </p>
+  </td>
+ </tr>
+</table>
+
+<h2 style='margin-left:-.25pt;text-indent:0in'><a name="_Toc32337"> Appendix B:
+ASL-2 Standard </a></h2>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:13.4pt;
+margin-left:-.25pt;text-indent:-.5pt;line-height:116%'><b> ASL-2 Deployment
+Standard</b> : </p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:.3pt;
+margin-left:35.25pt;text-indent:-.25in'><span style='line-height:115%'>1.<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><b>Acceptable use policies and model cards</b> : Publication  of
+model cards for significant new models  describing capabilities, limitations,
+evaluations, and intended use cases. Enforcement of a <a
+href="https://www.anthropic.com/legal/aup"><span style='color:black'> </span></a><a
+href="https://www.anthropic.com/legal/aup"><span style='color:black'>Usage</span></a><a
+href="https://www.anthropic.com/legal/aup"><span style='color:black;text-decoration:
+none'> </span></a><a href="https://www.anthropic.com/legal/aup"><span
+style='color:black'> </span></a><a href="https://www.anthropic.com/legal/aup"><span
+style='color:black'>Policy</span></a>  that restricts, at a minimum,
+catastrophic  and high harm use cases, including using the model  to generate
+content that could cause severe risks to the continued existence of humankind,
+or direct  and severe harm to individuals. </p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:.3pt;
+margin-left:35.25pt;text-indent:-.25in'><span style='line-height:115%'>2.<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><b>Harmlessness training and automated detection</b> : Training 
+models to refuse requests to aid in  causing harm, such as with <a
+href="https://www.anthropic.com/index/constitutional-ai-harmlessness-from-ai-feedback"><span
+style='color:black'> </span></a><a
+href="https://www.anthropic.com/index/constitutional-ai-harmlessness-from-ai-feedback"><span
+style='color:black'>Constitutional AI</span></a><a
+href="https://www.anthropic.com/index/constitutional-ai-harmlessness-from-ai-feedback"><span
+style='color:black;text-decoration:none'> </span></a> or other improved
+techniques, and the use of model   enhanced trust and safety detection and
+enforcement. </p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:.3pt;
+margin-left:35.25pt;text-indent:-.25in'><span style='line-height:115%'>3.<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><b>Fine-tuning protections:         </b> In finetuning products,
+data  is filtered for harmfulness, and models are  subject to automated
+evaluation to check harmlessness features are not degraded. There are a very 
+limited number of use cases where this tooling is disabled. These are negotiated
+on a case by case  basis and considered only for extremely low risk use cases
+that involve company personnel. </p>
+
+<p class=MsoNormal style='margin-left:35.25pt;text-indent:-.25in'><span
+style='line-height:115%'>4.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><b>Vulnerability reporting channels</b> : Clearly indicated paths
+within the product for users to report   harmful or dangerous model outputs, as
+well as a <a href="https://www.anthropic.com/news/model-safety-bug-bounty"><span
+style='color:black'> </span></a><a
+href="https://www.anthropic.com/news/model-safety-bug-bounty"><span
+style='color:black'>bug </span></a><a
+href="https://www.anthropic.com/news/model-safety-bug-bounty"><span
+style='color:black'> </span></a><a
+href="https://www.anthropic.com/news/model-safety-bug-bounty"><span
+style='color:black'>bounty for universal jailbreaks</span></a><a
+href="https://www.anthropic.com/news/model-safety-bug-bounty"><span
+style='color:black;text-decoration:none'> </span></a><a
+href="https://www.anthropic.com/news/model-safety-bug-bounty"><span
+style='color:black;text-decoration:none'>.</span></a> </p>
+
+<p class=MsoNormal style='margin-left:0in;text-indent:0in'><b> ASL-2 Security
+Standard</b> : A security system that can  likely thwart most opportunistic
+attackers. </p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:.3pt;
+margin-left:35.25pt;text-indent:-.25in'><span style='line-height:115%'>1.<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><b>Supply chain: </b> Vendor and supplier security must be 
+regularly reviewed to ensure that they meet  security standards. Software
+updates should be frequently managed and compliance monitoring  automated where
+possible. </p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:.3pt;
+margin-left:35.25pt;text-indent:-.25in'><span style='line-height:115%'>2.<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><b>Offices: </b>Physical security should entail visitor access             logs
+and restrictions protect on-site assets. Highly sensitive interactions should
+utilize advanced authentication like security keys. Network   visibility should
+be maintained and office access controls and communications should maximize 
+on-site protections. </p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:.3pt;
+margin-left:35.25pt;text-indent:-.25in'><span style='line-height:115%'>3.<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><b>Workforce: </b> People-critical processes must represent  a
+key aspect of cybersecurity. Mandatory  periodic infosec training educates all
+employees on secure practices, like proper system  configurations and strong
+passwords, and fosters a proactive “security mindset.” Fundamental 
+infrastructure and policies promoting secure-by-design and secure-by-default
+principles should be  incorporated into the engineering process. An insider
+risk program should tie access to job roles.  Rapid incident response protocols
+must be deployed. </p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:.3pt;
+margin-left:35.25pt;text-indent:-.25in'><span style='line-height:115%'>4.<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><b>Compartmentalization:          </b> Segmented system isolation
+must  ensure limited blast radius. Features like zero trust architecture should
+require access from approved devices. Strict protocols must be deployed   to
+regulate weight copies on company networks and limit storage to only approved,
+restricted systems.  </p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:.3pt;
+margin-left:35.25pt;text-indent:-.25in'><span style='line-height:115%'>5.<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><b>Infrastructure: </b> Standard security infrastructure,
+monitoring software, access management tools, and   disk encryption provide a
+technology baseline. Process elements like incident reporting procedures, 
+lost/stolen device protocols and Detection and Response should support these.
+External validation like  SOC 2 compliance and continuous vulnerability
+management must ensure adaptations match infosec  developments. Programs like
+bug bounties and vulnerability discovery should incentivize exposing  flaws. </p>
+
+<p class=MsoNormal style='margin-left:35.25pt;text-indent:-.25in'><span
+style='line-height:115%'>6.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><b>Operations: </b> Ongoing configuration management, compliance
+drills, integrated security approaches   and mandatory external reviews should
+embed security within regular operations and harden processes during
+organizational changes.  </p>
+
+<h2 style='margin-left:-.25pt;text-indent:0in'><a name="_Toc32338"> Appendix C:
+Detailed Capability Thresholds </a></h2>
+
+<p class=MsoNormal style='margin-left:0in;text-indent:0in'> This appendix
+contains detailed definitions for each Capability Threshold in <u> Section 2</u>
+. </p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:10.25pt;
+margin-left:-.25pt;text-indent:-.5pt;line-height:116%'><b> Chemical,
+Biological, Radiological, and Nuclear (CBRN) weapons: </b></p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:12.4pt;
+margin-left:.5in;text-indent:0in'><b> CBRN-3: </b> The ability to significantly
+assist individuals  or groups with basic STEM backgrounds in  obtaining,
+producing, or deploying CBRN weapons. <sup><span style='font-size:8.5pt;
+line-height:115%'> <a href="#_ftn20" name="_ftnref20" title=""><sup><span
+style='font-size:8.5pt;line-height:115%;font-family:"Calibri",sans-serif;
+color:black'>[20]</span></sup></a> </span></sup> We assess this by comparing
+what potential attackers could achieve with full model access versus 2023-level
+online resources, assuming they have  funding and up to one year of time to
+invest, but no initial specialized expertise.           <sup><span
+style='font-size:8.5pt;line-height:115%'> <a href="#_ftn21" name="_ftnref21"
+title=""><sup><span style='font-size:8.5pt;line-height:115%;font-family:"Calibri",sans-serif;
+color:black'>[21]</span></sup></a> </span></sup></p>
+
+<p class=MsoNormal style='margin-left:.5in;text-indent:0in'><b> CBRN-4: </b> The
+ability to substantially uplift CBRN development  capabilities of moderately
+resourced  state programs (with relevant expert teams), such as by novel
+weapons design, substantially  accelerating existing processes, or dramatic
+reduction in technical barriers. We currently define this  as uplifting a team
+of people with skills equivalent to entry-level PhD biologists to be able to 
+approximate the capabilities of a world-class, state-backed bioweapons team. </p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:10.25pt;
+margin-left:-.25pt;text-indent:-.5pt;line-height:116%'><b> Autonomous AI
+Research and Development: </b></p>
+
+<p class=MsoNormal style='margin-left:.5in;text-indent:0in'><b> AI R&amp;D-4: </b> The
+ability to fully automate the work of  an entry-level, remote-only Researcher
+at  Anthropic. </p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:.3pt;
+margin-left:.5in;text-indent:0in'><b> AI R&amp;D-5: </b> The ability to cause
+dramatic acceleration  in the rate of effective scaling. Specifically, this 
+would be the case if we observed or projected an increase in the effective
+training compute of the  world’s most capable model that, over the course of a
+year, was equivalent to two years of the average  rate of progress during the
+period of early 2018 to early 2024. We roughly estimate that the 2018-2024 
+average scaleup was around 35x per year, so this would imply an actual or
+projected one-year scaleup </p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:13.4pt;
+margin-left:.5in;text-indent:0in'> of 35 <sup><span style='font-size:8.5pt;
+line-height:115%'> 2 </span></sup> = ~1000x. <sup><span style='font-size:8.5pt;
+line-height:115%'> <a href="#_ftn22" name="_ftnref22" title=""><sup><span
+style='font-size:8.5pt;line-height:115%;font-family:"Calibri",sans-serif;
+color:black'>[22]</span></sup></a> </span></sup></p>
+
+<p class=MsoNormal style='margin-left:0in;text-indent:0in'><b> Model Autonomy
+checkpoint</b> : The ability to perform  a wide range of advanced software
+engineering tasks  autonomously that could be precursors to full autonomous
+replication or automated AI R&amp;D, and that would  take a domain expert human
+2-8 hours to complete. We primarily view this level of model autonomy as a 
+checkpoint on the way to managing the risks of robust, fully autonomous systems
+with capabilities that might  include (a) automating and greatly accelerating
+research and development in AI development (b) generating  their own revenue
+and using it to run copies of themselves in large-scale, hard-to-shut-down
+operations. </p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:10.35pt;
+margin-left:-.25pt;text-indent:-.5pt;line-height:107%'><span style='font-size:
+18.0pt;line-height:107%'> Changelog </span></p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:6.85pt;
+margin-left:-.25pt;text-indent:-.5pt;line-height:107%'><span style='font-size:
+14.0pt;line-height:107%'> September 19, 2023 (RSP v1.0) </span></p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:28.3pt;
+margin-left:-.25pt;text-indent:-.5pt;line-height:116%'><b> RSP-2023 (aka RSP
+v1.0): </b> Initial version. </p>
+
+<h3 style='margin-left:-.25pt'> October 15, 2024 (RSP v2.0) </h3>
+
+<p class=MsoNormal style='margin-left:0in;text-indent:0in'><b> RSP-2024: </b> This
+update introduces a more flexible and  nuanced approach to assessing and
+managing AI risks  while maintaining our commitment not to train or deploy
+models unless we have implemented adequate  safeguards. Key improvements
+include new capability thresholds to indicate when we should upgrade our 
+safeguards, refined processes for evaluating model capabilities and the
+adequacy of our safeguards (inspired  by safety case methodologies), and new
+measures for internal governance and external input. We describe the  most
+notable changes below. </p>
+
+<p class=MsoNormal style='margin-left:.5in;text-indent:-22.5pt'><b> ASL
+definition changed: </b> The term “ASL” now refers  to groups of technical and
+operational safeguards (it  previously also referred to models). We also
+introduced the new concepts of Capability Thresholds and  Required Safeguards.
+This change allows for more targeted application of safeguards based on
+specific  capabilities, rather than broad model categories. </p>
+
+<p class=MsoNormal style='margin-left:.5in;text-indent:-22.5pt'><b> ARA
+threshold now a checkpoint: </b> We replaced our previous  autonomous
+replication and adaption (ARA)  threshold with a “checkpoint” for autonomous AI
+capabilities. Rather than triggering higher safety  standards automatically,
+reaching this checkpoint will prompt additional evaluation of the model’s 
+capabilities and accelerate our preparation of stronger safeguards. We
+previously considered these  capabilities as a trigger for increased
+safeguards, motivated by an attempt to establish some threshold  while we
+developed a better sense of potential threats. We now believe that these
+capabilities - at the  levels we initially considered - would not necessitate
+the ASL-3 standard. </p>
+
+<p class=MsoNormal style='margin-left:.5in;text-indent:-22.5pt'><b> AI R&amp;D
+threshold added: </b> We added a new threshold for  AI systems that can
+significantly advance AI  development. Such capabilities could lead to rapid,
+unpredictable advances in AI, potentially outpacing  our ability to evaluate
+and address emerging risks, and may also serve as an early warning sign for
+the  ability to automate R&amp;D in other domains. </p>
+
+<p class=MsoNormal style='margin-left:.5in;text-indent:-22.5pt'><b> Testing for
+Capability Thresholds: </b> Rather than using  prespecified evaluations, we now
+require an  affirmative case that models are sufficiently far from Capability
+Thresholds. Predefined tests may  miss emerging risks or be overly conservative
+relative to the actual threshold of concern. Our most  accurate tests change
+frequently enough that it is more practical to use this new approach than to 
+have our Board of Directors pre-approve evaluations. </p>
+
+<p class=MsoNormal style='margin-left:.5in;text-indent:-22.5pt'><b> Adjusted
+evaluation cadence: </b> We adjusted the comprehensive  assessment cadence to
+4x Effective Compute  or six months of accumulated post-training enhancements
+(this was previously three months). We  found that a three-month cadence forced
+teams to prioritize conducting frequent evaluations over  more comprehensive
+testing and improving methodologies. </p>
+
+<p class=MsoNormal style='margin-left:.5in;text-indent:-22.5pt'><b> Less
+prescriptive evaluation methodology: </b> We have  replaced some specifics in
+our previous testing  methodology (e.g., using 1% of compute for elicitation or
+creating a 6x buffer), with more general  requirements to (a) match expected
+efforts of potential adversaries and (b) provide informal estimates  of how
+further scaling and research developments will impact model capabilities and
+performance on  the same tasks. We have found that specific methodologies may
+become outdated when new research  developments are introduced. Although still
+an aspirational goal, the science of evaluations is not </p>
+
+<p class=MsoNormal style='margin-left:.5in;text-indent:0in'> currently mature
+enough to make confident predictions about the precise buffer we should
+require  between current models and a Capability Threshold. </p>
+
+<p class=MsoNormal style='margin-left:.5in;text-indent:-22.5pt'><b> More
+outcome-focused safeguard requirements: </b> We have  updated our ASL-3
+safeguards requirements to  be less prescriptive and more outcome-focused.
+Rather than detailing specific operational and  technical safeguards, we now
+specify the overall security or deployment standards and requirements  for
+meeting them. This is to allow us to adapt our safeguards more flexibly as our
+understanding of  risks and possible safeguards improves. </p>
+
+<p class=MsoNormal style='margin-left:.5in;text-indent:-22.5pt'><b> Clarified
+ASL-3 and ASL-2 security threat models: </b> We have clarified which actors are
+in and out of scope  for the ASL-3 Security Standard. We also removed the
+commitment to protect against scaled attacks  and distillation attacks from the
+ASL-2 Security standard. While distillation remains a concern for  more capable
+models, models stored under ASL-2 safeguards have not yet reached potentially
+harmful  Capability Thresholds. </p>
+
+<p class=MsoNormal style='margin-left:.5in;text-indent:-22.5pt'><b> Clarified
+requirements for deployments with trusted users: </b> We have updated the ASL-3
+Deployment  Standard to allow for different levels of safeguards based on
+deployment context. For any general  access systems, we still require passing
+intensive red-teaming. For internal use, safety testing and  deployments to
+sufficiently trusted users, we will instead require a combination of access
+controls and  monitoring. </p>
+
+<p class=MsoNormal style='margin-left:.5in;text-indent:-22.5pt'><b> New
+Capability and Safeguards Reports: </b> We have introduced  Capability Reports
+and Safeguard Reports.  We expect that aggregating all the available evidence
+about model capabilities will provide decision  makers with a more complete
+picture of the overall level of risk and improve our ability to solicit 
+feedback on our work. </p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:15.25pt;
+margin-left:.5in;text-indent:-22.5pt'><b> Internal and external accountability:
+</b> We have made  a number of changes to our previous “procedural 
+commitments.” These include expanding the duties of the Responsible Scaling
+Officer; adding  internal critique and external expert input on capability and
+safeguard assessments; new procedures  related to internal governance; and
+maintaining a public page for overviews of past Capability and  Safeguard
+Reports, RSP-related updates, and future plans. </p>
+
+<h3 style='margin-left:-.25pt'> March 31, 2025 (RSP v2.1) </h3>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:13.35pt;
+margin-left:0in;text-indent:0in'><b> RSP-2025</b> : This update clarifies which
+Capability Thresholds  would require enhanced safeguards beyond our  current
+ASL-3 standards. The key changes include: </p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:13.35pt;
+margin-left:0in;text-indent:0in'><b> New Capability Thresholds</b> : We have
+added a new capability  threshold related to CBRN development, which  defines
+capabilities that could substantially uplift the development capabilities of
+moderately resourced state  programs. We have also disaggregated our existing
+AI R&amp;D capability thresholds, separating them into two  distinct levels
+(the ability to fully automate entry-level AI research work, and the ability to
+cause dramatic  acceleration in the rate of effective scaling) and provided
+additional detail on the corresponding Required  Safeguards. </p>
+
+<p class=MsoNormal style='margin-left:0in;text-indent:0in'><b> Iterative
+Commitment</b> : We have adopted a general commitment  to reevaluate our
+Capability Thresholds  whenever we upgrade to a new set of Required Safeguards.
+We have decided not to maintain a commitment to  define ASL-N+1 evaluations by
+the time we develop ASL-N models; such an approach would add unnecessary 
+complexity because Capability Thresholds do not naturally come grouped in
+discrete levels. We believe it is  more practical and sensible instead to
+commit to reconsidering the whole list of Capability Thresholds  whenever we
+upgrade our safeguards. </p>
+
+<h3 style='margin-left:-.25pt'> May 14, 2025 (RSP v2.2) </h3>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:.3pt;
+margin-left:0in;text-indent:0in'><b> ASL-3 Security</b> : This update excludes
+both sophisticated insiders and state-compromised insiders from the  ASL-3
+Security Standard. Previously, only “highly sophisticated state-compromised
+insiders” were explicitly  excluded. The model capabilities and threat models corresponding
+with the ASL-3 Security Standard do not  warrant protection against either
+group: the CBRN-3 threat models entail large numbers of users having access  to
+unguarded models (which is more likely to occur through a universal jailbreak
+than via model theft), and  the relatively small number of employees who might
+be capable of model theft does not significantly affect the  risk level. For AI
+R&amp;D-4, the threat models generally do not depend on model weight theft and
+instead entail  AI systems engaging in autonomous internal sabotage. </p>
+
+</div>
+
+<div><br clear=all>
+
+<hr align=left size=1 width="33%">
+
+<div id=ftn1>
+
+<p class=footnotedescription style='margin-top:0in;margin-right:0in;margin-bottom:
+1.05pt;margin-left:0in;line-height:107%'><a href="#_ftnref1" name="_ftn1"
+title=""><span class=footnotemark><span style='font-style:normal'><span
+class=footnotemark><span style='font-size:8.0pt;line-height:115%;font-style:
+normal'>[1]</span></span></span></span></a> We hope to publish updates
+approximately every 6 months. </p>
+
+</div>
+
+<div id=ftn2>
+
+<p class=footnotedescription style='margin-left:0in;line-height:110%'><a
+href="#_ftnref2" name="_ftn2" title=""><span class=footnotemark><span
+style='font-style:normal'><span class=footnotemark><span style='font-size:8.0pt;
+line-height:115%;font-style:normal'>[2]</span></span></span></span></a> We
+recognize the potential risks of highly <a
+href="https://www.anthropic.com/news/measuring-model-persuasiveness"><span
+style='color:#1155CC'> </span></a><a
+href="https://www.anthropic.com/news/measuring-model-persuasiveness"><span
+style='color:#1155CC'>persuasive </span></a><a
+href="https://www.anthropic.com/news/measuring-model-persuasiveness"><span
+style='color:#1155CC'> </span></a><a
+href="https://www.anthropic.com/news/measuring-model-persuasiveness"><span
+style='color:#1155CC'>AI models</span></a> . While we are actively consulting
+experts,  we believe this capability  is not yet sufficiently understood to
+include in our current commitments. </p>
+
+</div>
+
+<div id=ftn3>
+
+<p class=footnotedescription style='margin-top:0in;margin-right:.1pt;
+margin-bottom:0in;margin-left:0in;margin-bottom:.0001pt;text-align:justify;
+text-justify:inter-ideograph;line-height:103%'><a href="#_ftnref3" name="_ftn3"
+title=""><span class=footnotemark><span style='font-style:normal'><span
+class=footnotemark><span style='font-size:8.0pt;line-height:115%;font-style:
+normal'>[3]</span></span></span></span></a> “Effective  Compute”  is  a 
+scaling-trend-based  metric  that  accounts  for  both  FLOPs  and 
+algorithmic  improvements.  An  Effective  Compute  increase  of  K 
+represents  a  performance  improvement  from  a  pretrained  model  on 
+relevant  task(s)  equivalent  to  scaling  up  the  baseline  model’s 
+training  compute  by  a  factor  of  K.  We  plan  to  track  Effective 
+Compute  during  pretraining  on  a  weighted  aggregation  of  datasets 
+relevant  to  our  Capability  Thresholds  (e.g.,  coding  and  science). 
+This  is,  however,  an  open  research  question,  and  we  will  explore 
+different  possible  methods.  More  generally,  the  Effective  Compute 
+concept  is  fairly  new,  and  we  may  replace  it  with another metric in a
+similar spirit in the future. </p>
+
+</div>
+
+<div id=ftn4>
+
+<p class=footnotedescription style='margin-left:0in;line-height:107%'><a
+href="#_ftnref4" name="_ftn4" title=""><span class=footnotemark><span
+style='font-style:normal'><span class=footnotemark><span style='font-size:8.0pt;
+line-height:115%;font-style:normal'>[4]</span></span></span></span></a> This is
+a <a href="https://arxiv.org/pdf/2312.07413"><span style='color:#1155CC'> </span></a><a
+href="https://arxiv.org/pdf/2312.07413"><span style='color:#1155CC'>broad
+category</span></a><a href="https://arxiv.org/pdf/2312.07413"><span
+style='color:black;text-decoration:none'>,</span></a><a
+href="https://arxiv.org/pdf/2312.07413"><span style='color:black;text-decoration:
+none'> </span></a> including techniques like  improved prompting and agent
+scaffolding. </p>
+
+</div>
+
+<div id=ftn5>
+
+<p class=footnotedescription style='margin-left:0in;line-height:107%'><a
+href="#_ftnref5" name="_ftn5" title=""><span class=footnotemark><span
+style='font-style:normal'><span class=footnotemark><span style='font-size:8.0pt;
+line-height:115%;font-style:normal'>[5]</span></span></span></span></a> Exploring
+ways to integrate these types of improvements into an overall metric is an
+ongoing area of research. </p>
+
+</div>
+
+<div id=ftn6>
+
+<p class=footnotedescription style='margin-left:0in;line-height:110%'><a
+href="#_ftnref6" name="_ftn6" title=""><span class=footnotemark><span
+style='font-style:normal'><span class=footnotemark><span style='font-size:8.0pt;
+line-height:115%;font-style:normal'>[6]</span></span></span></span></a> By
+“widely accessible,” we mean techniques that are available to a moderately
+resourced group (i.e., do not involve setting up large   amounts of custom
+infrastructure or using confidential information). We include headroom to
+account for the possibility that the  model is either modified via one of our
+own finetuning products or stolen in the months following testing, and used to
+create a model  that has reached a Capability Threshold. That said, estimating
+these future effects is very difficult given the state of research today. </p>
+
+</div>
+
+<div id=ftn7>
+
+<p class=footnotedescription style='margin-left:0in;line-height:113%'><a
+href="#_ftnref7" name="_ftn7" title=""><span class=footnotemark><span
+style='font-style:normal'><span class=footnotemark><span style='font-size:8.0pt;
+line-height:115%;font-style:normal'>[7]</span></span></span></span></a>
+Currently, these will be informal estimates of (1) the extent to which widely
+available elicitation techniques may improve and (2)  how the model will
+perform on the same tasks when the next round of testing begins. As these are
+open research questions, we will  aim to improve these forecasts over time so
+that they can be relied upon for risk judgments. </p>
+
+</div>
+
+<div id=ftn8>
+
+<p class=footnotedescription style='margin-left:0in;line-height:113%'><a
+href="#_ftnref8" name="_ftn8" title=""><span class=footnotemark><span
+style='font-style:normal'><span class=footnotemark><span style='font-size:8.0pt;
+line-height:115%;font-style:normal'>[8]</span></span></span></span></a> In the
+case where the capability assessment shows a model is just barely below the
+threshold, the Responsible Scaling Officer may  choose to limit further
+training to some amount less than the default 4x Effective Compute increase
+until ASL-3 measures are in  place, in order to limit risk. </p>
+
+</div>
+
+<div id=ftn9>
+
+<p class=footnotedescription style='margin-left:0in;line-height:123%'><a
+href="#_ftnref9" name="_ftn9" title=""><span class=footnotemark><span
+style='font-style:normal'><span class=footnotemark><span style='font-size:8.0pt;
+line-height:115%;font-style:normal'>[9]</span></span></span></span></a> There
+may be a substantial period during which models are not demonstrably close to
+the Capability Threshold, but we  nevertheless are unable to rule out the risk
+to our satisfaction, and thus choose to implement the Required Safeguards. </p>
+
+</div>
+
+<div id=ftn10>
+
+<p class=footnotedescription style='margin-left:0in;line-height:110%'><a
+href="#_ftnref10" name="_ftn10" title=""><span class=footnotemark><span
+style='font-style:normal'><span class=footnotemark><span style='font-size:8.0pt;
+line-height:115%;font-style:normal'>[10]</span></span></span></span></a> This
+criterion does not attempt to specify the exact red-teaming protocol (e.g.,
+number of hours, level of access, or pass-fail criteria).  Setting a principled
+pass-fail threshold will depend on other factors, such as the quality of our
+monitoring and ability to respond to  jailbreaks rapidly. Due to the likely
+ease of bypassing or removing safeguards via fine-tuning, it may be difficult
+or impossible for  these red-teaming tests to pass if weights are released or
+if unmoderated fine-tuning access is provided to untrusted users. </p>
+
+</div>
+
+<div id=ftn11>
+
+<p class=footnotedescription style='margin-left:0in;line-height:108%'><a
+href="#_ftnref11" name="_ftn11" title=""><span class=footnotemark><span
+style='font-style:normal'><span class=footnotemark><span style='font-size:8.0pt;
+line-height:115%;font-style:normal'>[11]</span></span></span></span></a> We
+will implement robust controls to mitigate basic insider risk, but consider
+mitigating risks from sophisticated or  state-compromised insiders to be out of
+scope for ASL-3. We define “basic insider risk” as risk from an insider who
+does not have  persistent or time-limited access to systems that process model
+weights. We define “sophisticated insider risk” as risk from an insider  who
+has persistent access or can request time-limited access to systems that
+process model weights. We are committed to further  enhancing these protections
+as a part of our ongoing preparations for higher security levels. </p>
+
+</div>
+
+<div id=ftn12>
+
+<p class=footnotedescription style='margin-left:.25in;line-height:124%'><a
+href="#_ftnref12" name="_ftn12" title=""><span class=footnotemark><span
+style='font-style:normal'><span class=footnotemark><span style='font-size:8.0pt;
+line-height:115%;font-style:normal'>[12]</span></span></span></span></a> When
+choosing amongst options that satisfy the safety criteria, we will implement
+whichever interim safeguards minimize  changes to customer experience. </p>
+
+</div>
+
+<div id=ftn13>
+
+<p class=footnotedescription style='margin-top:0in;margin-right:0in;margin-bottom:
+23.4pt;margin-left:.25in;line-height:113%'><a href="#_ftnref13" name="_ftn13"
+title=""><span class=footnotemark><span style='font-style:normal'><span
+class=footnotemark><span style='font-size:8.0pt;line-height:115%;font-style:
+normal'>[13]</span></span></span></span></a> We consider implementation of the
+ASL-3 Security Standard alone sufficient to continue training, regardless of
+whether the  ASL-3 Deployment Standard is satisfied. “Comparable or greater
+capabilities” is operationalized as 1x or more in Effective  Compute. </p>
+
+<p class=footnotedescription align=right style='margin-top:0in;margin-right:
+4.95pt;margin-bottom:0in;margin-left:0in;margin-bottom:.0001pt;text-align:right;
+line-height:107%'><span style='font-style:normal'> </span></p>
+
+</div>
+
+<div id=ftn14>
+
+<p class=footnotedescription style='margin-left:.25in;line-height:113%'><a
+href="#_ftnref14" name="_ftn14" title=""><span class=footnotemark><span
+style='font-style:normal'><span class=footnotemark><span style='font-size:8.0pt;
+line-height:115%;font-style:normal'>[14]</span></span></span></span></a> In
+addition to noncompliance processes, we will (1) establish pathways for
+Anthropic staff to raise any issues related to this  policy, including the
+overall risk levels of our models and implementation challenges; and (2)
+regularly review our compliance  with this policy’s procedural requirements. </p>
+
+</div>
+
+<div id=ftn15>
+
+<p class=footnotedescription style='margin-left:.25in;line-height:107%'><a
+href="#_ftnref15" name="_ftn15" title=""><span class=footnotemark><span
+style='font-style:normal'><span class=footnotemark><span style='font-size:8.0pt;
+line-height:115%;font-style:normal'>[15]</span></span></span></span></a> Cases
+deemed to present minimal additional risk may be reported to the Board in
+quarterly summary reports. </p>
+
+</div>
+
+<div id=ftn16>
+
+<p class=footnotedescription style='margin-left:.25in;line-height:124%'><a
+href="#_ftnref16" name="_ftn16" title=""><span class=footnotemark><span
+style='font-style:normal'><span class=footnotemark><span style='font-size:8.0pt;
+line-height:115%;font-style:normal'>[16]</span></span></span></span></a> In
+cases where this policy is unintentionally ambiguous, we will act in accordance
+with the Responsible Scaling Officer or   CEO’s judgment, and aim to clarify
+the ambiguity in the next policy update. </p>
+
+</div>
+
+<div id=ftn17>
+
+<p class=footnotedescription style='margin-left:.25in;line-height:107%'><a
+href="#_ftnref17" name="_ftn17" title=""><span class=footnotemark><span
+style='font-style:normal'><span class=footnotemark><span style='font-size:8.0pt;
+line-height:115%;font-style:normal'>[17]</span></span></span></span></a> It is
+possible at some point in the future that another actor in the frontier AI
+ecosystem will pass, or be on track to imminently  pass, a Capability Threshold
+without implementing measures equivalent to the Required Safeguards such that
+their actions  pose a serious risk for the world. In such a scenario, because
+the incremental increase in risk attributable to us would be small,  we might
+decide to lower the Required Safeguards. If we take this measure, however, we
+will also acknowledge the overall level  of risk posed by AI systems (including
+ours), and will invest significantly in making a case to the U.S. government
+for taking  regulatory action to mitigate such risk to acceptable levels. </p>
+
+</div>
+
+<div id=ftn18>
+
+<p class=footnotedescription style='margin-left:.25in;line-height:124%'><a
+href="#_ftnref18" name="_ftn18" title=""><span class=footnotemark><span
+style='font-style:normal'><span class=footnotemark><span style='font-size:8.0pt;
+line-height:115%;font-style:normal'>[18]</span></span></span></span></a> We
+currently expect that if we do not deploy the model publicly and instead
+proceed with training or limited deployments, we  will likely instead share
+evaluation details with a relevant U.S. Government entity. </p>
+
+</div>
+
+<div id=ftn19>
+
+<p class=footnotedescription style='margin-left:.25in;line-height:106%'><a
+href="#_ftnref19" name="_ftn19" title=""><span class=footnotemark><span
+style='font-style:normal'><span class=footnotemark><span style='font-size:8.0pt;
+line-height:115%;font-style:normal'>[19]</span></span></span></span></a> These
+will be posted to <a href="http://www.anthropic.com/rsp-updates"><span
+style='color:#1155CC'> </span></a><a href="http://www.anthropic.com/rsp-updates"><span
+style='color:#1155CC'>www.anthropic.com/rsp-updates</span></a> .  We anticipate
+providing updates at least every 6-12 months. Where  possible, we will include
+descriptions of the empirical evaluation results we believe would indicate that
+a model is no longer safe  to store under the ASL-2 Standard. Our purpose in these
+updates is to provide sufficient detail to facilitate conversations about  best
+practices for safeguards, capability evaluations, and elicitation. </p>
+
+</div>
+
+<div id=ftn20>
+
+<p class=footnotedescription style='margin-left:.25in;line-height:113%'><a
+href="#_ftnref20" name="_ftn20" title=""><span class=footnotemark><span
+style='font-style:normal'><span class=footnotemark><span style='font-size:8.0pt;
+line-height:115%;font-style:normal'>[20]</span></span></span></span></a> We are
+uncertain how to choose a specific threshold, but we maintain a current list of
+specific CBRN capabilities of concern for  which we would implement stronger
+mitigations. We treat these lists as sensitive, but we plan to share them with
+organizations  such as AI Safety Institutes and the Frontier Model Forum, and
+keep these lists updated. </p>
+
+</div>
+
+<div id=ftn21>
+
+<p class=footnotedescription style='margin-left:.25in;line-height:113%'><a
+href="#_ftnref21" name="_ftn21" title=""><span class=footnotemark><span
+style='font-style:normal'><span class=footnotemark><span style='font-size:8.0pt;
+line-height:115%;font-style:normal'>[21]</span></span></span></span></a> This
+comparison is hard to make in practice; this note is to clarify the meaning of
+the conceptual threshold and the fact that   this policy aims to measure risk
+relative to the world in 2023, so that we can understand how much risk the
+current generations of frontier models are creating.  </p>
+
+</div>
+
+<div id=ftn22>
+
+<p class=footnotedescription style='margin-left:.25in;line-height:110%'><a
+href="#_ftnref22" name="_ftn22" title=""><span class=footnotemark><span
+style='font-style:normal'><span class=footnotemark><span style='font-size:8.0pt;
+line-height:115%;font-style:normal'>[22]</span></span></span></span></a> The
+35x/year scaleup estimate is based on assuming the rate of increase in compute
+being used to train frontier models from  ~2018 to May 2024 is 4.2 x/year (<a
+href="https://epochai.org/blog/training-compute-of-frontier-ai-models-grows-by-4-5x-per-year#appendix-3-summary-of-main-results"><span
+style='color:#1155CC'> </span></a><a
+href="https://epochai.org/blog/training-compute-of-frontier-ai-models-grows-by-4-5x-per-year#appendix-3-summary-of-main-results"><span
+style='color:#1155CC'>reference</span></a><a
+href="https://epochai.org/blog/training-compute-of-frontier-ai-models-grows-by-4-5x-per-year#appendix-3-summary-of-main-results"><span
+style='color:black;text-decoration:none'> </span></a><a
+href="https://epochai.org/blog/training-compute-of-frontier-ai-models-grows-by-4-5x-per-year#appendix-3-summary-of-main-results"><span
+style='color:black;text-decoration:none'>)</span></a>, the impact  of increased
+(LLM) algorithmic efficiency is roughly equivalent to a  further 2.8 x/year <a
+href="https://epochai.org/blog/algorithmic-progress-in-language-models"><span
+style='color:black;text-decoration:none'>(</span></a><a
+href="https://epochai.org/blog/algorithmic-progress-in-language-models"><span
+style='color:#1155CC'> </span></a><a
+href="https://epochai.org/blog/algorithmic-progress-in-language-models"><span
+style='color:#1155CC'>reference</span></a><a
+href="https://epochai.org/blog/algorithmic-progress-in-language-models"><span
+style='color:black;text-decoration:none'> </span></a><a
+href="https://epochai.org/blog/algorithmic-progress-in-language-models"><span
+style='color:black;text-decoration:none'>)</span></a>, and the impact of  post
+training enhancements is a further 3 x/year (informal estimate).  Combined,
+these have an effective rate of scaling of 35 x/year. </p>
+
+</div>
+
+</div>
+
+</body>
+
+</html>

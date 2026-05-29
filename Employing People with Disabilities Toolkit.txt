@@ -1,0 +1,479 @@
+﻿This guidance document was issued upon approval of the Chair of the U.S. Equal Employment Opportunity Commission. 
+OLC Control # EEOC-NVTA-2015-1 Title Recruiting, Hiring, Retaining, and Promoting People with Disabilities Date Issued 3-Feb-15 General Topics ADA/GINA Summary This document is a cross-agency effort between the EEOC and 8 other agencies on the recruiting, hiring, retaining, and promoting of people with disability Date Posted 03-Feb-15 Statutes/Authorities Involved ADA, Rehabilitation Act, 29 CFR Part 1630 Audience Employers, HR Practitioners Revision No The contents of this document do not have the force and effect of law and are not meant to bind the public in any way. This document is intended only to provide clarity to the public regarding existing requirements under the law or agency policies. 
+
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+This resource guide is a product of the Curb Cuts to the Middle Class Initiative, a federal crossagency effort working to increase equal employment opportunities and financial independence for individuals with disabilities.  The Curb Cuts to the Middle Class Initiative includes participation by agencies across the federal government, including the Department of Education, Department of Labor, Department of Health and Human Services, Department of Justice, Department of Veterans Affairs, Equal Employment Opportunity Commission, National Council on Disability, Office of Personnel Management, and the Social Security Administration.    
+ 
+Anupa Iyer and Sharon Masling, from the Equal Employment Opportunity Commission, were the primary authors of this resource guide. 
+ 
+February 3, 2015 
+TABLE OF CONTENTS 
+ 
+ 
+INTRODUCTION	5 
+USING THIS RESOURCE GUIDE	7 
+ SECTION ONE: BEST PRACTICES FOR RECRUITING CANDIDATES WITH 	
+DISABILITIES	8 
+What steps can businesses take to ensure people with disabilities are included in a company's overall recruitment efforts?	8 
+What are some strategies to recruit young people with disabilities?	10 
+What are some strategies to recruit Veterans with disabilities?	10 
+What are some best practices employers can implement to provide equal access to employment opportunities for applicants with disabilities?	11 
+What are some best practices for interviewing applicants with disabilities?	11 
+What can an interviewer ask about a person's disability during the hiring process? What questions may not be asked?	12 
+ SECTION TWO: BEST PRACTICES ON RESPECTING, RETAINING & PROMOTING 	
+EMPLOYEES WITH DISABILITIES	13 
+What can employers do to develop retention programs for employees with disabilities?	13 
+What are tailored on-boarding programs?	13 
+How can employers provide employees with disabilities equal access to career development programs? 	14 
+How can disability awareness and etiquette training help employee retention?	14 
+How can workplace mentoring programs and employee resource groups improve employment outcomes?	15 
+How can return to work programs be more inclusive of employees with disabilities?	15 
+How can workplace flexibility programs help employers retain employees with disabilities? 	16 
+SECTION THREE: BEST PRACTICES FOR PROVIDING REASONABLE 	
+ACCOMMODATIONS	17 
+What is a reasonable accommodation?	17 
+Where can employers find resources on appropriate accommodations for specific disabilities or work settings?	17 
+On average, how much will it cost to provide a reasonable accommodation?	18 
+What are some best practices on developing accommodations processes and procedures?	18 
+What are some common reasonable accommodation requests? 	18 
+SECTION FOUR: THE LEGAL FRAMEWORK: THE AMERICANS WITH DISABILITIES ACT OF 1990 AND SECTION 503 OF THE REHABILITATION ACT OF 1973	21 
+What is Title I of the Americans with Disabilities Act?	21 
+What is Section 503 of the Rehabilitation Act?	21 
+How is employment discrimination defined under the ADA and Section 503?	22 
+Which employees and applicants are covered under the ADA and the nondiscrimination provisions of Section 503?	22 
+Who is a person with a disability under the ADA and Section 503?	22 
+When must an employer provide a reasonable accommodation under the ADA and Section 503?	23 
+Which employers are subject to the requirements of the ADA?	23 
+Which employers are subject to the requirements of Section 503?	24 
+What are some of the key requirements for federal contractors under the new Section 503 regulations? 	24 
+APPENDIX: AGENCY AND AGENCY-PARTNER RESOURCES FOR EMPLOYERS	25 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+INTRODUCTION 
+"I want future generations to know that we are a people who see our differences as a great gift, that we are a people who value the dignity and worth of every citizen - man and woman, young and old, black and white, Latino and Asian, immigrant and Native American, gay and straight, Americans with mental illness or physical disability." 
+President Barack Obama, January 20, 2015 
+ 
+In recent decades, the nation's and world's economies have experienced massive and continuing changes.  Technological innovation, globalization, the emergence of a knowledge economy and similar trends have improved the quality and standard of living for millions of people and offer the potential to do the same for millions more.   
+Yet, for our nation to prosper in the 21st century global economy, the American Dream must be accessible to all those who work hard to achieve it.  As our nation rebuilds its economy and middle class, we must seek out and seize opportunities to enable people with disabilities to gain and sustain good jobs and careers that can lead to better self-supporting futures.   
+Passage of the Americans with Disabilities Act (ADA) has enabled more people with disabilities to join the workforce than ever before. Today, young people with disabilities expect to join the workforce and to be financially independent.1 Unfortunately, the vast majority of working age adults with disabilities still face structural and attitudinal barriers that block their access to steady employment and economic security.23  In order to fulfill the promise of the ADA - equal employment opportunity and full inclusion - we need to create new curb cuts and pathways for people with disabilities.  
+"Unemployment and underemployment for people with disabilities remain incredibly high, and that is a call to action for all of us. Our charge is to seek out and find creative solutions to these old challenges...The productivity and talent that people with disabilities can contribute is only limited by our own perceptions of what is possible." Oswald Mondejar, Senior Vice President for Mission and Advocacy for Partners Continuing Care, the non-acute care division of Partners HealthCare based in Boston, Massachusetts.  
+To change the economic landscape for people with disabilities, private sector employers need to act as Disability Employment Champions.4  Employers who have made this commitment are reaping innumerable benefits. Employees with disabilities can help businesses understand and meet the needs of an important and expanding customer base of people with disabilities and their families. What's more, research shows that consumers both with and without disabilities favor businesses that employ people with disabilities, and that people with disabilities can provide businesses with the flexible, innovative thinking required for a competitive edge in the 21st century. 
+ 
+"Today, more than three years after opening the doors to the FlexiCenter, 40% of the FlexiCenter employees are individuals with disabilities, working alongside workers who have not disclosed any disability, performing the same jobs with the same expectations and same pay. Some of the benefits of the FlexiCenter include: increased productivity, zero safety incidents, zero quality incidents, 90% reduction in turnover, a significant improvement in morale, reduced hiring costs, reduced training costs, and increased 
+'goodwill' in Maine." 
+David Bartage, Plant Finance Manager for the Procter & Gamble, Auburn, ME facility  
+ 
+"From the very early days we understood the value of hiring technologists with disabilities. Uniquely qualified to identify and develop working solutions to digital accessibility challenges, these creative, knowledgeable, and dynamic professionals have brought an unrivaled level of insight, passion, and dedication to our company. Today, nearly half of our team of accessibility analysts, developers, and consultants are individuals with disabilities. At SSB, we see this as a compelling competitive advantage. 
+It allows us to offer solutions to our customers that address their core concerns." 
+Tim Springer, Founder and CEO of SSB BART Group 
+ 
+The goal of the Curb Cuts to the Middle Class Initiative - a federal cross agency initiative - is to coordinate and leverage existing resources to increase employment opportunities for people with disabilities. This resource guide is an example of federal agencies working together to ensure employers have the tools and resources they need to recruit, hire, retain, and promote people with disabilities. 
+USING THIS RESOURCE GUIDE 
+This resource guide identifies relevant federal and federally funded resources for employers looking to recruit, hire, retain, and promote people with disabilities. It is designed to answer common questions raised by employers and to identify relevant resources for employers who want additional information on specific topics.  The goal of this guide is to help employers implement commonsense solutions to ensure that people with disabilities, like all Americans, have the opportunity to obtain and succeed in good jobs and careers. 
+The guide uses a question and answer format to help employers navigate core issues related to the employment of people with disabilities.  It is by no means comprehensive, but it is meant to provide answers to key questions in an easy-to-use format, with links to federal and federally funded resources that can provide further information.  The guide is broken into four sections: 
+1. Best Practices for Recruiting Candidates with Disabilities: Section One provides resources on how to conduct targeted outreach, ensure that the hiring process is accessible, and ask effective questions during an interview. 
+2. Best Practices for Respecting, Retaining and Promoting Employees with 
+Disabilities: Section Two provides suggestions for developing successful orientation and on-boarding, career development, and mentoring programs.  It also provides information on employee resource groups, disability awareness training, and disability etiquette training. 
+3. Best Practices for Providing Reasonable Accommodations: Section Three provides resources on common reasonable accommodation requests as well as suggestions for developing reasonable accommodation procedures. 
+4. The Legal Framework: The Americans with Disabilities Act of 1990 and Section 503 of the Rehabilitation Act of 1973: Section Four provides an overview of the two key civil rights laws on private sector employment of people with disabilities.  
+ 
+SECTION ONE BEST PRACTICES FOR RECRUITING CANDIDATES WITH 
+DISABILITIES 
+People with disabilities are a growing and highly qualified candidate pool. They work in all levels of employment in public sector agencies, private companies, small businesses, and nonprofit organizations, and across all industries. For examples of successful employees with disabilities, view the U.S. Department of Labor's Office of Disability Employment Policy's Policies in Practice webpage and the Campaign for Disability Employment website. 
+What steps can businesses take to ensure people with disabilities are included in a company's overall recruitment efforts?  
+In Business Strategies that Work: A Framework for Disability Inclusion, the U.S. Department of Labor's Office of Disability Employment Policy outlines practical strategies to ensure that a company's recruitment efforts are successful. Strategies for success include:   
+* Establishing internal policies that prioritize hiring people with disabilities;  
+* Ensuring that the hiring of people with disabilities is part of a company's overall hiring plan; 
+* Conducting targeted outreach to attract qualified candidates with disabilities; 
+* Developing community linkages;  
+* Retaining and reviewing applications from applicants with disabilities when future openings occur; and 
+* Ensuring fully accessible online job applications and electronic and social media recruitment materials. 
+Below are specific steps employers may wish to implement: 
+1. Conduct Targeted Outreach: Successful recruitment efforts can be built through collaboration with community-based partners that have connections to qualified candidates. These partners include nonprofit organizations, national and local disability organizations, and federally funded state and local employment programs for people with disabilities such as: 
+> Vocational Rehabilitation: Vocational rehabilitation state agencies facilitate a wide range of services for youth and adults with disabilities that help prepare them with skills to meet the workplace needs of business. The Council of State Administrators of Vocational Rehabilitation has created a National Employment Team (The NET) that offers businesses a single point of contact to connect with qualified applicants, resources, and support services in their local area.    
+> Employment Networks: Employment Networks are public or private organizations that are authorized by the Social Security Administration's Ticket to Work Program 
+to provide free employment support services to Social Security disability beneficiaries ages 18 to 64.  
+> Vocational Rehabilitation and Employment (VR&E): The Vocational Rehabilitation and Employment program, administered by the Department of Veterans Affairs, assists Veterans with service-connected disabilities and an employment handicap and service members who are in the process of transitioning from the military to civilian employment in preparing for, finding, and retaining suitable employment. 
+> American Job Centers: The American Job Centers, funded by the Department of Labor's Employment and Training Administration, provide free employment assistance services to job seekers. Local American Job Centers can help businesses with drafting job postings, recruiting candidates, and developing retention and training programs.  
+> Centers for Independent Living (CILs): The Centers for Independent Living are federally funded consumer-controlled nonprofit, nonresidential organizations. The CILs' mission is to empower people with disabilities by providing information and referral services, independent living skills training, peer counseling, and transition services, and by developing additional services based on community needs. A growing number of CILs are Employment Networks and offer additional services such as job interview practice and other pre-employment services to people with disabilities. 
+In addition, the Disability and Veterans Community Resources Directory, created by the Department of Labor's Office of Federal Contract Compliance Programs, provides a searchable, non-exhaustive list of organizations that deliver employment services for people with disabilities and Veterans. 
+2. Form Community Linkages or Partnerships: Community linkages are on-going relationships that facilitate an employer's ability to diversify its workforce.  
+> View this webinar for information regarding how community linkages can benefit businesses: Creating Effective Linkages for Effective Recruitment of Candidates with Disabilities. 
+3. Post Job Announcements in Targeted Spaces: Posting vacancies on job boards designed for people with disabilities, in disability-related publications, and with disability organizations will increase the diversity of the applicant pool. Examples of national job boards for people with disabilities include: 
+> Workforce Recruitment Program 
+> The Talent Acquisition Portal 
+4. Start an Internship Program. Internship programs specifically for people with disabilities are an effective and cost efficient recruitment strategy. According to a Research Brief on Disability Recruitment and Hiring, businesses that have internship programs for people with disabilities were 4.5 times more likely to hire a person with a disability than businesses without such a program.  
+More information about strategies for hiring people with disabilities is located at Recruiting Tips, from the Employer Assistance and Resource Network. 
+What are some strategies to recruit young people with disabilities? 
+Hiring young people with disabilities is no different than hiring young people without disabilities. A number of federal, state, and private initiatives focus on ensuring that young people with disabilities can enter and succeed in the workforce. 
+To build a talent pipeline of young people with disabilities, businesses should consider:  
+1. Starting an internship program that targets youth with disabilities.  
+> The Workforce Recruitment Program, a recruitment and referral program, cosponsored by the U. S. Department of Labor's Office of Disability Employment Policy, and the U. S. Department of Defense, connects federal sector, private, and nonprofit employers nationwide with highly motivated, qualified, and pre-screened postsecondary students and recent graduates with disabilities who are ready to prove their abilities in summer or permanent jobs. 
+> View the following videos to see how the Pentagon, the Federal Deposit Insurance Corporation and SSB BART Group (a federal contractor) have benefited from the Workforce Recruitment Program.  
+2. Developing registered apprenticeship programs for young people that target youth with disabilities.  
+3. Conducting outreach to high school transition initiatives, college and university disability student services offices, and community colleges that have programs designed for students with disabilities. 
+What are some strategies to recruit Veterans with disabilities? 
+A number of public and private sector initiatives are designed to help employers recruit and hire Veterans with disabilities. The Veterans Hiring Guide is a comprehensive toolkit designed to help employers start a recruitment program for Veterans.  
+> The Veterans Employment Center (VEC): The VEC connects transitioning service members, Veterans, and their families to meaningful career opportunities. The VEC provides employers with access to a database of verified career profiles that can be searched by keyword and/or geographic location as well as by special criteria, including disability.  
+> The U.S. Department of Labor's Veterans' Employment and Training Service (VETS) program provides a number of services for employers looking to hire Veterans. 
+What are some best practices employers can implement to provide equal access to employment opportunities for applicants with disabilities? 
+To ensure a level playing field for applicants with disabilities, employers should:  
+1. Ensure that job announcements posted on job boards and social/professional networking sites are in formats that are accessible to jobseekers with disabilities. 
+2. Indicate on job announcements that qualified individuals with disabilities are encouraged to apply and that reasonable accommodations will be provided. 
+3. Ensure online application systems, including online pre-employment tests, are accessible to candidates with disabilities.  
+> Visit the Partnership on Employment and Accessible Technology interactive web portal for employer tips on ensuring accessible online job application systems. 
+> For general information on web content accessibility, review the Web Content Accessibility Guidelines 2.0.   
+> Visit Section508.gov for accessibility guidelines under Section 508 of the 
+Rehabilitation Act. Even though Section 508 applies only to the federal government, it contains helpful strategies for employers to improve the accessibility of online content.  
+> Federal contractors should read the U.S. Department of Labor's Office of Federal Contract Compliance Programs Section 503 FAQs for up to date information on disability issues related to online applications. 
+4. Confirm that interview locations are physically accessible.  
+> Visit ADA.gov for information on building accessibility.  
+5. Inform all applicants ahead of time what the interview process may include and provide them with the opportunity to request a reasonable accommodation, if needed. 
+6. Be prepared to provide reasonable accommodations for applications, interviews, preemployment tests, and other aspects of the hiring process when needed, including assigning staff to arrange and approve requested accommodations in a timely fashion. 
+What are some best practices for interviewing applicants with disabilities? 
+The resources below identify best practices for interviewing and hiring candidates with disabilities: 
+> U.S. Department of Labor's Office of Disability Employment Policy's Focus on Ability: Interviewing Applicants with Disabilities 
+> Employer Assistance Resource Network's webpage on Interviewing Candidates with Disabilities 
+What can an interviewer ask about a person's disability during the hiring process? What questions may not be asked? 
+In general, the ADA does not allow an employer to ask any questions about disability or to conduct any medical examinations until after the employer makes a conditional job offer to the applicant. Although employers may not ask disability-related questions or require medical examinations at the pre-offer stage, they may do a wide variety of things to evaluate whether an applicant is qualified for the job, including the following:    
+> Employers may ask about an applicant's ability to perform specific job functions or tasks. 
+> Employers may request that an applicant describe or demonstrate how they would perform job tasks or achieve job outcomes.  
+> Employers may ask about an applicant's qualifications and skills, such as the applicant's education, work history, and required certifications and licenses. 
+More information is available on the Job Accommodation Network's factsheet on Pre-Offer Disability-Related Questions:  Dos and Don'ts.  
+The ADA does, however, provide an exception to the general rule prohibiting disability-related questions in the interview process.  Under the ADA, an employer may invite applicants to voluntarily self-identify as individuals with disabilities for affirmative action purposes.  
+If a business is a federal contractor subject to the written affirmative action program (AAP) requirements of Section 503 (described more fully in Section Four), it has an obligation to invite applicants to voluntarily self-identify as an individual with a disability, using a specific 
+Government form designed for this purpose.  Applicant responses to the form should be provided only to Human Resources offices, and not shared with interviewing, testing, or hiring officials.  For more information about this Section 503 requirement, visit OFCCP's FAQ's on self-identification.  
+SECTION TWO BEST PRACTICES ON RESPECTING, RETAINING & PROMOTING 
+EMPLOYEES WITH DISABILITIES 
+ 
+Most businesses are well aware that high employee turnover rates have a detrimental impact on a business's bottom line. On the other hand, a workplace culture that embraces diversity and fosters inclusion boosts employee productivity and generates revenue.  Thus, it is smart for businesses to develop and implement retention strategies as part of their overall disability employment initiative. 
+For more information on the benefits of an inclusive workplace culture and strategies for best practices, view these resources: 
+> Creating an Inclusive Environment 
+> Recommended Disability-Friendly Strategies for the Workplace  
+The following resources are designed to help businesses assess workplace disability inclusion policies and practices: 
+> The U.S. Department of Education's Office of Special Education and Rehabilitative 
+Services' Disability Friendly Business Checklist   
+> The Northeast ADA Center's Making Work Happen Online Employment Toolkit 
+What can employers do to develop retention programs for employees with disabilities? 
+It is not difficult to implement retention programs for employees with disabilities. In fact, many existing employee programs can be tweaked to focus on the needs of employees with disabilities. Examples of employment practices that can be modified or implemented to increase retention rates of employees with disabilities include: 
+> Orientation and On-boarding Programs 
+> Career Development Programs (including on the job training) 
+> Mentoring Programs 
+> Employee Resource Groups 
+For examples of successful retention programs, read the following employer case studies on: 
+Retaining a High Performing Employee and A Small Investment Yields Big Gains. 
+What are tailored on-boarding programs?  
+Employee on-boarding programs are designed to ensure that new employees have the tools and resources necessary to succeed in their new workplace. Typical on-boarding programs acclimate new employees to the workplace culture and educate them on relevant policies and procedures.  The objective of on-boarding that is tailored to new employees with disabilities is the same, but includes disability specific information such as reasonable accommodation procedures and orientation materials that are in accessible formats. 
+According to a study by the Society for Human Resource Management, the long term benefits of effective employee on-boarding programs include improved employee retention rates and increased productivity. In addition, structured on-boarding programs have been shown to ease the transition of Veterans with disabilities into the civilian workforce. 
+How can employers provide employees with disabilities equal access to career development programs? 
+Career development programs - such as conferences, trainings, tuition assistance, and rotational assignments - are proven employee retention strategies. Below are some best practices to ensure employees with disabilities have equal access to such programs:  
+> Hold supervisors accountable for implementing management practices that support diversity; 
+> Ensure all online professional development classes and materials are fully accessible; 
+> Reserve a portion of employee training funds to provide disability related accommodations for training opportunities; 
+> Offer specialized leadership programs for employees with disabilities similar to existing leadership programs for other traditionally underrepresented groups;  
+> Ensure workplace events are accessible to employees with disabilities. 
+How can disability awareness and etiquette training help employee retention? 
+Disability awareness training is a cost effective way to address unconscious bias, increase workplace inclusivity, and attract prospective candidates who are people with disabilities.  
+> Disability & HR is an online disability awareness training program for Human Resource professionals funded by the National Institute on Disability and Rehabilitation Research.  
+> Making Work Happen is an online toolkit to help employers integrate disability into existing diversity programs. Making Work Happen also has a separate Toolkit on Veterans Employment. 
+Educating all staff on disability etiquette builds a corporate culture that embraces diversity. Below are some resources on disability etiquette: 
+> U.S. Department of Labor's Office of Disability Employment Policy's Effective Interaction: Communicating With and About People with Disabilities in the Workplace. 
+> The Association of University Centers on Disabilities' Portrayal of People with Disabilities Communication Table. 
+How can workplace mentoring programs and employee resource groups improve employment outcomes? 
+Workplace mentoring programs and employee resource groups are tools businesses can use to address the needs of their increasingly diverse workforce.  Both tools help increase recruitment and retention, improve organizational culture, and provide guidance to employees and managers about disability issues.  
+> For resources on workplace mentoring programs, view the Employer Assistance and Resource Network's Workplace Mentoring Primer. 
+For information on starting or expanding a Disability Employee Resource Group, view: 
+> Toolkit for Establishing and Maintaining Successful Employee Resource Groups  
+> Employer Assistance and Resource Network's Disability Focused Employee Resource Groups webinar 
+How can return to work programs be more inclusive of employees with disabilities? 
+Return to Work (RTW) programs are designed to return an injured, disabled, or temporarily impaired worker to the workplace as soon as medically feasible.  Such programs can help businesses boost employee morale, save organizational resources, reduce workers compensation costs and retain top talent.  
+The anticipated result of an RTW program is the progressive return of the injured or recuperating employee to full duty. RTW programs are historically associated with returning employees from occupational injuries, but many companies are now integrating RTW programs for nonoccupational injuries and health issues into their overall disability management strategy.  
+Many individuals with disabilities who wish to return to work after a period of leave may need reasonable accommodations in order to do their jobs. As a result, an RTW program will generally include temporary or permanent accommodations such as modified schedules, modified job duties, modified methods for completing job duties, or reassignment to an alternate position.  
+The resources below provide additional information on RTW programs and accommodations: 
+> The Job Accommodation Network's Accommodation and Compliance Series: Return-toWork Programs  
+> The Department of Labor's Office of Disability Employment Policy's Return-to-Work Toolkit for Employees and Employers 
+> The Equal Employment Opportunity Commission's discussion of return to work issues in its guidance on Workers Compensation and the ADA 
+How can workplace flexibility programs help employers retain employees with disabilities? 
+Increasingly, businesses are implementing workplace flexibility programs in an effort to remain competitive. Flexible work arrangements include a wide variety of solutions including flexible start and end times, compressed work weeks, shift swaps, and telework programs. 
+> The U.S. Department of Labor's Office of Disability Employment Policy's Workplace Flexibility Toolkit is a comprehensive collection of resources designed, in part, to help employers understand and implement workplace flexibility programs.  
+
+SECTION THREE BEST PRACTICES FOR PROVIDING REASONABLE 
+ACCOMMODATIONS 
+What is a reasonable accommodation? 
+A reasonable accommodation is any change in the work environment or in the way things are usually done that enables an individual with a disability to enjoy equal employment opportunities.  Reasonable accommodations include: 
+1. Changes to the job application process; 
+2. Changes to the work environment or the way the job is done; and  
+3. Changes to enable the employee to enjoy equal access to the benefits and privileges of the job. 
+For information on reasonable accommodations, read:  
+> U.S. Equal Employment Opportunity Commission's Reasonable Accommodation Enforcement Guidance. 
+> U.S. Department of Labor's Office of Disability Employment Policy's Investing in People: Job Accommodation Situations and Solutions. 
+> The Job Accommodation Network's Practical Guide to Reasonable Accommodations under the ADA.  
+> The Employer Assistance and Resource Network's webpages for employers on Understanding Accommodations and Making Accommodations.  
+For a multimedia web based training on reasonable accommodations, visit the Job Accommodation Network's multimedia training microsite. 
+Where can employers find resources on appropriate accommodations for specific disabilities or work settings?   
+Employers should begin by asking the employee or applicant with a disability about the type(s) of accommodations he or she needs.  The accommodation may be a change or modification that can easily be provided.  
+For more information on appropriate accommodations for specific disabilities or work settings, visit: 
+> Job Accommodation Network's Searchable Online Accommodation Resource to explore accommodation options by employment setting.  
+> Job Accommodation Network's Accommodation Information by Disability webpage to explore accommodation ideas by disability. 
+
+TechCheck to obtain tools to assess and improve the accessibility of information and communications technology.  
+On average, how much will it cost to provide a reasonable accommodation? 
+Generally, employers have found that it may cost little to nothing to accommodate most employees with a disability. Studies by the Job Accommodation Network have found: 
+> Approximately 56% of accommodations have no associated costs; 
+> Approximately 37% of accommodations have a onetime cost of $500 or less; 
+> Approximately 4% of accommodations result in ongoing expenses on an annual basis. 
+There are also a number of tax benefits available to help employers offset the costs related to accommodations. Employers who hire Veterans with disabilities might be entitled to additional tax credits, salary subsidies, and salary reimbursement. 
+What are some best practices on developing accommodations processes and procedures? 
+Appendix B to the regulations issued to implement Section 503 of the Rehabilitation Act provides guidance to federal contractors on developing procedures for handling reasonable accommodation requests. The recommendations are useful for all employers.  The U.S. Equal Employment Opportunity Commission's guidance on Reasonable 
+Accommodation Procedures developed for use by federal agencies is another comprehensive resource.  Many of the recommendations in this document are also useful for the private sector. 
+What are some common reasonable accommodation requests? 
+Some common accommodation requests include requests for:  
+> Adjusting or modifying tests and training materials - such as providing materials in alternate formats (e.g., Braille or large print or reading instructions out loud to a person with a vision or cognitive impairment). 
+> Allowing the use of a job coach - permitting a job coach paid by a public or private social service agency to accompany an employee at a job site in order to assist the employee in learning and accurately carrying out job duties.   
+> Modifying or acquiring equipment or devices - such as raising the height of a desk to accommodate an employee who uses a wheelchair, purchasing amplified stethoscopes for use by nurses and physicians with hearing impairments, or providing assistive technology, such as computer screen readers, for employees with vision impairments. 
+> Modifying policies or workplace rules - such as allowing an employee with diabetes to eat at her desk or allowing a retail store cashier with a back impairment to use a stool. 
+Modifying work schedules - such as adjusting arrival or departure times, providing periodic breaks, or altering the times when certain job tasks are performed.  
+> Providing qualified readers or interpreters - such as a reader to read written materials to an employee with a vision impairment or a sign language interpreter for a person who is deaf. 
+> Job restructuring - making changes to when and/or how a task is performed, or shifting responsibility to other employees for minor tasks that an employee is unable to perform because of a disability. 
+> Leave - allowing an employee to use accrued paid leave, and providing additional unpaid leave once an employee has exhausted all available leave, for disability related reasons such as receiving or recovering from treatment or when a condition "flares up." 
+> Reassignment to a vacant position - moving a current employee to an existing vacant position for which he or she is qualified when the employee can no longer perform his or her current job because of a disability. 
+> Telework - allowing an employee to work from home or a remote location. 
+Below are resources on specific reasonable accommodations:  
+Resources on Modifying Work Schedules and Telework 
+> The Equal Employment Opportunity Commission's Work At Home/Telework as a Reasonable Accommodation fact sheet explains how telework programs can be used as a reasonable accommodation. 
+> The Office of Disability Employment Policy's Workplace Flexibility Toolkit includes a number of resources on flexible work arrangements, including modified work schedules and telework. 
+Resources on Acquiring or Modifying Equipment or Devices 
+> Assistive Technology Resources, which operates under a grant from the U.S Department of Education's Rehabilitation Services Administration, provides resources for statewide assistive technology programs.  
+> The Job Accommodation Network's fact sheet on Alternate Input Devices provides an overview of various tools designed to improve computer accessibility for individuals with a variety of impairments. 
+Resources on Modifying Tests and Training Materials 
+> The Job Accommodation Network's Testing Accommodations publication provides background information on testing accommodation requests. 
+Resources on Leave 
+> The Employer Assistance Resource Network's document on Managing Employee Leave provides an overview of some of the issues that may need to be addressed when an employee is on leave. 
+ 
+Testimony from the EEOC's Office of Legal Counsel addresses some additional leaverelated issues. 
+Resources on Job Coaches 
+> Working with Job Coaches and Employment Support Specialists discusses the employer benefits of allowing use of a job coach as a reasonable accommodation.  
+> The Job Accommodation Network's fact sheet Job Coaching in the Workplace provides examples of how job coaches improve employment outcomes for workers with disabilities.  
+Below are additional resources on emerging accommodation topics:  
+Travel 
+> Job Related Travel  
+> Commuting To and From Work   
+> Epilepsy, Driving and Employment  
+Mental Health Conditions and Other Hidden Disabilities 
+> Accommodating Service Members with PTSD   
+> Job Accommodations for Employees with Mental Health Conditions  
+Emergency Planning 
+> Employers' Guide to Including Employees with Disabilities in Emergency Evacuation Plans  
+> Pandemic Preparedness in the Workplace and the ADA 
+Service Animals 
+> Service Animals in the Workplace  
+> Service Animals and Emotional Support Animals -- Where are they allowed and under what conditions? 
+ 
+
+SECTION FOUR THE LEGAL FRAMEWORK: THE AMERICANS WITH DISABILITIES ACT OF 1990 AND SECTION 503 OF THE REHABILITATION ACT OF 1973 
+The preceding sections describe best practices for employers who wish to increase the number of employees with disabilities in their workforce.  As employers progress toward this goal, they must remain cognizant of the requirements under Title I of the Americans with Disabilities Act.  Federal contractors must also be cognizant of additional requirements under Section 503 of the Rehabilitation Act of 1973. 
+What is Title I of the Americans with Disabilities Act?   
+Title I of the Americans with Disabilities Act (ADA) prohibits discrimination against qualified persons with disabilities by private employers, state and local governments, employment agencies, and labor unions. The ADA also requires that employers provide reasonable accommodations to employees and applicants with disabilities. Title I of the ADA is enforced by the U.S. Equal Employment Opportunity Commission (EEOC).   
+For more information about the ADA, view:  
+> The regulations implementing Title I of the ADA. 
+> The U.S. Equal Employment Opportunity Commission's disability webpage, which includes: The ADA: Your Responsibilities as an Employer and the ADA Primer for Small Business.   
+> The U.S. Department of Justice's Disability Rights Section's information and technical assistance website: www.ada.gov. 
+> The ADA National Network, a comprehensive resource for information and training on the ADA.   
+> The Job Accommodation Network's easy to understand ADA glossary of commonly used ADA terminology.  
+What is Section 503 of the Rehabilitation Act? 
+Section 503 of the Rehabilitation Act of 1973 (Section 503) prohibits employment discrimination by covered federal contractors and subcontractors against qualified individuals with disabilities. It also imposes an affirmative requirement upon covered federal contractors and subcontractors to take steps to recruit, employ, accommodate, train, and promote qualified individuals with disabilities. Section 503 is enforced by the Office of Federal Contract Compliance Programs (OFCCP) within the U.S. Department of Labor. For nondiscrimination purposes, the rules of Section 503 are the same as Title I of the ADA. 
+ 
+For more information about Section 503, view: 
+> The regulations implementing Section 503 of the Rehabilitation Act of 1973. 
+> OFCCP's Section 503 resource webpage for federal contractors. 
+> The Employer Assistance and Resource Network's Federal Contractor webpage for additional tips on complying with the new regulations.  
+How is employment discrimination defined under the ADA and Section 503? 
+Disability discrimination occurs when: 
+1. A covered employer treats a qualified employee or applicant with a disability less favorably because she or he has a disability;  
+2. A covered employer treats a qualified employee or applicant less favorably because she or he has a history of a disability or because she or he is believed to have a disability; 
+3. A covered employer treats a qualified employee or applicant differently because of her or his relationship to a person with a disability; 
+4. A covered employer fails to provide reasonable accommodations, absent significant difficulty or expense, for a qualified employee or applicant with a disability or a history of a disability.  
+Which employees and applicants are covered under the ADA and the nondiscrimination provisions of Section 503? 
+In order to be protected under the ADA (and therefore protected under the nondiscrimination provisions of Section 503), a person must be:  
+A. Qualified for the job, i.e., able to perform the essential functions of the job (with or without reasonable accommodation); and 
+B. Have a disability as defined by the statute. 
+Who is a person with a disability under the ADA and Section 503?  
+A person has a disability if:  
+1. He or she has a physical or mental condition or impairment that substantially limits a major life activity (such as walking, talking, seeing, hearing, learning, or major bodily functions, such as functions of the immune system, cardiovascular system, or normal cell growth); or 
+2. He or she has a history of a physical or mental condition or impairment (such as cancer that is in remission); or 
+3. He or she is believed to have a physical or mental condition or impairment that is not minor and transitory. 
+ 
+The standard for showing that an employee or applicant has a disability under the ADA and 
+Section 503 is not high. The law is meant to have a broad scope of protection.  The U.S. Equal Employment Opportunity Commission's Questions and Answers on the ADA Amendments Act provides more information about who is a person with a disability under the ADA. 
+Physical or mental conditions that are almost always covered under the ADA and Section 503 include: 
+* Autism 
+* Bi-polar Disorder 
+* Blindness 
+* Cancer 
+* Cerebral Palsy 
+* Deafness 
+* Diabetes 
+* Epilepsy  * HIV 
+* Intellectual Disability 
+* Major Depressive Disorder 
+* Mobility Impairment requiring the use of a wheelchair 
+* Multiple Sclerosis * Muscular Dystrophy 
+* Obsessive Compulsive Disorder 
+* Partially or completely missing limbs 
+* Post Traumatic Stress Disorder 
+* SchizophreniaThe following fact sheets address disability specific ADA obligations: 
+> Cancer in the Workplace 
+> Deafness & Hearing Impairments in the Workplace  
+> Blindness & Vision Impairments in the Workplace  
+> Diabetes in the Workplace  
+> Epilepsy in the Workplace  
+> People with Intellectual Disabilities in the Workplace 
+When must an employer provide a reasonable accommodation under the ADA and Section 503? 
+An employer must provide a reasonable accommodation if it will enable an applicant or employee to enjoy equal employment opportunities and it does not impose an "undue hardship" on the operation of the employer's business.  An accommodation imposes an undue hardship if it requires significant difficulty or expense when considered in light of factors such as an employer's size, financial resources (including the resources of the parent company), and the nature and structure of its operation.  An employer is not required to lower quality or production standards to make an accommodation. Employees are expected to perform the essential functions of the job, with reasonable accommodations if needed. 
+Which employers are subject to the requirements of the ADA? 
+Employers who employ 15 or more individuals, and employment agencies, labor organizations, and joint labor/management committees are subject to the requirements under Title I of the 
+ADA. The U.S. Equal Employment Opportunity Commission's webpage on Coverage Requirements for employers offers additional information. 
+ 
+Which employers are subject to the requirements of Section 503? 
+The nondiscrimination requirements of Section 503 generally apply to all companies with a federal government contract or subcontract in excess of $15,000.  In addition, covered contractors and subcontractors with 50 or more employees and a contract of $50,000 or more are required to develop and maintain a written affirmative action program.  Federally assisted construction contractors do not need to develop an affirmative action program under Section 503. 
+> For more information on determining whether an organization is a federal contractor or subcontractor, visit the U.S. Department of Labor's Federal Contractor Compliance Advisor or contact the Office of Federal Contract Compliance Program's Help Desk at 1800-397-6251 for assistance. 
+What are some of the key requirements for federal contractors under the new Section 503 regulations? 
+The U.S. Department of Labor's Office of Federal Contract Compliance Programs revised its regulations [effective in 2014] implementing Section 503 of the Rehabilitation Act.  In addition to updating the regulations' nondiscrimination provisions to conform to the ADA Amendments Act, the new regulations strengthened federal contractors' obligations to engage in affirmative action. Examples of the regulations' key requirements include: 
+> Establishment of a 7% utilization goal for individuals with disabilities; 
+> A requirement to maintain data on applicants and new hires with disabilities in order to create greater accountability in employment decisions; and 
+> A requirement that contractors invite applicants to voluntarily self-identify as an individual with a disability at the pre-offer stage of the hiring process, in addition to the existing requirement that contractors invite applicants to voluntarily self-identify after receiving a job offer.  
+For information on developing an affirmative action plan, view: 
+> The U.S Department of Labor's Office of Federal Contract Compliance Programs' Sample Affirmative Action Program.  
+> The Employer Assistance and Resource Network's webpage on Affirmative Action Plans. 
+APPENDIX AGENCY AND AGENCY-PARTNER RESOURCES FOR EMPLOYERS 
+Federal Agencies 
+Department of Education, Rehabilitation Services Administration (RSA) 
+RSA oversees grant programs that help individuals with disabilities obtain employment and live more independently.  RSA's major formula grant program provides funds to state vocational rehabilitation (VR) agencies. 
+Department of Health and Human Services, Administration for Community Living (ACL)  ACL funds and provides programmatic support for Independent Living programs, including the Centers for Independent Living. 
+Department of Justice, Civil Rights Division, Disability Rights Section (DOJ DRS)   
+DOJ DRS enforces the provisions of Title II (State and Local Governments) and Title III (Public Accommodations) of the ADA.  It provides technical assistance and guidance to the public via the web and a toll-free ADA Information Line.  
+Department of Labor, Office of Disability Employment Policy (ODEP)  
+ODEP promotes the adoption and implementation of policy strategies and effective practices that will impact the employment of people with disabilities. 
+Department of Labor, Office of Federal Contract Compliance Programs (OFCCP)  OFCCP enforces Section 503 of the Rehabilitation Act and the Vietnam Era Veterans Readjustment Assistance Act (VEVRAA). 
+Department of Labor, Veterans Employment and Training Services (VETS)  
+VETS prepares veterans and service members for meaningful careers and provides technical assistance services to employers. 
+Department of Veterans Affairs, Vocational Rehabilitation and Employment Program (VR&E) 
+The VR&E program helps Veterans with service-connected disabilities prepare for, find, and keep suitable employment opportunities. 
+Equal Employment Opportunity Commission (EEOC)  
+The EEOC enforces the employment provisions (Title I) of the Americans with Disabilities Act. 
+National Council on Disability (NCD) 
+NCD is an independent federal agency charged with advising the President, Congress, and other federal agencies regarding policies, programs, practices, and procedures that affect people with disabilities. 
+Social Security Administration (SSA)  
+SSA administers the Ticket to Work program, a free and voluntary Social Security program that helps people who receive disability benefits return to work or work for the first time. 
+Federally-Funded Agency Partners 
+ADA National Network 
+The ADA National Network provides information, guidance, and training services on the ADA through ten regional centers located across the United States.  
+Association of University Centers on Disabilities (AUCD) 
+AUCD is a membership organization that supports and promotes a national network of federally funded university-based interdisciplinary programs including the University Centers for Excellence in Developmental Disabilities Education, Research & Service. 
+Career OneStop Business Center 
+The Career OneStop Business Center provides tools, including links to the American Job Centers, to help businesses recruit, hire, train, and retain workers. 
+Centers for Independent Living 
+Centers for Independent Living are consumer-controlled, community-based, cross-disability, nonresidential private nonprofit agencies that are designed and operated within a local community by individuals with disabilities and provide an array of independent living services, including pre-employment services, to people with disabilities. 
+Employer Assistance and Research Network (EARN)  
+EARN is a resource for employers seeking to recruit, hire, retain and advance qualified employees with disabilities.  EARN supports employers through toll-free technical assistance, individualized consultation, customized trainings, webinars and events, and regular updates on disability employment news. 
+Employment Networks  
+Employment Networks are public or private organizations that provide free employment support services to Social Security disability beneficiaries ages 18 to 64.  
+Job Accommodation Network (JAN)  
+JAN provides free, expert, and confidential guidance on workplace accommodations and disability employment issues. 
+The NET, Council of State Administrators of Vocational Rehabilitation (CSAVR) The NET, the National Employment Team of CSAVR, offers businesses a designated single point of contact to connect with qualified applicants, resources, and support services in their local area through the state vocational rehabilitation agencies.   
+Workforce Recruitment Program 
+The Workforce Recruitment Program connects employers nationwide with highly motivated, qualified and pre-screened, postsecondary students and recent graduates with disabilities who are ready to prove their abilities in summer or permanent jobs. 
+ 
+ 
+1 Erickson et al, Disability Inclusive Employer Practices & Hiring of Individuals with Disabilities, Rehabilitation Research, Policy, & Education, p. 309-328, 309 v.28 (2014). 
+2 In 2013, approximately 17.6 percent of people with disabilities were employed; in comparison, the employment-population ratio for people without disabilities was approximately 64 percent. U.S. Labor Department/Bureau of Labor Statistics, Persons with a Disability: Labor Force Participation - 2013 (2014). The employment rate for college graduates with disabilities is about 
+3 % less than it is for college graduates without disabilities. R. Nicholas, Ph.D., R. Kauder, K. Krepcio and D. Baker. Ph.D., Ready and Able: Addressing Labor Market Needs and Building Productive Careers for People with Disabilities through Collaborative Approaches, pages 61-79.  
+ 
+ 
+4 The White House, Champions of Change: Disability Employment Champions of Change (October 14, 2014). 
+---------------
+
+------------------------------------------------------------
+
+---------------
+
+------------------------------------------------------------
+
+
+
+
+
+ 2 	 Recruiting, Hiring, Retaining, and Promoting People with Disabilities 
+
+
+
+
+
+
+
+> 
+
+
+> 
+
+
+ 18  Recruiting, Hiring, Retaining, and Promoting People with Disabilities 
+
+
+
+> 
+
+
+ 18  Recruiting, Hiring, Retaining, and Promoting People with Disabilities 
+
+
+
+
+
+ 18  Recruiting, Hiring, Retaining, and Promoting People with Disabilities 
+
+
+
+
+
+
+

@@ -1,0 +1,217 @@
+﻿
+
+
+
+
+Table of contents
+Executive summary.............................................................................................................................................................. 3
+Redefining productivity with Gemini......................................................................................................... 4
+How it works................................................................................................................................................................................... 5
+How Gemini can help teams and organizations....................................................................... 6
+6 ways to use Gemini to work smarter................................................................................................... 8
+Day-to-day Gemini for Google Workspace use cases................................................... 17
+How Gemini can help your company generate morerevenue and decrease costs to increase ROI....................................................................................................................... 26
+Google Workspace's approach to helping protect your data........................... 28
+Gemini unlocks a new and powerful way of working................................................... 30
+ 
+
+Executive summary
+In a nutshell, generative AI is a type of artificial intelligence that helps humans create content, such as text and images. It represents a new era of work, and the world is rapidly shifting to embrace it. As it transforms how people do things, it's boosting creativity, productivity, and collaboration like never before. Business leaders across industries and around the world recognize that they need to quickly develop plans for adopting generative AI in a safe, secure, and scalable manner. They know that organizations who adopt generative AI will leapfrog those who don't.
+Google Workspace is at the forefront of AI, having decided long ago that the most effective way to deliver AI features was not to bolt-on tools in a complementary manner, but to be an AI-first product instead. Along the way, we have used AI to block 99.9% of spam and phishing attacks on Gmail, provide summaries of long texts on Google Docs and conversations in Google Chat, and help people write over 180 billion times in the last year alone.
+Gemini for Google Workspace represents a major milestone in our AI journey - creating a powerful new way of working that uses generative AI across Workspace apps. It was built strictly following Google's AI principles to be helpful and responsible and it also adheres to our structurally safe approach to security.
+Read on to discover how we're helping teams of all sizes do their best work with Gemini for Workspace.
+
+Google's AI Principles
+1.     Be socially beneficial
+2.     Avoid creating or reinforcing unfair bias
+3.     Be built and tested  for safety
+4.     Be accountable  to people
+5.     Incorporate privacy design principles
+6.     Uphold high standards  of scientific excellence
+7.     Be made available for uses that accord with these principles
+Read more about  Google's AI Principles.
+This guide highlights existing and soon-to-be released features in Workspace to help you plan and implement your generative AI journey with Gemini today. Subscribe to stay informed on Workspace product and feature updates.
+
+Redefining productivity with Gemini
+From the beginning, Workspace was built to enable collaboration with other people, in real time. Now you can also collaborate with Gemini, which lets you use generative AI technology easily.
+
+We've tested Gemini features extensively with thousands of users, who leveraged these tools to help them get things done at work and in their personal lives - including with client outreach emails, job postings, project plans, time-saving summaries, and more.
+Gemini can:
+Help you write Foster meaningful connections
+Create original imagesOptimize project flows
+Automate insights Produce original videos
+How it works
+Currently, most generative AI models are primarily language-driven, meaning people can use simple, conversational language in their interactions with the models.
+
+Generative language models learn about patterns in language by being exposed to enormous amounts of training data - with text in many different formats being used in many different contexts. Given a text prompt, these models predict what comes next through inference, and are used to create text-to-text content to help people write, summarize, and respond in apps like Gmail and Docs.
+Generative image models produce new images using techniques like diffusion, which means the  model learns by deconstructing a large number of images into noise, and then mapping noise back  to images. Given a prompt or related imagery, they resolve noise into a correlated image, creating  text-to-image content that can help people in Google Slides and Google Meet.
+Two techniques that help people guide both of these types of models toward useful output are prompting and fine-tuning.
+How Gemini can help teams  and organizations
+Located conveniently in the side panel of your favorite apps, Gemini for Workspace can be accessed and used with a few clicks and prompts. It's designed to be simple and intuitive so you and your team don't have to learn new technical skills.
+Boosting productivity with Gemini
+Advancements in generative AI will trigger technological and cultural transformations comparable to previous phase-shift waves like personal computers, the internet, cloud computing, and mobile devices. As with  any of these major technological shifts, generative AI will both reshape industry structures and create new markets and revenue opportunities. 
+Generative AI can create value for companies in a number of ways.  Two of the most important ways are:
+•      Focus employees on high-value activities Automating business processes and assisting with  time-consuming or sometimes difficult tasks will make  teams and individuals more productive.
+•      Improving business outcomes 
+Increasing employee productivity will boost the company's performance, and can result in more revenue as more output  is available to be commercialized.
+
+1 Gartner(r), Beyond ChatGPT: The Future of Generative AI for Enterprises, Jackie Wiles, January 26, 2023. GARTNER is a registered trademark and service  mark of Gartner, Inc. and/or its affiliates in the U.S.  and internationally and is used herein with permission. All rights reserved.
+
+Gemini can immediately and positively impact how teams and individuals do day-to-day work. As an example, think of a sales team prospecting customers in a new region. With Gemini, this team can now use AI-generated transcripts from Meet video calls with potential customers to automatically create custom sales pitches for each prospect, using the transcriptions of their conversations as prompts. In that scenario, the team would save many hours they would have spent writing documents, and be able to focus on what really matters - closing the deals. 
+Another valuable use case would be a marketing team working on a content calendar for the next quarter. The team can use the Gemini side panel to automatically create a table in Google Sheets that includes project owners, dates, statuses, and even descriptions of each project, all in a couple of minutes and based on a few simple prompts. 
+These are some of the many ways Gemini for Workspace can help teams work and collaborate better, and create additional value for organizations. In the next section, we'll look more closely at six Gemini use cases to make work better.
+6 ways to use Gemini to work smarter 
+With the Gemini side panel in Docs, Sheets, Slides, Gmail, and Drive, leveraging generative AI to work smarter and faster has never been more convenient. As more people start to use Gemini, new ways to collaborate and get work done will continue to emerge. Here at Google, we've included thousands of customers and users in the development and testing of these new features, and we're excited to share some of the ways that Gemini is transforming how we work.
+Help me write 
+Say goodbye to writer's block and build sharper, more useful documents
+
+Help me organize 
+Organize and act on your data faster than ever
+Help me design 
+Convey your artistic vision from a simple prompt
+Help me create a video 
+Produce custom videos from conversational language prompts 
+Help me connect 
+Have better calls with enhanced video, audio, and custom backgrounds
+Help me chat with Gemini 
+Collaborate with Gemini Advanced, a multimodal generative AI chatbot 
+
+1 Help me write
+Help me write is ideal for creating content from scratch. This feature is perfect for when it feels daunting to stare at a blank page. You can use the Gemini side panel to provide a prompt about your topic and let Gemini create an initial draft for you. It can also help refine existing content, adjusting for length, tone, and style.
+
+Conquering the blank page 
+Gemini can generate project plans, proposals, briefs, job descriptions, and other types of documents  in seconds. It will not only help you write the content, but it can also automatically add relevant  smart chips with information such as location, status, and custom variables for you. This helps  you stay in the flow of your projects and go from concept to completion faster, without ever having  to leave your document. 
+
+Drafting and refining emails
+
+Gemini in Gmail can help you write emails faster and more easily by generating a draft from a short prompt. Just type in your email topic and Gemini will take care of the rest. Gemini can also help you refine your emails, making them more formal, more concise, or changing the tone. You can then edit and refine the draft as needed. This can be a great time-saver for frequent communications, especially for those who are on-the-go.
+2 Help me organize
+
+In Sheets you can use Gemini's side panel to create a custom template by simply describing what you're trying to accomplish and Gemini will generate a table that helps you get organized. Gemini classifies data by understanding the context of that data in a cell and labeling it. This frees you up for more critical tasks than manual data input. 
+
+Creating project trackers with a simple prompt 
+Describe the type of project you're managing and what kind of information you would like to track  as part of the project. Gemini in Sheets will instantly create a tracker and suggest timetables, descriptions, and other variables.
+
+3 Help me design
+With create an image, you can easily create original images for your presentations. Sourcing relevant images can be expensive and time-consuming, but now you can create unique and compelling visuals with simple text prompts in the Gemini side panel.
+
+Creating early concepts for campaigns or products 
+Describe the image you would like to use in your slide, providing simple details about the style of the  image (such as a photo or cartoon) and the subjects to be featured in it. Gemini will generate options  for you to choose from and refine. This makes it easier to share initial ideas for advertising campaigns  or new product designs, for example.
+4 Help me create a video
+Google Vids is an AI-powered video creation app that lets you use simple language prompts to produce high-quality video content - enabling a rich new medium for teams to tell engaging stories at work. Simply explain the kind of video you want, attach input materials, choose a style, and let Vids draft a script and create a voice over. With Vids, video content that might have previously taken weeks or months to produce is available in minutes.
+
+Onboarding and training new employees
+HR teams and managers can use Vids to create custom onboarding and training videos that improve experiences for new employees and reduce the learning curve by getting them up to speed quickly.
+Producing marketing and sales content
+Vids gives marketing and sales teams a fast and affordable way to create shareable content, like an explainer video for a brand new product. Start with an existing Slides presentation, provide basic guidance on a script, and invite stakeholders to give feedback on early versions. Then refine, publish, and socialize your new video to educate and excite potential customers.    
+5 Help me connect
+Gemini in Meet enhances the inclusiveness and interactivity of video calls. This allows distributed teams, hybrid workers, and frontline workers to stay connected, collaborative, and efficient.
+
+Creating custom backgrounds for Meet video calls
+Make a good impression on your video calls by using custom backgrounds to reflect your personality and interests. You can also use custom backgrounds to show your appreciation for your customers by reflecting their industry or market. This is a great way to build rapport and make your calls more personal. And if you're attending a meeting from a location with poor lighting or a lot of background noise, Gemini in Meet automatically enhances your video and sound quality.
+
+
+Removing obstacles to collaboration
+Organizations can use real-time caption translations via Gemini in Meet to make meetings more accessible for employees who speak different languages. Then use Gemini's automatic note taking to create a summary of the meeting for anyone who wasn't able to attend.
+6 Help me chat with Gemini
+Gemini Advanced, which can be accessed by businesses with a Gemini for Workspace subscription, is a multimodal generative AI chatbot, powered by Google's most capable AI models. Using natural language, users can easily interact with Gemini Advanced via text and images.
+
+Get high quality work done fast
+With Gemini Advanced, you can get AI-powered help with desk research, coding, learning new concepts, summarizing and organizing information, and other types of complex or custom work in a standalone chatbot interface that connects with other Workspace Apps.
+
+Day-to-day Gemini for  Google Workspace use cases
+Let's consider a few scenario-specific use cases where               Gemini for Workspace can help teams and individuals be more productive and collaborative. In these scenarios, people are responsible for strategy and project progression, but can now rely on Gemini for Workspace to produce documents, project trackers, and final outputs faster, while staying connected and up to date on communications.  We've seen through our earliest adopters that there's huge       value in using Gemini in three functions: sales, marketing, and customer service.Sales 
+Increase seller productivity
+Marketing 
+Create content efficiently
+Customer service 
+Improve customer satisfaction
+ 
+Sales
+Increase seller productivity
+Gemini can quickly generate high-quality sales materials, nurture leads with personalized content, summarize meeting notes, and create RFP responses to progress sales opportunities quickly and accelerate revenue. 
+Imagine a sales leader has learned that a potential customer is looking to change providers and has to bring the team together to get a proposal created on the same day. With Gemini, the team:
+•      Defines roles and responsibilities in a Meet call. They then receive a transcript of the meeting.
+•      Uses the Gemini side panel to organize the transcript per action item owners in Docs, create a project tracker in Sheets that references specific Drive files, build a deck in Slides, and draft the email to initiate the engagement with the customer in Gmail.
+•      Uses Vids to quickly produce a custom video that introduces the team and sets up the proposal.
+•      Moves from internal chat to compelling outreach in a few hours instead of days.
+
+Gemini helps sellers quickly generate different types of sales materials, freeing up their time  to focus on strategy and relationship building:
+•      With help me write, sellers managing multiple accounts can use Gemini in Gmail to write customized outreach, follow-up emails, and cold emails so they can focus on relationship management instead of drafting manually.
+•      With simple prompts, Gemini helps sellers create sales presentations in Slides, sales  scripts and customer pitches in Docs, explainer videos in Vids, customer trackers in Sheets, and more. This allows them to reallocate precious time to sourcing and closing deals.
+
+Sellers can also individually use Gemini as a personal assistant to help track their work better. With summaries in Meet and the side panel in Docs, Sheets, and Gmail Gemini can: 
+•      Help individual sellers organize their work by creating custom trackers in Sheets. They can ask Gemini to create tables for leads, negotiation status, pipeline, revenue, and other information relevant to their individual workstreams.
+•      Summarize hours-long sales calls on Meet. Simply take the transcript and ask Gemini to summarize it in the side panel of Docs. Sellers can then use the content of the summary to prompt Gemini to create follow-up messages in Gmail within minutes of the call ending. This helps sellers keep track of all customer conversations, removes the need for note-taking, and saves time on email writing.
+Gemini can help sales teams make every potential customer feel seen with customized RFP responses. With the side panel in Docs, Gmail, Sheets, and Slides, Gemini can generate unique RFP responses and proposals:
+•      Use Gemini in Slides to create customized imagery for slide decks to respond to customers' RFPs. Create an image can create specific visuals that are relevant to each customer's industry and needs, which can help add a special touch and build the relationship.
+•      Use Gemini in Sheets to structure and organize customers' public data, such as the latest earnings, business priorities, and competitors, making it easier to learn about the customers. Then use Gemini's help me write in Docs to write sales scripts and pitches that tie the customer's needs to available solutions.
+
+Marketing
+Create content efficiently
+Gemini can save marketers' time and money by drafting text and creating new images. For example, they can use the side panel in Docs, Sheets, and Slides to quickly generate campaign briefs, project plans, and presentations to facilitate ideation and collaboration.
+Imagine a social media team with a short window to jump on the latest social trend. With Gemini:
+•      Copywriters, designers, and channel owners can use a Google Meet call to brainstorm and make decisions. They then get a transcript of the meeting.
+•      The team can use Gemini in Docs to organize the transcript per action item owners, who can then prompt Gemini to create a project tracker in Sheets, several versions  of copy in Docs, and visual concepts in Slides for the posts.
+•      To help the team move fast, Gemini can provide summaries of email threads in Gmail, so everyone stays on top of communications and knows what to do next.
+•      With Gemini, the team can go from first chat to first post in hours instead of days.
+
+Gemini in Docs helps marketers quickly generate large amounts of marketing copy and find the winning messages faster.
+•      With the Gemini side panel in Docs, copywriters can generate large volumes of high-quality copy for digital ads, meta content for SEO, social post captions, and email campaigns.
+•      Simply tell Gemini what you're looking for and let it start writing for you. For example: write 250-character paid social copy about home insurance for millennials, or write a five-step email nurture cadence for Gen-Z free-trialers of a subscription service.
+•      Marketers can now spend more time on high-impact work, such as deploying tests and experiments, and measuring results to find the highest performing content mix faster and yield better performance across channels.
+
+With create an image in Slides, Gemini can generate visual concepts in an instant, helping creative teams move faster and at lower cost.
+•      Teams can generate visual concepts for mood boards, digital ads, print ads, out-of-home billboards, and many other formats by prompting Gemini in Slides (e.g. pickup truck driving on Highway 1), reducing creative development costs while speeding up campaign timelines.
+•      With simple prompts in the side panel of Docs, teams can use Gemini to expand keyword lists for search campaigns, create copy for infographics, and write blogs, thought leadership pieces, campaign briefs, and performance reports.
+•      After an important conference or webinar, teams can use Vids to create a recap video with key takeaways.
+•      Teams can grow output without growing costs, helping improve the budget's ROI.
+
+Use the power of integrated Workspace apps and Gemini to go from an email thread  to a large-scale customized email campaign in a few hours.
+•      Marketing teams can use Gmail to ask Sales for recommendations on who to invite for an upcoming event. Gemini can summarize the email thread with the suggested names.
+•      Then, Gemini can automatically create a list of guests in Sheets, and be used to write customized invitations in Docs for each individual invitee. This saves time and increases the likelihood of positive RSVPs.
+•      Similarly, email marketing managers can use Gemini to create 1:1 personalized nurture, upsell, or follow-up emails for hundreds or even thousands of contacts across different customer datasets in Sheets.
+Customer service
+Improve customer satisfaction
+Gemini can help reduce response times by helping customer service reps more successfully and quickly generate answers to questions. With Gemini, customer support doesn't have to wonder if responses to customers are grammatically correct, too formal, or too casual. Gemini can act as a personal copywriter and ensure the writing is always on point, and Vids expands the tools available to customer service teams when responding to customers. 
+•      Help me write in Docs lets customer support professionals specify text tonality, check grammar, and adjust outputs to meet the organization's standards for consistency and clarity.
+•      Customer service teams can use combinations of auto-respond and help me write in Gmail to align all emails to a more formal or casual tone of voice across external communications, based on the organization, so customer service representatives don't have to worry about writing style.
+
+Gemini can also help customer service representatives handle high volumes of inbound requests in less time, decrease response time, increase the number of resolved cases, and ultimately increase customer satisfaction.
+•      Customer support reps can use Gemini to organize and summarize inquiries with the side panel in Docs to get to the core of the customer's request, then generate answers that can be refined as needed. This saves time and helps cases get resolved faster. It can also help keep FAQs up to date, and teams can use Vids to answer customer questions that are better explained visually.
+•      For support provided over email, Gemini can help answer more inquiries by writing complete responses to be reviewed by the customer support representatives. That can help decrease response time and increase the average number of resolved issues per representative.
+
+Customer service teams can use Gemini's features to structure data for ease of reading and learning.
+•      With Gemini, customer service teams can use the side panel in Sheets to structure and organize customer questions and support cases by topic, then use the insights to write solutions for future similar cases via the side panel in Docs. 
+•      Customer service representatives can share the insights from the organized data with team members, as well as use the insights to update FAQs and provide feedback to product teams so they can improve the organization's products and services.
+•      Teams can even answer FAQs with explainer videos that they create with Vids.
+How Gemini can help your company generate more revenue and decrease costs to increase ROI
+With Gemini for Workspace, productivity gains in sales, marketing, and customer services can translate into positive economic impact for the organization. Not only can people allocate more time to closing deals, sourcing leads, and resolving customer inquiries, which can all drive incremental revenue, organizations can generate more output with existing resources. 
+Consider a few potential scenarios based on hypothetical data points created by our team:
+Sales scenario
+A four-person sales team with an average sales quota of $50K per seller per month generates $200K in revenue/month. If, like many sellers, they are spending half of their time on administrative tasks like sending prospecting emails, taking and cleaning up meeting notes and action items, customizing pitches, and sending follow-up messaging - and if Gemini cuts the time those tasks take in half - then Gemini can free up 25% of each seller's time. If they repurpose that work to focus on selling, that could translate into an additional $50K in revenue/month, or the equivalent of one additional full-time seller. 
+
+Marketing scenario
+A marketing team writes, localizes, and proofs all marketing copy for demand generation campaigns, but they are spending so much time working on the copy that they don't have time to tune it for different channels and drive prospects to the content via social media. If they can use Gemini to generate, proof, and translate twice as much copy via the side panel in Docs, then half of the marketing team could focus on driving that content to the right prospects, which could conservatively give them a 20% increase in the number of inquiries from prospects for the same cost. If the value of the pipeline they were generating was $600K/year (or $50K/month), this would result in an additional $120K in pipeline generated by the team. If that pipeline has a 40% close rate, that's $48K in additional revenue.
+
+Customer services scenario
+A 100-person customer service team handles 100 inquiries per person per day with a 68% resolution rate, and the opportunity cost from the 32% unresolved customer issues amounts to $1 million per year. Gemini can help write email responses faster, maintain up-to-date FAQs, and support resolving issues for international customers with real-time translated subtitles in Meet. If Gemini can make customer service representatives successfully resolve 25% more cases, then resolution rate goes up to 85%, reducing opportunity cost by $531,250 and creating a 15x return on investment.
+
+Google Workspace's approach to helping protect your data
+It is our priority to help protect the confidentiality and privacy of your data. With Workspace  you can trust that:
+    Your data is your data. The content that you put into Workspace services (emails, documents, etc.) is yours. We never sell your data, and you can delete your content or export it.
+
+    Your data stays in Workspace. We do not use your Workspace data to train or improve the underlying generative AI and large language models that power Search and other systems  outside of Workspace without permission.
+    Your privacy is protected. Interactions with intelligent Workspace features, such as accepting  or rejecting spelling suggestions, or reporting spam, are anonymized and/or aggregated and  may be used to improve or develop helpful Workspace features like spam protection, spell  check, and autocomplete. This extends to new features we are currently developing like improved prompt suggestions that help Workspace users get the best results from Gemini features.  These features are developed with strict privacy protections that keep users in control. (See below for more detail on additional privacy, security, and compliance commitments we make  for business customers).
+    Your content is not used for ads targeting. As a reminder, Google does not collect, scan,  or use your content in Workspace services for advertising purposes.
+Committed to security and  compliance for business, education,  and public-sector customers
+
+When Workspace commercial customers adopt Gemini for Google Workspace you get the  same robust data protection and security standards that come with all Workspace services,  with specific protections for business, education, and public-sector customers:
+     Your interactions with Gemini stay within your organization. Gemini stores any prompts  or generated content alongside your Workspace content and does not share them outside  your organization. 
+     Your existing Workspace protections are automatically applied. Gemini brings the  same enterprise-grade security as the rest of Workspace, automatically applying your organization's existing controls and data handling practices, such as data-regions policies  and Data Loss Prevention. 
+     Your content is not used for any other customers. None of your content is used for model training outside of your domain without permission.
+Gemini unlocks a new and powerful way of working
+Gemini for Google Workspace enables teams to connect, create,  and collaborate from anywhere, on a variety of devices, using the power  of generative AI. It helps people get more out of work by boosting productivity, enabling new skills, and freeing up time for more impactful work. All of this is done in a smooth and easy-to-use way, without the  need for code, new interfaces, or multiple buttons and steps.
+We've made Gemini available to enterprise customers are excited to see where it can take you and your team in this new era of work.
+To learn more about how Gemini for Google Workspace can benefit your team or organization, contact sales today.
+
